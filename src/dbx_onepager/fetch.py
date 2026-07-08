@@ -63,10 +63,23 @@ def fetch_url(url: str, timeout: int = 45) -> str:
 
 
 def _fetch_playwright(url: str, timeout: int) -> str:
+    import os
+
     from playwright.sync_api import sync_playwright
 
+    # Honor an outbound proxy if the environment sets one (some CI/sandbox
+    # networks route all egress through HTTPS_PROXY).
+    proxy_server = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY")
+    launch_kwargs: dict = {"headless": True}
+    if proxy_server:
+        launch_kwargs["proxy"] = {"server": proxy_server}
+    # Allow pinning the browser binary (e.g. pre-provisioned envs).
+    exe = os.environ.get("PLAYWRIGHT_CHROMIUM_EXECUTABLE")
+    if exe:
+        launch_kwargs["executable_path"] = exe
+
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(**launch_kwargs)
         try:
             page = browser.new_page(user_agent=_UA)
             page.goto(url, wait_until="domcontentloaded", timeout=timeout * 1000)
@@ -120,12 +133,40 @@ def _html_to_markdown(html: str) -> str:
 # --------------------------------------------------------------------------
 # RSS ingestion (weekly incremental)
 # --------------------------------------------------------------------------
+def _feed_candidates(src: dict) -> list[str]:
+    """Feed URLs to try, in order. Supports a single ``rss_url`` or a list of
+    ``rss_candidates`` in config."""
+    cands = list(src.get("rss_candidates") or [])
+    if src.get("rss_url"):
+        cands.insert(0, src["rss_url"])
+    return cands
+
+
 def fetch_rss(cfg: dict) -> list[ReleaseNote]:
+    """Try each feed candidate; return notes from the first that yields entries.
+
+    Returns an empty list if no candidate works — callers fall back to
+    scraping the index page (see ``fetch_new``).
+    """
     import feedparser
 
     src = cfg["source"]
-    raw = fetch_url(src["rss_url"])
-    feed = feedparser.parse(raw)
+    for url in _feed_candidates(src):
+        try:
+            raw = fetch_url(url)
+        except Exception as err:  # noqa: BLE001 - try the next candidate
+            print(f"  ! feed {url}: {err}")
+            continue
+        notes = _notes_from_feed(feedparser.parse(raw), cfg)
+        if notes:
+            print(f"  ✓ feed {url}: {len(notes)} entries")
+            return notes
+        print(f"  · feed {url}: no entries")
+    return []
+
+
+def _notes_from_feed(feed, cfg: dict) -> list[ReleaseNote]:
+    src = cfg["source"]
     notes: list[ReleaseNote] = []
     for entry in feed.entries:
         title = (entry.get("title") or "").strip()
@@ -161,17 +202,22 @@ def fetch_rss(cfg: dict) -> list[ReleaseNote]:
 # --------------------------------------------------------------------------
 # Archive ingestion (historical backfill)
 # --------------------------------------------------------------------------
-def parse_archive_html(html: str, year: int, month: int, cfg: dict) -> list[ReleaseNote]:
-    """Split a monthly archive page into individual release notes.
+def parse_notes_from_html(
+    html: str,
+    cfg: dict,
+    default_date: date,
+    page_url: str,
+    source_tag: str = "archive",
+) -> list[ReleaseNote]:
+    """Split a docs page into individual release notes.
 
     Heuristic: each release note is an ``h2``/``h3`` heading followed by prose
-    up to the next heading of the same-or-higher level. Works against the
-    generic Databricks docs article structure.
+    up to the next heading. Used for both monthly archive pages (backfill) and
+    the product index page (weekly fallback when no feed is available).
     """
     from bs4 import BeautifulSoup
 
     src = cfg["source"]
-    month_start = date(year, month, 1)
     soup = BeautifulSoup(html, "lxml")
     article = (
         soup.find("article")
@@ -181,28 +227,29 @@ def parse_archive_html(html: str, year: int, month: int, cfg: dict) -> list[Rele
         or soup
     )
     headings = article.find_all(["h2", "h3"])
+    heading_set = set(headings)
     notes: list[ReleaseNote] = []
     for h in headings:
         title = h.get_text(" ", strip=True)
         if not title or len(title) < 4:
             continue
-        # Collect sibling content until the next h2/h3.
+        # Collect following block content until the next heading, skipping
+        # nodes nested inside blocks we already captured (avoids duplication).
         frag: list[str] = []
+        captured: list = []
         for sib in h.find_all_next():
-            if sib in headings:
+            if sib in heading_set:
                 break
-            if sib.name in ("h2", "h3"):
-                break
+            if any(sib in c.descendants for c in captured):
+                continue
             if sib.name in ("p", "ul", "ol", "pre", "table", "blockquote"):
                 frag.append(str(sib))
+                captured.append(sib)
         body_html = "".join(frag)
         body = _html_to_markdown(body_html) if body_html else title
-        note_date = _extract_date(title + " " + body, month_start)
-        # Prefer an anchor link if the heading has an id.
+        note_date = _extract_date(title + " " + body, default_date)
         anchor = h.get("id")
-        url = f"{src['archive_pattern'].format(year=year, month=calendar.month_name[month].lower())}"
-        if anchor:
-            url = f"{url}#{anchor}"
+        url = f"{page_url}#{anchor}" if anchor else page_url
         notes.append(
             ReleaseNote(
                 id=ReleaseNote.make_id(note_date, title),
@@ -210,13 +257,21 @@ def parse_archive_html(html: str, year: int, month: int, cfg: dict) -> list[Rele
                 date=note_date,
                 url=url,
                 cloud=src.get("cloud", "aws"),
-                category="platform",
+                category=src.get("category", "platform"),
                 body=body,
-                source="archive",
+                source=source_tag,  # type: ignore[arg-type]
                 fetched_at=datetime.now(timezone.utc),
             )
         )
     return notes
+
+
+def parse_archive_html(html: str, year: int, month: int, cfg: dict) -> list[ReleaseNote]:
+    src = cfg["source"]
+    page_url = src["archive_pattern"].format(
+        year=year, month=calendar.month_name[month].lower()
+    )
+    return parse_notes_from_html(html, cfg, date(year, month, 1), page_url, "archive")
 
 
 def fetch_archive_month(cfg: dict, year: int, month: int) -> list[ReleaseNote]:
@@ -226,6 +281,23 @@ def fetch_archive_month(cfg: dict, year: int, month: int) -> list[ReleaseNote]:
     )
     html = fetch_url(url)
     return parse_archive_html(html, year, month, cfg)
+
+
+def fetch_index(cfg: dict) -> list[ReleaseNote]:
+    """Scrape the product index page — the weekly fallback when no RSS feed
+    resolves. Dates default to today when an entry has no explicit date."""
+    src = cfg["source"]
+    html = fetch_url(src["index_url"])
+    return parse_notes_from_html(html, cfg, date.today(), src["index_url"], "archive")
+
+
+def fetch_new(cfg: dict) -> list[ReleaseNote]:
+    """Weekly ingestion: prefer the RSS feed, fall back to index scraping."""
+    notes = fetch_rss(cfg)
+    if notes:
+        return notes
+    print("  · no feed entries; falling back to index-page scrape")
+    return fetch_index(cfg)
 
 
 def _month_iter(start: date, end: date) -> Iterable[tuple[int, int]]:

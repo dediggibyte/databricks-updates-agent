@@ -7,5 +7,5 @@
   "category": "platform",
   "body": "Databricks SQL materialized views now support incremental refresh in Public\nPreview. Instead of recomputing the entire result set on every refresh, the\nengine detects changes in base tables and updates only the affected rows,\ndramatically reducing refresh cost and latency for large aggregations.\n\nHighlights:\n\n- Incremental refresh for a broad set of SQL constructs including joins and\n  aggregations.\n- Automatic fallback to full refresh when incremental is not possible.\n- Refresh scheduling and monitoring in the SQL editor.\n\nPrerequisites:\n\n- A SQL warehouse on the current channel.\n- Base tables stored in Delta with change data feed available.\n\nLimitations:\n\n- Some non-deterministic functions force a full refresh.\n- Incremental refresh statistics are not yet exposed in system tables.\n\nRecommended for BI dashboards, pre-aggregated reporting tables, and cost-\nsensitive scheduled refreshes. To use it, create a materialized view over\nDelta base tables, enable change data feed, and schedule an incremental\nrefresh.",
   "source": "fixture",
-  "fetched_at": "2026-07-08T09:23:43.975595Z"
+  "fetched_at": "2026-07-08T10:06:22.341469Z"
 }

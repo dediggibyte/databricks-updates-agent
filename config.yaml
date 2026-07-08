@@ -9,10 +9,14 @@
 source:
   name: "Databricks platform release notes"
   cloud: "aws"                       # aws | azure | gcp
-  # RSS/Atom feed for the platform release notes page. Verified at runtime;
-  # if the feed 404s the fetcher falls back to scraping the index page.
-  rss_url: "https://docs.databricks.com/aws/en/release-notes/product/rss.xml"
-  # Human index page (used as a fallback discovery source).
+  # RSS/Atom feed candidates for the platform release notes, tried in order.
+  # The exact path is confirmed at runtime; if none resolve, the fetcher falls
+  # back to scraping the index page (see fetch.fetch_new).
+  rss_candidates:
+    - "https://docs.databricks.com/aws/en/release-notes/product/rss.xml"
+    - "https://docs.databricks.com/aws/en/release-notes/product/feed.xml"
+    - "https://docs.databricks.com/feed.xml"
+  # Human index page (fallback discovery source + weekly scrape target).
   index_url: "https://docs.databricks.com/aws/en/release-notes/product/"
   # Monthly archive URL pattern for backfill, e.g. .../product/2025/july
   archive_pattern: "https://docs.databricks.com/aws/en/release-notes/product/{year}/{month}"

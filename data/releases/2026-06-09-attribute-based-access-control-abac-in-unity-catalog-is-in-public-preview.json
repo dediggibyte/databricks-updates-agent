@@ -7,5 +7,5 @@
   "category": "platform",
   "body": "Attribute-based access control (ABAC) for Unity Catalog is now in Public\nPreview. ABAC lets you govern access to data using policies that reference\nattributes — tags on securable objects and properties of the requesting\nprincipal — instead of granting permissions object by object.\n\nWith ABAC you can:\n\n- Write policies that apply automatically to any table tagged with a\n  classification such as `pii` or `restricted`.\n- Enforce column masking and row filtering based on principal attributes.\n- Centralize governance so new tables inherit the right controls on creation.\n\nPrerequisites:\n\n- Unity Catalog enabled workspace.\n- Tag-based governance enabled for the metastore.\n\nLimitations:\n\n- Policy evaluation currently supports a subset of SQL predicate functions.\n- ABAC policies are not yet enforced for Delta Sharing recipients.\n\nUse cases: scaling data governance across thousands of tables, enforcing\nregulatory classifications, and reducing manual grant management. Enable the\npreview in account settings, tag your securables, author a policy, and test it\nagainst a sample principal.",
   "source": "fixture",
-  "fetched_at": "2026-07-08T09:23:43.975689Z"
+  "fetched_at": "2026-07-08T10:06:22.341783Z"
 }

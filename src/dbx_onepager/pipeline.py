@@ -39,10 +39,10 @@ def run_weekly(config_path: Optional[str], model: Optional[str], mock: bool) -> 
     cfg = load_config(config_path)
     paths = Paths(cfg)
     store = Store(paths)
-    print("fetch: pulling release-notes RSS feed…")
-    notes = fetch.fetch_rss(cfg)
+    print("fetch: pulling latest release notes (RSS → index fallback)…")
+    notes = fetch.fetch_new(cfg)
     new = store.add_notes(notes)
-    print(f"fetch: {len(notes)} in feed, {len(new)} new")
+    print(f"fetch: {len(notes)} found, {len(new)} new")
     _enrich_pending(store, cfg, model, mock)
     _finish(store, cfg, paths)
 
