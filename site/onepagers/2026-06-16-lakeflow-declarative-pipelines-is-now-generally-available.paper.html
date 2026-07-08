@@ -126,7 +126,7 @@
           </div>
           <div class="callout">
             <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
-            <p class="p">The generally available release adds: Serverless compute for pipeline execution with automatic scaling.</p>
+            <p class="p">Unity Catalog governance for all pipeline tables and lineage.</p>
           </div>
         </div>
         <div class="well">
@@ -153,6 +153,37 @@
       </div>
 
       <!-- ROW B: prerequisites | use cases | limitations -->
+      <div class="grid-3">
+        <div class="well">
+          <div class="label sec-label" style="margin-bottom:12px;">Prerequisites</div>
+          <div class="checklist">
+            <div class="checkrow">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ok-400)" stroke-width="2" style="flex:none;margin-top:2px;"><path d="M20 6L9 17l-5-5"/></svg>
+              <span class="tx">A workspace enabled for Unity Catalog.</span>
+            </div>
+            <div class="checkrow">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ok-400)" stroke-width="2" style="flex:none;margin-top:2px;"><path d="M20 6L9 17l-5-5"/></svg>
+              <span class="tx">A region that supports serverless compute.</span>
+            </div>
+            <div class="checkrow">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ok-400)" stroke-width="2" style="flex:none;margin-top:2px;"><path d="M20 6L9 17l-5-5"/></svg>
+              <span class="tx">Appropriate permissions to create pipelines and target schemas.</span>
+            </div>
+          </div>
+        </div>
+        <div class="well">
+          <div class="label sec-label" style="margin-bottom:12px;">Recommended use cases</div>
+          <div class="chips">
+<span class="chip">CDC ingestion</span><span class="chip">medallion architecture pipelines</span><span class="chip">streaming aggregations.</span>          </div>
+        </div>
+        <div class="callout warn">
+          <div class="label" style="color:var(--warn-400); margin-bottom:12px;">Limitations · remember</div>
+          <div class="checklist">
+            <div class="checkrow"><span class="bang">!</span><span class="tx">Continuous mode is not yet supported for all sink types.</span></div>
+            <div class="checkrow"><span class="bang">!</span><span class="tx">Pipelines authored in the legacy DLT UI must be migrated to the new editor.</span></div>
+          </div>
+        </div>
+      </div>
 
       <!-- ARCHITECTURE -->
       <div class="well mt18" style="background:var(--well);">

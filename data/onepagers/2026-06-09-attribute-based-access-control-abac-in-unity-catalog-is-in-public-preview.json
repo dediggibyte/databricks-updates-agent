@@ -7,7 +7,7 @@
   "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/#unity-catalog-abac",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/#unity-catalog-abac",
   "what_it_does": "Attribute based access control (ABAC) for Unity Catalog is now in Public Preview. ABAC lets you govern access to data using policies that reference attributes — tags on securable objects and properties of the requesting principal — instead of granting permissions object by object.",
-  "why_it_matters": "With ABAC you can: Write policies that apply automatically to any table tagged with a classification such as pii or restricted .",
+  "why_it_matters": "ABAC lets you govern access to data using policies that reference attributes — tags on securable objects and properties of the requesting principal — instead of granting permissions object by object.",
   "capabilities": [
     {
       "title": "Write policies that apply",
@@ -20,15 +20,20 @@
     {
       "title": "Centralize governance so new",
       "desc": "Centralize governance so new tables inherit the right controls on creation."
-    },
-    {
-      "title": "Unity Catalog enabled workspace.",
-      "desc": "Unity Catalog enabled workspace."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "Unity Catalog enabled workspace.",
+    "Tag-based governance enabled for the metastore."
+  ],
+  "use_cases": [
+    "enforcing regulatory classifications",
+    "reducing manual grant management."
+  ],
+  "limitations": [
+    "Policy evaluation currently supports a subset of SQL predicate functions.",
+    "ABAC policies are not yet enforced for Delta Sharing recipients."
+  ],
   "architecture": [
     "Databricks Platform",
     "Platform"

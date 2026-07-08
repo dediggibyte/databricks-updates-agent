@@ -24,13 +24,25 @@ source:
 
 # --- LLM enrichment ------------------------------------------------------
 llm:
-  # Batch model — good quality/cost for the volume of release notes.
-  model: "claude-sonnet-5"
-  # Optional higher-quality model you can opt into per-run with --model.
-  premium_model: "claude-opus-4-8"
+  # provider: how each release note is turned into a one-pager.
+  #   github-models : GitHub's FREE built-in AI, authenticated by the
+  #                   GITHUB_TOKEN that Actions provides automatically — no key
+  #                   for you to obtain or pay for. (default)
+  #   anthropic     : Claude via ANTHROPIC_API_KEY (best quality, paid).
+  #   heuristic     : no AI, no key, no network — deterministic extraction.
+  # Any provider automatically falls back to `heuristic` if it errors, so the
+  # pipeline always produces output.
+  provider: "github-models"
+
+  # GitHub Models settings (free path).
+  github_model: "openai/gpt-4o-mini"
+  github_endpoint: "https://models.github.ai/inference/chat/completions"
+
+  # Anthropic settings (only used when provider: anthropic).
+  anthropic_model: "claude-sonnet-5"
+
   max_tokens: 2000
   temperature: 0.2
-  # API key is read from the ANTHROPIC_API_KEY environment variable.
 
 # --- Rendering -----------------------------------------------------------
 render:

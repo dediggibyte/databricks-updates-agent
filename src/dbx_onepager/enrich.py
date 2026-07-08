@@ -1,12 +1,16 @@
-"""Turn a raw release note into a filled one-pager via Claude.
+"""Turn a raw release note into a filled one-pager.
 
-The model is forced to return the exact ``OnePager`` contract through a
-tool-use call whose input schema is generated from the Pydantic model — so the
-prompt, schema, and template can never drift apart.
+Three interchangeable providers (chosen in ``config.yaml`` → ``llm.provider``):
 
-If no ``ANTHROPIC_API_KEY`` is present (local dev, CI dry run) or ``--mock`` is
-requested, a deterministic heuristic builds a reasonable one-pager from the
-note text so the whole pipeline is runnable offline.
+* ``github-models`` — GitHub's free built-in models, authenticated by the
+  ``GITHUB_TOKEN`` that GitHub Actions provides automatically. No API key for
+  the user to obtain or pay for. Rate-limited but free.
+* ``anthropic``     — Claude via ``ANTHROPIC_API_KEY`` (best quality, paid).
+* ``heuristic``     — no network, no key. Deterministic extraction from the
+  note text. Always works, and is the automatic fallback if a provider fails.
+
+Whatever the provider, the output is validated against the ``OnePager``
+contract, so the template always receives well-formed data.
 """
 
 from __future__ import annotations
@@ -14,6 +18,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import urllib.request
 from typing import Optional
 
 from .fetch import detect_status
@@ -39,9 +44,7 @@ supports; leave a list empty rather than padding it.
 where this fits in the data stack (e.g. "Unity Catalog", "Serverless SQL").
 - "updated" must be a human date like "Jun 16, 2026".
 - "status"/"status_label" reflect the maturity (GA, Public Preview, Beta, \
-etc.). Use "changed"/"Update" if unclear.
-- "key_takeaway" is one punchy sentence a busy executive can skim.
-Call the emit_one_pager tool exactly once with the structured result."""
+etc.). Use "changed"/"Update" if unclear."""
 
 
 def _prompt_for(note: ReleaseNote) -> str:
@@ -54,17 +57,30 @@ def _prompt_for(note: ReleaseNote) -> str:
     )
 
 
+def _resolve_provider(cfg: dict, mock: bool) -> str:
+    if mock:
+        return "heuristic"
+    return (cfg.get("llm") or {}).get("provider", "github-models")
+
+
 def enrich_note(
     note: ReleaseNote,
     cfg: dict,
     model: Optional[str] = None,
     mock: bool = False,
 ) -> OnePager:
-    use_mock = mock or not os.environ.get("ANTHROPIC_API_KEY")
-    if use_mock:
+    provider = _resolve_provider(cfg, mock)
+    try:
+        if provider == "anthropic":
+            op = _llm_anthropic(note, cfg, model)
+        elif provider == "github-models":
+            op = _llm_github_models(note, cfg, model)
+        else:
+            op = _heuristic_onepager(note)
+    except Exception as err:  # noqa: BLE001 - degrade, never fail the run
+        if provider != "heuristic":
+            print(f"    · {provider} failed ({err}); using heuristic")
         op = _heuristic_onepager(note)
-    else:
-        op = _llm_onepager(note, cfg, model)
     # Fields the model must not set — always sourced from the record.
     op.note_id = note.id
     op.category = note.category
@@ -75,14 +91,16 @@ def enrich_note(
 
 
 # --------------------------------------------------------------------------
-# LLM path
+# Provider: Anthropic (paid, best quality)
 # --------------------------------------------------------------------------
-def _llm_onepager(note: ReleaseNote, cfg: dict, model: Optional[str]) -> OnePager:
+def _llm_anthropic(note: ReleaseNote, cfg: dict, model: Optional[str]) -> OnePager:
     import anthropic
 
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        raise RuntimeError("ANTHROPIC_API_KEY not set")
     client = anthropic.Anthropic()
     llm = cfg["llm"]
-    chosen = model or llm["model"]
+    chosen = model or llm.get("anthropic_model", "claude-sonnet-5")
     tool = {
         "name": _TOOL_NAME,
         "description": "Emit the structured one-pager for this release note.",
@@ -100,11 +118,68 @@ def _llm_onepager(note: ReleaseNote, cfg: dict, model: Optional[str]) -> OnePage
     for block in resp.content:
         if block.type == "tool_use" and block.name == _TOOL_NAME:
             return OnePager.model_validate(block.input)
-    raise RuntimeError(f"model did not return a {_TOOL_NAME} tool call for {note.id}")
+    raise RuntimeError("no tool_use block returned")
 
 
 # --------------------------------------------------------------------------
-# Offline heuristic path (no API key required)
+# Provider: GitHub Models (free, uses the built-in GITHUB_TOKEN)
+# --------------------------------------------------------------------------
+def _llm_github_models(note: ReleaseNote, cfg: dict, model: Optional[str]) -> OnePager:
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN not set")
+    llm = cfg["llm"]
+    endpoint = llm.get("github_endpoint", "https://models.github.ai/inference/chat/completions")
+    chosen = model or llm.get("github_model", "openai/gpt-4o-mini")
+    schema = json.dumps(OnePager.json_schema_for_llm())
+    system = (
+        _SYSTEM
+        + "\n\nReturn ONLY a single JSON object (no markdown, no prose) that "
+        "conforms to this JSON schema:\n" + schema
+    )
+    payload = {
+        "model": chosen,
+        "temperature": llm.get("temperature", 0.2),
+        "max_tokens": llm.get("max_tokens", 2000),
+        "response_format": {"type": "json_object"},
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": _prompt_for(note)},
+        ],
+    }
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        endpoint,
+        data=data,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=90) as resp:  # noqa: S310
+        body = json.loads(resp.read().decode("utf-8"))
+    content = body["choices"][0]["message"]["content"]
+    return OnePager.model_validate(_extract_json(content))
+
+
+def _extract_json(text: str) -> dict:
+    """Parse a JSON object out of a model response, tolerating code fences."""
+    text = text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```[a-zA-Z]*\n?|\n?```$", "", text).strip()
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        start, end = text.find("{"), text.rfind("}")
+        if start != -1 and end != -1:
+            return json.loads(text[start : end + 1])
+        raise
+
+
+# --------------------------------------------------------------------------
+# Provider: heuristic (no key, no network — always available)
 # --------------------------------------------------------------------------
 def _sentences(text: str) -> list[str]:
     clean = re.sub(r"\s+", " ", re.sub(r"[#>*`_\-]{1,}", " ", text)).strip()
@@ -112,7 +187,7 @@ def _sentences(text: str) -> list[str]:
     return [p.strip() for p in parts if len(p.strip()) > 20]
 
 
-def _bullets(text: str) -> list[str]:
+def _all_bullets(text: str) -> list[str]:
     out = []
     for line in text.splitlines():
         m = re.match(r"\s*[-*+]\s+(.*)", line)
@@ -121,26 +196,59 @@ def _bullets(text: str) -> list[str]:
     return out
 
 
-def _heuristic_onepager(note: ReleaseNote) -> OnePager:
-    """Best-effort, deterministic one-pager built without an LLM.
+def _bullets_under(text: str, *keywords: str) -> list[str]:
+    """Bullets that appear in a block introduced by any of ``keywords``."""
+    lines = text.splitlines()
+    collecting = False
+    out: list[str] = []
+    for line in lines:
+        low = line.lower()
+        is_bullet = re.match(r"\s*[-*+]\s+", line)
+        if any(k in low for k in keywords) and not is_bullet:
+            collecting = True
+            continue
+        if collecting:
+            m = re.match(r"\s*[-*+]\s+(.*)", line)
+            if m:
+                out.append(re.sub(r"[`*_]", "", m.group(1)).strip())
+            elif line.strip() == "":
+                continue
+            else:
+                collecting = False
+    return out
 
-    Not as good as the model, but structurally complete — used for offline
-    development, CI dry runs, and as a graceful fallback.
+
+def _heuristic_onepager(note: ReleaseNote) -> OnePager:
+    """Deterministic one-pager from the note text — no LLM, no key.
+
+    Databricks release notes follow a predictable shape (highlights, then
+    Prerequisites / Limitations / use-case sections), so section-aware
+    extraction gives a genuinely useful result.
     """
     status, label = detect_status(note.title + " " + note.body)
     sents = _sentences(note.body)
-    bullets = _bullets(note.body)
+    prereqs = _bullets_under(note.body, "prerequisite")
+    limits = _bullets_under(note.body, "limitation", "known issue")
+    use_cases = _bullets_under(note.body, "use case", "recommended for")
+    # Capability bullets = the first list that isn't prereq/limit/use-case.
+    excluded = set(prereqs) | set(limits) | set(use_cases)
+    highlights = [b for b in _all_bullets(note.body) if b not in excluded]
+
     tagline = sents[0] if sents else note.title
-    what = " ".join(sents[:2]) if sents else note.body[:280] or note.title
-    why = (
-        sents[2]
-        if len(sents) > 2
-        else "Reduces operational overhead and unlocks new capabilities for data teams on Databricks."
+    what = " ".join(sents[:2]) if sents else (note.body[:280] or note.title)
+    why = next(
+        (s for s in sents if re.search(r"\b(reduc|cost|faster|scale|govern|saving|productiv|latency)\w*", s, re.I)),
+        "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
     )
     caps = [
-        Capability(title=" ".join(b.split()[:4]) or "Capability", desc=b[:120])
-        for b in (bullets[:4] or [tagline])
+        Capability(title=" ".join(b.split()[:4]) or "Capability", desc=b[:130])
+        for b in (highlights[:4] or [tagline])
     ][:4]
+    # Light use-case fallback: short noun phrases from the use-case sentence.
+    if not use_cases:
+        uc_sent = next((s for s in sents if "use case" in s.lower()), "")
+        use_cases = [p.strip() for p in re.split(r",|;| and ", uc_sent.split(":")[-1]) if 3 < len(p.strip()) < 40][:4]
+
     return OnePager(
         product=note.title[:80],
         tagline=tagline[:200],
@@ -152,9 +260,9 @@ def _heuristic_onepager(note: ReleaseNote) -> OnePager:
         what_it_does=what,
         why_it_matters=why,
         capabilities=caps,
-        prerequisites=[],
-        use_cases=[],
-        limitations=[],
+        prerequisites=prereqs[:5],
+        use_cases=use_cases[:6],
+        limitations=limits[:5],
         architecture=["Databricks Platform", note.category.title()],
         steps=[Step(title="Read the docs", desc="Review the linked release note.")],
         key_takeaway=tagline[:200],

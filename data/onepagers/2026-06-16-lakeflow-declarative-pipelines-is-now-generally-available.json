@@ -7,7 +7,7 @@
   "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/#lakeflow-declarative-pipelines",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/#lakeflow-declarative-pipelines",
   "what_it_does": "Lakeflow Declarative Pipelines is now generally available on the Databricks platform. Declarative Pipelines let you define end to end data pipelines in SQL or Python by describing the transformations you want, while the runtime manages orchestration, incremental processing, checkpointing, and recovery for you.",
-  "why_it_matters": "The generally available release adds: Serverless compute for pipeline execution with automatic scaling.",
+  "why_it_matters": "Unity Catalog governance for all pipeline tables and lineage.",
   "capabilities": [
     {
       "title": "Serverless compute for pipeline",
@@ -26,9 +26,20 @@
       "desc": "Unity Catalog governance for all pipeline tables and lineage."
     }
   ],
-  "prerequisites": [],
-  "use_cases": [],
-  "limitations": [],
+  "prerequisites": [
+    "A workspace enabled for Unity Catalog.",
+    "A region that supports serverless compute.",
+    "Appropriate permissions to create pipelines and target schemas."
+  ],
+  "use_cases": [
+    "CDC ingestion",
+    "medallion architecture pipelines",
+    "streaming aggregations."
+  ],
+  "limitations": [
+    "Continuous mode is not yet supported for all sink types.",
+    "Pipelines authored in the legacy DLT UI must be migrated to the new editor."
+  ],
   "architecture": [
     "Databricks Platform",
     "Platform"

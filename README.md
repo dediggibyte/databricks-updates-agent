@@ -26,7 +26,7 @@ fetch  →  store  →  enrich (Claude)  →  render  →  gallery
 |-------|--------|--------------|
 | **fetch**  | `fetch.py`   | Pulls release notes. Weekly = the release-notes **RSS feed**; backfill = walks **monthly archive** pages. Uses headless **Chromium/Playwright** (Databricks docs block plain bots), with a urllib fallback and offline fixtures. |
 | **store**  | `store.py`   | Durable JSON per note, **deduped by id**. Keeps full history so any past note is always re-generatable. |
-| **enrich** | `enrich.py`  | Sends each note to **Claude**, which returns the structured one-pager contract via a forced tool call. Falls back to an offline heuristic when no API key is set. |
+| **enrich** | `enrich.py`  | Turns each note into the structured one-pager contract. Pluggable provider (see below); always falls back to a keyless heuristic if the provider errors. |
 | **render** | `render.py`  | Fills the Jinja2 template with the Datalab design tokens → one self-contained HTML page per note. |
 | **gallery**| `render.py`  | Builds `index.html`: a searchable, filterable card grid of every update. |
 
@@ -70,12 +70,29 @@ Global flags (usable before or after the subcommand):
 | `--model` | Override the model id for the run (e.g. `claude-opus-4-8`). |
 | `--config`| Path to an alternate `config.yaml`. |
 
+## Enrichment providers (no paid key required)
+
+Set `llm.provider` in [`config.yaml`](config.yaml):
+
+| Provider | Key needed | Cost | Notes |
+|----------|-----------|------|-------|
+| `github-models` *(default)* | **None** — uses the `GITHUB_TOKEN` Actions provides automatically | Free (rate-limited) | GitHub's built-in AI. Real technical + business write-ups with nothing for you to obtain or pay for. |
+| `heuristic` | None | Free | No AI, no network. Deterministic section extraction (prerequisites, limitations, use-cases, capabilities). |
+| `anthropic` | `ANTHROPIC_API_KEY` | Paid | Highest quality (Claude). |
+
+Any provider **automatically falls back to `heuristic`** if it errors, so the
+pipeline always produces output. Run locally with no AI at all via `--mock`.
+
+> Using `github-models` in Actions requires the workflow's `models: read`
+> permission (already set) and that GitHub Models is enabled for your org
+> (free). If it isn't, runs still succeed via the heuristic fallback.
+
 ## Configuration
 
 Everything retargetable lives in [`config.yaml`](config.yaml): the source
-(cloud, RSS/archive URLs), the LLM model, and rendering options (default
-variant, whether to emit the alternate theme, site title). No code changes
-needed to switch cloud or model.
+(cloud, RSS/archive URLs), the enrichment provider/model, and rendering
+options (default variant, whether to emit the alternate theme, site title).
+No code changes needed to switch cloud, provider, or model.
 
 ## Scheduling & publishing (GitHub Actions + Pages)
 
@@ -88,8 +105,10 @@ needed to switch cloud or model.
 * Generated `data/` and `site/` are committed back, and `site/` is deployed to
   **GitHub Pages**.
 
-**Setup:** add `ANTHROPIC_API_KEY` as a repository secret, and enable Pages
-(Settings → Pages → Source: GitHub Actions).
+**Setup:** just enable Pages (Settings → Pages → Source: GitHub Actions). No
+secret needed — the default `github-models` provider uses the built-in
+`GITHUB_TOKEN`. Only add an `ANTHROPIC_API_KEY` secret if you switch
+`llm.provider` to `anthropic`.
 
 ## Layout
 

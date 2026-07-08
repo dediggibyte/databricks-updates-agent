@@ -25,6 +25,7 @@ permissions:
   contents: write        # commit generated data/ + site/
   pages: write
   id-token: write
+  models: read           # free GitHub Models inference
 
 concurrency:
   group: onepagers
@@ -48,6 +49,10 @@ jobs:
 
       - name: Run pipeline
         env:
+          # Free GitHub Models auth — no user-provided key required.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: only set if you add an ANTHROPIC_API_KEY secret and switch
+          # llm.provider to "anthropic" in config.yaml.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           MODEL_FLAG=""

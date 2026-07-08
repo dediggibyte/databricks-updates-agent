@@ -126,7 +126,7 @@
           </div>
           <div class="callout">
             <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
-            <p class="p">With ABAC you can: Write policies that apply automatically to any table tagged with a classification such as pii or restricted .</p>
+            <p class="p">ABAC lets you govern access to data using policies that reference attributes — tags on securable objects and properties of the requesting principal — instead of granting permissions object by object.</p>
           </div>
         </div>
         <div class="well">
@@ -144,15 +144,38 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
               <div><div class="ct">Centralize governance so new</div><div class="cd">Centralize governance so new tables inherit the right controls on creation.</div></div>
             </div>
-            <div class="cap">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
-              <div><div class="ct">Unity Catalog enabled workspace.</div><div class="cd">Unity Catalog enabled workspace.</div></div>
-            </div>
           </div>
         </div>
       </div>
 
       <!-- ROW B: prerequisites | use cases | limitations -->
+      <div class="grid-3">
+        <div class="well">
+          <div class="label sec-label" style="margin-bottom:12px;">Prerequisites</div>
+          <div class="checklist">
+            <div class="checkrow">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ok-400)" stroke-width="2" style="flex:none;margin-top:2px;"><path d="M20 6L9 17l-5-5"/></svg>
+              <span class="tx">Unity Catalog enabled workspace.</span>
+            </div>
+            <div class="checkrow">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ok-400)" stroke-width="2" style="flex:none;margin-top:2px;"><path d="M20 6L9 17l-5-5"/></svg>
+              <span class="tx">Tag-based governance enabled for the metastore.</span>
+            </div>
+          </div>
+        </div>
+        <div class="well">
+          <div class="label sec-label" style="margin-bottom:12px;">Recommended use cases</div>
+          <div class="chips">
+<span class="chip">enforcing regulatory classifications</span><span class="chip">reducing manual grant management.</span>          </div>
+        </div>
+        <div class="callout warn">
+          <div class="label" style="color:var(--warn-400); margin-bottom:12px;">Limitations · remember</div>
+          <div class="checklist">
+            <div class="checkrow"><span class="bang">!</span><span class="tx">Policy evaluation currently supports a subset of SQL predicate functions.</span></div>
+            <div class="checkrow"><span class="bang">!</span><span class="tx">ABAC policies are not yet enforced for Delta Sharing recipients.</span></div>
+          </div>
+        </div>
+      </div>
 
       <!-- ARCHITECTURE -->
       <div class="well mt18" style="background:var(--well);">
