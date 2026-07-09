@@ -1,13 +1,13 @@
 {
-  "product": "Genie Spaces is now Genie Agents ​",
+  "product": "Genie Spaces is now Genie Agents",
   "tagline": "Genie Spaces are now called Genie Agents.",
   "updated": "Jul 8, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/genie/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-spaces-is-now-genie-agents",
-  "what_it_does": "Genie Spaces are now called Genie Agents. The name changed across the documentation, but the product's capabilities are unchanged. On this page Last updated on Jul 8, 2026 A Genie Agent is a domain specific natural language chat interface in Databricks where users ask questions of their data and get back SQL queries, results tables, and visualizations.",
-  "why_it_matters": "For agent authors​ + Tune Genie Agent quality + Add metrics, business rules, and verified answers to improve response quality.",
+  "what_it_does": "Genie Spaces are now called Genie Agents. The name changed across the documentation, but the product's capabilities are unchanged. A Genie Agent is a domain specific natural language chat interface in Databricks where users ask questions of their data and get back SQL queries, results tables, and visualizations.",
+  "why_it_matters": "For agent authors + Tune Genie Agent quality + Add metrics, business rules, and verified answers to improve response quality.",
   "capabilities": [
     {
       "title": "Genie Agents concepts",

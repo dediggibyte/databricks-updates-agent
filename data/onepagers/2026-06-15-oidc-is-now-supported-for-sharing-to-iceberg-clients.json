@@ -1,17 +1,17 @@
 {
-  "product": "OIDC is now supported for sharing to Iceberg clients ​",
+  "product": "OIDC is now supported for sharing to Iceberg clients",
   "tagline": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation.",
   "updated": "Jun 15, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-oidc-fed#share-to-iceberg",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients",
-  "what_it_does": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see Read data shared using Open ID Connect (OIDC) federation from an Iceberg client and Share with Iceberg recipient. On this page Last updated on Jun 23, 2026 This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.",
-  "why_it_matters": "On this page Last updated on Jun 23, 2026 This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.",
+  "what_it_does": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see Read data shared using Open ID Connect (OIDC) federation from an Iceberg client and Share with Iceberg recipient. This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.",
+  "why_it_matters": "This page explains how data providers in Databricks can federate authentication to an identity provider (IdP) to govern access to OpenSharing shares created in Databricks.",
   "capabilities": [
     {
       "title": "This is useful for sharing",
-      "desc": "This is useful for sharing data within large organizations where different departments do not have direct Databricks access but sh"
+      "desc": "This is useful for sharing data within large organizations where different departments do not have direct Databricks access but…"
     },
     {
       "title": "This approach allows the provider",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Security policies, such as MFA",
-      "desc": "Security policies, such as MFA and role-based access control, are enforced by the provider's IdP. External Identity Provider (Reci"
+      "desc": "Security policies, such as MFA and role-based access control, are enforced by the provider's IdP. External Identity Provider…"
     },
     {
       "title": "The provider sets up the",

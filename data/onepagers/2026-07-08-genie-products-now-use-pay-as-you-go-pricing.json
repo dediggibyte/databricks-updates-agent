@@ -1,6 +1,6 @@
 {
-  "product": "Genie products now use pay-as-you-go pricing ​",
-  "tagline": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large language ",
+  "product": "Genie products now use pay-as-you-go pricing",
+  "tagline": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large…",
   "updated": "Jul 8, 2026",
   "status_label": "Update",
   "status": "changed",
@@ -22,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large language ",
+  "key_takeaway": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay as you go pricing model that includes 150 DBUs of free large…",
   "note_id": "2026-07-08-genie-products-now-use-pay-as-you-go-pricing",
   "category": "platform"
 }

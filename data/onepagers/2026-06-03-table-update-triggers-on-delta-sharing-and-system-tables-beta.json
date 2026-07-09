@@ -1,5 +1,5 @@
 {
-  "product": "Table update triggers on Delta Sharing and system tables (Beta) ​",
+  "product": "Table update triggers on Delta Sharing and system tables (Beta)",
   "tagline": "Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables.",
   "updated": "Jun 3, 2026",
   "status_label": "Beta",
@@ -11,7 +11,7 @@
   "capabilities": [
     {
       "title": "Table Update Triggers on OpenSharing",
-      "desc": "Table Update Triggers on OpenSharing (Recipient): A workspace-level beta, enabled in the recipient workspace where the trigger is "
+      "desc": "Table Update Triggers on OpenSharing (Recipient): A workspace-level beta, enabled in the recipient workspace where the trigger…"
     },
     {
       "title": "Table Update Triggers on OpenSharing",

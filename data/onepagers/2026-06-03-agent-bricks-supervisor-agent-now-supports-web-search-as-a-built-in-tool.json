@@ -1,5 +1,5 @@
 {
-  "product": "Agent Bricks Supervisor Agent now supports web search as a built-in tool ​",
+  "product": "Agent Bricks Supervisor Agent now supports web search as a built-in tool",
   "tagline": "You can now enable web search on your Supervisor Agent to answer questions that require current information from the public web.",
   "updated": "Jun 3, 2026",
   "status_label": "Update",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Access to a serverless usage",
-      "desc": "Access to a serverless usage policy with a nonzero budget. A workspace in one of the supported regions. You must have agents or to"
+      "desc": "Access to a serverless usage policy with a nonzero budget. A workspace in one of the supported regions. You must have agents or…"
     }
   ],
   "prerequisites": [],

@@ -1,5 +1,5 @@
 {
-  "product": "Standalone pipeline materialized views support expectations ​",
+  "product": "Standalone pipeline materialized views support expectations",
   "tagline": "You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation name EXPECT (expectation expr) clause.",
   "updated": "Jun 23, 2026",
   "status_label": "Update",

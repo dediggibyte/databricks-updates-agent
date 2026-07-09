@@ -1,17 +1,17 @@
 {
-  "product": "Incremental ingestion for Workday Reports (Beta) ​",
+  "product": "Incremental ingestion for Workday Reports (Beta)",
   "tagline": "The Workday Reports connector in Lakeflow Connect now supports incremental ingestion in Beta.",
   "updated": "Jun 18, 2026",
   "status_label": "Beta",
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/workday-reports-incremental",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#incremental-ingestion-for-workday-reports-beta",
-  "what_it_does": "The Workday Reports connector in Lakeflow Connect now supports incremental ingestion in Beta. If you configure a cursor column for a report, the connector ingests only the rows that have changed since the last pipeline run, improving performance and reducing costs. On this page Last updated on Jun 18, 2026 Beta Incremental ingestion is in Beta.",
+  "what_it_does": "The Workday Reports connector in Lakeflow Connect now supports incremental ingestion in Beta. If you configure a cursor column for a report, the connector ingests only the rows that have changed since the last pipeline run, improving performance and reducing costs. Beta Incremental ingestion is in Beta.",
   "why_it_matters": "If you configure a cursor column for a report, the connector ingests only the rows that have changed since the last pipeline run, improving performance and reducing costs.",
   "capabilities": [
     {
       "title": "report: sourceurl: https://wd2-impl-services1.workday.com/ccx/service/customreport2/PayrollJournal?format=json destinationcatalog: ${var.destcatalog}",
-      "desc": "report: sourceurl: https://wd2-impl-services1.workday.com/ccx/service/customreport2/PayrollJournal?format=json destinationcatalog:"
+      "desc": "report: sourceurl: https://wd2-impl-services1.workday.com/ccx/service/customreport2/PayrollJournal?format=json…"
     },
     {
       "title": "JournalID",

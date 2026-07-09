@@ -1,13 +1,13 @@
 {
-  "product": "Use OAuth to authenticate Databricks connections in Power Platform ​",
+  "product": "Use OAuth to authenticate Databricks connections in Power Platform",
   "tagline": "You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT).",
   "updated": "Jun 15, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform/setup",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-oauth-to-authenticate-databricks-connections-in-power-platform",
-  "what_it_does": "You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT). On this page Last updated on Jul 2, 2026 This page explains how to connect to Databricks from Microsoft Power Platform by creating a Databricks connection. You can use your Databricks data to create Power canvas apps, Power Automate flows, and Copilot Studio agents.",
-  "why_it_matters": "Limitations​ The Power Platform connector does not support government clouds.",
+  "what_it_does": "You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT). This page explains how to connect to Databricks from Microsoft Power Platform by creating a Databricks connection. You can use your Databricks data to create Power canvas apps, Power Automate flows, and Copilot Studio agents.",
+  "why_it_matters": "Limitations The Power Platform connector does not support government clouds.",
   "capabilities": [
     {
       "title": "If you are using OAuth",
@@ -15,7 +15,7 @@
     },
     {
       "title": "If you are using PAT",
-      "desc": "If you are using PAT, for API Key, enter your PAT in the format of Bearer <personal-access-token>. For Server Hostname, enter the "
+      "desc": "If you are using PAT, for API Key, enter your PAT in the format of Bearer <personal-access-token>. For Server Hostname, enter…"
     }
   ],
   "prerequisites": [],

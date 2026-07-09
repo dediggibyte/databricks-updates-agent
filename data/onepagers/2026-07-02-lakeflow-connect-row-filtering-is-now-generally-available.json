@@ -1,5 +1,5 @@
 {
-  "product": "Lakeflow Connect row filtering is now generally available ​",
+  "product": "Lakeflow Connect row filtering is now generally available",
   "tagline": "Row filtering in Lakeflow Connect is now generally available.",
   "updated": "Jul 2, 2026",
   "status_label": "GA",
@@ -15,11 +15,11 @@
     },
     {
       "title": "The filter is applied during",
-      "desc": "The filter is applied during the initial load and on every subsequent incremental update, so the target stays consistent with the "
+      "desc": "The filter is applied during the initial load and on every subsequent incremental update, so the target stays consistent with…"
     },
     {
       "title": "Because filtering happens before transfer",
-      "desc": "Because filtering happens before transfer, it reduces data movement, storage, and downstream compute compared with ingesting every"
+      "desc": "Because filtering happens before transfer, it reduces data movement, storage, and downstream compute compared with ingesting…"
     },
     {
       "title": "Google Analytics",

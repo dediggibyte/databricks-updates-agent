@@ -64,6 +64,75 @@ def test_heuristic_extracts_sections():
     assert "Unity Catalog enabled." not in cap_text
 
 
+def test_truncate_words_never_cuts_mid_word():
+    from dbx_onepager.enrich import _truncate_words
+
+    title = (
+        "Delta Sharing recipient can now query shared streaming tables in "
+        "Databricks SQL warehouses"
+    )
+    out = _truncate_words(title, 80)
+    assert len(out) <= 80
+    assert out.endswith("…")
+    assert "Databr…" not in out                     # no mid-word cut
+    assert all(w in title for w in out[:-1].split())  # only whole words survive
+    assert _truncate_words("short title", 80) == "short title"
+
+
+def test_title_zero_width_space_stripped():
+    op = enrich_note(
+        _note(title="Feature X is now generally available ​"),
+        {"llm": {}, "source": {}},
+        mock=True,
+    )
+    assert op.product == "Feature X is now generally available"
+
+
+def test_doc_chrome_stripped():
+    from dbx_onepager.fetch import _strip_doc_chrome
+
+    md = (
+        "On this page\n\n"
+        "Last updated on **Jul 8, 2026**\n\n"
+        "Real content about the feature.\n\n"
+        '## Limitations[​](#limitations "Direct link to Limitations")\n\n'
+        "- No Windows support yet.\n"
+    )
+    out = _strip_doc_chrome(md)
+    assert "On this page" not in out
+    assert "Last updated on" not in out
+    assert "Direct link to" not in out
+    assert "Real content about the feature." in out
+    assert "No Windows support yet." in out
+
+
+def test_email_digest_selects_recent_and_builds_html():
+    from datetime import date
+
+    from dbx_onepager.notify import build_html, build_subject, recent_onepagers
+
+    def _op(note_id, product="Feature X"):
+        return OnePager(
+            product=product, tagline="Does a thing.", updated="Jul 8, 2026",
+            status_label="GA", status="ga", what_it_does="x", why_it_matters="y",
+            key_takeaway="z", note_id=note_id,
+        )
+
+    ops = [_op("2026-07-08-new"), _op("2026-05-01-old")]
+    today = date(2026, 7, 9)
+    recent = recent_onepagers(ops, days=7, today=today)
+    assert [o.note_id for o in recent] == ["2026-07-08-new"]
+
+    assert build_subject(recent, today) == "Databricks updates — 1 new release note (Jul 09, 2026)"
+    html_body = build_html(recent, "https://example.github.io/repo/", days=7)
+    assert "https://example.github.io/repo/onepagers/2026-07-08-new.html" in html_body
+    assert "Feature X" in html_body
+
+    empty = build_html([], "https://example.github.io/repo", days=7)
+    assert "No new Databricks platform updates" in empty
+    assert build_subject([], today).startswith("Databricks updates — no new release notes")
+
+
 def test_extract_json_tolerates_code_fences():
     from dbx_onepager.enrich import _extract_json
 

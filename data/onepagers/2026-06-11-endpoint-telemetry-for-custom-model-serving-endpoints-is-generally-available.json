@@ -1,12 +1,12 @@
 {
-  "product": "Endpoint telemetry for custom model serving endpoints is generally available ​",
+  "product": "Endpoint telemetry for custom model serving endpoints is generally available",
   "tagline": "Endpoint telemetry for custom model serving endpoints is now generally available.",
   "updated": "Jun 11, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-model-serving-uc-logs",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#endpoint-telemetry-for-custom-model-serving-endpoints-is-generally-available",
-  "what_it_does": "Endpoint telemetry for custom model serving endpoints is now generally available. Configure endpoint telemetry to persist OpenTelemetry logs, traces, and metrics from your endpoints to Unity Catalog tables. On this page Last updated on Jun 30, 2026 This page shows how to configure endpoint telemetry to persist OpenTelemetry logs, traces, and metrics from your custom model serving endpoints to Unity Catalog tables.",
+  "what_it_does": "Endpoint telemetry for custom model serving endpoints is now generally available. Configure endpoint telemetry to persist OpenTelemetry logs, traces, and metrics from your endpoints to Unity Catalog tables. This page shows how to configure endpoint telemetry to persist OpenTelemetry logs, traces, and metrics from your custom model serving endpoints to Unity Catalog tables.",
   "why_it_matters": "To do this with the API: Enable telemetry using the API Bash curl X POST H \"Authorization: Bearer <your token \" \\ https://<workspace url /api/2.0/serving endpoints \\ d '{ \"name\": \"my custom logging endpoint\", \"config\": { \"served entities\": [ { \"name\": \"my model\", \"entity name\": \"my model\", \"entity version\": \"1\", \"workload size\": \"Small\", \"scale to zero enabled\": true } ] }, \"telemetry config\": { \"table names\": { \"logs table\": \"my catalog.observability.custom endpoint logs\", \"metrics table\": \"my catalog.observability.custom endpoint metrics\", \"traces table\": \"my catalog.observability.custom endpoint spans\" } } }' note Updating triggers a new deployment.",
   "capabilities": [
     {

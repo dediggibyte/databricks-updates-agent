@@ -1,5 +1,5 @@
 {
-  "product": "Managed Iceberg materialized views are in Public Preview ​",
+  "product": "Managed Iceberg materialized views are in Public Preview",
   "tagline": "You can now create a materialized view that is compatible with external Iceberg readers.",
   "updated": "Jul 7, 2026",
   "status_label": "Public Preview",

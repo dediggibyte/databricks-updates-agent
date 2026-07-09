@@ -1,5 +1,5 @@
 {
-  "product": "Veeva Vault connector (Beta) ​",
+  "product": "Veeva Vault connector (Beta)",
   "tagline": "The Veeva Vault connector is now available in Lakeflow Connect in Beta.",
   "updated": "Jul 1, 2026",
   "status_label": "Public Preview",
@@ -7,7 +7,7 @@
   "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/veeva-vault",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#veeva-vault-connector-beta",
   "what_it_does": "The Veeva Vault connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page. The connector uses Veeva's Direct Data API to ingest all standard objects, custom objects, system tables, and audit trail tables from your Vault instance into Databricks.",
-  "why_it_matters": "Genie Spaces is now Genie Agents Genie products now use pay as you go pricing Automatic cost attribution for materialized views and streaming tables in Databricks SQL Object metadata column is now in Public Preview REPLACE WHERE flows are now generally available Excel file format support is now available by default Managed Iceberg materialized views are in Public Preview Private Link for account level resources (Beta) Budgets are now generally available Standard performance mode is now supported for materialized view or streaming table refreshes in jobs Okta support for automatic identity management is now generally available Lakeflow Connect row filtering is now generally available Google Gemini 3.1 Flash Image and Gemini 3 Pro Image now available as Databricks hosted models MySQL integrated CDC pipeline is now in Beta Veeva Vault connector (Beta) On this page Last updated on Jul 1, 2026 Beta This feature is in Beta.",
+  "why_it_matters": "Genie Spaces is now Genie Agents Genie products now use pay as you go pricing Automatic cost attribution for materialized views and streaming tables in Databricks SQL Object metadata column is now in Public Preview REPLACE WHERE flows are now generally available Excel file format support is now available by default Managed Iceberg materialized views are in Public Preview Private Link for account level resources (Beta) Budgets are now generally available Standard performance mode is now supported for materialized view or streaming table refreshes in jobs Okta support for automatic identity management is now generally available Lakeflow Connect row filtering is now generally available Google Gemini 3.1 Flash Image and Gemini 3 Pro Image now available as Databricks hosted models MySQL integrated CDC pipeline is now in Beta Veeva Vault connector (Beta) Beta This feature is in Beta.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],

@@ -1,5 +1,5 @@
 {
-  "product": "External lineage is now generally available ​",
+  "product": "External lineage is now generally available",
   "tagline": "External lineage (formerly Bring Your Own Lineage) in Unity Catalog is now generally available.",
   "updated": "Jun 8, 2026",
   "status_label": "GA",
@@ -11,11 +11,11 @@
   "capabilities": [
     {
       "title": "Manual edits to the external",
-      "desc": "Manual edits to the external metadata object don't persist: The next pipeline update overwrites them with values derived from the "
+      "desc": "Manual edits to the external metadata object don't persist: The next pipeline update overwrites them with values derived from…"
     },
     {
       "title": "Pipelines that share a connection",
-      "desc": "Pipelines that share a connection share the same upstream lineage. If multiple pipelines use the same connection to ingest the sam"
+      "desc": "Pipelines that share a connection share the same upstream lineage. If multiple pipelines use the same connection to ingest the…"
     }
   ],
   "prerequisites": [],

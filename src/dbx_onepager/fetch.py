@@ -35,6 +35,9 @@ _DATE_RE = re.compile(
     r"\b(January|February|March|April|May|June|July|August|September|"
     r"October|November|December)\s+\d{1,2},\s+\d{4}\b"
 )
+# Zero-width/invisible characters Databricks headings carry (str.strip() does
+# not remove U+200B — it is category Cf, not whitespace).
+_INVISIBLE = re.compile("[\\u200b\\u200c\\u200d\\u2060\\ufeff]")
 # Maturity phrases Databricks uses, mapped to our status vocabulary.
 _STATUS_HINTS = [
     ("public preview", "public-preview", "Public Preview"),
@@ -114,6 +117,11 @@ def detect_status(text: str) -> tuple[str, str]:
     return "changed", "Update"
 
 
+def clean_title(text: str) -> str:
+    """Strip invisible characters and surrounding whitespace from a heading."""
+    return _INVISIBLE.sub("", text).strip()
+
+
 def _extract_date(text: str, fallback: date) -> date:
     m = _DATE_RE.search(text)
     if m:
@@ -176,6 +184,37 @@ def pick_primary_doc(note: ReleaseNote) -> Optional[str]:
     return other[-1].url if other else None
 
 
+# Docs-site chrome that survives readability extraction: the "On this page"
+# table of contents, "Last updated on <date>" stamps, and per-heading
+# "Direct link to ..." anchor links.
+_CHROME_HEADING = re.compile(r"^[#>\s]*\s*(on this page|in this article)\s*$", re.I)
+_CHROME_LINE = re.compile(
+    r"^\s*(last updated on\b.*|was this (article|page) helpful\??.*)\s*$", re.I
+)
+_LINK_ONLY = re.compile(r"^\s*[-*+]?\s*\[[^\]]*\]\([^)]*\)\s*$")
+_ANCHOR_LINK = re.compile(r"\[[^\]]*\]\(#[^)]*\"Direct link to[^)]*\)")
+
+
+def _strip_doc_chrome(md: str) -> str:
+    """Drop docs-site chrome so it never leaks into one-pager prose."""
+    md = _ANCHOR_LINK.sub("", md)
+    out: list[str] = []
+    skipping_toc = False
+    for line in md.splitlines():
+        if _CHROME_HEADING.match(line):
+            skipping_toc = True
+            continue
+        if skipping_toc:
+            # Swallow the TOC's link-only list (and its blank lines).
+            if not line.strip() or _LINK_ONLY.match(line):
+                continue
+            skipping_toc = False
+        if _CHROME_LINE.match(line):
+            continue
+        out.append(line)
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
+
+
 def fetch_doc(url: str, cache_dir: Optional[Path] = None, max_chars: int = 14000) -> str:
     """Fetch a technical doc page and return its main content as markdown.
 
@@ -188,7 +227,9 @@ def fetch_doc(url: str, cache_dir: Optional[Path] = None, max_chars: int = 14000
         digest = hashlib.sha1(url.encode()).hexdigest()[:16]
         cache_file = cache_dir / f"{digest}.md"
         if cache_file.exists():
-            return cache_file.read_text(encoding="utf-8")
+            # Strip on read too: cache files written before chrome stripping
+            # existed still contain it.
+            return _strip_doc_chrome(cache_file.read_text(encoding="utf-8"))
     try:
         html = fetch_url(url)
         text = _extract_main_markdown(html)[:max_chars]
@@ -213,7 +254,7 @@ def _extract_main_markdown(html: str) -> str:
         or soup.body
         or soup
     )
-    return _html_to_markdown(str(article))
+    return _strip_doc_chrome(_html_to_markdown(str(article)))
 
 
 # --------------------------------------------------------------------------
@@ -255,7 +296,7 @@ def _notes_from_feed(feed, cfg: dict) -> list[ReleaseNote]:
     src = cfg["source"]
     notes: list[ReleaseNote] = []
     for entry in feed.entries:
-        title = (entry.get("title") or "").strip()
+        title = clean_title(entry.get("title") or "")
         if not title:
             continue
         link = entry.get("link") or src["index_url"]
@@ -318,7 +359,7 @@ def parse_notes_from_html(
     heading_set = set(headings)
     notes: list[ReleaseNote] = []
     for h in headings:
-        title = h.get_text(" ", strip=True)
+        title = clean_title(h.get_text(" ", strip=True))
         if not title or len(title) < 4:
             continue
         # Collect following block content until the next heading, skipping

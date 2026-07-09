@@ -1,5 +1,5 @@
 {
-  "product": "Custom Docker images for AI Runtime CLI workloads (Beta) ​",
+  "product": "Custom Docker images for AI Runtime CLI workloads (Beta)",
   "tagline": "You can now bring your own Docker container image to AI Runtime CLI (air) workloads.",
   "updated": "Jun 29, 2026",
   "status_label": "Beta",

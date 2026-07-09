@@ -1,5 +1,5 @@
 {
-  "product": "Full page Genie Code (Beta) ​",
+  "product": "Full page Genie Code (Beta)",
   "tagline": "Full page Genie Code is now available in Beta.",
   "updated": "Jun 3, 2026",
   "status_label": "Beta",
@@ -11,11 +11,11 @@
   "capabilities": [
     {
       "title": "To switch threads, click any",
-      "desc": "To switch threads, click any entry. You can switch while Genie Code is still working, whether it is running in the thread or editi"
+      "desc": "To switch threads, click any entry. You can switch while Genie Code is still working, whether it is running in the thread or…"
     },
     {
       "title": "To manage a thread, hover",
-      "desc": "To manage a thread, hover over it and click the  kebab menu. You can share, make a copy, rename, or delete the thread. Thread view"
+      "desc": "To manage a thread, hover over it and click the  kebab menu. You can share, make a copy, rename, or delete the thread. Thread…"
     }
   ],
   "prerequisites": [],

@@ -1,12 +1,12 @@
 {
-  "product": "External data access for pipeline streaming tables and materialized views (Publi",
-  "tagline": "You can now enable external Delta and Iceberg clients to read streaming tables and materialized views managed by a pipeline through the Unity Catalog and Iceberg catalog REST APIs, without copying the",
+  "product": "External data access for pipeline streaming tables and materialized views…",
+  "tagline": "You can now enable external Delta and Iceberg clients to read streaming tables and materialized views managed by a pipeline through the Unity Catalog and Iceberg catalog REST APIs, without copying…",
   "updated": "Jun 5, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/external-access/external-for-pipelines",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#external-data-access-for-pipeline-streaming-tables-and-materialized-views-public-preview",
-  "what_it_does": "You can now enable external Delta and Iceberg clients to read streaming tables and materialized views managed by a pipeline through the Unity Catalog and Iceberg catalog REST APIs, without copying the data. On this page Last updated on Jun 11, 2026 Preview This feature is in Public Preview. If you have enabled external data access to Unity Catalog, then you can additionally add external data access to your pipeline datasets.",
+  "what_it_does": "You can now enable external Delta and Iceberg clients to read streaming tables and materialized views managed by a pipeline through the Unity Catalog and Iceberg catalog REST APIs, without copying the data. Preview This feature is in Public Preview. If you have enabled external data access to Unity Catalog, then you can additionally add external data access to your pipeline datasets.",
   "why_it_matters": "This gives the following characteristics for performance and functionality: No data copy required: External access is enabled without duplicating the full dataset.",
   "capabilities": [],
   "prerequisites": [],
@@ -22,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "You can now enable external Delta and Iceberg clients to read streaming tables and materialized views managed by a pipeline through the Unity Catalog and Iceberg catalog REST APIs, without copying the",
+  "key_takeaway": "You can now enable external Delta and Iceberg clients to read streaming tables and materialized views managed by a pipeline through the Unity Catalog and Iceberg catalog REST APIs, without copying…",
   "note_id": "2026-06-05-662f5453",
   "category": "platform"
 }

@@ -69,6 +69,17 @@ def build_parser() -> argparse.ArgumentParser:
     en.add_argument("--force", action="store_true",
                     help="Re-enrich ALL stored notes (refresh existing one-pagers)")
     sub.add_parser("build", parents=[common], help="Rebuild the static site from existing data")
+
+    em = sub.add_parser("email-summary", parents=[common],
+                        help="Emit an HTML email digest of recent one-pagers")
+    em.add_argument("--days", type=int, default=7,
+                    help="Look-back window in days (default 7)")
+    em.add_argument("--site-url", default=None,
+                    help="Published Pages base URL (default: render.pages_url from config)")
+    em.add_argument("--out", default="email/body.html",
+                    help="Where to write the HTML body (default email/body.html)")
+    em.add_argument("--subject-out", default="email/subject.txt",
+                    help="Where to write the subject line (default email/subject.txt)")
     return p
 
 
@@ -86,6 +97,9 @@ def main(argv: list[str] | None = None) -> int:
         pipeline.run_enrich(args.config, args.model, args.mock, force=args.force)
     elif cmd == "build":
         pipeline.run_build(args.config)
+    elif cmd == "email-summary":
+        pipeline.run_email_summary(args.config, args.days, args.site_url,
+                                   args.out, args.subject_out)
     else:  # pragma: no cover - argparse enforces
         return 2
     return 0

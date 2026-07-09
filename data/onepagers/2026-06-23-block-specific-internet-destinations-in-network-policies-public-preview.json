@@ -1,12 +1,12 @@
 {
-  "product": "Block specific internet destinations in network policies (Public Preview) ​",
+  "product": "Block specific internet destinations in network policies (Public Preview)",
   "tagline": "You can now block internet destinations from serverless workloads through the network policies REST API.",
   "updated": "Jun 23, 2026",
   "status_label": "Public Preview",
   "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/manage-network-policies#block",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#block-specific-internet-destinations-in-network-policies-public-preview",
-  "what_it_does": "You can now block internet destinations from serverless workloads through the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode. On this page Last updated on Jul 1, 2026 This page explains how to configure and manage network policies to control outbound network connections from your serverless workloads in Databricks.",
+  "what_it_does": "You can now block internet destinations from serverless workloads through the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode. This page explains how to configure and manage network policies to control outbound network connections from your serverless workloads in Databricks.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
   "capabilities": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "title": "If your notebook interacts with",
-      "desc": "If your notebook interacts with Spark, your serverless resource refreshes and automatically detects the change. Most changes will "
+      "desc": "If your notebook interacts with Spark, your serverless resource refreshes and automatically detects the change. Most changes…"
     }
   ],
   "prerequisites": [],

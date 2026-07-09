@@ -1,9 +1,0 @@
-/* Datalab webfonts.
-   No font binaries ship with the dediggibyte/datalab repo (it is a Python
-   framework). These are Google-Fonts substitutions chosen for the brand:
-   - Space Grotesk  — display / headlines (geometric, technical)
-   - IBM Plex Sans  — UI + body copy (engineered for technical products)
-   - JetBrains Mono — code, configs, data values (YAML is the product)
-   Replace with licensed binaries + @font-face rules when real brand fonts exist. */
-
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');

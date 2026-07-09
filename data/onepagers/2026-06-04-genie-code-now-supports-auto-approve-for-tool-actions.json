@@ -1,5 +1,5 @@
 {
-  "product": "Genie Code now supports auto-approve for tool actions ​",
+  "product": "Genie Code now supports auto-approve for tool actions",
   "tagline": "Genie Code now offers an auto approve mode that approves tool actions, like running code or editing notebooks, without prompting you for each request.",
   "updated": "Jun 4, 2026",
   "status_label": "Update",

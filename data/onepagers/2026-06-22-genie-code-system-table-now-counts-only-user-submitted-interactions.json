@@ -1,5 +1,5 @@
 {
-  "product": "Genie Code system table now counts only user-submitted interactions ​",
+  "product": "Genie Code system table now counts only user-submitted interactions",
   "tagline": "The Genie Code system table (system.access.assistant events) now records only user submitted Genie Code interactions, such as side panel chat, agent mode, and the inline assistant (%assistant).",
   "updated": "Jun 22, 2026",
   "status_label": "Update",

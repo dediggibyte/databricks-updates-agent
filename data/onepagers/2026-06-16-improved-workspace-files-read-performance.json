@@ -1,12 +1,12 @@
 {
-  "product": "Improved workspace files read performance ​",
-  "tagline": "For serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are prefe",
+  "product": "Improved workspace files read performance",
+  "tagline": "For serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are…",
   "updated": "Jun 16, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/files/workspace",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#improved-workspace-files-read-performance",
-  "what_it_does": "For serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are prefetched in the background. Workloads that read many files, such as find, grep, Python imports, and Git operations, run much faster. On this page Last updated on Jul 8, 2026 Workspace files are the files stored and managed in the Databricks workspace file system.",
+  "what_it_does": "For serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are prefetched in the background. Workloads that read many files, such as find, grep, Python imports, and Git operations, run much faster. Workspace files are the files stored and managed in the Databricks workspace file system.",
   "why_it_matters": "Workloads that read many files, such as find, grep, Python imports, and Git operations, run much faster.",
   "capabilities": [],
   "prerequisites": [],
@@ -22,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "For serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are prefe",
+  "key_takeaway": "For serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are…",
   "note_id": "2026-06-16-improved-workspace-files-read-performance",
   "category": "platform"
 }

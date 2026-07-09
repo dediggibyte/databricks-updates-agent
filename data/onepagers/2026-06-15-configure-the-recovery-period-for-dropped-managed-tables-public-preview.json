@@ -1,5 +1,5 @@
 {
-  "product": "Configure the recovery period for dropped managed tables (Public Preview) ​",
+  "product": "Configure the recovery period for dropped managed tables (Public Preview)",
   "tagline": "You can now configure the recovery period for dropped Unity Catalog managed tables.",
   "updated": "Jun 15, 2026",
   "status_label": "Public Preview",

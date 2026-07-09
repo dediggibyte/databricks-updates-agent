@@ -1,17 +1,17 @@
 {
-  "product": "Vector Search is now AI Search ​",
+  "product": "Vector Search is now AI Search",
   "tagline": "Vector Search has been renamed to AI Search.",
   "updated": "Jun 1, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/ai-search/ai-search",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#vector-search-is-now-ai-search",
-  "what_it_does": "Vector Search has been renamed to AI Search. You can now create full text search indexes without any vectors or embeddings needed. On this page Last updated on Jun 25, 2026 Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools.",
-  "why_it_matters": "On this page Last updated on Jun 25, 2026 Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools.",
+  "what_it_does": "Vector Search has been renamed to AI Search. You can now create full text search indexes without any vectors or embeddings needed. Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools.",
+  "why_it_matters": "Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools.",
   "capabilities": [
     {
       "title": "With standard endpoints, you can",
-      "desc": "With standard endpoints, you can use high QPS to support high sustained throughput. See Scale AI Search endpoint throughput with h"
+      "desc": "With standard endpoints, you can use high QPS to support high sustained throughput. See Scale AI Search endpoint throughput with…"
     }
   ],
   "prerequisites": [],

@@ -1,49 +1,38 @@
-# Databricks Update One-Pager
+# Databricks Updates Agent
 
-Automatically turn **Databricks release notes** into executive **one-pagers** —
-each explaining an update *technically* (what changed, prerequisites,
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![Weekly pipeline](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/weekly.yml/badge.svg)](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/weekly.yml)
+[![Email summary](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/notify.yml/badge.svg)](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/notify.yml)
+[![Site](https://img.shields.io/badge/site-GitHub%20Pages-blue)](https://dediggibyte.github.io/databricks-updates-agent/)
+
+**Automatically turns Databricks release notes into executive one-pagers — technical and business — published to GitHub Pages and emailed to the team weekly.**
+
+Each one-pager explains an update *technically* (what changed, prerequisites,
 limitations) and from a *business perspective* (why it matters, use cases).
-
-Runs **weekly (every Tuesday)** to catch new releases, and can **backfill any
-past release notes** on demand. Output is a browsable, filterable static
-gallery published to GitHub Pages.
-
-The one-pager design is a faithful port of the "Databricks Update One-Pager"
-Datalab design (dark *console* variant by default, light *paper* variant as an
-alternate/print view).
+The pipeline runs **every Tuesday**, can **backfill any past release notes**
+on demand, and mails a **weekly digest** with links to the published gallery.
 
 ![One-pager + gallery](docs/preview.png)
 
 ---
 
-## How it works
+## Features
 
-```
-fetch  →  store  →  enrich (Claude)  →  render  →  gallery
-```
+- **Weekly auto-fetch** of Databricks platform release notes (RSS with an index-scrape fallback, headless Chromium via Playwright to pass the docs bot-wall).
+- **Depth from the source doc** — each note's "See …" link is followed to the real feature documentation, which drives the enrichment and becomes the one-pager's docs link.
+- **Pluggable enrichment** — free GitHub Models (default), Anthropic Claude, or a keyless deterministic heuristic; every provider degrades gracefully to the heuristic.
+- **Dual-theme one-pagers** — dark *console* variant plus a light *paper* alternate, rendered from a single Pydantic content contract.
+- **Searchable gallery** on GitHub Pages with status filters and sorting.
+- **Weekly email digest** to the Databricks COE DL and Global after every scheduled run — including "no updates this week".
+- **Historical backfill** for any month range, on demand from the Actions tab.
 
-| Stage | Module | What it does |
-|-------|--------|--------------|
-| **fetch**  | `fetch.py`   | Pulls release notes (RSS weekly, archive backfill) **and extracts each note's reference links**, then fetches the **underlying technical doc** it points to (cached under `data/docs/`). Uses headless **Chromium/Playwright**, with a urllib fallback and offline fixtures. |
-| **store**  | `store.py`   | Durable JSON per note, **deduped by id**. Keeps full history so any past note is always re-generatable. |
-| **enrich** | `enrich.py`  | Turns each note **plus its underlying tech doc** into the structured one-pager contract — so the page describes what actually changed in depth, and links to the technical reference (not the release-note page). Pluggable provider (see below); always falls back to a keyless heuristic. |
-| **render** | `render.py`  | Fills the Jinja2 template with the Datalab design tokens → one self-contained HTML page per note. |
-| **gallery**| `render.py`  | Builds `index.html`: a searchable, filterable card grid of every update. |
+---
 
-The one-pager **content contract** lives in `models.py` (`OnePager`). That single
-Pydantic model drives the LLM tool schema *and* the template, so they can
-never drift apart.
-
-**Depth from the source doc.** Release-note blurbs are one or two sentences, so
-each note's "See …" link is followed to the real feature documentation. That
-doc is the primary source for enrichment (mechanism, prerequisites,
-limitations, adoption steps) and becomes the one-pager's `docs ↗` link. Fetched
-docs are cached in `data/docs/` (git-tracked, fetched once). If a doc can't be
-reached, enrichment degrades to the note blurb.
-
-## Quick start
+## Quick Start
 
 ```bash
+git clone https://github.com/dediggibyte/databricks-updates-agent.git
+cd databricks-updates-agent
 python -m venv .venv && source .venv/bin/activate
 pip install -e .
 python -m playwright install chromium          # only needed for live fetch
@@ -53,11 +42,53 @@ python -m dbx_onepager fixtures --mock
 open site/index.html
 ```
 
+---
+
+## How It Works
+
+```
+fetch  →  store  →  enrich (LLM)  →  render  →  gallery  →  email digest
+```
+
+| Stage | Module | What it does |
+|-------|--------|--------------|
+| **fetch**  | `fetch.py`   | Pulls release notes (RSS weekly, archive backfill) **and extracts each note's reference links**, then fetches the **underlying technical doc** it points to (cached under `data/docs/`). Strips doc chrome and invisible characters so scraped text stays clean. |
+| **store**  | `store.py`   | Durable JSON per note, **deduped by id**. Keeps full history so any past note is always re-generatable. |
+| **enrich** | `enrich.py`  | Turns each note **plus its underlying tech doc** into the structured one-pager contract. Pluggable provider (see below); always falls back to a keyless heuristic. |
+| **render** | `render.py`  | Fills the Jinja2 templates with the Datalab design tokens → one self-contained HTML page per note, plus the searchable `index.html` gallery. |
+| **notify** | `notify.py`  | Builds the weekly HTML email digest (recent updates + links to their one-pagers and the gallery). |
+
+The one-pager **content contract** lives in `models.py` (`OnePager`). That single
+Pydantic model drives the LLM tool schema *and* the template, so they can
+never drift apart.
+
+The rendered site is **never committed** — CI builds `site/` fresh each run and
+deploys it straight to GitHub Pages as an artifact. Only `data/` (the durable
+source of truth) lives in git.
+
+---
+
+## Project Structure
+
+```
+config.yaml                 source / model / render / pages-url settings
+assets/ds/tokens/*.css      Datalab design tokens (ported from the design)
+templates/                  onepager.html.j2, gallery.html.j2
+src/dbx_onepager/           fetch · store · enrich · render · notify · pipeline · cli
+fixtures/                   sample release notes for offline runs/tests
+tests/                      pytest suite (offline, no network)
+data/releases/              raw normalized notes (source of truth, git-tracked)
+data/onepagers/             enriched one-pager JSON (git-tracked)
+data/docs/                  cached underlying technical docs (git-tracked)
+site/                       rendered HTML — generated, gitignored, built in CI
+.github/workflows/          weekly.yml · notify.yml · pr-template-check.yml
+```
+
+---
+
 ## Usage
 
 ```bash
-export ANTHROPIC_API_KEY=sk-...
-
 # Weekly incremental — the scheduled job. Fetch new notes, enrich, rebuild.
 python -m dbx_onepager weekly
 
@@ -72,6 +103,9 @@ python -m dbx_onepager build
 # underlying docs, then re-enrich). Use after upgrading the pipeline.
 python -m dbx_onepager backfill --from 2026-06 --to 2026-07 --refresh
 python -m dbx_onepager enrich --force        # re-enrich stored notes in place
+
+# Build the weekly email digest (HTML body + subject) from stored data.
+python -m dbx_onepager email-summary --days 7
 ```
 
 Global flags (usable before or after the subcommand):
@@ -82,15 +116,17 @@ Global flags (usable before or after the subcommand):
 | `--model` | Override the model id for the run (e.g. `claude-opus-4-8`). |
 | `--config`| Path to an alternate `config.yaml`. |
 
-## Enrichment providers (no paid key required)
+---
+
+## Enrichment Providers
 
 Set `llm.provider` in [`config.yaml`](config.yaml):
 
 | Provider | Key needed | Cost | Notes |
 |----------|-----------|------|-------|
-| `github-models` *(default)* | **None** — uses the `GITHUB_TOKEN` Actions provides automatically | Free (rate-limited) | GitHub's built-in AI. Real technical + business write-ups with nothing for you to obtain or pay for. |
+| `github-models` *(default, `openai/gpt-4o-mini`)* | **None** — uses the `GITHUB_TOKEN` Actions provides automatically | Free (rate-limited) | GitHub's built-in AI. Real technical + business write-ups with nothing to obtain or pay for. |
 | `heuristic` | None | Free | No AI, no network. Deterministic section extraction (prerequisites, limitations, use-cases, capabilities). |
-| `anthropic` | `ANTHROPIC_API_KEY` | Paid | Highest quality (Claude). |
+| `anthropic` | `ANTHROPIC_API_KEY` | Paid | Highest quality (Claude, `claude-sonnet-5` by default; pass `--model claude-opus-4-8` for high-value notes). |
 
 Any provider **automatically falls back to `heuristic`** if it errors, so the
 pipeline always produces output. Run locally with no AI at all via `--mock`.
@@ -99,48 +135,46 @@ pipeline always produces output. Run locally with no AI at all via `--mock`.
 > permission (already set) and that GitHub Models is enabled for your org
 > (free). If it isn't, runs still succeed via the heuristic fallback.
 
+---
+
 ## Configuration
 
 Everything retargetable lives in [`config.yaml`](config.yaml): the source
-(cloud, RSS/archive URLs), the enrichment provider/model, and rendering
-options (default variant, whether to emit the alternate theme, site title).
-No code changes needed to switch cloud, provider, or model.
+(cloud, RSS/archive URLs), the enrichment provider/model, rendering options
+(default variant, alternate theme, site title), and `render.pages_url` (the
+published site base URL used for links in the email digest). No code changes
+needed to switch cloud, provider, or model.
 
-## Scheduling & publishing (GitHub Actions + Pages)
+### Repository secrets
 
-[`.github/workflows/weekly.yml`](.github/workflows/weekly.yml):
+| Secret | Required | Used by | Purpose |
+|--------|----------|---------|---------|
+| `MAIL_USERNAME` | For email | `notify.yml` | Microsoft 365 mailbox that sends the digest (also the From address). |
+| `MAIL_PASSWORD` | For email | `notify.yml` | Password / app password for that mailbox. **SMTP AUTH must be enabled** on the mailbox (Exchange admin → mailbox → Mail flow → Authenticated SMTP). |
+| `ANTHROPIC_API_KEY` | Optional | `weekly.yml` | Only if `llm.provider` is switched to `anthropic`. |
 
-* **`schedule`** — cron `0 7 * * 2` runs `weekly` every Tuesday 07:00 UTC.
-* **`workflow_dispatch`** — manual runs with a `mode` (`weekly`/`backfill`),
-  `from_month`/`to_month`, and optional `model` — this is the **on-demand past
-  release-note** path.
-* Generated `data/` and `site/` are committed back, and `site/` is deployed to
-  **GitHub Pages**.
+---
 
-**Setup:** just enable Pages (Settings → Pages → Source: GitHub Actions). No
-secret needed — the default `github-models` provider uses the built-in
-`GITHUB_TOKEN`. Only add an `ANTHROPIC_API_KEY` secret if you switch
-`llm.provider` to `anthropic`.
+## CI/CD
 
-## Layout
+| Workflow | Trigger | What it does |
+|----------|---------|--------------|
+| [`weekly.yml`](.github/workflows/weekly.yml) | Tuesdays 07:00 UTC cron + manual dispatch (`mode`: `weekly` / `backfill` / `reenrich`, plus `refresh` and `model` inputs) | Fetch → enrich → commit refreshed `data/` → build `site/` → deploy to GitHub Pages. |
+| [`notify.yml`](.github/workflows/notify.yml) | After each successful weekly run (`workflow_run`) + manual dispatch | Builds the digest with `email-summary` and mails it to `dl-databricks-coe@diggibyte.com` and `Global@diggibyte.com` via Office 365 SMTP. |
+| [`pr-template-check.yml`](.github/workflows/pr-template-check.yml) | Pull requests | Enforces the repository PR template (marker + required sections). |
 
-```
-config.yaml                 source / model / render settings
-assets/ds/tokens/*.css      Datalab design tokens (ported from the design)
-templates/                  onepager.html.j2, gallery.html.j2
-src/dbx_onepager/           fetch · store · enrich · render · pipeline · cli
-fixtures/                   sample release notes for offline runs/tests
-data/releases/              raw normalized notes (source of truth, git-tracked)
-data/onepagers/             enriched one-pager JSON
-site/                       rendered HTML (GitHub Pages root)
-.github/workflows/weekly.yml
-```
+**Setup:** enable Pages (Settings → Pages → Source: **GitHub Actions**) and add
+the two mail secrets above. Nothing else — the default enrichment provider
+uses the built-in `GITHUB_TOKEN`.
+
+---
 
 ## Extending
 
-* **Other release-note streams** (Runtime, SQL, Azure/GCP): point `config.yaml`
+- **Other release-note streams** (Runtime, SQL, Azure/GCP): point `config.yaml`
   at a different feed/archive, or run multiple configs.
-* **Design tweaks**: edit `templates/onepager.html.j2`; tokens live in
+- **Design tweaks**: edit `templates/onepager.html.j2`; tokens live in
   `assets/ds/tokens/`.
-* **Model quality vs cost**: default `claude-sonnet-5` for the batch; pass
-  `--model claude-opus-4-8` for high-value notes.
+- **Email cadence/audience**: recipients live in
+  [`notify.yml`](.github/workflows/notify.yml); the look-back window is the
+  `--days` flag of `email-summary`.

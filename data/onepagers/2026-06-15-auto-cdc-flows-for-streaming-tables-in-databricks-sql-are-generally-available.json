@@ -1,5 +1,5 @@
 {
-  "product": "AUTO CDC flows for streaming tables in Databricks SQL are generally available ​",
+  "product": "AUTO CDC flows for streaming tables in Databricks SQL are generally available",
   "tagline": "The FLOW AUTO CDC clause for CREATE STREAMING TABLE in Databricks SQL is now generally available.",
   "updated": "Jun 15, 2026",
   "status_label": "GA",

@@ -1,12 +1,12 @@
 {
-  "product": "Change the owner of standalone pipeline streaming tables and materialized views ",
-  "tagline": "You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created in Databricks ",
+  "product": "Change the owner of standalone pipeline streaming tables and materialized views",
+  "tagline": "You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created in…",
   "updated": "Jun 23, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/ldp/using-alter-sql",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#change-the-owner-of-standalone-pipeline-streaming-tables-and-materialized-views",
-  "what_it_does": "You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created in Databricks SQL. On this page Last updated on Jun 23, 2026 Lakeflow Spark Declarative Pipelines (SDP) defines pipelines in source code that is specific to SDP. You can edit pipeline source in either SQL or Python, for example, in the Lakeflow Pipelines Editor.",
+  "what_it_does": "You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created in Databricks SQL. Lakeflow Spark Declarative Pipelines (SDP) defines pipelines in source code that is specific to SDP. You can edit pipeline source in either SQL or Python, for example, in the Lakeflow Pipelines Editor.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
   "capabilities": [],
   "prerequisites": [],
@@ -22,7 +22,7 @@
       "desc": "Review the linked release note."
     }
   ],
-  "key_takeaway": "You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created in Databricks ",
+  "key_takeaway": "You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created in…",
   "note_id": "2026-06-23-change-the-owner-of-standalone-pipeline-streaming-tables-and-materialized-views",
   "category": "platform"
 }

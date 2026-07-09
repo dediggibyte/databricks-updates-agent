@@ -1,5 +1,5 @@
 {
-  "product": "Email notifications for expiring service principal tokens (Beta) ​",
+  "product": "Email notifications for expiring service principal tokens (Beta)",
   "tagline": "Databricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring.",
   "updated": "Jun 12, 2026",
   "status_label": "Beta",

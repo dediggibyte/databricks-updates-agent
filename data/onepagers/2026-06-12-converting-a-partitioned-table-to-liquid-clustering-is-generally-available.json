@@ -1,5 +1,5 @@
 {
-  "product": "Converting a partitioned table to liquid clustering is generally available ​",
+  "product": "Converting a partitioned table to liquid clustering is generally available",
   "tagline": "You can now convert an existing partitioned Delta Lake table to liquid clustering with ALTER TABLE ...",
   "updated": "Jun 12, 2026",
   "status_label": "GA",

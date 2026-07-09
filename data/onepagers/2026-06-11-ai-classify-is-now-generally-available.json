@@ -1,5 +1,5 @@
 {
-  "product": "ai_classify is now generally available ​",
+  "product": "ai_classify is now generally available",
   "tagline": "The ai classify function is now generally available.",
   "updated": "Jun 11, 2026",
   "status_label": "GA",
@@ -7,7 +7,7 @@
   "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/classification",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_classify-is-now-generally-available",
   "what_it_does": "The ai classify function is now generally available. This function classifies text content according to custom labels you provide, with support for label descriptions, global instructions, and multi label classification. For a no code UI to build, validate, and iterate on classification agents, see Classification.",
-  "why_it_matters": "Review and improve classification responses​ Review the classification responses and give feedback to improve the agent.",
+  "why_it_matters": "Review and improve classification responses Review the classification responses and give feedback to improve the agent.",
   "capabilities": [
     {
       "title": "Serverless compute enabled. See Serverless",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Access to a serverless usage",
-      "desc": "Access to a serverless usage policy with a nonzero budget. This function is only available in some regions, see AI function availa"
+      "desc": "Access to a serverless usage policy with a nonzero budget. This function is only available in some regions, see AI function…"
     },
     {
       "title": "See regional support for aiclassify",

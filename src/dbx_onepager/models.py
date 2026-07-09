@@ -21,7 +21,7 @@ import re
 from datetime import date, datetime
 from typing import Literal, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 # --------------------------------------------------------------------------
@@ -58,6 +58,13 @@ class ReleaseNote(BaseModel):
     # Provenance for auditing / re-fetch.
     source: Literal["rss", "archive", "fixture"] = "rss"
     fetched_at: Optional[datetime] = None
+
+    @field_validator("title")
+    @classmethod
+    def _strip_invisible(cls, v: str) -> str:
+        # Scraped Databricks headings carry trailing zero-width spaces; this
+        # also cleans notes stored before the fetcher stripped them.
+        return re.sub("[\\u200b\\u200c\\u200d\\u2060\\ufeff]", "", v).strip()
 
     @staticmethod
     def make_id(note_date: date, title: str) -> str:

@@ -10,6 +10,11 @@ venv/
 .env
 *.local
 
+# Generated output — the static site is built in CI and deployed as a Pages
+# artifact only; the email body is built per-run by the notify workflow.
+site/
+email/
+
 # OS
 .DS_Store
 

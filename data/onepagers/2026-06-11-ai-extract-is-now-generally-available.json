@@ -1,5 +1,5 @@
 {
-  "product": "ai_extract is now generally available ​",
+  "product": "ai_extract is now generally available",
   "tagline": "The ai extract function is now generally available.",
   "updated": "Jun 11, 2026",
   "status_label": "GA",
@@ -7,7 +7,7 @@
   "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/info-extraction",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_extract-is-now-generally-available",
   "what_it_does": "The ai extract function is now generally available. This function extracts structured data from text and documents according to a schema you provide, supporting nested objects, arrays, type validation, citations, and confidence scores. For a no code UI to build, validate, and iterate on extraction agents, see Information Extraction.",
-  "why_it_matters": "Use your extraction agent​ After you're happy with the agent's performance, use the agent to extract information.",
+  "why_it_matters": "Use your extraction agent After you're happy with the agent's performance, use the agent to extract information.",
   "capabilities": [
     {
       "title": "Serverless compute enabled. See Serverless",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Access to a serverless usage",
-      "desc": "Access to a serverless usage policy with a nonzero budget. This function is only available in some regions, see AI function availa"
+      "desc": "Access to a serverless usage policy with a nonzero budget. This function is only available in some regions, see AI function…"
     },
     {
       "title": "See regional support for aiextract",

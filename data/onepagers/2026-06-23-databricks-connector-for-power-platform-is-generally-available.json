@@ -1,12 +1,12 @@
 {
-  "product": "Databricks connector for Power Platform is generally available ​",
+  "product": "Databricks connector for Power Platform is generally available",
   "tagline": "The Databricks connector for Microsoft Power Platform is now generally available.",
   "updated": "Jun 23, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform/",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-connector-for-power-platform-is-generally-available",
-  "what_it_does": "The Databricks connector for Microsoft Power Platform is now generally available. On this page Last updated on Jul 8, 2026 The Databricks connector for Microsoft Power Platform enables you to build low code applications, workflows, and agents using your Databricks data. Build apps in Power Apps, create automated flows in Power Automate, and develop AI agents in Copilot Studio while preserving your Databricks governance controls.",
+  "what_it_does": "The Databricks connector for Microsoft Power Platform is now generally available. The Databricks connector for Microsoft Power Platform enables you to build low code applications, workflows, and agents using your Databricks data. Build apps in Power Apps, create automated flows in Power Automate, and develop AI agents in Copilot Studio while preserving your Databricks governance controls.",
   "why_it_matters": "Build apps in Power Apps, create automated flows in Power Automate, and develop AI agents in Copilot Studio while preserving your Databricks governance controls.",
   "capabilities": [
     {

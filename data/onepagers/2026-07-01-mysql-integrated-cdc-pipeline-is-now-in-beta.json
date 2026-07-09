@@ -1,5 +1,5 @@
 {
-  "product": "MySQL integrated CDC pipeline is now in Beta ​",
+  "product": "MySQL integrated CDC pipeline is now in Beta",
   "tagline": "The integrated CDC pipeline for MySQL is now in Beta.",
   "updated": "Jul 1, 2026",
   "status_label": "Beta",
@@ -23,7 +23,7 @@
     },
     {
       "title": "CREATE VOLUME on the destination",
-      "desc": "CREATE VOLUME on the destination schema, or on the schema specified in datastagingoptions. A staging volume is required even if da"
+      "desc": "CREATE VOLUME on the destination schema, or on the schema specified in datastagingoptions. A staging volume is required even if…"
     }
   ],
   "prerequisites": [],

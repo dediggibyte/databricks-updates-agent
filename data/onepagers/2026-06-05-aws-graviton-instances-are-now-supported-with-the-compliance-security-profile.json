@@ -1,29 +1,29 @@
 {
-  "product": "AWS Graviton instances are now supported with the compliance security profile ​",
+  "product": "AWS Graviton instances are now supported with the compliance security profile",
   "tagline": "AWS Graviton instance types are now supported with the compliance security profile for all compliance standards in AWS commercial regions and Databricks on AWS GovCloud.",
   "updated": "Jun 5, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/security/privacy/enhanced-security-compliance#supported-instance-types",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#aws-graviton-instances-are-now-supported-with-the-compliance-security-profile",
-  "what_it_does": "AWS Graviton instance types are now supported with the compliance security profile for all compliance standards in AWS commercial regions and Databricks on AWS GovCloud. For the instance types supported by each compliance standard, see Supported instance types. On this page Last updated on Jun 30, 2026 This page describes how to configure enhanced security and compliance settings on your Databricks workspace.",
+  "what_it_does": "AWS Graviton instance types are now supported with the compliance security profile for all compliance standards in AWS commercial regions and Databricks on AWS GovCloud. For the instance types supported by each compliance standard, see Supported instance types. This page describes how to configure enhanced security and compliance settings on your Databricks workspace.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
   "capabilities": [
     {
       "title": "PrivateLink enabled: Update your network",
-      "desc": "PrivateLink enabled: Update your network security group to allow bidirectional access on port 2443 for FIPS encryption. See Create"
+      "desc": "PrivateLink enabled: Update your network security group to allow bidirectional access on port 2443 for FIPS encryption. See…"
     },
     {
       "title": "PrivateLink not enabled: Allow outbound",
-      "desc": "PrivateLink not enabled: Allow outbound access on port 2443 to support FIPS endpoints. See Security groups. If your workspace is i"
+      "desc": "PrivateLink not enabled: Allow outbound access on port 2443 to support FIPS endpoints. See Security groups. If your workspace is…"
     },
     {
       "title": "Allow outbound traffic to s3.<region>.amazonaws.com",
-      "desc": "Allow outbound traffic to s3.<region>.amazonaws.com and s3-fips.<region>.amazonaws.com. For example: s3.us-east-1.amazonaws.com an"
+      "desc": "Allow outbound traffic to s3.<region>.amazonaws.com and s3-fips.<region>.amazonaws.com. For example: s3.us-east-1.amazonaws.com…"
     },
     {
       "title": "General Purpose: M-fleet, Md-fleet, M5dn",
-      "desc": "General Purpose: M-fleet, Md-fleet, M5dn, M5n, M5zn, M6i, M6id, M6idn, M6in, M7a, M7g, M7gd, M7i, M8a, M8g, M8gd, M8i, M8id, M9g, "
+      "desc": "General Purpose: M-fleet, Md-fleet, M5dn, M5n, M5zn, M6i, M6id, M6idn, M6in, M7a, M7g, M7gd, M7i, M8a, M8g, M8gd, M8i, M8id…"
     }
   ],
   "prerequisites": [],

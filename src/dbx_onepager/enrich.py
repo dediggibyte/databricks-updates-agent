@@ -254,6 +254,15 @@ def _unwrap(text: str) -> str:
     return "\n".join(out)
 
 
+def _truncate_words(text: str, limit: int) -> str:
+    """Truncate on a word boundary with an ellipsis — never mid-word."""
+    text = text.strip()
+    if len(text) <= limit:
+        return text
+    cut = text[: limit - 1].rsplit(" ", 1)[0].rstrip(" ,;:—-")
+    return cut + "…"
+
+
 def _sentences(text: str) -> list[str]:
     clean = re.sub(r"\s+", " ", re.sub(r"[#>*`_\-]{1,}", " ", text)).strip()
     parts = re.split(r"(?<=[.!?])\s+", clean)
@@ -325,15 +334,15 @@ def _heuristic_onepager(note: ReleaseNote, doc_text: str = "") -> OnePager:
     )
     # Capabilities come from real bullets; if the note has none, leave the
     # section empty rather than echoing the tagline.
-    caps = [Capability(title=_cap_title(b), desc=b[:130]) for b in highlights[:4]]
+    caps = [Capability(title=_cap_title(b), desc=_truncate_words(b, 130)) for b in highlights[:4]]
     # Light use-case fallback: short noun phrases from the use-case sentence.
     if not use_cases:
         uc_sent = next((s for s in prose if "use case" in s.lower()), "")
         use_cases = [p.strip() for p in re.split(r",|;| and ", uc_sent.split(":")[-1]) if 3 < len(p.strip()) < 40][:4]
 
     return OnePager(
-        product=note.title[:80],
-        tagline=tagline[:200],
+        product=_truncate_words(note.title, 80),
+        tagline=_truncate_words(tagline, 200),
         updated=note.date.strftime("%b %-d, %Y"),
         status_label=label,
         status=status,  # type: ignore[arg-type]
@@ -347,5 +356,5 @@ def _heuristic_onepager(note: ReleaseNote, doc_text: str = "") -> OnePager:
         limitations=limits[:5],
         architecture=["Databricks Platform", note.category.title()],
         steps=[Step(title="Read the docs", desc="Review the linked release note.")],
-        key_takeaway=tagline[:200],
+        key_takeaway=_truncate_words(tagline, 200),
     )

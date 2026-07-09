@@ -6,19 +6,19 @@
   "status": "public-preview",
   "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/#sql-materialized-views",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/#sql-materialized-views",
-  "what_it_does": "Databricks SQL materialized views now support incremental refresh in Public Preview. Instead of recomputing the entire result set on every refresh, the engine detects changes in base tables and updates only the affected rows, dramatically reducing refresh cost and latency for large aggregations.",
+  "what_it_does": "Databricks SQL materialized views now support incremental refresh in Public Preview. Instead of recomputing the entire result set on every refresh, the engine detects changes in base tables and updates only the affected rows, dramatically reducing refresh cost and latency for large aggregations. Highlights: Incremental refresh for a broad set of SQL constructs including joins and aggregations.",
   "why_it_matters": "Instead of recomputing the entire result set on every refresh, the engine detects changes in base tables and updates only the affected rows, dramatically reducing refresh cost and latency for large aggregations.",
   "capabilities": [
     {
-      "title": "Incremental refresh for a",
-      "desc": "Incremental refresh for a broad set of SQL constructs including joins and"
+      "title": "Incremental refresh for a broad",
+      "desc": "Incremental refresh for a broad set of SQL constructs including joins and aggregations."
     },
     {
-      "title": "Automatic fallback to full",
+      "title": "Automatic fallback to full refresh",
       "desc": "Automatic fallback to full refresh when incremental is not possible."
     },
     {
-      "title": "Refresh scheduling and monitoring",
+      "title": "Refresh scheduling and monitoring in",
       "desc": "Refresh scheduling and monitoring in the SQL editor."
     }
   ],

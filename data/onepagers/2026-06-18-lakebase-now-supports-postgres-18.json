@@ -1,5 +1,5 @@
 {
-  "product": "Lakebase now supports Postgres 18 ​",
+  "product": "Lakebase now supports Postgres 18",
   "tagline": "Lakebase Autoscaling now supports Postgres 18.",
   "updated": "Jun 18, 2026",
   "status_label": "Update",
@@ -7,7 +7,7 @@
   "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/compatibility",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-now-supports-postgres-18",
   "what_it_does": "Lakebase Autoscaling now supports Postgres 18. Postgres 17 remains the default version. To use Postgres 18, select it when creating a new project.",
-  "why_it_matters": "Session, memory, and storage​ Session context​ The Lakebase scale to zero feature automatically closes idle connections after a period of inactivity.",
+  "why_it_matters": "Session, memory, and storage Session context The Lakebase scale to zero feature automatically closes idle connections after a period of inactivity.",
   "capabilities": [
     {
       "title": "Any functionality that requires superuser",
@@ -15,7 +15,7 @@
     },
     {
       "title": "The databrickssuperuser takes the place",
-      "desc": "The databrickssuperuser takes the place of the Postgres superuser role. For information about the privileges associated with this "
+      "desc": "The databrickssuperuser takes the place of the Postgres superuser role. For information about the privileges associated with…"
     }
   ],
   "prerequisites": [],

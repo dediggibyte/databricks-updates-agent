@@ -1,12 +1,12 @@
 {
-  "product": "Automatic cost attribution for materialized views and streaming tables in Databr",
+  "product": "Automatic cost attribution for materialized views and streaming tables in…",
   "tagline": "Materialized view and streaming table refreshes in Databricks SQL now inherit custom tags from the enclosing SQL warehouse environment.",
   "updated": "Jul 8, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/ldp/dbsql/materialized-monitor#costs-with-custom-tags",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automatic-cost-attribution-for-materialized-views-and-streaming-tables-in-databricks-sql",
-  "what_it_does": "Materialized view and streaming table refreshes in Databricks SQL now inherit custom tags from the enclosing SQL warehouse environment. These tags propagate to billing surfaces like system.billing.usage, enabling proper cost attribution of materialized view and streaming table updates back to the source SQL warehouse. On this page Last updated on Jul 7, 2026 Monitor and query refresh data about a standalone materialized view using Catalog Explorer, DESCRIBE EXTENDED, or the pipeline event log.",
+  "what_it_does": "Materialized view and streaming table refreshes in Databricks SQL now inherit custom tags from the enclosing SQL warehouse environment. These tags propagate to billing surfaces like system.billing.usage, enabling proper cost attribution of materialized view and streaming table updates back to the source SQL warehouse. Monitor and query refresh data about a standalone materialized view using Catalog Explorer, DESCRIBE EXTENDED, or the pipeline event log.",
   "why_it_matters": "These tags propagate to billing surfaces like system.billing.usage, enabling proper cost attribution of materialized view and streaming table updates back to the source SQL warehouse.",
   "capabilities": [
     {

@@ -1,17 +1,17 @@
 {
-  "product": "Auto time-to-live for automatic row deletion is generally available ​",
+  "product": "Auto time-to-live for automatic row deletion is generally available",
   "tagline": "Auto time to live (auto TTL) is now generally available.",
   "updated": "Jun 12, 2026",
   "status_label": "GA",
   "status": "ga",
   "docs_url": "https://docs.databricks.com/aws/en/tables/operations/auto-ttl",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#auto-time-to-live-for-automatic-row-deletion-is-generally-available",
-  "what_it_does": "Auto time to live (auto TTL) is now generally available. Auto TTL automatically deletes rows from Unity Catalog managed Delta Lake tables, managed Apache Iceberg tables, and streaming tables based on a DATE or TIMESTAMP column. On this page Last updated on Jun 30, 2026 Auto time to live (Auto TTL) automatically deletes rows from Unity Catalog managed tables after a configurable time period based on the value in a timestamp column.",
+  "what_it_does": "Auto time to live (auto TTL) is now generally available. Auto TTL automatically deletes rows from Unity Catalog managed Delta Lake tables, managed Apache Iceberg tables, and streaming tables based on a DATE or TIMESTAMP column. Auto time to live (Auto TTL) automatically deletes rows from Unity Catalog managed tables after a configurable time period based on the value in a timestamp column.",
   "why_it_matters": "The following are two examples for how to use auto time to live: You might want to remove data older than 1 year to keep storage costs low.",
   "capabilities": [
     {
       "title": "Turning off predictive optimization on",
-      "desc": "Turning off predictive optimization on a table with auto time-to-live enabled prevents auto time-to-live from running. You must ha"
+      "desc": "Turning off predictive optimization on a table with auto time-to-live enabled prevents auto time-to-live from running. You must…"
     },
     {
       "title": "Databricks Runtime 17.2 and below",

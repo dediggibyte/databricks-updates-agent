@@ -98,3 +98,21 @@ def run_build(config_path: Optional[str]) -> None:
     paths = Paths(cfg)
     store = Store(paths)
     _finish(store, cfg, paths)
+
+
+def run_email_summary(
+    config_path: Optional[str],
+    days: int,
+    site_url: Optional[str],
+    out: str,
+    subject_out: str,
+) -> None:
+    """Write the weekly email digest (HTML body + subject) from stored data."""
+    from .notify import write_email
+
+    cfg = load_config(config_path)
+    store = Store(Paths(cfg))
+    url = site_url or (cfg.get("render") or {}).get("pages_url", "")
+    if not url:
+        raise SystemExit("email-summary: set render.pages_url in config.yaml or pass --site-url")
+    write_email(store.all_onepagers(), days, url, out, subject_out)

@@ -1,12 +1,12 @@
 {
-  "product": "Agent Bricks Supervisor Agent now supports Unity Catalog volumes as subagent too",
+  "product": "Agent Bricks Supervisor Agent now supports Unity Catalog volumes as subagent…",
   "tagline": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent.",
   "updated": "Jun 11, 2026",
   "status_label": "Update",
   "status": "changed",
   "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-unity-catalog-volumes-as-subagent-tools",
-  "what_it_does": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. On this page Last updated on Jul 8, 2026 This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex tasks. You can improve their coordination based on natural language feedback from your subject matter experts.",
+  "what_it_does": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex tasks. You can improve their coordination based on natural language feedback from your subject matter experts.",
   "why_it_matters": "You can improve their coordination based on natural language feedback from your subject matter experts.",
   "capabilities": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "title": "Access to a serverless usage",
-      "desc": "Access to a serverless usage policy with a nonzero budget. A workspace in one of the supported regions. You must have agents or to"
+      "desc": "Access to a serverless usage policy with a nonzero budget. A workspace in one of the supported regions. You must have agents or…"
     }
   ],
   "prerequisites": [],
