@@ -15,6 +15,9 @@ venv/
 site/
 email/
 
+# Local agent tooling (session-generated permission allowlists)
+.claude/
+
 # OS
 .DS_Store
 

@@ -1,7 +1,10 @@
 name: Email weekly summary
 
-# Emails the weekly digest to the Databricks COE DL and Global after every
-# successful weekly pipeline run — including "no updates this week" runs.
+# Emails the Databricks COE DL:
+#   * weekly  — after every successful weekly pipeline run, covering the last
+#               7 days (including "no updates this week" runs);
+#   * monthly — on the last day of each month, consolidating that calendar
+#               month's updates into one digest.
 #
 # Delivery is Microsoft Graph sendMail (OAuth client credentials) — Exchange
 # Online retired basic username/password SMTP auth in April 2026. Requires an
@@ -15,11 +18,17 @@ on:
   workflow_run:
     workflows: ["Weekly Databricks one-pagers"]
     types: [completed]
+  schedule:
+    - cron: "30 16 28-31 * *"   # candidate month-end days; a guard step sends
+                                # only when tomorrow is the 1st
   workflow_dispatch:
     inputs:
       days:
         description: "Look-back window in days"
         default: "7"
+      month:
+        description: "Send a calendar-month digest instead (YYYY-MM)"
+        required: false
 
 permissions:
   contents: read
@@ -27,33 +36,65 @@ permissions:
 jobs:
   email:
     runs-on: ubuntu-latest
-    # Send after successful weekly runs (incl. zero-update runs); skip on failure.
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    # Send after successful weekly runs (incl. zero-update runs), on the
+    # month-end schedule, and on manual dispatch; skip on weekly failure.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
+      # Month-end guard: the cron fires on the 28th-31st; only the day where
+      # tomorrow is the 1st is the actual last day of the month.
+      - name: Decide digest window
+        id: window
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ "$(date -u -d tomorrow +%d)" != "01" ]; then
+              echo "Not the last day of the month — nothing to send."
+              echo "mode=skip" >> "$GITHUB_OUTPUT"
+            else
+              echo "mode=month" >> "$GITHUB_OUTPUT"
+              echo "month=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
+            fi
+          elif [ -n "${{ inputs.month }}" ]; then
+            echo "mode=month" >> "$GITHUB_OUTPUT"
+            echo "month=${{ inputs.month }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=days" >> "$GITHUB_OUTPUT"
+          fi
+
       # workflow_run.head_sha predates the data commit the weekly run pushed,
       # so check out the branch tip instead of the triggering sha.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+        if: steps.window.outputs.mode != 'skip'
         with:
           ref: ${{ github.event.repository.default_branch }}
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
+        if: steps.window.outputs.mode != 'skip'
         with:
           python-version: "3.11"
 
       - name: Install package
+        if: steps.window.outputs.mode != 'skip'
         run: |
           python -m pip install --upgrade pip
           pip install -e .        # digest needs no Playwright browsers
 
       - name: Build and send email digest (Microsoft Graph)
+        if: steps.window.outputs.mode != 'skip'
         env:
           GRAPH_TENANT_ID: ${{ secrets.GRAPH_TENANT_ID }}
           GRAPH_CLIENT_ID: ${{ secrets.GRAPH_CLIENT_ID }}
           GRAPH_CLIENT_SECRET: ${{ secrets.GRAPH_CLIENT_SECRET }}
           MAIL_SENDER: ${{ secrets.MAIL_SENDER }}
-          MAIL_TO: dl-databricks-coe@diggibyte.com,Global@diggibyte.com
+          MAIL_TO: dl-databricks-coe@diggibyte.com
         run: |
-          python -m dbx_onepager email-summary \
-            --days "${{ inputs.days || '7' }}" \
-            --out email/body.html --subject-out email/subject.txt \
-            --send
+          if [ "${{ steps.window.outputs.mode }}" = "month" ]; then
+            python -m dbx_onepager email-summary \
+              --month "${{ steps.window.outputs.month }}" \
+              --out email/body.html --subject-out email/subject.txt \
+              --send
+          else
+            python -m dbx_onepager email-summary \
+              --days "${{ inputs.days || '7' }}" \
+              --out email/body.html --subject-out email/subject.txt \
+              --send
+          fi

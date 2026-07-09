@@ -59,11 +59,32 @@ def recent_onepagers(
     return sorted(picked, key=lambda op: op.note_id, reverse=True)
 
 
-def build_subject(items: list[OnePager], today: Optional[date] = None) -> str:
+def month_onepagers(onepagers: list[OnePager], month: str) -> list[OnePager]:
+    """One-pagers dated in calendar month ``month`` (``YYYY-MM``), newest first."""
+    picked = [
+        op for op in onepagers
+        if note_date(op.note_id) is not None and op.note_id[:7] == month
+    ]
+    return sorted(picked, key=lambda op: op.note_id, reverse=True)
+
+
+def month_label(month: str) -> str:
+    """Human label for a ``YYYY-MM`` month, e.g. 'July 2026'."""
+    return date.fromisoformat(month + "-01").strftime("%B %Y")
+
+
+def build_subject(
+    items: list[OnePager], today: Optional[date] = None, month: Optional[str] = None
+) -> str:
+    n = len(items)
+    if month:
+        label = month_label(month)
+        if not items:
+            return f"Databricks updates — no release notes in {label} (monthly digest)"
+        return f"Databricks updates — {label} monthly digest ({n} release note{'s' if n != 1 else ''})"
     stamp = (today or date.today()).strftime("%b %d, %Y")
     if not items:
         return f"Databricks updates — no new release notes ({stamp})"
-    n = len(items)
     return f"Databricks updates — {n} new release note{'s' if n != 1 else ''} ({stamp})"
 
 
@@ -89,20 +110,20 @@ def _item_html(op: OnePager, site_url: str) -> str:
       </tr>"""
 
 
-def build_html(items: list[OnePager], site_url: str, days: int) -> str:
+def build_html(
+    items: list[OnePager], site_url: str, days: int, month: Optional[str] = None
+) -> str:
     site_url = site_url.rstrip("/")
+    period = month_label(month) if month else f"the last {days} days"
     if items:
         n = len(items)
-        intro = (
-            f"{n} new Databricks platform update{'s' if n != 1 else ''} "
-            f"in the last {days} days."
-        )
+        intro = f"{n} Databricks platform update{'s' if n != 1 else ''} in {period}."
         rows = "\n".join(_item_html(op, site_url) for op in items)
     else:
-        intro = f"No new Databricks platform updates in the last {days} days."
+        intro = f"No Databricks platform updates in {period}."
         rows = (
             '      <tr><td style="padding:18px;font-size:14px;color:#64748b;">'
-            "Nothing new this week — the gallery below has every past update."
+            "Nothing new this period — the gallery below has every past update."
             "</td></tr>"
         )
     return f"""\
@@ -193,14 +214,20 @@ def write_email(
     site_url: str,
     out: str,
     subject_out: str,
+    month: Optional[str] = None,
 ) -> int:
-    """Write the HTML body and subject files; return the item count."""
-    items = recent_onepagers(onepagers, days)
+    """Write the HTML body and subject files; return the item count.
+
+    ``month`` (``YYYY-MM``) switches from the rolling ``days`` window to a
+    calendar-month digest.
+    """
+    items = month_onepagers(onepagers, month) if month else recent_onepagers(onepagers, days)
     out_path = Path(out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(build_html(items, site_url, days), encoding="utf-8")
+    out_path.write_text(build_html(items, site_url, days, month=month), encoding="utf-8")
     subject_path = Path(subject_out)
     subject_path.parent.mkdir(parents=True, exist_ok=True)
-    subject_path.write_text(build_subject(items) + "\n", encoding="utf-8")
-    print(f"email-summary: {len(items)} item(s) in last {days} day(s) -> {out}")
+    subject_path.write_text(build_subject(items, month=month) + "\n", encoding="utf-8")
+    window = month_label(month) if month else f"last {days} day(s)"
+    print(f"email-summary: {len(items)} item(s) in {window} -> {out}")
     return len(items)

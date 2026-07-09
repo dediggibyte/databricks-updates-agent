@@ -23,7 +23,7 @@ on demand, and mails a **weekly digest** with links to the published gallery.
 - **Pluggable enrichment** — free GitHub Models (default), Anthropic Claude, or a keyless deterministic heuristic; every provider degrades gracefully to the heuristic.
 - **Dual-theme one-pagers** — dark *console* variant plus a light *paper* alternate, rendered from a single Pydantic content contract.
 - **Searchable gallery** on GitHub Pages with status filters and sorting.
-- **Weekly email digest** to the Databricks COE DL and Global after every scheduled run — including "no updates this week".
+- **Weekly email digest** to the Databricks COE DL after every scheduled run — including "no updates this week" — plus a **consolidated monthly digest** on the last day of each month.
 - **Historical backfill** for any month range, on demand from the Actions tab.
 
 ---
@@ -106,6 +106,9 @@ python -m dbx_onepager enrich --force        # re-enrich stored notes in place
 
 # Build the weekly email digest (HTML body + subject) from stored data.
 python -m dbx_onepager email-summary --days 7
+
+# Build a consolidated calendar-month digest instead.
+python -m dbx_onepager email-summary --month 2026-06
 ```
 
 Global flags (usable before or after the subcommand):
@@ -171,7 +174,7 @@ needed to switch cloud, provider, or model.
 | Workflow | Trigger | What it does |
 |----------|---------|--------------|
 | [`weekly.yml`](.github/workflows/weekly.yml) | Tuesdays 07:00 UTC cron + manual dispatch (`mode`: `weekly` / `backfill` / `reenrich`, plus `refresh` and `model` inputs) | Fetch → enrich → commit refreshed `data/` → build `site/` → deploy to GitHub Pages. |
-| [`notify.yml`](.github/workflows/notify.yml) | After each successful weekly run (`workflow_run`) + manual dispatch | Builds the digest with `email-summary --send` and mails it to `dl-databricks-coe@diggibyte.com` and `Global@diggibyte.com` via Microsoft Graph. |
+| [`notify.yml`](.github/workflows/notify.yml) | After each successful weekly run (`workflow_run`), last day of every month (cron + guard), + manual dispatch (`days` or `month` input) | Builds the digest with `email-summary --send` and mails it to `dl-databricks-coe@diggibyte.com` via Microsoft Graph — weekly (last 7 days) or a consolidated calendar-month digest. |
 | [`pr-template-check.yml`](.github/workflows/pr-template-check.yml) | Pull requests | Enforces the repository PR template (marker + required sections). |
 
 **Setup:** enable Pages (Settings → Pages → Source: **GitHub Actions**) and add

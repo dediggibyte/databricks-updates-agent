@@ -129,8 +129,28 @@ def test_email_digest_selects_recent_and_builds_html():
     assert "Feature X" in html_body
 
     empty = build_html([], "https://example.github.io/repo", days=7)
-    assert "No new Databricks platform updates" in empty
+    assert "No Databricks platform updates" in empty
     assert build_subject([], today).startswith("Databricks updates — no new release notes")
+
+
+def test_monthly_digest_selects_calendar_month():
+    from dbx_onepager.notify import build_subject, month_onepagers
+
+    def _op(note_id):
+        return OnePager(
+            product="X", tagline="t", updated="u", status_label="GA", status="ga",
+            what_it_does="x", why_it_matters="y", key_takeaway="z", note_id=note_id,
+        )
+
+    ops = [_op("2026-06-30-last"), _op("2026-07-01-next"), _op("2026-06-01-first")]
+    june = month_onepagers(ops, "2026-06")
+    assert [o.note_id for o in june] == ["2026-06-30-last", "2026-06-01-first"]
+    assert build_subject(june, month="2026-06") == (
+        "Databricks updates — June 2026 monthly digest (2 release notes)"
+    )
+    assert build_subject([], month="2026-06").startswith(
+        "Databricks updates — no release notes in June 2026"
+    )
 
 
 def test_graph_message_payload():

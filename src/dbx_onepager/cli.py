@@ -74,6 +74,8 @@ def build_parser() -> argparse.ArgumentParser:
                         help="Emit an HTML email digest of recent one-pagers")
     em.add_argument("--days", type=int, default=7,
                     help="Look-back window in days (default 7)")
+    em.add_argument("--month", default=None, metavar="YYYY-MM",
+                    help="Calendar-month digest instead of the rolling window")
     em.add_argument("--site-url", default=None,
                     help="Published Pages base URL (default: render.pages_url from config)")
     em.add_argument("--out", default="email/body.html",
@@ -103,7 +105,8 @@ def main(argv: list[str] | None = None) -> int:
         pipeline.run_build(args.config)
     elif cmd == "email-summary":
         pipeline.run_email_summary(args.config, args.days, args.site_url,
-                                   args.out, args.subject_out, send=args.send)
+                                   args.out, args.subject_out, send=args.send,
+                                   month=args.month)
     else:  # pragma: no cover - argparse enforces
         return 2
     return 0

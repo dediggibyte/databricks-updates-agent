@@ -107,8 +107,9 @@ def run_email_summary(
     out: str,
     subject_out: str,
     send: bool = False,
+    month: Optional[str] = None,
 ) -> None:
-    """Write the weekly email digest (HTML body + subject) from stored data."""
+    """Write the weekly (or ``month`` calendar) email digest from stored data."""
     import os
 
     from .notify import send_via_graph, write_email
@@ -118,7 +119,7 @@ def run_email_summary(
     url = site_url or (cfg.get("render") or {}).get("pages_url", "")
     if not url:
         raise SystemExit("email-summary: set render.pages_url in config.yaml or pass --site-url")
-    write_email(store.all_onepagers(), days, url, out, subject_out)
+    write_email(store.all_onepagers(), days, url, out, subject_out, month=month)
     if send:
         required = ("GRAPH_TENANT_ID", "GRAPH_CLIENT_ID", "GRAPH_CLIENT_SECRET",
                     "MAIL_SENDER", "MAIL_TO")
