@@ -21,7 +21,7 @@ on demand, and mails a **weekly digest** with links to the published gallery.
 - **Weekly auto-fetch** of Databricks platform release notes (RSS with an index-scrape fallback, headless Chromium via Playwright to pass the docs bot-wall).
 - **Depth from the source doc** — each note's "See …" link is followed to the real feature documentation, which drives the enrichment and becomes the one-pager's docs link.
 - **Pluggable enrichment** — free GitHub Models (default), Anthropic Claude, or a keyless deterministic heuristic; every provider degrades gracefully to the heuristic.
-- **Dual-theme one-pagers** — dark *console* variant plus a light *paper* alternate, rendered from a single Pydantic content contract.
+- **Dual-theme one-pagers** — light COE app look by default plus a navy dark alternate, rendered from a single Pydantic content contract.
 - **Searchable gallery** on GitHub Pages with status filters and sorting.
 - **Weekly email digest** to the Databricks COE DL after every scheduled run — including "no updates this week" — plus a **consolidated monthly digest** on the last day of each month.
 - **Historical backfill** for any month range, on demand from the Actions tab.
@@ -55,7 +55,7 @@ fetch  →  store  →  enrich (LLM)  →  render  →  gallery  →  email dige
 | **fetch**  | `fetch.py`   | Pulls release notes (RSS weekly, archive backfill) **and extracts each note's reference links**, then fetches the **underlying technical doc** it points to (cached under `data/docs/`). Strips doc chrome and invisible characters so scraped text stays clean. |
 | **store**  | `store.py`   | Durable JSON per note, **deduped by id**. Keeps full history so any past note is always re-generatable. |
 | **enrich** | `enrich.py`  | Turns each note **plus its underlying tech doc** into the structured one-pager contract. Pluggable provider (see below); always falls back to a keyless heuristic. |
-| **render** | `render.py`  | Fills the Jinja2 templates with the Datalab design tokens → one self-contained HTML page per note, plus the searchable `index.html` gallery. |
+| **render** | `render.py`  | Fills the Jinja2 templates with the COE Platform design tokens → one self-contained HTML page per note, plus the searchable `index.html` gallery. |
 | **notify** | `notify.py`  | Builds the weekly HTML email digest (recent updates + links to their one-pagers and the gallery). |
 
 The one-pager **content contract** lives in `models.py` (`OnePager`). That single
@@ -72,7 +72,7 @@ source of truth) lives in git.
 
 ```
 config.yaml                 source / model / render / pages-url settings
-assets/ds/tokens/*.css      Datalab design tokens (ported from the design)
+assets/ds/tokens/*.css      COE Platform design tokens (ported from coe_platform)
 templates/                  onepager.html.j2, gallery.html.j2
 src/dbx_onepager/           fetch · store · enrich · render · notify · pipeline · cli
 fixtures/                   sample release notes for offline runs/tests

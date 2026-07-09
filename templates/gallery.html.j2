@@ -1,11 +1,18 @@
 {#
   Gallery index — a browsable, filterable archive of every generated
   one-pager (new + backfilled past notes).
+
   Context: site_title, generated_at, items[] (each: product, tagline, updated,
   date_iso, status, status_label, status_color, category, href).
+
+  Design: COE Platform theme (dediggibyte/coe_platform) — warm oat surfaces,
+  Databricks navy text, Lava red brand accent, DM Sans / DM Mono, soft-fill
+  status badges. Stats strip, sticky toolbar with status-chip filters + "/"
+  search shortcut, and month group headers built client-side so they follow
+  the active sort/filter. Requires the COE token set in assets/ds/tokens/.
 #}
 <!DOCTYPE html>
-<html lang="en" data-theme="console">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,64 +23,166 @@
   <link rel="stylesheet" href="assets/ds/tokens/spacing.css">
   <link rel="stylesheet" href="assets/ds/tokens/base.css">
   <style>
-    body { background: var(--ink-0); font-family: var(--font-sans); color: var(--text-1);
-           margin: 0; padding: 48px 24px 80px; }
+    body { margin: 0; background: var(--surface-page); color: var(--text-1); font: var(--type-body);
+           background-image: radial-gradient(rgba(27,49,57,0.05) 1px, transparent 1px);
+           background-size: 28px 28px; padding: 0 24px 72px; }
+    a { color: var(--brand-700); }
+    a:hover { color: var(--brand-800); }
+    .rail { height: 3px; margin: 0 -24px;
+            background: linear-gradient(90deg, var(--brand-600), var(--brand-400) 45%, transparent 90%); }
     .wrap { max-width: 1320px; margin: 0 auto; }
-    .masthead { display: flex; justify-content: space-between; align-items: flex-end;
-                gap: 24px; border-bottom: 1px solid var(--line-1); padding-bottom: 22px; }
-    .brand { display: flex; align-items: center; gap: 8px; font: 600 15px/1 var(--font-display); }
-    .brand .dot { width: 10px; height: 10px; background: var(--flow-400); border-radius: 2px; }
-    h1 { font: 600 34px/1.1 var(--font-display); letter-spacing: var(--tracking-display); margin: 14px 0 0; }
-    .sub { font: var(--type-body); color: var(--text-2); margin: 8px 0 0; max-width: 720px; }
-    .meta { font: var(--type-code-sm); color: var(--text-3); text-align: right; flex: none; }
-    .controls { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0 28px; }
-    .controls input, .controls select {
-      font: var(--type-body-sm); color: var(--text-1); background: var(--ink-2);
-      border: 1px solid var(--line-2); border-radius: var(--radius-sm); padding: 9px 12px; }
-    .controls input { flex: 1; min-width: 220px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 18px; }
-    .cardlink { text-decoration: none; }
-    .cardx { background: var(--ink-1); border: 1px solid var(--line-1); border-radius: var(--radius-md);
-             padding: 20px 22px; height: 100%; display: flex; flex-direction: column; gap: 12px;
-             transition: border-color 120ms, transform 120ms; }
-    .cardx:hover { border-color: var(--flow-500); transform: translateY(-2px); }
+
+    /* ---- masthead ---- */
+    .masthead { padding-top: 36px; }
+    .mrow { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+    .brand { display: flex; align-items: center; gap: 9px; font: 700 15px/1 var(--font-sans); color: var(--text-1); }
+    .brand .dot { width: 11px; height: 11px; background: var(--brand-600); border-radius: 3px; }
+    .brand .sep { width: 1px; height: 14px; background: var(--border-strong); }
+    .brand .crumb { font: var(--type-code-sm); color: var(--muted-2); letter-spacing: 0.04em; }
+    .built { font: var(--type-code-sm); color: var(--muted-2); }
+    h1 { font: 700 40px/1.12 var(--font-sans); letter-spacing: var(--tracking-display);
+         margin: 24px 0 0; text-wrap: balance; }
+    h1 em { color: var(--brand-600); font-style: normal; }
+    .sub { font: 400 15px/1.6 var(--font-sans); color: var(--muted); margin: 12px 0 0;
+           max-width: 660px; text-wrap: pretty; }
+
+    /* ---- stats (StatCard) ---- */
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 30px; }
+    .stat { background: var(--surface-card); border: 1px solid var(--border); border-radius: var(--radius-lg);
+            padding: 18px 20px; box-shadow: var(--shadow-card); }
+    .stat .sk { font: var(--type-label); letter-spacing: var(--tracking-label);
+                text-transform: uppercase; color: var(--muted); }
+    .stat .sv { font: 700 28px/1.1 var(--font-mono); letter-spacing: -0.02em; color: var(--text-1); margin-top: 9px; }
+    .stat.accent .sv { color: var(--brand-600); }
+
+    /* ---- toolbar ---- */
+    .toolbar { position: sticky; top: 0; z-index: 20; margin-top: 26px; padding: 14px 0;
+               display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+               background: rgba(247,245,242,0.92); backdrop-filter: blur(10px);
+               border-bottom: 1px solid var(--border); }
+    .search { flex: 1; min-width: 240px; display: flex; align-items: center; gap: 9px;
+              background: var(--surface-card); border: 1px solid var(--border);
+              border-radius: var(--radius-sm); padding: 9px 12px; }
+    .search:focus-within { border-color: var(--brand-500); box-shadow: 0 0 0 2px var(--brand-100); }
+    .search svg { flex: none; color: var(--muted-2); }
+    .search input { all: unset; flex: 1; font: var(--type-body-sm); color: var(--text-1); }
+    .search input::placeholder { color: var(--muted-2); }
+    .search .kbd { font: var(--type-code-sm); color: var(--muted-2); border: 1px solid var(--border);
+                   border-radius: 5px; padding: 1px 7px; }
+    .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+    .chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
+            font: 500 12.5px/1 var(--font-sans); color: var(--muted); background: var(--surface-card);
+            border: 1px solid var(--border); border-radius: var(--radius-full); padding: 8px 13px;
+            transition: border-color var(--dur-fast), color var(--dur-fast), background var(--dur-fast); }
+    .chip .cdot { width: 7px; height: 7px; border-radius: 50%; background: var(--chipc, var(--muted-2)); }
+    .chip .cnt { color: var(--muted-2); font: var(--type-code-sm); }
+    .chip:hover { background: var(--oat-50); color: var(--text-1); }
+    .chip.active { background: var(--chipbg, var(--tone-slate-bg)); color: var(--chipc, var(--tone-slate-tx));
+                   border-color: transparent; }
+    .chip.active .cnt { color: inherit; opacity: 0.7; }
+    .chip[hidden] { display: none; }
+    select#sort { font: 500 12.5px/1 var(--font-sans); color: var(--muted); background: var(--surface-card);
+                  border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 9px 12px; }
+
+    /* ---- status tones (coe_platform ui.tsx Badge) ---- */
+    .s-ga { --chipc: var(--tone-green-tx); --chipbg: var(--tone-green-bg); }
+    .s-public-preview { --chipc: var(--tone-blue-tx); --chipbg: var(--tone-blue-bg); }
+    .s-gated-preview { --chipc: var(--tone-violet-tx); --chipbg: var(--tone-violet-bg); }
+    .s-beta { --chipc: var(--tone-amber-tx); --chipbg: var(--tone-amber-bg); }
+    .s-changed { --chipc: var(--tone-slate-tx); --chipbg: var(--tone-slate-bg); }
+    .s-eol { --chipc: var(--tone-red-tx); --chipbg: var(--tone-red-bg); }
+
+    /* ---- grid + month groups ---- */
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 16px; margin-top: 8px; }
+    .mhead { grid-column: 1 / -1; display: flex; align-items: center; gap: 14px; margin: 26px 0 2px; }
+    .mhead .ml { font: 600 15px/1 var(--font-sans); color: var(--text-1); }
+    .mhead .mc { font: var(--type-code-sm); color: var(--muted-2); }
+    .mhead .mline { flex: 1; height: 1px; background: var(--border); }
+    .cardlink { text-decoration: none; display: block; height: 100%; }
+    .cardx { background: var(--surface-card); border: 1px solid var(--border); border-radius: var(--radius-lg);
+             padding: 20px 22px 16px; height: 100%; box-sizing: border-box; box-shadow: var(--shadow-card);
+             display: flex; flex-direction: column; gap: 11px;
+             transition: border-color var(--dur-base) var(--ease-out),
+                         transform var(--dur-base) var(--ease-out),
+                         box-shadow var(--dur-base) var(--ease-out); }
+    .cardlink:hover .cardx { border-color: var(--border-strong); transform: translateY(-2px);
+                             box-shadow: var(--shadow-cardhover); }
+    .cardlink:focus-visible { outline: none; }
+    .cardlink:focus-visible .cardx { box-shadow: var(--focus-ring); }
     .crow { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
-    .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: var(--radius-full);
-             font: var(--type-data); border: 1px solid var(--line-2); }
-    .badge .bdot { width: 7px; height: 7px; border-radius: 50%; }
-    .cdate { font: var(--type-code-sm); color: var(--text-3); }
-    .cprod { font: 600 18px/1.25 var(--font-display); color: var(--text-1); margin: 0; }
-    .ctag { font: var(--type-body-sm); color: var(--text-2); margin: 0;
-            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-    .empty { color: var(--text-3); font: var(--type-body); padding: 40px 0; }
-    footer { margin-top: 48px; color: var(--text-3); font: var(--type-code-sm); }
-    footer a { color: var(--flow-400); }
+    .badge { display: inline-flex; align-items: center; border-radius: var(--radius-full);
+             padding: 3px 10px; font: 500 12px/1.4 var(--font-sans);
+             background: var(--chipbg, var(--tone-slate-bg)); color: var(--chipc, var(--tone-slate-tx)); }
+    .cdate { font: var(--type-code-sm); color: var(--muted-2); }
+    .cprod { font: 600 17px/1.35 var(--font-sans); color: var(--text-1); margin: 0; text-wrap: pretty; }
+    .ctag { font: var(--type-body-sm); color: var(--muted); margin: 0; display: -webkit-box;
+            -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .cfoot { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--border-soft);
+             display: flex; justify-content: space-between; align-items: center; }
+    .ccat { font: var(--type-code-sm); color: var(--muted-2); }
+    .cgo { font: 600 13px/1 var(--font-sans); color: var(--brand-600);
+           display: inline-flex; gap: 6px; align-items: center; opacity: 0.85;
+           transition: opacity var(--dur-base); }
+    .cgo .ar { transition: transform var(--dur-base) var(--ease-out); }
+    .cardlink:hover .cgo { opacity: 1; }
+    .cardlink:hover .cgo .ar { transform: translateX(3px); }
+
+    .empty { color: var(--muted); font: var(--type-body); padding: 48px 0; text-align: center; }
+    footer { margin-top: 56px; border-top: 1px solid var(--border); padding-top: 20px;
+             display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+             font: var(--type-code-sm); color: var(--muted-2); }
+    footer a { color: var(--brand-700); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 900px) {
+      h1 { font-size: 30px; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+    }
   </style>
 </head>
 <body>
+  <div class="rail"></div>
   <div class="wrap">
-    <div class="masthead">
-      <div>
-        <div class="brand"><span class="dot"></span>databricks</div>
-        <h1>{{ site_title }}</h1>
-        <p class="sub">Auto-generated executive one-pagers for every Databricks platform
-           release note — the technical change and the business impact, side by side.
-           Refreshed weekly.</p>
-      </div>
-      <div class="meta">{{ items|length }} update{{ '' if items|length == 1 else 's' }}<br>Built {{ generated_at }}</div>
-    </div>
 
-    <div class="controls">
-      <input id="q" type="search" placeholder="Search updates…" aria-label="Search">
-      <select id="status" aria-label="Filter by status">
-        <option value="">All statuses</option>
-        <option value="ga">GA</option>
-        <option value="public-preview">Public Preview</option>
-        <option value="gated-preview">Gated Preview</option>
-        <option value="beta">Beta</option>
-        <option value="changed">Update</option>
-        <option value="eol">EOL</option>
-      </select>
+    <header class="masthead">
+      <div class="mrow">
+        <div class="brand">
+          <span class="dot"></span>databricks
+          <span class="sep"></span>
+          <span class="crumb">COE · release intelligence</span>
+        </div>
+        <span class="built">built {{ generated_at }}</span>
+      </div>
+      {% set words = site_title.split(' ') %}
+      <h1>{{ words[:-1]|join(' ') }} <em>{{ words[-1] }}</em></h1>
+      <p class="sub">Executive one-pagers for every Databricks platform release note — the technical
+         change and the business impact, side by side. Refreshed every Tuesday.</p>
+
+      {% set ga_n = items|selectattr('status', 'equalto', 'ga')|list|length %}
+      {% set prev_n = items|selectattr('status', 'in', ['public-preview', 'gated-preview', 'beta'])|list|length %}
+      <div class="stats">
+        <div class="stat accent"><div class="sk">Updates published</div><div class="sv">{{ items|length }}</div></div>
+        <div class="stat"><div class="sk">Generally available</div><div class="sv">{{ ga_n }}</div></div>
+        <div class="stat"><div class="sk">In preview / beta</div><div class="sv">{{ prev_n }}</div></div>
+        <div class="stat"><div class="sk">Latest release note</div><div class="sv">{{ items[0].updated if items else '—' }}</div></div>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <label class="search">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Search updates…" aria-label="Search">
+        <span class="kbd">/</span>
+      </label>
+      <div class="chips" role="group" aria-label="Filter by status">
+        <button class="chip active" data-status=""><span class="cdot" style="background:var(--brand-600)"></span>All <span class="cnt"></span></button>
+        <button class="chip s-ga" data-status="ga"><span class="cdot"></span>GA <span class="cnt"></span></button>
+        <button class="chip s-public-preview" data-status="public-preview"><span class="cdot"></span>Public Preview <span class="cnt"></span></button>
+        <button class="chip s-gated-preview" data-status="gated-preview"><span class="cdot"></span>Gated Preview <span class="cnt"></span></button>
+        <button class="chip s-beta" data-status="beta"><span class="cdot"></span>Beta <span class="cnt"></span></button>
+        <button class="chip s-changed" data-status="changed"><span class="cdot"></span>Update <span class="cnt"></span></button>
+        <button class="chip s-eol" data-status="eol"><span class="cdot"></span>EOL <span class="cnt"></span></button>
+      </div>
       <select id="sort" aria-label="Sort">
         <option value="newest">Newest first</option>
         <option value="oldest">Oldest first</option>
@@ -85,57 +194,91 @@
       <a class="cardlink card-item" href="{{ it.href }}"
          data-title="{{ (it.product ~ ' ' ~ it.tagline)|lower }}"
          data-status="{{ it.status }}" data-date="{{ it.date_iso }}">
-        <div class="cardx">
+        <article class="cardx">
           <div class="crow">
-            <span class="badge" style="color:var({{ it.status_color }});">
-              <span class="bdot" style="background:var({{ it.status_color }});"></span>{{ it.status_label }}
-            </span>
-            <span class="cdate">{{ it.updated }}</span>
+            <span class="badge s-{{ it.status }}">{{ it.status_label }}</span>
+            <time class="cdate">{{ it.updated }}</time>
           </div>
           <h3 class="cprod">{{ it.product }}</h3>
           <p class="ctag">{{ it.tagline }}</p>
-        </div>
+          <div class="cfoot">
+            <span class="ccat">{{ it.category }}</span>
+            <span class="cgo">One-pager <span class="ar">→</span></span>
+          </div>
+        </article>
       </a>
       {% endfor %}
     </div>
     <div class="empty" id="empty" style="display:none;">No updates match your filters.</div>
 
     <footer>
-      Generated by the Databricks Update One-Pager pipeline · fetch → enrich → render.
-      Source: <a href="https://docs.databricks.com/aws/en/release-notes/product/">Databricks platform release notes</a>.
+      <span>Generated by the <a href="https://github.com/dediggibyte/databricks-updates-agent">Databricks Updates Agent</a> · fetch → enrich → render</span>
+      <span>Source: <a href="https://docs.databricks.com/aws/en/release-notes/product/">Databricks platform release notes</a></span>
     </footer>
   </div>
 
   <script>
     const q = document.getElementById('q');
-    const statusSel = document.getElementById('status');
     const sortSel = document.getElementById('sort');
     const grid = document.getElementById('grid');
     const empty = document.getElementById('empty');
     const cards = Array.from(document.querySelectorAll('.card-item'));
+    const chips = Array.from(document.querySelectorAll('.chip'));
+    const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    let activeStatus = '';
 
-    function apply() {
-      const term = q.value.trim().toLowerCase();
-      const st = statusSel.value;
-      let visible = 0;
-      cards.forEach(c => {
-        const okTerm = !term || c.dataset.title.includes(term);
-        const okStatus = !st || c.dataset.status === st;
-        const show = okTerm && okStatus;
-        c.style.display = show ? '' : 'none';
-        if (show) visible++;
+    chips.forEach(ch => {
+      const s = ch.dataset.status;
+      const n = s ? cards.filter(c => c.dataset.status === s).length : cards.length;
+      ch.querySelector('.cnt').textContent = n;
+      if (s && !n) ch.hidden = true;
+      ch.addEventListener('click', () => {
+        activeStatus = s;
+        chips.forEach(x => x.classList.toggle('active', x === ch));
+        rebuild();
       });
-      empty.style.display = visible ? 'none' : 'block';
+    });
+
+    function visible(c) {
+      const term = q.value.trim().toLowerCase();
+      return (!term || c.dataset.title.includes(term)) &&
+             (!activeStatus || c.dataset.status === activeStatus);
     }
-    function sortCards() {
+
+    function monthLabel(d) {
+      return MONTHS[parseInt(d.slice(5, 7), 10) - 1] + ' ' + d.slice(0, 4);
+    }
+
+    function rebuild() {
       const dir = sortSel.value === 'oldest' ? 1 : -1;
-      cards.sort((a, b) => (a.dataset.date < b.dataset.date ? -1 : 1) * dir)
-           .forEach(c => grid.appendChild(c));
+      const sorted = cards.slice().sort((a, b) => (a.dataset.date < b.dataset.date ? -1 : 1) * dir);
+      grid.querySelectorAll('.mhead').forEach(h => h.remove());
+      let shown = 0;
+      sorted.forEach(c => { grid.appendChild(c); c.style.display = visible(c) ? '' : 'none'; });
+      let lastKey = '';
+      sorted.forEach(c => {
+        if (!visible(c)) return;
+        shown++;
+        const key = c.dataset.date.slice(0, 7);
+        if (key !== lastKey) {
+          lastKey = key;
+          const n = sorted.filter(x => visible(x) && x.dataset.date.slice(0, 7) === key).length;
+          const h = document.createElement('div');
+          h.className = 'mhead';
+          h.innerHTML = '<span class="ml">' + monthLabel(c.dataset.date) + '</span>' +
+                        '<span class="mline"></span><span class="mc">' + n + ' update' + (n === 1 ? '' : 's') + '</span>';
+          grid.insertBefore(h, c);
+        }
+      });
+      empty.style.display = shown ? 'none' : 'block';
     }
-    q.addEventListener('input', apply);
-    statusSel.addEventListener('change', apply);
-    sortSel.addEventListener('change', () => { sortCards(); apply(); });
-    sortCards();
+
+    q.addEventListener('input', rebuild);
+    sortSel.addEventListener('change', rebuild);
+    document.addEventListener('keydown', e => {
+      if (e.key === '/' && document.activeElement !== q) { e.preventDefault(); q.focus(); }
+    });
+    rebuild();
   </script>
 </body>
 </html>

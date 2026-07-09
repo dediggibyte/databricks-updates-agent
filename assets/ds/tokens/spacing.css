@@ -1,35 +1,28 @@
 /* ============================================================
-   Datalab spacing, radii, borders, elevation
-   4px base grid. Corners are tight — this is an engineering
-   tool, not a consumer app. Shadows are minimal on dark
-   (borders do the work); soft single shadow on paper.
+   COE Platform spacing, radii, borders, elevation
+   4px grid. Corners are generous (cards 16px, controls 10px —
+   matching rounded-2xl / rounded-[10px] in the app). Shadows are
+   the app's shadow-card / shadow-cardhover pair.
    ============================================================ */
 
 :root {
   /* ---- Spacing (4px grid) ---- */
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 20px;
-  --space-6: 24px;
-  --space-8: 32px;
-  --space-10: 40px;
-  --space-12: 48px;
-  --space-16: 64px;
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  --space-12: 48px; --space-16: 64px;
 
   /* ---- Radii ---- */
-  --radius-xs: 3px;            /* tags, code spans */
-  --radius-sm: 6px;            /* buttons, inputs, pills */
-  --radius-md: 8px;            /* cards, panels */
-  --radius-lg: 12px;           /* modals, large surfaces */
-  --radius-full: 999px;        /* status dots, pills */
+  --radius-xs: 6px;            /* tags, code spans */
+  --radius-sm: 10px;           /* buttons, inputs (rounded-[10px]) */
+  --radius-md: 12px;           /* small panels (rounded-xl) */
+  --radius-lg: 16px;           /* cards (rounded-2xl) */
+  --radius-full: 999px;        /* badges, pills */
 
-  /* ---- Elevation ---- */
-  --shadow-card-dark: 0 1px 0 rgba(0,0,0,0.25);             /* barely-there; border carries it */
-  --shadow-raised-dark: 0 8px 24px rgba(0,0,0,0.45);        /* menus, dialogs on dark */
-  --shadow-card-paper: 0 1px 2px rgba(24,36,47,0.06), 0 4px 12px rgba(24,36,47,0.05);
-  --shadow-raised-paper: 0 12px 32px rgba(24,36,47,0.14);
+  /* ---- Elevation (tailwind.config.js boxShadow) ---- */
+  --shadow-card: 0 1px 2px 0 rgba(0,0,0,0.04), 0 1px 3px 0 rgba(0,0,0,0.06);
+  --shadow-cardhover: 0 6px 18px -8px rgba(27,49,57,0.16);
+  --shadow-pop: 0 10px 30px -12px rgba(27,49,57,0.14);
+  --shadow-navy: 0 24px 60px rgba(16,29,34,0.45);
 
   /* ---- Borders ---- */
   --border-width: 1px;

@@ -1,15 +1,28 @@
 {#
-  One-pager template — faithful port of the Datalab "Databricks Update
-  One-Pager" design (Console/dark canonical, with a Paper/light theme).
-  Every section is optional and hides when its data is empty.
+  One-pager template — COE Platform theme (dediggibyte/coe_platform):
+  warm oat surfaces, Databricks navy text, Lava red accent, DM Sans/DM Mono,
+  soft-fill status badges. Every section is optional and hides when empty.
+
+  Theme mapping (variant names come from render.py / config.yaml):
+    theme="console"  →  the light COE app look (default, <id>.html)
+    theme="paper"    →  the navy dark executive alternate (<id>.paper.html)
 
   Context:
     op            : OnePager
     theme         : "console" | "paper"
-    status_color  : css var name for the status accent (from render.py)
+    status_color  : css var name (kept for compat; accents now map from op.status)
     asset_prefix  : relative path to the assets/ dir (e.g. "../assets")
     gallery_href  : link back to the gallery index
+
+  The theme toggle links between <id>.html and <id>.paper.html — it assumes
+  render.emit_alternate: true in config.yaml (the default). Remove the
+  .theme-toggle anchor if you disable alternates.
 #}
+{% if theme == 'console' %}
+  {% set alt_href = op.note_id ~ '.paper.html' %}{% set alt_label = 'Navy version' %}
+{% else %}
+  {% set alt_href = op.note_id ~ '.html' %}{% set alt_label = 'Light version' %}
+{% endif %}
 <!DOCTYPE html>
 <html lang="en" data-theme="{{ theme }}">
 <head>
@@ -22,90 +35,139 @@
   <link rel="stylesheet" href="{{ asset_prefix }}/ds/tokens/spacing.css">
   <link rel="stylesheet" href="{{ asset_prefix }}/ds/tokens/base.css">
   <style>
-    :root { --page-bg: var(--ink-0); --card-bg: var(--ink-1); --card-line: var(--line-1);
-            --c-text-1: var(--text-1); --c-text-2: var(--text-2); --c-text-3: var(--text-3);
-            --well: var(--ink-3); --chip: var(--ink-4); --line-strong: var(--line-2);
-            --accent: var(--flow-400); --accent-fill: var(--flow-500); }
+    :root { --page: var(--oat-100); --card: #ffffff; --card-line: var(--oat-200);
+            --line-soft: var(--border-soft); --line-strong: var(--oat-300);
+            --t1: var(--navy); --t2: var(--muted); --t3: var(--muted-2);
+            --well: var(--oat-50); --chipsurf: var(--oat-100);
+            --acc: var(--brand-600); --acc-ink: var(--brand-700); --acc-soft: var(--brand-50);
+            --okc: var(--tone-green-tx); --warnc: var(--tone-amber-tx); --warnbg: var(--tone-amber-bg);
+            --grid-dot: rgba(27,49,57,0.05); --card-shadow: var(--shadow-pop);
+            --take-bg: var(--navy); --take-label: var(--brand-300); }
     html[data-theme="paper"] {
-            --page-bg: var(--paper-0); --card-bg: var(--paper-0); --card-line: var(--line-paper-1);
-            --c-text-1: var(--ink-text-1); --c-text-2: var(--ink-text-2); --c-text-3: var(--ink-text-3);
-            --well: var(--paper-1); --chip: var(--paper-2); --line-strong: var(--line-paper-2);
-            --accent: var(--flow-600); --accent-fill: var(--flow-500); }
-    body { background: var(--page-bg); padding: 40px 20px; font-family: var(--font-sans);
+            --page: var(--nv-page); --card: var(--nv-card); --card-line: var(--nv-line);
+            --line-soft: var(--nv-line); --line-strong: var(--nv-line-2);
+            --t1: var(--nv-text-1); --t2: var(--nv-text-2); --t3: var(--nv-text-3);
+            --well: var(--nv-well); --chipsurf: rgba(255,255,255,0.06);
+            --acc: var(--brand-400); --acc-ink: var(--brand-300); --acc-soft: rgba(255,110,84,0.10);
+            --okc: var(--nv-green); --warnc: var(--nv-amber); --warnbg: rgba(232,163,61,0.12);
+            --grid-dot: rgba(244,241,236,0.05); --card-shadow: var(--shadow-navy);
+            --take-bg: var(--brand-600); --take-label: rgba(255,255,255,0.75); }
+    body { background: var(--page); color: var(--t1); padding: 28px 20px 48px; font-family: var(--font-sans);
+           background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px); background-size: 28px 28px;
            display: flex; flex-direction: column; align-items: center; }
+    a { color: var(--acc-ink); }
+    a:hover { color: var(--acc); }
     .topbar { width: 1320px; max-width: 100%; display: flex; justify-content: space-between;
-              align-items: center; margin-bottom: 14px; }
-    .topbar a { font: var(--type-code-sm); color: var(--c-text-3); text-decoration: none; }
-    .topbar a:hover { color: var(--accent); }
-    .card { width: 1320px; max-width: 100%; background: var(--card-bg);
-            border: 1px solid var(--card-line); border-radius: 10px;
-            box-shadow: 0 24px 60px rgba(0,0,0,0.30); overflow: hidden; }
-    html[data-theme="paper"] .card { box-shadow: var(--shadow-card-paper); }
-    .accent-rail { height: 3px; background: linear-gradient(90deg, var(--accent-fill), var(--accent) 60%, transparent); }
-    .pad { padding: 30px 38px 34px; }
+              align-items: center; gap: 16px; margin-bottom: 14px; }
+    .topbar a.back { font: var(--type-code-sm); color: var(--t3); text-decoration: none; }
+    .topbar a.back:hover { color: var(--acc-ink); }
+    .topbar .tlabel { font: var(--type-label); letter-spacing: var(--tracking-label);
+                      text-transform: uppercase; color: var(--t3); }
+    .theme-toggle { font: var(--type-code-sm); color: var(--t3); text-decoration: none;
+                    border: 1px solid var(--line-strong); border-radius: var(--radius-full);
+                    padding: 5px 12px; display: inline-flex; align-items: center; gap: 7px; }
+    .theme-toggle:hover { color: var(--acc-ink); border-color: var(--acc); }
+    .theme-toggle .sw { width: 9px; height: 9px; border-radius: 50%; border: 1px solid var(--t3);
+                        background: linear-gradient(90deg, var(--t3) 50%, transparent 50%); }
+
+    .card { width: 1320px; max-width: 100%; background: var(--card);
+            border: 1px solid var(--card-line); border-radius: var(--radius-lg);
+            box-shadow: var(--card-shadow); overflow: hidden; }
+    .accent-rail { height: 3px; background: linear-gradient(90deg, var(--brand-600), var(--brand-400) 60%, transparent); }
+    .pad { padding: 30px 38px 30px; }
     .label { font: var(--type-label); letter-spacing: var(--tracking-label); text-transform: uppercase; }
+
     .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 32px;
-            padding-bottom: 22px; border-bottom: 1px solid var(--card-line); }
-    .brand { display: flex; align-items: center; gap: 7px; font: 600 13px/1 var(--font-display); color: var(--c-text-1); }
-    .brand span.dot { width: 9px; height: 9px; background: var(--accent); border-radius: 2px; display: inline-block; }
-    h1.title { font: 600 38px/1.05 var(--font-display); letter-spacing: var(--tracking-display);
-               color: var(--c-text-1); margin: 0; }
-    h1.title em { color: var(--accent); font-style: normal; }
-    .tagline { font: var(--type-body); color: var(--c-text-2); margin: 10px 0 0; max-width: 820px; }
-    .badge { display: inline-flex; align-items: center; gap: 7px; padding: 5px 11px; border-radius: var(--radius-full);
-             font: var(--type-data); border: 1px solid var(--line-strong); }
-    .badge .bdot { width: 8px; height: 8px; border-radius: 50%; }
-    .rail-link { font: var(--type-code-sm); color: var(--c-text-3); text-decoration: none;
-                 border-bottom: 1px solid var(--line-strong); padding-bottom: 2px; }
-    .grid-a { display: grid; grid-template-columns: 1.5fr 1fr; gap: 18px; padding-top: 22px; }
-    .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; padding-top: 18px; }
+            padding-bottom: 24px; border-bottom: 1px solid var(--card-line); }
+    .brand { display: flex; align-items: center; gap: 8px; font: 700 13px/1 var(--font-sans); color: var(--t1); }
+    .brand span.dot { width: 10px; height: 10px; background: var(--brand-600); border-radius: 3px; display: inline-block; }
+    h1.title { font: 700 40px/1.12 var(--font-sans); letter-spacing: var(--tracking-display);
+               color: var(--t1); margin: 0; text-wrap: balance; }
+    .tagline { font: 400 15px/1.6 var(--font-sans); color: var(--t2); margin: 12px 0 0; max-width: 820px; text-wrap: pretty; }
+    .aside { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; flex: none; padding-top: 2px; }
+    .badge { display: inline-flex; align-items: center; gap: 7px; padding: 4px 12px; border-radius: var(--radius-full);
+             font: 500 12.5px/1.4 var(--font-sans); background: var(--tonebg, var(--tone-slate-bg)); color: var(--tonetx, var(--tone-slate-tx)); }
+    .badge .bdot { display: none; width: 8px; height: 8px; border-radius: 50%; background: var(--tonetx); }
+    html[data-theme="paper"] .badge { background: transparent; border: 1px solid var(--nv-line-2); color: var(--nvtone, var(--nv-slate)); }
+    html[data-theme="paper"] .badge .bdot { display: inline-block; background: var(--nvtone, var(--nv-slate)); }
+    .s-ga { --tonebg: var(--tone-green-bg); --tonetx: var(--tone-green-tx); --nvtone: var(--nv-green); }
+    .s-public-preview { --tonebg: var(--tone-blue-bg); --tonetx: var(--tone-blue-tx); --nvtone: var(--nv-blue); }
+    .s-gated-preview { --tonebg: var(--tone-violet-bg); --tonetx: var(--tone-violet-tx); --nvtone: var(--nv-violet); }
+    .s-beta { --tonebg: var(--tone-amber-bg); --tonetx: var(--tone-amber-tx); --nvtone: var(--nv-amber); }
+    .s-changed { --tonebg: var(--tone-slate-bg); --tonetx: var(--tone-slate-tx); --nvtone: var(--nv-slate); }
+    .s-eol { --tonebg: var(--tone-red-bg); --tonetx: var(--tone-red-tx); --nvtone: var(--nv-red); }
+    .docs-btn { font: 500 13px/1 var(--font-sans); color: #ffffff; background: var(--brand-600);
+                text-decoration: none; padding: 10px 16px; border-radius: var(--radius-sm);
+                display: inline-flex; align-items: center; gap: 8px;
+                transition: background var(--dur-fast); }
+    .docs-btn:hover { background: var(--brand-700); color: #ffffff; }
+    .src-link { font: var(--type-code-sm); color: var(--t3); text-decoration: none;
+                border-bottom: 1px solid var(--line-strong); padding-bottom: 2px; }
+    .src-link:hover { color: var(--acc-ink); }
+
+    .grid-a { display: grid; grid-template-columns: 1.5fr 1fr; gap: 18px; padding-top: 24px; }
+    .grid-a.solo { grid-template-columns: 1fr; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; padding-top: 18px; }
     .stack { display: flex; flex-direction: column; gap: 18px; }
-    .well { background: var(--well); border: 1px solid var(--card-line); border-radius: var(--radius-md); padding: 16px 18px; }
-    .sec-label { color: var(--c-text-3); margin-bottom: 10px; }
-    .p { font: var(--type-body); color: var(--c-text-1); margin: 0; }
-    .callout { border: 1px solid var(--card-line); border-left: 3px solid var(--accent-fill);
-               border-radius: var(--radius-md); padding: 16px 18px; background: linear-gradient(180deg, var(--flow-dim), transparent); }
-    .callout.warn { border-left-color: var(--warn-400); background: linear-gradient(180deg, var(--warn-dim), transparent); }
-    .caps { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 16px; }
+    .well { background: var(--well); border: 1px solid var(--card-line); border-radius: var(--radius-md); padding: 18px 20px; }
+    .sec-label { color: var(--t3); margin-bottom: 10px; }
+    .p { font: 400 14.5px/1.62 var(--font-sans); color: var(--t1); margin: 0; text-wrap: pretty; }
+    .callout { border: 1px solid var(--card-line); border-left: 3px solid var(--brand-600);
+               border-radius: var(--radius-md); padding: 18px 20px; background: linear-gradient(180deg, var(--acc-soft), transparent); }
+    .callout .label { color: var(--acc-ink); }
+    .callout.warn { border-left-color: var(--warnc); background: linear-gradient(180deg, var(--warnbg), transparent); }
+    .caps { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 18px; }
     .cap { display: flex; gap: 10px; }
-    .cap .ct { font: 600 13.5px/1.3 var(--font-sans); color: var(--c-text-1); }
-    .cap .cd { font: var(--type-body-sm); color: var(--c-text-3); margin-top: 2px; }
-    .checklist { display: flex; flex-direction: column; gap: 9px; }
+    .cap svg { color: var(--acc); }
+    .cap .ct { font: 600 13.5px/1.35 var(--font-sans); color: var(--t1); }
+    .cap .cd { font: var(--type-body-sm); color: var(--t2); margin-top: 3px; }
+    .checklist { display: flex; flex-direction: column; gap: 10px; }
     .checkrow { display: flex; gap: 9px; align-items: flex-start; }
-    .checkrow .tx { font: var(--type-body-sm); color: var(--c-text-1); }
-    .bang { color: var(--warn-400); font: 600 13px/1.4 var(--font-mono); flex: none; }
+    .checkrow svg { color: var(--okc); }
+    .checkrow .tx { font: var(--type-body-sm); color: var(--t1); }
+    .bang { color: var(--warnc); font: 600 13px/1.4 var(--font-mono); flex: none; }
     .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-    .chip { font: var(--type-data); color: var(--c-text-2); background: var(--chip);
-            border: 1px solid var(--card-line); padding: 5px 11px; border-radius: var(--radius-full); }
+    .chip { font: 500 12.5px/1.45 var(--font-sans); color: var(--t2); background: var(--chipsurf);
+            border: 1px solid var(--card-line); padding: 6px 12px; border-radius: var(--radius-full); }
     .archrow { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
-    .arch-chip { font: var(--type-data); color: var(--c-text-2); background: var(--chip);
-                 border: 1px solid var(--card-line); padding: 5px 11px; border-radius: var(--radius-sm); }
+    .arch-chip { font: var(--type-data); font-size: 12px; color: var(--t2); background: var(--chipsurf);
+                 border: 1px solid var(--card-line); padding: 6px 12px; border-radius: var(--radius-xs); }
     .arrow { color: var(--line-strong); font: 600 13px var(--font-mono); }
     .steps { display: flex; align-items: flex-start; }
     .step { flex: 1; display: flex; flex-direction: column; gap: 8px; padding: 0 18px; }
     .step:first-child { padding-left: 0; } .step:last-child { padding-right: 0; }
     .step .num { width: 22px; height: 22px; border-radius: var(--radius-full); border: 1px solid var(--line-strong);
-                 display: flex; align-items: center; justify-content: center; font: 600 11px/1 var(--font-mono); color: var(--accent); }
-    .step .st { font: 600 13px/1.3 var(--font-sans); color: var(--c-text-1); }
-    .step .sd { font: var(--type-body-sm); color: var(--c-text-3); }
+                 display: flex; align-items: center; justify-content: center; font: 500 11px/1 var(--font-mono); color: var(--acc); }
+    .step .st { font: 600 13px/1.3 var(--font-sans); color: var(--t1); }
+    .step .sd { font: var(--type-body-sm); color: var(--t2); }
     .step-arrow { display: flex; align-items: center; color: var(--line-strong); padding-top: 4px; }
-    .takeaway { margin-top: 18px; display: flex; align-items: center; gap: 18px; padding: 18px 22px;
-                border-radius: var(--radius-md); background: var(--flow-600); color: #04231e; }
+    .takeaway { margin-top: 18px; display: flex; align-items: center; gap: 18px; padding: 19px 24px;
+                border-radius: var(--radius-md); background: var(--take-bg); color: #ffffff; }
     .takeaway .tl { font: 600 11px/1 var(--font-sans); letter-spacing: var(--tracking-label);
-                    text-transform: uppercase; opacity: 0.78; margin-bottom: 5px; }
-    .takeaway .tt { font: 600 16px/1.35 var(--font-display); }
+                    text-transform: uppercase; color: var(--take-label); margin-bottom: 6px; }
+    .takeaway .tt { font: 600 16.5px/1.4 var(--font-sans); text-wrap: pretty; }
     .mt18 { margin-top: 18px; }
+    .cfooter { border-top: 1px solid var(--card-line); margin-top: 26px; padding-top: 16px;
+               display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .cfooter .fid, .cfooter .fby { font: var(--type-code-sm); color: var(--t3); }
+    .cfooter a { color: var(--t3); }
+    .cfooter a:hover { color: var(--acc-ink); }
     @media (max-width: 960px) {
-      .grid-a, .grid-3, .caps { grid-template-columns: 1fr; }
+      h1.title { font-size: 30px; }
+      .grid-a, .caps { grid-template-columns: 1fr; }
+      .head { flex-direction: column; }
+      .aside { flex-direction: row; align-items: center; }
       .steps { flex-direction: column; gap: 14px; } .step { padding: 0; } .step-arrow { transform: rotate(90deg); }
     }
-    @media print { body { padding: 0; background: #fff; } .topbar { display: none; } .card { box-shadow: none; border: none; } }
+    @media print { body { padding: 0; background: #fff; } .topbar { display: none; }
+                   .card { box-shadow: none; border: none; } }
   </style>
 </head>
 <body>
   <div class="topbar">
-    <a href="{{ gallery_href }}">← All updates</a>
-    <span class="label" style="color:var(--c-text-3)">Databricks Update One-Pager</span>
+    <a class="back" href="{{ gallery_href }}">← All updates</a>
+    <span class="tlabel">Databricks Update One-Pager</span>
+    <a class="theme-toggle" href="{{ alt_href }}"><span class="sw"></span>{{ alt_label }}</a>
   </div>
 
   <div class="card">
@@ -115,24 +177,23 @@
       <!-- HEADER -->
       <div class="head">
         <div style="min-width:0;">
-          <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:14px;">
             <span class="brand"><span class="dot"></span>databricks</span>
             <span style="width:1px; height:13px; background:var(--line-strong);"></span>
-            <span class="label" style="color:var(--c-text-2)">{{ op.category|capitalize }} · Updated {{ op.updated }}</span>
+            <span class="label" style="color:var(--t2)">{{ op.category|capitalize }} · Updated {{ op.updated }}</span>
           </div>
           <h1 class="title">{{ op.product }}</h1>
           {% if op.tagline %}<p class="tagline">{{ op.tagline }}</p>{% endif %}
         </div>
-        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px; flex:none;">
-          <span class="badge" style="color:var({{ status_color }});">
-            <span class="bdot" style="background:var({{ status_color }});"></span>{{ op.status_label }}
-          </span>
-          {% if op.docs_url %}<a class="rail-link" href="{{ op.docs_url }}" target="_blank" rel="noopener">docs ↗</a>{% endif %}
+        <div class="aside">
+          <span class="badge s-{{ op.status }}"><span class="bdot"></span>{{ op.status_label }}</span>
+          {% if op.docs_url %}<a class="docs-btn" href="{{ op.docs_url }}" target="_blank" rel="noopener">Open docs ↗</a>{% endif %}
+          {% if op.source_url %}<a class="src-link" href="{{ op.source_url }}" target="_blank" rel="noopener">release note ↗</a>{% endif %}
         </div>
       </div>
 
       <!-- ROW A: what + why | capabilities -->
-      <div class="grid-a">
+      <div class="grid-a{% if not op.capabilities %} solo{% endif %}">
         <div class="stack">
           <div>
             <div class="label sec-label">What it does</div>
@@ -140,18 +201,18 @@
           </div>
           {% if op.why_it_matters %}
           <div class="callout">
-            <div class="label" style="color:var(--accent); margin-bottom:8px;">Why it matters</div>
+            <div class="label" style="margin-bottom:8px;">Why it matters</div>
             <p class="p">{{ op.why_it_matters }}</p>
           </div>
           {% endif %}
         </div>
         {% if op.capabilities %}
         <div class="well">
-          <div class="label sec-label" style="margin-bottom:14px;">Key capabilities</div>
+          <div class="label sec-label" style="margin-bottom:16px;">Key capabilities</div>
           <div class="caps">
             {% for c in op.capabilities %}
             <div class="cap">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="flex:none;margin-top:1px;"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
               <div><div class="ct">{{ c.title }}</div><div class="cd">{{ c.desc }}</div></div>
             </div>
             {% endfor %}
@@ -169,7 +230,7 @@
           <div class="checklist">
             {% for pre in op.prerequisites %}
             <div class="checkrow">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ok-400)" stroke-width="2" style="flex:none;margin-top:2px;"><path d="M20 6L9 17l-5-5"/></svg>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex:none;margin-top:2px;"><path d="M20 6L9 17l-5-5"/></svg>
               <span class="tx">{{ pre }}</span>
             </div>
             {% endfor %}
@@ -186,7 +247,7 @@
         {% endif %}
         {% if op.limitations %}
         <div class="callout warn">
-          <div class="label" style="color:var(--warn-400); margin-bottom:12px;">Limitations · remember</div>
+          <div class="label" style="color:var(--warnc); margin-bottom:12px;">Limitations · remember</div>
           <div class="checklist">
             {% for lim in op.limitations %}
             <div class="checkrow"><span class="bang">!</span><span class="tx">{{ lim }}</span></div>
@@ -199,7 +260,7 @@
 
       <!-- ARCHITECTURE -->
       {% if op.architecture %}
-      <div class="well mt18" style="background:var(--well);">
+      <div class="well mt18">
         <div class="archrow">
           <div class="label sec-label" style="margin-bottom:0; flex:none;">Architecture</div>
           <div class="archrow">
@@ -235,11 +296,16 @@
 
       <!-- KEY TAKEAWAY -->
       <div class="takeaway">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#04231e" stroke-width="1.8" style="flex:none;"><path d="M12 2l2.6 6.9L22 9.3l-5.5 4.8L18 21l-6-3.8L6 21l1.5-6.9L2 9.3l7.4-.4L12 2z"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="flex:none;"><path d="M12 2l2.6 6.9L22 9.3l-5.5 4.8L18 21l-6-3.8L6 21l1.5-6.9L2 9.3l7.4-.4L12 2z"/></svg>
         <div>
           <div class="tl">Key takeaway</div>
           <div class="tt">{{ op.key_takeaway }}</div>
         </div>
+      </div>
+
+      <div class="cfooter">
+        <span class="fid">{{ op.note_id }}</span>
+        <span class="fby">Generated by the <a href="https://github.com/dediggibyte/databricks-updates-agent">Databricks Updates Agent</a> · <a href="{{ gallery_href }}">browse all updates</a></span>
       </div>
 
     </div>

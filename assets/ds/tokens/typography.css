@@ -1,28 +1,25 @@
 /* ============================================================
-   Datalab typography
-   Space Grotesk for display, IBM Plex Sans for UI/body,
-   JetBrains Mono for code, configs, table names and values.
-   Mono is a first-class citizen: dataset names, conf keys,
-   counts and statuses are ALWAYS set in mono.
+   COE Platform typography
+   DM Sans for everything UI/body/display, DM Mono for data —
+   dates, counts, ids, file paths (matches the app's font stack).
    ============================================================ */
 
 :root {
-  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
-  --font-sans: "IBM Plex Sans", "Segoe UI", sans-serif;
-  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --font-mono: "DM Mono", ui-monospace, Consolas, monospace;
 
   /* ---- Scale (px) ---- */
-  --type-display: 600 44px/1.08 var(--font-display);   /* hero, deck titles */
-  --type-h1: 600 30px/1.15 var(--font-display);
-  --type-h2: 600 22px/1.25 var(--font-display);
-  --type-h3: 600 17px/1.35 var(--font-display);
-  --type-body: 400 14.5px/1.55 var(--font-sans);
-  --type-body-sm: 400 13px/1.5 var(--font-sans);
+  --type-display: 700 40px/1.12 var(--font-sans);
+  --type-h1: 700 30px/1.15 var(--font-sans);
+  --type-h2: 600 20px/1.3 var(--font-sans);
+  --type-h3: 600 16px/1.35 var(--font-sans);
+  --type-body: 400 14.5px/1.6 var(--font-sans);
+  --type-body-sm: 400 13px/1.55 var(--font-sans);
   --type-label: 500 11px/1.3 var(--font-sans);          /* + uppercase + tracking */
   --type-code: 400 13px/1.6 var(--font-mono);
   --type-code-sm: 400 12px/1.55 var(--font-mono);
   --type-data: 500 13px/1.4 var(--font-mono);           /* values, counts, ids */
 
   --tracking-label: 0.08em;
-  --tracking-display: -0.015em;
+  --tracking-display: -0.01em;
 }

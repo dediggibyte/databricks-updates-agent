@@ -54,7 +54,8 @@ doc:
 
 # --- Rendering -----------------------------------------------------------
 render:
-  # Default one-pager variant: "console" (dark) or "paper" (light).
+  # Default one-pager variant: "console" (light COE app look) or "paper"
+  # (navy dark alternate).
   variant: "console"
   # Also emit the alternate variant alongside the default.
   emit_alternate: true

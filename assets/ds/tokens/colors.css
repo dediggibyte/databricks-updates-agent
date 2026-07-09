@@ -1,89 +1,62 @@
 /* ============================================================
-   Datalab color system
-   Dark "console" surfaces are the home environment (pipelines,
-   monitoring, configs). Light "paper" surfaces are for docs.
-   The medallion (bronze → silver → gold) is the layer system.
+   COE Platform color system
+   Ported from dediggibyte/coe_platform src/frontend/tailwind.config.js
+   + components/ui.tsx badge tones. Light "oat" surfaces, Databricks
+   navy text, signature Lava red brand accent.
    ============================================================ */
 
 :root {
-  /* ---- Ink scale (dark console surfaces) ---- */
-  --ink-0: #070c11;            /* page bleed / letterbox */
-  --ink-1: #0b1219;            /* app background */
-  --ink-2: #101a23;            /* panel / sidebar */
-  --ink-3: #16222e;            /* card, raised surface */
-  --ink-4: #1d2c3a;            /* hover / active surface */
-  --line-1: #1a2733;           /* hairline borders on dark */
-  --line-2: #27384a;           /* emphasized borders on dark */
+  /* ---- Databricks Lava ramp (brand) ---- */
+  --brand-50: #FFF1EE;  --brand-100: #FFE0D9; --brand-200: #FFC7BB;
+  --brand-300: #FFA694; --brand-400: #FF6E54; --brand-500: #FF4A30;
+  --brand-600: #FF3621; --brand-700: #E62D1A; --brand-800: #BF2415;
+  --brand-900: #991D11;
 
-  /* ---- Text on dark ---- */
-  --text-1: #e9f0f6;           /* primary */
-  --text-2: #9fb2c4;           /* secondary */
-  --text-3: #5d7186;           /* muted / labels */
-  --text-disabled: #3d4d5e;
+  /* ---- Databricks Navy / Oolite ---- */
+  --navy: #1B3139; --navy-700: #23454F; --navy-800: #16282F; --navy-900: #101D22;
 
-  /* ---- Paper scale (light docs surfaces) ---- */
-  --paper-0: #f7f6f2;          /* docs page background */
-  --paper-1: #fffefb;          /* cards on paper */
-  --paper-2: #efede7;          /* wells, code-block bg on paper */
-  --line-paper-1: #e3e0d8;     /* hairline borders on paper */
-  --line-paper-2: #cfccc2;
+  /* ---- Warm "oat" neutrals ---- */
+  --oat-50: #FAF8F4; --oat-100: #F7F5F2; --oat-200: #ECE6DC;
+  --oat-300: #E0D8CB; --oat-400: #D9D0C2;
 
-  /* ---- Text on paper ---- */
-  --ink-text-1: #18242f;
-  --ink-text-2: #4c5d6d;
-  --ink-text-3: #7d8b98;
+  /* ---- Teal accent (secondary) ---- */
+  --teal: #1B5162; --teal-600: #2D6E7E; --teal-100: #EAF1F2;
 
-  /* ---- Flow (brand accent — lakehouse teal) ---- */
-  --flow-300: #6fe3d2;
-  --flow-400: #3ecfba;         /* primary accent on dark */
-  --flow-500: #1fb5a0;         /* primary action fill */
-  --flow-600: #128573;         /* primary on light surfaces */
-  --flow-700: #0d6457;
-  --flow-dim: rgba(62, 207, 186, 0.12);   /* tinted fills on dark */
-  --flow-dim-strong: rgba(62, 207, 186, 0.22);
+  /* ---- Text ---- */
+  --text-1: var(--navy);          /* headings + primary */
+  --muted: #5A6B72;               /* body secondary */
+  --muted-2: #7B8A90;             /* mono meta, dates */
 
-  /* ---- Medallion layers ---- */
-  --bronze-400: #d98e52;
-  --bronze-500: #c0763a;
-  --bronze-dim: rgba(217, 142, 82, 0.14);
-  --silver-400: #aeb9c6;
-  --silver-500: #8d9aa9;
-  --silver-dim: rgba(174, 185, 198, 0.13);
-  --gold-400: #e6b13a;
-  --gold-500: #cf9a1f;
-  --gold-dim: rgba(230, 177, 58, 0.13);
+  /* ---- Badge tones (ui.tsx Badge) ---- */
+  --tone-green-bg: #E7F1E8;  --tone-green-tx: #1F7A3D;
+  --tone-amber-bg: #FBEEDD;  --tone-amber-tx: #B45309;
+  --tone-red-bg: #FCE6E2;    --tone-red-tx: #C2362B;
+  --tone-blue-bg: #EAF1F2;   --tone-blue-tx: #1B5162;
+  --tone-indigo-bg: #FFE0D9; --tone-indigo-tx: #E62D1A;
+  --tone-violet-bg: #F2E7F3; --tone-violet-tx: #7A3B82;
+  --tone-slate-bg: #ECE6DC;  --tone-slate-tx: #5A6B72;
 
-  /* ---- Semantic / data-quality status ---- */
-  --ok-400: #46d683;           /* valid rows, passing runs */
-  --ok-dim: rgba(70, 214, 131, 0.13);
-  --warn-400: #f0b429;         /* warn-criticality, flagged rows */
-  --warn-dim: rgba(240, 180, 41, 0.13);
-  --error-400: #f0564f;        /* error-criticality, failed runs */
-  --error-dim: rgba(240, 86, 79, 0.13);
-  --quarantine-400: #b48ce8;   /* quarantined rows (distinct from error) */
-  --quarantine-dim: rgba(180, 140, 232, 0.14);
-  --info-400: #58b7e8;
-  --info-dim: rgba(88, 183, 232, 0.13);
+  /* ---- Semantic aliases (light) ---- */
+  --surface-page: var(--oat-100);
+  --surface-card: #ffffff;
+  --surface-well: var(--oat-50);
+  --border: var(--oat-200);
+  --border-soft: #F1ECE4;
+  --border-strong: var(--oat-300);
+  --accent: var(--brand-600);
+  --accent-hover: var(--brand-700);
+  --focus-ring: 0 0 0 2px #ffffff, 0 0 0 4px var(--brand-300);
 
-  /* ---- Semantic aliases ---- */
-  --surface-app: var(--ink-1);
-  --surface-panel: var(--ink-2);
-  --surface-card: var(--ink-3);
-  --surface-raised: var(--ink-4);
-  --surface-docs: var(--paper-0);
-  --surface-docs-card: var(--paper-1);
-
-  --text-body: var(--text-1);
-  --text-secondary: var(--text-2);
-  --text-muted: var(--text-3);
-
-  --border-subtle: var(--line-1);
-  --border-default: var(--line-2);
-
-  --accent: var(--flow-400);
-  --accent-strong: var(--flow-500);
-  --accent-on-light: var(--flow-600);
-  --on-accent: #04231e;        /* text on accent fills */
-
-  --focus-ring: 0 0 0 2px var(--ink-1), 0 0 0 4px var(--flow-400);
+  /* ---- Navy (dark alternate) surfaces ---- */
+  --nv-page: var(--navy-900);
+  --nv-card: var(--navy);
+  --nv-well: var(--navy-800);
+  --nv-line: rgba(255,255,255,0.10);
+  --nv-line-2: rgba(255,255,255,0.20);
+  --nv-text-1: #F4F1EC;
+  --nv-text-2: rgba(244,241,236,0.72);
+  --nv-text-3: rgba(244,241,236,0.48);
+  /* status dots on navy */
+  --nv-green: #4CC479; --nv-blue: #6AB9D8; --nv-violet: #C08BD0;
+  --nv-amber: #E8A33D; --nv-slate: #AEB9C6; --nv-red: #F07B6E;
 }

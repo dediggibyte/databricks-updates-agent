@@ -1,6 +1,7 @@
 /* ============================================================
-   Datalab base element styles + tiny shared classes.
-   Components style themselves; this only sets sane defaults.
+   COE Platform base element styles.
+   Components style themselves; this only sets sane defaults
+   (mirrors the app's index.css: bg-oat-100 text-navy antialiased).
    ============================================================ */
 
 * { box-sizing: border-box; }
@@ -8,15 +9,9 @@
 body {
   margin: 0;
   font: var(--type-body);
-  color: var(--text-body);
-  background: var(--surface-app);
+  color: var(--text-1);
+  background: var(--surface-page);
   -webkit-font-smoothing: antialiased;
-}
-
-/* Light-surface scope: wrap docs/paper UI in .dl-paper */
-.dl-paper {
-  background: var(--surface-docs);
-  color: var(--ink-text-1);
 }
 
 code, pre {
@@ -24,17 +19,18 @@ code, pre {
 }
 
 ::selection {
-  background: var(--flow-dim-strong);
+  background: var(--brand-100);
 }
+
+/* Subtle scrollbars for a crisper app feel (index.css) */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--oat-300); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--oat-400); }
 
 /* Shared label style: uppercase micro-labels above values */
 .dl-label {
   font: var(--type-label);
   letter-spacing: var(--tracking-label);
   text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.dl-paper .dl-label {
-  color: var(--ink-text-3);
+  color: var(--muted);
 }
