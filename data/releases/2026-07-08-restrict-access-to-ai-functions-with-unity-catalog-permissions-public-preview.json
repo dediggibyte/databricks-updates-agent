@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-08-restrict-access-to-ai-functions-with-unity-catalog-permissions-public-preview",
+  "title": "Restrict access to AI Functions with Unity Catalog permissions (Public Preview)",
+  "date": "2026-07-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#restrict-access-to-ai-functions-with-unity-catalog-permissions-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use Unity Catalog permissions to restrict which task-specific AI Functions your organization can access, independent of foundation model access. Contact your account team to enable this feature. See [AI Functions Unity Catalog permissions](/aws/en/large-language-models/ai-functions-uc-permissions).",
+  "ref_links": [
+    {
+      "text": "AI Functions Unity Catalog permissions",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions-uc-permissions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T19:11:09.809483Z"
+}

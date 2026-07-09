@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-09-b1a7719e",
+  "title": "Change to default pipeline editor for workspaces with the compliance security profile enabled",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#change-to-default-pipeline-editor-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [Lakeflow Pipelines Editor](/aws/en/ldp/multi-file-editor) has been generally available since May 2026. In August, it will become the default editor for developing and debugging pipelines in workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled. At that time the legacy editor will be removed.\n\nFor more information about the Lakeflow Pipelines Editor, see [Develop and debug ETL pipelines with the Lakeflow Pipelines Editor](/aws/en/ldp/multi-file-editor). If you have questions about this transition, contact your account team.",
+  "ref_links": [
+    {
+      "text": "Lakeflow Pipelines Editor",
+      "url": "https://docs.databricks.com/aws/en/ldp/multi-file-editor"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T19:11:09.804969Z"
+}
