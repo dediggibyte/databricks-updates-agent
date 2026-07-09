@@ -151,6 +151,7 @@ needed to switch cloud, provider, or model.
 |--------|----------|---------|---------|
 | `MAIL_USERNAME` | For email | `notify.yml` | Microsoft 365 mailbox that sends the digest (also the From address). |
 | `MAIL_PASSWORD` | For email | `notify.yml` | Password / app password for that mailbox. **SMTP AUTH must be enabled** on the mailbox (Exchange admin → mailbox → Mail flow → Authenticated SMTP). |
+| `MODELS_TOKEN` | Optional | `weekly.yml` | Fine-grained PAT with **Models: read** — needed for LLM enrichment only if GitHub Models is not enabled for the org (otherwise the built-in `GITHUB_TOKEN` suffices). |
 | `ANTHROPIC_API_KEY` | Optional | `weekly.yml` | Only if `llm.provider` is switched to `anthropic`. |
 
 ---

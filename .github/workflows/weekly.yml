@@ -53,8 +53,12 @@ jobs:
 
       - name: Run pipeline
         env:
-          # Free GitHub Models auth — no user-provided key required.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Free GitHub Models auth. The Actions GITHUB_TOKEN only works if
+          # GitHub Models is enabled for the org (Settings → Models); until
+          # then it 403s and enrichment degrades to the heuristic. Optional
+          # MODELS_TOKEN secret (fine-grained PAT with "Models: read") takes
+          # precedence and works regardless of the org toggle.
+          GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN || secrets.GITHUB_TOKEN }}
           # Optional: only set if you add an ANTHROPIC_API_KEY secret and switch
           # llm.provider to "anthropic" in config.yaml.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
