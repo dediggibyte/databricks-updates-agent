@@ -3,11 +3,14 @@ name: Email weekly summary
 # Emails the weekly digest to the Databricks COE DL and Global after every
 # successful weekly pipeline run — including "no updates this week" runs.
 #
-# Notes:
-#   * workflow_run only fires for workflows on the DEFAULT branch, and the
-#     `workflows:` string must exactly match weekly.yml's `name:`.
-#   * Requires repo secrets MAIL_USERNAME / MAIL_PASSWORD — a diggibyte.com
-#     Microsoft 365 mailbox with Authenticated SMTP (SMTP AUTH) enabled.
+# Delivery is Microsoft Graph sendMail (OAuth client credentials) — Exchange
+# Online retired basic username/password SMTP auth in April 2026. Requires an
+# Entra app registration with the Mail.Send APPLICATION permission (admin
+# consented) and these repo secrets:
+#   GRAPH_TENANT_ID / GRAPH_CLIENT_ID / GRAPH_CLIENT_SECRET / MAIL_SENDER
+#
+# Note: workflow_run only fires for workflows on the DEFAULT branch, and the
+# `workflows:` string must exactly match weekly.yml's `name:`.
 on:
   workflow_run:
     workflows: ["Weekly Databricks one-pagers"]
@@ -42,23 +45,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e .        # digest needs no Playwright browsers
 
-      - name: Build email digest
-        id: digest
+      - name: Build and send email digest (Microsoft Graph)
+        env:
+          GRAPH_TENANT_ID: ${{ secrets.GRAPH_TENANT_ID }}
+          GRAPH_CLIENT_ID: ${{ secrets.GRAPH_CLIENT_ID }}
+          GRAPH_CLIENT_SECRET: ${{ secrets.GRAPH_CLIENT_SECRET }}
+          MAIL_SENDER: ${{ secrets.MAIL_SENDER }}
+          MAIL_TO: dl-databricks-coe@diggibyte.com,Global@diggibyte.com
         run: |
           python -m dbx_onepager email-summary \
             --days "${{ inputs.days || '7' }}" \
-            --out email/body.html --subject-out email/subject.txt
-          echo "subject=$(cat email/subject.txt)" >> "$GITHUB_OUTPUT"
-
-      - name: Send email (Office 365 SMTP)
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.office365.com
-          server_port: 587
-          secure: false                          # 587 uses STARTTLS
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: ${{ steps.digest.outputs.subject }}
-          to: dl-databricks-coe@diggibyte.com,Global@diggibyte.com
-          from: Databricks Updates Agent <${{ secrets.MAIL_USERNAME }}>
-          html_body: file://email/body.html
+            --out email/body.html --subject-out email/subject.txt \
+            --send

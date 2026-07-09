@@ -133,6 +133,18 @@ def test_email_digest_selects_recent_and_builds_html():
     assert build_subject([], today).startswith("Databricks updates — no new release notes")
 
 
+def test_graph_message_payload():
+    from dbx_onepager.notify import graph_message
+
+    msg = graph_message("Subject", "<p>hi</p>", ["a@x.com", " b@x.com ", ""])
+    assert msg["message"]["subject"] == "Subject"
+    assert msg["message"]["body"] == {"contentType": "HTML", "content": "<p>hi</p>"}
+    assert [r["emailAddress"]["address"] for r in msg["message"]["toRecipients"]] == [
+        "a@x.com", "b@x.com",
+    ]
+    assert msg["saveToSentItems"] is False
+
+
 def test_extract_json_tolerates_code_fences():
     from dbx_onepager.enrich import _extract_json
 

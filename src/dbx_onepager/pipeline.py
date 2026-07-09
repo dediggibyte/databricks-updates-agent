@@ -106,9 +106,12 @@ def run_email_summary(
     site_url: Optional[str],
     out: str,
     subject_out: str,
+    send: bool = False,
 ) -> None:
     """Write the weekly email digest (HTML body + subject) from stored data."""
-    from .notify import write_email
+    import os
+
+    from .notify import send_via_graph, write_email
 
     cfg = load_config(config_path)
     store = Store(Paths(cfg))
@@ -116,3 +119,18 @@ def run_email_summary(
     if not url:
         raise SystemExit("email-summary: set render.pages_url in config.yaml or pass --site-url")
     write_email(store.all_onepagers(), days, url, out, subject_out)
+    if send:
+        required = ("GRAPH_TENANT_ID", "GRAPH_CLIENT_ID", "GRAPH_CLIENT_SECRET",
+                    "MAIL_SENDER", "MAIL_TO")
+        missing = [v for v in required if not os.environ.get(v)]
+        if missing:
+            raise SystemExit(f"email-summary --send: missing env vars: {', '.join(missing)}")
+        send_via_graph(
+            subject=Path(subject_out).read_text(encoding="utf-8").strip(),
+            html_body=Path(out).read_text(encoding="utf-8"),
+            sender=os.environ["MAIL_SENDER"],
+            recipients=os.environ["MAIL_TO"].split(","),
+            tenant_id=os.environ["GRAPH_TENANT_ID"],
+            client_id=os.environ["GRAPH_CLIENT_ID"],
+            client_secret=os.environ["GRAPH_CLIENT_SECRET"],
+        )

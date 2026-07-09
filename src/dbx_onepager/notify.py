@@ -1,10 +1,15 @@
-"""Build the weekly HTML email digest from stored one-pagers.
+"""Build and send the weekly HTML email digest from stored one-pagers.
 
 Selects one-pagers whose note date (the ``YYYY-MM-DD`` prefix of ``note_id``,
 the same convention ``render._sort_key`` relies on) falls within the last N
 days and emits a self-contained HTML body plus a subject line. Consumed by
-``.github/workflows/notify.yml``, which sends it via Office 365 SMTP after
-every weekly pipeline run — including "no updates this week" runs.
+``.github/workflows/notify.yml`` after every weekly pipeline run — including
+"no updates this week" runs.
+
+Delivery is Microsoft Graph ``sendMail`` with OAuth client credentials —
+Exchange Online retired basic (username/password) SMTP auth in April 2026,
+so an Entra app registration with the ``Mail.Send`` application permission
+is the supported way to send from a Microsoft 365 mailbox.
 
 Email clients ignore external stylesheets, so the markup uses inline styles
 and concrete colors instead of the site's CSS design tokens.
@@ -13,6 +18,9 @@ and concrete colors instead of the site's CSS design tokens.
 from __future__ import annotations
 
 import html
+import json
+import urllib.parse
+import urllib.request
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Optional
@@ -124,6 +132,59 @@ def build_html(items: list[OnePager], site_url: str, days: int) -> str:
 </body>
 </html>
 """
+
+
+def graph_message(subject: str, html_body: str, recipients: list[str]) -> dict:
+    """The Microsoft Graph sendMail request payload."""
+    return {
+        "message": {
+            "subject": subject,
+            "body": {"contentType": "HTML", "content": html_body},
+            "toRecipients": [
+                {"emailAddress": {"address": r.strip()}} for r in recipients if r.strip()
+            ],
+        },
+        "saveToSentItems": False,
+    }
+
+
+def send_via_graph(
+    subject: str,
+    html_body: str,
+    sender: str,
+    recipients: list[str],
+    tenant_id: str,
+    client_id: str,
+    client_secret: str,
+) -> None:
+    """Send the digest as ``sender`` via Microsoft Graph client credentials."""
+    token_req = urllib.request.Request(
+        f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token",
+        data=urllib.parse.urlencode(
+            {
+                "client_id": client_id,
+                "client_secret": client_secret,
+                "scope": "https://graph.microsoft.com/.default",
+                "grant_type": "client_credentials",
+            }
+        ).encode(),
+        method="POST",
+    )
+    with urllib.request.urlopen(token_req, timeout=30) as resp:  # noqa: S310
+        token = json.loads(resp.read())["access_token"]
+
+    send_req = urllib.request.Request(
+        f"https://graph.microsoft.com/v1.0/users/{urllib.parse.quote(sender)}/sendMail",
+        data=json.dumps(graph_message(subject, html_body, recipients)).encode(),
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(send_req, timeout=30) as resp:  # noqa: S310
+        # Graph returns 202 Accepted with an empty body on success.
+        print(f"email-send: sent as {sender} to {', '.join(recipients)} (HTTP {resp.status})")
 
 
 def write_email(

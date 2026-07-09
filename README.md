@@ -149,10 +149,20 @@ needed to switch cloud, provider, or model.
 
 | Secret | Required | Used by | Purpose |
 |--------|----------|---------|---------|
-| `MAIL_USERNAME` | For email | `notify.yml` | Microsoft 365 mailbox that sends the digest (also the From address). |
-| `MAIL_PASSWORD` | For email | `notify.yml` | Password / app password for that mailbox. **SMTP AUTH must be enabled** on the mailbox (Exchange admin → mailbox → Mail flow → Authenticated SMTP). |
+| `GRAPH_TENANT_ID` | For email | `notify.yml` | Entra (Azure AD) tenant id of the diggibyte.com Microsoft 365 tenant. |
+| `GRAPH_CLIENT_ID` | For email | `notify.yml` | App registration (client) id with the **Mail.Send** application permission, admin-consented. |
+| `GRAPH_CLIENT_SECRET` | For email | `notify.yml` | Client secret of that app registration. |
+| `MAIL_SENDER` | For email | `notify.yml` | Mailbox the digest is sent as (e.g. `someone@diggibyte.com`). |
 | `MODELS_TOKEN` | Optional | `weekly.yml` | Fine-grained PAT with **Models: read** — needed for LLM enrichment only if GitHub Models is not enabled for the org (otherwise the built-in `GITHUB_TOKEN` suffices). |
 | `ANTHROPIC_API_KEY` | Optional | `weekly.yml` | Only if `llm.provider` is switched to `anthropic`. |
+
+> Email uses **Microsoft Graph `sendMail`** (OAuth client credentials).
+> Exchange Online retired basic username/password SMTP auth in April 2026,
+> so an Entra **app registration** is required: Entra admin center → App
+> registrations → New → API permissions → Microsoft Graph → *Application*
+> permissions → `Mail.Send` → **Grant admin consent** → Certificates &
+> secrets → new client secret. Optionally scope it to one mailbox with an
+> Exchange [application access policy](https://learn.microsoft.com/en-us/graph/auth-limit-mailbox-access).
 
 ---
 
@@ -161,7 +171,7 @@ needed to switch cloud, provider, or model.
 | Workflow | Trigger | What it does |
 |----------|---------|--------------|
 | [`weekly.yml`](.github/workflows/weekly.yml) | Tuesdays 07:00 UTC cron + manual dispatch (`mode`: `weekly` / `backfill` / `reenrich`, plus `refresh` and `model` inputs) | Fetch → enrich → commit refreshed `data/` → build `site/` → deploy to GitHub Pages. |
-| [`notify.yml`](.github/workflows/notify.yml) | After each successful weekly run (`workflow_run`) + manual dispatch | Builds the digest with `email-summary` and mails it to `dl-databricks-coe@diggibyte.com` and `Global@diggibyte.com` via Office 365 SMTP. |
+| [`notify.yml`](.github/workflows/notify.yml) | After each successful weekly run (`workflow_run`) + manual dispatch | Builds the digest with `email-summary --send` and mails it to `dl-databricks-coe@diggibyte.com` and `Global@diggibyte.com` via Microsoft Graph. |
 | [`pr-template-check.yml`](.github/workflows/pr-template-check.yml) | Pull requests | Enforces the repository PR template (marker + required sections). |
 
 **Setup:** enable Pages (Settings → Pages → Source: **GitHub Actions**) and add

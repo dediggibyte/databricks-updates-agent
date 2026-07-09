@@ -80,6 +80,10 @@ def build_parser() -> argparse.ArgumentParser:
                     help="Where to write the HTML body (default email/body.html)")
     em.add_argument("--subject-out", default="email/subject.txt",
                     help="Where to write the subject line (default email/subject.txt)")
+    em.add_argument("--send", action="store_true",
+                    help="Also send via Microsoft Graph. Requires env vars "
+                         "GRAPH_TENANT_ID, GRAPH_CLIENT_ID, GRAPH_CLIENT_SECRET, "
+                         "MAIL_SENDER, MAIL_TO (comma-separated recipients)")
     return p
 
 
@@ -99,7 +103,7 @@ def main(argv: list[str] | None = None) -> int:
         pipeline.run_build(args.config)
     elif cmd == "email-summary":
         pipeline.run_email_summary(args.config, args.days, args.site_url,
-                                   args.out, args.subject_out)
+                                   args.out, args.subject_out, send=args.send)
     else:  # pragma: no cover - argparse enforces
         return 2
     return 0
