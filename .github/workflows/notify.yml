@@ -1,10 +1,14 @@
-name: Email weekly summary
+name: Email digest
 
 # Emails the Databricks COE DL:
-#   * weekly  — after every successful weekly pipeline run, covering the last
-#               7 days (including "no updates this week" runs);
+#   * weekly  — after the successful TUESDAY scheduled pipeline run, covering
+#               the last 7 days (including "no updates this week" runs). The
+#               pipeline itself runs daily and also on every merge to main;
+#               those runs refresh the site but never email — the guard below
+#               only lets Tuesday cron runs through;
 #   * monthly — on the last day of each month, consolidating that calendar
-#               month's updates into one digest.
+#               month's updates into one digest;
+#   * manual  — workflow_dispatch with a --days window or a YYYY-MM month.
 #
 # Delivery is Microsoft Graph sendMail (OAuth client credentials) — Exchange
 # Online retired basic username/password SMTP auth in April 2026. Requires an
@@ -16,7 +20,7 @@ name: Email weekly summary
 # `workflows:` string must exactly match weekly.yml's `name:`.
 on:
   workflow_run:
-    workflows: ["Weekly Databricks one-pagers"]
+    workflows: ["Databricks one-pagers pipeline"]
     types: [completed]
   schedule:
     - cron: "30 16 28-31 * *"   # candidate month-end days; a guard step sends
@@ -36,16 +40,30 @@ permissions:
 jobs:
   email:
     runs-on: ubuntu-latest
-    # Send after successful weekly runs (incl. zero-update runs), on the
-    # month-end schedule, and on manual dispatch; skip on weekly failure.
+    # Never react to failed pipeline runs; the guards below decide the rest.
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
-      # Month-end guard: the cron fires on the 28th-31st; only the day where
-      # tomorrow is the 1st is the actual last day of the month.
+      # Decide whether this run sends anything, and which digest it is:
+      #   * workflow_run — the pipeline finished. It runs daily and on every
+      #     merge, but the weekly digest goes out only after the Tuesday
+      #     SCHEDULED run (push/dispatch/other-day runs are skipped);
+      #   * schedule    — month-end candidate (cron fires on the 28th-31st);
+      #     send only when tomorrow is the 1st, i.e. the actual last day;
+      #   * dispatch    — manual send with the requested window.
       - name: Decide digest window
         id: window
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            if [ "${{ github.event.workflow_run.event }}" != "schedule" ]; then
+              echo "Pipeline run was '${{ github.event.workflow_run.event }}', not the cron — site refreshed, no email."
+              echo "mode=skip" >> "$GITHUB_OUTPUT"
+            elif [ "$(date -u +%u)" != "2" ]; then
+              echo "Daily pipeline run (not Tuesday) — site refreshed, no email."
+              echo "mode=skip" >> "$GITHUB_OUTPUT"
+            else
+              echo "mode=days" >> "$GITHUB_OUTPUT"
+            fi
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
             if [ "$(date -u -d tomorrow +%d)" != "01" ]; then
               echo "Not the last day of the month — nothing to send."
               echo "mode=skip" >> "$GITHUB_OUTPUT"

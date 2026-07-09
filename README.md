@@ -1,16 +1,17 @@
 # Databricks Updates Agent
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![Weekly pipeline](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/weekly.yml/badge.svg)](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/weekly.yml)
-[![Email summary](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/notify.yml/badge.svg)](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/notify.yml)
+[![Pipeline](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/weekly.yml/badge.svg)](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/weekly.yml)
+[![Email digest](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/notify.yml/badge.svg)](https://github.com/dediggibyte/databricks-updates-agent/actions/workflows/notify.yml)
 [![Site](https://img.shields.io/badge/site-GitHub%20Pages-blue)](https://dediggibyte.github.io/databricks-updates-agent/)
 
 **Automatically turns Databricks release notes into executive one-pagers — technical and business — published to GitHub Pages and emailed to the team weekly.**
 
 Each one-pager explains an update *technically* (what changed, prerequisites,
 limitations) and from a *business perspective* (why it matters, use cases).
-The pipeline runs **every Tuesday**, can **backfill any past release notes**
-on demand, and mails a **weekly digest** with links to the published gallery.
+The pipeline runs **every day** (and redeploys on every merge to `main`), can
+**backfill any past release notes** on demand, and mails a **weekly digest**
+every Tuesday with links to the published gallery — never more often.
 
 ![One-pager + gallery](docs/preview.png)
 
@@ -18,12 +19,12 @@ on demand, and mails a **weekly digest** with links to the published gallery.
 
 ## Features
 
-- **Weekly auto-fetch** of Databricks platform release notes (RSS with an index-scrape fallback, headless Chromium via Playwright to pass the docs bot-wall).
+- **Daily auto-fetch** of Databricks platform release notes (RSS with an index-scrape fallback, headless Chromium via Playwright to pass the docs bot-wall), so the site is never more than a day behind.
 - **Depth from the source doc** — each note's "See …" link is followed to the real feature documentation, which drives the enrichment and becomes the one-pager's docs link.
 - **Pluggable enrichment** — free GitHub Models (default), Anthropic Claude, or a keyless deterministic heuristic; every provider degrades gracefully to the heuristic.
 - **Dual-theme one-pagers** — light COE app look by default plus a navy dark alternate, rendered from a single Pydantic content contract.
 - **Searchable gallery** on GitHub Pages with status filters and sorting.
-- **Weekly email digest** to the Databricks COE DL after every scheduled run — including "no updates this week" — plus a **consolidated monthly digest** on the last day of each month.
+- **Weekly email digest** to the Databricks COE DL every Tuesday — including "no updates this week" — plus a **consolidated monthly digest** on the last day of each month. Daily site refreshes and merge deploys never email.
 - **Historical backfill** for any month range, on demand from the Actions tab.
 
 ---
@@ -89,7 +90,7 @@ site/                       rendered HTML — generated, gitignored, built in CI
 ## Usage
 
 ```bash
-# Weekly incremental — the scheduled job. Fetch new notes, enrich, rebuild.
+# Incremental fetch — the (daily) scheduled job. Fetch new notes, enrich, rebuild.
 python -m dbx_onepager weekly
 
 # Backfill past release notes for a month range (on-demand).
@@ -173,8 +174,8 @@ needed to switch cloud, provider, or model.
 
 | Workflow | Trigger | What it does |
 |----------|---------|--------------|
-| [`weekly.yml`](.github/workflows/weekly.yml) | Tuesdays 07:00 UTC cron + manual dispatch (`mode`: `weekly` / `backfill` / `reenrich`, plus `refresh` and `model` inputs) | Fetch → enrich → commit refreshed `data/` → build `site/` → deploy to GitHub Pages. |
-| [`notify.yml`](.github/workflows/notify.yml) | After each successful weekly run (`workflow_run`), last day of every month (cron + guard), + manual dispatch (`days` or `month` input) | Builds the digest with `email-summary --send` and mails it to `dl-databricks-coe@diggibyte.com` via Microsoft Graph — weekly (last 7 days) or a consolidated calendar-month digest. |
+| [`weekly.yml`](.github/workflows/weekly.yml) | Daily 07:00 UTC cron, every push to `main`, + manual dispatch (`mode`: `weekly` / `backfill` / `reenrich`, plus `refresh` and `model` inputs) | Cron/dispatch: fetch → enrich → commit refreshed `data/` → build `site/` → deploy to GitHub Pages. Push: rebuild from stored `data/` and redeploy only (no fetch, no email). |
+| [`notify.yml`](.github/workflows/notify.yml) | After successful pipeline runs (`workflow_run`, guarded), last day of every month (cron + guard), + manual dispatch (`days` or `month` input) | Builds the digest with `email-summary --send` and mails it to `dl-databricks-coe@diggibyte.com` via Microsoft Graph. Weekly digest goes out only after the **Tuesday** scheduled run; daily and merge-triggered runs are skipped. Monthly digest consolidates the calendar month. |
 | [`pr-template-check.yml`](.github/workflows/pr-template-check.yml) | Pull requests | Enforces the repository PR template (marker + required sections). |
 
 **Setup:** enable Pages (Settings → Pages → Source: **GitHub Actions**) and add
