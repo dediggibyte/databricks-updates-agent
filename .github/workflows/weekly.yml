@@ -90,6 +90,8 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: refresh Databricks one-pagers ($(date -u +%Y-%m-%d))"
+            # The branch may have moved while the pipeline ran; replay on top.
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
 
