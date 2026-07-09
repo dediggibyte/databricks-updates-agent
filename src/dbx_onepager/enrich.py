@@ -190,8 +190,23 @@ def _llm_github_models(
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=90) as resp:  # noqa: S310
-        body = json.loads(resp.read().decode("utf-8"))
+    # The free tier rate-limits aggressively (429); wait and retry a few times
+    # before degrading to the heuristic.
+    import time
+    import urllib.error
+
+    attempts = int(llm.get("retries", 3)) + 1
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:  # noqa: S310
+                body = json.loads(resp.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as err:
+            if err.code not in (429, 500, 502, 503) or attempt == attempts - 1:
+                raise
+            wait = int(err.headers.get("Retry-After") or 0) or 15 * (attempt + 1)
+            print(f"    · github-models HTTP {err.code}; retrying in {wait}s")
+            time.sleep(min(wait, 120))
     content = body["choices"][0]["message"]["content"]
     return OnePager.model_validate(_extract_json(content))
 
