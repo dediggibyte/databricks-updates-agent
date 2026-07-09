@@ -1,0 +1,28 @@
+{
+  "product": "Databricks Add-in for Excel support for all compliance security profile…",
+  "tagline": "The Databricks Add in for Excel (Public Preview) now supports all compliance security profile standards supported by Databricks.",
+  "updated": "May 19, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/excel",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-add-in-for-excel-support-for-all-compliance-security-profile-standards",
+  "what_it_does": "The Databricks Add in for Excel (Public Preview) now supports all compliance security profile standards supported by Databricks. Preview This feature is in Public Preview. The Databricks Excel Add in connects your Databricks workspace to Microsoft Excel, bringing governed Lakehouse data directly into your spreadsheets to help you move from data to decisions faster.",
+  "why_it_matters": "The Databricks Excel Add in connects your Databricks workspace to Microsoft Excel, bringing governed Lakehouse data directly into your spreadsheets to help you move from data to decisions faster.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Databricks Add in for Excel (Public Preview) now supports all compliance security profile standards supported by Databricks.",
+  "note_id": "2026-05-19-c2a0761f",
+  "category": "platform"
+}

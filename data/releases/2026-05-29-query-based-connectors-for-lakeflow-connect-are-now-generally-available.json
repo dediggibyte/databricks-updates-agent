@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-29-query-based-connectors-for-lakeflow-connect-are-now-generally-available",
+  "title": "Query-based connectors for Lakeflow Connect are now generally available",
+  "date": "2026-05-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#query-based-connectors-for-lakeflow-connect-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Query-based connectors in Lakeflow Connect are now generally available. Query-based connectors ingest data from databases by querying the source directly using a cursor column, without requiring change data capture (CDC) configuration or an ingestion gateway. Supported sources include Oracle, Teradata, SQL Server, MySQL, MariaDB, and PostgreSQL, as well as all Lakehouse Federation data sources using foreign catalog ingestion. See [Query-based connectors](/aws/en/ingestion/lakeflow-connect/query-based-overview).",
+  "ref_links": [
+    {
+      "text": "Query-based connectors",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/query-based-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.640679Z"
+}

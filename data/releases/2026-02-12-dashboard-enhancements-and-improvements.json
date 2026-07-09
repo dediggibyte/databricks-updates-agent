@@ -1,0 +1,21 @@
+{
+  "id": "2026-02-12-dashboard-enhancements-and-improvements",
+  "title": "Dashboard enhancements and improvements",
+  "date": "2026-02-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-improvements-3",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Workspace admin theme permissions**: Fixed a bug where workspace admins couldn't edit workspace-level themes.\n* **Level of detail calculations**: Level of detail calculations now support `EXCLUDE` syntax on multiple fields. See [Defining expressions at a coarser level of detail](/aws/en/dashboards/manage/data-modeling/custom-calculations/level-of-detail#exclude-lod)\n* **Color legend sorting**: You can now sort color legends by another field in visualizations.\n* **Pivot table cell styles**: Pivot tables now support HTML, JSON, and image cell styles.\n* **Pivot table cross filtering**: Pivot tables now support cross filtering.\n* **Table resizing**: You can now resize table and pivot table headers and columns.\n* **Histogram and funnel chart labels**: Histogram and funnel charts can now show \"total\" labels.\n* **Assistant for dashboard authoring improvements**: Assistant for dashboard authoring now supports creating labels and setting color values.\n* **Multi-select parameter enhancement**: Multi-select parameters now support selecting all values. See [Allow multiple selections](/aws/en/dashboards/manage/filters/parameters#multi-select).\n* **Table visualization enhancements**: Table visualizations now support aggregations and measures, inherit formatting from locales, and support background color styling, including conditional formatting and color gradients. As a result of this change:\n  + Table formatting now uses the visualization library's formatting capabilities, ensuring consistency and allowing inheritance from locale settings.\n  + The resize columns option has been removed to reduce bugs. Set column widths in the Style tab instead.\n* **Dashboard grid expansion**: Dashboard layouts in the canvas now support 12 columns across instead of 6, providing more flexibility for widget placement.",
+  "ref_links": [
+    {
+      "text": "Defining expressions at a coarser level of detail",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations/level-of-detail#exclude-lod"
+    },
+    {
+      "text": "Allow multiple selections",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters#multi-select"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.956080Z"
+}

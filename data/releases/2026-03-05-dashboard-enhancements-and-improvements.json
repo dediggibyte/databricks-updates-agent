@@ -1,0 +1,25 @@
+{
+  "id": "2026-03-05-dashboard-enhancements-and-improvements",
+  "title": "Dashboard enhancements and improvements",
+  "date": "2026-03-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-improvements-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Embedded dashboard kebab menu**: The **Copy link to widget** option is no longer shown in the kebab menu for embedded dashboards.\n* **Dashboard import warehouse ID fix**: Importing a dashboard without a specified warehouse ID no longer clears the previously selected warehouse.\n* **End of life for legacy dashboards**: Legacy dashboards (previously referred to as Databricks SQL dashboards) have reached end of life and are no longer available.\n* **Bar and line chart x-axis spacing fix**: The x-axis spacing of temporal data labels is now consistent between bar and line charts.\n* **Pivot table drill-through filters**: You can now drill through data in pivot tables. See [Use drill-through to filter data](/aws/en/dashboards/manage/filters#drill-through-filter).\n* **Point map recentering on filter changes**: Point maps automatically recenter to show relevant data when a filter is applied.\n* **AI chart suggestion fix**: AI generated chart suggestions no longer disappear in some scenarios.\n* **Waterfall chart faceting**: You can now apply faceting (also known as trellis or small multiple charts) to waterfall charts.\n* **Unity Catalog metric views support in Excel and Google Sheets**: You can now import Unity Catalog metric views as pivot tables using the [Databricks Excel Add-in](/aws/en/integrations/excel) and the [Databricks Connector for Google Sheets](/aws/en/integrations/google-sheets).",
+  "ref_links": [
+    {
+      "text": "Use drill-through to filter data",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#drill-through-filter"
+    },
+    {
+      "text": "Databricks Excel Add-in",
+      "url": "https://docs.databricks.com/aws/en/integrations/excel"
+    },
+    {
+      "text": "Databricks Connector for Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.908917Z"
+}

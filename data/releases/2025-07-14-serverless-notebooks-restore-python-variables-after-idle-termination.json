@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-14-serverless-notebooks-restore-python-variables-after-idle-termination",
+  "title": "Serverless notebooks: Restore Python variables after idle termination",
+  "date": "2025-07-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#serverless-notebooks-restore-python-variables-after-idle-termination",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks now snapshots your notebook’s Python variables before terminating idle serverless compute. When you reconnect, your notebook is automatically restored from its snapshot, letting you continue your work seamlessly.\n\nSee [Automated session restoration for serverless notebooks](/aws/en/notebooks/notebook-compute#restore).",
+  "ref_links": [
+    {
+      "text": "Automated session restoration for serverless notebooks",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-compute#restore"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.323699Z"
+}

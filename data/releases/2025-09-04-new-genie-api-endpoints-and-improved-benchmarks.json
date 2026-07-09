@@ -1,0 +1,41 @@
+{
+  "id": "2025-09-04-new-genie-api-endpoints-and-improved-benchmarks",
+  "title": "New Genie API endpoints and improved benchmarks",
+  "date": "2025-09-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#new-genie-api-endpoints-and-improved-benchmarks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **New API endpoints**: The following new endpoints are available for managing and analyzing conversations:\n\n  + [List conversation messages](https://docs.databricks.com/api/workspace/genie/listconversationmessages)\n  + [Delete conversation message](https://docs.databricks.com/api/workspace/genie/deleteconversationmessage)\n  + [List all conversations](https://docs.databricks.com/api/workspace/genie/listconversations)\n\n  For more guidance, see  [Best practices and limits](/aws/en/genie/conversation-api#best-practice-api).\n* **Prompt matching is generally available**: Prompt matching (previously value sampling) is now generally available. Prompt matching improves Genie's ability to translate user prompts into the right column and row values by providing format assistance and entity matching for eligible columns. See  [Prompt matching overview](/aws/en/genie/tune-quality#prompt-matching-overview).\n* **Unified permission APIs**: Genie now uses the Databricks Permission APIs. See [Permissions](https://docs.databricks.com/api/workspace/permissions).\n* **Improved Benchmarks evaluation**: The evaluation function now classifies results more flexibly. For more information, see [Chat mode ratings](/aws/en/genie/monitor#ratings).",
+  "ref_links": [
+    {
+      "text": "List conversation messages",
+      "url": "https://docs.databricks.com/api/workspace/genie/listconversationmessages"
+    },
+    {
+      "text": "Delete conversation message",
+      "url": "https://docs.databricks.com/api/workspace/genie/deleteconversationmessage"
+    },
+    {
+      "text": "List all conversations",
+      "url": "https://docs.databricks.com/api/workspace/genie/listconversations"
+    },
+    {
+      "text": "Best practices and limits",
+      "url": "https://docs.databricks.com/aws/en/genie/conversation-api#best-practice-api"
+    },
+    {
+      "text": "Prompt matching overview",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#prompt-matching-overview"
+    },
+    {
+      "text": "Permissions",
+      "url": "https://docs.databricks.com/api/workspace/permissions"
+    },
+    {
+      "text": "Chat mode ratings",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#ratings"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.231059Z"
+}

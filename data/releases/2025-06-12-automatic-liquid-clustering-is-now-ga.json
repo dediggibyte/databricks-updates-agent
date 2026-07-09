@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-12-automatic-liquid-clustering-is-now-ga",
+  "title": "Automatic liquid clustering is now GA",
+  "date": "2025-06-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#automatic-liquid-clustering-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Automatic liquid clustering is now generally available. You can enable automatic liquid clustering on Unity Catalog managed tables. Automatic liquid clustering intelligently selects clustering keys to optimize data layout for your queries. See [Automatic liquid clustering](/aws/en/tables/clustering#auto-liquid).",
+  "ref_links": [
+    {
+      "text": "Automatic liquid clustering",
+      "url": "https://docs.databricks.com/aws/en/tables/clustering#auto-liquid"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.352888Z"
+}

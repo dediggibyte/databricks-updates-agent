@@ -1,0 +1,25 @@
+{
+  "id": "2025-05-29-genie-knowledge-store-and-metadata-improvements",
+  "title": "Genie knowledge store and metadata improvements",
+  "date": "2025-05-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-knowledge-store-and-metadata-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Benchmark execution bug fix in Genie**: A bug where benchmarks would not execute immediately after creating a benchmark run has been fixed.\n* **Popular query suggestions in Genie**: Genie will now suggest popular queries as example SQL for newly added tables to the space. Only popular queries that the author has access to are suggested. See  [Create a Genie Agent](/aws/en/genie/set-up#create).\n* **Table metadata improvement in Genie**: The process to provide table metadata to Genie has been changed to simplify data transformation for Genie workloads.\n* **Genie knowledge store**: The knowledge store allows authors to build more reliable, accurate Genie Spaces. Authors can now annotate, edit, and manage Genie datasets at the space level using the following features:\n\n  + **Increased accuracy with format assistance**: Genie now provides format assistance (previously example values) when you add tables to a space, helping it better understand the data in your tables and generate more accurate responses. See [Edit column metadata](/aws/en/genie/tune-quality#edit-column-metadata).\n  + **Edit column descriptions in Genie**: You can now edit table and column descriptions at the Genie-space level. This allows you to fine-tune metadata descriptions within a specific the Genie Space. See [Edit column metadata](/aws/en/genie/tune-quality#edit-column-metadata).\n  + **Column synonyms support**: You can now add column synonyms to help Genie interpret your data, making column descriptions easier to understand. See [Edit column metadata](/aws/en/genie/tune-quality#edit-column-metadata).\n  + **Hide unnecessary columns**: You can now hide unnecessary columns from Genie to simplify the data model, without needing to create new UC assets. See [Hide or show relevant columns](/aws/en/genie/tune-quality#show-hide-column).\n* **Improved parameterized SQL query use in Genie**: Genie's decision process for using parameterized SQL queries has been improved to better align its responses with the user's prompt.",
+  "ref_links": [
+    {
+      "text": "Create a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#create"
+    },
+    {
+      "text": "Edit column metadata",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#edit-column-metadata"
+    },
+    {
+      "text": "Hide or show relevant columns",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#show-hide-column"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.388095Z"
+}

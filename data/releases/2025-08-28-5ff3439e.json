@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-28-5ff3439e",
+  "title": "Lakebase synced tables supports syncing Apache Iceberg and foreign tables in Snapshot mode",
+  "date": "2025-08-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#lakebase-synced-tables-supports-syncing-apache-iceberg-and-foreign-tables-in-snapshot-mode",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create synced tables in Snapshot sync mode from Iceberg tables or foreign tables.\n\nSee [Supported source tables](/aws/en/oltp/instances/sync-data/sync-table#supported-source-tables).",
+  "ref_links": [
+    {
+      "text": "Supported source tables",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/sync-data/sync-table#supported-source-tables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.242265Z"
+}

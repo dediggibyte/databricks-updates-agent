@@ -1,0 +1,25 @@
+{
+  "id": "2025-10-23-dashboard-publishing-scheduling-and-field-management-improvements",
+  "title": "Dashboard publishing, scheduling, and field management improvements",
+  "date": "2025-10-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-publishing-scheduling-and-field-management-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Notify viewers disabled by default for dashboard publishing**: When publishing dashboards, the **Notify viewers** option is now turned off by default to reduce unintended notifications. See [Publish a dashboard](/aws/en/dashboards/share/share#publish-dashboard).\n* **New functions for custom calculations**: Custom calculations now support over 170 functions. See [Custom calculation function reference](/aws/en/dashboards/manage/data-modeling/custom-calculations/function-reference).\n* **Drag-and-drop field reordering in visualizations**: Authors can now drag to reorder fields when creating some visualizations such as **Pivot** and **Line** charts.\n* **Waterfall visualization type**: Waterfall charts are now available for dashboards. See [Waterfall chart](/aws/en/dashboards/manage/visualizations/types#waterfall).",
+  "ref_links": [
+    {
+      "text": "Publish a dashboard",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/share#publish-dashboard"
+    },
+    {
+      "text": "Custom calculation function reference",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations/function-reference"
+    },
+    {
+      "text": "Waterfall chart",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#waterfall"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.153195Z"
+}

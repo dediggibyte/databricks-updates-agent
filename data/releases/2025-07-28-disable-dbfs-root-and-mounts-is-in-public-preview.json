@@ -1,0 +1,25 @@
+{
+  "id": "2025-07-28-disable-dbfs-root-and-mounts-is-in-public-preview",
+  "title": "Disable DBFS root and mounts is in Public Preview",
+  "date": "2025-07-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#disable-dbfs-root-and-mounts-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now disable access to the [Databricks Filesystem (DBFS) root](/aws/en/dbfs#dbfs-root) and [mounts](/aws/en/dbfs#mount-object-storage) in existing Databricks workspaces. See [Disable access to DBFS root and mounts in your existing Databricks workspace](/aws/en/dbfs/disable-dbfs-root-mounts).",
+  "ref_links": [
+    {
+      "text": "Databricks Filesystem (DBFS) root",
+      "url": "https://docs.databricks.com/aws/en/dbfs#dbfs-root"
+    },
+    {
+      "text": "mounts",
+      "url": "https://docs.databricks.com/aws/en/dbfs#mount-object-storage"
+    },
+    {
+      "text": "Disable access to DBFS root and mounts in your existing Databricks workspace",
+      "url": "https://docs.databricks.com/aws/en/dbfs/disable-dbfs-root-mounts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.300907Z"
+}

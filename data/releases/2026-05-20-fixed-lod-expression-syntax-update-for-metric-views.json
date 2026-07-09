@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-20-fixed-lod-expression-syntax-update-for-metric-views",
+  "title": "Fixed LOD expression syntax update for metric views",
+  "date": "2026-05-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#fixed-lod-expression-syntax-update-for-metric-views",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Fixed level of detail (LOD) expressions in metric views are now defined directly in the `expr` field of a dimension using SQL window functions, replacing the previous two-step approach of pre-computing values in the `source` query. See [Use level of detail (LOD) expressions in metric views](/aws/en/business-semantics/metric-views/level-of-detail).",
+  "ref_links": [
+    {
+      "text": "Use level of detail (LOD) expressions in metric views",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/metric-views/level-of-detail"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.678664Z"
+}

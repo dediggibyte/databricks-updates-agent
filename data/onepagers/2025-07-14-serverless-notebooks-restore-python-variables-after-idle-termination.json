@@ -1,0 +1,28 @@
+{
+  "product": "Serverless notebooks: Restore Python variables after idle termination",
+  "tagline": "Databricks now snapshots your notebook’s Python variables before terminating idle serverless compute.",
+  "updated": "Jul 14, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/notebooks/notebook-compute#restore",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#serverless-notebooks-restore-python-variables-after-idle-termination",
+  "what_it_does": "Databricks now snapshots your notebook’s Python variables before terminating idle serverless compute. When you reconnect, your notebook is automatically restored from its snapshot, letting you continue your work seamlessly. You can run a Databricks notebook on an all purpose compute resource, serverless compute, or, for SQL commands, a SQL warehouse, a type of compute optimized for SQL analytics.",
+  "why_it_matters": "Spark DataFrames, cached and temp views: Data you’ve loaded, transformed, or cached (including temporary views) is preserved, so you avoid costly reloading or recomputation.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks now snapshots your notebook’s Python variables before terminating idle serverless compute.",
+  "note_id": "2025-07-14-serverless-notebooks-restore-python-variables-after-idle-termination",
+  "category": "platform"
+}

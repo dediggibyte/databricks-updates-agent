@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-19-file-upload-and-theme-customization-features",
+  "title": "File upload and theme customization features",
+  "date": "2025-06-19",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#file-upload-and-theme-customization-features",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **File upload to Unity Catalog from dashboards**: Authors can now upload files to Unity Catalog directly from the dashboard data tab. See [Create and manage dashboard datasets](/aws/en/dashboards/manage/data-modeling/datasets).\n\n* **Customizable dashboard theme**: Authors can now customize the dashboard theme by setting custom font, background, and widget colors. See [Dashboard settings](/aws/en/dashboards/manage/settings).",
+  "ref_links": [
+    {
+      "text": "Create and manage dashboard datasets",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/datasets"
+    },
+    {
+      "text": "Dashboard settings",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.346017Z"
+}

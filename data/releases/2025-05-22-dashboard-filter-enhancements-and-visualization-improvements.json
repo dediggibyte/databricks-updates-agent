@@ -1,0 +1,12 @@
+{
+  "id": "2025-05-22-dashboard-filter-enhancements-and-visualization-improvements",
+  "title": "Dashboard filter enhancements and visualization improvements",
+  "date": "2025-05-22",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-filter-enhancements-and-visualization-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Exclude selected values in filter widgets**: Dashboard viewers can now include or exclude the values they select from multi-select filter widgets.\n\n* **Drop-down selection fix**: Fixed an issue where selection options in a drop-down list appeared out of order.\n* **Global filters panel**: Dashboard authors can now add filters to a global filters panel, which applies across all dashboard pages.\n* **Relative date and time preview improvement**: Previews for relative date and time controls are now hidden to avoid confusion caused by time zone differences.\n* **Dashboard PDF snapshots improvement**: Dashboard PDF snapshots now wrap the content of the dashboard and no longer include white space.\n* **Constant reference line annotations**: Horizontal and vertical constants reference line annotations for quantitative axes in cartesian chart types, such as area, bar, line, scatter, heatmap, and histogram charts.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.391974Z"
+}

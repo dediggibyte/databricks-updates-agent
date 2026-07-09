@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-06-sap-semantic-metadata-syncs-automatically-into-unity-catalog",
+  "title": "SAP semantic metadata syncs automatically into Unity Catalog",
+  "date": "2026-04-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#sap-semantic-metadata-syncs-automatically-into-unity-catalog",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When you mount an SAP Business Data Cloud (BDC) share to a catalog, semantic metadata (such as table and column comments, primary keys, foreign keys, and governance tags) syncs automatically into Unity Catalog. You can use SAP governance tags in ABAC policies to control access to sensitive data. See [SAP BDC semantic metadata](/aws/en/opensharing/sap-bdc/semantic-metadata).",
+  "ref_links": [
+    {
+      "text": "SAP BDC semantic metadata",
+      "url": "https://docs.databricks.com/aws/en/opensharing/sap-bdc/semantic-metadata"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.817309Z"
+}

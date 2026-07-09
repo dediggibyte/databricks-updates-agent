@@ -1,0 +1,45 @@
+{
+  "product": "Value sampling features renamed",
+  "tagline": "The value sampling features in Genie have been renamed to better describe their function: Prompt matching (previously value sampling) Format assistance (previously example values) Entity matching…",
+  "updated": "Jan 16, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/tune-quality#configure-entity-matching",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#value-sampling-features-renamed",
+  "what_it_does": "The value sampling features in Genie have been renamed to better describe their function: Prompt matching (previously value sampling) Format assistance (previously example values) Entity matching (previously value dictionaries) Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics). note Genie Agents were formerly known as Genie Spaces. Add SQL examples and instructions You can add sample SQL queries, Unity Catalog functions, and plain text instructions to help generate accurate responses.",
+  "why_it_matters": "The value sampling features in Genie have been renamed to better describe their function: Prompt matching (previously value sampling) Format assistance (previously example values) Entity matching (previously value dictionaries) Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics).",
+  "capabilities": [
+    {
+      "title": "Company-specific business information",
+      "desc": "Company-specific business information:"
+    },
+    {
+      "title": "Fiscal year starts in February",
+      "desc": "Fiscal year starts in February, for example fiscal year 26 or FY26 is February 1, 2026 through January 31, 2027"
+    },
+    {
+      "title": "Formatting",
+      "desc": "Formatting:"
+    },
+    {
+      "title": "Always respond in Spanish",
+      "desc": "Always respond in Spanish"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The value sampling features in Genie have been renamed to better describe their function: Prompt matching (previously value sampling) Format assistance (previously example values) Entity matching…",
+  "note_id": "2026-01-16-value-sampling-features-renamed",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-22-single-use-refresh-tokens-for-oauth-applications",
+  "title": "Single-use refresh tokens for OAuth applications",
+  "date": "2025-12-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#single-use-refresh-tokens-for-oauth-applications",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure single-use refresh tokens for OAuth applications integrated with Databricks. This security feature requires token rotation after each use, enhancing protection for user-to-machine authentication flows. See [Single-use refresh tokens](/aws/en/integrations/single-use-tokens).",
+  "ref_links": [
+    {
+      "text": "Single-use refresh tokens",
+      "url": "https://docs.databricks.com/aws/en/integrations/single-use-tokens"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.060924Z"
+}

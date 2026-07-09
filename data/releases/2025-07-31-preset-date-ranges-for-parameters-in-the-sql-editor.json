@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-31-preset-date-ranges-for-parameters-in-the-sql-editor",
+  "title": "Preset date ranges for parameters in the SQL editor",
+  "date": "2025-07-31",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#preset-date-ranges-for-parameters-in-the-sql-editor",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In the new SQL editor, you can now choose from preset date ranges—such as **This week**, **Last 30 days**, or **Last year** when using timestamp, date, and date range parameters. These presets make it faster to apply common time filters without manually entering dates.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.292391Z"
+}

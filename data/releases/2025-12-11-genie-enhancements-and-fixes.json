@@ -1,0 +1,12 @@
+{
+  "id": "2025-12-11-genie-enhancements-and-fixes",
+  "title": "Genie enhancements and fixes",
+  "date": "2025-12-11",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-enhancements-and-fixes-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Service Principal monitoring display**: The user column in the Monitoring page now shows the Service Principal ID when a service principal is used, instead of displaying as empty.\n* **Genie API suggested questions fix**: Fixed an issue where messages sent through the API didn't return suggested questions.\n* **Genie Research Agent (Beta) architecture update**: Research Agent (Beta) now has a single reasoning agent that generates hypotheses and SQL. This helps Research Agent follow instructions more effectively, produce more concise reports, and deliver answers with lower latency.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.080793Z"
+}

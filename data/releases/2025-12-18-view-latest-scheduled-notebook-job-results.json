@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-18-view-latest-scheduled-notebook-job-results",
+  "title": "View latest scheduled notebook job results",
+  "date": "2025-12-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#view-latest-scheduled-notebook-job-results",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks notebooks can now show the latest scheduled notebook run directly in your notebook and notebook dashboards. You can also update the notebook with the latest run results.\n\nFor more details, see [View last successful run and update notebook](/aws/en/notebooks/schedule-notebook-jobs#last-run).",
+  "ref_links": [
+    {
+      "text": "View last successful run and update notebook",
+      "url": "https://docs.databricks.com/aws/en/notebooks/schedule-notebook-jobs#last-run"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.068996Z"
+}

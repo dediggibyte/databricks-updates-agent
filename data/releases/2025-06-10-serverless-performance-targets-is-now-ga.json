@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-10-serverless-performance-targets-is-now-ga",
+  "title": "Serverless performance targets is now GA",
+  "date": "2025-06-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#serverless-performance-targets-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Selecting the serverless performance setting for jobs and pipelines is now generally available.\n\nWhen the **Performance optimized** setting is enabled, your workload is optimized for faster startup and execution time. When disabled, the serverless workload runs on standard performance mode, which is optimized for cost and has a slightly higher launch latency.\n\nFor more information, see [Select a performance mode](/aws/en/jobs/run-serverless-jobs#performance) and [Select a performance mode](/aws/en/ldp/serverless#performance).",
+  "ref_links": [
+    {
+      "text": "Select a performance mode",
+      "url": "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs#performance"
+    },
+    {
+      "text": "Select a performance mode",
+      "url": "https://docs.databricks.com/aws/en/ldp/serverless#performance"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.363974Z"
+}

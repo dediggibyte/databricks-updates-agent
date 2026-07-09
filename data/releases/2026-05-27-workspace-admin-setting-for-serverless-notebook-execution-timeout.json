@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-27-workspace-admin-setting-for-serverless-notebook-execution-timeout",
+  "title": "Workspace admin setting for serverless notebook execution timeout",
+  "date": "2026-05-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#workspace-admin-setting-for-serverless-notebook-execution-timeout",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Workspace admins can now set the default execution timeout for serverless notebooks in the workspace admin settings, replacing the previous manual override process. To configure the timeout, go to **Settings** > **Compute** and, under **Serverless interactive**, update the **Serverless interactive execution timeout** setting.\n\nThe default timeout is 2.5 hours, and users can still override the timeout for an individual notebook by using `spark.databricks.execution.timeout`. See [Serverless overspend protection](/aws/en/compute/serverless/notebooks#serverless-overspend-protection).",
+  "ref_links": [
+    {
+      "text": "Serverless overspend protection",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/notebooks#serverless-overspend-protection"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.653128Z"
+}

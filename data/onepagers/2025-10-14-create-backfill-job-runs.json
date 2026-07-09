@@ -1,0 +1,31 @@
+{
+  "product": "Create backfill job runs",
+  "tagline": "Job backfills allow you to trigger job runs to backfill data from the past.",
+  "updated": "Oct 14, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/backfill-jobs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#create-backfill-job-runs",
+  "what_it_does": "Job backfills allow you to trigger job runs to backfill data from the past. This is useful for loading older data, or repairing data when there are failures in processing. After you have created a job that runs on a schedule, there are times when you need to backfill data into the system.",
+  "why_it_matters": "By using the same time interval your regular job, the performance and optimizations that you have set up in your job are maintained.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [
+    "Pipeline tasks are not parameterized. The pipeline is run as-is.",
+    "Pipeline tasks can't be run concurrently, so jobs with pipeline tasks are run sequentially rather than in parallel. A warning is shown in the Run backfill dialog when this happens, and in Settings, if you set the maximum concurrent runs greater than 1 when there is a pipeline task in the job."
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Job backfills allow you to trigger job runs to backfill data from the past.",
+  "note_id": "2025-10-14-create-backfill-job-runs",
+  "category": "platform"
+}

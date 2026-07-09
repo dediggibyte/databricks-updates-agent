@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-28-one-time-job-runs-now-correctly-record-the-job-name-in-usage-system-table",
+  "title": "One-time job runs now correctly record the job name in usage system table",
+  "date": "2025-07-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#one-time-job-runs-now-correctly-record-the-job-name-in-usage-system-table",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `usage_metadata.job_name` value in the `system.billing.usage` table now contains the run names for runs triggered through the [one-time run API](https://docs.databricks.com/api/workspace/jobs/submit). If a run name isn't provided in the request body, the `job_name` field is recorded as `Untitled`.",
+  "ref_links": [
+    {
+      "text": "one-time run API",
+      "url": "https://docs.databricks.com/api/workspace/jobs/submit"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.299645Z"
+}

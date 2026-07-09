@@ -1,0 +1,21 @@
+{
+  "id": "2026-01-27-knowledge-assistant-is-now-available-in-more-regions",
+  "title": "Knowledge Assistant is now available in more regions",
+  "date": "2026-01-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#knowledge-assistant-is-now-available-in-more-regions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Knowledge Assistant is now available in the following AWS regions: `us-east-2`, `ca-central-1`, `eu-central-1`, `eu-west-1`, `ap-southeast-1` (requires [cross-geo processing](/aws/en/resources/databricks-geos#cross-geo-processing)), and `ap-southeast-2` (requires [cross-geo processing](/aws/en/resources/databricks-geos#cross-geo-processing)).\n\nUsers in these regions can now use Knowledge Assistant to create a production-grade AI agent that can answer questions about their documents and provide high-quality responses with citations.\n\nSee [Use Knowledge Assistant to create a high-quality chatbot over your documents](/aws/en/agents/agent-bricks/knowledge-assistant).",
+  "ref_links": [
+    {
+      "text": "cross-geo processing",
+      "url": "https://docs.databricks.com/aws/en/resources/databricks-geos#cross-geo-processing"
+    },
+    {
+      "text": "Use Knowledge Assistant to create a high-quality chatbot over your documents",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/knowledge-assistant"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.021086Z"
+}

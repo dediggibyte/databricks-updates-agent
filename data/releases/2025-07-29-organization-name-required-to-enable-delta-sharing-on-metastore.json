@@ -1,0 +1,21 @@
+{
+  "id": "2025-07-29-organization-name-required-to-enable-delta-sharing-on-metastore",
+  "title": "Organization name required to enable Delta Sharing on metastore",
+  "date": "2025-07-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#organization-name-required-to-enable-delta-sharing-on-metastore",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When enabling Delta Sharing on your metastore, an organization name must be specified if you are sharing data with a Databricks recipient not in your account. When possible, existing provider names without an organization name are automatically updated to include account details, aiming to make them more readable. A readable organization name helps recipients to identify their share providers.\n\nSee [Enable OpenSharing on a metastore](/aws/en/opensharing/set-up#enable) and [View providers](/aws/en/opensharing/manage-provider#view-providers).",
+  "ref_links": [
+    {
+      "text": "Enable OpenSharing on a metastore",
+      "url": "https://docs.databricks.com/aws/en/opensharing/set-up#enable"
+    },
+    {
+      "text": "View providers",
+      "url": "https://docs.databricks.com/aws/en/opensharing/manage-provider#view-providers"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.298621Z"
+}

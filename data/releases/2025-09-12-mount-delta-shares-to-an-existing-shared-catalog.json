@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-12-mount-delta-shares-to-an-existing-shared-catalog",
+  "title": "Mount Delta shares to an existing shared catalog",
+  "date": "2025-09-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#mount-delta-shares-to-an-existing-shared-catalog",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Delta Sharing recipients can now mount shares received from their Delta Sharing provider to an existing shared catalog. Previously, recipients needed to create a new catalog for each new share. See [Create a catalog from a share](/aws/en/opensharing/read-data-databricks#create-catalog).",
+  "ref_links": [
+    {
+      "text": "Create a catalog from a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#create-catalog"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.217972Z"
+}

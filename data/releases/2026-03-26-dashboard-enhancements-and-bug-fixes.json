@@ -1,0 +1,29 @@
+{
+  "id": "2026-03-26-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-03-26",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-11",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Legacy dashboard color palette setting removed**: The workspace setting for the legacy dashboard color palette has been removed, as legacy dashboards are no longer supported. AI/BI workspace-level color palettes remain available and unchanged.\n* **Genie Space descriptions on dashboards**: Authors can now add descriptions to Genie Spaces embedded in dashboards. See [Edit your dashboard's Genie Space description](/aws/en/dashboards/genie-spaces#genie-space-description).\n* **Collapsible visualization editor**: The visualization editor is now collapsible when editing draft dashboards.\n* **Field comments on hover**: When configuring visualizations on a draft dashboard, hovering over a field now displays the comment associated with the underlying field.\n* **Waterfall chart total bar**: The waterfall chart editor now includes a **Show total** toggle that renders a cumulative total bar alongside incremental change bars.\n* **Simplified scheduling UI**: The dashboard scheduling interface has been redesigned for easier setup and navigation. See [Create a schedule](/aws/en/dashboards/share/schedule-subscribe#create-schedule).\n* **Advanced cells in pivot tables**: Pivot tables now support advanced cells including image, HTML, JSON, and link. See [Pivot table configuration](/aws/en/dashboards/manage/visualizations/tables#pivot-table-configuration).\n* **Parameters in custom calculations**: Custom calculations now support parameters. See [Use parameters in custom calculations](/aws/en/dashboards/manage/data-modeling/custom-calculations#parameters).\n* **Annotation render loop fix**: Fixed an infinite render loop on some dashboards with charts that have annotations.\n* **Loading and no-data state display**: Visualizations now correctly distinguish between loading and no-data states, and disable the animation slider while data loads.\n* **Dot notation in field names**: Visualization expressions now correctly handle field names that contain dots.",
+  "ref_links": [
+    {
+      "text": "Edit your dashboard's Genie Space description",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#genie-space-description"
+    },
+    {
+      "text": "Create a schedule",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#create-schedule"
+    },
+    {
+      "text": "Pivot table configuration",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-table-configuration"
+    },
+    {
+      "text": "Use parameters in custom calculations",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations#parameters"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.850415Z"
+}

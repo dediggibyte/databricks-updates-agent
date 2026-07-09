@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-01-customer-managed-keys-for-unity-catalog-are-generally-available",
+  "title": "Customer-managed keys for Unity Catalog are generally available",
+  "date": "2026-04-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#customer-managed-keys-for-unity-catalog-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Customer-managed keys (CMK) for Unity Catalog are now generally available. Use your own cloud KMS keys to encrypt data in Unity Catalog catalogs backed by default storage. See [Customer-managed keys for Unity Catalog](/aws/en/security/keys/cmek-unity-catalog).",
+  "ref_links": [
+    {
+      "text": "Customer-managed keys for Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/security/keys/cmek-unity-catalog"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.824815Z"
+}

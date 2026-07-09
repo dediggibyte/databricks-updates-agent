@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-22-lakeflow-designer-is-now-in-public-preview",
+  "title": "Lakeflow Designer is now in Public Preview",
+  "date": "2026-04-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#lakeflow-designer-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now visually build data transformation workflows with a drag-and-drop canvas and natural language in Lakeflow Designer. See [Lakeflow Designer](/aws/en/designer). Available in Public Preview.",
+  "ref_links": [
+    {
+      "text": "Lakeflow Designer",
+      "url": "https://docs.databricks.com/aws/en/designer"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.770435Z"
+}

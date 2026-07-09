@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-29-request-logs-and-assessment-logs-tables-deprecated",
+  "title": "Request logs and assessment logs tables deprecated",
+  "date": "2025-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#request-logs-and-assessment-logs-tables-deprecated",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `payload_request_logs` and `payload_assessment_logs` tables are deprecated. Starting November 1, 2025, newly deployed agents won't have these tables. Starting November 15, 2025, existing tables won't be populated with new data. Upgrade to MLflow 3 for real-time tracing or use the provided views. See [Agent inference tables: Request and assessment logs (deprecated)](/aws/en/agents/agent-framework/request-assessment-logs).",
+  "ref_links": [
+    {
+      "text": "Agent inference tables: Request and assessment logs (deprecated)",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-framework/request-assessment-logs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.148474Z"
+}

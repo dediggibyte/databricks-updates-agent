@@ -1,0 +1,12 @@
+{
+  "id": "2025-12-16-catalog-explorer-navigation-updates",
+  "title": "Catalog Explorer navigation updates",
+  "date": "2025-12-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#catalog-explorer-navigation-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Catalog Explorer will soon receive navigation improvements to streamline workflows and help you discover and manage data assets more efficiently.\n\n**Simplified navigation:**\n\nThe duplicative Catalogs tab is removed to reduce redundancy and focus on a single catalog navigation surface. **DBFS** and **Send feedback** actions move into the kebab menu  for a cleaner layout.\n\n**New Suggested section:**\n\nA new **Suggested** tab on the Catalog Explorer landing page highlights frequently used objects, example objects for first-time users, and user favorites. This helps you quickly re-engage with important assets or discover helpful starting points.\n\n**Consolidated entry points:**\n\nRelated capabilities are grouped under clearer categories to reduce visual noise and improve findability:\n\n* **Govern** – Entry point for governed tags, metastore administration, and data classification\n* **Connect** – Entry points for external locations, external data, credentials, and connections\n* **Share** – Entry points for Delta Sharing and Clean Rooms\n\nThese groupings replace scattered sub-tabs and create a more intuitive, scalable information architecture.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.075401Z"
+}

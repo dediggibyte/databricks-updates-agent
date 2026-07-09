@@ -1,0 +1,17 @@
+{
+  "id": "2025-03-06-user-interface-updates",
+  "title": "User interface updates",
+  "date": "2025-03-06",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-5",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dual-axis charts now support zoom**: You can now click and drag to zoom in on dual-axis charts.\n* **Pin table columns**: You can now pin table columns to the left side of the table display. Columns stay in view as you scroll right on the table. See  [Column settings](/aws/en/visualizations/tables#column-settings).\n* **Fixed an issue with combo charts**: Resolved misalignment between x-axis labels and bars when using a temporal field on the x-axis.",
+  "ref_links": [
+    {
+      "text": "Column settings",
+      "url": "https://docs.databricks.com/aws/en/visualizations/tables#column-settings"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.430908Z"
+}

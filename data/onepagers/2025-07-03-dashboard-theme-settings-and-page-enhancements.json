@@ -1,0 +1,37 @@
+{
+  "product": "Dashboard theme settings and page enhancements",
+  "tagline": "Dashboard import and export retains theme settings: When you import or export a dashboard as a file, theme settings are now preserved.",
+  "updated": "Jul 3, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#create-schedule",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-theme-settings-and-page-enhancements",
+  "what_it_does": "Dashboard import and export retains theme settings: When you import or export a dashboard as a file, theme settings are now preserved. To learn how to set a theme, see Theme settings. Dashboards now support up to 15 pages: The maximum number of pages per dashboard has increased from ten to fifteen.",
+  "why_it_matters": "Annotation lines supported for temporal scales: You can now add annotation lines to charts with temporal scales.",
+  "capabilities": [
+    {
+      "title": "Include pages: Select which dashboard",
+      "desc": "Include pages: Select which dashboard pages to include as PDF attachments. Pages are attached in the selected order."
+    },
+    {
+      "title": "Include data: Select widgets to",
+      "desc": "Include data: Select widgets to include as data attachments and choose an export format (CSV, TSV, or Excel)."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Dashboard import and export retains theme settings: When you import or export a dashboard as a file, theme settings are now preserved.",
+  "note_id": "2025-07-03-dashboard-theme-settings-and-page-enhancements",
+  "category": "platform"
+}

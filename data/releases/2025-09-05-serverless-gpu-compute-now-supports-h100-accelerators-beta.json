@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-05-serverless-gpu-compute-now-supports-h100-accelerators-beta",
+  "title": "Serverless GPU compute now supports H100 accelerators (Beta)",
+  "date": "2025-09-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#serverless-gpu-compute-now-supports-h100-accelerators-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless GPU compute now supports on-demand H100 accelerators for single-node workflows and jobs. This feature is in Beta.\n\nSee [AI Runtime](/aws/en/machine-learning/ai-runtime).",
+  "ref_links": [
+    {
+      "text": "AI Runtime",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.226545Z"
+}

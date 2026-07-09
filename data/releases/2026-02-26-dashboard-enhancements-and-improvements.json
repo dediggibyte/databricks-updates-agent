@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-26-dashboard-enhancements-and-improvements",
+  "title": "Dashboard enhancements and improvements",
+  "date": "2026-02-26",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-improvements-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Unity Catalog metric view lineage**: Dashboard info now shows Unity Catalog metric views in the lineage section.\n* **Dashboard refresh cancellation**: Cancelling a dashboard refresh now shows the last available data instead of an error.\n* **`DD-MM-YYYY` date format**: The `DD-MM-YYYY` date format is now available for date fields.\n* **Date range parameter \"All\" selection**: Date range parameters now support **All**. When **All** is selected, the parameter value is `null` and all rows are returned. See [Apply date range parameters](/aws/en/dashboards/manage/filters/parameters#date-range).\n* **Genie agentic experience (Public Preview)**: Genie for dashboard insights now offers an agentic experience (Public Preview) by default.\n* **Point map recentering**: Point maps now recenter upon relevant points when a filter is applied.\n* **Datetime drop-down menu fix**: Fixed an issue where datetime drop-down menus could not be set in the global filters pane.",
+  "ref_links": [
+    {
+      "text": "Apply date range parameters",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters#date-range"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.930600Z"
+}

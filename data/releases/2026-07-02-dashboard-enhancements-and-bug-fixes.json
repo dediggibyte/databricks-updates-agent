@@ -1,0 +1,37 @@
+{
+  "id": "2026-07-02-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-07-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Import reports from Power BI and Tableau**: Authors can now import Power BI and Tableau reports as a new AI/BI dashboard directly from the dashboard list page. See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Improved metric view reuse when importing**: When importing Tableau and Power BI reports as AI/BI dashboards, Genie Code is now more likely to reference existing Unity Catalog metric views instead of creating new ones. See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Hide dashboard pages before publishing**: Authors can now hide dashboard pages so they aren't published, while continuing to edit them in draft mode. See [Create multi-page reports](/aws/en/dashboards/manage#multi-page-reports).\n* **`STRING_AGG` function**: You can now use `STRING_AGG` to concatenate non-null string values within a group, with an optional custom delimiter. See [`string_agg` aggregate function](/aws/en/sql/language-manual/functions/string_agg).\n* **Custom Vega visualization improvements**: Two enhancements for custom Vega-Lite visualizations. See [Custom visualizations in AI/BI dashboards](/aws/en/dashboards/manage/visualizations/custom-visualizations).\n  + Cross-filtering now works for Vega-Lite charts. The selection appears in the active filter bar and is preserved in dashboard URLs and share links.\n  + Custom Vega-Lite charts can now inherit the dashboard's light or dark mode and custom theme, and authors can reference theme values directly in Vega-Lite expressions.\n* **Hide pivot table columns**: You can now hide columns in a pivot table. See [Pivot visualization](/aws/en/dashboards/manage/visualizations/types#pivot).\n* **Counter widget comparison styling**: Counter widgets now support text styling on the comparison date and conditional coloring on the comparison field. See [Counter visualization](/aws/en/dashboards/manage/visualizations/types#counter).\n* **More compact filter widgets**: Filter widgets on the dashboard canvas now appear more compact.\n* **Dynamic table column widths**: Table columns now adjust their width automatically based on cell content.\n* **Apply filters fix**: Fixed a bug where applying filters did not work.\n* **Table column resize fix**: Fixed an issue where resizing a table column could unintentionally trigger a sort on that column.\n* **Combo chart hover fix**: Fixed a console error that sometimes occurred when hovering over empty areas of a combo chart.",
+  "ref_links": [
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    },
+    {
+      "text": "Create multi-page reports",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage#multi-page-reports"
+    },
+    {
+      "text": "string_agg aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/string_agg"
+    },
+    {
+      "text": "Custom visualizations in AI/BI dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/custom-visualizations"
+    },
+    {
+      "text": "Pivot visualization",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#pivot"
+    },
+    {
+      "text": "Counter visualization",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#counter"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.522687Z"
+}

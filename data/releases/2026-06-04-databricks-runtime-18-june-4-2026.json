@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-04-databricks-runtime-18-june-4-2026",
+  "title": "Databricks Runtime 18: June 4, 2026",
+  "date": "2026-06-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-june-4-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Behavioral changes\n\nReview the following changes, which take effect when clusters restart on this runtime.\n\n* **`NATURAL JOIN` case-insensitive column matching**: [`NATURAL JOIN`](/aws/en/sql/language-manual/sql-ref-syntax-qry-select-join) now respects the `spark.sql.caseSensitive` configuration (default: `false`) when matching common columns between the left and right sides of the join. Previously, column matching was always case-sensitive, causing columns that differ only in case (for example, `ID` vs `id`) to not be recognized as common columns. This resulted in a silent cross join instead of the expected equi-join. The equivalent `USING` join already handled this correctly. To restore the previous behavior, set `spark.sql.legacy.naturalJoinCaseSensitiveColumnMatching` to `true`.",
+  "ref_links": [
+    {
+      "text": "NATURAL JOIN",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-join"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.629787Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-12-account-level-genie-one-beta",
+  "title": "Account-level Genie One (Beta)",
+  "date": "2026-03-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#account-level-genie-one-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Account-level Genie One is now available in Beta. Users can now discover and interact with AI/BI dashboards, Genie Spaces, and Databricks Apps from all workspaces in their account from a single entry point. Account-level Genie One provides a unified homepage, cross-workspace search, and recommendations and favorites across workspaces. See [Use Genie One](/aws/en/genie-one/genie).",
+  "ref_links": [
+    {
+      "text": "Use Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.884333Z"
+}

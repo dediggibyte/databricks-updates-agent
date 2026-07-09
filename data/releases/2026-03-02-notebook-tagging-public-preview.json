@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-02-notebook-tagging-public-preview",
+  "title": "Notebook tagging (Public Preview)",
+  "date": "2026-03-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#notebook-tagging-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now apply tags to notebooks to organize and categorize them for easier management. Notebooks also support governed tags, including certification and deprecation system tags, to indicate trust levels or lifecycle status directly within the notebook interface. See [Apply tags to notebooks](/aws/en/notebooks/notebook-tags).",
+  "ref_links": [
+    {
+      "text": "Apply tags to notebooks",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.912222Z"
+}

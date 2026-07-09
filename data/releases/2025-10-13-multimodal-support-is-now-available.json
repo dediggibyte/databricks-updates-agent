@@ -1,0 +1,29 @@
+{
+  "id": "2025-10-13-multimodal-support-is-now-available",
+  "title": "Multimodal support is now available",
+  "date": "2025-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#multimodal-support-is-now-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports multimodal inputs for Databricks hosted foundation models. See [Query vision models](/aws/en/machine-learning/model-serving/query-vision-models).\n\nThis multimodal support is available using the following functionalities:\n\n* [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).\n* [Foundation Model APIs provisioned throughput](/aws/en/machine-learning/foundation-model-apis#throughput).\n* [AI Functions](/aws/en/large-language-models/ai-functions). Both real-time inference and batch inference workloads.",
+  "ref_links": [
+    {
+      "text": "Query vision models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/query-vision-models"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "Foundation Model APIs provisioned throughput",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#throughput"
+    },
+    {
+      "text": "AI Functions",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.172728Z"
+}

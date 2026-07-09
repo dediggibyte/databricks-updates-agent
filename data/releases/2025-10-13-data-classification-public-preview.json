@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-13-data-classification-public-preview",
+  "title": "Data Classification (Public Preview)",
+  "date": "2025-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#data-classification-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Data Classification is now in Public Preview and supports all catalog types, consolidates all classification results into a single system table, and a new UI to review and auto-tag classifications. See [Data Classification](/aws/en/data-governance/unity-catalog/data-classification).",
+  "ref_links": [
+    {
+      "text": "Data Classification",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.171572Z"
+}

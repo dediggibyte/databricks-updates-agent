@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-14-genie-interface-and-file-upload-enhancements",
+  "title": "Genie interface and file upload enhancements",
+  "date": "2025-08-14",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-interface-and-file-upload-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Fixed off-screen color ramp editor in Genie**: Resolved a bug where the color ramp editor was hidden off-screen.\n* **Improved file upload security and setup in Genie**: File uploads are now accessible only to the users who uploaded them. Setup is simplified to automatically designate the catalog and schema where the file is stored. See [Upload a file to a Genie Agent](/aws/en/genie/file-upload).",
+  "ref_links": [
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/file-upload"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.261899Z"
+}

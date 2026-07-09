@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-26-ismap-compliance-support",
+  "title": "ISMAP compliance support",
+  "date": "2026-02-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#ismap-compliance-support",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure Databricks workspaces to support ISMAP, the Japanese government certification initiative for cloud services. See [Information system Security Management and Assessment Program (ISMAP)](/aws/en/security/privacy/ismap).",
+  "ref_links": [
+    {
+      "text": "Information system Security Management and Assessment Program (ISMAP)",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/ismap"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.933827Z"
+}

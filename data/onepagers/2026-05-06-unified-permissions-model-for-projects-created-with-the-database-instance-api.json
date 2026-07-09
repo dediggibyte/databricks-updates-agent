@@ -1,0 +1,28 @@
+{
+  "product": "Unified permissions model for projects created with the Database instance API",
+  "tagline": "Between May 11 and May 21, 2026, Lakebase Autoscaling is rolling out a unified permissions model for new projects created with the Database instance API or related tools (CLI, SDKs, Terraform, DABs).",
+  "updated": "May 6, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/upgrade-to-autoscaling#acls",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#unified-permissions-model-for-projects-created-with-the-database-instance-api",
+  "what_it_does": "Between May 11 and May 21, 2026, Lakebase Autoscaling is rolling out a unified permissions model for new projects created with the Database instance API or related tools (CLI, SDKs, Terraform, DABs). Existing projects are unaffected. After rollout, both instance and project permissions are managed by a unified permissions layer, instead of two independent ACL sets.",
+  "why_it_matters": "New projects get autoscaling features, including autoscaling compute, scale to zero (enabled by default with a 24 hour inactivity timeout), branching, and instant restore.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Between May 11 and May 21, 2026, Lakebase Autoscaling is rolling out a unified permissions model for new projects created with the Database instance API or related tools (CLI, SDKs, Terraform, DABs).",
+  "note_id": "2026-05-06-unified-permissions-model-for-projects-created-with-the-database-instance-api",
+  "category": "platform"
+}

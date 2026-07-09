@@ -1,0 +1,12 @@
+{
+  "id": "2026-05-01-native-data-profiling-for-results-tables-in-the-sql-editor",
+  "title": "Native data profiling for results tables in the SQL editor",
+  "date": "2026-05-01",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#native-data-profiling-for-results-tables-in-the-sql-editor",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now view profiling statistics for columns in results tables in the new Databricks SQL editor. Select column headers and click  **Open selection details** to view profiling statistics.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.743969Z"
+}

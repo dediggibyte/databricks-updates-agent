@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-22-account-access-denylist-for-automatic-identity-management-public-preview",
+  "title": "Account access denylist for automatic identity management (Public Preview)",
+  "date": "2026-05-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#account-access-denylist-for-automatic-identity-management-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The account access denylist is now available in Public Preview for Databricks accounts on AWS and GCP that use automatic identity management. Account admins can add users, groups, or service principals to the denylist to block their access to the Databricks account. Denylist membership is transitive — denying a group also denies all of its members.\n\nSee [Deny identities access to your account](/aws/en/admin/users-groups/automatic-identity-management/account-access-denylist).",
+  "ref_links": [
+    {
+      "text": "Deny identities access to your account",
+      "url": "https://docs.databricks.com/aws/en/admin/users-groups/automatic-identity-management/account-access-denylist"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.667121Z"
+}

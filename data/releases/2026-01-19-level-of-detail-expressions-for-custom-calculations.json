@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-19-level-of-detail-expressions-for-custom-calculations",
+  "title": "Level of detail expressions for custom calculations",
+  "date": "2026-01-19",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#level-of-detail-expressions-for-custom-calculations",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Level of detail expressions let you control aggregation granularity independently of the dimensions in your visualizations. Use fixed level of detail expressions to aggregate over specific dimensions regardless of visualization groupings, or use coarser level of detail expressions to aggregate at a higher level by excluding dimensions. Common use cases include calculating percentages of total, comparing values to dataset-wide aggregates, and creating cohort-level metrics. See [Level of detail (LOD) expressions](/aws/en/dashboards/manage/data-modeling/custom-calculations/level-of-detail).",
+  "ref_links": [
+    {
+      "text": "Level of detail (LOD) expressions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations/level-of-detail"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.029882Z"
+}

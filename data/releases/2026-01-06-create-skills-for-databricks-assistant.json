@@ -1,0 +1,21 @@
+{
+  "id": "2026-01-06-create-skills-for-databricks-assistant",
+  "title": "Create skills for Databricks Assistant",
+  "date": "2026-01-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#create-skills-for-databricks-assistant",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create skills to extend Databricks Assistant in Agent mode with specialized capabilities for domain-specific tasks. User skills follow the open [Agent Skills](https://agentskills.io/) standard and are automatically loaded when relevant.\n\nSee [Extend Genie Code with agent skills](/aws/en/genie-code/skills).",
+  "ref_links": [
+    {
+      "text": "Agent Skills",
+      "url": "https://agentskills.io/"
+    },
+    {
+      "text": "Extend Genie Code with agent skills",
+      "url": "https://docs.databricks.com/aws/en/genie-code/skills"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.058119Z"
+}

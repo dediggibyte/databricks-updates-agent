@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-17-altering-a-catalog-or-schema-s-managed-storage-location-is-now-ga",
+  "title": "Altering a catalog or schema's managed storage location is now GA",
+  "date": "2026-04-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#altering-a-catalog-or-schemas-managed-storage-location-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The ability to modify a catalog or schema's managed storage location is now generally available. The managed storage location is the default location in cloud storage used when new managed tables and volumes are created in Unity Catalog catalogs or schemas. See [Specify a managed storage location in Unity Catalog](/aws/en/connect/unity-catalog/cloud-storage/managed-storage).",
+  "ref_links": [
+    {
+      "text": "Specify a managed storage location in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-storage/managed-storage"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.788504Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-02-genie-one-enhancements-and-bug-fixes",
+  "title": "Genie One enhancements and bug fixes",
+  "date": "2026-07-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Ontology snippets (Public Preview)**: Genie One now supports ontology snippets. This feature is in Public Preview. Contact your Databricks account team to sign up. See [Genie Ontology](/aws/en/genie-one/chat#ontology).\n* **Document edit timestamps**: Documents now show the date and time they were last edited. See [Documents in Genie One](/aws/en/genie-one/documents).\n* **Links in documents**: Documents now support links. See [Documents in Genie One](/aws/en/genie-one/documents).\n* **Scheduled tasks**: Fixed a bug that prevented scheduled tasks from running. See [Scheduled tasks](/aws/en/genie-one/chat#scheduled-tasks).",
+  "ref_links": [
+    {
+      "text": "Genie Ontology",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#ontology"
+    },
+    {
+      "text": "Documents in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/documents"
+    },
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.518037Z"
+}

@@ -1,0 +1,57 @@
+{
+  "product": "Row filtering for managed ingestion connectors (Beta)",
+  "tagline": "Lakeflow Connect now offers row filtering for managed ingestion connectors to improve performance and minimize data duplication.",
+  "updated": "Jan 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/row-filtering",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#row-filtering-for-managed-ingestion-connectors-beta",
+  "what_it_does": "Lakeflow Connect now offers row filtering for managed ingestion connectors to improve performance and minimize data duplication. Row filtering applies conditions similar to a SQL WHERE clause, allowing you to ingest only the data you need from your source systems. This feature is available for the Google Analytics, Salesforce, and ServiceNow connectors.",
+  "why_it_matters": "Lakeflow Connect now offers row filtering for managed ingestion connectors to improve performance and minimize data duplication.",
+  "capabilities": [
+    {
+      "title": "You define a row filter",
+      "desc": "You define a row filter per source object (table, stream, or object) as a boolean expression over that object's columns."
+    },
+    {
+      "title": "The filter is applied during",
+      "desc": "The filter is applied during the initial load and on every subsequent incremental update, so the target stays consistent with…"
+    },
+    {
+      "title": "Because filtering happens before transfer",
+      "desc": "Because filtering happens before transfer, it reduces data movement, storage, and downstream compute compared with ingesting…"
+    },
+    {
+      "title": "Google Analytics",
+      "desc": "Google Analytics"
+    }
+  ],
+  "prerequisites": [
+    "A Lakeflow Connect ingestion pipeline on a supported connector.",
+    "Unity Catalog enabled for the destination catalog and schema.",
+    "Permission to edit the ingestion pipeline definition."
+  ],
+  "use_cases": [
+    "Ingest only rows for a specific region, business unit, or active-record flag.",
+    "Exclude test or archived records from a SaaS system.",
+    "Reduce cost and duplication for very large source tables."
+  ],
+  "limitations": [
+    "Filters reference only columns available on the source object; joins across objects are not supported in a filter.",
+    "Changing a filter after the initial load can require a full refresh of the affected object to remain consistent.",
+    "Non-deterministic source functions are not supported inside a filter."
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Lakeflow Connect now offers row filtering for managed ingestion connectors to improve performance and minimize data duplication.",
+  "note_id": "2026-01-13-row-filtering-for-managed-ingestion-connectors-beta",
+  "category": "platform"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2026-01-27-databricks-runtime-18-january-27-2026",
+  "title": "Databricks Runtime 18: January 27, 2026",
+  "date": "2026-01-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-january-27-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* Auto Loader now reports `batchSizeNumFiles`, `batchSizeNumBytes`, and file processing states (`numFilesProcessed`, `numFilesSkippedCorrupted`, `numFilesSkippedMissing`, `numFilesUnknownState`) as metrics.\n* `INSERT INTO ... BY NAME` now supports the `REPLACE WHERE` clause.\n* The configuration property `spark.sql.xml.legacyXMLParser.enabled` has been renamed to `spark.sql.legacy.useLegacyXMLParser`. Update any cluster or session configurations that use the old name.\n* When `spark.task.resource.gpu.amount` is greater than 1, Torch Distributor now launches one `torchrun` process per GPU rather than per task.\n* **[Security fix]** Operating system security updates.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.017932Z"
+}

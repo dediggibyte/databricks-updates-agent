@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-08-genie-agents-now-uses-pay-as-you-go-pricing",
+  "title": "Genie Agents now uses pay-as-you-go pricing",
+  "date": "2026-07-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-now-uses-pay-as-you-go-pricing",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting July 8, 2026 at 00:00 UTC, Genie Agents is billed following a pay-as-you-go pricing model that includes 150 DBUs of free large language model (LLM) usage every month, equivalent to about $10.50 in the US East region. Usage beyond the free amount is billed in DBUs, reflecting the underlying LLM models and agents that power each Genie Agents session. Account admins can set budgets to monitor and control Genie spend. See [Manage budgets and cost controls for Genie](/aws/en/genie/budgets) and the [Databricks pricing page](https://www.databricks.com/product/pricing/genie).",
+  "ref_links": [
+    {
+      "text": "Manage budgets and cost controls for Genie",
+      "url": "https://docs.databricks.com/aws/en/genie/budgets"
+    },
+    {
+      "text": "Databricks pricing page",
+      "url": "https://www.databricks.com/product/pricing/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.499880Z"
+}

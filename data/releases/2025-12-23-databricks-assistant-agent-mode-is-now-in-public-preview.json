@@ -1,0 +1,25 @@
+{
+  "id": "2025-12-23-databricks-assistant-agent-mode-is-now-in-public-preview",
+  "title": "Databricks Assistant Agent mode is now in Public Preview",
+  "date": "2025-12-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#databricks-assistant-agent-mode-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Assistant Agent mode preview is now enabled by default for most customers.\n\n* The agent can automate multiple steps. From a single prompt, it can retrieve relevant assets, generate and run code, fix errors automatically, and visualize results. It adds the ability to sample data and cell outputs to provide better results.\n* The Assistant in Agent mode will choose between Azure OpenAI or Anthropic on Databricks (uses endpoints hosted by Databricks Inc. in AWS within the Databricks security perimeter), and is only available when the partner-powered AI features setting is enabled.\n* Admins can disable the preview if needed until the feature reaches General Availability.\n\nSee [Use Genie Code for data science](/aws/en/notebooks/ds-agent), [the blog post](https://www.databricks.com/blog/introducing-databricks-assistant-data-science-agent), and [Partner-powered AI features](/aws/en/databricks-ai/partner-powered).",
+  "ref_links": [
+    {
+      "text": "Use Genie Code for data science",
+      "url": "https://docs.databricks.com/aws/en/notebooks/ds-agent"
+    },
+    {
+      "text": "the blog post",
+      "url": "https://www.databricks.com/blog/introducing-databricks-assistant-data-science-agent"
+    },
+    {
+      "text": "Partner-powered AI features",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.060388Z"
+}

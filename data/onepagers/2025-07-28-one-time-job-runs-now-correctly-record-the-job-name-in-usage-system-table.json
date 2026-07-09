@@ -1,0 +1,28 @@
+{
+  "product": "One-time job runs now correctly record the job name in usage system table",
+  "tagline": "The usage metadata.job name value in the system.billing.usage table now contains the run names for runs triggered through the one time run API.",
+  "updated": "Jul 28, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/api/workspace/jobs/submit",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#one-time-job-runs-now-correctly-record-the-job-name-in-usage-system-table",
+  "what_it_does": "The usage metadata.job name value in the system.billing.usage table now contains the run names for runs triggered through the one time run API. If a run name isn't provided in the request body, the job name field is recorded as Untitled. Databricks REST API ReferenceAPI CTRL + P Documentation Support AWSGCPAzure WorkspaceAccount Introduction API Scopes Databricks Workspace Git Credentials Repos Secret Workspace Compute Cluster Policies Clusters Command Execution Global Init Scripts Instance Pools Instance Profiles Managed Libraries Policy compliance for clusters Policy Families Lakeflow Jobs Get job permissions Set job permissions Update job permissions Get job permission levels Create a new job Delete a job Get a single job List jobs Update all job settings (reset) Trigger a new job run Cancel a run Cancel all runs of a job Delete a job run Export and retrieve a job run Get a single job run Get the output for a single run List job runs Repair a job run Create and trigger a one time run Update job settings partially Jobs (legacy) Pipelines Policy compliance for jobs File Management DBFS Files Public preview Machine Learning Experiments Experiments Tracing Model Registry Real time Serving Serving endpoints Apps Apps Vector Search Endpoints Indexes AI Search AISearch Beta Identity and Access Management Account Access Control Proxy Public preview Current User Public preview Groups Public preview Permissions Service Principals Public preview Users Public preview IAM V2 Beta Databricks SQL Alerts Alerts (deprecated) Public preview Alerts V2 Public preview Dashboards (deprecated) Data Sources (deprecated) Permissions (deprecated) Queries Queries (deprecated) Query History Statement Execution SQL Warehouses AI/BI Genie Lakeview Lakeview Embedded Unity Catalog Artifact Allowlists Catalogs Connections Credentials Entity Tag Assignments External Lineage Public preview External Locations External Metadata Public preview Functions Grants Metastores Model Versions Online Tables Public preview ABAC Policies Quality Monitors Registered Models Resource Quotas Request for Access Public preview Schemas Secrets Public preview Storage Credentials SystemSchemas Public preview Table Constraints Tables Temporary Path Credentials Temporary Table Credentials Temporary Volume Credentials Public preview Volumes Workspace Bindings Delta Sharing Providers Recipient Activation Recipient Federation Policies Public preview Recipients Shares Settings Settings IP Access Lists Notification Destinations Settings API V2 Public preview Token management Token Workspace Conf OAuth Service Principal Secrets Proxy Marketplace Consumer Fulfillments Public preview Consumer Installations Public preview Consumer Listings Public preview Consumer Personalization Requests Public preview Consumer Providers Public preview Provider Exchange Filters Public preview Provider Exchanges Public preview Provider Files Public preview Provider Listings Public preview Provider Personalization Requests Public preview Provider Providers Analytics Dashboards Public preview Provider Providers Public preview Clean Rooms Asset Revisions Beta Assets Auto approval Rules Beta Task Runs Clean Rooms Quality Monitor Quality Monitor V2 Beta Data Classification Data Classification Beta Data Quality Monitoring Data Quality Monitors Public preview Database Instances Database Instances Public preview Agent Bricks Knowledge Assistants Beta Supervisor Agents Beta Tags Tag Policies Tag Assignments Beta Postgres Postgres Beta Environments Environments API Loading...",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The usage metadata.job name value in the system.billing.usage table now contains the run names for runs triggered through the one time run API.",
+  "note_id": "2025-07-28-one-time-job-runs-now-correctly-record-the-job-name-in-usage-system-table",
+  "category": "platform"
+}

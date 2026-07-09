@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-09-tag-policies-is-in-beta",
+  "title": "Tag policies is in Beta",
+  "date": "2025-06-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#tag-policies-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Tag policies enables admins to enforce consistent tagging across data assets such as catalogs, schemas, and tables. Tag policies define allowed tag keys and values, and control which users and groups can assign them. This enables standardized metadata management for data classification, cost tracking, access control, and automation use cases.\n\nTag policies are managed at the account level and apply across all workspaces. For more information, see [Governed tags](/aws/en/admin/governed-tags)",
+  "ref_links": [
+    {
+      "text": "Governed tags",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.367615Z"
+}

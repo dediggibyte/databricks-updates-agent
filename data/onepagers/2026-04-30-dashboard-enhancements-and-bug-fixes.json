@@ -1,0 +1,37 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Publish with service principal credentials: Authors can now publish dashboards using the data credentials of a service principal.",
+  "updated": "Apr 30, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-7",
+  "what_it_does": "Publish with service principal credentials: Authors can now publish dashboards using the data credentials of a service principal. Service principal draft view fix: Fixed a bug where a dashboard published via a service principal loses the ability to view draft. Text widget menu fix: Removed Show visualization query from the kebab menu on text widgets.",
+  "why_it_matters": "Dataset field filters can also offer dashboard interactivity, more features, and better performance with large datasets than parameters.",
+  "capabilities": [
+    {
+      "title": "The default type is String",
+      "desc": "The default type is String."
+    },
+    {
+      "title": "The Numeric datatype allows you",
+      "desc": "The Numeric datatype allows you to specify between Decimal and Integer. The default numeric type is Decimal. Allow multiple…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Publish with service principal credentials: Authors can now publish dashboards using the data credentials of a service principal.",
+  "note_id": "2026-04-30-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

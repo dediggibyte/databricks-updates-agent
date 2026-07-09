@@ -1,0 +1,28 @@
+{
+  "product": "Lakebase synced tables supports syncing Apache Iceberg and foreign tables in…",
+  "tagline": "You can now create synced tables in Snapshot sync mode from Iceberg tables or foreign tables.",
+  "updated": "Aug 28, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/instances/sync-data/sync-table#supported-source-tables",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#lakebase-synced-tables-supports-syncing-apache-iceberg-and-foreign-tables-in-snapshot-mode",
+  "what_it_does": "You can now create synced tables in Snapshot sync mode from Iceberg tables or foreign tables. info Lakebase Provisioned is the original Lakebase offering that uses provisioned compute you scale manually. For supported regions, see Region availability.",
+  "why_it_matters": "info Lakebase Provisioned is the original Lakebase offering that uses provisioned compute you scale manually.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now create synced tables in Snapshot sync mode from Iceberg tables or foreign tables.",
+  "note_id": "2025-08-28-5ff3439e",
+  "category": "platform"
+}

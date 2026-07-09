@@ -1,0 +1,21 @@
+{
+  "id": "2026-01-08-genie-space-pdf-export-citations-and-accuracy-improvements",
+  "title": "Genie Space PDF export, citations, and accuracy improvements",
+  "date": "2026-01-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-pdf-export-citations-and-accuracy-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **PDF export for Research Agent (Beta) reports**: Export Genie Research Agent reports as PDF files. See [Export Agent mode reports](/aws/en/genie/agent-mode#export).\n* **SQL example citations**: Genie's analysis steps now cite the SQL examples used. See [Review a response](/aws/en/genie/talk-to-genie#review-response).\n* **Currency formatting improvements**: Numeric columns in table results now use more conservative currency formatting rules to avoid incorrect assumptions.\n* **Improved question type handling**: Genie now categorizes common question types (top K, percentage, and distribution) more accurately so the right context is applied, improving results.",
+  "ref_links": [
+    {
+      "text": "Export Agent mode reports",
+      "url": "https://docs.databricks.com/aws/en/genie/agent-mode#export"
+    },
+    {
+      "text": "Review a response",
+      "url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#review-response"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.055983Z"
+}

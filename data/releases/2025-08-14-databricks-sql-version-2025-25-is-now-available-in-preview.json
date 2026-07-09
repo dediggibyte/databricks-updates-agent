@@ -1,0 +1,29 @@
+{
+  "id": "2025-08-14-databricks-sql-version-2025-25-is-now-available-in-preview",
+  "title": "Databricks SQL version 2025.25 is now available in Preview",
+  "date": "2025-08-14",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-version-202525-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2025.25 is now available in the **Preview** channel. Review the following section to learn about new features and behavioral changes.\n\n#### Recursive common table expressions (rCTE) are generally available\n\n[Recursive common table expressions (rCTEs)](/aws/en/sql/language-manual/sql-ref-syntax-qry-select-cte) are generally available. Navigate hierarchical data using a self-referencing CTE with UNION ALL to follow the recursive relationship.\n\n#### Support for schema and catalog level default collation\n\nYou can now set a default collation for schemas and catalogs. This allows you to define a collation that applies to all objects created within the schema or catalog, ensuring consistent collation behavior across your data.\n\n#### Support for Spatial SQL expressions and GEOMETRY and GEOGRAPHY data types\n\nYou can now store geospatial data in built-in `GEOMETRY` and `GEOGRAPHY` columns for improved performance of spatial queries. This release adds more than 80 new spatial SQL expressions, including functions for importing, exporting, measuring, constructing, editing, validating, transforming, and determining topological relationships with spatial joins. See [ST geospatial functions](/aws/en/sql/language-manual/sql-ref-st-geospatial-functions), [`GEOGRAPHY` type](/aws/en/sql/language-manual/data-types/geography-type), and [`GEOMETRY` type](/aws/en/sql/language-manual/data-types/geometry-type).\n\n#### Support for schema and catalog level default collation\n\nYou can now set a default collation for schemas and catalogs. This allows you to define a collation that applies to all objects created within the schema or catalog, ensuring consistent collation behavior across your data.\n\n#### Better handling of JSON options with `VARIANT`\n\nThe `from_json` and `to_json` functions now correctly apply JSON options when working with top-level `VARIANT` schemas. This ensures consistent behavior with other supported data types.\n\n#### Support for TIMESTAMP WITHOUT TIME ZONE syntax\n\nYou can now specify `TIMESTAMP WITHOUT TIME ZONE` instead of `TIMESTAMP_NTZ`. This change improves compatibility with the SQL Standard.\n\n#### Resolved subquery correlation issue\n\nDatabricks no longer incorrectly correlates semantically equal aggregate expressions between a subquery and its outer query. Previously, this could lead to incorrect query results.\n\n#### Error thrown for invalid `CHECK` constraints\n\nDatabricks now throws an `AnalysisException` if a `CHECK` constraint expression cannot be resolved during constraint validation.\n\n#### Stricter rules for stream-stream joins in append mode\n\nDatabricks now disallows streaming queries in append mode that use a stream-stream join followed by window aggregation, unless watermarks are defined on both sides. Queries without proper watermarks can produce non-final results, violating append mode guarantees.",
+  "ref_links": [
+    {
+      "text": "Recursive common table expressions (rCTEs)",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-cte"
+    },
+    {
+      "text": "ST geospatial functions",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-st-geospatial-functions"
+    },
+    {
+      "text": "GEOGRAPHY type",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/geography-type"
+    },
+    {
+      "text": "GEOMETRY type",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/geometry-type"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.267461Z"
+}

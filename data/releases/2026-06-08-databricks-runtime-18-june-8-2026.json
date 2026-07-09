@@ -1,0 +1,12 @@
+{
+  "id": "2026-06-08-databricks-runtime-18-june-8-2026",
+  "title": "Databricks Runtime 18: June 8, 2026",
+  "date": "2026-06-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-june-8-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Apache Spark fixes and improvements\n\nThis release includes the following bug fixes and improvements made to Spark:\n\n* `NEAREST BY` is now a supported SQL join type for top-K nearest-neighbor queries.\n* `DESCRIBE TABLE ... PARTITION` is now supported for v2 catalog tables. Previously, this syntax was only available for v1 tables.\n* SQL PATH support has been extended: `SET PATH` is now a supported SQL statement, `CURRENT_PATH()` returns the current path, and the PATH is now persisted in view and SQL function definitions and included in `DESCRIBE` output.\n* `UPDATE` queries on DSv2 tables now include operation metrics in query output.\n* DSv2 partition predicates now support nested partition columns.\n* Fixed a bug where aggregate queries using `PartialMerge` or `Final` aggregate execution could fail due to missing required input attributes.\n* Large external sorts now use bounded k-way merging to reduce out-of-memory errors when spilling data to disk.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.613788Z"
+}

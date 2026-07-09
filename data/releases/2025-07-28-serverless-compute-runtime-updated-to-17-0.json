@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-28-serverless-compute-runtime-updated-to-17-0",
+  "title": "Serverless compute runtime updated to 17.0",
+  "date": "2025-07-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#serverless-compute-runtime-updated-to-170",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless compute for notebooks and jobs now uses an upgraded runtime, which roughly corresponds to Databricks Runtime 17.0. See [Serverless compute release notes](/aws/en/release-notes/serverless).",
+  "ref_links": [
+    {
+      "text": "Serverless compute release notes",
+      "url": "https://docs.databricks.com/aws/en/release-notes/serverless"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.300200Z"
+}

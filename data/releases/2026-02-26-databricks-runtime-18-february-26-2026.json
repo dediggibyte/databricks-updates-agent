@@ -1,0 +1,12 @@
+{
+  "id": "2026-02-26-databricks-runtime-18-february-26-2026",
+  "title": "Databricks Runtime 18: February 26, 2026",
+  "date": "2026-02-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-february-26-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* `SET METADATA ON COLUMN` and `UNSET METADATA ON COLUMN` SQL commands are now available for managing semantic metadata on Unity Catalog table columns. Use `SET METADATA ON COLUMN` to attach properties (`display_name`, `format`, and `synonyms`) to columns. Use `UNSET METADATA ON COLUMN` to remove previously set metadata properties.\n* `DESCRIBE TABLE` now includes a `metadata` column displaying column-level semantic metadata as a JSON string.\n* Fixed a PySpark import error in Windows environments caused by a missing `UnixStreamServer`.\n* **[Security fix]** Operating system security updates.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.933291Z"
+}

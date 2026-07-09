@@ -1,0 +1,21 @@
+{
+  "id": "2025-12-11-disable-legacy-features-settings-are-now-ga",
+  "title": "Disable legacy features settings are now GA",
+  "date": "2025-12-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#disable-legacy-features-settings-are-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "To help migrate accounts and workspaces to Unity Catalog, two admin settings that disable legacy features are now generally available:\n\n* [Disable legacy features](/aws/en/admin/account-settings/legacy-features): Account-level setting that disables access to DBFS, Hive Metastore, and No-isolation shared compute in new workspaces.\n* [Disable access to Hive metastore](/aws/en/data-governance/unity-catalog/disable-hms): Workspace-level setting that disables access to the Hive metastore used by your workspace.",
+  "ref_links": [
+    {
+      "text": "Disable legacy features",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/legacy-features"
+    },
+    {
+      "text": "Disable access to Hive metastore",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/disable-hms"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.081616Z"
+}

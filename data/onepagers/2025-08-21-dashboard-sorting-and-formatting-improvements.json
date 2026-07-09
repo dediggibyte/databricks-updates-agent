@@ -1,0 +1,28 @@
+{
+  "product": "Dashboard sorting and formatting improvements",
+  "tagline": "Fixed sorting on temporal categorical axes: Resolved an issue where sorting did not work correctly on temporal categorical axes.",
+  "updated": "Aug 21, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-sorting-and-formatting-improvements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-sorting-and-formatting-improvements",
+  "what_it_does": "Fixed sorting on temporal categorical axes: Resolved an issue where sorting did not work correctly on temporal categorical axes. Numeric formatting as Bytes: Users can now format numeric values as Bytes. Totals in histogram tooltips: Histograms now display totals in tooltips.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Fixed sorting on temporal categorical axes: Resolved an issue where sorting did not work correctly on temporal categorical axes.",
+  "note_id": "2025-08-21-dashboard-sorting-and-formatting-improvements",
+  "category": "platform"
+}

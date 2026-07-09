@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-09-share-foreign-iceberg-tables-with-delta-sharing-public-preview",
+  "title": "Share foreign Iceberg tables with Delta Sharing (Public Preview)",
+  "date": "2026-04-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#share-foreign-iceberg-tables-with-delta-sharing-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now share foreign Iceberg tables federated from foreign Iceberg catalogs using Delta Sharing. Providers can add foreign Iceberg tables to a share, and recipients access the shared data in read-only format. See [Add foreign Iceberg tables to a share](/aws/en/opensharing/create-share#foreign-iceberg).",
+  "ref_links": [
+    {
+      "text": "Add foreign Iceberg tables to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#foreign-iceberg"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.811469Z"
+}

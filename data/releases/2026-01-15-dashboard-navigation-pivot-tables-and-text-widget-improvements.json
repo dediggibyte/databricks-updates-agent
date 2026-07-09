@@ -1,0 +1,12 @@
+{
+  "id": "2026-01-15-dashboard-navigation-pivot-tables-and-text-widget-improvements",
+  "title": "Dashboard navigation, pivot tables, and text widget improvements",
+  "date": "2026-01-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-navigation-pivot-tables-and-text-widget-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashboard page navigation scroll bar**: The horizontal scroll bar to navigate between dashboard pages is now thicker.\n* **Dashboard title character limit**: Dashboard titles now have more horizontal space before truncating.\n* **Pivot table header height**: Pivot table header height can be configured to enable wrapping for multi-row heights.\n* **Text widget markdown tables**: Text widgets now support markdown table syntax.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.031749Z"
+}

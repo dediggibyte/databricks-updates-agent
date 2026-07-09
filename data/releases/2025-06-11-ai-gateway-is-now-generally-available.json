@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-11-ai-gateway-is-now-generally-available",
+  "title": "AI Gateway is now generally available",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#ai-gateway-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Mosaic AI Gateway](/aws/en/ai-gateway) is now generally available. AI Gateway is a centralized service that streamlines the usage and management of generative AI models within an organization.\n\nAI Gateway brings governance, monitoring, and production readiness to model serving endpoints using the following features:\n\n* **Permission and rate limiting** to control who has access and how much access.\n* **Payload logging** to monitor and audit data being sent to model APIs using inference tables.\n* **Usage tracking** to monitor operational usage on endpoints and associated costs using system tables.\n* **Traffic routing** to load balance traffic across multiple models.\n* **Fallbacks for external models** to minimize production outages during and after deployment.\n\nAI Guardrails remains in [Public Preview](/aws/en/release-notes/release-types).",
+  "ref_links": [
+    {
+      "text": "Mosaic AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.356181Z"
+}

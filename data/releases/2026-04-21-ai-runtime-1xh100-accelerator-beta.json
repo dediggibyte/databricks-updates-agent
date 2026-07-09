@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-21-ai-runtime-1xh100-accelerator-beta",
+  "title": "AI Runtime 1xH100 accelerator (Beta)",
+  "date": "2026-04-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#ai-runtime-1xh100-accelerator-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AI Runtime now supports the 1xH100 accelerator in [Beta](/aws/en/release-notes/release-types). See [Hardware options](/aws/en/machine-learning/ai-runtime#hardware-options).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Hardware options",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime#hardware-options"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.771540Z"
+}

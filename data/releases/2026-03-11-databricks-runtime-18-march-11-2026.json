@@ -1,0 +1,69 @@
+{
+  "id": "2026-03-11-databricks-runtime-18-march-11-2026",
+  "title": "Databricks Runtime 18: March 11, 2026",
+  "date": "2026-03-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-march-11-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Behavioral changes\n\nReview the following changes, which take effect when clusters restart on this runtime.\n\n* **Observation metric errors**: No longer cause query execution failures. Previously, errors in `OBSERVE` clauses (such as division by zero) could block or fail the entire query. Now, the query completes successfully and the error is raised when you call `observation.get`.\n* **`FILTER` clause for `MEASURE`**: [MEASURE](/aws/en/sql/language-manual/functions/measure) aggregate functions now support [FILTER clauses](/aws/en/sql/language-manual/sql-ref-syntax-qry-select-groupby). Previously, filters were silently ignored.\n* **`DESCRIBE FLOW`**: The `DESCRIBE FLOW` command is now available. If you have a table named `flow`, use `DESCRIBE schema.flow`, `DESCRIBE TABLE flow`, or `` DESCRIBE `flow` `` with backticks.\n* **SpatialSQL Boolean set operations**: `ST_Difference`, `ST_Intersection`, and `ST_Union` use a new implementation with the following improvements:\n  + Valid input geometries always produce a result and no longer raise errors.\n  + Approximately 2x faster performance.\n  + Results are normalized for consistent, comparable output.\n* **Exception types for SQLSTATE**: [Exception types](/aws/en/error-messages) are updated to support SQLSTATE. If your code parses exceptions by string matching or catches specific exception types, update your error handling logic.\n* **Automatic streaming type widening**: Streaming reads on Delta tables automatically handle [column type widening](/aws/en/tables/features/type-widening). To require manual acknowledgement, set `spark.databricks.delta.typeWidening.enableStreamingSchemaTracking` to `true`.\n\n### New features and improvements\n\nThe following features and improvements are available in this release.\n\n* **Auto Loader file events by default**: Auto Loader uses file events by default when loading from an external location with file events enabled, which reduces list operations and cost compared to directory listing. See [Auto Loader with file events overview](/aws/en/ingestion/cloud-object-storage/auto-loader/file-events-explained). To use directory listing instead, set `useManagedFileEvents` to `false`.\n* **Schema evolution with `INSERT`**: Use the `WITH SCHEMA EVOLUTION` clause with SQL [INSERT](/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-into) statements to automatically evolve the target table's schema during insert operations. Supported for `INSERT INTO`, `INSERT OVERWRITE`, and `INSERT INTO ... REPLACE`. For example:\n\n  ```\n  INSERT WITH SCHEMA EVOLUTION INTO students TABLE visiting_students_with_additional_id;\n  ```\n* **Delta Sharing multi-statement transactions**: Delta Sharing tables that use pre-signed URL or cloud token sharing modes support multi-statement transactions. On first access within a transaction, the table version is pinned and reused for all subsequent reads in that transaction.\n* **`parse_timestamp`**: The [parse\\_timestamp](/aws/en/sql/language-manual/functions/parse_timestamp) SQL function parses timestamp strings using multiple patterns, with Photon engine support for improved performance.\n* **`max_by` and `min_by` with optional `limit`**: The aggregate functions [max\\_by](/aws/en/sql/language-manual/functions/max_by) and [min\\_by](/aws/en/sql/language-manual/functions/min_by) now accept an optional third argument `limit` (up to 100,000). When provided, the functions return an array of up to `limit` values, simplifying top-K and bottom-K queries without window functions or CTEs.\n* **`DATETIMEOFFSET` for Azure Synapse**: The `DATETIMEOFFSET` data type is supported for Microsoft Azure Synapse connections.\n* **Google BigQuery table comments**: Google BigQuery table descriptions are resolved and exposed as table comments.\n* **`IGNORE NULLS`/`RESPECT NULLS` for `array_agg` and `collect_list`**: The `array_agg` and `collect_list` aggregate functions now support `IGNORE NULLS` and `RESPECT NULLS` clauses.\n* **`PIVOT` aliases**: The `PIVOT` clause now supports aliases, allowing you to rename pivot column expressions in the output.\n* **SQL scripting `CURSOR` variables**: SQL scripting now supports `CURSOR` variables for iterating over a query result set row by row within a scripting block.\n* **Vector math aggregate functions**: New vector math aggregate functions are available: [vector\\_avg](/aws/en/sql/language-manual/functions/vector_avg), [vector\\_sum](/aws/en/sql/language-manual/functions/vector_sum), [vector\\_norm](/aws/en/sql/language-manual/functions/vector_norm), and [vector\\_normalize](/aws/en/sql/language-manual/functions/vector_normalize). These functions operate on dense vector columns and support ML workloads.\n* **`Trigger.AvailableNow` in Python streaming readers**: Python data source streaming readers now support `Trigger.AvailableNow` and Admission Control, enabling one-time batch processing of all available data.\n* **State repartition API in PySpark**: The state repartition API for `TransformWithState` streaming operators is now available in PySpark, in addition to Scala. See [On-demand state repartitioning for stateful streaming queries](/aws/en/structured-streaming/state-repartitioning).\n* **`applyInPandas` performance fix**: A 3x performance regression in `applyInPandas` for large groups has been resolved.",
+  "ref_links": [
+    {
+      "text": "MEASURE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/measure"
+    },
+    {
+      "text": "FILTER clauses",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-groupby"
+    },
+    {
+      "text": "Exception types",
+      "url": "https://docs.databricks.com/aws/en/error-messages"
+    },
+    {
+      "text": "column type widening",
+      "url": "https://docs.databricks.com/aws/en/tables/features/type-widening"
+    },
+    {
+      "text": "Auto Loader with file events overview",
+      "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/file-events-explained"
+    },
+    {
+      "text": "INSERT",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-into"
+    },
+    {
+      "text": "parse_timestamp",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/parse_timestamp"
+    },
+    {
+      "text": "max_by",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/max_by"
+    },
+    {
+      "text": "min_by",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/min_by"
+    },
+    {
+      "text": "vector_avg",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_avg"
+    },
+    {
+      "text": "vector_sum",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_sum"
+    },
+    {
+      "text": "vector_norm",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_norm"
+    },
+    {
+      "text": "vector_normalize",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_normalize"
+    },
+    {
+      "text": "On-demand state repartitioning for stateful streaming queries",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/state-repartitioning"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.895252Z"
+}

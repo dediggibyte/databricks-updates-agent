@@ -1,0 +1,21 @@
+{
+  "id": "2025-08-11-lakebase-public-preview-enabled-by-default",
+  "title": "Lakebase Public Preview enabled by default",
+  "date": "2025-08-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#lakebase-public-preview-enabled-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The **Lakebase: Managed Postgres OLTP Database** preview is now enabled by default. Users can start creating Lakebase database instances without needing workspace admins to enable this preview first. Admins can disable the preview if needed.\n\nSee [Create and manage a database instance](/aws/en/oltp/instances/create) and [Manage Databricks previews](/aws/en/admin/workspace-settings/manage-previews).",
+  "ref_links": [
+    {
+      "text": "Create and manage a database instance",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/create"
+    },
+    {
+      "text": "Manage Databricks previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.275790Z"
+}

@@ -1,0 +1,28 @@
+{
+  "product": "Genie Space enhancements and bug fixes",
+  "tagline": "Agent mode thinking traces (Public Preview): Agent mode thinking traces now cite the definitions applied to answer questions.",
+  "updated": "May 28, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-bug-fixes-1",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-bug-fixes-1",
+  "what_it_does": "Agent mode thinking traces (Public Preview): Agent mode thinking traces now cite the definitions applied to answer questions. For example, \"best selling product\" is defined as the product with the most total sales. MCP conversation sharing bug fix (Beta): Fixed a bug where conversations sent via Genie Spaces MCP were saved as private.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Agent mode thinking traces (Public Preview): Agent mode thinking traces now cite the definitions applied to answer questions.",
+  "note_id": "2026-05-28-genie-space-enhancements-and-bug-fixes",
+  "category": "platform"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-13-new-lakebase-autoscaling-instances-now-scale-to-zero-by-default",
+  "title": "New Lakebase Autoscaling instances now scale to zero by default",
+  "date": "2026-05-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#new-lakebase-autoscaling-instances-now-scale-to-zero-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "New Lakebase Autoscaling instances now scale to zero by default after 24 hours of inactivity, reducing compute costs for idle projects. To learn more about scale to zero, see [Scale to zero](/aws/en/oltp/projects/scale-to-zero). To configure scale to zero, see [Configure scale to zero](/aws/en/oltp/projects/manage-computes#scale-zero). To change the scale to zero default for new Lakebase Autoscaling projects, see [Compute defaults](/aws/en/oltp/projects/manage-projects#defaults). This change does not affect existing projects.",
+  "ref_links": [
+    {
+      "text": "Scale to zero",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/scale-to-zero"
+    },
+    {
+      "text": "Configure scale to zero",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-computes#scale-zero"
+    },
+    {
+      "text": "Compute defaults",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects#defaults"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.713603Z"
+}

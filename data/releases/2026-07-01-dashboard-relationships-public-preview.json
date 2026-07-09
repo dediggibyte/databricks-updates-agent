@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-01-dashboard-relationships-public-preview",
+  "title": "Dashboard relationships (Public Preview)",
+  "date": "2026-07-01",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-relationships-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashboard relationships (Public Preview)**: Build complex multi-fact data models scoped to an AI/BI dashboard. See [Dashboard relationships](/aws/en/dashboards/manage/data-modeling/dashboard-relationships).",
+  "ref_links": [
+    {
+      "text": "Dashboard relationships",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.524092Z"
+}

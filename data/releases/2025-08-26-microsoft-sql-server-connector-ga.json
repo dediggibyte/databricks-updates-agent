@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-26-microsoft-sql-server-connector-ga",
+  "title": "Microsoft SQL Server connector GA",
+  "date": "2025-08-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#microsoft-sql-server-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Microsoft SQL Server ingestion connector in Lakeflow Connect is now generally available. See [Configure Microsoft SQL Server for ingestion into Databricks](/aws/en/ingestion/lakeflow-connect/sql-server-source-setup).",
+  "ref_links": [
+    {
+      "text": "Configure Microsoft SQL Server for ingestion into Databricks",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sql-server-source-setup"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.247481Z"
+}

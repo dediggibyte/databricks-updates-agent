@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-28-serverless-compute-has-been-updated-to-version-17-3",
+  "title": "Serverless compute has been updated to version 17.3",
+  "date": "2025-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#serverless-compute-has-been-updated-to-version-173",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The serverless compute runtime has been updated to version 17.3. See [Version 17.3](/aws/en/release-notes/serverless#version-17-3) for more details.",
+  "ref_links": [
+    {
+      "text": "Version 17.3",
+      "url": "https://docs.databricks.com/aws/en/release-notes/serverless#version-17-3"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.151148Z"
+}

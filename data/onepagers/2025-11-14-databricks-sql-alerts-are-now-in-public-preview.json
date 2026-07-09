@@ -1,0 +1,45 @@
+{
+  "product": "Databricks SQL alerts are now in Public Preview",
+  "tagline": "Databricks SQL alerts: The latest version of Databricks SQL alerts, with a new editing experience, is now in Public Preview.",
+  "updated": "Nov 14, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/user/alerts",
+  "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-alerts-are-now-in-public-preview",
+  "what_it_does": "Databricks SQL alerts: The latest version of Databricks SQL alerts, with a new editing experience, is now in Public Preview. Databricks SQL alerts run queries on a schedule and notify you when a condition that you define is met against the query result. When you schedule an alert, its associated query runs and the condition is evaluated.",
+  "why_it_matters": "Use them to track business KPIs, monitor data quality, watch cost trends, and catch operational issues across your Databricks workloads.",
+  "capabilities": [
+    {
+      "title": "Create an alert",
+      "desc": "Create an alert"
+    },
+    {
+      "title": "Walk through the alert editor",
+      "desc": "Walk through the alert editor end-to-end. Includes advanced settings and notification template customization."
+    },
+    {
+      "title": "Manage alerts",
+      "desc": "Manage alerts"
+    },
+    {
+      "title": "Find alerts on the listing",
+      "desc": "Find alerts on the listing page, share them, transfer ownership, and track changes with Databricks Git folders."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks SQL alerts: The latest version of Databricks SQL alerts, with a new editing experience, is now in Public Preview.",
+  "note_id": "2025-11-14-databricks-sql-alerts-are-now-in-public-preview",
+  "category": "platform"
+}

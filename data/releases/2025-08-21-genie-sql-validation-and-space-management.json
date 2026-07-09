@@ -1,0 +1,12 @@
+{
+  "id": "2025-08-21-genie-sql-validation-and-space-management",
+  "title": "Genie SQL validation and space management",
+  "date": "2025-08-21",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-sql-validation-and-space-management",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **SQL expression validation for join relationships**: Added validation logic to help authors write correct SQL join relationships. If a join statement contains errors, the validation logic flags them.\n* **Fixed cloning issue for spaces**: Resolved a bug where cloned spaces did not correctly copy over the associated tables.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.255342Z"
+}

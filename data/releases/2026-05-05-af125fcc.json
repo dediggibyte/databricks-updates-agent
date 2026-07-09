@@ -1,0 +1,29 @@
+{
+  "id": "2026-05-05-af125fcc",
+  "title": "Alibaba Cloud Qwen3.5 122B A10B now available as a Databricks-hosted model in Public Preview",
+  "date": "2026-05-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#alibaba-cloud-qwen35-122b-a10b-now-available-as-a-databricks-hosted-model-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Model Serving now supports Alibaba Cloud [Qwen3.5 122B A10B](/aws/en/machine-learning/foundation-model-apis/supported-models#qwen35-122b-a10b) as a Databricks-hosted model. You can access this model using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis).\n\nQwen3.5 122B A10B is available in [Public Preview](/aws/en/release-notes/release-types).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "Qwen3.5 122B A10B",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#qwen35-122b-a10b"
+    },
+    {
+      "text": "Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "applicable terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.729549Z"
+}

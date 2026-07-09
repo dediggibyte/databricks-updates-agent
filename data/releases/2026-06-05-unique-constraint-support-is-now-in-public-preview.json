@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-05-unique-constraint-support-is-now-in-public-preview",
+  "title": "UNIQUE constraint support is now in Public Preview",
+  "date": "2026-06-05",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#unique-constraint-support-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL now supports informational `UNIQUE` constraints on Unity Catalog Delta Lake tables. Foreign keys can reference `UNIQUE` columns, and `RELY` on a `UNIQUE` constraint enables join elimination and `DISTINCT` simplification on Photon-enabled compute. See [CONSTRAINT clause](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-table-constraint).",
+  "ref_links": [
+    {
+      "text": "CONSTRAINT clause",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-table-constraint"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.618248Z"
+}

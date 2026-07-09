@@ -1,0 +1,21 @@
+{
+  "id": "2025-11-13-2f940c96",
+  "title": "Convert foreign tables to Unity Catalog managed or external tables (Public Preview)",
+  "date": "2025-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#convert-foreign-tables-to-unity-catalog-managed-or-external-tables-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now convert foreign tables from external catalogs (such as Hive Metastore or AWS Glue) to Unity Catalog managed or external tables while retaining table history and configurations. Use `ALTER TABLE SET MANAGED` to convert to managed tables with `MOVE` (disable source access) or `COPY` (keep source accessible) options, or use `ALTER TABLE SET EXTERNAL` to convert to external tables with an optional `DRY RUN` validation. Additionally, you can convert entire foreign catalogs to standard Unity Catalog catalogs using `ALTER CATALOG DROP CONNECTION`. See [Foreign tables using SQL](/aws/en/tables/convert-to-managed#convert-foreign-sql) and [Convert a foreign table to an external Unity Catalog table](/aws/en/tables/convert-foreign-external).\n\n**Minimum Databricks Runtime versions:**\n\n* `ALTER TABLE SET MANAGED`: DBR 17.3 LTS or above\n* `ALTER TABLE SET EXTERNAL`: DBR 17.0 LTS or above\n* `ALTER CATALOG DROP CONNECTION`: DBR 17.3 LTS or above\n* `ALTER SCHEMA SET MANAGED LOCATION`: DBR 16.4 LTS or above",
+  "ref_links": [
+    {
+      "text": "Foreign tables using SQL",
+      "url": "https://docs.databricks.com/aws/en/tables/convert-to-managed#convert-foreign-sql"
+    },
+    {
+      "text": "Convert a foreign table to an external Unity Catalog table",
+      "url": "https://docs.databricks.com/aws/en/tables/convert-foreign-external"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.121017Z"
+}

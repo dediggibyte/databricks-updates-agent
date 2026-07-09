@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-30-trigger-on-update-for-pipelines-ga",
+  "title": "Trigger on update for pipelines (GA)",
+  "date": "2026-01-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#trigger-on-update-for-pipelines-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`TRIGGER ON UPDATE` is now generally available. Use trigger on update in Databricks SQL when creating a pipeline schedule to refresh the pipeline when a source table changes.\n\nSee [Schedule refreshes](/aws/en/ldp/dbsql/schedule-refreshes) for more information.",
+  "ref_links": [
+    {
+      "text": "Schedule refreshes",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/schedule-refreshes"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.009199Z"
+}

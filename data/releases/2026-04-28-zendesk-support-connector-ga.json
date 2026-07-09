@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-28-zendesk-support-connector-ga",
+  "title": "Zendesk Support connector (GA)",
+  "date": "2026-04-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#zendesk-support-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Zendesk Support connector in Lakeflow Connect is now generally available. See [Zendesk Support connector overview](/aws/en/ingestion/lakeflow-connect/zendesk-support-overview).",
+  "ref_links": [
+    {
+      "text": "Zendesk Support connector overview",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/zendesk-support-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.759619Z"
+}

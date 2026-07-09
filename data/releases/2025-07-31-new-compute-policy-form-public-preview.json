@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-31-new-compute-policy-form-public-preview",
+  "title": "New compute policy form (Public Preview)",
+  "date": "2025-07-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#new-compute-policy-form-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new compute policy form uses UI elements to help you configure policy definitions, making it simpler to write compute policies in the UI.\n\nThe new form includes the following changes:\n\n* New definition dropdown menus allow you to configure rules without needing to reference the policy syntax.\n* Max compute resources per user, max DBUs per hour, and cluster type settings have moved under the **Advanced options** section.\n* Tagging definitions now have their own separate section.\n* Policy permission settings have moved out of the policy form and are now set using the permissions modal in the policy overview page.\n\nSee [Configure policy definitions using UI elements](/aws/en/admin/clusters/policy-definition#new-form).",
+  "ref_links": [
+    {
+      "text": "Configure policy definitions using UI elements",
+      "url": "https://docs.databricks.com/aws/en/admin/clusters/policy-definition#new-form"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.295329Z"
+}

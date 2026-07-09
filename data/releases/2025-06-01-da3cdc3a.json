@@ -1,0 +1,12 @@
+{
+  "id": "2025-06-01-da3cdc3a",
+  "title": "Behavior change when dataset definitions are removed from Lakeflow Spark Declarative Pipelines",
+  "date": "2025-06-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#behavior-change-when-dataset-definitions-are-removed-from-lakeflow-spark-declarative-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "An upcoming release of Lakeflow Spark Declarative Pipelines will change the behavior when a materialized view or streaming table is removed from a pipeline. With this change, the removed materialized view or streaming table will not be deleted automatically when the next pipeline update runs. Instead, you will be able to use the `DROP MATERIALIZED VIEW` command to delete a materialized view or the `DROP TABLE` command to delete a streaming table. After dropping an object, running a pipeline update will not recover the object automatically. A new object is created if a materialized view or streaming table with the same definition is re-added to the pipeline. You can, however, recover an object using the `UNDROP` command.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.381388Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-25-serverless-outbound-ips-available-through-public-json-endpoint-public-preview",
+  "title": "Serverless outbound IPs available through public JSON endpoint (Public Preview)",
+  "date": "2026-02-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#serverless-outbound-ips-available-through-public-json-endpoint-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now retrieve serverless outbound IP addresses from a public JSON endpoint. This replaces the existing stable IPs shared with customers enrolled in the Public Preview. See [Serverless compute firewall configuration](/aws/en/security/network/serverless-network-security/serverless-firewall-config).",
+  "ref_links": [
+    {
+      "text": "Serverless compute firewall configuration",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/serverless-firewall-config"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.937627Z"
+}

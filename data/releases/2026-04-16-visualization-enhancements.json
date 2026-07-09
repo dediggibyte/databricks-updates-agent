@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-16-visualization-enhancements",
+  "title": "Visualization enhancements",
+  "date": "2026-04-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#visualization-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashed and dotted line styles**: You can now style lines as dashed or dotted in the **Pattern** section of the configuration pane.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.790207Z"
+}

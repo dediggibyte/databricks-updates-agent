@@ -1,0 +1,17 @@
+{
+  "id": "2025-04-17-genie-example-questions-and-table-management",
+  "title": "Genie example questions and table management",
+  "date": "2025-04-17",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-example-questions-and-table-management",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Example and follow-up questions**: Genie now uses table metadata to automatically offer example and follow-up questions when users start exploring a Genie Space. You can still add your own sample questions.\n* **Improved response layout**: Genie's response layout has been redesigned to simplify chat interactions.\n* **View and remove missing tables**: Users can now view and remove missing tables in a Genie Space. The **Data** tab now shows visual indicators to mark tables that cannot be accessed. You can use the UI to remove those tables.\n* **Improved data access transparency**: The table picker in Genie now prevents choosing tables for which you do not have at least `SELECT` privileges. This helps to ensure that Genie Spaces only include tables that can return results. To learn about data Unity Catalog data privileges, see [Unity Catalog privileges reference](/aws/en/data-governance/unity-catalog/access-control/privileges-reference).",
+  "ref_links": [
+    {
+      "text": "Unity Catalog privileges reference",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/privileges-reference"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.407756Z"
+}

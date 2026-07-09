@@ -1,0 +1,21 @@
+{
+  "id": "2026-01-08-dashboard-pivot-tables-filters-and-data-export-improvements",
+  "title": "Dashboard pivot tables, filters, and data export improvements",
+  "date": "2026-01-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-pivot-tables-filters-and-data-export-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **JSON cell copy-paste improvement**: JSON objects in table cells now remain expanded when you drag to copy-paste.\n* **Parameterized default catalog and schemas**: Parameterize the default catalog and schemas when deploying dashboards using Declarative Automation Bundles. See [dashboard](/aws/en/dev-tools/bundles/resources#dashboards).\n* **Multi-select filter paste enhancement**: Paste comma-separated and newline-separated values into multi-select filters.\n* **Pivot table total rows**: Pivot tables can now display total rows at the top.\n* **Dashboard widget drag handles**: Dashboard widgets now have drag handles for resizing and repositioning.\n* **Pivoted table Excel downloads**: Download dashboard data to Excel in pivoted format rather than flattened. See [Download pivot tables to Excel](/aws/en/dashboards/manage/visualizations/tables#download-pivot-excel).\n* **Timezone display fixes**: Fixed a number of timezone-related issues, ensuring that displayed timezones match underlying data timezones instead of displaying UTC.\n* **Selective data point labels**: Labels can now be shown only for first/last or min/max data points.",
+  "ref_links": [
+    {
+      "text": "dashboard",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/resources#dashboards"
+    },
+    {
+      "text": "Download pivot tables to Excel",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#download-pivot-excel"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.054823Z"
+}

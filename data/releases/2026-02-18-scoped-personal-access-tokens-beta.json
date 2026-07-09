@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-18-scoped-personal-access-tokens-beta",
+  "title": "Scoped personal access tokens (Beta)",
+  "date": "2026-02-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#scoped-personal-access-tokens-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now limit the permissions of personal access tokens by selecting a token type and adding API scopes. This restricts each token to only the API operations you specify. See [Authenticate with Databricks personal access tokens (legacy)](/aws/en/dev-tools/auth/pat). This feature is in Beta.",
+  "ref_links": [
+    {
+      "text": "Authenticate with Databricks personal access tokens (legacy)",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/pat"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.951412Z"
+}

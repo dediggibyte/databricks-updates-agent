@@ -1,0 +1,21 @@
+{
+  "id": "2026-02-05-default-sql-warehouse-settings-general-availability",
+  "title": "Default SQL warehouse settings (General Availability)",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#default-sql-warehouse-settings-general-availability",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Default SQL warehouse settings are now generally available. Workspace administrators can set a default SQL warehouse that is automatically selected in SQL authoring surfaces, including the SQL editor, AI/BI dashboards, Genie spaces, Alerts, and Catalog Explorer. Individual users can also override the workspace default by setting their own user-level default warehouse. See [Set a default SQL warehouse for the workspace](/aws/en/admin/sql#default-warehouse) and [Set a user-level default warehouse](/aws/en/compute/sql-warehouse/create#user-default).",
+  "ref_links": [
+    {
+      "text": "Set a default SQL warehouse for the workspace",
+      "url": "https://docs.databricks.com/aws/en/admin/sql#default-warehouse"
+    },
+    {
+      "text": "Set a user-level default warehouse",
+      "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/create#user-default"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.003014Z"
+}

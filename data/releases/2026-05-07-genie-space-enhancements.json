@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-07-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-05-07",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-3",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Export context as metric view**: You can now export the context from a Genie Space as a metric view to centrally define your business semantics. See [Export a Genie Agent as a metric view](/aws/en/genie/set-up#export-metric-view).\n* **Iframe monitoring (Beta)**: Messages from iframe-embedded Genie One spaces are now logged in the **Monitoring** tab.\n* **Compliance security profile iframe embed (Beta)**: Customers with compliance security profile enabled can now enable embedding Genie Spaces as an iframe. See [Embed a Genie Agent in an external app](/aws/en/genie/embed).",
+  "ref_links": [
+    {
+      "text": "Export a Genie Agent as a metric view",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#export-metric-view"
+    },
+    {
+      "text": "Embed a Genie Agent in an external app",
+      "url": "https://docs.databricks.com/aws/en/genie/embed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.724921Z"
+}

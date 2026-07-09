@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-18-compliance-support-for-mosaic-ai-vector-search-standard-endpoints",
+  "title": "Compliance support for Mosaic AI Vector Search standard endpoints",
+  "date": "2025-09-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#compliance-support-for-mosaic-ai-vector-search-standard-endpoints",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Vector Search standard endpoints are now available in FedRAMP Moderate and IRAP workspaces. See [Databricks AI Search](/aws/en/ai-search/ai-search).",
+  "ref_links": [
+    {
+      "text": "Databricks AI Search",
+      "url": "https://docs.databricks.com/aws/en/ai-search/ai-search"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.212363Z"
+}

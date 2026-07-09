@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-06-databricks-marketplace-listing-creation-wizard",
+  "title": "Databricks Marketplace listing creation wizard",
+  "date": "2026-04-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#databricks-marketplace-listing-creation-wizard",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Marketplace provider console now features a step-by-step listing creation wizard that guides you through setting up general information, data assets, attributes, and details on separate pages. See [Create a Marketplace listing](/aws/en/marketplace/create-listing).",
+  "ref_links": [
+    {
+      "text": "Create a Marketplace listing",
+      "url": "https://docs.databricks.com/aws/en/marketplace/create-listing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.816023Z"
+}

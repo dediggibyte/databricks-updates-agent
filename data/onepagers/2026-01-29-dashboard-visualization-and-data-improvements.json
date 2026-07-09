@@ -1,0 +1,28 @@
+{
+  "product": "Dashboard visualization and data improvements",
+  "tagline": "Fixed access request availability: Resolved an issue where the option to request access was not available and a \"Resource not found\" error was incorrectly shown.",
+  "updated": "Jan 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-visualization-and-data-improvements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-visualization-and-data-improvements",
+  "what_it_does": "Fixed access request availability: Resolved an issue where the option to request access was not available and a \"Resource not found\" error was incorrectly shown. Full width pivot tables: Widgets now render pivot tables at full width for better readability. Tooltip fields on charts: Combo and dual axis charts now support tooltip fields.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Fixed access request availability: Resolved an issue where the option to request access was not available and a \"Resource not found\" error was incorrectly shown.",
+  "note_id": "2026-01-29-dashboard-visualization-and-data-improvements",
+  "category": "platform"
+}

@@ -1,0 +1,28 @@
+{
+  "product": "Dashboard search and embedding enhancements",
+  "tagline": "Enhanced search functionality: Users can now search over dashboard names, page names, widget titles and descriptions, dataset names, and their queries.",
+  "updated": "Nov 13, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-search-and-embedding-enhancements",
+  "what_it_does": "Enhanced search functionality: Users can now search over dashboard names, page names, widget titles and descriptions, dataset names, and their queries. Dataset queries are searchable only from the workspace search bar. Ask Genie button for embedded dashboards: When viewers access dashboards configured with basic embedding, they can now access the Ask Genie button for dashboards published with an associated Genie Space.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Enhanced search functionality: Users can now search over dashboard names, page names, widget titles and descriptions, dataset names, and their queries.",
+  "note_id": "2025-11-13-dashboard-search-and-embedding-enhancements",
+  "category": "platform"
+}

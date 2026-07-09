@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-11-convert-to-unity-catalog-managed-table-from-external-table-is-in-public-preview",
+  "title": "Convert to Unity Catalog managed table from external table is in Public Preview",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#convert-to-unity-catalog-managed-table-from-external-table-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ALTER TABLE ... SET MANAGED` is now available in Public Preview for participating customers. This command enables seamless conversion of Unity Catalog external tables to managed tables. It allows you to take full advantage of Unity Catalog managed table features, such as enhanced governance, reliability, and performance. See [Convert external or foreign Delta Lake tables to Unity Catalog managed tables](/aws/en/tables/convert-to-managed).",
+  "ref_links": [
+    {
+      "text": "Convert external or foreign Delta Lake tables to Unity Catalog managed tables",
+      "url": "https://docs.databricks.com/aws/en/tables/convert-to-managed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.360813Z"
+}

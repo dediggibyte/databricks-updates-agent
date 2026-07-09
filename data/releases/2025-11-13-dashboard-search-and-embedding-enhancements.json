@@ -1,0 +1,25 @@
+{
+  "id": "2025-11-13-dashboard-search-and-embedding-enhancements",
+  "title": "Dashboard search and embedding enhancements",
+  "date": "2025-11-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-search-and-embedding-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Enhanced search functionality**: Users can now search over dashboard names, page names, widget titles and descriptions, dataset names, and their queries. Dataset queries are searchable only from the [workspace search bar](/aws/en/search).\n* **Ask Genie button for embedded dashboards**: When viewers access dashboards configured with [basic embedding](/aws/en/dashboards/share/embedding/basic), they can now access the **Ask Genie** button for dashboards published with an [associated Genie Space](/aws/en/dashboards/genie-spaces).\n* **Fixed browser window navigation issue**: Resolved a bug where navigating to a different browser window and back to the dashboard caused the dashboard to display no data.",
+  "ref_links": [
+    {
+      "text": "workspace search bar",
+      "url": "https://docs.databricks.com/aws/en/search"
+    },
+    {
+      "text": "basic embedding",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/embedding/basic"
+    },
+    {
+      "text": "associated Genie Space",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.117745Z"
+}

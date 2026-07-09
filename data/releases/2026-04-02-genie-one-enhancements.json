@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-02-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-04-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-8",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Account Genie One is now in Public Preview**: Account-level Genie One is now in Public Preview. Genie One provides a single location to view dashboards, apps, and Genie across all workspaces. See [Use Genie One](/aws/en/genie-one/genie).\n* **Navigation between Genie One surfaces**: Users can now navigate between Account Genie One and workspace Genie One.",
+  "ref_links": [
+    {
+      "text": "Use Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.821169Z"
+}

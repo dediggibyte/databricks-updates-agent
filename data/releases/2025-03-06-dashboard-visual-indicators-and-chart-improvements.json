@@ -1,0 +1,21 @@
+{
+  "id": "2025-03-06-dashboard-visual-indicators-and-chart-improvements",
+  "title": "Dashboard visual indicators and chart improvements",
+  "date": "2025-03-06",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visual-indicators-and-chart-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **New visual indicators for column names**: Duplicate column names are now greyed out to indicate lack of support.\n* **Fixed an issue with color mappings**: Color mappings in the visualization editor now align with the renderer.\n* **Restricted character set**: The name property`customer_ref_id` in the serialized dashboard format is now restricted to alphanumeric characters, hyphens, and underscores. Before, there was no restriction in the character set.\n* **Dual-axis charts now support zoom**: You can now click and drag to zoom in on non-combo dual-axis charts.\n* **Inclusive relative date ranges**: The dates you select when choosing relative date periods in the date range picker, such as last week or last month, are now inclusive of the current date. See  [Date range picker](/aws/en/dashboards/manage/filter-types#date-range-picker).\n* **Freeze table columns**: You can now freeze table columns to the left side of the table display. Columns stay in view as you scroll right on the table. See [Dashboard visualizations](/aws/en/dashboards/manage/visualizations).\n* **Fixed an issue with combo charts**: Resolved misalignment between x-axis labels and bars when using a temporal field on the x-axis.",
+  "ref_links": [
+    {
+      "text": "Date range picker",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filter-types#date-range-picker"
+    },
+    {
+      "text": "Dashboard visualizations",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.429258Z"
+}

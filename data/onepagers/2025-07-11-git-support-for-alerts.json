@@ -1,0 +1,41 @@
+{
+  "product": "Git support for alerts",
+  "tagline": "You can now use Databricks Git folders to track and manage changes to alerts.",
+  "updated": "Jul 11, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/user/alerts/manage#git",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#git-support-for-alerts",
+  "what_it_does": "You can now use Databricks Git folders to track and manage changes to alerts. To track alerts with Git, place them in a Databricks Git folder. Newly cloned alerts only appear in the alerts list page or API after a user interacts with them.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "TRIGGERED means that on the",
+      "desc": "TRIGGERED means that on the most recent execution, the Value column in your target query met the Condition and Threshold you…"
+    },
+    {
+      "title": "OK means that on the",
+      "desc": "OK means that on the most recent query execution, the Value column did not meet the Condition and Threshold you configured. This…"
+    },
+    {
+      "title": "ERROR indicates that an error",
+      "desc": "ERROR indicates that an error occurred during alert evaluation."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now use Databricks Git folders to track and manage changes to alerts.",
+  "note_id": "2025-07-11-git-support-for-alerts",
+  "category": "platform"
+}

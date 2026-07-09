@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-13-openai-gpt-oss-models-now-support-function-calling",
+  "title": "OpenAI GPT OSS models now support function calling",
+  "date": "2025-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#openai-gpt-oss-models-now-support-function-calling",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks-hosted foundation models, OpenAI GPT OSS 120B and GPT OSS 20B now support function and tool calling.\n\nSee [Function calling on Databricks](/aws/en/machine-learning/model-serving/function-calling).",
+  "ref_links": [
+    {
+      "text": "Function calling on Databricks",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/function-calling"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.269494Z"
+}

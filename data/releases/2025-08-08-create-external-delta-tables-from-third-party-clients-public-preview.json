@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-08-create-external-delta-tables-from-third-party-clients-public-preview",
+  "title": "Create external Delta tables from third-party clients (Public Preview)",
+  "date": "2025-08-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#create-external-delta-tables-from-third-party-clients-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create Unity Catalog external tables backed by Delta Lake from external clients and systems, such as Apache Spark.\n\nSee [Access Databricks tables from Delta clients](/aws/en/external-access/unity-rest).",
+  "ref_links": [
+    {
+      "text": "Access Databricks tables from Delta clients",
+      "url": "https://docs.databricks.com/aws/en/external-access/unity-rest"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.278281Z"
+}

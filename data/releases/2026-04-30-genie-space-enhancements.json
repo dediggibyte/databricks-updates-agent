@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-30-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-04-30",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-4",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Weekly digest and monitoring**: The **Monitoring** tab now includes a **Weekly digest** section showing weekly messages, users, and thumbs up/down feedback. Authors can also use Genie Code to summarize top usage trends and common issues from the monitoring page.\n* **PDF file uploads**: Upload PDF files directly into a Genie Space to analyze their content using natural language. See [Upload a file to a Genie Agent](/aws/en/genie/file-upload).",
+  "ref_links": [
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/file-upload"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.750690Z"
+}

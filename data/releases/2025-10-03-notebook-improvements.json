@@ -1,0 +1,37 @@
+{
+  "id": "2025-10-03-notebook-improvements",
+  "title": "Notebook improvements",
+  "date": "2025-10-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#notebook-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The following notebook improvements are now available:\n\n* The cell execution minimap now appears in the right margin of notebooks. Use the minimap to get a visual overview of your notebook's run status and quickly navigate between cells. See [Cell execution minimap](/aws/en/notebooks/notebook-editor#minimap).\n* Use Databricks Assistant to help diagnose and fix environment errors, including library installation errors. See [Debug environment errors](/aws/en/notebooks/code-assistant#debug-env).\n* When reconnecting to serverless notebooks, sessions are automatically restored with the notebook's Python variables and Spark state. See [Automated session restoration for serverless notebooks](/aws/en/notebooks/notebook-compute#restore).\n* Pyspark authoring completion now supports `agg`, `withColumns`, `withColumnsRenamed`, and `filter`/`where` clauses. See [Get inline code suggestions: Python and SQL examples](/aws/en/notebooks/code-assistant#autocomplete-code).\n* Databricks now supports importing and exporting IPYNB notebooks up to 100 MB. Revision snapshot autosaving, manual saving, and cloning are supported for all notebooks up to 100 MB. See [Notebook sizing](/aws/en/notebooks/notebook-limitations#size).\n* When cloning and exporting notebooks, you can now choose whether to include cell outputs or not. See [Manage Databricks notebook format](/aws/en/notebooks/notebook-format).",
+  "ref_links": [
+    {
+      "text": "Cell execution minimap",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-editor#minimap"
+    },
+    {
+      "text": "Debug environment errors",
+      "url": "https://docs.databricks.com/aws/en/notebooks/code-assistant#debug-env"
+    },
+    {
+      "text": "Automated session restoration for serverless notebooks",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-compute#restore"
+    },
+    {
+      "text": "Get inline code suggestions: Python and SQL examples",
+      "url": "https://docs.databricks.com/aws/en/notebooks/code-assistant#autocomplete-code"
+    },
+    {
+      "text": "Notebook sizing",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-limitations#size"
+    },
+    {
+      "text": "Manage Databricks notebook format",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-format"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.189381Z"
+}

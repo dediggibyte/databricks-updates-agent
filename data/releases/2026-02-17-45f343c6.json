@@ -1,0 +1,25 @@
+{
+  "id": "2026-02-17-45f343c6",
+  "title": "Qwen3-Embedding-0.6B now available in Public Preview as a Databricks-hosted model",
+  "date": "2026-02-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#qwen3-embedding-06b-now-available-in-public-preview-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports [Qwen3-Embedding-0.6B](/aws/en/machine-learning/foundation-model-apis/supported-models#qwen3-embedding-0-6b) in [Public Preview](/aws/en/release-notes/release-types) as a Databricks-hosted model. You can access this model using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).",
+  "ref_links": [
+    {
+      "text": "Qwen3-Embedding-0.6B",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#qwen3-embedding-0-6b"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.952312Z"
+}

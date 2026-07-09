@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-06-2d2daad9",
+  "title": "PrivateLink connections from serverless compute to resources in your VPC through an NLB is in Public Preview",
+  "date": "2025-06-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#privatelink-connections-from-serverless-compute-to-resources-in-your-vpc-through-an-nlb-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now enable AWS PrivateLink to resources in your virtual private cloud (VPC) via a network load balancer (NLB) from serverless compute. See [Configure private connectivity to resources in your VPC](/aws/en/security/network/serverless-network-security/pl-to-internal-network).",
+  "ref_links": [
+    {
+      "text": "Configure private connectivity to resources in your VPC",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/pl-to-internal-network"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.368710Z"
+}

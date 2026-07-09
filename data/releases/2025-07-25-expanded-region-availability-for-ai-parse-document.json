@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-25-expanded-region-availability-for-ai-parse-document",
+  "title": "Expanded region availability for ai_parse_document",
+  "date": "2025-07-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#expanded-region-availability-for-ai_parse_document",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_parse_document` is now available in the following regions:\n\n* `us-west-2`\n* `us-east-1`\n* `us-east-2`\n* `ap-northeast-1`\n* `ap-northeast-2`\n* `ap-south-1`\n* `ap-southeast-1`\n* `ap-southeast-2`\n* `ca-central-1`\n* `eu-central-1`\n* `eu-west-1`\n* `eu-west-2`\n* `sa-east-1`\n\nSee [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.304657Z"
+}

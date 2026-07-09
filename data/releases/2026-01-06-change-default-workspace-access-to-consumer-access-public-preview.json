@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-06-change-default-workspace-access-to-consumer-access-public-preview",
+  "title": "Change default workspace access to Consumer access (Public Preview)",
+  "date": "2026-01-06",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#change-default-workspace-access-to-consumer-access-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Workspace admins can configure new users to receive Consumer access by default using group cloning. Consumer access provides access to Genie One, a view-only experience for business users who must view and interact with dashboards, Genie Spaces, and apps without creating workspace objects. The process creates a new group for existing users and updates the `users` group to grant only Consumer entitlement to new users by default. This preserves existing users' authoring permissions while streamlining consumer onboarding at scale. See [Migrate workspace entitlement control](/aws/en/security/auth/system-group-entitlements-migration).",
+  "ref_links": [
+    {
+      "text": "Migrate workspace entitlement control",
+      "url": "https://docs.databricks.com/aws/en/security/auth/system-group-entitlements-migration"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.057432Z"
+}

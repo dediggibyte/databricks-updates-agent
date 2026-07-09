@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-03-corrected-job-name-values-in-system-billing-usage",
+  "title": "Corrected job_name values in system.billing.usage",
+  "date": "2025-06-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#corrected-job_name-values-in-systembillingusage",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `usage_metadata.job_name` value in the `system.billing.usage` table now correctly contains job names. Previously, this value was populated with task keys instead of the user-provided job names. This change does not apply to one-time job runs, which continue to be logged with the task key.\n\nSee [Billable usage system table reference](/aws/en/admin/system-tables/billing).",
+  "ref_links": [
+    {
+      "text": "Billable usage system table reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/billing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.377255Z"
+}

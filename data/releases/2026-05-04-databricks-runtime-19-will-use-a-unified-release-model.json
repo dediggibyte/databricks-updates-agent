@@ -1,0 +1,12 @@
+{
+  "id": "2026-05-04-databricks-runtime-19-will-use-a-unified-release-model",
+  "title": "Databricks Runtime 19 will use a unified release model",
+  "date": "2026-05-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#databricks-runtime-19-will-use-a-unified-release-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting with version 19, Databricks Runtime will use a unified release model. Instead of multiple feature versions (for example, 19.0, 19.1, 19.2), each major version will have a single release notes page.\n\nAfter an initial Beta, each Databricks Runtime version will launch as generally available (GA) and receive new features and fixes approximately weekly, with updates differentiated by date on a single page. Clusters will receive updates when they restart. After approximately six months, the version transitions to long-term support (LTS) with three years of support.\n\nDatabricks Runtime 18 is the transition release. The 18.0, 18.1, and 18.2 feature version pages remain available for historical reference, and Databricks Runtime 18 LTS will be the final unified version in the 18.x line.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.731689Z"
+}

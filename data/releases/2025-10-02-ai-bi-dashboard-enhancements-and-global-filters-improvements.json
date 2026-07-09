@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-02-ai-bi-dashboard-enhancements-and-global-filters-improvements",
+  "title": "AI/BI dashboard enhancements and global filters improvements",
+  "date": "2025-10-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#aibi-dashboard-enhancements-and-global-filters-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Fixed global filters panel overflow**: Resolved an issue where the global filters panel extended beyond its intended width.\n* **Access for account-level users**: Users without a workspace can now access dashboards shared with them that were published without embedded credentials. See [What are shared data permissions?](/aws/en/dashboards/share/share#embed-creds).\n* **Preview fields and measures for metric views**: Authors can now preview available fields and measures for metric views in the **Add data** dialog.\n* **Query insights in the dashboard dataset editor**: Query insights are now available in the dashboard dataset editor to help analyze query performance.\n* **Copy and paste widgets and pages**: Dashboard widgets and pages can now be copied and pasted between dashboards.\n* **Top or bottom N categories in bar charts**: Bar charts can now display the top or bottom *N* categories. To edit, open the kebab menu for the categorical axis dimension and set the number under **Default number of categories**.",
+  "ref_links": [
+    {
+      "text": "What are shared data permissions?",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/share#embed-creds"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.192143Z"
+}

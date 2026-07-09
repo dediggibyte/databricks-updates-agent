@@ -1,0 +1,12 @@
+{
+  "id": "2026-01-15-unified-lakebase-interface",
+  "title": "Unified Lakebase interface",
+  "date": "2026-01-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#unified-lakebase-interface",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase Provisioned instances are now accessible through the Lakebase App (via the apps switcher in the Databricks UI). The new unified interface consolidates Lakebase Provisioned and Lakebase Autoscaling management in one location, replacing the previous workflow of navigating to the Compute tab in the Lakehouse UI.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.047004Z"
+}

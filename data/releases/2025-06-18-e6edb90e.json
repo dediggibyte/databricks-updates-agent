@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-18-e6edb90e",
+  "title": "AI documentation for Unity Catalog tables and columns now uses the same model as Databricks Assistant",
+  "date": "2025-06-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#ai-documentation-for-unity-catalog-tables-and-columns-now-uses-the-same-model-as-databricks-assistant",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AI documentation for Unity Catalog tables and table columns now uses a Databricks-hosted model:\n\n* If you already use a Databricks-hosted model for Assistant, there is no change.\n* If you turn off **Partner-powered AI features**, AI documentation now stays available and uses a Databricks-hosted model.\n\nFor more information, see:\n\n* [Partner-powered AI features](/aws/en/databricks-ai/partner-powered)\n* [Add AI-generated comments to Unity Catalog objects](/aws/en/comments/ai-comments)",
+  "ref_links": [
+    {
+      "text": "Partner-powered AI features",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered"
+    },
+    {
+      "text": "Add AI-generated comments to Unity Catalog objects",
+      "url": "https://docs.databricks.com/aws/en/comments/ai-comments"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.349016Z"
+}

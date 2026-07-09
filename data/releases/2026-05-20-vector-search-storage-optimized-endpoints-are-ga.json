@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-20-vector-search-storage-optimized-endpoints-are-ga",
+  "title": "Vector Search storage-optimized endpoints are GA",
+  "date": "2026-05-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#vector-search-storage-optimized-endpoints-are-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Vector Search storage-optimized endpoints are now generally available. Storage-optimized endpoints have a larger capacity (over one billion vectors at dimension 768) and provide 10-20x faster indexing than standard endpoints. Pricing is optimized for the larger number of vectors. For details, see [Vector Search endpoint options](/aws/en/ai-search/ai-search#endpoint-options).",
+  "ref_links": [
+    {
+      "text": "Vector Search endpoint options",
+      "url": "https://docs.databricks.com/aws/en/ai-search/ai-search#endpoint-options"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.677979Z"
+}

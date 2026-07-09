@@ -1,0 +1,45 @@
+{
+  "product": "Admins can now manage a workspace's serverless base environments (Public…",
+  "tagline": "Base environments are custom environment specifications for serverless notebooks that define a serverless environment version and a set of dependencies.",
+  "updated": "Aug 28, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/base-environment",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#admins-can-now-manage-a-workspaces-serverless-base-environments-public-preview",
+  "what_it_does": "Base environments are custom environment specifications for serverless notebooks that define a serverless environment version and a set of dependencies. Workspace admins can now create and manage the base environments available in their workspace. They can also set a default base environment for all new serverless notebooks.",
+  "why_it_matters": "When a workspace base environment is selected, the pre built cached environment loads quickly, reducing startup time for notebooks and jobs.",
+  "capabilities": [
+    {
+      "title": "--index-url https://pypi.org/simple",
+      "desc": "--index-url https://pypi.org/simple"
+    },
+    {
+      "title": "-r \"/Workspace/Shared/requirements.txt\"",
+      "desc": "-r \"/Workspace/Shared/requirements.txt\""
+    },
+    {
+      "title": "my-library==6.1",
+      "desc": "my-library==6.1"
+    },
+    {
+      "title": "/Workspace/Shared/Path/To/simplejson-3.19.3-py3-none-any.whl",
+      "desc": "/Workspace/Shared/Path/To/simplejson-3.19.3-py3-none-any.whl"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Base environments are custom environment specifications for serverless notebooks that define a serverless environment version and a set of dependencies.",
+  "note_id": "2025-08-28-admins-can-now-manage-a-workspace-s-serverless-base-environments-public-preview",
+  "category": "platform"
+}

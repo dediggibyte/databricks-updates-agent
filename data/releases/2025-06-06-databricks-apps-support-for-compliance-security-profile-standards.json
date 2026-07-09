@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-06-databricks-apps-support-for-compliance-security-profile-standards",
+  "title": "Databricks Apps support for compliance security profile standards",
+  "date": "2025-06-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#databricks-apps-support-for-compliance-security-profile-standards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Apps now supports all compliance security profile standards supported by Databricks, such as HIPAA, PCI-DSS, and FedRAMP Moderate. For a full list of supported compliance standards, see [Compliance security profile](/aws/en/security/privacy/security-profile).",
+  "ref_links": [
+    {
+      "text": "Compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.369926Z"
+}

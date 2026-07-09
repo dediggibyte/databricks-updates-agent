@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-24-databricks-runtime-17-0-is-ga",
+  "title": "Databricks Runtime 17.0 is GA",
+  "date": "2025-06-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#databricks-runtime-170-is-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 17.0 and Databricks Runtime 17.0 ML are now generally available.\n\nSee [Databricks Runtime 17.0 (EoS)](/aws/en/release-notes/runtime/17.0) and [Databricks Runtime 17.0 for Machine Learning (EoS)](/aws/en/release-notes/runtime/17.0ml).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 17.0 (EoS)",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.0"
+    },
+    {
+      "text": "Databricks Runtime 17.0 for Machine Learning (EoS)",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.0ml"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.340865Z"
+}

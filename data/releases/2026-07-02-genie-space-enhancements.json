@@ -1,0 +1,29 @@
+{
+  "id": "2026-07-02-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-07-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Agent mode is generally available**: Agent mode in Genie Spaces is now generally available. Agent mode uses multi-step reasoning to answer complex, exploratory questions with a report that includes citations, visualizations, and supporting tables. See [Agent mode in Genie Agents](/aws/en/genie/agent-mode).\n* **Retrieve visualization results using the API (Beta)**: You can now retrieve visualization results from Genie Spaces using the API. See  [Retrieve visualization results (Beta)](/aws/en/genie/conversation-api#get-visualization) and the [Genie API reference](https://docs.databricks.com/api/workspace/genie).\n* **Upload local files for analysis**: You can now upload local Excel and CSV files to an Agent Mode chat for ad-hoc analysis. See [Upload a file to a Genie Agent](/aws/en/genie/file-upload).\n* **Expanded chat history**: Fixed a bug where each user's chat history was limited to 20 past conversations. Chat history is no longer capped.",
+  "ref_links": [
+    {
+      "text": "Agent mode in Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie/agent-mode"
+    },
+    {
+      "text": "Retrieve visualization results (Beta)",
+      "url": "https://docs.databricks.com/aws/en/genie/conversation-api#get-visualization"
+    },
+    {
+      "text": "Genie API reference",
+      "url": "https://docs.databricks.com/api/workspace/genie"
+    },
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/file-upload"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.519432Z"
+}

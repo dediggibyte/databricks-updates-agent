@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-04-databricks-runtime-18-2-is-now-ga",
+  "title": "Databricks Runtime 18.2 is now GA",
+  "date": "2026-05-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-runtime-182-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 18.2 is now generally available. See [Databricks Runtime 18.2](/aws/en/release-notes/runtime/18.2) and [Databricks Runtime 18.2 for Machine Learning](/aws/en/release-notes/runtime/18.2ml).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 18.2",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18.2"
+    },
+    {
+      "text": "Databricks Runtime 18.2 for Machine Learning",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18.2ml"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.740133Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-29-5650b4a2",
+  "title": "Agent mode in Genie Agents will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-06-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#agent-mode-in-genie-agents-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Agent mode in Genie Agents will be enabled by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in July 2026.\n\nAgentic mode uses multi-step reasoning to answer complex business questions by running multiple SQL queries, iterating on results, and returning a report with citations, visualizations, and supporting tables. See [Agent mode in Genie Agents](/aws/en/genie/agent-mode).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Agent mode in Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie/agent-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.531263Z"
+}

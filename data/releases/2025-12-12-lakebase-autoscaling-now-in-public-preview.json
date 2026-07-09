@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-12-lakebase-autoscaling-now-in-public-preview",
+  "title": "Lakebase (Autoscaling) now in Public Preview",
+  "date": "2025-12-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#lakebase-autoscaling-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase (Autoscaling) is now in Public Preview on AWS. This new version of Lakebase introduces autoscaling compute, scale-to-zero, database branching, instant restore, and a redesigned project-based interface. To allow users to explore the new version, usage of Lakebase Autoscaling is free for a limited time. Billing for Lakebase Autoscaling usage begins in January 2026. See [Get started with Lakebase Postgres (Autoscaling Preview)](/aws/en/oltp/projects/get-started).",
+  "ref_links": [
+    {
+      "text": "Get started with Lakebase Postgres (Autoscaling Preview)",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/get-started"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.078387Z"
+}

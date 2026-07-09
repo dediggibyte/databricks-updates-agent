@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-28-admins-can-now-manage-a-workspace-s-serverless-base-environments-public-preview",
+  "title": "Admins can now manage a workspace's serverless base environments (Public Preview)",
+  "date": "2025-08-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#admins-can-now-manage-a-workspaces-serverless-base-environments-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Base environments are custom environment specifications for serverless notebooks that define a serverless environment version and a set of dependencies.\n\nWorkspace admins can now create and manage the base environments available in their workspace. They can also set a default base environment for all new serverless notebooks. This allows workspace users to quickly start working in a consistent, cached environment.\n\nSee [Manage workspace base environments](/aws/en/admin/workspace-settings/base-environment).",
+  "ref_links": [
+    {
+      "text": "Manage workspace base environments",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/base-environment"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.241655Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-15-updated-ui-navigation-for-databricks-apps",
+  "title": "Updated UI navigation for Databricks Apps",
+  "date": "2026-04-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#updated-ui-navigation-for-databricks-apps",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Apps console has a redesigned interface that provides a more intuitive app management experience. The updated console streamlines workflows for editing, deploying, and monitoring apps. You can also access Databricks Apps directly from the app switcher in the top right corner of your workspace. See [Databricks Apps](/aws/en/dev-tools/databricks-apps).",
+  "ref_links": [
+    {
+      "text": "Databricks Apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.797418Z"
+}

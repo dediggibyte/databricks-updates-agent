@@ -1,0 +1,45 @@
+{
+  "product": "Create and write to Unity Catalog tables from external Delta clients (Beta)",
+  "tagline": "The Unity REST API now supports write and create access to Unity Catalog external and managed Delta tables from external Delta clients such as Apache Spark.",
+  "updated": "Apr 14, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/external-access/unity-rest",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#create-and-write-to-unity-catalog-tables-from-external-delta-clients-beta",
+  "what_it_does": "The Unity REST API now supports write and create access to Unity Catalog external and managed Delta tables from external Delta clients such as Apache Spark. External Delta tables support full read, write, and create operations. Creating and writing to Unity Catalog managed Delta tables is available in Beta and requires catalog managed commits to be enabled.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "SELECT on the table for",
+      "desc": "SELECT on the table for reads"
+    },
+    {
+      "title": "MODIFY on the table for",
+      "desc": "MODIFY on the table for writes"
+    },
+    {
+      "title": "CREATE on the schema for",
+      "desc": "CREATE on the schema for table creation"
+    },
+    {
+      "title": "For external writes to managed",
+      "desc": "For external writes to managed Delta tables, verify that the table being written to has catalog commits enabled."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Unity REST API now supports write and create access to Unity Catalog external and managed Delta tables from external Delta clients such as Apache Spark.",
+  "note_id": "2026-04-14-create-and-write-to-unity-catalog-tables-from-external-delta-clients-beta",
+  "category": "platform"
+}

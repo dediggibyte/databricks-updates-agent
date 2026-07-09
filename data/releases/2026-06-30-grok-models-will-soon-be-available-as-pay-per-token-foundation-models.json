@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-30-grok-models-will-soon-be-available-as-pay-per-token-foundation-models",
+  "title": "Grok models will soon be available as pay-per-token foundation models",
+  "date": "2026-06-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#grok-models-will-soon-be-available-as-pay-per-token-foundation-models",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Grok models will soon be available as pay-per-token foundation models in Databricks Model Serving.\n\nSee [Supported foundation models on Model Serving](/aws/en/machine-learning/model-serving/foundation-model-overview).",
+  "ref_links": [
+    {
+      "text": "Supported foundation models on Model Serving",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/foundation-model-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.527316Z"
+}

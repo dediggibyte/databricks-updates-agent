@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-15-recover-a-deleted-lakebase-project-within-7-days",
+  "title": "Recover a deleted Lakebase project within 7 days",
+  "date": "2026-05-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#recover-a-deleted-lakebase-project-within-7-days",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When you delete a Lakebase project, it now enters a soft-deleted state for 7 days before permanent deletion. You can recover the project during that window, restoring all branches, databases, endpoints, and project settings. See [Recover a deleted project](/aws/en/oltp/projects/manage-projects#recover-project).",
+  "ref_links": [
+    {
+      "text": "Recover a deleted project",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects#recover-project"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.695175Z"
+}

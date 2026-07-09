@@ -1,0 +1,12 @@
+{
+  "id": "2025-12-04-dashboard-visualization-enhancements-and-fixes",
+  "title": "Dashboard visualization enhancements and fixes",
+  "date": "2025-12-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-enhancements-and-fixes-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Individual series labels**: You can now enable labels for individual series, instead of all series on the dashboard at once.\n* **Fixed download format options**: Resolved an issue where dashboard downloads only showed PNG format instead of multiple file formats (CSV, TSV, and Excel).",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.095629Z"
+}

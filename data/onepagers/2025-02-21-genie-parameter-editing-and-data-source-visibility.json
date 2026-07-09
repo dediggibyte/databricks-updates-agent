@@ -1,0 +1,45 @@
+{
+  "product": "Genie parameter editing and data source visibility",
+  "tagline": "Edit parameters in a response: You can now edit the parameter values used to generate a response to a trusted question.",
+  "updated": "Feb 21, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#review-response",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-parameter-editing-and-data-source-visibility",
+  "what_it_does": "Edit parameters in a response: You can now edit the parameter values used to generate a response to a trusted question. View data sources in Genie: Genie now displays the tables used as source data for each response. Avoid unnecessary wait times in Genie: You can now cancel a SQL query execution during the Waiting for warehouse state to avoid unnecessary wait times.",
+  "why_it_matters": "Improved error messaging in Genie: Removed duplicate error messages from generated visualizations.",
+  "capabilities": [
+    {
+      "title": "About: Owner, tags, description, and",
+      "desc": "About: Owner, tags, description, and common questions."
+    },
+    {
+      "title": "Data: Tables selected for the",
+      "desc": "Data: Tables selected for the agent. Expand each table to view column names and descriptions. Click the  button to view table…"
+    },
+    {
+      "title": "Instructions: Text instructions, joins, common",
+      "desc": "Instructions: Text instructions, joins, common SQL expressions, and SQL queries and functions. Share: Get a shareable link to a…"
+    },
+    {
+      "title": "Understanding the question: Shows how",
+      "desc": "Understanding the question: Shows how Genie interpreted your question and the key terms it identified."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Edit parameters in a response: You can now edit the parameter values used to generate a response to a trusted question.",
+  "note_id": "2025-02-21-genie-parameter-editing-and-data-source-visibility",
+  "category": "platform"
+}

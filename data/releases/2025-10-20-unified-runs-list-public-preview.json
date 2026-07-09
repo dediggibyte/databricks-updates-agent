@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-20-unified-runs-list-public-preview",
+  "title": "Unified runs list (Public Preview)",
+  "date": "2025-10-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#unified-runs-list-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The unified runs list is in Public Preview. Monitor both job and pipeline runs in a single unified list.\n\nSee [Changes in the Unified Runs List preview](/aws/en/ldp/monitoring-ui#unified-preview).",
+  "ref_links": [
+    {
+      "text": "Changes in the Unified Runs List preview",
+      "url": "https://docs.databricks.com/aws/en/ldp/monitoring-ui#unified-preview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.163473Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-31-improved-notebook-debugger-experience",
+  "title": "Improved notebook debugger experience",
+  "date": "2025-10-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#improved-notebook-debugger-experience",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Python notebook interactive debugger now supports multi-file debugging. You can set breakpoints and step into functions across multiple workspace files. The debugger automatically opens the file in a new tab when you step into it. This improvement makes it easier to debug code that spans multiple files in your workspace.\n\nSee [Step into workspace files](/aws/en/notebooks/debugger#debugger-on-workspace-files).",
+  "ref_links": [
+    {
+      "text": "Step into workspace files",
+      "url": "https://docs.databricks.com/aws/en/notebooks/debugger#debugger-on-workspace-files"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.137023Z"
+}

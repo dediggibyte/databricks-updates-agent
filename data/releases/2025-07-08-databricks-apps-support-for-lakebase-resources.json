@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-08-databricks-apps-support-for-lakebase-resources",
+  "title": "Databricks Apps support for Lakebase resources",
+  "date": "2025-07-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#databricks-apps-support-for-lakebase-resources",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Apps now supports adding Lakebase database instances as app resources. You can then include these resources as environment variables and access them from your app code.\n\nSee [Add a Lakebase resource to a Databricks app](/aws/en/dev-tools/databricks-apps/lakebase).",
+  "ref_links": [
+    {
+      "text": "Add a Lakebase resource to a Databricks app",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/lakebase"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.329320Z"
+}

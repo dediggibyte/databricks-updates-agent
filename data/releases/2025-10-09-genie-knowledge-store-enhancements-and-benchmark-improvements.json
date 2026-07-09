@@ -1,0 +1,25 @@
+{
+  "id": "2025-10-09-genie-knowledge-store-enhancements-and-benchmark-improvements",
+  "title": "Genie knowledge store enhancements and benchmark improvements",
+  "date": "2025-10-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-knowledge-store-enhancements-and-benchmark-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Easier benchmark generation**:\n  + Space editors can save representative messages or SQL answers from chat conversations to benchmark questions. See [Other response actions](/aws/en/genie/monitor#other-actions).\n  + Space editors can generate benchmark SQL answers after entering a benchmark text question. See [Add benchmark questions](/aws/en/genie/monitor#add-benchmark).\n  + Accurate Genie answers from one benchmark result can now be saved to update future benchmark sets. See [Review individual evaluations](/aws/en/genie/monitor#review-single-eval).\n* **Improved performance and latency**: Genie's internal reasoning process has been simplified, slightly improving overall latency and streamlining context for SQL generation.",
+  "ref_links": [
+    {
+      "text": "Other response actions",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#other-actions"
+    },
+    {
+      "text": "Add benchmark questions",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#add-benchmark"
+    },
+    {
+      "text": "Review individual evaluations",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#review-single-eval"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.177120Z"
+}

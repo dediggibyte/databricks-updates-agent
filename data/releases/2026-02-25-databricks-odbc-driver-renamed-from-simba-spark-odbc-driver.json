@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-25-databricks-odbc-driver-renamed-from-simba-spark-odbc-driver",
+  "title": "Databricks ODBC Driver renamed from Simba Spark ODBC Driver",
+  "date": "2026-02-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#databricks-odbc-driver-renamed-from-simba-spark-odbc-driver",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks ODBC driver has been renamed from Simba Spark ODBC Driver to Databricks ODBC Driver. Existing Simba driver versions remain supported for two years. See [Migrate from Simba Spark ODBC Driver to Databricks ODBC Driver](/aws/en/integrations/odbc/migration) for instructions on updating your connections.",
+  "ref_links": [
+    {
+      "text": "Migrate from Simba Spark ODBC Driver to Databricks ODBC Driver",
+      "url": "https://docs.databricks.com/aws/en/integrations/odbc/migration"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.938132Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2026-01-12-7d82e8ff",
+  "title": "OpenAI GPT-5.1 Codex Max and Codex Mini now available as Databricks-hosted models",
+  "date": "2026-01-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#openai-gpt-51-codex-max-and-codex-mini-now-available-as-databricks-hosted-models",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports OpenAI [GPT-5.1 Codex Max](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-1-codex-max) and [GPT-5.1 Codex Mini](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-1-codex-mini) as Databricks-hosted models. These code-specialized models excel at code generation, refactoring, and software engineering tasks. You can access these models using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).\n\nCustomers are responsible for ensuring their compliance with the terms of OpenAI's [Acceptable Use Policy](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "GPT-5.1 Codex Max",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-1-codex-max"
+    },
+    {
+      "text": "GPT-5.1 Codex Mini",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-1-codex-mini"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "Acceptable Use Policy",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.050677Z"
+}

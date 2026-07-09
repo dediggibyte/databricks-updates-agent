@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-16-explore-table-data-using-an-llm-beta",
+  "title": "Explore table data using an LLM (Beta)",
+  "date": "2025-07-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#explore-table-data-using-an-llm-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now ask natural language questions about the sample data using Catalog Explorer. The Assistant generates the SQL based on metadata context and table usage patterns. After the query is generated, you can validate the query and then run it against the underlying table. See [Explore table data using an LLM](/aws/en/discover/database-objects#natural-language).",
+  "ref_links": [
+    {
+      "text": "Explore table data using an LLM",
+      "url": "https://docs.databricks.com/aws/en/discover/database-objects#natural-language"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.319580Z"
+}

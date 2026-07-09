@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-17-delta-sharing-views-automatically-permitted-in-serverless-network-policies",
+  "title": "Delta Sharing views automatically permitted in serverless network policies",
+  "date": "2025-11-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#delta-sharing-views-automatically-permitted-in-serverless-network-policies",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Delta Sharing views are now permitted when using serverless network policies, regardless of storage location alignment between shared tables and view dependencies. This removes the previous limitation and simplifies network policy configuration for Delta Sharing workloads.\n\nSee [Manage network policies for serverless egress control](/aws/en/security/network/serverless-network-security/manage-network-policies).",
+  "ref_links": [
+    {
+      "text": "Manage network policies for serverless egress control",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/manage-network-policies"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.112158Z"
+}

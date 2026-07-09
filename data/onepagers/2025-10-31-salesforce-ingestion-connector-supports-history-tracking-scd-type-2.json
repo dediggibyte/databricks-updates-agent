@@ -1,0 +1,45 @@
+{
+  "product": "Salesforce ingestion connector supports history tracking (SCD type 2)",
+  "tagline": "By default, history tracking is off (SCD type 1) for managed connectors in Lakeflow Connect.",
+  "updated": "Oct 31, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/scd#sfdc-api",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#salesforce-ingestion-connector-supports-history-tracking-scd-type-2",
+  "what_it_does": "By default, history tracking is off (SCD type 1) for managed connectors in Lakeflow Connect. This setting overwrites outdated records as they're updated and deleted in the source. You can now enable history tracking (SCD type 2) to maintain a history of those changes.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "table: sourceurl: <project-id> sourceschema: <property-name>",
+      "desc": "table: sourceurl: <project-id> sourceschema: <property-name> destinationcatalog: <destination-catalog> destinationschema…"
+    },
+    {
+      "title": "table: sourceschema: <source-schema> sourcetable: <source-table>",
+      "desc": "table: sourceschema: <source-schema> sourcetable: <source-table> destinationcatalog: <destination-catalog> destinationschema…"
+    },
+    {
+      "title": "table: sourcecatalog: <source-catalog> sourceschema: <source-schema>",
+      "desc": "table: sourcecatalog: <source-catalog> sourceschema: <source-schema> sourcetable: <source-table> destinationcatalog…"
+    },
+    {
+      "title": "report: sourceurl: <report-url> destinationcatalog: <destination-catalog>",
+      "desc": "report: sourceurl: <report-url> destinationcatalog: <destination-catalog> destinationschema: <destination-schema>"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "By default, history tracking is off (SCD type 1) for managed connectors in Lakeflow Connect.",
+  "note_id": "2025-10-31-salesforce-ingestion-connector-supports-history-tracking-scd-type-2",
+  "category": "platform"
+}

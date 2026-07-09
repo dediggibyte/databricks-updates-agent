@@ -1,0 +1,28 @@
+{
+  "product": "Workspace skills for Genie Code are now available",
+  "tagline": "Workspace skills for Genie Code Agent mode are now available.",
+  "updated": "Apr 6, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/skills",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#workspace-skills-for-genie-code-are-now-available",
+  "what_it_does": "Workspace skills for Genie Code Agent mode are now available. Workspace admins can create shared skills that are available to everyone in the workspace. Use workspace skills for broadly useful workflows across your team, such as machine learning pipelines or domain specific processes.",
+  "why_it_matters": "This maintains an efficient context window and reduces the need to provide the same context across multiple chats.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Workspace skills for Genie Code Agent mode are now available.",
+  "note_id": "2026-04-06-workspace-skills-for-genie-code-are-now-available",
+  "category": "platform"
+}

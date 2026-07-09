@@ -1,0 +1,21 @@
+{
+  "id": "2025-03-27-dashboard-migration-and-localization-improvements",
+  "title": "Dashboard migration and localization improvements",
+  "date": "2025-03-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-migration-and-localization-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Chart migration fix**: Dual-axis charts are now converted as expected when migrating from legacy dashboards to AI/BI dashboards.\n* **More space for titles**: Narrow widgets and filter drop-downs now allocate more space for titles.\n* **Customize dashboard visualization settings by locale**: Use the editing panel on your draft dashboard to select a locale and customize settings across all filter and visualization widgets.\n* **Improved URL stability**: Importing a new version of a dashboard in draft and publishing no longer breaks filter values saved in existing URLs. See [Filters in published dashboard URLs](/aws/en/dashboards/manage/filters#filter-urls).\n* **Improved Genie creation flow**: When you create a new Genie Space, you need only to add tables to the space to start testing and iterating. See [Create and manage a Genie Agent](/aws/en/genie/set-up).\n* **Conversations API update**: Messages sent through the Conversations API now appear in the monitoring tab.",
+  "ref_links": [
+    {
+      "text": "Filters in published dashboard URLs",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#filter-urls"
+    },
+    {
+      "text": "Create and manage a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.418784Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-08-4ec84b0a",
+  "title": "The Data Science Agent can now also use models served through Anthropic on Databricks",
+  "date": "2025-10-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#the-data-science-agent-can-now-also-use-models-served-through-anthropic-on-databricks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Assistant can now also use models served through Anthropic on Databricks as part of the [Data Science Agent](/aws/en/notebooks/ds-agent) when [partner-powered AI features](/aws/en/databricks-ai/partner-powered) are enabled. Anthropic on Databricks uses endpoints hosted by Databricks within the Databricks security perimeter.",
+  "ref_links": [
+    {
+      "text": "Data Science Agent",
+      "url": "https://docs.databricks.com/aws/en/notebooks/ds-agent"
+    },
+    {
+      "text": "partner-powered AI features",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.180500Z"
+}

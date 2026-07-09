@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-15-the-can-view-permission-on-sql-warehouses-is-now-generally-available",
+  "title": "The CAN VIEW permission on SQL warehouses is now generally available",
+  "date": "2025-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#the-can-view-permission-on-sql-warehouses-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The CAN VIEW permission allows users to view SQL warehouses, including query history and query profiles. These users cannot run queries on the warehouse.\n\nSee [SQL warehouse ACLs](/aws/en/security/auth/access-control#sql-warehouses).",
+  "ref_links": [
+    {
+      "text": "SQL warehouse ACLs",
+      "url": "https://docs.databricks.com/aws/en/security/auth/access-control#sql-warehouses"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.322439Z"
+}

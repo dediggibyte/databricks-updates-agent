@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-26-dashboard-git-integration-and-workflow-improvements",
+  "title": "Dashboard Git integration and workflow improvements",
+  "date": "2025-06-26",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-git-integration-and-workflow-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Improved diff review for dashboard files**: When committing dashboard changes to Git, queries and text box content now appear across multiple lines in the diff, making changes easier to review.\n* **Multi-statement queries in Genie on dashboards**: Genie on dashboards now supports multistatement SQL queries.\n* **Improved schedule and subscribe workflow**: You can now add subscribers when setting up a new schedule. Previously, you could only add subscribers to an existing schedule. See [Create a schedule](/aws/en/dashboards/share/schedule-subscribe#create-schedule).",
+  "ref_links": [
+    {
+      "text": "Create a schedule",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#create-schedule"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.335522Z"
+}

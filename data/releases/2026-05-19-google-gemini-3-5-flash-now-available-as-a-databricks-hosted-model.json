@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-19-google-gemini-3-5-flash-now-available-as-a-databricks-hosted-model",
+  "title": "Google Gemini 3.5 Flash now available as a Databricks-hosted model",
+  "date": "2026-05-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#google-gemini-35-flash-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Model Serving now supports Google [Gemini 3.5 Flash](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-5-flash) as a Databricks-hosted model. You can access this model using [Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis).\n\nCustomers are responsible for ensuring their compliance with [applicable terms](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "Gemini 3.5 Flash",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-5-flash"
+    },
+    {
+      "text": "Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis"
+    },
+    {
+      "text": "applicable terms",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.684115Z"
+}

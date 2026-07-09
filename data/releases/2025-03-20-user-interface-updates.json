@@ -1,0 +1,12 @@
+{
+  "id": "2025-03-20-user-interface-updates",
+  "title": "User interface updates",
+  "date": "2025-03-20",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-4",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Transfer SQL warehouse ownership to service principal**: You can now use the UI to transfer warehouse ownership to a service principal.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.423141Z"
+}

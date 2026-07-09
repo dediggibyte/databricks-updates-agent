@@ -1,0 +1,45 @@
+{
+  "product": "Discover files in Auto Loader efficiently using file events",
+  "tagline": "Auto Loader with file events is now GA.",
+  "updated": "Dec 10, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/file-notification-mode#compare",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#discover-files-in-auto-loader-efficiently-using-file-events",
+  "what_it_does": "Auto Loader with file events is now GA. With this feature, Auto Loader can discover files with the efficiency of notifications while retaining the setup simplicity of directory listing. This is the recommended way to use Auto Loader (and particularly file notifications) with Unity Catalog.",
+  "why_it_matters": "You can use file notifications to scale Auto Loader to ingest millions of files an hour.",
+  "capabilities": [
+    {
+      "title": "Databricks can set up subscriptions",
+      "desc": "Databricks can set up subscriptions and file events in your cloud storage account for you without requiring that you supply…"
+    },
+    {
+      "title": "You have fewer IAM role",
+      "desc": "You have fewer IAM role policies to create in your cloud storage account."
+    },
+    {
+      "title": "Because you no longer need",
+      "desc": "Because you no longer need to create a queue for each Auto Loader stream, it's easier to avoid hitting the cloud provider…"
+    },
+    {
+      "title": "Databricks automatically manages the tuning",
+      "desc": "Databricks automatically manages the tuning of resource requirements, so you don't need to tune parameters such as…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Auto Loader with file events is now GA.",
+  "note_id": "2025-12-10-discover-files-in-auto-loader-efficiently-using-file-events",
+  "category": "platform"
+}

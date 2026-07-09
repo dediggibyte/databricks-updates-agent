@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-27-managed-mcp-servers-is-now-public-preview",
+  "title": "Managed MCP servers is now Public Preview",
+  "date": "2026-01-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#managed-mcp-servers-is-now-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Managed MCP servers is now Public Preview. Managed MCP servers allow your AI agents to securely connect to Databricks resources and external APIs. See [Model Context Protocol (MCP) on Databricks](/aws/en/agents/mcp).",
+  "ref_links": [
+    {
+      "text": "Model Context Protocol (MCP) on Databricks",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.021631Z"
+}

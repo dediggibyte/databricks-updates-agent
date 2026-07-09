@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-16-customer-managed-keys-now-support-model-serving",
+  "title": "Customer-managed keys now support model serving",
+  "date": "2026-04-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#customer-managed-keys-now-support-model-serving",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use customer-managed keys to encrypt model serving container images and model artifacts stored in Databricks managed registry. Endpoint artifacts created after April 16, 2026 are protected with customer-managed keys. See [Customer-managed keys for encryption](/aws/en/security/keys/customer-managed-keys).",
+  "ref_links": [
+    {
+      "text": "Customer-managed keys for encryption",
+      "url": "https://docs.databricks.com/aws/en/security/keys/customer-managed-keys"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.795773Z"
+}

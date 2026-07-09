@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-20-jar-tasks-on-serverless-compute-is-now-in-public-preview",
+  "title": "JAR tasks on serverless compute is now in Public Preview",
+  "date": "2026-02-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#jar-tasks-on-serverless-compute-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Running JAR jobs on serverless compute is now in Public Preview. See [JAR task for jobs](/aws/en/jobs/tasks/jar).",
+  "ref_links": [
+    {
+      "text": "JAR task for jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/tasks/jar"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.942317Z"
+}

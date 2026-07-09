@@ -1,0 +1,31 @@
+{
+  "product": "Tag Unity Catalog functions",
+  "tagline": "Functions are now a supported securable object type for tagging in Unity Catalog.",
+  "updated": "Apr 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/database-objects/tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#tag-unity-catalog-functions",
+  "what_it_does": "Functions are now a supported securable object type for tagging in Unity Catalog. Use SET TAG and UNSET TAG to add and remove tags from functions. You can use tags to search for functions and certify or deprecate functions.",
+  "why_it_matters": "Governed tags Governed tags are account level tags with enforced rules for consistency and control.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "ownership",
+    "or lifecycle tracking."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Functions are now a supported securable object type for tagging in Unity Catalog.",
+  "note_id": "2026-04-28-tag-unity-catalog-functions",
+  "category": "platform"
+}

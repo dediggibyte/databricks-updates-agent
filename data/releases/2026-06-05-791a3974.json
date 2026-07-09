@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-05-791a3974",
+  "title": "External data access for pipeline streaming tables and materialized views (Public Preview)",
+  "date": "2026-06-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#external-data-access-for-pipeline-streaming-tables-and-materialized-views-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now enable external Delta and Iceberg clients to read streaming tables and materialized views managed by a pipeline through the Unity Catalog and Iceberg catalog REST APIs, without copying the data. See [Enable external data access to streaming tables and materialized views](/aws/en/external-access/external-for-pipelines), [Public Preview](/aws/en/release-notes/release-types).",
+  "ref_links": [
+    {
+      "text": "Enable external data access to streaming tables and materialized views",
+      "url": "https://docs.databricks.com/aws/en/external-access/external-for-pipelines"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.621010Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-23-connect-external-data-sources-to-chat-in-genie-one-beta",
+  "title": "Connect external data sources to chat in Genie One (Beta)",
+  "date": "2026-03-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#connect-external-data-sources-to-chat-in-genie-one-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now connect external data sources such as Google Drive or SharePoint to a chat conversation in Genie One, allowing chat to search your company documents when answering questions. Each user authenticates individually using their own credentials. You can also connect custom MCP servers as additional data sources. See [Connect to external tools and sources](/aws/en/genie-one/external-sources).",
+  "ref_links": [
+    {
+      "text": "Connect to external tools and sources",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.855687Z"
+}

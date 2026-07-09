@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-30-view-and-restore-your-recent-workspace-tab-sessions",
+  "title": "View and restore your recent workspace tab sessions",
+  "date": "2026-01-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#view-and-restore-your-recent-workspace-tab-sessions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now view your past workspace tab sessions and restore them. See [Switch between authoring contexts](/aws/en/workspace/navigate-workspace#authoring-contexts).",
+  "ref_links": [
+    {
+      "text": "Switch between authoring contexts",
+      "url": "https://docs.databricks.com/aws/en/workspace/navigate-workspace#authoring-contexts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.010814Z"
+}

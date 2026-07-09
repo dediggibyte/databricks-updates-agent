@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-21-automate-classic-workspace-creation-with-aws-iam-temporary-delegation",
+  "title": "Automate classic workspace creation with AWS IAM temporary delegation",
+  "date": "2025-11-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#automate-classic-workspace-creation-with-aws-iam-temporary-delegation",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now automate the creation of classic workspaces using AWS IAM temporary delegation, which grants Databricks temporary access to provision the required IAM roles, S3 bucket, access policies, and customer-managed VPC in your AWS account. This workspace creation flow replaces the AWS Quickstart template.\n\nSee [Create a classic workspace](/aws/en/admin/workspace/create-workspace).",
+  "ref_links": [
+    {
+      "text": "Create a classic workspace",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace/create-workspace"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.102135Z"
+}

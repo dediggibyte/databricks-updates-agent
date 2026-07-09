@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-03-databricks-assistant-agent-mode-data-science-agent-is-in-beta",
+  "title": "Databricks Assistant Agent mode: Data Science Agent is in Beta",
+  "date": "2025-09-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-assistant-agent-mode-data-science-agent-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Agent mode for Databricks Assistant is now in Beta. In Agent mode, the Assistant can orchestrate multi-step workflows from a single prompt.\n\nThe Data Science Agent is custom-built for data science workflows and can build an entire notebook for tasks like EDA, forecasting, and machine learning from scratch. Using your prompt, it can plan a solution, retrieve relevant assets, run code, use cell outputs to improve results, fix errors automatically, and more.\n\nSee [Use Genie Code for data science](/aws/en/notebooks/ds-agent).",
+  "ref_links": [
+    {
+      "text": "Use Genie Code for data science",
+      "url": "https://docs.databricks.com/aws/en/notebooks/ds-agent"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.231942Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-12-single-node-compute-on-standard-access-mode-is-now-ga",
+  "title": "Single-node compute on standard access mode is now GA",
+  "date": "2025-08-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#single-node-compute-on-standard-access-mode-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Single node compute resources with standard access mode is now generally available. This configuration allows multiple users to share a single-node compute resource with full user isolation. Single-node compute is useful for small jobs or non-distributed workloads.\n\nSee [Compute configuration reference](/aws/en/compute/configure).",
+  "ref_links": [
+    {
+      "text": "Compute configuration reference",
+      "url": "https://docs.databricks.com/aws/en/compute/configure"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.272552Z"
+}

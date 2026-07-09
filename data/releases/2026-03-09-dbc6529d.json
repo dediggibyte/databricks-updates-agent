@@ -1,0 +1,25 @@
+{
+  "id": "2026-03-09-dbc6529d",
+  "title": "Databricks Apps compute sizing support for compliance security profile standards",
+  "date": "2026-03-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-apps-compute-sizing-support-for-compliance-security-profile-standards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Compute sizing for Databricks Apps](/aws/en/dev-tools/databricks-apps/compute-size) now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/enhanced-security-compliance) enabled.\n\nFor a full list of supported compliance standards, see [Compliance security profile](/aws/en/security/privacy/security-profile).",
+  "ref_links": [
+    {
+      "text": "Compute sizing for Databricks Apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/compute-size"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/enhanced-security-compliance"
+    },
+    {
+      "text": "Compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.902420Z"
+}

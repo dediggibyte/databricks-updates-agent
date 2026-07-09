@@ -1,0 +1,12 @@
+{
+  "id": "2026-01-29-genie-space-api-and-user-experience-improvements",
+  "title": "Genie Space API and user experience improvements",
+  "date": "2026-01-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-api-and-user-experience-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Full query result downloads**: A new API endpoint supports downloading complete result sets up to about 1 GB.\n* **Fixed chart generation from prompts**: Resolved an issue where requesting charts directly in the prompt would not create visualizations.\n* **Collapsible error messages**: Errors now appear in a collapsible modal for improved readability.\n* **Catalog permission warnings**: Users now see an informative banner when they lack `USE CATALOG` permissions on attached tables, rather than encountering errors at SQL execution time.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.013971Z"
+}

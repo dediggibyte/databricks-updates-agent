@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-19-update-request-parameters-for-delta-sharing-recipient-audit-log-events",
+  "title": "Update request parameters for Delta Sharing recipient audit log events",
+  "date": "2025-12-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#update-request-parameters-for-delta-sharing-recipient-audit-log-events",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "For Delta Sharing recipients, `deltaSharingProxy*` audit log events now also include the `catalog_name` request parameter, in addition to `share_name` (previously named `share`). See [OpenSharing recipient events](/aws/en/admin/account-settings/audit-logs#recipient).",
+  "ref_links": [
+    {
+      "text": "OpenSharing recipient events",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/audit-logs#recipient"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.061993Z"
+}

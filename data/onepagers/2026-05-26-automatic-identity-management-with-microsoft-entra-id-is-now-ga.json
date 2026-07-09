@@ -1,0 +1,28 @@
+{
+  "product": "Automatic identity management with Microsoft Entra ID is now GA",
+  "tagline": "Automatic identity management with Microsoft Entra ID is now generally available.",
+  "updated": "May 26, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/users-groups/automatic-identity-management/ms-entra-id",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#automatic-identity-management-with-microsoft-entra-id-is-now-ga",
+  "what_it_does": "Automatic identity management with Microsoft Entra ID is now generally available. Automatic identity management lets you sync users, service principals, and groups from Microsoft Entra ID to Databricks without SCIM provisioning. When enabled, you can search for identities in identity federated workspaces and add them directly to your workspace, and group memberships stay in sync with Microsoft Entra ID.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Automatic identity management with Microsoft Entra ID is now generally available.",
+  "note_id": "2026-05-26-automatic-identity-management-with-microsoft-entra-id-is-now-ga",
+  "category": "platform"
+}

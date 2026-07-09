@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-02-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-04-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-10",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Clear applied filters individually**: Dashboard viewers can now individually clear applied filters from the active selection bar.\n* **Text box vertical alignment**: Text box widgets now support vertical alignment (top, center, and bottom).\n* **Choropleth map boundaries**: Choropleth maps now support additional boundary types, including ZIP code and NUTS regions.\n* **Waterfall chart total bar visibility**: The waterfall chart editor now hides the total bar toggle when the x-axis configuration doesn't support it, reducing authoring confusion.\n* **Genie Code faceted charts**: Genie Code can now create faceted charts (also known as trellis or small multiple charts).\n* **Genie Code starter questions**: Genie Code starter questions are now scoped to the currently viewed dashboard page.\n* **\"Explain this change\" chart types**: The \"Explain this change\" feature is now available for pivot table cells, horizontal bar charts, pie charts, and heatmaps, in addition to time series charts. See [Ask Genie to explain chart changes](/aws/en/dashboards/genie-spaces#explain-chart-changes).\n* **Embedding disabled error message**: Fixed an error message when embedding is disabled to clarify that the workspace administrator, not the account administrator, must update the workspace setting.\n* **Y-axis label alignment**: Fixed an incorrect width measurement for horizontal y-axis labels that caused misaligned axis text.\n* **Filter picker label truncation**: Long field and parameter names in the filter picker dropdown are now truncated to prevent layout overflow.",
+  "ref_links": [
+    {
+      "text": "Ask Genie to explain chart changes",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#explain-chart-changes"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.819138Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-29-databricks-apps-horizontal-scaling-beta",
+  "title": "Databricks Apps horizontal scaling (Beta)",
+  "date": "2026-05-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-apps-horizontal-scaling-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now run a Databricks app across multiple instances behind a single app URL. Horizontal scaling provides higher availability, zero-downtime deployments, and [session affinity](/aws/en/dev-tools/databricks-apps/horizontal-scaling#session-affinity), which routes every request from a given user to the same instance so the app can keep per-user data on that instance. Convert an existing standard app to horizontally scaled, or enable horizontal scaling when creating a new app. Converted apps can also opt out of pre-installed Python libraries to run on a clean base OS image.\n\nSee [Horizontal scaling for Databricks apps](/aws/en/dev-tools/databricks-apps/horizontal-scaling) and [Opt out of pre-installed Python libraries for Databricks apps](/aws/en/dev-tools/databricks-apps/preinstalled-libraries).",
+  "ref_links": [
+    {
+      "text": "session affinity",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/horizontal-scaling#session-affinity"
+    },
+    {
+      "text": "Horizontal scaling for Databricks apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/horizontal-scaling"
+    },
+    {
+      "text": "Opt out of pre-installed Python libraries for Databricks apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/preinstalled-libraries"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.641524Z"
+}

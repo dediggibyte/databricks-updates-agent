@@ -1,0 +1,50 @@
+{
+  "product": "Disable DBFS root and mounts is in Public Preview",
+  "tagline": "You can now disable access to the Databricks Filesystem (DBFS) root and mounts in existing Databricks workspaces.",
+  "updated": "Jul 28, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dbfs/disable-dbfs-root-mounts",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#disable-dbfs-root-and-mounts-is-in-public-preview",
+  "what_it_does": "You can now disable access to the Databricks Filesystem (DBFS) root and mounts in existing Databricks workspaces. This page describes how to disable access to the legacy Databricks Filesystem (DBFS) root and mounts in existing Databricks workspaces. To disable DBFS root and mounts at the account level for new workspaces, use the Disable legacy features account setting.",
+  "why_it_matters": "Disabling DBFS root and mounts enhances your security posture by removing access to shared storage that is not governed by Unity Catalog.",
+  "capabilities": [
+    {
+      "title": "Cluster libraries",
+      "desc": "Cluster libraries"
+    },
+    {
+      "title": "Cluster log delivery",
+      "desc": "Cluster log delivery"
+    },
+    {
+      "title": "MLflow tracking/model registry (non-UC)",
+      "desc": "MLflow tracking/model registry (non-UC)"
+    },
+    {
+      "title": "AutoML experiments",
+      "desc": "AutoML experiments"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "adding the access control",
+    "auditing",
+    "lineage that DBFS root",
+    "mounts lack."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now disable access to the Databricks Filesystem (DBFS) root and mounts in existing Databricks workspaces.",
+  "note_id": "2025-07-28-disable-dbfs-root-and-mounts-is-in-public-preview",
+  "category": "platform"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2026-03-19-genie-space-enhancements-and-bug-fixes",
+  "title": "Genie Space enhancements and bug fixes",
+  "date": "2026-03-19",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-bug-fixes-4",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Inspect (Public Preview)**: Inspect is now in Public Preview. Inspect automatically improves standard Genie's accuracy by reviewing the initially generated SQL, authoring smaller SQL statements to verify specific aspects of the query, and generating improved SQL as needed. See [Improve response accuracy using Inspect](/aws/en/genie/concepts#inspect-mode).\n* **Agent mode is available to more accounts**: Agent mode uses multi-step reasoning and hypothesis testing to answer both straightforward data questions and complex business questions. It is now available to more accounts. See [Agent mode in Genie Agents](/aws/en/genie/agent-mode).\n* **Genie Agent mode regional availability**: Genie Agent mode is now available in-region for Australia, New Zealand, and Japan.\n* **Benchmark APIs in Beta**: The run benchmarks and retrieve benchmark results APIs are now in Beta. See [Create evaluation run](https://docs.databricks.com/api/workspace/genie/geniecreateevalrun).\n* **Genie conversation sharing (Beta)**: You can now share individual Genie conversations and control who can view them. Each conversation has a sharing setting: Private, Reviewable by space managers (default for new conversations), or All account users. Existing conversations default to Private. See [Share a conversation](/aws/en/genie/talk-to-genie#share-conversation).\n* **Genie Space description Japanese character rendering**: Fixed a bug where Japanese characters rendered vertically instead of horizontally in the Genie Space description.",
+  "ref_links": [
+    {
+      "text": "Improve response accuracy using Inspect",
+      "url": "https://docs.databricks.com/aws/en/genie/concepts#inspect-mode"
+    },
+    {
+      "text": "Agent mode in Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie/agent-mode"
+    },
+    {
+      "text": "Create evaluation run",
+      "url": "https://docs.databricks.com/api/workspace/genie/geniecreateevalrun"
+    },
+    {
+      "text": "Share a conversation",
+      "url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#share-conversation"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.865527Z"
+}

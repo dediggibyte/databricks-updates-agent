@@ -1,0 +1,30 @@
+{
+  "product": "Databricks Online Feature Stores (Public Preview)",
+  "tagline": "Databricks Online Feature Stores, powered by Lakebase, provide highly scalable low latency access to feature data while maintaining consistency with your offline feature tables.",
+  "updated": "Sep 5, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/online-feature-store",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-online-feature-stores-public-preview",
+  "what_it_does": "Databricks Online Feature Stores, powered by Lakebase, provide highly scalable low latency access to feature data while maintaining consistency with your offline feature tables. Native integrations with Unity Catalog, MLflow, and Mosaic AI Model Serving help you productionize your model endpoints, agents, and rule engines, so they can automatically and securely access features from Online Feature Stores while maintaining high performance. Databricks Online Feature Stores are a high performance, scalable solution for serving feature data to online applications and real time machine learning models.",
+  "why_it_matters": "Databricks Online Feature Stores, powered by Lakebase, provide highly scalable low latency access to feature data while maintaining consistency with your offline feature tables.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "fraud detection"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks Online Feature Stores, powered by Lakebase, provide highly scalable low latency access to feature data while maintaining consistency with your offline feature tables.",
+  "note_id": "2025-09-05-databricks-online-feature-stores-public-preview",
+  "category": "platform"
+}

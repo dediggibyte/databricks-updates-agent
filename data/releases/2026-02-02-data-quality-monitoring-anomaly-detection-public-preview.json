@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-02-data-quality-monitoring-anomaly-detection-public-preview",
+  "title": "Data Quality Monitoring Anomaly Detection public preview",
+  "date": "2026-02-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#data-quality-monitoring-anomaly-detection-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Data Quality Monitoring Anomaly Detection is now in Public Preview. The feature is enabled at the schema level and learns from historical data patterns to detect data quality anomalies. The health of all monitored tables is consolidated into a single system table and a new UI. See [Anomaly detection](/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection).",
+  "ref_links": [
+    {
+      "text": "Anomaly detection",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.008540Z"
+}

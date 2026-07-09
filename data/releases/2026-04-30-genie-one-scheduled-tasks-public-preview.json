@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-30-genie-one-scheduled-tasks-public-preview",
+  "title": "Genie One scheduled tasks (Public Preview)",
+  "date": "2026-04-30",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-scheduled-tasks-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Scheduled tasks are now supported in Genie One. Users can set up recurring prompts to automate weekly digests or daily insights. When a task runs, chat sends you an email with the results. See [Scheduled tasks](/aws/en/genie-one/chat#scheduled-tasks).",
+  "ref_links": [
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.749565Z"
+}

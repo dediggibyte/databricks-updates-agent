@@ -1,0 +1,28 @@
+{
+  "product": "Real-time mode in Lakeflow Spark Declarative Pipelines, and the update_flow…",
+  "tagline": "Real time mode in Lakeflow Spark Declarative Pipelines is now in Public Preview.",
+  "updated": "May 27, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-update-flow",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#real-time-mode-in-lakeflow-spark-declarative-pipelines-and-the-update_flow-api-are-now-available-public-preview",
+  "what_it_does": "Real time mode in Lakeflow Spark Declarative Pipelines is now in Public Preview. Achieve end to end latency as low as five milliseconds for operational streaming workloads such as fraud detection, real time personalization, and instant decision making. Real time mode uses the new update flow decorator, which writes to sinks using update output mode and supports stateful aggregations without requiring a watermark.",
+  "why_it_matters": "Achieve end to end latency as low as five milliseconds for operational streaming workloads such as fraud detection, real time personalization, and instant decision making.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Real time mode in Lakeflow Spark Declarative Pipelines is now in Public Preview.",
+  "note_id": "2026-05-27-07cd7136",
+  "category": "platform"
+}

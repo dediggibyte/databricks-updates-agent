@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-17-genie-user-experience-and-evaluation-improvements",
+  "title": "Genie user experience and evaluation improvements",
+  "date": "2025-07-17",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-user-experience-and-evaluation-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Feedback labels remain visible across conversation redirections**: Feedback labels added to earlier messages now remain visible after users ask follow-up questions.\n* **Editable parameters supported for date and numeric fields**: Genie now allows editable parameters on `date` and `numeric` fields, expanding beyond previous support for string fields.\n* **Revamped response explanations**: Response explanations are now more concise and easier to read.\n* **Improved result classification for benchmark evaluations**: The evaluation function more accurately classifies results as *Good* or *Bad*, especially when Genie returns empty results or omits data found in the example SQL output.\n* **Improved date boundary handling for year-over-year questions**: Genie now includes the correct range of data. For example, when calculating year-over-year growth between 2022 and 2024, Genie considers data from 2021 through 2024.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.315992Z"
+}

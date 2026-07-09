@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-13-openai-gpt-oss-models-now-supported-on-provisioned-throughput",
+  "title": "OpenAI GPT OSS models now supported on provisioned throughput",
+  "date": "2025-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#openai-gpt-oss-models-now-supported-on-provisioned-throughput",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks-hosted foundation models, OpenAI GPT OSS 120B and GPT OSS 20B are now supported on [Provisioned throughput Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis/deploy-prov-throughput-foundation-model-apis).",
+  "ref_links": [
+    {
+      "text": "Provisioned throughput Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/deploy-prov-throughput-foundation-model-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.270022Z"
+}

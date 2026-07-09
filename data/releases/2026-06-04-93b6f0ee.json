@@ -1,0 +1,33 @@
+{
+  "id": "2026-06-04-93b6f0ee",
+  "title": "ai_extract and ai_classify will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-06-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai_extract-and-ai_classify-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [`ai_extract`](/aws/en/sql/language-manual/functions/ai_extract) and [`ai_classify`](/aws/en/sql/language-manual/functions/ai_classify) SQL AI Functions will be available **by default** for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled and **HIPAA**, **PCI-DSS**, **FedRAMP Moderate**, **CCCS Medium (Protected B)**, **UK Cyber Essentials Plus**, **HITRUST**, **IRAP**, **C5**, and **TISAX** controls selected in mid-July 2026.\n\nUse `ai_extract` to extract structured fields from unstructured text against a user-defined schema. Use `ai_classify` to classify text into user-defined labels for routing, tagging, and document categorization workflows. You can also use Agent Bricks to create an [information extraction agent](/aws/en/agents/agent-bricks/info-extraction) and a [classification agent](/aws/en/agents/agent-bricks/classification).",
+  "ref_links": [
+    {
+      "text": "ai_extract",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_extract"
+    },
+    {
+      "text": "ai_classify",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_classify"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "information extraction agent",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/info-extraction"
+    },
+    {
+      "text": "classification agent",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/classification"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.623526Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2025-10-13-improved-autoscaling-behavior-for-mosaic-ai-model-serving",
+  "title": "Improved autoscaling behavior for Mosaic AI Model Serving",
+  "date": "2025-10-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#improved-autoscaling-behavior-for-mosaic-ai-model-serving",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Autoscaling in Mosaic AI Model Serving has been tuned to ignore extremely brief traffic surges and instead respond only to sustained increases in load. This change prevents unnecessary provisioned concurrency scaling during momentary bursts and reduces serving costs without impacting performance or reliability.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.171034Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2025-12-18-genie-enhancements-and-fixes",
+  "title": "Genie enhancements and fixes",
+  "date": "2025-12-18",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-enhancements-and-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Numeric column formatting**: Numeric columns in tables are now formatted more effectively, including IDs, ZIP codes, and currency.\n* **File upload fix for CAN MANAGE users**: Fixed an issue where CAN MANAGE users couldn't use the upload file feature.\n* **Entity matching indexing improvements**: Entity matching (previously value dictionaries) now scans up to 100 million rows (previously 100,000 rows) to detect up to 1024 unique values. This significantly improves unique-value coverage and better matches user prompts.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.066614Z"
+}

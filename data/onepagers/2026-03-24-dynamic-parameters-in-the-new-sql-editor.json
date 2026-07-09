@@ -1,0 +1,28 @@
+{
+  "product": "Dynamic parameters in the new SQL editor",
+  "tagline": "The new SQL editor now supports a Dynamic dropdown widget type for named parameter markers.",
+  "updated": "Mar 24, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/user/sql-editor/parameter-widgets#dynamic-dropdown",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#dynamic-parameters-in-the-new-sql-editor",
+  "what_it_does": "The new SQL editor now supports a Dynamic dropdown widget type for named parameter markers. Select a saved query to populate dropdown values, keeping the list current as your data changes. When you add a named parameter marker to a query, Databricks displays a parameter widget in the UI.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The new SQL editor now supports a Dynamic dropdown widget type for named parameter markers.",
+  "note_id": "2026-03-24-dynamic-parameters-in-the-new-sql-editor",
+  "category": "platform"
+}

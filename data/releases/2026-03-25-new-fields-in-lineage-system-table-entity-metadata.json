@@ -1,0 +1,25 @@
+{
+  "id": "2026-03-25-new-fields-in-lineage-system-table-entity-metadata",
+  "title": "New fields in lineage system table entity metadata",
+  "date": "2026-03-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#new-fields-in-lineage-system-table-entity-metadata",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `entity_metadata` struct in the `system.access.table_lineage` and `system.access.column_lineage` system tables now includes `genie_space_id` and `alert_id` fields. The `genie_space_id` field is populated when the lineage record originates from a [Genie space](/aws/en/genie) querying data, and `alert_id` is populated when the lineage record originates from an [alert query](/aws/en/sql/user/alerts). For the full schema, see [Entity metadata reference](/aws/en/admin/system-tables/lineage#metadata).",
+  "ref_links": [
+    {
+      "text": "Genie space",
+      "url": "https://docs.databricks.com/aws/en/genie"
+    },
+    {
+      "text": "alert query",
+      "url": "https://docs.databricks.com/aws/en/sql/user/alerts"
+    },
+    {
+      "text": "Entity metadata reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/lineage#metadata"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.854527Z"
+}

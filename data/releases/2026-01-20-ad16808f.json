@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-20-ad16808f",
+  "title": "You can now use custom base environments for Python, Python Wheels, and notebook tasks in serverless jobs",
+  "date": "2026-01-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#you-can-now-use-custom-base-environments-for-python-python-wheels-and-notebook-tasks-in-serverless-jobs",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless jobs now support custom base environments defined with YAML files for Python, Python wheel, and notebook tasks. For notebook tasks, you can either select a custom base environment in the job’s environment configuration or use the notebook’s own environment settings, which support both workspace environments and custom base environments.\n\nFor more information, see [Manage workspace base environments](/aws/en/admin/workspace-settings/base-environment).",
+  "ref_links": [
+    {
+      "text": "Manage workspace base environments",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/base-environment"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.029320Z"
+}

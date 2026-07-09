@@ -1,0 +1,41 @@
+{
+  "product": "Vector Search retrieval quality (Beta)",
+  "tagline": "Mosaic AI Vector Search provides built in retrieval quality evaluation that measures and compares the relevance of different search strategies on your data.",
+  "updated": "Apr 13, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-search/retrieval-quality-eval",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#vector-search-retrieval-quality-beta",
+  "what_it_does": "Mosaic AI Vector Search provides built in retrieval quality evaluation that measures and compares the relevance of different search strategies on your data. Beta This feature is in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "why_it_matters": "Score relevance: An LLM judge evaluates every query and retrieved document pair on a 4 point relevance scale.",
+  "capabilities": [
+    {
+      "title": "Highly Relevant %: Results scoring",
+      "desc": "Highly Relevant %: Results scoring 3 (direct answers)."
+    },
+    {
+      "title": "Relevant+ %: Results scoring 2",
+      "desc": "Relevant+ %: Results scoring 2 or higher (useful)."
+    },
+    {
+      "title": "Not Relevant %: Results scoring",
+      "desc": "Not Relevant %: Results scoring 0 or 1 (not useful). When to use: To understand the shape of quality distribution. Two…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Mosaic AI Vector Search provides built in retrieval quality evaluation that measures and compares the relevance of different search strategies on your data.",
+  "note_id": "2026-04-13-vector-search-retrieval-quality-beta",
+  "category": "platform"
+}

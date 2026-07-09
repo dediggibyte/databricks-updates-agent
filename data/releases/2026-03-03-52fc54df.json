@@ -1,0 +1,21 @@
+{
+  "id": "2026-03-03-52fc54df",
+  "title": "Knowledge Assistant is now available by default for Enhanced Security and Compliance customers",
+  "date": "2026-03-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#knowledge-assistant-is-now-available-by-default-for-enhanced-security-and-compliance-customers",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Knowledge Assistant is now available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled and HIPAA controls selected.\n\nUse Knowledge Assistant to create a chatbot that can answer questions about your documents and provide high-quality responses with citations.\n\nSee [Use Knowledge Assistant to create a high-quality chatbot over your documents](/aws/en/agents/agent-bricks/knowledge-assistant).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Use Knowledge Assistant to create a high-quality chatbot over your documents",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/knowledge-assistant"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.911090Z"
+}

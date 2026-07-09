@@ -1,0 +1,28 @@
+{
+  "product": "New columns available in query history system table",
+  "tagline": "New columns are now available in the query history system table, providing additional query insights: cache origin statement id: For query results fetched from cache, this field contains the…",
+  "updated": "Jul 24, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/system-tables/query-history",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#new-columns-available-in-query-history-system-table",
+  "what_it_does": "New columns are now available in the query history system table, providing additional query insights: cache origin statement id: For query results fetched from cache, this field contains the statement ID of the query that originally inserted the result into the cache. query parameters: A struct containing named and positional parameters used in parameterized queries. written rows: The number of rows of persistent data written to cloud object storage.",
+  "why_it_matters": "| 2967555311742259 | | query tags | map<string, string | Custom key value tags applied to the query for grouping, filtering, and cost attribution.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "New columns are now available in the query history system table, providing additional query insights: cache origin statement id: For query results fetched from cache, this field contains the…",
+  "note_id": "2025-07-24-new-columns-available-in-query-history-system-table",
+  "category": "platform"
+}

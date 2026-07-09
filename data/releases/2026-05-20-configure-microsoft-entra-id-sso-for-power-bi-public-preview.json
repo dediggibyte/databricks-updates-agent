@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-20-configure-microsoft-entra-id-sso-for-power-bi-public-preview",
+  "title": "Configure Microsoft Entra ID SSO for Power BI (Public Preview)",
+  "date": "2026-05-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#configure-microsoft-entra-id-sso-for-power-bi-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure Microsoft Entra ID as the identity provider for single sign-on (SSO) to Databricks from Power BI using an account-level federation policy. See [Configure Microsoft Entra ID SSO for Power BI](/aws/en/partners/bi/power-bi-fed-sso).",
+  "ref_links": [
+    {
+      "text": "Configure Microsoft Entra ID SSO for Power BI",
+      "url": "https://docs.databricks.com/aws/en/partners/bi/power-bi-fed-sso"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.680232Z"
+}

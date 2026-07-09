@@ -1,0 +1,17 @@
+{
+  "id": "2025-04-03-custom-autoformatting-options-for-sql-queries",
+  "title": "Custom autoformatting options for SQL queries",
+  "date": "2025-04-03",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#custom-autoformatting-options-for-sql-queries",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Customize autoformatting options for all of your SQL queries. See [Custom format SQL statements](/aws/en/sql/user/sql-editor/custom-format).",
+  "ref_links": [
+    {
+      "text": "Custom format SQL statements",
+      "url": "https://docs.databricks.com/aws/en/sql/user/sql-editor/custom-format"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.415777Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2025-10-30-dashboard-visualization-pivot-table-and-authoring-improvements",
+  "title": "Dashboard visualization, pivot table, and authoring improvements",
+  "date": "2025-10-30",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-pivot-table-and-authoring-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashboard subscriptions to Slack channels**: Dashboard authors can now add Slack channels as subscribers to a scheduled dashboard refresh. See [Subscribe a Slack or Microsoft Teams channel](/aws/en/dashboards/share/schedule-subscribe#add-subscriber).\n* **Top N scroll bar behavior**: The scroll bar on top N visualizations now appears only on mouseover for a cleaner interface.\n* **Legend placement options**: You can now place legends at the top and left of visualizations in addition to existing placement options. See [Customize chart elements](/aws/en/dashboards/manage/visualizations#format-details).\n* **Cut, copy, and paste filters**: Authors can now cut or copy filters from the canvas. To paste them into the global panel, right-click an empty space and select **Paste**. See [Use dashboard filters](/aws/en/dashboards/manage/filters).\n* **Labels match Y-axis formatting**: Labels now default to the same format as the Y-axis, showing 2 decimal places by default and handling small values better.\n* **Export to materialized view**: Authors can now generate a materialized view from any dataset on their dashboard for improved performance and more efficient refresh and execution. To access this feature, click the kebab menu next to a dataset, then select **Export to Materialized View**. See [Create and manage dashboard datasets](/aws/en/dashboards/manage/data-modeling/datasets) and [Materialized views](/aws/en/ldp/concepts/materialized-views).\n* **Pivot table improvements**: See [Pivot table configuration](/aws/en/dashboards/manage/visualizations/tables#pivot-table-configuration).\n  + Authors can add links to text in pivot tables by specifying a URL path in the **Actions** tab of pivot table values.\n  + Pivot table header values are now sticky and remain on screen while scrolling.\n  + Users can conditionally set the text color in pivot tables.\n* **Duplicative audit log events**: Dashboards with companion Genie Spaces no longer emit duplicative `getPublishedDashboard` events in audit logs.",
+  "ref_links": [
+    {
+      "text": "Subscribe a Slack or Microsoft Teams channel",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#add-subscriber"
+    },
+    {
+      "text": "Customize chart elements",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#format-details"
+    },
+    {
+      "text": "Use dashboard filters",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters"
+    },
+    {
+      "text": "Create and manage dashboard datasets",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/datasets"
+    },
+    {
+      "text": "Materialized views",
+      "url": "https://docs.databricks.com/aws/en/ldp/concepts/materialized-views"
+    },
+    {
+      "text": "Pivot table configuration",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-table-configuration"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.139816Z"
+}

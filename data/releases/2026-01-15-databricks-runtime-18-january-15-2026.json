@@ -1,0 +1,97 @@
+{
+  "id": "2026-01-15-databricks-runtime-18-january-15-2026",
+  "title": "Databricks Runtime 18: January 15, 2026",
+  "date": "2026-01-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-january-15-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 18 is now in feature development, powered by Apache Spark 4.1.0. This version incorporates all features, improvements, and bug fixes from all previous Databricks Runtime releases.\n\n### Behavioral changes\n\nReview the following changes, which take effect when clusters restart on this runtime.\n\n* **JDK 21**: Databricks Runtime 18 uses JDK 21 as the default Java Development Kit. JDK 21 is generally available and is a long-term support (LTS) release. Previously, the default was JDK 17. Notable changes:\n\n  + `Double.toString()` and `Float.toString()` now produce shortest unique string representations, which might differ from JDK 17 outputs in some edge cases.\n  + `Thread.stop()`, `Thread.suspend()`, and `Thread.resume()` now throw `UnsupportedOperationException`.\n  + Updated locale data (CLDR v42) might affect date, time, and number formatting.\n\n  If you encounter compatibility issues, fall back to JDK 17. For information about configuring JDK versions, see [Create a cluster with a specific JDK version](/aws/en/dev-tools/sdk-java#create-a-cluster-with-a-specific-jdk-version).\n* **`FSCK REPAIR TABLE`**: Now includes an initial metadata repair step before checking for missing data files. The command works on tables with corrupt checkpoints or invalid partition values.\n* **Spark Connect Scala nullability**: The nullability of array and map types is now preserved for typed literals in the Spark Connect Scala client. Previously, elements of arrays and values of maps were always nullable.\n* **`FSCK REPAIR TABLE DRY RUN`**: The `dataFilePath` column in the [`FSCK REPAIR TABLE DRY RUN`](/aws/en/sql/language-manual/delta-fsck) output schema is now nullable to support reporting new issue types where the data file path isn't applicable.\n* **`SHOW TABLES DROPPED`**: Now correctly respects the `LIMIT` clause.\n* **Python UDF execution**: Unity Catalog Python UDFs now use Apache Arrow as the default interchange format, improving overall performance. As part of this change, `TIMESTAMP` values passed to Python UDFs no longer include timezone information in the `datetime` object's `tzinfo` attribute. The timestamp values themselves remain in UTC, but the timezone metadata is now dropped. If your UDF relies on the timezone information, restore it with `date = date.replace(tzinfo=timezone.utc)`. For more information, see [Timestamp timezone behavior for inputs](/aws/en/udf/unity-catalog#timestamp-timezone).\n* **Time travel and `VACUUM` retention**: Databricks now blocks time travel queries beyond the `deletedFileRetentionDuration` threshold for all tables. The `VACUUM` command ignores the retention duration argument except when the value is 0 hours. You can't set `deletedFileRetentionDuration` larger than `logRetentionDuration` or vice versa.\n* **`BinaryType` in PySpark**: In [PySpark](/aws/en/pyspark/basics), `BinaryType` now consistently maps to Python `bytes`. Previously, PySpark mapped `BinaryType` to either `bytes` or `bytearray` depending on the context. To restore the old behavior, set `spark.sql.execution.pyspark.binaryAsBytes` to `false`.\n* **NULL structs in Delta MERGE and UPDATE**: Now preserved as NULL in Delta MERGE, UPDATE, and streaming write operations that include struct type casts. Previously, NULL structs were expanded to structs with NULL fields.\n* **Partition column materialization**: Partitioned Delta tables now materialize partition columns in newly written Parquet data files. Previously, partition values were stored in the Delta transaction log metadata and reflected in directory paths, but not written as columns in the Parquet files themselves. This change aligns with Apache Iceberg and UniForm behavior and might affect workloads that directly read Parquet files written by Delta Lake.\n* **Timestamp partition timezone**: Timestamp partition values were previously converted to UTC using the JVM timezone instead of the [`spark.sql.session.timeZone`](/aws/en/spark/conf) configuration. Timestamp partition values are now correctly adjusted using the Spark session timezone setting.\n* **`DESCRIBE TABLE` metadata column**: The output of [`DESCRIBE TABLE [EXTENDED]`](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table) now includes a new `metadata` column for all table types. This column contains semantic metadata (display name, format, and synonyms) defined on the table as a JSON string.\n\n### New features and improvements\n\nThe following features and improvements are available in this release.\n\n* **SQL scripting**: The [SQL scripting](/aws/en/sql/language-manual/sql-ref-scripting) feature is now generally available.\n* **Shared isolation for Unity Catalog Python UDFs**: Unity Catalog Python UDFs with the same owner can now share an isolation environment by default. This improves performance and reduces memory usage by reducing the number of separate environments launched. To ensure a UDF always runs in a fully isolated environment, add the `STRICT ISOLATION` characteristic clause. See  [Environment isolation](/aws/en/udf/unity-catalog#isolation).\n* **SQL window functions in metric views**: You can now use [SQL window functions](/aws/en/sql/language-manual/sql-ref-window-functions) in metric views to calculate running totals, rankings, and other window-based calculations.\n* **Dynamic shuffle partitions in stateless streaming**: You can now change the number of shuffle partitions in [stateless streaming queries](/aws/en/structured-streaming/stateful-streaming) without restarting the query.\n* **AQE and AOS in stateless streaming**: Adaptive Query Execution (AQE) and auto-optimized shuffle (AOS) are now supported in [stateless streaming queries](/aws/en/structured-streaming/stateful-streaming).\n* **Parameter markers**: You can now use named (`:param`) and unnamed (`?`) parameter markers virtually anywhere a literal value of the appropriate type can be used. This includes DDL statements such as `CREATE VIEW v AS SELECT ? AS c1`, column types `DECIMAL(:p, :s)`, or `COMMENT ON t IS :comment`. See [Parameter markers](/aws/en/sql/language-manual/sql-ref-parameter-marker) for details.\n* **`IDENTIFIER` clause**: The reach of the `IDENTIFIER` clause, which casts strings to SQL object names, has been expanded to nearly everywhere an identifier is permitted. See [IDENTIFIER clause](/aws/en/sql/language-manual/sql-ref-names-identifier-clause) for details.\n* **`BITMAP_AND_AGG`**: The existing library of `BITMAP` functions now includes a new [BITMAP\\_AND\\_AGG](/aws/en/sql/language-manual/functions/bitmap_and_agg) function.\n* **Theta sketch functions**: You can now use a new library of functions for approximate distinct count and set operations using Datasketches Theta Sketch. See [theta\\_sketch\\_agg](/aws/en/sql/language-manual/functions/theta_sketch_agg) and related functions.\n* **KLL sketch functions**: You can now use a new library of functions for approximate quantile computation using KLL Sketches. See [kll\\_sketch\\_agg\\_bigint](/aws/en/sql/language-manual/functions/kll_sketch_agg_bigint) and related functions.\n* **New geospatial functions**: [st\\_azimuth](/aws/en/sql/language-manual/functions/st_azimuth), [st\\_boundary](/aws/en/sql/language-manual/functions/st_boundary), [st\\_closestpoint](/aws/en/sql/language-manual/functions/st_closestpoint), and [st\\_geogfromewkt](/aws/en/sql/language-manual/functions/st_geogfromewkt) are now available.\n* **`GeometryType` and `GeographyType`**: Apache Spark now supports native `GeometryType` and `GeographyType` data types in the PySpark and Java APIs. These types support Arrow serialization and Parquet read and write, and are distinct from the SQL geospatial functions.\n* **`approx_top_k`**: The new [approx\\_top\\_k](/aws/en/sql/language-manual/functions/approx_top_k) aggregate function returns the approximate top-K most frequent values in a column using a space-efficient sketch algorithm.\n* **Spark Connect JDBC driver**: Apache Spark now includes a JDBC driver for Spark Connect, enabling JDBC-based clients and tools to connect to Spark through the Spark Connect protocol.\n* **`Iterator[pandas.DataFrame]` in `applyInPandas`**: `DataFrame.applyInPandas` now accepts a function with an `Iterator[pandas.DataFrame]` signature, reducing overhead when processing large groups by streaming data in batches.\n* **Check constraints**: Now support null value comparisons in the constraint expression.\n* **State repartition API for `TransformWithState`**: A new state repartition API is available for `TransformWithState` streaming operators in Scala, allowing you to change the key partitioning of stateful data across query restarts. See [On-demand state repartitioning for stateful streaming queries](/aws/en/structured-streaming/state-repartitioning).\n* **Python 3.14 in `pyspark-connect`**: `pyspark-client` and `pyspark-connect` now support Python 3.14.",
+  "ref_links": [
+    {
+      "text": "Create a cluster with a specific JDK version",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/sdk-java#create-a-cluster-with-a-specific-jdk-version"
+    },
+    {
+      "text": "FSCK REPAIR TABLE DRY RUN",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/delta-fsck"
+    },
+    {
+      "text": "Timestamp timezone behavior for inputs",
+      "url": "https://docs.databricks.com/aws/en/udf/unity-catalog#timestamp-timezone"
+    },
+    {
+      "text": "PySpark",
+      "url": "https://docs.databricks.com/aws/en/pyspark/basics"
+    },
+    {
+      "text": "spark.sql.session.timeZone",
+      "url": "https://docs.databricks.com/aws/en/spark/conf"
+    },
+    {
+      "text": "DESCRIBE TABLE [EXTENDED]",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table"
+    },
+    {
+      "text": "SQL scripting",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-scripting"
+    },
+    {
+      "text": "Environment isolation",
+      "url": "https://docs.databricks.com/aws/en/udf/unity-catalog#isolation"
+    },
+    {
+      "text": "SQL window functions",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-window-functions"
+    },
+    {
+      "text": "stateless streaming queries",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/stateful-streaming"
+    },
+    {
+      "text": "Parameter markers",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-parameter-marker"
+    },
+    {
+      "text": "IDENTIFIER clause",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-names-identifier-clause"
+    },
+    {
+      "text": "BITMAP_AND_AGG",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/bitmap_and_agg"
+    },
+    {
+      "text": "theta_sketch_agg",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_sketch_agg"
+    },
+    {
+      "text": "kll_sketch_agg_bigint",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_agg_bigint"
+    },
+    {
+      "text": "st_azimuth",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_azimuth"
+    },
+    {
+      "text": "st_boundary",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_boundary"
+    },
+    {
+      "text": "st_closestpoint",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_closestpoint"
+    },
+    {
+      "text": "st_geogfromewkt",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_geogfromewkt"
+    },
+    {
+      "text": "approx_top_k",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/approx_top_k"
+    },
+    {
+      "text": "On-demand state repartitioning for stateful streaming queries",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/state-repartitioning"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.046514Z"
+}

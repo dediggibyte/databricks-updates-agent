@@ -1,0 +1,29 @@
+{
+  "id": "2026-03-27-classification-and-information-extraction-are-in-public-preview",
+  "title": "Classification and Information Extraction are in Public Preview",
+  "date": "2026-03-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#classification-and-information-extraction-are-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Two new UI experiences for document analysis are now in Public Preview:\n\n* **[Classification](/aws/en/agents/agent-bricks/classification)**: A visual UI for classifying documents into predefined categories. Configure and refine classification labels, preview results on sample documents, and then run classification at scale.\n* **[Information Extraction](/aws/en/agents/agent-bricks/info-extraction)**: A visual UI for extracting structured data from documents, tables, PDFs, and images. Define and refine an extraction schema, preview results on sample documents, and then extract at scale.\n\nBoth experiences are built on the v2 signatures of [`ai_classify`](/aws/en/sql/language-manual/functions/ai_classify) and [`ai_extract`](/aws/en/sql/language-manual/functions/ai_extract).",
+  "ref_links": [
+    {
+      "text": "Classification",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/classification"
+    },
+    {
+      "text": "Information Extraction",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/info-extraction"
+    },
+    {
+      "text": "ai_classify",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_classify"
+    },
+    {
+      "text": "ai_extract",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_extract"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.831222Z"
+}

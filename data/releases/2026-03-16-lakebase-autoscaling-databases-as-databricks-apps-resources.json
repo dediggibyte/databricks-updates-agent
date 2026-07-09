@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-16-lakebase-autoscaling-databases-as-databricks-apps-resources",
+  "title": "Lakebase Autoscaling databases as Databricks Apps resources",
+  "date": "2026-03-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#lakebase-autoscaling-databases-as-databricks-apps-resources",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add Lakebase Autoscaling databases as resources for your Databricks app. See [Add a Lakebase resource to a Databricks app](/aws/en/dev-tools/databricks-apps/lakebase).",
+  "ref_links": [
+    {
+      "text": "Add a Lakebase resource to a Databricks app",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/lakebase"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.870355Z"
+}

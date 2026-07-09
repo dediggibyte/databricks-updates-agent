@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-20-genie-one-is-generally-available",
+  "title": "Genie One is generally available",
+  "date": "2026-01-20",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie One is now generally available. Genie One is a simplified user interface designed for business users, providing a single, intuitive entry point to interact with data and AI in Databricks without requiring technical knowledge of compute resources, queries, models, or notebooks. Using Genie One, business users can view and interact with dashboards, ask data questions in natural language using Genie, and use custom-built Databricks Apps that combine analytics, AI, and workflows. See [Use Genie One](/aws/en/genie-one/genie).",
+  "ref_links": [
+    {
+      "text": "Use Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.028674Z"
+}

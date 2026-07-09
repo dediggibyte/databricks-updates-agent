@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-09-512e7f5d",
+  "title": "Configure PrivateLink connections from serverless compute to S3 Storage buckets (Public Preview)",
+  "date": "2025-06-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#configure-privatelink-connections-from-serverless-compute-to-s3-storage-buckets-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now enable AWS PrivateLink to your S3 storage buckets from serverless compute. See [Configure private connectivity to AWS-managed resources](/aws/en/security/network/serverless-network-security/pl-aws-resources).",
+  "ref_links": [
+    {
+      "text": "Configure private connectivity to AWS-managed resources",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/pl-aws-resources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.368151Z"
+}

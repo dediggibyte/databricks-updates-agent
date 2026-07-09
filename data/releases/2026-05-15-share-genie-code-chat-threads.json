@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-15-share-genie-code-chat-threads",
+  "title": "Share Genie Code chat threads",
+  "date": "2026-05-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#share-genie-code-chat-threads",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now share Genie Code chat threads with other users, groups, or service principals. Recipients receive read-only access to view the shared chat thread. See [Share a chat thread](/aws/en/genie-code/use-genie-code#share-chat).",
+  "ref_links": [
+    {
+      "text": "Share a chat thread",
+      "url": "https://docs.databricks.com/aws/en/genie-code/use-genie-code#share-chat"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.695717Z"
+}

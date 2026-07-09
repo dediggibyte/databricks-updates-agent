@@ -1,0 +1,45 @@
+{
+  "product": "Customer-managed VPC will soon be required for classic workspaces",
+  "tagline": "In a future release, Databricks plans to deprecate classic workspace creation with a Databricks managed VPC.",
+  "updated": "Jun 26, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/classic/customer-managed-vpc",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#customer-managed-vpc-will-soon-be-required-for-classic-workspaces",
+  "what_it_does": "In a future release, Databricks plans to deprecate classic workspace creation with a Databricks managed VPC. New classic workspaces will require a customer managed VPC. For the simplest quick start, use a serverless workspace.",
+  "why_it_matters": "Compliance: Comply with specific cloud security and governance standards required by your organization.",
+  "capabilities": [
+    {
+      "title": "443: for Databricks infrastructure, cloud",
+      "desc": "443: for Databricks infrastructure, cloud data sources, and library repositories"
+    },
+    {
+      "title": "3306: for the legacy Hive",
+      "desc": "3306: for the legacy Hive metastore"
+    },
+    {
+      "title": "53: for DNS resolution when",
+      "desc": "53: for DNS resolution when you use custom DNS"
+    },
+    {
+      "title": "6666: for secure cluster connectivity",
+      "desc": "6666: for secure cluster connectivity. This is only required if you use PrivateLink."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "In a future release, Databricks plans to deprecate classic workspace creation with a Databricks managed VPC.",
+  "note_id": "2026-06-26-customer-managed-vpc-will-soon-be-required-for-classic-workspaces",
+  "category": "platform"
+}

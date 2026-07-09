@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-13-connect-lovable-apps-to-databricks",
+  "title": "Connect Lovable apps to Databricks",
+  "date": "2026-04-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#connect-lovable-apps-to-databricks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now connect Lovable-hosted apps to your Databricks workspace to query lakehouse data using the REST API and OAuth machine-to-machine authentication. See [Connect Lovable to Databricks](/aws/en/integrations/lovable).",
+  "ref_links": [
+    {
+      "text": "Connect Lovable to Databricks",
+      "url": "https://docs.databricks.com/aws/en/integrations/lovable"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.802780Z"
+}

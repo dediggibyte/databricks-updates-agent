@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-22-databricks-runtime-17-3-lts-is-now-ga",
+  "title": "Databricks Runtime 17.3 LTS is now GA",
+  "date": "2025-10-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-runtime-173-lts-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 17.3 LTS is now generally available. See [Databricks Runtime 17.3 LTS](/aws/en/release-notes/runtime/17.3lts) and [Databricks Runtime 17.3 LTS for Machine Learning](/aws/en/release-notes/runtime/17.3lts-ml).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 17.3 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.3lts"
+    },
+    {
+      "text": "Databricks Runtime 17.3 LTS for Machine Learning",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.3lts-ml"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.158532Z"
+}

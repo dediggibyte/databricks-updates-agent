@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-04-parent-tasks-run-job-and-for-each-now-have-a-separate-limit",
+  "title": "Parent tasks (Run job and For each) now have a separate limit",
+  "date": "2025-07-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#parent-tasks-run-job-and-for-each-now-have-a-separate-limit",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Tasks that wait on child processes (`Run job` and `For each` tasks) now have a separate limit for the number of tasks that can run simultaneously, and do not count against the overall limit.\n\nSee [Resource limits](/aws/en/resources/limits).",
+  "ref_links": [
+    {
+      "text": "Resource limits",
+      "url": "https://docs.databricks.com/aws/en/resources/limits"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.330066Z"
+}

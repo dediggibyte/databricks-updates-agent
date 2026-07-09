@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-11-databricks-assistant-is-now-genie-code",
+  "title": "Databricks Assistant is now Genie Code",
+  "date": "2026-03-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-assistant-is-now-genie-code",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Assistant is now Genie Code, with expanded agentic capabilities for autonomous, multi-step data tasks. Genie Code Agent mode is now generally available for data science, data engineering, and dashboard authoring. See [Genie Code](/aws/en/genie-code).",
+  "ref_links": [
+    {
+      "text": "Genie Code",
+      "url": "https://docs.databricks.com/aws/en/genie-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.885611Z"
+}

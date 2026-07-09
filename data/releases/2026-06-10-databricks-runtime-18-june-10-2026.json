@@ -1,0 +1,29 @@
+{
+  "id": "2026-06-10-databricks-runtime-18-june-10-2026",
+  "title": "Databricks Runtime 18: June 10, 2026",
+  "date": "2026-06-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-june-10-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 18 is now generally available (GA). For lifecycle details, see [Databricks Runtime support lifecycles](/aws/en/release-notes/runtime/databricks-runtime-ver#runtime).\n\n### New features and improvements\n\nThe following features and improvements are available in this release.\n\n* **Lakeflow Spark Declarative Pipelines streaming query ID**: Lakeflow Spark Declarative Pipelines pipelines can now set the streaming query ID on demand.\n* **New IP address functions (Public Preview)**: New SQL functions are available for working with IPv4 and IPv6 addresses and CIDR blocks, including `ip_host`, `ip_cidr`, `ip_version`, `ip_prefix_length`, `ip_network`, `ip_network_last`, `ip_cidr_contains`, `ip_as_binary`, `ip_as_string`, and `try_*` variants for null-safe behavior. See [ip\\_host](/aws/en/sql/language-manual/functions/ip_host) and related functions.\n* **On-demand state repartitioning (Public Preview)**: [Structured Streaming](/aws/en/structured-streaming/concepts) now supports changing the number of shuffle partitions for stateful queries without losing checkpoint state. See [On-demand state repartitioning for stateful streaming queries](/aws/en/structured-streaming/state-repartitioning).\n\n### Apache Spark fixes and improvements\n\nThis release includes the following bug fixes and improvements made to Spark:\n\n* Fixed incorrect null handling in `LEFT OUTER JOIN LATERAL` expressions that contain `EXPLODE`. Previously, certain inputs produced incorrect null values in results.\n* Photon now defers duplicate `field_id` errors in Parquet schema resolution until the affected field is accessed. Queries that don't reference the duplicate field now succeed rather than failing at schema resolution time.",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime support lifecycles",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/databricks-runtime-ver#runtime"
+    },
+    {
+      "text": "ip_host",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ip_host"
+    },
+    {
+      "text": "Structured Streaming",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/concepts"
+    },
+    {
+      "text": "On-demand state repartitioning for stateful streaming queries",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/state-repartitioning"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.599581Z"
+}

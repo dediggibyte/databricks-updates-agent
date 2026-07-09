@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-22-route-optimized-endpoints-now-require-route-optimized-url-path-for-querying",
+  "title": "Route-optimized endpoints now require route-optimized URL path for querying",
+  "date": "2025-09-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#route-optimized-endpoints-now-require-route-optimized-url-path-for-querying",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "All newly created route-optimized endpoints must be queried using the route-optimized URL. Queries using the standard workspace URL path are not supported for route-optimized endpoints created after September 22, 2025.\n\nSee [Query route-optimized serving endpoints](/aws/en/machine-learning/model-serving/query-route-optimization).",
+  "ref_links": [
+    {
+      "text": "Query route-optimized serving endpoints",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/query-route-optimization"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.209216Z"
+}

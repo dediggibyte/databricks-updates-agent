@@ -1,0 +1,21 @@
+{
+  "id": "2026-02-24-change-to-use-case-field-in-vpc-endpoint-api-responses",
+  "title": "Change to use_case field in VPC endpoint API responses",
+  "date": "2026-02-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#change-to-use_case-field-in-vpc-endpoint-api-responses",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In an upcoming release, the `use_case` field in the VPC endpoint CRUD response JSON will change from `WORKSPACE_ACCESS` to `GENERAL_ACCESS`. This change should not impact most customers.\n\nSee the [VPC Endpoints API](https://docs.databricks.com/api/account/vpcendpoints) and [Manage VPC endpoint registrations](/aws/en/security/network/classic/vpc-endpoints).",
+  "ref_links": [
+    {
+      "text": "VPC Endpoints API",
+      "url": "https://docs.databricks.com/api/account/vpcendpoints"
+    },
+    {
+      "text": "Manage VPC endpoint registrations",
+      "url": "https://docs.databricks.com/aws/en/security/network/classic/vpc-endpoints"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.940037Z"
+}

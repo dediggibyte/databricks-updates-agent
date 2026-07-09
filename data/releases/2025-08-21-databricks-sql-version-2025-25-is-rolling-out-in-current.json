@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-21-databricks-sql-version-2025-25-is-rolling-out-in-current",
+  "title": "Databricks SQL version 2025.25 is rolling out in Current",
+  "date": "2025-08-21",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-version-202525-is-rolling-out-in-current",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2025.25 is rolling out to the **Current** channel from August 20th, 2025 to August 28th, 2025. See features in [2025.25](/aws/en/sql/release-notes/2025#2025-25-features).",
+  "ref_links": [
+    {
+      "text": "2025.25",
+      "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#2025-25-features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.257595Z"
+}

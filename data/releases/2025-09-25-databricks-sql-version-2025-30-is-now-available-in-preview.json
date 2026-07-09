@@ -1,0 +1,49 @@
+{
+  "id": "2025-09-25-databricks-sql-version-2025-30-is-now-available-in-preview",
+  "title": "Databricks SQL version 2025.30 is now available in Preview",
+  "date": "2025-09-25",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-version-202530-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2025.30 is now available in the **Preview** channel. Review the following section to learn about new features, behavioral changes, and bug fixes.\n\n#### UTF8 based collations now support LIKE operator\n\nYou can now use LIKE with columns that have one of the following collations enabled: `UTF8_Binary`, `UTF8_Binary_RTRIM`, `UTF8_LCASE`, `UTF8_LCASE_RTRIM`. See [Collation](/aws/en/sql/language-manual/sql-ref-collation).\n\n#### `ST_ExteriorRing` function is now supported\n\nYou can now use the `ST_ExteriorRing` function to extract the outer boundary of a polygon and return it as a linestring. See [`st_exteriorring` function](/aws/en/sql/language-manual/functions/st_exteriorring).\n\n#### Declare multiple session or local variables in a single `DECLARE` statement\n\nYou can now declare multiple session or local variables of the same type and default value in a single `DECLARE` statement. See [DECLARE VARIABLE](/aws/en/sql/language-manual/sql-ref-syntax-ddl-declare-variable) and [BEGIN END compound statement](/aws/en/sql/language-manual/control-flow/compound-stmt).\n\n#### Support `TEMPORARY` keyword for metric view creation\n\nYou can now use the `TEMPORARY` keyword when creating a metric view. Temporary metric views are visible only in the session that created them and are dropped when the session ends. See [CREATE VIEW](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-view).\n\n#### `DESCRIBE CONNECTION` shows environment settings for JDBC connections\n\nDatabricks now includes user-defined environment settings in the [`DESCRIBE CONNECTION`](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-connection) output for JDBC connections that support custom drivers and run in isolation. Other connection types remain unchanged.\n\n#### SQL syntax for Delta read options in streaming queries\n\nYou can now specify Delta read options for SQL-based streaming queries using the `WITH` clause. For example:\n\n```\nSELECT * FROM STREAM tbl WITH (SKIPCHANGECOMMITS=true, STARTINGVERSION=X);\n```\n\n#### Correct results for `split` with empty regex and positive limit\n\nDatabricks now returns correct results when using [`split function`](/aws/en/sql/language-manual/functions/split) with an empty regex and a positive limit. Previously, the function incorrectly truncated the remaining string instead of including it in the last element.\n\n#### Fix `url_decode` and `try_url_decode` error handling in Photon\n\nIn Photon, [`try_url_decode()`](/aws/en/sql/language-manual/functions/try_url_decode) and [`url_decode()`](/aws/en/sql/language-manual/functions/url_decode) with `failOnError = false` now return `NULL` for invalid URL-encoded strings instead of failing the query.",
+  "ref_links": [
+    {
+      "text": "Collation",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-collation"
+    },
+    {
+      "text": "st_exteriorring function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_exteriorring"
+    },
+    {
+      "text": "DECLARE VARIABLE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-declare-variable"
+    },
+    {
+      "text": "BEGIN END compound statement",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/compound-stmt"
+    },
+    {
+      "text": "CREATE VIEW",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-view"
+    },
+    {
+      "text": "DESCRIBE CONNECTION",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-connection"
+    },
+    {
+      "text": "split function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/split"
+    },
+    {
+      "text": "try_url_decode()",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/try_url_decode"
+    },
+    {
+      "text": "url_decode()",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/url_decode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.206579Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-16-databricks-asset-bundles-is-now-declarative-automation-bundles",
+  "title": "Databricks Asset Bundles is now Declarative Automation Bundles",
+  "date": "2026-03-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-asset-bundles-is-now-declarative-automation-bundles",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Asset Bundles has been renamed to Declarative Automation Bundles. See [Why was Databricks Asset Bundles renamed to Declarative Automation Bundles?](/aws/en/dev-tools/bundles/faqs#rename).",
+  "ref_links": [
+    {
+      "text": "Why was Databricks Asset Bundles renamed to Declarative Automation Bundles?",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/faqs#rename"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.870869Z"
+}

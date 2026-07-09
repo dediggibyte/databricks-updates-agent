@@ -1,0 +1,17 @@
+{
+  "id": "2025-03-20-genie-space-redesign-and-permission-management",
+  "title": "Genie Space redesign and permission management",
+  "date": "2025-03-20",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-space-redesign-and-permission-management",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **New Genie Space UI**: Genie now has a redesigned UI for authoring and chats. The new layout has more space for conversations and a reorganized interface for adding and refining instructions. See [Create and manage a Genie Agent](/aws/en/genie/set-up).\n* **Privileged users can help refine instructions**: Users with at least CAN EDIT permissions can now view the source SQL used to generate answers, allowing them to help refine Genie instructions.\n* **Restricted table selection in Genie**: To return results, users must have at least `SELECT` privileges on the Unity Catalog objects in the space. Authors are now restricted from adding tables where they have insufficient permissions.\n* **Improved SQL matching in Genie**: Genie can now better utilize example SQL statements when user prompts closely match the example SQL.",
+  "ref_links": [
+    {
+      "text": "Create and manage a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.422595Z"
+}

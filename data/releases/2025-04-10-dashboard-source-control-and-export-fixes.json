@@ -1,0 +1,25 @@
+{
+  "id": "2025-04-10-dashboard-source-control-and-export-fixes",
+  "title": "Dashboard source control and export fixes",
+  "date": "2025-04-10",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-source-control-and-export-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Source control for dashboards**: Dashboards can now be integrated with Databricks Git folders for collaboration and version control([Public Preview](/aws/en/release-notes/release-types)). See [Version control dashboards with Git](/aws/en/dashboards/automate/git-support).\n* **Revert draft dashboards to the last published version**: You can now discard changes to a draft dashboard and restore it to the most recently published state. This makes it easier to undo edits and return to a known, shared version. See  [Draft and collaborate on a dashboard](/aws/en/dashboards/manage#draft-dashboard).\n* **Dashboard PDF export and embedded filter fixes**:\n\n  + **PDF export fix**: Fixed an issue where PDF export did not apply selected filter values at the time of export.\n  + **Embedded dashboard filter fix**: Fixed an issue where filters were not rendering correctly in embedded dashboards.",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Version control dashboards with Git",
+      "url": "https://docs.databricks.com/aws/en/dashboards/automate/git-support"
+    },
+    {
+      "text": "Draft and collaborate on a dashboard",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage#draft-dashboard"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.410380Z"
+}

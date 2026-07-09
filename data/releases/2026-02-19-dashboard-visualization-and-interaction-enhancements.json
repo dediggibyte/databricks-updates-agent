@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-19-dashboard-visualization-and-interaction-enhancements",
+  "title": "Dashboard visualization and interaction enhancements",
+  "date": "2026-02-19",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-visualization-and-interaction-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Pivot table hierarchies**: You can now expand and collapse hierarchies in pivot tables.\n* **Stacked bar chart labels**: Stacked bar charts now support showing min/max label values and total labels.\n* **Area and line chart sorting**: Area and line charts now support sorting axes by measures.\n* **Dashboard content search**: Global search in Lakehouse and Genie One now matches on dashboard content, not just titles.\n* **Chart faceting**: Charts now support faceting (also known as trellis or small multiple charts), rendering one chart per dimension value. See [Faceting](/aws/en/dashboards/manage/visualizations#faceting).",
+  "ref_links": [
+    {
+      "text": "Faceting",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#faceting"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.944213Z"
+}

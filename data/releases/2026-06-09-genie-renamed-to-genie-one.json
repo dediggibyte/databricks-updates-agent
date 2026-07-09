@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-09-genie-renamed-to-genie-one",
+  "title": "Genie renamed to Genie One",
+  "date": "2026-06-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-renamed-to-genie-one",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie, the Databricks AI experience for business users, has been renamed to Genie One. The feature and its capabilities are unchanged. See [Use Genie One](/aws/en/genie-one/genie).",
+  "ref_links": [
+    {
+      "text": "Use Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.603563Z"
+}

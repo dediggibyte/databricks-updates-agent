@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-10-new-documentation-for-authoring-and-deploying-agents-on-databricks-apps",
+  "title": "New documentation for authoring and deploying agents on Databricks Apps",
+  "date": "2026-02-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#new-documentation-for-authoring-and-deploying-agents-on-databricks-apps",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "New documentation and project templates are available for building and deploying AI agents on Databricks Apps. Author agents with popular libraries like LangGraph, PyFunc, and OpenAI Agent SDK, then deploy them on Databricks Apps. See [Author an AI agent and deploy it on Databricks Apps](/aws/en/agents/agent-framework/author-agent).",
+  "ref_links": [
+    {
+      "text": "Author an AI agent and deploy it on Databricks Apps",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-framework/author-agent"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.976503Z"
+}

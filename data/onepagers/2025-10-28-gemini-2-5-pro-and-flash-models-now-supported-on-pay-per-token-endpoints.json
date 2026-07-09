@@ -1,0 +1,28 @@
+{
+  "product": "Gemini 2.5 Pro and Flash models now supported on pay-per-token endpoints",
+  "tagline": "Model Serving now supports the Google Gemini 2.5 Pro and Gemini 2.5 Flash models.",
+  "updated": "Oct 28, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#gemini-25-pro-and-flash-models-now-supported-on-pay-per-token-endpoints",
+  "what_it_does": "Model Serving now supports the Google Gemini 2.5 Pro and Gemini 2.5 Flash models. You can access these models using Foundation Model APIs pay per token and they also support Function calling and Structured output. AI Functions are built in functions that you can use to apply LLMs or state of the art research techniques on data stored on Databricks for data transformation and enrichment.",
+  "why_it_matters": "| Use AI Functions in production workflows For large scale batch inference, you can integrate task specific AI Functions, or the general purpose function ai query into your production workflows, like Lakeflow Spark Declarative Pipelines, Databricks workflows and Structured Streaming.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Model Serving now supports the Google Gemini 2.5 Pro and Gemini 2.5 Flash models.",
+  "note_id": "2025-10-28-gemini-2-5-pro-and-flash-models-now-supported-on-pay-per-token-endpoints",
+  "category": "platform"
+}

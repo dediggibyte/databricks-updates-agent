@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-27-recently-resolved-incidents-section-in-data-quality-monitoring-beta",
+  "title": "Recently Resolved Incidents section in Data Quality Monitoring (Beta)",
+  "date": "2026-04-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#recently-resolved-incidents-section-in-data-quality-monitoring-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Data Quality Monitoring dashboard now includes a **Recently Resolved Incidents** section, currently in Beta. This section shows tables that were previously unhealthy but have since automatically recovered to a healthy status, including the time of resolution. Use this view to identify self-healing data quality issues and confirm that known problems have been fixed. See  [View recently resolved incidents](/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection#recently-resolved).",
+  "ref_links": [
+    {
+      "text": "View recently resolved incidents",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection#recently-resolved"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.761738Z"
+}

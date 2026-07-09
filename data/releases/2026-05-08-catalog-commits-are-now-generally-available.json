@@ -1,0 +1,41 @@
+{
+  "id": "2026-05-08-catalog-commits-are-now-generally-available",
+  "title": "Catalog commits are now generally available",
+  "date": "2026-05-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#catalog-commits-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Catalog commits are now generally available. Catalog commits expand Unity Catalog managed table interoperability, strengthen Unity Catalog governance capabilities, and unlock new features such as multi-statement, multi-table transactions. When catalog commits are enabled on a Unity Catalog managed Delta table, Unity Catalog becomes the table's system of coordination, brokering access and state across engines. Products that read or write to Unity Catalog managed tables now support catalog commits, including [streaming tables](/aws/en/ldp/concepts/streaming-tables), [Delta Sharing](/aws/en/opensharing), [Zerobus](/aws/en/ingestion/zerobus-ingest), [Lakeflow Connect](/aws/en/ingestion/lakeflow-connect), [Unity AI Gateway](/aws/en/ai-gateway), MLflow, and [Lakeflow Jobs triggers](/aws/en/jobs/triggers). See [Catalog commits](/aws/en/tables/features/catalog-commits).",
+  "ref_links": [
+    {
+      "text": "streaming tables",
+      "url": "https://docs.databricks.com/aws/en/ldp/concepts/streaming-tables"
+    },
+    {
+      "text": "Delta Sharing",
+      "url": "https://docs.databricks.com/aws/en/opensharing"
+    },
+    {
+      "text": "Zerobus",
+      "url": "https://docs.databricks.com/aws/en/ingestion/zerobus-ingest"
+    },
+    {
+      "text": "Lakeflow Connect",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect"
+    },
+    {
+      "text": "Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    },
+    {
+      "text": "Lakeflow Jobs triggers",
+      "url": "https://docs.databricks.com/aws/en/jobs/triggers"
+    },
+    {
+      "text": "Catalog commits",
+      "url": "https://docs.databricks.com/aws/en/tables/features/catalog-commits"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.720282Z"
+}

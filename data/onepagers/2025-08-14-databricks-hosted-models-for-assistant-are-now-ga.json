@@ -1,0 +1,28 @@
+{
+  "product": "Databricks-hosted models for Assistant are now GA",
+  "tagline": "Databricks Assistant with Databricks hosted models is now generally available on all cloud platforms.",
+  "updated": "Aug 14, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/databricks-ai#db-hosted",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-hosted-models-for-assistant-are-now-ga",
+  "what_it_does": "Databricks Assistant with Databricks hosted models is now generally available on all cloud platforms. This version of the Assistant is fully powered by models hosted and served directly on Databricks infrastructure — at no additional cost to customers. This page introduces AI assistive features in Databricks that can help you work more efficiently.",
+  "why_it_matters": "This version of the Assistant is fully powered by models hosted and served directly on Databricks infrastructure — at no additional cost to customers.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks Assistant with Databricks hosted models is now generally available on all cloud platforms.",
+  "note_id": "2025-08-14-databricks-hosted-models-for-assistant-are-now-ga",
+  "category": "platform"
+}

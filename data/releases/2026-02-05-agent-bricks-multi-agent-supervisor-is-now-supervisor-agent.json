@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-05-agent-bricks-multi-agent-supervisor-is-now-supervisor-agent",
+  "title": "Agent Bricks: Multi-Agent Supervisor is now Supervisor Agent",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#agent-bricks-multi-agent-supervisor-is-now-supervisor-agent",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Agent Bricks's Multi-Agent Supervisor has been renamed to Supervisor Agent. See [Use Supervisor Agent to create a coordinated multi-agent system](/aws/en/agents/agent-bricks/multi-agent-supervisor).",
+  "ref_links": [
+    {
+      "text": "Use Supervisor Agent to create a coordinated multi-agent system",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.982323Z"
+}

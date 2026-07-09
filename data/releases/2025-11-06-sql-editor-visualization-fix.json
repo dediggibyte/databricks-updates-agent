@@ -1,0 +1,12 @@
+{
+  "id": "2025-11-06-sql-editor-visualization-fix",
+  "title": "SQL Editor visualization fix",
+  "date": "2025-11-06",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#sql-editor-visualization-fix",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Fixed tooltip display issue**: Resolved an issue where tooltips were hidden behind the legend in Notebook and SQL Editor visualizations.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.125416Z"
+}

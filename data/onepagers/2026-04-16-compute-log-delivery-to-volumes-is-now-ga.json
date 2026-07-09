@@ -1,0 +1,32 @@
+{
+  "product": "Compute log delivery to volumes is now GA",
+  "tagline": "Delivering Spark driver, worker, and event logs from classic all purpose and jobs compute to Unity Catalog volumes is now generally available.",
+  "updated": "Apr 16, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/configure#cluster-log-delivery",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#compute-log-delivery-to-volumes-is-now-ga",
+  "what_it_does": "Delivering Spark driver, worker, and event logs from classic all purpose and jobs compute to Unity Catalog volumes is now generally available. This is the recommended approach for log storage. note The organization of this article assumes you are using the simple form compute UI.",
+  "why_it_matters": "Performance settings The following settings appear under the Performance section of the simple form compute UI: Databricks Runtime versions Use Photon acceleration Worker node type Single node compute Enable autoscaling Advanced performance settings Databricks Runtime versions Databricks Runtime is the set of core components that run on your compute.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "For data science",
+    "machine learning use cases",
+    "consider Databricks Runtime ML version."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Delivering Spark driver, worker, and event logs from classic all purpose and jobs compute to Unity Catalog volumes is now generally available.",
+  "note_id": "2026-04-16-compute-log-delivery-to-volumes-is-now-ga",
+  "category": "platform"
+}

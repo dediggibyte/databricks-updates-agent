@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-31-skip-cells-when-running-notebooks",
+  "title": "Skip cells when running notebooks",
+  "date": "2025-10-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#skip-cells-when-running-notebooks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now skip individual cells when running multiple cells in a notebook using the `%skip` magic command. Add `%skip` at the beginning of any cell you want to skip. See [Run Databricks notebooks](/aws/en/notebooks/run-notebook).",
+  "ref_links": [
+    {
+      "text": "Run Databricks notebooks",
+      "url": "https://docs.databricks.com/aws/en/notebooks/run-notebook"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.136414Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2025-08-05-databricks-odbc-driver-2-9-2",
+  "title": "Databricks ODBC driver 2.9.2",
+  "date": "2025-08-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-odbc-driver-292",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [Databricks ODBC Driver](/aws/en/integrations/odbc) version 2.9.2 is now available for download from the [ODBC driver download page](https://databricks.com/spark/odbc-drivers-download).\n\nThis release includes the following fixes and new features:\n\n* The process name is now used as the default UserAgentEntry if the UserAgentEntry is not explicitly set.\n* Added support for Databricks domains `cloud.databricks.us` and `cloud.databricks.mil`.\n* Enhanced recognition and handling of `timestamp_ntz` columns across multiple data source functions including `SQLGetTypeInfo`, `SQLColumns`, and `SQLColAttribute`.\n* Added CRL (Certificate Revocation Lists) cache support on Windows when `UseSystemTruststore` is enabled.\n* Added `VOID` type column support, so that `VOID` columns are now correctly listed in `SQLGetColumns`.\n* Enabled OAuth Token exchange for IDPs different from the host, which allows the exchange of OAuth access tokens (including BYOT) for Databricks in-house tokens.\n* Added support for Windows Server 2025.\n* Fixed a memory leak in the driver.\n\nThis release includes upgrades to several third-party libraries:\n\n* OpenSSL upgraded from 3.0.15 to 3.0.16\n* libcURL upgraded from 8.11.0 to 8.12.1\n* Expat upgraded from 2.6.3 to 2.7.1\n\nThis release includes the following behavior changes:\n\n* The connector no longer supports Databricks Runtime version 10.4 LTS.\n* The default maximum catalog name length and maximum schema name length has been changed from 128 to 1024.\n* Ubuntu 20.04 is no longer supported.\n\nFor complete configuration information, see the [Databricks ODBC Driver Guide](/aws/en/documents/Databricks-ODBC-Connector-Install-and-Configuration-Guide.pdf) installed with the driver download package.",
+  "ref_links": [
+    {
+      "text": "Databricks ODBC Driver",
+      "url": "https://docs.databricks.com/aws/en/integrations/odbc"
+    },
+    {
+      "text": "ODBC driver download page",
+      "url": "https://databricks.com/spark/odbc-drivers-download"
+    },
+    {
+      "text": "Databricks ODBC Driver Guide",
+      "url": "https://docs.databricks.com/aws/en/documents/Databricks-ODBC-Connector-Install-and-Configuration-Guide.pdf"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.283088Z"
+}

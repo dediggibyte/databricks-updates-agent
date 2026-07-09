@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-27-google-drive-managed-ingestion-connector-beta",
+  "title": "Google Drive managed ingestion connector (Beta)",
+  "date": "2026-05-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#google-drive-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Google Drive connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest files from Google Drive into Databricks. Both unstructured (binary) and structured (CSV, JSON, XML, Excel, Parquet, Avro, ORC) ingestion are supported, as well as file metadata ingestion. See [Google Drive connector](/aws/en/ingestion/lakeflow-connect/google-drive).",
+  "ref_links": [
+    {
+      "text": "Google Drive connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-drive"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.652171Z"
+}

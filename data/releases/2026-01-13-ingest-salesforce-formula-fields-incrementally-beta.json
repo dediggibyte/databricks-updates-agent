@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-13-ingest-salesforce-formula-fields-incrementally-beta",
+  "title": "Ingest Salesforce formula fields incrementally (Beta)",
+  "date": "2026-01-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#ingest-salesforce-formula-fields-incrementally-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "By default, Lakeflow Connect doesn't ingest Salesforce formula fields incrementally. Instead, it takes a snapshot of these fields on each pipeline run, then joins them with the rest of the table. However, you can now enable incremental formula field ingestion, which often significantly improves performance and reduces costs. See [Ingest Salesforce formula fields incrementally](/aws/en/ingestion/lakeflow-connect/salesforce-formula-fields).",
+  "ref_links": [
+    {
+      "text": "Ingest Salesforce formula fields incrementally",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/salesforce-formula-fields"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.048316Z"
+}

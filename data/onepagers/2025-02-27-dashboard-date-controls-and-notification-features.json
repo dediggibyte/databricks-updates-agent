@@ -1,0 +1,28 @@
+{
+  "product": "Dashboard date controls and notification features",
+  "tagline": "Relative dates update: The relative dates in date and date range pickers now include the current day.",
+  "updated": "Feb 27, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#genie-chart-details",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-date-controls-and-notification-features",
+  "what_it_does": "Relative dates update: The relative dates in date and date range pickers now include the current day. Error message improvement: Error messages for calculated measures now indicate that filter clauses are not supported. Publish notification feature: Dashboard authors can now send publish notifications when updating a dashboard.",
+  "why_it_matters": "Error message improvement: Error messages for calculated measures now indicate that filter clauses are not supported.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Relative dates update: The relative dates in date and date range pickers now include the current day.",
+  "note_id": "2025-02-27-dashboard-date-controls-and-notification-features",
+  "category": "platform"
+}

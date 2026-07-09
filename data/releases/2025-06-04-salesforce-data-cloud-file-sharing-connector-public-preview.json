@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-04-salesforce-data-cloud-file-sharing-connector-public-preview",
+  "title": "Salesforce Data Cloud File Sharing connector (Public Preview)",
+  "date": "2025-06-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#salesforce-data-cloud-file-sharing-connector-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Salesforce Data Cloud File Sharing connector offers an alternative zero-copy solution for querying Salesforce Data Cloud. When you use file federation instead of [query federation](/aws/en/query-federation/salesforce-data-cloud), Databricks calls Salesforce Data-as-a-Service (DaaS) APIs to read data in the underlying cloud object storage location directly. Queries are run on Databricks compute without using JDBC.\n\nCompared to query federation, file federation is ideal for federating a large amount of data. It offers improved performance for reading files from multiple data sources and better pushdown capabilities.\n\nFor more information, see [Lakehouse Federation for Salesforce Data 360 File Sharing](/aws/en/query-federation/salesforce-data-cloud-file-sharing).",
+  "ref_links": [
+    {
+      "text": "query federation",
+      "url": "https://docs.databricks.com/aws/en/query-federation/salesforce-data-cloud"
+    },
+    {
+      "text": "Lakehouse Federation for Salesforce Data 360 File Sharing",
+      "url": "https://docs.databricks.com/aws/en/query-federation/salesforce-data-cloud-file-sharing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.376435Z"
+}

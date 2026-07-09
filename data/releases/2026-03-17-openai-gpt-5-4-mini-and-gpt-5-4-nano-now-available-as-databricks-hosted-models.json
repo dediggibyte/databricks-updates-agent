@@ -1,0 +1,29 @@
+{
+  "id": "2026-03-17-openai-gpt-5-4-mini-and-gpt-5-4-nano-now-available-as-databricks-hosted-models",
+  "title": "OpenAI GPT-5.4 mini and GPT-5.4 nano now available as Databricks-hosted models",
+  "date": "2026-03-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#openai-gpt-54-mini-and-gpt-54-nano-now-available-as-databricks-hosted-models",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports OpenAI [GPT-5.4 mini](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-4-mini) and [GPT-5.4 nano](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-4-nano) as Databricks-hosted models. You can access these models using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).\n\nCustomers are responsible for ensuring their compliance with the terms of OpenAI's [Acceptable Use Policy](/aws/en/machine-learning/model-serving/acceptable-use-models).",
+  "ref_links": [
+    {
+      "text": "GPT-5.4 mini",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-4-mini"
+    },
+    {
+      "text": "GPT-5.4 nano",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-4-nano"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "Acceptable Use Policy",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.869827Z"
+}

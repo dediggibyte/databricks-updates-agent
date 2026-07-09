@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-23-ai-parse-document-public-preview",
+  "title": "ai_parse_document (Public Preview)",
+  "date": "2025-10-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#ai_parse_document-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_parse_document` is now available in [Public Preview](/aws/en/release-notes/release-types). See [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.157387Z"
+}

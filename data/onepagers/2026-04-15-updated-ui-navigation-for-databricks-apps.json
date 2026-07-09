@@ -1,0 +1,49 @@
+{
+  "product": "Updated UI navigation for Databricks Apps",
+  "tagline": "The Databricks Apps console has a redesigned interface that provides a more intuitive app management experience.",
+  "updated": "Apr 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#updated-ui-navigation-for-databricks-apps",
+  "what_it_does": "The Databricks Apps console has a redesigned interface that provides a more intuitive app management experience. The updated console streamlines workflows for editing, deploying, and monitoring apps. You can also access Databricks Apps directly from the app switcher in the top right corner of your workspace.",
+  "why_it_matters": "Apps run on the serverless platform and integrate with key platform services, including Unity Catalog for data governance, Databricks SQL for querying data, and OAuth for authentication.",
+  "capabilities": [
+    {
+      "title": "Get started with apps",
+      "desc": "Get started with apps"
+    },
+    {
+      "title": "Create and deploy your first",
+      "desc": "Create and deploy your first app."
+    },
+    {
+      "title": "Key concepts in apps",
+      "desc": "Key concepts in apps"
+    },
+    {
+      "title": "Learn about core concepts, including",
+      "desc": "Learn about core concepts, including app structure, resources, state, and authorization."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "RAG chat apps",
+    "data entry forms",
+    "custom operational interfaces."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Databricks Apps console has a redesigned interface that provides a more intuitive app management experience.",
+  "note_id": "2026-04-15-updated-ui-navigation-for-databricks-apps",
+  "category": "platform"
+}

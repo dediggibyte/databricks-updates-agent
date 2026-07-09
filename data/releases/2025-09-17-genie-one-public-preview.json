@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-17-genie-one-public-preview",
+  "title": "Genie One Public Preview",
+  "date": "2025-09-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#genie-one-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie One, a simplified user interface designed for business users, is now in Public Preview. Genie One provides a single, intuitive entry point to interact with data and AI in Databricks, without requiring technical knowledge of compute resources, queries, models, or notebooks.\n\nWith Genie One, business users can:\n\n* View and interact with AI/BI dashboards to track KPIs and analyze metrics.\n* Ask data questions in natural language using Genie.\n* Use custom-built Databricks Apps that combine analytics, AI, and workflows.\n\nWorkspace admins can enable Genie One from the Previews page in the admin console.\n\nSee [Use Genie One](/aws/en/genie-one/genie).",
+  "ref_links": [
+    {
+      "text": "Use Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.213966Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-15-sample-data-explorer-is-generally-available",
+  "title": "Sample Data Explorer is generally available",
+  "date": "2026-04-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#sample-data-explorer-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Sample Data Explorer with Genie Code is now generally available. Sample Data Explorer lets you ask questions about tables in Unity Catalog using natural language. Genie Code returns a response that includes an SQL query answering your question. See [Explore sample data with Genie Code](/aws/en/genie-code/sample-data-explorer).",
+  "ref_links": [
+    {
+      "text": "Explore sample data with Genie Code",
+      "url": "https://docs.databricks.com/aws/en/genie-code/sample-data-explorer"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.796880Z"
+}

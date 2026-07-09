@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-21-2dd9ef29",
+  "title": "Unity Catalog managed Apache Iceberg tables, foreign Apache Iceberg tables, and Apache Iceberg v3 features are generally available",
+  "date": "2026-05-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#unity-catalog-managed-apache-iceberg-tables-foreign-apache-iceberg-tables-and-apache-iceberg-v3-features-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The following Apache Iceberg capabilities in Unity Catalog are now generally available:\n\n* **Unity Catalog managed Iceberg tables**: Create and manage Iceberg tables in Unity Catalog using Databricks Runtime, Databricks SQL, or external Iceberg-compatible engines. Managed Iceberg tables support liquid clustering, predictive optimization, materialized views, and streaming tables. See [What is Apache Iceberg in Databricks?](/aws/en/iceberg).\n* **Foreign Iceberg tables**: Read Iceberg tables managed by external catalogs such as AWS Glue, Hive metastore, or Snowflake Horizon Catalog through Lakehouse Federation. See [Work with foreign tables](/aws/en/tables/foreign).\n* **Iceberg v3 features**: Use deletion vectors, the VARIANT data type, and row lineage on managed Delta Lake tables with UniForm, managed Iceberg tables, and foreign Iceberg tables. See [Use Apache Iceberg v3 features](/aws/en/iceberg/iceberg-v3).",
+  "ref_links": [
+    {
+      "text": "What is Apache Iceberg in Databricks?",
+      "url": "https://docs.databricks.com/aws/en/iceberg"
+    },
+    {
+      "text": "Work with foreign tables",
+      "url": "https://docs.databricks.com/aws/en/tables/foreign"
+    },
+    {
+      "text": "Use Apache Iceberg v3 features",
+      "url": "https://docs.databricks.com/aws/en/iceberg/iceberg-v3"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.674551Z"
+}

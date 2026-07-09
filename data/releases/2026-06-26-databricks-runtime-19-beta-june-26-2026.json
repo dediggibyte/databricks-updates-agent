@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-26-databricks-runtime-19-beta-june-26-2026",
+  "title": "Databricks Runtime 19 (Beta): June 26, 2026",
+  "date": "2026-06-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-beta-june-26-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Behavioral changes\n\n* **Environment variable availability restricted in standard access mode**: In [standard access mode](/aws/en/compute/standard-limitations), only a predefined set of environment variables is available to the Spark engine and init scripts. This set includes common configuration variables, such as proxy settings (`HTTP_PROXY`), cloud credentials (`AWS_ACCESS_KEY_ID`, `AZURE_CLIENT_ID`), and catalog variables (`CATALOG`). Other variables that you set on a cluster remain available to your user code, including UDFs, but are not available to the Spark engine or init scripts. Previously, all cluster environment variables were available to the Spark engine and init scripts. See [Environment variable limitations](/aws/en/compute/standard-limitations#environment-variable-limitations).\n* **Restricted Spark configurations in standard access mode**: In [standard access mode](/aws/en/compute/standard-limitations), you can no longer set certain Spark configuration properties. Creating or editing a cluster that sets a restricted property (matched by prefix) fails with an error. Restricted properties include `spark.driver.extraJavaOptions`, `spark.executor.extraJavaOptions`, `spark.jars`, `spark.files`, `spark.executorEnv.*`, and `spark.kubernetes.*`, among others. Previously, you could set these properties in standard access mode. Remove them from your cluster configuration before upgrading. For the complete list, see [Spark configuration limitations](/aws/en/compute/standard-limitations#spark-configuration-limitations).",
+  "ref_links": [
+    {
+      "text": "standard access mode",
+      "url": "https://docs.databricks.com/aws/en/compute/standard-limitations"
+    },
+    {
+      "text": "Environment variable limitations",
+      "url": "https://docs.databricks.com/aws/en/compute/standard-limitations#environment-variable-limitations"
+    },
+    {
+      "text": "Spark configuration limitations",
+      "url": "https://docs.databricks.com/aws/en/compute/standard-limitations#spark-configuration-limitations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.539437Z"
+}

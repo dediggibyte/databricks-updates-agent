@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-21-genie-space-enhancements-and-bug-fixes",
+  "title": "Genie Space enhancements and bug fixes",
+  "date": "2026-05-21",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-bug-fixes-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **\"Fields\" replaces \"Dimensions\"**: Genie Spaces now uses \"Fields\" instead of \"Dimensions\" in the metric view and SQL expressions interfaces. See [Define SQL expressions](/aws/en/genie/tune-quality#sql-expressions).\n* **Benchmarks support agent mode**: Benchmarks now support agent mode, which uses the same multi-step reasoning as Genie Agent mode. Use the optional evaluation note to guide LLM-based grading. See [Benchmarks](/aws/en/genie/monitor#benchmarks).\n* **Space description bug fix**: Fixed a bug where Genie Spaces weren't showing descriptions on an empty chat.\n* **Context window closed by default**: In a new Genie Space thread, the context window is now closed by default.",
+  "ref_links": [
+    {
+      "text": "Define SQL expressions",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#sql-expressions"
+    },
+    {
+      "text": "Benchmarks",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#benchmarks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.671309Z"
+}

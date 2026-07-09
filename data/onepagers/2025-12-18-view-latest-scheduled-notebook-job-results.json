@@ -1,0 +1,28 @@
+{
+  "product": "View latest scheduled notebook job results",
+  "tagline": "Databricks notebooks can now show the latest scheduled notebook run directly in your notebook and notebook dashboards.",
+  "updated": "Dec 18, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/notebooks/schedule-notebook-jobs#last-run",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#view-latest-scheduled-notebook-job-results",
+  "what_it_does": "Databricks notebooks can now show the latest scheduled notebook run directly in your notebook and notebook dashboards. You can also update the notebook with the latest run results. You can create and manage notebook jobs directly in the notebook UI.",
+  "why_it_matters": "If you use serverless, select the performance mode.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks notebooks can now show the latest scheduled notebook run directly in your notebook and notebook dashboards.",
+  "note_id": "2025-12-18-view-latest-scheduled-notebook-job-results",
+  "category": "platform"
+}

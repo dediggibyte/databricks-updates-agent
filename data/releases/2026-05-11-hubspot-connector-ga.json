@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-11-hubspot-connector-ga",
+  "title": "HubSpot connector (GA)",
+  "date": "2026-05-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#hubspot-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed HubSpot connector in Lakeflow Connect is now generally available. The connector allows you to ingest data from HubSpot Marketing Hub into Databricks. See [HubSpot connector](/aws/en/ingestion/lakeflow-connect/hubspot-overview).",
+  "ref_links": [
+    {
+      "text": "HubSpot connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/hubspot-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.719023Z"
+}

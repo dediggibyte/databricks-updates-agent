@@ -1,0 +1,28 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Workspace instructions for chat in Genie One: Workspace admins can now create a /Workspace/.genie workspace instructions.md file to add custom instructions that apply to all chat conversations in…",
+  "updated": "May 7, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-6",
+  "what_it_does": "Workspace instructions for chat in Genie One: Workspace admins can now create a /Workspace/.genie workspace instructions.md file to add custom instructions that apply to all chat conversations in the workspace. Atlassian and Glean MCP connections (Beta): You can now connect chat in Genie One to the Atlassian and Glean MCPs from within the chat box. Server sent events support (Public Preview): Externally hosted MCP servers that use server sent events are now supported.",
+  "why_it_matters": "This generates more accurate responses and reduces latency by reducing the amount of data Genie One needs to crawl and query.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Workspace instructions for chat in Genie One: Workspace admins can now create a /Workspace/.genie workspace instructions.md file to add custom instructions that apply to all chat conversations in…",
+  "note_id": "2026-05-07-genie-one-enhancements",
+  "category": "platform"
+}

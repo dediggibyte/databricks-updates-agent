@@ -1,0 +1,21 @@
+{
+  "id": "2025-12-15-delta-sharing-to-external-iceberg-clients-is-in-public-preview",
+  "title": "Delta Sharing to external Iceberg clients is in Public Preview",
+  "date": "2025-12-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#delta-sharing-to-external-iceberg-clients-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now share tables, materialized views, and streaming tables to external Iceberg clients such as Snowflake, Trino, Flink, and Spark. External Iceberg clients can query shared Delta tables with zero-copy access. For details, see [Enable sharing to external Iceberg clients](/aws/en/opensharing/create-share#iceberg-clients) and [Iceberg clients: Read shared data](/aws/en/opensharing/read-data-open#iceberg).",
+  "ref_links": [
+    {
+      "text": "Enable sharing to external Iceberg clients",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#iceberg-clients"
+    },
+    {
+      "text": "Iceberg clients: Read shared data",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-open#iceberg"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.077799Z"
+}

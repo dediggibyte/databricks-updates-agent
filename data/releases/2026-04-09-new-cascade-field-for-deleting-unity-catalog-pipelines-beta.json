@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-09-new-cascade-field-for-deleting-unity-catalog-pipelines-beta",
+  "title": "New cascade field for deleting Unity Catalog pipelines (Beta)",
+  "date": "2026-04-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#new-cascade-field-for-deleting-unity-catalog-pipelines-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "A new `cascade` field is available in the Pipelines `DELETE` API for Unity Catalog pipelines. By default, `cascade=true`, which preserves the existing behavior of deleting all associated materialized views, streaming tables, and views when a pipeline is deleted. Set `cascade=false` to retain associated tables as inactive after deletion.\n\nSee [Delete a pipeline](/aws/en/ldp/unity-catalog#delete-a-pipeline).",
+  "ref_links": [
+    {
+      "text": "Delete a pipeline",
+      "url": "https://docs.databricks.com/aws/en/ldp/unity-catalog#delete-a-pipeline"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.810912Z"
+}

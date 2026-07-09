@@ -1,0 +1,21 @@
+{
+  "id": "2025-12-15-f226bc06",
+  "title": "Run read-only queries on Lakebase (Provisioned) readable secondaries from SQL editor",
+  "date": "2025-12-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#run-read-only-queries-on-lakebase-provisioned-readable-secondaries-from-sql-editor",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now connect to Lakebase (Provisioned) readable secondaries and run read-only queries from the Databricks SQL editor. See [Execute read-only queries from Databricks SQL Editor](/aws/en/oltp/instances/create/high-availability#sql-editor) and [Connect and query a database instance](/aws/en/oltp/instances/query/connect).",
+  "ref_links": [
+    {
+      "text": "Execute read-only queries from Databricks SQL Editor",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/create/high-availability#sql-editor"
+    },
+    {
+      "text": "Connect and query a database instance",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/query/connect"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.077129Z"
+}

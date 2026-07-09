@@ -1,0 +1,41 @@
+{
+  "id": "2026-03-10-databricks-runtime-maintenance-updates-03-10",
+  "title": "Databricks Runtime maintenance updates (03/10)",
+  "date": "2026-03-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-runtime-maintenance-updates-0310",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n* [Databricks Runtime 18.0](/aws/en/release-notes/runtime/maintenance-updates#180)\n* [Databricks Runtime 17.3 LTS](/aws/en/release-notes/runtime/maintenance-updates#173)\n* [Databricks Runtime 17.2](/aws/en/release-notes/runtime/maintenance-updates-archive#172)\n* [Databricks Runtime 16.4 LTS](/aws/en/release-notes/runtime/maintenance-updates#164)\n* [Databricks Runtime 15.4 LTS](/aws/en/release-notes/runtime/maintenance-updates#154)\n* [Databricks Runtime 14.3 LTS](/aws/en/release-notes/runtime/maintenance-updates#143)\n* [Databricks Runtime 13.3 LTS](/aws/en/release-notes/runtime/maintenance-updates#133)",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 18.0",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates#180"
+    },
+    {
+      "text": "Databricks Runtime 17.3 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates#173"
+    },
+    {
+      "text": "Databricks Runtime 17.2",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates-archive#172"
+    },
+    {
+      "text": "Databricks Runtime 16.4 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates#164"
+    },
+    {
+      "text": "Databricks Runtime 15.4 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates#154"
+    },
+    {
+      "text": "Databricks Runtime 14.3 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates#143"
+    },
+    {
+      "text": "Databricks Runtime 13.3 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates#133"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.896893Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-08-f2611b7e",
+  "title": "Automatic cost attribution for materialized views and streaming tables in Databricks SQL",
+  "date": "2026-07-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automatic-cost-attribution-for-materialized-views-and-streaming-tables-in-databricks-sql",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Materialized view and streaming table refreshes in Databricks SQL now inherit custom tags from the enclosing SQL warehouse environment. These tags propagate to billing surfaces like `system.billing.usage`, enabling proper cost attribution of materialized view and streaming table updates back to the source SQL warehouse. See [Attribute costs to the SQL warehouse with custom tags](/aws/en/ldp/dbsql/materialized-monitor#costs-with-custom-tags).",
+  "ref_links": [
+    {
+      "text": "Attribute costs to the SQL warehouse with custom tags",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/materialized-monitor#costs-with-custom-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.502477Z"
+}

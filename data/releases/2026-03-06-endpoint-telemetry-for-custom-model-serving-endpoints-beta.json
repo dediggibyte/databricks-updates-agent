@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-06-endpoint-telemetry-for-custom-model-serving-endpoints-beta",
+  "title": "Endpoint telemetry for custom model serving endpoints (Beta)",
+  "date": "2026-03-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#endpoint-telemetry-for-custom-model-serving-endpoints-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure endpoint telemetry to persist logs, traces, and metrics from custom model serving endpoints into Unity Catalog Delta tables using OpenTelemetry. This enables root cause analysis, application health monitoring, and compliance retention using standard SQL queries.\n\nSee [Persist custom model serving data to Unity Catalog](/aws/en/machine-learning/model-serving/custom-model-serving-uc-logs).",
+  "ref_links": [
+    {
+      "text": "Persist custom model serving data to Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-model-serving-uc-logs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.904762Z"
+}

@@ -1,0 +1,35 @@
+{
+  "product": "Genie One enhancements and bug fixes",
+  "tagline": "Account level Genie customization: You can now customize Genie at the account level, including colors, a logo, a markdown welcome message, and pinned content.",
+  "updated": "Jun 11, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/genie-slack",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-and-bug-fixes-1",
+  "what_it_does": "Account level Genie customization: You can now customize Genie at the account level, including colors, a logo, a markdown welcome message, and pinned content. Email tool for scheduled tasks: Scheduled tasks now use an email tool to send emails, enabling more customized email formats and send conditions. Custom MCP server fix (Public Preview): Fixed an issue that prevented custom MCP servers from being used in Genie One.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use case specific answers."
+  ],
+  "limitations": [
+    "Visualizing charts",
+    "Sending Databricks notifications to Slack",
+    "Triggering actions in Databricks from Slack",
+    "Creating Genie agents or Genie Agents."
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Account level Genie customization: You can now customize Genie at the account level, including colors, a logo, a markdown welcome message, and pinned content.",
+  "note_id": "2026-06-11-genie-one-enhancements-and-bug-fixes",
+  "category": "platform"
+}

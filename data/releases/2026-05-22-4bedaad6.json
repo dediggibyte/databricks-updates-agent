@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-22-4bedaad6",
+  "title": "Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning are in Beta",
+  "date": "2026-05-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-runtime-18-and-databricks-runtime-18-for-machine-learning-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning are now in Beta, powered by Apache Spark 4.1.0.\n\nDatabricks Runtime 18 is the first release to use a unified release notes format. Previously, each feature version (18.0, 18.1, 18.2) had its own release notes page. Features that would previously have shipped as 18.3 or later now ship as dated updates to Databricks Runtime 18. For more information, see [About unified release notes](/aws/en/release-notes/runtime/18#unified-format).",
+  "ref_links": [
+    {
+      "text": "About unified release notes",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#unified-format"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.667786Z"
+}

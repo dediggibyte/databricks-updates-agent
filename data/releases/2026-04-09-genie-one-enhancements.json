@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-09-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-04-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-7",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Account-level Genie One is now generally available**: Account-level Genie One now includes Databricks Apps, Domains, and Genie. See [Use Genie One](/aws/en/genie-one/genie).\n* **Updated workspace Genie One navigation**: The workspace Genie One left-hand navigation has been updated and now includes Genie Code chat history.",
+  "ref_links": [
+    {
+      "text": "Use Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.809994Z"
+}

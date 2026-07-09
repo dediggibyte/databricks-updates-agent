@@ -1,0 +1,28 @@
+{
+  "product": "Jira connector (Beta)",
+  "tagline": "The Jira connector in Lakeflow Connect enables you to ingest Jira issues, comments, and attachments metadata into Databricks.",
+  "updated": "Dec 10, 2025",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/jira-source-setup",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#jira-connector-beta",
+  "what_it_does": "The Jira connector in Lakeflow Connect enables you to ingest Jira issues, comments, and attachments metadata into Databricks. Beta This feature is in Beta. Workspace admins can control access to this feature from the Previews page.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Jira connector in Lakeflow Connect enables you to ingest Jira issues, comments, and attachments metadata into Databricks.",
+  "note_id": "2025-12-10-jira-connector-beta",
+  "category": "platform"
+}

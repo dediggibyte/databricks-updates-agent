@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-29-serverless-workspaces-are-now-generally-available",
+  "title": "Serverless workspaces are now generally available",
+  "date": "2026-01-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#serverless-workspaces-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless workspaces are now generally available. Serverless workspaces come pre-configured with serverless compute and default storage, providing a fully-managed, enterprise-ready SaaS experience. See [Create a serverless workspace](/aws/en/admin/workspace/serverless-workspaces).",
+  "ref_links": [
+    {
+      "text": "Create a serverless workspace",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace/serverless-workspaces"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.015473Z"
+}

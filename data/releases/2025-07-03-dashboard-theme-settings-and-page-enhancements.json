@@ -1,0 +1,25 @@
+{
+  "id": "2025-07-03-dashboard-theme-settings-and-page-enhancements",
+  "title": "Dashboard theme settings and page enhancements",
+  "date": "2025-07-03",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-theme-settings-and-page-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashboard import and export retains theme settings**: When you import or export a dashboard as a file, theme settings are now preserved. To learn how to set a theme, see [Theme settings](/aws/en/dashboards/manage/settings#custom-theme).\n* **Dashboards now support up to 15 pages**: The maximum number of pages per dashboard has increased from ten to fifteen. See [Author dashboards](/aws/en/dashboards/manage).\n* **Annotation lines supported for temporal scales**: You can now add annotation lines to charts with temporal scales.\n* **Parameterized schedules re-enabled**: Support for parameterized schedules has been restored. See [Create a schedule](/aws/en/dashboards/share/schedule-subscribe#create-schedule).",
+  "ref_links": [
+    {
+      "text": "Theme settings",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#custom-theme"
+    },
+    {
+      "text": "Author dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage"
+    },
+    {
+      "text": "Create a schedule",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#create-schedule"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.331729Z"
+}

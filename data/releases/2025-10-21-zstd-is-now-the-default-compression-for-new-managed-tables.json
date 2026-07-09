@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-21-zstd-is-now-the-default-compression-for-new-managed-tables",
+  "title": "Zstd is now the default compression for new managed tables",
+  "date": "2025-10-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#zstd-is-now-the-default-compression-for-new-managed-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "All newly created managed tables in Databricks Runtime 16.0 and above now use Zstandard (Zstd) compression by default instead of Snappy.\n\nExisting tables continue to use their current compression codec. To change the compression codec for an existing table, set the `delta.parquet.compression.codec` table property. See [Table properties reference](/aws/en/tables/table-properties).",
+  "ref_links": [
+    {
+      "text": "Table properties reference",
+      "url": "https://docs.databricks.com/aws/en/tables/table-properties"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.161571Z"
+}

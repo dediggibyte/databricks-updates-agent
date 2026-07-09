@@ -1,0 +1,12 @@
+{
+  "id": "2025-05-22-genie-usage-guidance-and-query-performance",
+  "title": "Genie usage guidance and query performance",
+  "date": "2025-05-22",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-usage-guidance-and-query-performance",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Usage guidance addition in Genie**: You can now add **Usage Guidance** to clarify how and when SQL examples should be used.\n\n* **Improved query result display in Genie**: Query results now show more quickly. It now displays **Running query** until the query result is ready and **Still thinking** if additional work is required.\n* **UI polling update in Genie**: The UI now starts polling for result data sooner rather than waiting until after the visualization and sample questions are generated.\n* **SQL function de-emphasis in Genie**: The option to add SQL functions has been de-emphasized, making adding example SQL the default action.\n* **Improved result delivery timing in Genie**: Descriptions are now generated after the SQL is run, thereby reducing the time it takes to get results.\n* **Fixed empty visualizations issue in Genie**: Fixed an issue where empty visualizations were occasionally rendering in Genie.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.393996Z"
+}

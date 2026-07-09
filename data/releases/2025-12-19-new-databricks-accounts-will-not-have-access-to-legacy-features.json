@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-19-new-databricks-accounts-will-not-have-access-to-legacy-features",
+  "title": "New Databricks accounts will not have access to legacy features",
+  "date": "2025-12-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#new-databricks-accounts-will-not-have-access-to-legacy-features",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks accounts created after December 18, 2025 will not have access to certain legacy features such as access to DBFS root and mounts, Hive Metastore, and No-isolation shared compute. These accounts will exclusively use Unity Catalog for unified governance and enterprise-grade security.\n\nThis behavior enforces the **Disable legacy features** account setting available in existing Databricks accounts. See [Disable access to legacy features in new workspaces](/aws/en/admin/account-settings/legacy-features).",
+  "ref_links": [
+    {
+      "text": "Disable access to legacy features in new workspaces",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/legacy-features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.063353Z"
+}

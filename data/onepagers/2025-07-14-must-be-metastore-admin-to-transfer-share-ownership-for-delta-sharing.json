@@ -1,0 +1,37 @@
+{
+  "product": "Must be metastore admin to transfer share ownership for Delta Sharing",
+  "tagline": "To change the ownership of a share for Delta Sharing, you must now be the metastore admin.",
+  "updated": "Jul 14, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/manage-share#update",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#must-be-metastore-admin-to-transfer-share-ownership-for-delta-sharing",
+  "what_it_does": "To change the ownership of a share for Delta Sharing, you must now be the metastore admin. Share owners can no longer transfer ownership. This page describes how to view, update, and delete existing OpenSharing shares in Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "To remove an asset, clear",
+      "desc": "To remove an asset, clear the checkbox next to the asset."
+    },
+    {
+      "title": "To add, update, or remove",
+      "desc": "To add, update, or remove partition definitions, click Advanced options."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "To change the ownership of a share for Delta Sharing, you must now be the metastore admin.",
+  "note_id": "2025-07-14-must-be-metastore-admin-to-transfer-share-ownership-for-delta-sharing",
+  "category": "platform"
+}

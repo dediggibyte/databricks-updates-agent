@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-23-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-04-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-8",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Table cross-filtering and drill-through**: Tables now support cross-filtering and drill-through.\n* **Counter prefix and suffix**: Numbers in counters now support custom prefixes and suffixes. See [Format template](/aws/en/dashboards/manage/visualizations/types#counter).\n* **Schema browser default dataset type (Public Preview)**: Adding a table to a dashboard from the schema browser now creates a [local metric view](/aws/en/dashboards/manage/data-modeling/local-metric-views) by default instead of a SQL dataset.\n* **Service principal dashboard fix**: Fixed a bug where dashboards published as a service principal continued to run temporarily even after the service principal was disabled.",
+  "ref_links": [
+    {
+      "text": "Format template",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#counter"
+    },
+    {
+      "text": "local metric view",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.767847Z"
+}

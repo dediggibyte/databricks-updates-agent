@@ -1,0 +1,28 @@
+{
+  "product": "Alibaba Cloud Qwen3-Next Instruct now available in Beta",
+  "tagline": "Mosaic AI Model Serving now supports Alibaba Cloud's Qwen3 Next 80B A3B Instruct as a Databricks hosted model in the us west 2 and ap northeast 1 regions.",
+  "updated": "Oct 22, 2025",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#alibaba-cloud-qwen3-next-instruct-now-available-in-beta",
+  "what_it_does": "Mosaic AI Model Serving now supports Alibaba Cloud's Qwen3 Next 80B A3B Instruct as a Databricks hosted model in the us west 2 and ap northeast 1 regions. This model can be accessed using Foundation Model APIs pay per token. Qwen3 Next 80B A3B Instruct is available in Beta.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Mosaic AI Model Serving now supports Alibaba Cloud's Qwen3 Next 80B A3B Instruct as a Databricks hosted model in the us west 2 and ap northeast 1 regions.",
+  "note_id": "2025-10-22-alibaba-cloud-qwen3-next-instruct-now-available-in-beta",
+  "category": "platform"
+}

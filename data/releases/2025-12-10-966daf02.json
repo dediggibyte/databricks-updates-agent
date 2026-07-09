@@ -1,0 +1,21 @@
+{
+  "id": "2025-12-10-966daf02",
+  "title": "Change owner for materialized views or streaming tables defined in Databricks SQL",
+  "date": "2025-12-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#change-owner-for-materialized-views-or-streaming-tables-defined-in-databricks-sql",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now change the owner for materialized views or streaming tables defined in Databricks SQL through Catalog Explorer. For materialized view details, see [Configure standalone materialized views](/aws/en/ldp/dbsql/materialized-configure). For streaming table details, see [Use standalone streaming tables](/aws/en/ldp/dbsql/streaming).",
+  "ref_links": [
+    {
+      "text": "Configure standalone materialized views",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/materialized-configure"
+    },
+    {
+      "text": "Use standalone streaming tables",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/streaming"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.085425Z"
+}

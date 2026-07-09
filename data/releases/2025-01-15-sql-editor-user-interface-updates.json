@@ -1,0 +1,17 @@
+{
+  "id": "2025-01-15-sql-editor-user-interface-updates",
+  "title": "SQL editor user interface updates",
+  "date": "2025-01-15",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#sql-editor-user-interface-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [new SQL editor](/aws/en/sql/user/sql-editor) (Public Preview) includes the following user interface improvements:\n\n* **Enhanced download experience**: Query outputs are automatically named after the query when downloaded.\n* **Keyboard shortcuts for font sizing**: Use `Alt +` and `Alt -` (Windows/Linux) or `Opt +` and `Opt -` (macOS) to quickly adjust font size in the SQL editor.\n* **User mentions in comments**: Tag specific users with `@` in comments to send them email notifications.\n* **Faster tab navigation**: Tab switching is now up to 80% faster for loaded tabs and 62% faster for unloaded tabs.\n* **Streamlined warehouse selection**: SQL Warehouse size information is displayed directly in the compute selector for easier selection.\n* **Parameter editing shortcuts**: Use `Ctrl + Enter` (Windows/Linux) or `Cmd + Enter` (macOS) to execute queries while editing parameter values.\n* **Enhanced version control**: Query results are preserved in version history for better collaboration.",
+  "ref_links": [
+    {
+      "text": "new SQL editor",
+      "url": "https://docs.databricks.com/aws/en/sql/user/sql-editor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.441937Z"
+}

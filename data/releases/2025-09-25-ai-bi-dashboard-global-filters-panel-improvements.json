@@ -1,0 +1,12 @@
+{
+  "id": "2025-09-25-ai-bi-dashboard-global-filters-panel-improvements",
+  "title": "AI/BI dashboard global filters panel improvements",
+  "date": "2025-09-25",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#aibi-dashboard-global-filters-panel-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Global filters panel expanded by default**: The global filters panel now opens by default when users first visit a dashboard to improve discoverability. On subsequent visits, the panel preserves the user's last setting.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.201507Z"
+}

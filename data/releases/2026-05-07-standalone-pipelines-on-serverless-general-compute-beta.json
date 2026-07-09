@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-07-standalone-pipelines-on-serverless-general-compute-beta",
+  "title": "Standalone pipelines on serverless general compute (Beta)",
+  "date": "2026-05-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#standalone-pipelines-on-serverless-general-compute-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Standalone pipelines, including materialized views and streaming tables, can now be created from a notebook running on serverless general compute. Standalone pipelines (renamed from pipelines on Databricks SQL) can be created using SQL or Python. Standalone pipelines are in Beta. See [Requirements for standalone pipelines](/aws/en/ldp/dbsql/compute).",
+  "ref_links": [
+    {
+      "text": "Requirements for standalone pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/compute"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.726588Z"
+}

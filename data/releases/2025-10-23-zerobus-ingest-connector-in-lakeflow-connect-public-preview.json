@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-23-zerobus-ingest-connector-in-lakeflow-connect-public-preview",
+  "title": "Zerobus Ingest connector in Lakeflow Connect (Public Preview)",
+  "date": "2025-10-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#zerobus-ingest-connector-in-lakeflow-connect-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Zerobus Ingest connector in Lakeflow Connect is in Public Preview. This connector enables record-by-record data ingestion directly into Delta tables using a gRPC API. See [Zerobus Ingest connector overview](/aws/en/ingestion/zerobus-overview).",
+  "ref_links": [
+    {
+      "text": "Zerobus Ingest connector overview",
+      "url": "https://docs.databricks.com/aws/en/ingestion/zerobus-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.156644Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-05-databricks-connector-in-microsoft-power-platform-is-in-public-preview",
+  "title": "Databricks connector in Microsoft Power Platform is in Public Preview",
+  "date": "2025-09-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-connector-in-microsoft-power-platform-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use Databricks data to build canvas apps in Power Apps, flows in Power Automate, and agents in Copilot Studio by creating a Databricks connection in Power Platform.\n\nSee [Databricks and Microsoft Power Platform integration](/aws/en/integrations/msft-power-platform).",
+  "ref_links": [
+    {
+      "text": "Databricks and Microsoft Power Platform integration",
+      "url": "https://docs.databricks.com/aws/en/integrations/msft-power-platform"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.225949Z"
+}

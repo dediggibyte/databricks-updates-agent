@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-09-016774c7",
+  "title": "The billable usage table now records the performance mode of serverless jobs and pipelines",
+  "date": "2025-10-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#the-billable-usage-table-now-records-the-performance-mode-of-serverless-jobs-and-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Billing logs now record the [performance mode](/aws/en/jobs/run-serverless-jobs#performance) of serverless jobs and pipelines. The workload's performance mode is logged in the `product_features.performance_target` column and can include values of `PERFORMANCE_OPTIMIZED`, `STANDARD`, or `null`.\n\nFor billing log reference, see [Billable usage system table reference](/aws/en/admin/system-tables/billing).",
+  "ref_links": [
+    {
+      "text": "performance mode",
+      "url": "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs#performance"
+    },
+    {
+      "text": "Billable usage system table reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/billing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.179825Z"
+}

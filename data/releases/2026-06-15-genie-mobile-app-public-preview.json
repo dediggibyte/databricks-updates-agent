@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-15-genie-mobile-app-public-preview",
+  "title": "Genie mobile app (Public Preview)",
+  "date": "2026-06-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-mobile-app-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use the Databricks Genie mobile app to access Genie One from iOS and Android devices. Download the app from the Apple App Store or Google Play Store. Using the Genie mobile app, you can:\n\n* Ask data questions in natural language.\n* View and interact with AI/BI dashboards, optimized for mobile.\n* Chat with dashboards using dashboard-embedded Genie.\n* Discover and run Databricks Apps.\n\nSee [Use Genie on mobile](/aws/en/genie-one/mobile).",
+  "ref_links": [
+    {
+      "text": "Use Genie on mobile",
+      "url": "https://docs.databricks.com/aws/en/genie-one/mobile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.573137Z"
+}

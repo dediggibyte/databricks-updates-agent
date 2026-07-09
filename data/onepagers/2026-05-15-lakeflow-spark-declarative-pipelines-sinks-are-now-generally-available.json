@@ -1,0 +1,28 @@
+{
+  "product": "Lakeflow Spark Declarative Pipelines sinks are now generally available",
+  "tagline": "The Lakeflow Spark Declarative Pipelines sink API is now generally available.",
+  "updated": "May 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/ldp-sinks",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-spark-declarative-pipelines-sinks-are-now-generally-available",
+  "what_it_does": "The Lakeflow Spark Declarative Pipelines sink API is now generally available. Use sinks with append flows to write transformed pipeline data to external targets, including Delta tables, Apache Kafka topics, Azure Event Hubs, and custom Python data sources. Use the Lakeflow Spark Declarative Pipelines sink API with flows to write records transformed by a pipeline to an external data sink.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Lakeflow Spark Declarative Pipelines sink API is now generally available.",
+  "note_id": "2026-05-15-lakeflow-spark-declarative-pipelines-sinks-are-now-generally-available",
+  "category": "platform"
+}

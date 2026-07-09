@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-01-ai-playground-is-now-ga",
+  "title": "AI Playground is now GA",
+  "date": "2025-08-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#ai-playground-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AI Playground is now GA. See [Chat with LLMs and prototype generative AI apps using AI Playground](/aws/en/large-language-models/ai-playground).",
+  "ref_links": [
+    {
+      "text": "Chat with LLMs and prototype generative AI apps using AI Playground",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-playground"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.288760Z"
+}

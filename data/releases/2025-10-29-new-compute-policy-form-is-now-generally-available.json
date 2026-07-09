@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-29-new-compute-policy-form-is-now-generally-available",
+  "title": "New compute policy form is now generally available",
+  "date": "2025-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#new-compute-policy-form-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new compute policy form is now generally available. The new form allows you to configure policy definitions using dropdown menus and other UI elements. This means admins can write policies without having to learn or reference the policy syntax.\n\nSee [Create and manage compute policies](/aws/en/admin/clusters/policies) and [Compute policy reference](/aws/en/admin/clusters/policy-definition).",
+  "ref_links": [
+    {
+      "text": "Create and manage compute policies",
+      "url": "https://docs.databricks.com/aws/en/admin/clusters/policies"
+    },
+    {
+      "text": "Compute policy reference",
+      "url": "https://docs.databricks.com/aws/en/admin/clusters/policy-definition"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.146534Z"
+}

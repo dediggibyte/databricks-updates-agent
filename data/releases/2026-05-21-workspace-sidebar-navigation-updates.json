@@ -1,0 +1,12 @@
+{
+  "id": "2026-05-21-workspace-sidebar-navigation-updates",
+  "title": "Workspace sidebar navigation updates",
+  "date": "2026-05-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#workspace-sidebar-navigation-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The workspace sidebar navigation has updated section groupings:\n\n* A new **Analytics** section groups Dashboards, Genie Spaces, and Alerts.\n* The **SQL** section is renamed to **Lakehouse** and contains SQL Editor, Queries, Query History, and SQL Warehouses.\n\nIn the app switcher, **Lakehouse** is also renamed to **Analytics and AI**.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.673319Z"
+}

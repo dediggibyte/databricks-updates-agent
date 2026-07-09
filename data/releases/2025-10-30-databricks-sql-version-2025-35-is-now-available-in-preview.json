@@ -1,0 +1,37 @@
+{
+  "id": "2025-10-30-databricks-sql-version-2025-35-is-now-available-in-preview",
+  "title": "Databricks SQL version 2025.35 is now available in Preview",
+  "date": "2025-10-30",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-version-202535-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2025.35 is now available in the **Preview** channel. Review the following section to learn about new features, behavioral changes, and bug fixes.\n\n#### `EXECUTE IMMEDIATE` using constant expressions\n\nYou can now pass constant expressions as the SQL string and as arguments to parameter markers in [`EXECUTE IMMEDIATE`](/aws/en/sql/language-manual/sql-ref-syntax-aux-execute-immediate) statements.\n\n#### `LIMIT ALL` support for recursive CTEs\n\nYou can now use `LIMIT ALL` to remove the total size restriction on recursive common table expressions (CTEs).\n\n#### `st_dump` function support\n\nYou can now use the `st_dump` function to get an array containing the single geometries of the input geometry. See [`st_dump` function](/aws/en/sql/language-manual/functions/st_dump).\n\n#### Polygon interior ring functions are now supported\n\nYou can now use the following functions to work with polygon interior rings:\n\n* `st_numinteriorrings`: Get the number of inner boundaries (rings) of a polygon. See [`st_numinteriorrings` function](/aws/en/sql/language-manual/functions/st_numinteriorrings).\n* `st_interiorringn`: Extract the n-th inner boundary of a polygon and return it as a linestring. See [`st_interiorringn` function](/aws/en/sql/language-manual/functions/st_interiorringn).\n\n#### Support MV/ST refresh information in `DESCRIBE EXTENDED AS JSON`\n\nDatabricks now generates a section for materialized view and streaming table refresh information in the [`DESCRIBE EXTENDED AS JSON`](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table) output, including last refreshed time, refresh type, status, and schedule.\n\n#### Add metadata column to `DESCRIBE QUERY` and `DESCRIBE TABLE`\n\nDatabricks now includes a metadata column in the output of [`DESCRIBE QUERY`](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-query) and [`DESCRIBE TABLE`](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table) for semantic metadata.\n\nFor `DESCRIBE QUERY`, when describing a query with metric views, semantic metadata propagates through the query if dimensions are directly referenced and measures use the `MEASURE()` function.\n\nFor `DESCRIBE TABLE`, the metadata column appears only for metric views, not other table types.\n\n#### Correct handling of null structs when dropping `NullType` columns\n\nWhen writing to Delta tables, Databricks now correctly preserves null struct values when dropping `NullType` columns from the schema. Previously, null structs were incorrectly replaced with non-null struct values where all fields were set to null.",
+  "ref_links": [
+    {
+      "text": "EXECUTE IMMEDIATE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-execute-immediate"
+    },
+    {
+      "text": "st_dump function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_dump"
+    },
+    {
+      "text": "st_numinteriorrings function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_numinteriorrings"
+    },
+    {
+      "text": "st_interiorringn function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_interiorringn"
+    },
+    {
+      "text": "DESCRIBE EXTENDED AS JSON",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table"
+    },
+    {
+      "text": "DESCRIBE QUERY",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-query"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.144996Z"
+}

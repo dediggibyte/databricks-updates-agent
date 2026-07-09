@@ -1,0 +1,45 @@
+{
+  "product": "Version 18.0",
+  "tagline": "This serverless compute release roughly corresponds to Databricks Runtime 18.0.",
+  "updated": "Feb 27, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/serverless#version-180",
+  "what_it_does": "This serverless compute release roughly corresponds to Databricks Runtime 18.0. New features SQL scripting is now generally available: SQL scripting is now generally available. Redshift JDBC driver upgraded to 2.1.0.28: The Redshift JDBC driver has been upgraded to version 2.1.0.28.",
+  "why_it_matters": "Shared isolation execution environment for Unity Catalog Python UDFs: Unity Catalog Python UDFs with the same owner can now share an isolation environment by default, improving performance and reducing memory usage.",
+  "capabilities": [
+    {
+      "title": "stazimuth function: Returns the north-based",
+      "desc": "stazimuth function: Returns the north-based azimuth from the first point to the second in radians."
+    },
+    {
+      "title": "stboundary function: Returns the boundary",
+      "desc": "stboundary function: Returns the boundary of the input geometry."
+    },
+    {
+      "title": "stclosestpoint function: Returns the 2D",
+      "desc": "stclosestpoint function: Returns the 2D projection of a point on the first geometry closest to the second geometry."
+    },
+    {
+      "title": "stgeogfromewkt function: Parses an Extended",
+      "desc": "stgeogfromewkt function: Parses an Extended Well-Known Text (EWKT) description of a geography."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "This serverless compute release roughly corresponds to Databricks Runtime 18.0.",
+  "note_id": "2026-02-27-version-18-0",
+  "category": "platform"
+}

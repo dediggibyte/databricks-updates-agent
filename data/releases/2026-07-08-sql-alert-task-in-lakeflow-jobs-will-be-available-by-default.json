@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-08-sql-alert-task-in-lakeflow-jobs-will-be-available-by-default",
+  "title": "SQL alert task in Lakeflow Jobs will be available by default",
+  "date": "2026-07-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#sql-alert-task-in-lakeflow-jobs-will-be-available-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The SQL alert task in Lakeflow Jobs is generally available and will be available by default in your workspace. Use the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result.\n\nSee [SQL alert task for jobs](/aws/en/jobs/tasks/alert).",
+  "ref_links": [
+    {
+      "text": "SQL alert task for jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/tasks/alert"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.499100Z"
+}

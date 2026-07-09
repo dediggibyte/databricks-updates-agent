@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-10-netsuite-connector-public-preview",
+  "title": "NetSuite connector (Public Preview)",
+  "date": "2025-12-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#netsuite-connector-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now ingest data from the `NetSuite2.com` data source programmatically using the Databricks API, the Databricks CLI, or a Databricks notebook. See [Configure NetSuite for ingestion into Databricks](/aws/en/ingestion/lakeflow-connect/netsuite-source-setup).",
+  "ref_links": [
+    {
+      "text": "Configure NetSuite for ingestion into Databricks",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/netsuite-source-setup"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.083572Z"
+}

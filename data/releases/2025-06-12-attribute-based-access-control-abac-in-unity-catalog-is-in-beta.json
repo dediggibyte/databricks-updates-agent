@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-12-attribute-based-access-control-abac-in-unity-catalog-is-in-beta",
+  "title": "Attribute-based access control (ABAC) in Unity Catalog is in Beta",
+  "date": "2025-06-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#attribute-based-access-control-abac-in-unity-catalog-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks now supports attribute-based access control (ABAC) in Unity Catalog, enabling dynamic, tag-driven access policies across catalogs, schemas, and tables. ABAC uses tags and user-defined functions (UDFs) to enforce fine-grained access controls based on data attributes such as sensitivity, region, or business domain.\n\nUsing ABAC, you can define scalable policies once and apply them across large sets of data assets. Policies inherit across the object hierarchy and can include row-level filters or column masking logic. This simplifies governance, supports centralized policy management, and improves security posture. See [Attribute-based access control in Unity Catalog](/aws/en/data-governance/unity-catalog/abac).",
+  "ref_links": [
+    {
+      "text": "Attribute-based access control in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.352177Z"
+}

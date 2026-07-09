@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-11-access-requests-in-unity-catalog-public-preview",
+  "title": "Access requests in Unity Catalog (Public Preview)",
+  "date": "2025-08-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#access-requests-in-unity-catalog-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now enable self-service access requests in Unity Catalog by configuring access request destinations on securable objects.\n\nUsers can request access to Unity Catalog objects that they discover. These requests are sent to configured destinations, such as emails, Slack or Microsoft Teams channels, or they can be redirected to an internal access management system.\n\nYou can also enable default email destinations so requests automatically go to the catalog or object owner’s email if no other destination is set. This ensures that access requests are delivered even when no destination is manually configured for an object.\n\nSee [Manage access requests](/aws/en/data-governance/unity-catalog/manage-privileges/access-request-destinations).",
+  "ref_links": [
+    {
+      "text": "Manage access requests",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/access-request-destinations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.274334Z"
+}

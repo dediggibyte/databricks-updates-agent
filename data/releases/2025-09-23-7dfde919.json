@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-23-7dfde919",
+  "title": "Mosaic AI Agent Framework supports automatic authentication passthrough for Lakebase resources",
+  "date": "2025-09-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#mosaic-ai-agent-framework-supports-automatic-authentication-passthrough-for-lakebase-resources",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Agent Framework now supports automatic authentication passthrough for Lakebase resources. This requires MLFlow 3.3.2 or above.\n\nSee [Automatic authentication passthrough](/aws/en/agents/agent-framework/agent-authentication-model-serving#automatic-authentication-passthrough).",
+  "ref_links": [
+    {
+      "text": "Automatic authentication passthrough",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-framework/agent-authentication-model-serving#automatic-authentication-passthrough"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.208409Z"
+}

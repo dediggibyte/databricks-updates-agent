@@ -1,0 +1,21 @@
+{
+  "id": "2025-08-26-databricks-runtime-17-2-and-databricks-runtime-17-2-ml-are-in-beta",
+  "title": "Databricks Runtime 17.2 and Databricks Runtime 17.2 ML are in Beta",
+  "date": "2025-08-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-runtime-172-and-databricks-runtime-172-ml-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 17.2 and Databricks Runtime 17.2 ML are now in Beta. These releases include SQL and API enhancements, new migration options, and reliability and performance improvements across the platform.\n\nSee [Databricks Runtime 17.2 (EoS)](/aws/en/release-notes/runtime/17.2) and [Databricks Runtime 17.2 for Machine Learning (EoS)](/aws/en/release-notes/runtime/17.2ml).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 17.2 (EoS)",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.2"
+    },
+    {
+      "text": "Databricks Runtime 17.2 for Machine Learning (EoS)",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.2ml"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.245649Z"
+}

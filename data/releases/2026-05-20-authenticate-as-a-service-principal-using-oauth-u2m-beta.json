@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-20-authenticate-as-a-service-principal-using-oauth-u2m-beta",
+  "title": "Authenticate as a service principal using OAuth U2M (Beta)",
+  "date": "2026-05-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#authenticate-as-a-service-principal-using-oauth-u2m-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use the OAuth U2M flow to obtain tokens as a service principal's identity instead of your own user account. You must have the **Service Principal Manager** role on the service principal.\n\nSee [Authenticate as a service principal using OAuth U2M](/aws/en/dev-tools/auth/oauth-u2m#oauth-u2m-sp).",
+  "ref_links": [
+    {
+      "text": "Authenticate as a service principal using OAuth U2M",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-u2m#oauth-u2m-sp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.680940Z"
+}

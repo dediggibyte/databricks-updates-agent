@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-26-python-unit-testing-in-the-workspace",
+  "title": "Python unit testing in the workspace",
+  "date": "2026-02-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#python-unit-testing-in-the-workspace",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks now provides integrated Python unit testing tools in the workspace. Use the tests sidebar, inline execution glyphs, and testing results bottom panel tab to discover, run, and debug pytest-based tests. See [Python unit testing in the workspace](/aws/en/files/python-unit-tests).",
+  "ref_links": [
+    {
+      "text": "Python unit testing in the workspace",
+      "url": "https://docs.databricks.com/aws/en/files/python-unit-tests"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.936592Z"
+}

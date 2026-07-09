@@ -1,0 +1,28 @@
+{
+  "product": "Genie SQL improvements, API enhancements, and bug fixes",
+  "tagline": "Upgraded large language models (LLMs): The LLMs used by Genie to author SQL have been upgraded for improved accuracy and performance.",
+  "updated": "Sep 18, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/api/workspace/genie/getmessage#attachments-suggested_questions",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-sql-improvements-api-enhancements-and-bug-fixes",
+  "what_it_does": "Upgraded large language models (LLMs): The LLMs used by Genie to author SQL have been upgraded for improved accuracy and performance. SQL autocomplete: Autocomplete is now available when editing Genie SQL to help users write queries more efficiently. Feedback API endpoints: Thumbs up and thumbs down feedback API endpoints are now available for collecting user feedback on Genie responses.",
+  "why_it_matters": "Upgraded large language models (LLMs): The LLMs used by Genie to author SQL have been upgraded for improved accuracy and performance.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Upgraded large language models (LLMs): The LLMs used by Genie to author SQL have been upgraded for improved accuracy and performance.",
+  "note_id": "2025-09-18-genie-sql-improvements-api-enhancements-and-bug-fixes",
+  "category": "platform"
+}

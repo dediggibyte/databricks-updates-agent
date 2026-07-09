@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-20-expanded-feature-support-for-fips-compliant-environments",
+  "title": "Expanded feature support for FIPS-Compliant environments",
+  "date": "2025-06-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#expanded-feature-support-for-fips-compliant-environments",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Model Serving CPU and GPU workloads, Foundation Model API provisioned throughput endpoints (excluding LLaMA 4), Mosaic AI Gateway, and external models are now available in FIPS-compliant environments. This includes support for the following compliance standards offered through the compliance security profile:\n\n* FedRAMP Moderate\n* IRAP\n* Canada Protected B\n\nSee  [Compliance security profile standards: CPU and GPU workloads](/aws/en/machine-learning/model-serving/model-serving-limits#csp-cpu-aws) for region availability of these standards.",
+  "ref_links": [
+    {
+      "text": "Compliance security profile standards: CPU and GPU workloads",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/model-serving-limits#csp-cpu-aws"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.344941Z"
+}

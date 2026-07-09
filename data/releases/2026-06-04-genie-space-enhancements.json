@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-04-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-06-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie Chat prompt monitoring (Beta)**: Prompts and responses initiated by Genie Chat are now visible in Genie Spaces monitoring when the sharing Beta is enabled.\n* **Knowledge store edit confirmation dialog**: A confirmation dialog now appears before an author removes a table that has knowledge store edits (for example, local table or column descriptions or hidden columns).\n* **Delete conversations**: Users with CAN MANAGE permission can now delete the conversations of other users from the UI, matching existing API capabilities. See [Delete a conversation](/aws/en/genie/monitor#delete-conversation).\n* **Embed Genie Space as an iframe (GA)**: Embedding a Genie Space as an iframe is now generally available. See [Embed a Genie Agent in an external app](/aws/en/genie/embed).",
+  "ref_links": [
+    {
+      "text": "Delete a conversation",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#delete-conversation"
+    },
+    {
+      "text": "Embed a Genie Agent in an external app",
+      "url": "https://docs.databricks.com/aws/en/genie/embed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.626744Z"
+}

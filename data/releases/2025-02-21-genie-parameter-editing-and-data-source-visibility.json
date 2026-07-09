@@ -1,0 +1,17 @@
+{
+  "id": "2025-02-21-genie-parameter-editing-and-data-source-visibility",
+  "title": "Genie parameter editing and data source visibility",
+  "date": "2025-02-21",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-parameter-editing-and-data-source-visibility",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Edit parameters in a response**: You can now edit the parameter values used to generate a response to a trusted question. See [Review a response](/aws/en/genie/talk-to-genie#review-response).\n* **View data sources in Genie**: Genie now displays the tables used as source data for each response.\n* **Avoid unnecessary wait times in Genie**: You can now cancel a SQL query execution during the **Waiting for warehouse** state to avoid unnecessary wait times.\n* **Improved error messaging in Genie**: Removed duplicate error messages from generated visualizations.",
+  "ref_links": [
+    {
+      "text": "Review a response",
+      "url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#review-response"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.436795Z"
+}

@@ -1,0 +1,37 @@
+{
+  "product": "Databricks-to-Databricks Delta Sharing across regulatory domains is now…",
+  "tagline": "Databricks to Databricks Delta Sharing supports sharing across regulatory domains.",
+  "updated": "Jun 15, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/share-data-databricks#cloud-envs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-to-databricks-delta-sharing-across-regulatory-domains-is-now-available-public-preview",
+  "what_it_does": "Databricks to Databricks Delta Sharing supports sharing across regulatory domains. Commercial workspaces can also share with AWS GovCloud, AWS GovCloud DoD, and Azure China. Sharing between Azure China and either AWS GovCloud or AWS GovCloud DoD is not supported.",
+  "why_it_matters": "This approach uses the OpenSharing server that is built into Databricks and provides support for notebook sharing, Unity Catalog data governance, auditing, and usage tracking for both providers and recipients.",
+  "capabilities": [
+    {
+      "title": "A commercial cloud shares to",
+      "desc": "A commercial cloud shares to or receives shares from either AWS GovCloud or AWS GovCloud DoD."
+    },
+    {
+      "title": "AWS GovCloud and AWS GovCloud",
+      "desc": "AWS GovCloud and AWS GovCloud DoD share with each other."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks to Databricks Delta Sharing supports sharing across regulatory domains.",
+  "note_id": "2026-06-15-ce2b1bf4",
+  "category": "platform"
+}

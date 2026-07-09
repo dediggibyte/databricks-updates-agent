@@ -1,0 +1,12 @@
+{
+  "id": "2026-02-05-genie-space-improvements",
+  "title": "Genie Space improvements",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Embedded compute credentials**: Compute credentials are now embedded for all users of a Genie Space. These credentials are embedded when a Genie Space author changes the attached warehouse in the Genie Space.\n* **Paginated column lists**: Column lists in the Configure tab are now paginated for improved usability, especially for rendering tables with many columns.\n* **Tag search**: Tag search is now supported for Genie Spaces, allowing users to find spaces by their assigned tags.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.981767Z"
+}

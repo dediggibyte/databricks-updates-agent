@@ -1,0 +1,12 @@
+{
+  "id": "2025-10-23-databricks-jdbc-driver-2-7-5",
+  "title": "Databricks JDBC Driver 2.7.5",
+  "date": "2025-10-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-jdbc-driver-275",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks JDBC Driver (Simba) version 2.7.5 is now available with the following improvements:\n\n**New features**\n\nThe connector now supports Kerberos with proxy connections. To enable Kerberos proxy, set `UseProxy=1` and `ProxyAuth=2`. To set proxy details, use `ProxyHost`, `ProxyPort`, `ProxyKrbRealm`, `ProxyKrbFQDN`, and `ProxyKrbService`.\n\n**Resolved issues**\n\n* Fixed an issue where the connector failed to run complex queries that contained `?` characters in native mode.\n* Fixed intermittent failures in Unity Catalog volume ingestion caused by unexpected connector behavior.\n* Fixed an assertion error in `getColumns` when a table included a column of type `Void` or `Variant` and the `java -ea` flag was enabled.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.156081Z"
+}

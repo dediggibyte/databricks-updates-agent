@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-08-databricks-runtime-18-2-and-databricks-runtime-18-2-ml-are-in-beta",
+  "title": "Databricks Runtime 18.2 and Databricks Runtime 18.2 ML are in Beta",
+  "date": "2026-04-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#databricks-runtime-182-and-databricks-runtime-182-ml-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 18.2 and Databricks Runtime 18.2 ML are now in Beta, powered by Apache Spark 4.1.0.\n\nSee [Databricks Runtime 18.2](/aws/en/release-notes/runtime/18.2) and [Databricks Runtime 18.2 for Machine Learning](/aws/en/release-notes/runtime/18.2ml).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 18.2",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18.2"
+    },
+    {
+      "text": "Databricks Runtime 18.2 for Machine Learning",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18.2ml"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.812341Z"
+}

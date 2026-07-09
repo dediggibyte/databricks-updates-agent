@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-30-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-04-30",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-7",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Publish with service principal credentials**: Authors can now publish dashboards using the data credentials of a service principal. See [Publish a dashboard](/aws/en/dashboards/share/share#publish-dashboard).\n* **Service principal draft view fix**: Fixed a bug where a dashboard published via a service principal loses the ability to view draft.\n* **Text widget menu fix**: Removed **Show visualization query** from the kebab menu on text widgets.\n* **Service principal ownership**: Workspace admins can now transfer dashboard ownership to a service principal in the UI. See [Transfer ownership of a dashboard](/aws/en/ai-bi/admin#transfer-ownership).\n* **Choropleth map admin levels**: Choropleth maps now support US admin levels 3 (regions, multi-state groupings) and 4 (states). See [Map visualizations](/aws/en/dashboards/manage/visualizations/maps).\n* **Publish notification fix**: Fixed a bug where a publish success notification appeared even if the underlying publish failed.\n* **SQL editor line numbers**: The SQL query editor now displays line numbers to help with legibility and debugging.\n* **PDF subscription page selection**: Dashboard authors can now select which pages to include in PDF email subscriptions. See [Manage scheduled dashboard updates and subscriptions](/aws/en/dashboards/share/schedule-subscribe).\n* **Parameter values in widget titles and descriptions**: Dashboard authors can now reference parameter values in widget titles and descriptions, so the text updates dynamically as viewers change parameter selections. See [Work with dashboard parameters](/aws/en/dashboards/manage/filters/parameters).",
+  "ref_links": [
+    {
+      "text": "Publish a dashboard",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/share#publish-dashboard"
+    },
+    {
+      "text": "Transfer ownership of a dashboard",
+      "url": "https://docs.databricks.com/aws/en/ai-bi/admin#transfer-ownership"
+    },
+    {
+      "text": "Map visualizations",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/maps"
+    },
+    {
+      "text": "Manage scheduled dashboard updates and subscriptions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe"
+    },
+    {
+      "text": "Work with dashboard parameters",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.749005Z"
+}

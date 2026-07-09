@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-03-select-tables-and-create-pivot-tables-in-google-sheets",
+  "title": "Select tables and create pivot tables in Google Sheets",
+  "date": "2026-02-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#select-tables-and-create-pivot-tables-in-google-sheets",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now directly select Databricks tables from the Catalog Explorer and import data as pivot tables in Google Sheets using the Databricks Connector. See [Databricks Connector for Google Sheets](/aws/en/integrations/google-sheets).",
+  "ref_links": [
+    {
+      "text": "Databricks Connector for Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.004855Z"
+}

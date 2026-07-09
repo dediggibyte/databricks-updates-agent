@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-23-genie-one-app-search",
+  "title": "Genie One app search",
+  "date": "2026-04-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-app-search",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Databricks Apps search**: You can now search for Databricks Apps from the Genie One search bar.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.768574Z"
+}

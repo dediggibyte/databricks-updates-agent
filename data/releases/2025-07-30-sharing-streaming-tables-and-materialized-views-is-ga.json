@@ -1,0 +1,25 @@
+{
+  "id": "2025-07-30-sharing-streaming-tables-and-materialized-views-is-ga",
+  "title": "Sharing streaming tables and materialized views is GA",
+  "date": "2025-07-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#sharing-streaming-tables-and-materialized-views-is-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Using Delta Sharing to share streaming tables and materialized views is generally available. There are fewer limitations for share recipients and providers when sharing streaming tables and materialized views.\n\nSee [Add streaming tables to a share](/aws/en/opensharing/create-share#streaming-tables), [Add materialized views to a share](/aws/en/opensharing/create-share#materialized-views), and [Read shared streaming tables and materialized views](/aws/en/opensharing/read-data-databricks#st-and-mv).",
+  "ref_links": [
+    {
+      "text": "Add streaming tables to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#streaming-tables"
+    },
+    {
+      "text": "Add materialized views to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#materialized-views"
+    },
+    {
+      "text": "Read shared streaming tables and materialized views",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#st-and-mv"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.296881Z"
+}

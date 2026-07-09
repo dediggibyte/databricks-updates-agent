@@ -1,0 +1,21 @@
+{
+  "id": "2025-11-20-dashboard-visualization-improvements-and-bug-fixes",
+  "title": "Dashboard visualization improvements and bug fixes",
+  "date": "2025-11-20",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-improvements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Counter visualization improvements**: You can now use counters to track and compare metrics over time and show sparklines. To create a counter with a sparkline, select a main value and a date column. See [Counter visualization](/aws/en/dashboards/manage/visualizations/types#counter).\n* **Configure filter application behavior**: Dashboards now support applying multiple filters at the same time alongside the default instant application. See [Configure filter application behavior](/aws/en/dashboards/manage/settings#apply-filters).\n* **Fixed data label positioning**: Resolved an issue where data labels were sometimes half above and half below bars on bar charts.\n* **Fixed label color legibility**: Resolved an issue where label color was not legible against all background colors.",
+  "ref_links": [
+    {
+      "text": "Counter visualization",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#counter"
+    },
+    {
+      "text": "Configure filter application behavior",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#apply-filters"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.104339Z"
+}

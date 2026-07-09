@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-06-new-mcp-server-tab",
+  "title": "New MCP server tab",
+  "date": "2025-11-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#new-mcp-server-tab",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new **MCP Servers** tab in the workspace shows your managed and external MCP servers, and a curated list of MCP servers available to install from Databricks Marketplace.\n\nSee [Model Context Protocol (MCP) on Databricks](/aws/en/agents/mcp).",
+  "ref_links": [
+    {
+      "text": "Model Context Protocol (MCP) on Databricks",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.127387Z"
+}

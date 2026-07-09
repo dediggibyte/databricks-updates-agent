@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-11-serverless-workspaces-are-now-public-preview",
+  "title": "Serverless workspaces are now Public Preview",
+  "date": "2025-08-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-workspaces-are-now-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless workspaces come pre-configured with serverless compute and default storage to provide a completely serverless experience. Account admins can enable the serverless workspaces Public Preview in the account console. See [Create a serverless workspace](/aws/en/admin/workspace/serverless-workspaces).",
+  "ref_links": [
+    {
+      "text": "Create a serverless workspace",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace/serverless-workspaces"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.276358Z"
+}

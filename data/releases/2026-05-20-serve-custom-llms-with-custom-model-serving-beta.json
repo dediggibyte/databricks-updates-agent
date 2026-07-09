@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-20-serve-custom-llms-with-custom-model-serving-beta",
+  "title": "Serve custom LLMs with Custom Model Serving (Beta)",
+  "date": "2026-05-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#serve-custom-llms-with-custom-model-serving-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now serve custom and fine-tuned LLMs on Databricks with a vLLM engine, including multimodal models and PEFT recipes that Foundation Model APIs does not support. Custom LLM Serving is in Beta. See [Serve custom LLMs with Custom Model Serving](/aws/en/machine-learning/model-serving/serve-custom-llms).",
+  "ref_links": [
+    {
+      "text": "Serve custom LLMs with Custom Model Serving",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/serve-custom-llms"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.679170Z"
+}

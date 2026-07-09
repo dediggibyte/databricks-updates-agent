@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-18-discover-page-and-domains-beta",
+  "title": "Discover page and domains (Beta)",
+  "date": "2026-02-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#discover-page-and-domains-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [Discover page](/aws/en/discover/discover-page) provides a centralized interface for searching, browsing, and previewing data assets governed by Unity Catalog. This Beta release introduces:\n\n* **Domains**: Business-aligned organization layer that groups data assets by functional area (for example, *Marketing*, or *Finance*) to improve discovery and stewardship\n* **Custom curation**: Curators can customize and highlight specific assets in their organization or domain\n* **AI-powered recommendations**: Surface popular and valuable datasets to enable curation at scale\n* **Unified discovery**: Access tables, dashboards, Genie spaces, and more in one place\n\nDomains are built on governed tags, allowing you to organize data assets in a way that's best suited for your business needs.",
+  "ref_links": [
+    {
+      "text": "Discover page",
+      "url": "https://docs.databricks.com/aws/en/discover/discover-page"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.950863Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-02-4a61c075",
+  "title": "Migrate Lakeflow Spark Declarative Pipelines from legacy publishing mode is rolled back to Public Preview",
+  "date": "2025-09-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#migrate-lakeflow-spark-declarative-pipelines-from-legacy-publishing-mode-is-rolled-back-to-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakeflow Spark Declarative Pipelines includes a legacy publishing mode that previously limited publishing to a single catalog and schema. Default publishing mode enables publishing to multiple catalogs and schemas. A feature, recently released as generally available, can help migrate from the legacy publishing mode to the default publishing mode. Due to an issue found after release, the migration feature has been rolled back to Public Preview status and functionality.\n\nSee [Enable the default publishing mode in a pipeline](/aws/en/ldp/migrate-to-dpm)",
+  "ref_links": [
+    {
+      "text": "Enable the default publishing mode in a pipeline",
+      "url": "https://docs.databricks.com/aws/en/ldp/migrate-to-dpm"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.234530Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-23-comment-on-streaming-tables-is-now-ga",
+  "title": "COMMENT ON streaming tables is now GA",
+  "date": "2026-02-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#comment-on-streaming-tables-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`COMMENT ON TABLE` to add or update comments on streaming tables is now generally available.\n\nSee [COMMENT ON](/aws/en/sql/language-manual/sql-ref-syntax-ddl-comment).",
+  "ref_links": [
+    {
+      "text": "COMMENT ON",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-comment"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.941275Z"
+}

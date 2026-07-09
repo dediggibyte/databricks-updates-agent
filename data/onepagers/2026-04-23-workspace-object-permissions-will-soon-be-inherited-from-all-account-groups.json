@@ -1,0 +1,28 @@
+{
+  "product": "Workspace object permissions will soon be inherited from all account groups",
+  "tagline": "In an upcoming release, workspace object permissions will be inherited from all account groups, not just groups directly assigned to the workspace.",
+  "updated": "Apr 23, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#workspace-object-permissions-will-soon-be-inherited-from-all-account-groups",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#workspace-object-permissions-will-soon-be-inherited-from-all-account-groups",
+  "what_it_does": "In an upcoming release, workspace object permissions will be inherited from all account groups, not just groups directly assigned to the workspace. Principals will inherit permissions on workspace objects, such as jobs, notebooks, folders, queries, and dashboards, from all account groups of which they are a member, regardless of whether those groups are assigned to the workspace. Users still need to be assigned to the workspace to use these permissions.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "In an upcoming release, workspace object permissions will be inherited from all account groups, not just groups directly assigned to the workspace.",
+  "note_id": "2026-04-23-workspace-object-permissions-will-soon-be-inherited-from-all-account-groups",
+  "category": "platform"
+}

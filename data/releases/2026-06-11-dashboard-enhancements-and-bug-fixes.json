@@ -1,0 +1,29 @@
+{
+  "id": "2026-06-11-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-06-11",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Gantt charts now available**: Gantt charts display tasks as horizontal bars on a continuous axis to visualize project schedules, manufacturing workflows, and other time-ranged events. Each bar requires matching start and end field types (date, datetime, or numeric). See [Gantt chart](/aws/en/dashboards/manage/visualizations/types#gantt).\n* **Custom visualizations (Public Preview)**: Build custom charts with the Vega-Lite library for customization beyond the built-in visualization types. See [Custom visualizations in AI/BI dashboards](/aws/en/dashboards/manage/visualizations/custom-visualizations).\n* **Per-category font customization**: You can now customize fonts per category across all visualization types. See [Customize colors and fonts](/aws/en/dashboards/manage/settings#custom-font).\n* **Table row cross-filtering and drill-through**: Select table rows to cross-filter, or right-click to drill through.\n* **Cross-filtering and drill-through**: Line, combo, and area charts now support cross-filtering and drill-through filters. See [Use drill-through to filter data](/aws/en/dashboards/manage/filters#drill-through-filter).\n* **Dashboard details in draft mode**: Draft mode now shows dashboard details, making it easier to find dashboard managers and the dashboard's location.\n* **New metric view low-code editor syntax (Public Preview)**: The following syntax is now available in the metric view low-code editor:\n  + `JOIN … RELY`\n  + `WINDOW OFFSET`\n  + `WINDOW INCLUSIVITY`\n* **Genie Code metric view usage**: Genie Code now relies more heavily on Unity Catalog metric views rather than creating local ones.\n* **Global filters pane fix**: Fixed a bug where the global filters pane did not open on a user's first view of a dashboard.\n* **Widget copy-paste fix**: Fixed a bug where users could not copy and paste widgets across dashboards.\n* **Tableau line chart import fix (Beta)**: Fixed an issue where multi-series line charts imported from Tableau files were recreated as separate line charts.",
+  "ref_links": [
+    {
+      "text": "Gantt chart",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#gantt"
+    },
+    {
+      "text": "Custom visualizations in AI/BI dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/custom-visualizations"
+    },
+    {
+      "text": "Customize colors and fonts",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#custom-font"
+    },
+    {
+      "text": "Use drill-through to filter data",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#drill-through-filter"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.589072Z"
+}

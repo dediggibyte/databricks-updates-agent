@@ -1,0 +1,21 @@
+{
+  "id": "2025-01-15-chart-visualization-updates",
+  "title": "Chart visualization updates",
+  "date": "2025-01-15",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#chart-visualization-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new chart system with improved performance, enhanced color schemes, and faster interactivity is now generally available. See [Visualizations in Databricks notebooks and SQL editor](/aws/en/visualizations) and [Notebook and SQL editor visualization types](/aws/en/visualizations/visualization-types).",
+  "ref_links": [
+    {
+      "text": "Visualizations in Databricks notebooks and SQL editor",
+      "url": "https://docs.databricks.com/aws/en/visualizations"
+    },
+    {
+      "text": "Notebook and SQL editor visualization types",
+      "url": "https://docs.databricks.com/aws/en/visualizations/visualization-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.442596Z"
+}

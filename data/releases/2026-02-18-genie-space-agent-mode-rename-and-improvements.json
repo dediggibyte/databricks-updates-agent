@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-18-genie-space-agent-mode-rename-and-improvements",
+  "title": "Genie Space Agent mode rename and improvements",
+  "date": "2026-02-18",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-agent-mode-rename-and-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Research Agent renamed to Agent mode (Beta)**: The rename better aligns with the feature's function. See [Agent mode in Genie Agents](/aws/en/genie/agent-mode).\n* **Improved Agent mode (Beta) responses**: Agent mode now produces more concise and faster responses for \"what\" type questions through improved system prompting.",
+  "ref_links": [
+    {
+      "text": "Agent mode in Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie/agent-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.948976Z"
+}

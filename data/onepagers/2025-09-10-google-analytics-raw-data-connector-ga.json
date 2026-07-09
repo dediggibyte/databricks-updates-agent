@@ -1,0 +1,28 @@
+{
+  "product": "Google Analytics Raw Data connector GA",
+  "tagline": "The Google Analytics Raw Data connector in Lakeflow Connect is now generally available.",
+  "updated": "Sep 10, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-analytics-source-setup",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#google-analytics-raw-data-connector-ga",
+  "what_it_does": "The Google Analytics Raw Data connector in Lakeflow Connect is now generally available. This page describes how to set up Google Analytics 4 (GA4) and Google BigQuery (BigQuery) to ingest raw, event level data into Databricks. Choose an authentication method The following authentication methods are supported: OAuth (recommended) Basic authentication with a service account JSON Databricks recommends OAuth because it’s more secure.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Google Analytics Raw Data connector in Lakeflow Connect is now generally available.",
+  "note_id": "2025-09-10-google-analytics-raw-data-connector-ga",
+  "category": "platform"
+}

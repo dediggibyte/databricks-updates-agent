@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-13-abac-policy-functions-now-use-snake-case-naming",
+  "title": "ABAC policy functions now use snake_case naming",
+  "date": "2026-03-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#abac-policy-functions-now-use-snake_case-naming",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "ABAC policy tag functions now use snake\\_case naming (`has_tag`, `has_tag_value`, `has_column_tag`, `has_column_tag_value`), consistent with other Databricks SQL built-in functions. The camelCase forms (`hasTag`, `hasTagValue`, `hasColumnTag`, `hasColumnTagValue`) continue to work for backward compatibility, but Databricks plans to deprecate their use when creating new policies in the future. Databricks recommends updating any new policies to use the snake\\_case forms. See [Create and manage row filter and column mask policies](/aws/en/data-governance/unity-catalog/abac/policies).",
+  "ref_links": [
+    {
+      "text": "Create and manage row filter and column mask policies",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/policies"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.872680Z"
+}

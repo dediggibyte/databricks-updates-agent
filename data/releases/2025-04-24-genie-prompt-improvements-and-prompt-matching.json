@@ -1,0 +1,21 @@
+{
+  "id": "2025-04-24-genie-prompt-improvements-and-prompt-matching",
+  "title": "Genie prompt improvements and prompt matching",
+  "date": "2025-04-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-prompt-improvements-and-prompt-matching",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Distilled top-k prompt snippet**: Replaced the original top-k prompt snippet with a shorter version (25% of the original token count) to reduce irrelevant context and improve LLM response accuracy.\n* **Clearer permissions warnings**: Added a banner that explains when a user tries to access a Genie Space containing tables they no longer have access to or that have been removed.\n* **Clearer next steps for permissions issues**: When users try to select a table they can't read, the error message now explicitly advises them to request access from the asset owner.\n* **Improved collapsed visualizations**: Collapsed visualizations now display the chart title in a full-width header bar with hover feedback and an expand icon. You can click or press Enter or Space to expand or collapse the visualization, improving keyboard accessibility and clarity.\n* **Genie prompt matching can now be enabled from the previews page**: Admins can now enable **Prompt matching** (previously data sampling), which allows Genie authors to add entity matching columns that improve Genie's ability to answer user prompts using correct columns and row values, from [Previews](/aws/en/admin/workspace-settings/manage-previews). See [Tune Genie Agent quality](/aws/en/genie/tune-quality).",
+  "ref_links": [
+    {
+      "text": "Previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "Tune Genie Agent quality",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.404765Z"
+}

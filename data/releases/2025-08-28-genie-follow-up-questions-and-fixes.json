@@ -1,0 +1,12 @@
+{
+  "id": "2025-08-28-genie-follow-up-questions-and-fixes",
+  "title": "Genie follow-up questions and fixes",
+  "date": "2025-08-28",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-follow-up-questions-and-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Fixed cloning issue for large spaces**: Spaces with a large number of instructions can now be cloned successfully.\n* **Fixed CSV download issue on Windows**: Downloaded query result files now open reliably on Windows.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.240130Z"
+}

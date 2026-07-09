@@ -1,0 +1,25 @@
+{
+  "id": "2025-08-25-4c75319d",
+  "title": "Budget policy support for Lakebase database instances and synced tables (Public Preview)",
+  "date": "2025-08-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#budget-policy-support-for-lakebase-database-instances-and-synced-tables-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now tag a database instance and a synced table with a budget policy to attribute billing usage to specific policies. Additionally, custom tags can be added to a database instance for more granular attribution of compute usage to teams, projects, or cost centers.\n\nSee [Update a serverless usage policy of a database instance](/aws/en/oltp/instances/create#update-policy), [Create a synced table](/aws/en/oltp/instances/sync-data/sync-table#create), and [Custom tags](/aws/en/admin/account-settings/usage-detail-tags#custom-tags).",
+  "ref_links": [
+    {
+      "text": "Update a serverless usage policy of a database instance",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/create#update-policy"
+    },
+    {
+      "text": "Create a synced table",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/sync-data/sync-table#create"
+    },
+    {
+      "text": "Custom tags",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/usage-detail-tags#custom-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.251052Z"
+}

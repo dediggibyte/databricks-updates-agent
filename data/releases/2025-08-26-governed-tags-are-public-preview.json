@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-26-governed-tags-are-public-preview",
+  "title": "Governed tags are Public Preview",
+  "date": "2025-08-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#governed-tags-are-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create governed tags to enforce consistent tagging across data assets such as catalogs, schemas, and tables. Using governed tags, admins define the allowed keys and values and control which users and groups can assign them to objects. This helps standardize metadata for data classification, cost tracking, access control, and automation.\n\nSee [Governed tags](/aws/en/admin/governed-tags).",
+  "ref_links": [
+    {
+      "text": "Governed tags",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.244765Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2025-09-04-ai-bi-dashboard-active-filter-bar-and-visualization-improvements",
+  "title": "AI/BI dashboard active filter bar and visualization improvements",
+  "date": "2025-09-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#aibi-dashboard-active-filter-bar-and-visualization-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Active filter bar**: A new filter bar shows all active filters on a dashboard. Any filter (global or page-level) not set to **All**, as well as any cross-filtering, appears in this bar.\n* **Minimum and maximum aggregations for date fields**: Date fields now support minimum and maximum aggregations.\n* **Improved histogram labels**: Histograms now display both the start and end of each bin, instead of only the start.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.228926Z"
+}

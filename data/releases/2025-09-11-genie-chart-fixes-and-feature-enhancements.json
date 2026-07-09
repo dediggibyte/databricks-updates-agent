@@ -1,0 +1,21 @@
+{
+  "id": "2025-09-11-genie-chart-fixes-and-feature-enhancements",
+  "title": "Genie chart fixes and feature enhancements",
+  "date": "2025-09-11",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-chart-fixes-and-feature-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Fixed thin bars on binned date charts**: Resolved an issue where very thin bars appeared in bar charts with binned dates.\n* **Fixed single-point maps**: Point maps now render correctly even when only a single point is present.\n* **Increased entity matching limit**: Spaces can now include up to 120 entity matching (previously value dictionary) columns. Newly created spaces automatically select 120 columns. For existing spaces, authors can configure settings to add more. See [Configure entity matching](/aws/en/genie/tune-quality#configure-entity-matching).\n* **Improved accuracy for percentage questions**: Genie now returns more accurate results for percentage-type queries, such as conversion rates, with correct rounding to two digits.\n* **Fixed unsaved instruction warning**: The warning dialog for unsaved instruction changes now dismisses correctly.\n* **Fixed cloning issue for spaces with 100 instructions**: Spaces containing 100 instructions can now be cloned successfully.\n* **Space ID field in settings**: A new field in the settings page lets users directly copy the Genie Space ID for use in building Genie Space agents.\n* **Upload files in Public Preview**: Workspace admins can now manage the **Genie - Upload File** feature from the previews page. See [Upload a file to a Genie Agent](/aws/en/genie/file-upload).",
+  "ref_links": [
+    {
+      "text": "Configure entity matching",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#configure-entity-matching"
+    },
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/file-upload"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.220602Z"
+}

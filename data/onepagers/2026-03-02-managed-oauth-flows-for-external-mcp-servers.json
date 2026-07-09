@@ -1,0 +1,28 @@
+{
+  "product": "Managed OAuth flows for external MCP servers",
+  "tagline": "Databricks now provides managed OAuth flows for select external MCP servers, eliminating the need to register your own OAuth app or manage credentials.",
+  "updated": "Mar 2, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-framework/mcp-services#install",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#managed-oauth-flows-for-external-mcp-servers",
+  "what_it_does": "Databricks now provides managed OAuth flows for select external MCP servers, eliminating the need to register your own OAuth app or manage credentials. Supported providers include Glean MCP, GitHub MCP, Google Drive API, and SharePoint API. Beta This feature is in Beta.",
+  "why_it_matters": "An MCP Service is a Unity Catalog securable that registers an external MCP server and governs how agents use it.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks now provides managed OAuth flows for select external MCP servers, eliminating the need to register your own OAuth app or manage credentials.",
+  "note_id": "2026-03-02-managed-oauth-flows-for-external-mcp-servers",
+  "category": "platform"
+}

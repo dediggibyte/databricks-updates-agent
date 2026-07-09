@@ -1,0 +1,29 @@
+{
+  "id": "2026-04-30-mlflow-trace-storage-in-unity-catalog-is-now-in-public-preview",
+  "title": "MLflow trace storage in Unity Catalog is now in Public Preview",
+  "date": "2026-04-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#mlflow-trace-storage-in-unity-catalog-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "MLflow trace storage in Unity Catalog tables, previously in Beta, is now in [Public Preview](/aws/en/release-notes/release-types). Traces are stored in OpenTelemetry (OTel) format, access is governed through Unity Catalog schema and table permissions, and you can query traces from Databricks SQL or the MLflow Python SDK. For supported regions, see [Features with limited regional availability](/aws/en/resources/feature-region-support).\n\nSee [Store OpenTelemetry traces in Unity Catalog](/aws/en/mlflow3/genai/tracing/trace-unity-catalog) and [Query OpenTelemetry traces stored in Unity Catalog](/aws/en/mlflow3/genai/tracing/observe-with-traces/query-dbsql).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Features with limited regional availability",
+      "url": "https://docs.databricks.com/aws/en/resources/feature-region-support"
+    },
+    {
+      "text": "Store OpenTelemetry traces in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/trace-unity-catalog"
+    },
+    {
+      "text": "Query OpenTelemetry traces stored in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/observe-with-traces/query-dbsql"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.752657Z"
+}

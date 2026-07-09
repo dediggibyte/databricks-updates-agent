@@ -1,0 +1,12 @@
+{
+  "id": "2025-09-13-reload-notification-in-workspaces",
+  "title": "Reload notification in workspaces",
+  "date": "2025-09-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#reload-notification-in-workspaces",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In an upcoming release, a message to reload your workspace tab will display if your workspace tab has been open for a long time without refreshing. This will help ensure you are always using the latest version of Databricks with the newest features and fixes.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.217473Z"
+}

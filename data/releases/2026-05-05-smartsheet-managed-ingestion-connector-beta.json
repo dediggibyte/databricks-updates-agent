@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-05-smartsheet-managed-ingestion-connector-beta",
+  "title": "Smartsheet managed ingestion connector (Beta)",
+  "date": "2026-05-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#smartsheet-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Smartsheet connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest data from Smartsheet into Databricks. See [Smartsheet connector](/aws/en/ingestion/lakeflow-connect/smartsheet-overview).",
+  "ref_links": [
+    {
+      "text": "Smartsheet connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/smartsheet-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.731101Z"
+}

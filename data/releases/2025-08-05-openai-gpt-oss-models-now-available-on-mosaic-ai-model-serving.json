@@ -1,0 +1,25 @@
+{
+  "id": "2025-08-05-openai-gpt-oss-models-now-available-on-mosaic-ai-model-serving",
+  "title": "OpenAI GPT OSS models now available on Mosaic AI Model Serving",
+  "date": "2025-08-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#openai-gpt-oss-models-now-available-on-mosaic-ai-model-serving",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports OpenAI's [GPT OSS 120B](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-120b) and [GPT OSS 20B](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-20b) as Databricks-hosted foundation models. You can access these models using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).",
+  "ref_links": [
+    {
+      "text": "GPT OSS 120B",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-120b"
+    },
+    {
+      "text": "GPT OSS 20B",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-20b"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.284566Z"
+}

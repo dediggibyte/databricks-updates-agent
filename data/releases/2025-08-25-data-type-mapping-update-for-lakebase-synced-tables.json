@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-25-data-type-mapping-update-for-lakebase-synced-tables",
+  "title": "Data type mapping update for Lakebase synced tables",
+  "date": "2025-08-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#data-type-mapping-update-for-lakebase-synced-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "For newly created synced tables, `TIMESTAMP` types in source tables are now mapped to `TIMESTAMP WITH TIMEZONE` in synced tables. In existing synced tables, `TIMESTAMP` types continue to map to `TIMESTAMP WITHOUT TIMEZONE`.\n\nSee [Data type mapping](/aws/en/oltp/instances/sync-data/sync-table#data-type-mapping).",
+  "ref_links": [
+    {
+      "text": "Data type mapping",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/sync-data/sync-table#data-type-mapping"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.248963Z"
+}

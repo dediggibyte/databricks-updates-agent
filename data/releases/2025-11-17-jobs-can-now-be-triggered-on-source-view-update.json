@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-17-jobs-can-now-be-triggered-on-source-view-update",
+  "title": "Jobs can now be triggered on source view update",
+  "date": "2025-11-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#jobs-can-now-be-triggered-on-source-view-update",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Table update triggers for jobs now support views as a source, when the view references supported table types. See [Trigger jobs when source tables are updated](/aws/en/jobs/trigger-table-update).",
+  "ref_links": [
+    {
+      "text": "Trigger jobs when source tables are updated",
+      "url": "https://docs.databricks.com/aws/en/jobs/trigger-table-update"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.111553Z"
+}

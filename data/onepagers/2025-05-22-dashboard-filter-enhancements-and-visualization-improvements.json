@@ -1,0 +1,28 @@
+{
+  "product": "Dashboard filter enhancements and visualization improvements",
+  "tagline": "Exclude selected values in filter widgets: Dashboard viewers can now include or exclude the values they select from multi select filter widgets.",
+  "updated": "May 22, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-filter-enhancements-and-visualization-improvements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-filter-enhancements-and-visualization-improvements",
+  "what_it_does": "Exclude selected values in filter widgets: Dashboard viewers can now include or exclude the values they select from multi select filter widgets. Drop down selection fix: Fixed an issue where selection options in a drop down list appeared out of order. Global filters panel: Dashboard authors can now add filters to a global filters panel, which applies across all dashboard pages.",
+  "why_it_matters": "Relative date and time preview improvement: Previews for relative date and time controls are now hidden to avoid confusion caused by time zone differences.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Exclude selected values in filter widgets: Dashboard viewers can now include or exclude the values they select from multi select filter widgets.",
+  "note_id": "2025-05-22-dashboard-filter-enhancements-and-visualization-improvements",
+  "category": "platform"
+}

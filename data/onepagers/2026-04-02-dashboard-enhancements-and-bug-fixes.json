@@ -1,0 +1,28 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Clear applied filters individually: Dashboard viewers can now individually clear applied filters from the active selection bar.",
+  "updated": "Apr 2, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#explain-chart-changes",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-10",
+  "what_it_does": "Clear applied filters individually: Dashboard viewers can now individually clear applied filters from the active selection bar. Text box vertical alignment: Text box widgets now support vertical alignment (top, center, and bottom). Choropleth map boundaries: Choropleth maps now support additional boundary types, including ZIP code and NUTS regions.",
+  "why_it_matters": "Waterfall chart total bar visibility: The waterfall chart editor now hides the total bar toggle when the x axis configuration doesn't support it, reducing authoring confusion.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Clear applied filters individually: Dashboard viewers can now individually clear applied filters from the active selection bar.",
+  "note_id": "2026-04-02-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

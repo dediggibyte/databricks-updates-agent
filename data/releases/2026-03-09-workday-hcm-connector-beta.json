@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-09-workday-hcm-connector-beta",
+  "title": "Workday HCM connector (Beta)",
+  "date": "2026-03-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#workday-hcm-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed Workday HCM connector in Lakeflow Connect is now available in Beta. Use this connector to ingest data from Workday Human Capital Management into Databricks. See [Workday Human Capital Management (HCM) connector](/aws/en/ingestion/lakeflow-connect/workday-hcm-overview).",
+  "ref_links": [
+    {
+      "text": "Workday Human Capital Management (HCM) connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/workday-hcm-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.898264Z"
+}

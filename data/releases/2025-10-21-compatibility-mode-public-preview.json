@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-21-compatibility-mode-public-preview",
+  "title": "Compatibility Mode (Public Preview)",
+  "date": "2025-10-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#compatibility-mode-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Compatibility Mode is now in Public Preview. Compatibility Mode generates a read-only version of a Unity Catalog managed table, streaming table, or materialized view that is automatically synced with the original table. This enables external Delta Lake and Iceberg clients, such as Amazon Athena, Snowflake, and Microsoft Fabric to read your tables and views without sacrificing performance on Databricks. You can configure how often your read-only versions are refreshed, up to near real-time.\n\nSee [Compatibility Mode](/aws/en/external-access/compatibility-mode).",
+  "ref_links": [
+    {
+      "text": "Compatibility Mode",
+      "url": "https://docs.databricks.com/aws/en/external-access/compatibility-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.160859Z"
+}

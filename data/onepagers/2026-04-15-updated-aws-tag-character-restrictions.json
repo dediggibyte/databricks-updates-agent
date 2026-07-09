@@ -1,0 +1,28 @@
+{
+  "product": "Updated AWS tag character restrictions",
+  "tagline": "Custom usage tag character restrictions have been updated.",
+  "updated": "Apr 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/account-settings/usage-detail-tags#limitations",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#updated-aws-tag-character-restrictions",
+  "what_it_does": "Custom usage tag character restrictions have been updated. Tag keys and values now cannot contain spaces or /. Tag keys now cannot consist only of .",
+  "why_it_matters": "This article explains how to use tags to attribute compute usage to specific workspaces, teams, projects, or users to support cost tracking and budgeting.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Custom usage tag character restrictions have been updated.",
+  "note_id": "2026-04-15-updated-aws-tag-character-restrictions",
+  "category": "platform"
+}

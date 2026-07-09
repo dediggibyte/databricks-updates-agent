@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-26-hitrust-compliance-controls-public-preview",
+  "title": "HITRUST compliance controls (Public Preview)",
+  "date": "2026-02-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#hitrust-compliance-controls-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now enable HITRUST compliance controls to manage risk and demonstrate security and privacy compliance. See [HITRUST](/aws/en/security/privacy/hitrust).",
+  "ref_links": [
+    {
+      "text": "HITRUST",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/hitrust"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.934497Z"
+}

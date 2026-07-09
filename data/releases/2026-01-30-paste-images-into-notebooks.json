@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-30-paste-images-into-notebooks",
+  "title": "Paste images into notebooks",
+  "date": "2026-01-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#paste-images-into-notebooks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now copy images from your local file system and paste them into Markdown cells in Databricks notebooks using `⌘ + V` (Mac) or `Ctrl + V` (Windows). See [Display images](/aws/en/notebooks/notebook-media#display-images).",
+  "ref_links": [
+    {
+      "text": "Display images",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-media#display-images"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.011531Z"
+}

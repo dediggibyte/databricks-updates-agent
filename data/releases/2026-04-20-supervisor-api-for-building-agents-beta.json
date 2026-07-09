@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-20-supervisor-api-for-building-agents-beta",
+  "title": "Supervisor API for building agents (Beta)",
+  "date": "2026-04-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#supervisor-api-for-building-agents-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [Supervisor API (Beta)](/aws/en/agents/agent-bricks/supervisor-api) lets you build agents in a single API call. Define your model, tools, and instructions, and Databricks handles tool selection, execution, and response synthesis.",
+  "ref_links": [
+    {
+      "text": "Supervisor API (Beta)",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/supervisor-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.787243Z"
+}

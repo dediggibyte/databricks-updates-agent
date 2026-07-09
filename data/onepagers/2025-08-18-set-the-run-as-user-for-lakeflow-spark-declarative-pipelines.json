@@ -1,0 +1,45 @@
+{
+  "product": "Set the run-as user for Lakeflow Spark Declarative Pipelines",
+  "tagline": "You can now change the identity that a pipeline uses to run updates and the owner of tables published by the pipeline.",
+  "updated": "Aug 18, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/configure-pipeline#set-the-run-as-user",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#set-the-run-as-user-for-lakeflow-spark-declarative-pipelines",
+  "what_it_does": "You can now change the identity that a pipeline uses to run updates and the owner of tables published by the pipeline. This feature allows you to set a service principal as the run as identity, which is safer and more reliable than using user accounts for automated workloads. Common use cases include recovering pipelines when the original owner was deactivated and deploying pipelines with service principals as a best practice.",
+  "why_it_matters": "Use Cluster tags to help monitor costs associated with pipelines.",
+  "capabilities": [
+    {
+      "title": "Select a Worker type optimized",
+      "desc": "Select a Worker type optimized for the workloads configured in your pipeline."
+    },
+    {
+      "title": "You can optionally select a",
+      "desc": "You can optionally select a Driver type that differs from your worker type. This can be useful for reducing costs in pipelines…"
+    },
+    {
+      "title": "Workspace access permission to operate",
+      "desc": "Workspace access permission to operate within the workspace"
+    },
+    {
+      "title": "Can use permission on cluster",
+      "desc": "Can use permission on cluster policies used by the pipeline"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now change the identity that a pipeline uses to run updates and the owner of tables published by the pipeline.",
+  "note_id": "2025-08-18-set-the-run-as-user-for-lakeflow-spark-declarative-pipelines",
+  "category": "platform"
+}

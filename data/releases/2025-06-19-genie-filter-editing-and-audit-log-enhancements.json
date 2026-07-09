@@ -1,0 +1,12 @@
+{
+  "id": "2025-06-19-genie-filter-editing-and-audit-log-enhancements",
+  "title": "Genie filter editing and audit log enhancements",
+  "date": "2025-06-19",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-filter-editing-and-audit-log-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Editable filters in Genie**: Users can now edit filter values to refine responses. For string columns that have entity matching (previously value dictionaries) enabled, Genie uses context to determine when editable filters could improve accuracy and offers them accordingly.\n* **New audit log field for Genie comments**: A new `comment_type` field is available in the audit log response for the `createConversationMessageComment` action. When a user adds a feedback comment to a conversation message, the interaction is recorded as one of the following types:\n\n  + `REQUEST_COMMENT`: User leaves a feedback comment.\n  + `REVIEW_COMMENT`: Tracks following comments, such as when a space author responds.\n  + `THUMBS_DOWN_COMMENT`: User clicks **Fix it** to get a new response.\n* **List Spaces Genie API**: A new List Spaces Genie API endpoint retrieves all spaces the requestor has access to, including the following fields: Genie Space title, description, and ID.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.347704Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-22-dashboard-subscriptions-custom-calculations-and-visualization-improvements",
+  "title": "Dashboard subscriptions, custom calculations, and visualization improvements",
+  "date": "2026-01-22",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-subscriptions-custom-calculations-and-visualization-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Account-level user subscriptions**: Dashboard authors can now subscribe account-level users to scheduled dashboard updates. See [Manage scheduled dashboard updates and subscriptions](/aws/en/dashboards/share/schedule-subscribe).\n* **Custom calculation references**: Custom calculations can now reference custom calculations on dashboard datasets.\n* **Cumulative totals on stacked bar charts**: Stacked bar charts can now display the cumulative total of values.\n* **Improved tooltips on combo and dual axis charts**: Tooltips are now easier to access when hovering over combo and dual axis charts.\n* **Fixed static widget filter drop-down menu values**: Resolved an issue where values in static widget filter drop-down menus were not available when applied on a metric view.\n* **Fixed text widget character limit error message**: Resolved an issue where trying to save a dashboard with text widgets exceeding 50,000 characters would fail without an error message. An error message now appears informing the author.",
+  "ref_links": [
+    {
+      "text": "Manage scheduled dashboard updates and subscriptions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.026115Z"
+}

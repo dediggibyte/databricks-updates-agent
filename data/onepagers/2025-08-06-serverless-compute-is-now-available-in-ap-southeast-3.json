@@ -1,0 +1,28 @@
+{
+  "product": "Serverless compute is now available in ap-southeast-3",
+  "tagline": "Serverless compute for notebooks, workflows, and Lakeflow Spark Declarative Pipelines is now available in the Asia Pacific (Jakarta) region (ap southeast 3).",
+  "updated": "Aug 6, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/resources/feature-region-support",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-compute-is-now-available-in-ap-southeast-3",
+  "what_it_does": "Serverless compute for notebooks, workflows, and Lakeflow Spark Declarative Pipelines is now available in the Asia Pacific (Jakarta) region (ap southeast 3). This article lists features with availability differences by region. note Some features are not included in the tables below.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Serverless compute for notebooks, workflows, and Lakeflow Spark Declarative Pipelines is now available in the Asia Pacific (Jakarta) region (ap southeast 3).",
+  "note_id": "2025-08-06-serverless-compute-is-now-available-in-ap-southeast-3",
+  "category": "platform"
+}

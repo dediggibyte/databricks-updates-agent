@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-13-chat-in-genie-one-beta",
+  "title": "Chat in Genie One (Beta)",
+  "date": "2026-03-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#chat-in-genie-one-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Chat in Genie One is now available in Beta. Chat provides a unified, full-screen interface for talking to Genie. Genie routes your question to the most relevant Genie Space or directly answers your question agentically using available data and data assets. See [Chat in Genie One](/aws/en/genie-one/chat).",
+  "ref_links": [
+    {
+      "text": "Chat in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.876519Z"
+}

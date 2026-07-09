@@ -1,0 +1,28 @@
+{
+  "product": "Zendesk Support connector (GA)",
+  "tagline": "The Zendesk Support connector in Lakeflow Connect is now generally available.",
+  "updated": "Apr 28, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/zendesk-support-overview",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#zendesk-support-connector-ga",
+  "what_it_does": "The Zendesk Support connector in Lakeflow Connect is now generally available. The managed Zendesk Support connector in Lakeflow Connect allows you to ingest data from Zendesk Support into Databricks, including ticket data, knowledge base content, and community forum data. Feature availability | Feature | Availability | | | | | UI based pipeline authoring | Supported | | API based pipeline authoring | Supported | | Declarative Automation Bundles | Supported | | Incremental ingestion | Supported | | Unity Catalog governance | Supported | | Orchestration using Databricks Workflows | Supported | | SCD type 2 | Supported | | API based column selection and deselection | Supported | | API based row filtering | Supported | | Automated schema evolution: New and deleted columns | Supported | | Automated schema evolution: Data type changes | Not supported | | Automated schema evolution: Column renames | Supported Treated as a new column (new name) and deleted column (old name).",
+  "why_it_matters": "Feature availability | Feature | Availability | | | | | UI based pipeline authoring | Supported | | API based pipeline authoring | Supported | | Declarative Automation Bundles | Supported | | Incremental ingestion | Supported | | Unity Catalog governance | Supported | | Orchestration using Databricks Workflows | Supported | | SCD type 2 | Supported | | API based column selection and deselection | Supported | | API based row filtering | Supported | | Automated schema evolution: New and deleted columns | Supported | | Automated schema evolution: Data type changes | Not supported | | Automated schema evolution: Column renames | Supported Treated as a new column (new name) and deleted column (old name).",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Zendesk Support connector in Lakeflow Connect is now generally available.",
+  "note_id": "2026-04-28-zendesk-support-connector-ga",
+  "category": "platform"
+}

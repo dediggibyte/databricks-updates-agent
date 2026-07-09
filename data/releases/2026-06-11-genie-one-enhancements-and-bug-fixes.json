@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-11-genie-one-enhancements-and-bug-fixes",
+  "title": "Genie One enhancements and bug fixes",
+  "date": "2026-06-11",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-and-bug-fixes-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Account-level Genie customization**: You can now customize Genie at the account level, including colors, a logo, a markdown welcome message, and pinned content. See [Customize the Genie One homepage](/aws/en/genie-one/customize-genie-homepage).\n* **Email tool for scheduled tasks**: Scheduled tasks now use an email tool to send emails, enabling more customized email formats and send conditions.\n* **Custom MCP server fix (Public Preview)**: Fixed an issue that prevented custom MCP servers from being used in Genie One.\n* **Teams and Slack app integration**: You can now use Genie One directly from Microsoft Teams and Slack with the app integration. See [Databricks Genie app in Microsoft Teams](/aws/en/integrations/msft-teams) and [Databricks Genie app for Slack](/aws/en/genie-one/genie-slack).",
+  "ref_links": [
+    {
+      "text": "Customize the Genie One homepage",
+      "url": "https://docs.databricks.com/aws/en/genie-one/customize-genie-homepage"
+    },
+    {
+      "text": "Databricks Genie app in Microsoft Teams",
+      "url": "https://docs.databricks.com/aws/en/integrations/msft-teams"
+    },
+    {
+      "text": "Databricks Genie app for Slack",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie-slack"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.591771Z"
+}

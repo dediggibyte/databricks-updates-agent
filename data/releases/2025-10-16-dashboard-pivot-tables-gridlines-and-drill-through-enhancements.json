@@ -1,0 +1,33 @@
+{
+  "id": "2025-10-16-dashboard-pivot-tables-gridlines-and-drill-through-enhancements",
+  "title": "Dashboard pivot tables, gridlines, and drill-through enhancements",
+  "date": "2025-10-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-pivot-tables-gridlines-and-drill-through-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dynamic text functions in pivot tables**: Pivot tables now support `contains()`, `startswith()`, and `endswith()` functions for conditional formatting. See [Conditional formatting with text functions](/aws/en/dashboards/manage/visualizations/tables#conditional-formatting-text).\n* **Gridline toggle**: Charts now support toggling gridlines on and off. See [Gridlines](/aws/en/dashboards/manage/visualizations#gridlines)\n* **Dashboard tags and certification in Public Preview**: You can now add tags to dashboards and Genie Spaces to improve organization across your workspace. Tags can be used for automation. For example, you can tag a dashboard as **Work in progress**, and an overnight process can automatically retrieve all dashboards with that tag using the API and assign them to the temporary warehouse until they're tagged as **Certified**. Search is not supported using dashboard tags. See [Manage dashboard tags](/aws/en/dashboards/manage/settings#tags) and [Add tags](/aws/en/genie/set-up#tags).\n* **Drill-through without target filters**: Drill-through now filters any visualization based on the same dataset as the source selection without an explicit target filter. If a target filter exists, it is still applied. See [Use drill-through to filter data](/aws/en/dashboards/manage/filters#drill-through-filter).\n* **Fixed discarded dashboard API error**: APIs now return `404 NOT_FOUND` instead of `403 PERMISSION_DENIED` when accessing dashboards in the trash.",
+  "ref_links": [
+    {
+      "text": "Conditional formatting with text functions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#conditional-formatting-text"
+    },
+    {
+      "text": "Gridlines",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#gridlines"
+    },
+    {
+      "text": "Manage dashboard tags",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#tags"
+    },
+    {
+      "text": "Add tags",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#tags"
+    },
+    {
+      "text": "Use drill-through to filter data",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#drill-through-filter"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.166430Z"
+}

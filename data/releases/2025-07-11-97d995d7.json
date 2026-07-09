@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-11-97d995d7",
+  "title": "Enhanced Security and Compliance add-on now available to all customers with usage-based pricing",
+  "date": "2025-07-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#enhanced-security-and-compliance-add-on-now-available-to-all-customers-with-usage-based-pricing",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Enhanced Security and Compliance add-on, which includes the compliance security profile, automatic cluster update, and enhanced security monitoring, is now available to all customers, with no contract changes required. You can now enable any of these features on a workspace to benefit from enhanced security capabilities. Now, only workspaces with enabled features incur charges, giving you flexibility and control over security spend. Customers with existing contracts that include the Enhanced Security and Compliance add-on are not affected by this change.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.324676Z"
+}

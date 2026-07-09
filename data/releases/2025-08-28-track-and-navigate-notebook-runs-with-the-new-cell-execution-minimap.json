@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-28-track-and-navigate-notebook-runs-with-the-new-cell-execution-minimap",
+  "title": "Track and navigate notebook runs with the new cell execution minimap",
+  "date": "2025-08-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#track-and-navigate-notebook-runs-with-the-new-cell-execution-minimap",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use the cell execution minimap to track your notebook’s progress at a glance. The minimap appears in the right margin and shows each cell’s execution state (skipped, queued, running, success, or error). Hover to see cell details, or click to jump directly to a cell.\n\nFor information about using the cell execution minimap, see [Navigate the Databricks notebook and file editor](/aws/en/notebooks/notebook-editor).",
+  "ref_links": [
+    {
+      "text": "Navigate the Databricks notebook and file editor",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-editor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.240939Z"
+}

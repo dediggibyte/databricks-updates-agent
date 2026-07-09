@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-01-git-email-identity-configuration-for-git-folders",
+  "title": "Git email identity configuration for Git folders",
+  "date": "2025-10-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#git-email-identity-configuration-for-git-folders",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now specify a Git provider email address, separate from your username, when creating Git credentials for Databricks Git folders. This email is used as the Git author and committer identity for all commits made through Git folders, ensuring proper attribution in your Git provider and better integration with your Git account.\n\nThe email you provide becomes the `GIT_AUTHOR_EMAIL` and `GIT_COMMITTER_EMAIL` for commits, allowing Git providers to properly associate commits with your user account and display your profile information. If no email is specified, Databricks uses your Git username as the email address (legacy behavior).\n\nSee [Git commit identity and email configuration](/aws/en/repos/repos-setup#commit-identity).",
+  "ref_links": [
+    {
+      "text": "Git commit identity and email configuration",
+      "url": "https://docs.databricks.com/aws/en/repos/repos-setup#commit-identity"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.196522Z"
+}

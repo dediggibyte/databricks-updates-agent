@@ -1,0 +1,17 @@
+{
+  "id": "2025-05-29-metric-views-are-in-public-preview",
+  "title": "Metric views are in Public Preview",
+  "date": "2025-05-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#metric-views-are-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Unity Catalog metric views are now in Public Preview**: Metric views provide a centralized way to define and manage consistent, reusable, and governed core business metrics. They abstract complex business logic into a centralized definition, enabling organizations to define key performance indicators once and use them consistently across reporting tools like dashboards, Genie Spaces, and alerts. Use a SQL warehouse running on the Preview channel (2025.16) to work with metric views. See [Unity Catalog metric views](/aws/en/business-semantics/metric-views).",
+  "ref_links": [
+    {
+      "text": "Unity Catalog metric views",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.384641Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-22-enhanced-autocomplete-for-complex-data-types-in-notebooks",
+  "title": "Enhanced autocomplete for complex data types in notebooks",
+  "date": "2025-08-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#enhanced-autocomplete-for-complex-data-types-in-notebooks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Notebook autocomplete now supports enhanced suggestions for complex data types including structs, maps, and arrays in SQL cells. Additionally, when referencing common table expressions (CTEs) that use `SELECT *`, autocomplete provides column recommendations based on the underlying table structure.\n\nSee [Personalized autocomplete](/aws/en/notebooks/notebook-editor#autocomplete).",
+  "ref_links": [
+    {
+      "text": "Personalized autocomplete",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-editor#autocomplete"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.253237Z"
+}

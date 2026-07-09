@@ -1,0 +1,37 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Import BI workbooks (Beta): Add a Tableau or Power BI file to Genie Code and it builds an AI/BI dashboard that replicates your visualizations.",
+  "updated": "May 21, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters#text-widgets",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-4",
+  "what_it_does": "Import BI workbooks (Beta): Add a Tableau or Power BI file to Genie Code and it builds an AI/BI dashboard that replicates your visualizations. Open source fonts: Over 20 new open source fonts are now available as defaults. Parameter values in text widgets: Dashboard authors can now reference parameter values in text widgets.",
+  "why_it_matters": "Answer now stops Genie from thinking and produces an immediate answer to the user question, at the cost of deeper analysis.",
+  "capabilities": [
+    {
+      "title": "The default type is String",
+      "desc": "The default type is String."
+    },
+    {
+      "title": "The Numeric datatype allows you",
+      "desc": "The Numeric datatype allows you to specify between Decimal and Integer. The default numeric type is Decimal. Allow multiple…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Import BI workbooks (Beta): Add a Tableau or Power BI file to Genie Code and it builds an AI/BI dashboard that replicates your visualizations.",
+  "note_id": "2026-05-21-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

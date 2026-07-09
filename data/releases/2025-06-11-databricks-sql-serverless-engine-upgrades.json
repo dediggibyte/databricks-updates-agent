@@ -1,0 +1,12 @@
+{
+  "id": "2025-06-11-databricks-sql-serverless-engine-upgrades",
+  "title": "Databricks SQL Serverless engine upgrades",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-serverless-engine-upgrades",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The following engine upgrades are now rolling out globally, with availability expanding to all regions over the coming weeks.\n\n* **Lower latency**: Dashboards, ETL jobs, and mixed workloads now run faster, with up to 25% improvement. The upgrade is automatically applied to serverless SQL warehouses with no additional cost or configuration.\n* **Predictive Query Execution (PQE)**: PQE monitors tasks in real time and dynamically adjusts query execution to help avoid skew, spills, and unnecessary work.\n* **Photon vectorized shuffle**: Keeps data in compact columnar format, sorts it within the CPU's high-speed cache, and processes multiple values simultaneously using vectorized instructions. This improves throughput for CPU-bound workloads such as large joins and wide aggregation.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.361885Z"
+}

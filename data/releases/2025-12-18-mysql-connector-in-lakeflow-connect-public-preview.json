@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-18-mysql-connector-in-lakeflow-connect-public-preview",
+  "title": "MySQL connector in Lakeflow Connect (Public Preview)",
+  "date": "2025-12-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#mysql-connector-in-lakeflow-connect-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The fully-managed MySQL connector in Lakeflow Connect is in Public Preview. This connector enables incremental data ingestion from MySQL databases, including Amazon RDS for MySQL, Amazon Aurora MySQL, Azure Database for MySQL, Google Cloud SQL for MySQL, and MySQL on EC2. See [Configure MySQL for ingestion into Databricks](/aws/en/ingestion/lakeflow-connect/mysql-source-setup).\n\nContact your Databricks account team to request access to the preview.",
+  "ref_links": [
+    {
+      "text": "Configure MySQL for ingestion into Databricks",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/mysql-source-setup"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.067291Z"
+}

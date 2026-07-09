@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-06-serverless-compute-is-now-available-in-ap-southeast-3",
+  "title": "Serverless compute is now available in ap-southeast-3",
+  "date": "2025-08-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-compute-is-now-available-in-ap-southeast-3",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless compute for notebooks, workflows, and Lakeflow Spark Declarative Pipelines is now available in the Asia Pacific (Jakarta) region (`ap-southeast-3`). See [Features with limited regional availability](/aws/en/resources/feature-region-support).",
+  "ref_links": [
+    {
+      "text": "Features with limited regional availability",
+      "url": "https://docs.databricks.com/aws/en/resources/feature-region-support"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.280089Z"
+}

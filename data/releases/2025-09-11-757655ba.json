@@ -1,0 +1,21 @@
+{
+  "id": "2025-09-11-757655ba",
+  "title": "Serverless jobs and pipelines configured in the UI are now performance optimized by default",
+  "date": "2025-09-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#serverless-jobs-and-pipelines-configured-in-the-ui-are-now-performance-optimized-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless jobs and pipelines configured in the UI are now set to **Performance optimized** by default. This aligns the UI with existing defaults across APIs, Terraform, and SDKs. For more information, see [Performance mode in serverless jobs](/aws/en/jobs/run-serverless-jobs#performance) and [Performance mode in serverless pipelines](/aws/en/ldp/serverless#performance).",
+  "ref_links": [
+    {
+      "text": "Performance mode in serverless jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs#performance"
+    },
+    {
+      "text": "Performance mode in serverless pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/serverless#performance"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.221364Z"
+}

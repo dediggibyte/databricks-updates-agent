@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-12-genie-space-enhancements-and-improvements",
+  "title": "Genie Space enhancements and improvements",
+  "date": "2026-03-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie Space management APIs are generally available**: The `CreateSpace`, `UpdateSpace`, `GenieGetSpace`, `GenieListSpaces`, and `GenieTrashSpace` APIs hare now general availability. See [Use the Genie Agents API](/aws/en/genie/conversation-api).\n* **API instruction length fix**: Resolved a bug with the maximum instruction length in the CreateSpace and UpdateSpace APIs.\n* **Improved context handling**: Genie now better identifies relevant previous messages to include in context, reducing context loss.\n* **Improved top-X answers with ties**: Genie now more accurately answers top-X questions when results include ties.",
+  "ref_links": [
+    {
+      "text": "Use the Genie Agents API",
+      "url": "https://docs.databricks.com/aws/en/genie/conversation-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.883777Z"
+}

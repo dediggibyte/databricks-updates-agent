@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-26-new-table-property-to-control-delta-table-compression",
+  "title": "New table property to control Delta table compression",
+  "date": "2025-08-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#new-table-property-to-control-delta-table-compression",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now explicitly set the compression codec for a Delta table using the `delta.parquet.compression.codec` table property. This property ensures that all future writes to the table use the chosen codec. See [Table properties reference](/aws/en/tables/table-properties).",
+  "ref_links": [
+    {
+      "text": "Table properties reference",
+      "url": "https://docs.databricks.com/aws/en/tables/table-properties"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.248076Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-26-genie-space-enhancements-and-improvements",
+  "title": "Genie Space enhancements and improvements",
+  "date": "2026-02-26",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-improvements-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Metric view display names**: Genie now uses metric view display names and display formats for query result tables.\n* **Automatic JOIN relationships**: Creating and updating Genie Spaces using the API now automatically creates JOIN relationships based on the primary and foreign keys defined in source tables.\n* **Context tab for space consumers**: A new Context tab is now available for Genie Space consumers with CAN VIEW or CAN RUN permissions. Consumers can view the space description and common questions at any point during their Genie interactions. See [Use a Genie Agent to explore business data](/aws/en/genie/talk-to-genie).\n* **Agent mode (Beta) thinking traces**: Agent mode now streams thinking traces in-line for improved readability.\n* **Agent mode (Beta) parallel queries**: Agent mode now runs queries in parallel for faster results.",
+  "ref_links": [
+    {
+      "text": "Use a Genie Agent to explore business data",
+      "url": "https://docs.databricks.com/aws/en/genie/talk-to-genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.931845Z"
+}

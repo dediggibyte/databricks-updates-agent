@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-21-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-05-21",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-4",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Import BI workbooks (Beta)**: Add a Tableau or Power BI file to Genie Code and it builds an AI/BI dashboard that replicates your visualizations. See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Open-source fonts**: Over 20 new open-source fonts are now available as defaults. See [Customize colors and fonts](/aws/en/dashboards/manage/settings#custom-font).\n* **Parameter values in text widgets**: Dashboard authors can now reference parameter values in text widgets. See [Use parameters in text widgets](/aws/en/dashboards/manage/filters/parameters#text-widgets).\n* **Genie Code non-table outputs**: Genie Code can now render non-table outputs, including charts, text blocks, and other content.\n* **Answer now for Genie on published dashboards**: Genie on published dashboards now supports **Answer now**. Answer now stops Genie from thinking and produces an immediate answer to the user question, at the cost of deeper analysis.",
+  "ref_links": [
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    },
+    {
+      "text": "Customize colors and fonts",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#custom-font"
+    },
+    {
+      "text": "Use parameters in text widgets",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters#text-widgets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.669383Z"
+}

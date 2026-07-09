@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-18-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-06-18",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Scheduled tasks for consumer entitlement users**: Consumer entitlement users can now create scheduled tasks without needing the SQL entitlement. See [Scheduled tasks](/aws/en/genie-one/chat#scheduled-tasks).",
+  "ref_links": [
+    {
+      "text": "Scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.554166Z"
+}

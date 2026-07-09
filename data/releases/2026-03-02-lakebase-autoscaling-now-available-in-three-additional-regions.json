@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-02-lakebase-autoscaling-now-available-in-three-additional-regions",
+  "title": "Lakebase Autoscaling now available in three additional regions",
+  "date": "2026-03-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#lakebase-autoscaling-now-available-in-three-additional-regions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase Autoscaling is now available in three additional regions:\n\n* `ca-central-1` (Canada Central)\n* `eu-west-2` (Europe – London)\n* `sa-east-1` (South America – São Paulo)\n\nSee [Get started with Lakebase Autoscaling](/aws/en/oltp/projects/get-started).",
+  "ref_links": [
+    {
+      "text": "Get started with Lakebase Autoscaling",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/get-started"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.914548Z"
+}

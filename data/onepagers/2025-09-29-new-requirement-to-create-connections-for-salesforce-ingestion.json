@@ -1,0 +1,28 @@
+{
+  "product": "New requirement to create connections for Salesforce ingestion",
+  "tagline": "In early September 2025, Salesforce began restricting the use of uninstalled connected apps.",
+  "updated": "Sep 29, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/salesforce-connection",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#new-requirement-to-create-connections-for-salesforce-ingestion",
+  "what_it_does": "In early September 2025, Salesforce began restricting the use of uninstalled connected apps. This restriction does not break existing Unity Catalog connections to Salesforce, but it prevents you from creating a connection to a new Salesforce instance without the Databricks connected app installed. For background, see Prepare for Connected App Usage Restrictions Change in the Salesforce documentation.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "In early September 2025, Salesforce began restricting the use of uninstalled connected apps.",
+  "note_id": "2025-09-29-new-requirement-to-create-connections-for-salesforce-ingestion",
+  "category": "platform"
+}

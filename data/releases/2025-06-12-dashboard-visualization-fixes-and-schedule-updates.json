@@ -1,0 +1,12 @@
+{
+  "id": "2025-06-12-dashboard-visualization-fixes-and-schedule-updates",
+  "title": "Dashboard visualization fixes and schedule updates",
+  "date": "2025-06-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-fixes-and-schedule-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashboard visualization fixes**:\n\n  + **Tooltip field highlighting in combo charts fix**: Tooltips shown as you hover over fields in combo charts are now correctly highlighted.\n  + **Table collapse icon fix**: Fixed an issue where expanding and collapsing long text in table cells did not work as expected.\n  + **Drop-down menu rendering fix**: Fixed an issue where some drop-down menus rendered incorrectly.\n* **Parameterized schedules temporarily disabled**: Parameterized schedules have been temporarily disabled due to unexpected conflicts with some existing dashboard schedules.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.351521Z"
+}

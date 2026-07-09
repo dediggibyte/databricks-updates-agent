@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-05-automatic-identity-management",
+  "title": "Automatic identity management",
+  "date": "2026-05-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#automatic-identity-management",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Automatic identity management lets you sync users and groups from your identity provider to Databricks. Search for identities in identity federated workspaces and add them to your workspace. Group memberships stay in sync with your identity provider. Microsoft Entra ID is in Public Preview and supports service principals and nested groups. Okta support is in Private Preview. See [Automatic identity management](/aws/en/admin/users-groups/automatic-identity-management).",
+  "ref_links": [
+    {
+      "text": "Automatic identity management",
+      "url": "https://docs.databricks.com/aws/en/admin/users-groups/automatic-identity-management"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.730591Z"
+}

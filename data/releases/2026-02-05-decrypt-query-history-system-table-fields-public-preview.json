@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-05-decrypt-query-history-system-table-fields-public-preview",
+  "title": "Decrypt query history system table fields (Public Preview)",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#decrypt-query-history-system-table-fields-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "For workspaces enabled for customer-managed keys (CMK) for managed services, the `system` catalog's data encryption settings can be configured to decrypt the `statement_text` and `error_message` fields in the query history system table. See [Reading encrypted fields](/aws/en/admin/system-tables/query-history#cmk).",
+  "ref_links": [
+    {
+      "text": "Reading encrypted fields",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/query-history#cmk"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.983632Z"
+}

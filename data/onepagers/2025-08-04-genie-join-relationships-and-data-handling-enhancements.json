@@ -1,0 +1,45 @@
+{
+  "product": "Genie join relationships and data handling enhancements",
+  "tagline": "Local join relationships in Genie Space knowledge stores: You can now define join relationships locally within a Genie Space's knowledge store.",
+  "updated": "Aug 4, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/tune-quality#show-hide-column",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-join-relationships-and-data-handling-enhancements",
+  "what_it_does": "Local join relationships in Genie Space knowledge stores: You can now define join relationships locally within a Genie Space's knowledge store. This is useful when authors lack permissions to define primary and foreign keys on upstream tables or when the join relationship has specific requirements, such as one to many or complex joins. Fixed saving issue for example SQL statements: Resolved a bug where example SQL statements were not saving after clicking Save.",
+  "why_it_matters": "Fixed saving issue for example SQL statements: Resolved a bug where example SQL statements were not saving after clicking Save.",
+  "capabilities": [
+    {
+      "title": "Company-specific business information",
+      "desc": "Company-specific business information:"
+    },
+    {
+      "title": "Fiscal year starts in February",
+      "desc": "Fiscal year starts in February, for example fiscal year 26 or FY26 is February 1, 2026 through January 31, 2027"
+    },
+    {
+      "title": "Formatting",
+      "desc": "Formatting:"
+    },
+    {
+      "title": "Always respond in Spanish",
+      "desc": "Always respond in Spanish"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Local join relationships in Genie Space knowledge stores: You can now define join relationships locally within a Genie Space's knowledge store.",
+  "note_id": "2025-08-04-genie-join-relationships-and-data-handling-enhancements",
+  "category": "platform"
+}

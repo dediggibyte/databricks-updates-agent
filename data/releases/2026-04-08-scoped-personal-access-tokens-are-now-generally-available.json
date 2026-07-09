@@ -1,0 +1,25 @@
+{
+  "id": "2026-04-08-scoped-personal-access-tokens-are-now-generally-available",
+  "title": "Scoped personal access tokens are now generally available",
+  "date": "2026-04-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#scoped-personal-access-tokens-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now scope personal access tokens (PATs) to specific API operations, restricting tokens to only the permissions you specify. For a complete list of available scopes, see [API scopes](https://docs.databricks.com/api/workspace/api/scopes). To learn more, see [Authenticate with Databricks personal access tokens (legacy)](/aws/en/dev-tools/auth/pat).\n\nScoped personal access tokens are coming soon to workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.",
+  "ref_links": [
+    {
+      "text": "API scopes",
+      "url": "https://docs.databricks.com/api/workspace/api/scopes"
+    },
+    {
+      "text": "Authenticate with Databricks personal access tokens (legacy)",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/pat"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.813147Z"
+}

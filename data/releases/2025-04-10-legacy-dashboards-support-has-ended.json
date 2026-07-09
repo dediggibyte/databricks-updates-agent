@@ -1,0 +1,25 @@
+{
+  "id": "2025-04-10-legacy-dashboards-support-has-ended",
+  "title": "Legacy dashboards support has ended",
+  "date": "2025-04-10",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#legacy-dashboards-support-has-ended",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Official support for legacy dashboards has ended. You can no longer create or clone legacy dashboards using the UI or API. Databricks continues to address critical security issues and service outages, but recommends using AI/BI dashboards for all new development. To learn more about AI/BI dashboards, see [Dashboards](/aws/en/dashboards). For help migrating, see [Clone a legacy dashboard to an AI/BI dashboard](/aws/en/archive/legacy/clone-legacy-to-aibi) and [Use dashboard APIs to create and manage dashboards](/aws/en/dashboards/tutorials/dashboard-crud-api).",
+  "ref_links": [
+    {
+      "text": "Dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards"
+    },
+    {
+      "text": "Clone a legacy dashboard to an AI/BI dashboard",
+      "url": "https://docs.databricks.com/aws/en/archive/legacy/clone-legacy-to-aibi"
+    },
+    {
+      "text": "Use dashboard APIs to create and manage dashboards",
+      "url": "https://docs.databricks.com/aws/en/dashboards/tutorials/dashboard-crud-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.412697Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-27-12fccb5f",
+  "title": "Refresh policies and EXPLAIN CREATE MATERIALIZED VIEW for materialized views are now generally available",
+  "date": "2026-05-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#refresh-policies-and-explain-create-materialized-view-for-materialized-views-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Refresh policies and the `EXPLAIN CREATE MATERIALIZED VIEW` statement are now generally available for materialized views. Use refresh policies to control when Databricks performs incremental or full refresh, optimizing cost and predictability. Use `EXPLAIN CREATE MATERIALIZED VIEW` to check whether a query can be incrementalized before defining the materialized view. Available in Databricks SQL and Databricks Runtime 17.3 and above. See [Incremental refresh for materialized views](/aws/en/ldp/incremental-refresh).",
+  "ref_links": [
+    {
+      "text": "Incremental refresh for materialized views",
+      "url": "https://docs.databricks.com/aws/en/ldp/incremental-refresh"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.653870Z"
+}

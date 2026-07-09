@@ -1,0 +1,45 @@
+{
+  "product": "Dashboard visualization and interaction enhancements",
+  "tagline": "Pivot table hierarchies: You can now expand and collapse hierarchies in pivot tables.",
+  "updated": "Feb 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#faceting",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-visualization-and-interaction-enhancements",
+  "what_it_does": "Pivot table hierarchies: You can now expand and collapse hierarchies in pivot tables. Stacked bar chart labels: Stacked bar charts now support showing min/max label values and total labels. Area and line chart sorting: Area and line charts now support sorting axes by measures.",
+  "why_it_matters": "Scale function: Choose Linear or Log (Symmetric).",
+  "capabilities": [
+    {
+      "title": "Alphabetical: Sort category names alphabetically",
+      "desc": "Alphabetical: Sort category names alphabetically"
+    },
+    {
+      "title": "By field: Sort by a",
+      "desc": "By field: Sort by a measure field value in ascending or descending order. After selecting the sort direction, choose which field…"
+    },
+    {
+      "title": "Y axis: Sort by the",
+      "desc": "Y axis: Sort by the measure field displayed on the Y axis"
+    },
+    {
+      "title": "Field: Sort by any other",
+      "desc": "Field: Sort by any other measure field in the dataset, even if it's not displayed on the chart. Select the field from the…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Pivot table hierarchies: You can now expand and collapse hierarchies in pivot tables.",
+  "note_id": "2026-02-19-dashboard-visualization-and-interaction-enhancements",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-25-parse-documents-using-ai-parse-document-beta",
+  "title": "Parse documents using ai_parse_document (Beta)",
+  "date": "2025-06-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#parse-documents-using-ai_parse_document-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The AI Function `ai_parse_document()` invokes a state-of-the-art generative AI model from [Databricks Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis) to extract structured content from unstructured documents.\n\nThis function is available in Beta. See [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "Databricks Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis"
+    },
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.340132Z"
+}

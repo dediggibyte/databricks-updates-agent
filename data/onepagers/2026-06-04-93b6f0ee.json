@@ -1,0 +1,45 @@
+{
+  "product": "ai_extract and ai_classify will soon be available by default for workspaces…",
+  "tagline": "The ai extract and ai classify SQL AI Functions will be available by default for workspaces with the compliance security profile enabled and HIPAA, PCI DSS, FedRAMP Moderate, CCCS Medium (Protected…",
+  "updated": "Jun 4, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/classification",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai_extract-and-ai_classify-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "The ai extract and ai classify SQL AI Functions will be available by default for workspaces with the compliance security profile enabled and HIPAA, PCI DSS, FedRAMP Moderate, CCCS Medium (Protected B), UK Cyber Essentials Plus, HITRUST, IRAP, C5, and TISAX controls selected in mid July 2026. Use ai extract to extract structured fields from unstructured text against a user defined schema. Use ai classify to classify text into user defined labels for routing, tagging, and document categorization workflows.",
+  "why_it_matters": "Review and improve classification responses Review the classification responses and give feedback to improve the agent.",
+  "capabilities": [
+    {
+      "title": "Serverless compute enabled. See Serverless",
+      "desc": "Serverless compute enabled. See Serverless compute requirements."
+    },
+    {
+      "title": "Unity Catalog enabled. See Enable",
+      "desc": "Unity Catalog enabled. See Enable a workspace for Unity Catalog."
+    },
+    {
+      "title": "Access to a serverless usage",
+      "desc": "Access to a serverless usage policy with a nonzero budget. This function is only available in some regions, see AI function…"
+    },
+    {
+      "title": "See regional support for aiclassify",
+      "desc": "See regional support for aiclassify for the appropriate compliance standard."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The ai extract and ai classify SQL AI Functions will be available by default for workspaces with the compliance security profile enabled and HIPAA, PCI DSS, FedRAMP Moderate, CCCS Medium (Protected…",
+  "note_id": "2026-06-04-93b6f0ee",
+  "category": "platform"
+}

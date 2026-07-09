@@ -1,0 +1,33 @@
+{
+  "product": "Lakeflow Declarative Pipelines has been renamed to Lakeflow Spark Declarative…",
+  "tagline": "Lakeflow Declarative Pipelines has been renamed to Lakeflow Spark Declarative Pipelines.",
+  "updated": "Nov 12, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#lakeflow-declarative-pipelines-has-been-renamed-to-lakeflow-spark-declarative-pipelines",
+  "what_it_does": "Lakeflow Declarative Pipelines has been renamed to Lakeflow Spark Declarative Pipelines. Lakeflow Spark Declarative Pipelines (SDP) is a framework for creating batch and streaming data pipelines in SQL and Python. Lakeflow SDP extends and is interoperable with Apache Spark Declarative Pipelines, while running on the performance optimized Databricks Runtime.",
+  "why_it_matters": "Lakeflow SDP extends and is interoperable with Apache Spark Declarative Pipelines, while running on the performance optimized Databricks Runtime.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "Azure ADLS Gen2",
+    "Google Cloud Storage)",
+    "message buses (such as Apache Kafka",
+    "Amazon Kinesis"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Lakeflow Declarative Pipelines has been renamed to Lakeflow Spark Declarative Pipelines.",
+  "note_id": "2025-11-12-21ba155b",
+  "category": "platform"
+}

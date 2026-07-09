@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-07-faster-package-installs-with-uv-pip-in-serverless-notebooks",
+  "title": "Faster package installs with %uv pip in serverless notebooks",
+  "date": "2026-05-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#faster-package-installs-with-uv-pip-in-serverless-notebooks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use the `%uv pip` magic command in serverless notebooks on environment version 5 or above as a faster alternative to `%pip` for Python package management. `%uv pip` is powered by the [uv](https://docs.astral.sh/uv/) package manager and shares the same notebook virtual environment as `%pip`.\n\nSee [Faster installs with `%uv pip`](/aws/en/libraries/notebooks-python-libraries#uv-pip).",
+  "ref_links": [
+    {
+      "text": "uv",
+      "url": "https://docs.astral.sh/uv/"
+    },
+    {
+      "text": "Faster installs with %uv pip",
+      "url": "https://docs.databricks.com/aws/en/libraries/notebooks-python-libraries#uv-pip"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.726009Z"
+}

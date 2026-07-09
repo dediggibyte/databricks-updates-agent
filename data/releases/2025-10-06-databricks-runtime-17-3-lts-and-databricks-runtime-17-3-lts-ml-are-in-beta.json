@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-06-databricks-runtime-17-3-lts-and-databricks-runtime-17-3-lts-ml-are-in-beta",
+  "title": "Databricks Runtime 17.3 LTS and Databricks Runtime 17.3 LTS ML are in Beta",
+  "date": "2025-10-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-runtime-173-lts-and-databricks-runtime-173-lts-ml-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 17.3 LTS and Databricks Runtime 17.3 LTS ML are now in Beta, powered by Apache Spark 4.0.0. The release includes new configuration options, improved error handling, and enhanced Spark Connect support.\n\nSee [Databricks Runtime 17.3 LTS](/aws/en/release-notes/runtime/17.3lts) and [Databricks Runtime 17.3 LTS for Machine Learning](/aws/en/release-notes/runtime/17.3lts-ml).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 17.3 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.3lts"
+    },
+    {
+      "text": "Databricks Runtime 17.3 LTS for Machine Learning",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.3lts-ml"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.181722Z"
+}

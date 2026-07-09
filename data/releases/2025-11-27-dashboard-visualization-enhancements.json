@@ -1,0 +1,12 @@
+{
+  "id": "2025-11-27-dashboard-visualization-enhancements",
+  "title": "Dashboard visualization enhancements",
+  "date": "2025-11-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Improved pivot table performance**: Pivot table headers now render significantly faster with reduced scroll lag.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.097958Z"
+}

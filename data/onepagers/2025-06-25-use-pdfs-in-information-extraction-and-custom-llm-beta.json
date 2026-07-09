@@ -1,0 +1,48 @@
+{
+  "product": "Use PDFs in Information Extraction and Custom LLM (Beta)",
+  "tagline": "Information Extraction and Custom LLM have a UI workflow to convert PDFs to Markdown and store the results in a table.",
+  "updated": "Jun 25, 2025",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/custom-llm#pdf",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#use-pdfs-in-information-extraction-and-custom-llm-beta",
+  "what_it_does": "Information Extraction and Custom LLM have a UI workflow to convert PDFs to Markdown and store the results in a table. Users can then use the resulting table as input in Information Extraction and Custom LLM. Beta This feature is in Beta.",
+  "why_it_matters": "Custom LLM leverages automated evaluation capabilities, including MLflow and Agent Evaluation, to enable rapid assessment of the cost quality tradeoff for your specific extraction task.",
+  "capabilities": [
+    {
+      "title": "Serverless compute available (enabled by",
+      "desc": "Serverless compute available (enabled by default in workspaces with Unity Catalog)."
+    },
+    {
+      "title": "Unity Catalog enabled. See Enable",
+      "desc": "Unity Catalog enabled. See Enable a workspace for Unity Catalog."
+    },
+    {
+      "title": "Access to Model Serving",
+      "desc": "Access to Model Serving."
+    },
+    {
+      "title": "Access to a serverless usage",
+      "desc": "Access to a serverless usage policy with a nonzero budget. A workspace in one of the supported regions. Ability to use the…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Summarizing the issue",
+    "resolution of customer calls."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Information Extraction and Custom LLM have a UI workflow to convert PDFs to Markdown and store the results in a table.",
+  "note_id": "2025-06-25-use-pdfs-in-information-extraction-and-custom-llm-beta",
+  "category": "platform"
+}

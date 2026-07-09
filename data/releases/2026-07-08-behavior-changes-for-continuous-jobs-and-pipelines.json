@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-08-behavior-changes-for-continuous-jobs-and-pipelines",
+  "title": "Behavior changes for continuous jobs and pipelines",
+  "date": "2026-07-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#behavior-changes-for-continuous-jobs-and-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In early August 2026, continuous Lakeflow Spark Declarative Pipelines and jobs will receive updates to simplify configuration and state management.\n\n**Continuous pipelines**\n\nYou will be able to configure a continuous schedule directly from the pipeline page, including job-level settings such as [performance mode](/aws/en/ldp/serverless#performance). Configuring a continuous schedule this way wraps the pipeline in a continuous job.\n\nDatabricks recommends running continuous pipelines with a continuous job rather than the pipeline's built-in continuous setting. When a continuous job wraps a pipeline, the job will manage the pipeline's execution lifecycle. The built-in continuous setting is not being removed, but new continuous pipelines should use the continuous job pattern.\n\n**Continuous jobs**\n\nState management for continuous jobs will be simplified. The following breaking changes will take effect:\n\n* Adding a continuous schedule to a job will cancel any active runs, whether the schedule is paused or unpaused.\n* Removing a continuous schedule from a job will cancel any active runs.\n* Running a paused continuous job will unpause it.\n* Pausing a continuous job will also cancel the active run.\n* Stopping the active run of a continuous job will also pause the job.\n\nA new read-only API field will track the state of a continuous job.\n\nReview any automation or workflows that rely on the current continuous job behaviors and update them before this release.",
+  "ref_links": [
+    {
+      "text": "performance mode",
+      "url": "https://docs.databricks.com/aws/en/ldp/serverless#performance"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.498283Z"
+}

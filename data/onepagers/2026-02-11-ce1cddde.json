@@ -1,0 +1,28 @@
+{
+  "product": "Configure default Python package repositories for Lakeflow Spark Declarative…",
+  "tagline": "Workspace admins can now configure private or authenticated package repositories within workspaces as the default pip configuration for Lakeflow Spark Declarative Pipelines.",
+  "updated": "Feb 11, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace-settings/default-python-packages",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#configure-default-python-package-repositories-for-lakeflow-spark-declarative-pipelines-public-preview",
+  "what_it_does": "Workspace admins can now configure private or authenticated package repositories within workspaces as the default pip configuration for Lakeflow Spark Declarative Pipelines. This allows users in the workspace to install packages from internal Python repositories without explicitly defining index url or extra index url values. Preview Configuring default Python package repositories for Lakeflow Spark Declarative Pipelines is in Public Preview.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Workspace admins can now configure private or authenticated package repositories within workspaces as the default pip configuration for Lakeflow Spark Declarative Pipelines.",
+  "note_id": "2026-02-11-ce1cddde",
+  "category": "platform"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-03-13-5x-large-sql-warehouse-size-beta",
+  "title": "5X-Large SQL warehouse size (Beta)",
+  "date": "2026-03-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#5x-large-sql-warehouse-size-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The 5X-Large cluster size for serverless and pro SQL warehouses is now available in [Beta](/aws/en/release-notes/release-types). For serverless SQL warehouses, 5X-Large is available in all supported regions. Workspace admins can control access to this feature from the **Previews** page. See [Manage Databricks previews](/aws/en/admin/workspace-settings/manage-previews).\n\nFor more information on SQL warehouse sizing, see [SQL warehouse sizing, scaling, and queuing behavior](/aws/en/compute/sql-warehouse/warehouse-behavior).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Manage Databricks previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    },
+    {
+      "text": "SQL warehouse sizing, scaling, and queuing behavior",
+      "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/warehouse-behavior"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.875963Z"
+}

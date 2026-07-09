@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-10-microsoft-dynamics-365-connector-public-preview",
+  "title": "Microsoft Dynamics 365 connector (Public Preview)",
+  "date": "2025-12-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#microsoft-dynamics-365-connector-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The fully-managed Microsoft Dynamics 365 connector in Lakeflow Connect allows you to ingest data from Dynamics 365 applications like Sales, Customer Service, Finance & Operations, and more into Databricks. See [Configure data source for Microsoft Dynamics 365 ingestion](/aws/en/ingestion/lakeflow-connect/d365-source-setup).",
+  "ref_links": [
+    {
+      "text": "Configure data source for Microsoft Dynamics 365 ingestion",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/d365-source-setup"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.084785Z"
+}

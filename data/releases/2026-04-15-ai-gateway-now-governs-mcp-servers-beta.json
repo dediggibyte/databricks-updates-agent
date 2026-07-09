@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-15-ai-gateway-now-governs-mcp-servers-beta",
+  "title": "AI Gateway now governs MCP servers (Beta)",
+  "date": "2026-04-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#ai-gateway-now-governs-mcp-servers-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use AI Gateway to enforce access control, monitor usage, and audit activity across all MCP interactions in your workspace. AI Gateway is the Databricks central governance layer for LLM endpoints, coding agents, and MCP servers. See [AI governance with Unity AI Gateway](/aws/en/ai-gateway).",
+  "ref_links": [
+    {
+      "text": "AI governance with Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.797929Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-04-30-agg-sql-function-as-a-synonym-for-measure",
+  "title": "agg SQL function as a synonym for measure",
+  "date": "2026-04-30",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#agg-sql-function-as-a-synonym-for-measure",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new [agg](/aws/en/sql/language-manual/functions/agg) aggregate function is a synonym for [measure](/aws/en/sql/language-manual/functions/measure). Use `agg(measure_column)` as a shorter alternative when querying measures in a [metric view](/aws/en/business-semantics/metric-views).",
+  "ref_links": [
+    {
+      "text": "agg",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/agg"
+    },
+    {
+      "text": "measure",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/measure"
+    },
+    {
+      "text": "metric view",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.746849Z"
+}

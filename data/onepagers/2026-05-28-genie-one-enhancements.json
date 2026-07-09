@@ -1,0 +1,28 @@
+{
+  "product": "Genie One enhancements",
+  "tagline": "Genie One now has a Managed MCP Server (Beta).",
+  "updated": "May 28, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/mcp/managed-mcp#available-managed-servers",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-4",
+  "what_it_does": "Genie One now has a Managed MCP Server (Beta). Any agent can ask natural language data questions across Genie Spaces and Unity Catalog data and receive grounded answers. Preview This feature is in Public Preview.",
+  "why_it_matters": "Governed: Unity Catalog enforces permissions, so agents and users access only the tools and data you grant them.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Genie One now has a Managed MCP Server (Beta).",
+  "note_id": "2026-05-28-genie-one-enhancements",
+  "category": "platform"
+}

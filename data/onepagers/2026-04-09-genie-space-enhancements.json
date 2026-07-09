@@ -1,0 +1,28 @@
+{
+  "product": "Genie Space enhancements",
+  "tagline": "Embed a Genie Space (Beta): You can now embed a Genie Space as an iframe in a website or application.",
+  "updated": "Apr 9, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/set-up#config",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-6",
+  "what_it_does": "Embed a Genie Space (Beta): You can now embed a Genie Space as an iframe in a website or application. Space thumbnails: Genie Space authors can now attach thumbnails to a space. Thumbnails appear on the Genie Space's initial chat page and in Genie One.",
+  "why_it_matters": "Before sharing the agent with users, Databricks recommends adding example SQL queries, instructions, and knowledge store configurations to improve response accuracy.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Embed a Genie Space (Beta): You can now embed a Genie Space as an iframe in a website or application.",
+  "note_id": "2026-04-09-genie-space-enhancements",
+  "category": "platform"
+}

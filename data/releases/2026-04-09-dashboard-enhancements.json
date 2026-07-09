@@ -1,0 +1,25 @@
+{
+  "id": "2026-04-09-dashboard-enhancements",
+  "title": "Dashboard enhancements",
+  "date": "2026-04-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Local metric views (Public Preview)**: A new dataset type lets you create metric views directly in a dashboard using a low-code visual interface, without publishing to Unity Catalog first. See [Local metric views](/aws/en/dashboards/manage/data-modeling/local-metric-views).\n* **Edit hex color values inline**: Authors can now click directly on a hex color value to edit it in place.\n* **View SQL for visualization widgets**: Authors can now view the SQL behind specific visualization widgets while in draft mode. See [View the visualization query](/aws/en/dashboards/manage/visualizations#view-visualization-query).\n* **External embedding is now generally available**: Embedding dashboards for external users is now generally available. See [What is embedding for external users?](/aws/en/dashboards/share/embedding/external-embed)\n* **Genie Code dataset referencing**: Improved the quality of Genie Code for dashboards when referencing datasets while authoring.\n* **Waterfall chart totals**: Waterfall charts with categorical X-axis now support a total bar.\n* **Scatter plot shape field**: Scatter plots now support a shape field to differentiate data points by category.\n* **Vertical annotations with dual axis**: Fixed a bug where vertical annotations did not appear in charts with dual axis enabled.\n* **Text widget character limit**: Fixed a bug where the text widget accepted more characters than supported but silently failed to save.",
+  "ref_links": [
+    {
+      "text": "Local metric views",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/local-metric-views"
+    },
+    {
+      "text": "View the visualization query",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#view-visualization-query"
+    },
+    {
+      "text": "What is embedding for external users?",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/embedding/external-embed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.807740Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-19-serverless-compute-runtime-updated-to-17-1",
+  "title": "Serverless compute runtime updated to 17.1",
+  "date": "2025-08-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-compute-runtime-updated-to-171",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless compute for notebooks, jobs, and Lakeflow Spark Declarative Pipelines now uses an upgraded runtime, which roughly corresponds to Databricks Runtime 17.1. See [Serverless compute release notes](/aws/en/release-notes/serverless).",
+  "ref_links": [
+    {
+      "text": "Serverless compute release notes",
+      "url": "https://docs.databricks.com/aws/en/release-notes/serverless"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.258115Z"
+}

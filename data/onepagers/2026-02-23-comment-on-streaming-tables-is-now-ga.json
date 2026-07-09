@@ -1,0 +1,45 @@
+{
+  "product": "COMMENT ON streaming tables is now GA",
+  "tagline": "COMMENT ON TABLE to add or update comments on streaming tables is now generally available.",
+  "updated": "Feb 23, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-comment",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#comment-on-streaming-tables-is-now-ga",
+  "what_it_does": "COMMENT ON TABLE to add or update comments on streaming tables is now generally available. Applies to: Databricks SQL Databricks Runtime Sets a comment on a catalog, schema, table, column, share, recipient, provider, or volume. note If you want to add an AI generated comment for a table or table column managed by Unity Catalog, see Add AI generated comments to Unity Catalog objects.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "MODIFY privilege on the table",
+      "desc": "MODIFY privilege on the table."
+    },
+    {
+      "title": "be the OWNER of the",
+      "desc": "be the OWNER of the view. connection\\name"
+    },
+    {
+      "title": "MODIFY privilege on the table",
+      "desc": "MODIFY privilege on the table."
+    },
+    {
+      "title": "be the OWNER of the",
+      "desc": "be the OWNER of the view."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "COMMENT ON TABLE to add or update comments on streaming tables is now generally available.",
+  "note_id": "2026-02-23-comment-on-streaming-tables-is-now-ga",
+  "category": "platform"
+}

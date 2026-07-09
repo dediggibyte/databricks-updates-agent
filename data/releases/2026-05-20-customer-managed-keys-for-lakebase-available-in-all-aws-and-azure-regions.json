@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-20-customer-managed-keys-for-lakebase-available-in-all-aws-and-azure-regions",
+  "title": "Customer-managed keys for Lakebase available in all AWS and Azure regions",
+  "date": "2026-05-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#customer-managed-keys-for-lakebase-available-in-all-aws-and-azure-regions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Customer-managed keys (CMK) for Lakebase Autoscaling are now available in all Lakebase regions on AWS and Azure. CMK encrypts Lakebase Autoscaling project data at rest using a key your organization owns in its cloud KMS. CMK is available for new Lakebase Autoscaling projects. Lakebase Provisioned instances do not support CMK. See [Customer-managed keys for Lakebase](/aws/en/oltp/projects/customer-managed-keys).",
+  "ref_links": [
+    {
+      "text": "Customer-managed keys for Lakebase",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/customer-managed-keys"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.677427Z"
+}

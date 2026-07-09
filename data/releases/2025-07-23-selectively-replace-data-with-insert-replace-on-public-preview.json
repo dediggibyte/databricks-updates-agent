@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-23-selectively-replace-data-with-insert-replace-on-public-preview",
+  "title": "Selectively replace data with INSERT REPLACE ON (Public Preview)",
+  "date": "2025-07-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#selectively-replace-data-with-insert-replace-on-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`INSERT REPLACE ON` is now in Public Preview for Databricks Runtime 17.1. This SQL command replaces part of the table with the result of a query. Rows are replaced when they match the user-defined condition.\n\nSee [`INSERT`](/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-into) in the SQL language reference.",
+  "ref_links": [
+    {
+      "text": "INSERT",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-into"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.312495Z"
+}

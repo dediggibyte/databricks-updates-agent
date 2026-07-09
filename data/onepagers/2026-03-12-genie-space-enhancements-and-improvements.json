@@ -1,0 +1,30 @@
+{
+  "product": "Genie Space enhancements and improvements",
+  "tagline": "Genie Space management APIs are generally available: The CreateSpace, UpdateSpace, GenieGetSpace, GenieListSpaces, and GenieTrashSpace APIs hare now general availability.",
+  "updated": "Mar 12, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/conversation-api",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-improvements",
+  "what_it_does": "Genie Space management APIs are generally available: The CreateSpace, UpdateSpace, GenieGetSpace, GenieListSpaces, and GenieTrashSpace APIs hare now general availability. API instruction length fix: Resolved a bug with the maximum instruction length in the CreateSpace and UpdateSpace APIs. Improved context handling: Genie now better identifies relevant previous messages to include in context, reducing context loss.",
+  "why_it_matters": "Improved context handling: Genie now better identifies relevant previous messages to include in context, reducing context loss.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "use OAuth for users (OAuth U2M)."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Genie Space management APIs are generally available: The CreateSpace, UpdateSpace, GenieGetSpace, GenieListSpaces, and GenieTrashSpace APIs hare now general availability.",
+  "note_id": "2026-03-12-genie-space-enhancements-and-improvements",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "Dashboard enhancements and bug fixes",
+  "tagline": "Gantt charts now available: Gantt charts display tasks as horizontal bars on a continuous axis to visualize project schedules, manufacturing workflows, and other time ranged events.",
+  "updated": "Jun 11, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#drill-through-filter",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-2",
+  "what_it_does": "Gantt charts now available: Gantt charts display tasks as horizontal bars on a continuous axis to visualize project schedules, manufacturing workflows, and other time ranged events. Each bar requires matching start and end field types (date, datetime, or numeric). Custom visualizations (Public Preview): Build custom charts with the Vega Lite library for customization beyond the built in visualization types.",
+  "why_it_matters": "For small datasets, filters are applied in the browser to optimize performance.",
+  "capabilities": [
+    {
+      "title": "JOIN … RELY",
+      "desc": "JOIN … RELY"
+    },
+    {
+      "title": "WINDOW OFFSET",
+      "desc": "WINDOW OFFSET"
+    },
+    {
+      "title": "WINDOW INCLUSIVITY Genie Code metric",
+      "desc": "WINDOW INCLUSIVITY Genie Code metric view usage: Genie Code now relies more heavily on Unity Catalog metric views rather than…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Gantt charts now available: Gantt charts display tasks as horizontal bars on a continuous axis to visualize project schedules, manufacturing workflows, and other time ranged events.",
+  "note_id": "2026-06-11-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

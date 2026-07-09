@@ -1,0 +1,12 @@
+{
+  "id": "2025-09-25-genie-benchmarks-and-join-relationship-enhancements",
+  "title": "Genie benchmarks and JOIN relationship enhancements",
+  "date": "2025-09-25",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-benchmarks-and-join-relationship-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Benchmarks run in the background**: Benchmarks now run as background tasks. Users can start a run without blocking their workflow.\n* **Checkmark for accepted JOIN relationships**: Accepting extracted JOIN relationships now displays a checkmark to confirm acceptance.\n* **Improved benchmarks accessibility**: Benchmarks are now available from the top-line toolbar for easier access.\n* **Notifications for benchmarks**: A notification now encourages users to run benchmarks after making changes to instructions.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.202431Z"
+}

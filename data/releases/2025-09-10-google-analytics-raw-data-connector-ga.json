@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-10-google-analytics-raw-data-connector-ga",
+  "title": "Google Analytics Raw Data connector GA",
+  "date": "2025-09-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#google-analytics-raw-data-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Google Analytics Raw Data connector in Lakeflow Connect is now generally available. See [Set up Google Analytics 4 and Google BigQuery for Databricks ingestion](/aws/en/ingestion/lakeflow-connect/google-analytics-source-setup).",
+  "ref_links": [
+    {
+      "text": "Set up Google Analytics 4 and Google BigQuery for Databricks ingestion",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-analytics-source-setup"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.221901Z"
+}

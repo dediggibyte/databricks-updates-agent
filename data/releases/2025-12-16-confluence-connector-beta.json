@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-16-confluence-connector-beta",
+  "title": "Confluence connector (Beta)",
+  "date": "2025-12-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#confluence-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The fully-managed Confluence connector in Lakeflow Connect enables you to ingest Confluence spaces, pages, attachments, blogposts, labels, and classification levels into Databricks. See [Configure OAuth U2M for Confluence ingestion](/aws/en/ingestion/lakeflow-connect/confluence-source-setup).",
+  "ref_links": [
+    {
+      "text": "Configure OAuth U2M for Confluence ingestion",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/confluence-source-setup"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.075957Z"
+}

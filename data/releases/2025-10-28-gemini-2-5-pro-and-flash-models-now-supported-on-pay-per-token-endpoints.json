@@ -1,0 +1,41 @@
+{
+  "id": "2025-10-28-gemini-2-5-pro-and-flash-models-now-supported-on-pay-per-token-endpoints",
+  "title": "Gemini 2.5 Pro and Flash models now supported on pay-per-token endpoints",
+  "date": "2025-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#gemini-25-pro-and-flash-models-now-supported-on-pay-per-token-endpoints",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Model Serving now supports the Google [Gemini 2.5 Pro](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-2-5-pro) and [Gemini 2.5 Flash](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-2-5-flash) models. You can access these models using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis) and they also support [Function calling](/aws/en/machine-learning/model-serving/function-calling) and [Structured output](/aws/en/machine-learning/model-serving/structured-outputs).\n\n* See [Query reasoning models](/aws/en/machine-learning/model-serving/query-reason-models).\n* See [Enrich data using AI Functions](/aws/en/large-language-models/ai-functions) for guidance on how to use the Gemini 2.5 models for batch inference.",
+  "ref_links": [
+    {
+      "text": "Gemini 2.5 Pro",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-2-5-pro"
+    },
+    {
+      "text": "Gemini 2.5 Flash",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-2-5-flash"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "Function calling",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/function-calling"
+    },
+    {
+      "text": "Structured output",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/structured-outputs"
+    },
+    {
+      "text": "Query reasoning models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/query-reason-models"
+    },
+    {
+      "text": "Enrich data using AI Functions",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.149747Z"
+}

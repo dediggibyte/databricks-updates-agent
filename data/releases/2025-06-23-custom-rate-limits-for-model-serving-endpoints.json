@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-23-custom-rate-limits-for-model-serving-endpoints",
+  "title": "Custom rate limits for model serving endpoints",
+  "date": "2025-06-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#custom-rate-limits-for-model-serving-endpoints",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now specify custom rate limits for your model serving endpoints using AI Gateway. Provide rate limits for any of the following:\n\n* Endpoint: Specify the overall rate limit for all traffic passing through the endpoint, regardless of individual or user group limits.\n* User (Default): Specify the rate limit for **all users** of the endpoint that do not have user-specific or group-specific rate limits defined.\n* Specific user: Specify the rate limit for a particular user of the endpoint.\n* Service principal: Specify the rate limit for a particular service principal.\n* User group: Specify the rate limit for a particular user group. This limit is shared across all members of the group.\n\nSee [Configure Unity AI Gateway using the UI](/aws/en/ai-gateway/configure-ai-gateway-endpoints#configure).",
+  "ref_links": [
+    {
+      "text": "Configure Unity AI Gateway using the UI",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/configure-ai-gateway-endpoints#configure"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.343230Z"
+}

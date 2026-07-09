@@ -1,0 +1,43 @@
+{
+  "product": "Jobs can now be triggered on source view update",
+  "tagline": "Table update triggers for jobs now support views as a source, when the view references supported table types.",
+  "updated": "Nov 17, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/trigger-table-update",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#jobs-can-now-be-triggered-on-source-view-update",
+  "what_it_does": "Table update triggers for jobs now support views as a source, when the view references supported table types. You can use table update triggers to trigger a run of your job when source tables are updated. Use this feature to run a job when new data is ready without the need for a continuously running cluster or knowledge of the processes that update a table.",
+  "why_it_matters": "Table update triggers do not incur additional costs other than cloud provider costs associated with listing tables and reading updates from the storage location.",
+  "capabilities": [
+    {
+      "title": "Table Update Triggers on OpenSharing",
+      "desc": "Table Update Triggers on OpenSharing (Recipient): A workspace-level beta, enabled in the recipient workspace where the trigger…"
+    },
+    {
+      "title": "Table Update Triggers on OpenSharing",
+      "desc": "Table Update Triggers on OpenSharing (Provider): An account-level beta, enabled in the provider account that owns the shared data."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [
+    "Views that use readfiles (they can read from a supported table that reads files, but cannot directly use readfiles).",
+    "Views that depend on tables that are not in Unity Catalog.",
+    "Views that depend on federated tables. Creation of triggers for views containing unsupported dependencies still succeed, but no job runs are triggered when an unsupported dependency is updated. Table update triggers monitor changes to the dependent tables of a view and considers the view updated if any of the dependent tables is updated. It is possible for a job run to be triggered for data changes that are filtered out by the view definition. Source tables for a view are counted towards the limit of 10 tables per trigger.",
+    "For example, if a view depends on 11 tables, it is not possible to use it in a table update trigger. Similarly a trigger with two views, each of which depends on 6 tables, counts as 12 tables. There is a separate limit of 10 dependent views per monitored view.",
+    "For example, if a view depends on 11 other views, it is not possible to use it in a table update trigger, even if this does not break the 10 tables per trigger rule."
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Table update triggers for jobs now support views as a source, when the view references supported table types.",
+  "note_id": "2025-11-17-jobs-can-now-be-triggered-on-source-view-update",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-17-new-workflow-for-creating-metric-views-from-dashboards",
+  "title": "New workflow for creating metric views from dashboards",
+  "date": "2025-07-17",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#new-workflow-for-creating-metric-views-from-dashboards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Create a metric view from a dashboard dataset**: Authors can now promote a dashboard dataset to a metric view using the AI/BI dashboard data tab. See [Export as a metric view](/aws/en/dashboards/manage/data-modeling/datasets#create-metric-views).",
+  "ref_links": [
+    {
+      "text": "Export as a metric view",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/datasets#create-metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.314337Z"
+}

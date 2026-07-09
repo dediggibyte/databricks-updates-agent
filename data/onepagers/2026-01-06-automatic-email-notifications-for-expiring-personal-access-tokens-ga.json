@@ -1,0 +1,28 @@
+{
+  "product": "Automatic email notifications for expiring personal access tokens (GA)",
+  "tagline": "Automatic email notifications for expiring personal access tokens are now generally available.",
+  "updated": "Jan 6, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/access-control/tokens#lifetime",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#automatic-email-notifications-for-expiring-personal-access-tokens-ga",
+  "what_it_does": "Automatic email notifications for expiring personal access tokens are now generally available. To authenticate to the Databricks REST API, a user can create a personal access token (PAT) and use it in their REST API request. A user can also create a service principal and use it with a personal access token to call Databricks REST APIs in their CI/CD tools and automation.",
+  "why_it_matters": "Databricks recommends you minimize your personal access token exposure with the following steps: 1.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Automatic email notifications for expiring personal access tokens are now generally available.",
+  "note_id": "2026-01-06-automatic-email-notifications-for-expiring-personal-access-tokens-ga",
+  "category": "platform"
+}

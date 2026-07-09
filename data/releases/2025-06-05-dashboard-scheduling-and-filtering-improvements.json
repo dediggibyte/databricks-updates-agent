@@ -1,0 +1,12 @@
+{
+  "id": "2025-06-05-dashboard-scheduling-and-filtering-improvements",
+  "title": "Dashboard scheduling and filtering improvements",
+  "date": "2025-06-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-scheduling-and-filtering-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashboard schedule fix**: Resolved an issue where schedules for dashboards published with global filters were not executing.\n* **Cross-filtering fix for histograms**: Fixed an issue where cross-filtering with histograms did not work on large datasets.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.371550Z"
+}

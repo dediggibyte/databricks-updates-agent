@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-15-genie-space-sample-data-research-agent-and-space-manager-improvements",
+  "title": "Genie Space sample data, Research Agent, and space manager improvements",
+  "date": "2026-01-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-sample-data-research-agent-and-space-manager-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Sample data tab**: View sample data to understand the context behind a Genie Space. See  [Manage data objects](/aws/en/genie/set-up#manage-data).\n* **Text answer summaries in API**: Text answer summaries are now returned in the API.\n* **Research Agent starter questions (Beta)**: Curated starter questions are now available for Research Agent mode.\n* **Landing page redesign**: The landing page has been redesigned to improve starter question readability.\n* **Benchmark execution**: Benchmarks with AI functions now execute correctly.\n* **Space manager feedback management**: Space managers can update thumbs up/down feedback from other users and re-run query results from other users' messages using their own data credentials to debug feedback.\n* **Example SQL title character limit**: The maximum character length for example SQL titles has been increased to 1024.",
+  "ref_links": [
+    {
+      "text": "Manage data objects",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#manage-data"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.034150Z"
+}

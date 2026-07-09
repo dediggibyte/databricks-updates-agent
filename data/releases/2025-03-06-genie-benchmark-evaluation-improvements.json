@@ -1,0 +1,12 @@
+{
+  "id": "2025-03-06-genie-benchmark-evaluation-improvements",
+  "title": "Genie benchmark evaluation improvements",
+  "date": "2025-03-06",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-benchmark-evaluation-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Improved benchmarks in Genie**: The benchmark evaluation function now more accurately detects incorrect results.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.429794Z"
+}

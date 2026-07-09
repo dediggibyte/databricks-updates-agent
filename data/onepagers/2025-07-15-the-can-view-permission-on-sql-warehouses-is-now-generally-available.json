@@ -1,0 +1,37 @@
+{
+  "product": "The CAN VIEW permission on SQL warehouses is now generally available",
+  "tagline": "The CAN VIEW permission allows users to view SQL warehouses, including query history and query profiles.",
+  "updated": "Jul 15, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/security/auth/access-control#sql-warehouses",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#the-can-view-permission-on-sql-warehouses-is-now-generally-available",
+  "what_it_does": "The CAN VIEW permission allows users to view SQL warehouses, including query history and query profiles. These users cannot run queries on the warehouse. This page describes details about the permissions available for the different workspace objects.",
+  "why_it_matters": "note Feature Store access control does not govern access to the underlying Delta table, which is governed by table access control.",
+  "capabilities": [
+    {
+      "title": "Create Unity Catalog database catalog",
+      "desc": "Create Unity Catalog database catalog: Requires the CREATE CATALOG privilege on the Unity Catalog metastore."
+    },
+    {
+      "title": "Create synced table: Requires Unity",
+      "desc": "Create synced table: Requires Unity Catalog permissions to read the source table, write to the destination schema, and write to…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The CAN VIEW permission allows users to view SQL warehouses, including query history and query profiles.",
+  "note_id": "2025-07-15-the-can-view-permission-on-sql-warehouses-is-now-generally-available",
+  "category": "platform"
+}

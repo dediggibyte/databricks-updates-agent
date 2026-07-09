@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-02-schedule-data-refreshes-in-google-sheets-public-preview",
+  "title": "Schedule data refreshes in Google Sheets (Public Preview)",
+  "date": "2026-03-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#schedule-data-refreshes-in-google-sheets-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now schedule automatic data refreshes in the *Databricks Connector for Google Sheets* on an hourly, daily, or weekly basis. See [Schedule data refreshes in Google Sheets](/aws/en/integrations/google-sheets/schedule-refresh).",
+  "ref_links": [
+    {
+      "text": "Schedule data refreshes in Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets/schedule-refresh"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.915166Z"
+}

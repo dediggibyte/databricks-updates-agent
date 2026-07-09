@@ -1,0 +1,29 @@
+{
+  "id": "2026-03-06-google-gemini-3-1-flash-lite-now-available-as-a-databricks-hosted-model",
+  "title": "Google Gemini 3.1 Flash Lite now available as a Databricks-hosted model",
+  "date": "2026-03-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#google-gemini-31-flash-lite-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports [Google Gemini 3.1 Flash Lite](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-1-flash-lite) as a Databricks-hosted model.\n\nTo access this model, use:\n\n* [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis)\n  + [Query vision models](/aws/en/machine-learning/model-serving/query-vision-models)\n* [Batch inference workloads using AI Functions](/aws/en/large-language-models/ai-functions)",
+  "ref_links": [
+    {
+      "text": "Google Gemini 3.1 Flash Lite",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-1-flash-lite"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "Query vision models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/query-vision-models"
+    },
+    {
+      "text": "Batch inference workloads using AI Functions",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.904116Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-08-vector-search-reranker-is-now-generally-available",
+  "title": "Vector Search reranker is now generally available",
+  "date": "2025-12-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#vector-search-reranker-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Vector Search reranker is now generally available. Reranking can help improve retrieval quality. For more information, see [Use the reranker in a query](/aws/en/ai-search/query-ai-search#rerank).",
+  "ref_links": [
+    {
+      "text": "Use the reranker in a query",
+      "url": "https://docs.databricks.com/aws/en/ai-search/query-ai-search#rerank"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.094950Z"
+}

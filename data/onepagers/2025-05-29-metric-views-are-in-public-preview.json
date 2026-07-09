@@ -1,0 +1,45 @@
+{
+  "product": "Metric views are in Public Preview",
+  "tagline": "Unity Catalog metric views are now in Public Preview: Metric views provide a centralized way to define and manage consistent, reusable, and governed core business metrics.",
+  "updated": "May 29, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/business-semantics/metric-views",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#metric-views-are-in-public-preview",
+  "what_it_does": "Unity Catalog metric views are now in Public Preview: Metric views provide a centralized way to define and manage consistent, reusable, and governed core business metrics. They abstract complex business logic into a centralized definition, enabling organizations to define key performance indicators once and use them consistently across reporting tools like dashboards, Genie Spaces, and alerts. Use a SQL warehouse running on the Preview channel (2025.16) to work with metric views.",
+  "why_it_matters": "Unity Catalog metric views are now in Public Preview: Metric views provide a centralized way to define and manage consistent, reusable, and governed core business metrics.",
+  "capabilities": [
+    {
+      "title": "Create a metric view",
+      "desc": "Create a metric view"
+    },
+    {
+      "title": "Define metric views using SQL",
+      "desc": "Define metric views using SQL DDL or the Catalog Explorer UI, with built-in YAML validation."
+    },
+    {
+      "title": "Query metric views",
+      "desc": "Query metric views"
+    },
+    {
+      "title": "Query metric views from SQL",
+      "desc": "Query metric views from SQL editors, notebooks, dashboards, Genie Agents, and alerts."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Unity Catalog metric views are now in Public Preview: Metric views provide a centralized way to define and manage consistent, reusable, and governed core business metrics.",
+  "note_id": "2025-05-29-metric-views-are-in-public-preview",
+  "category": "platform"
+}

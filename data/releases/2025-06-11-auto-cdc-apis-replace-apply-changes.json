@@ -1,0 +1,25 @@
+{
+  "id": "2025-06-11-auto-cdc-apis-replace-apply-changes",
+  "title": "AUTO CDC APIs replace APPLY CHANGES",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#auto-cdc-apis-replace-apply-changes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new `AUTO CDC` APIs create flows that support change data feeds (CDF) in Lakeflow Spark Declarative Pipelines. Databricks recommends replacing usage of `APPLY CHANGES` APIs with `AUTO CDC`.\n\nFor information about the SQL `AUTO CDC` API, see:\n\n* [AUTO CDC INTO (pipelines)](/aws/en/ldp/developer/ldp-sql-ref-apply-changes-into)\n\nFor information about the Python `create_auto_cdc_flow` APIs, see\n\n* [create\\_auto\\_cdc\\_flow](/aws/en/ldp/developer/ldp-python-ref-apply-changes)\n* [create\\_auto\\_cdc\\_from\\_snapshot\\_flow](/aws/en/ldp/developer/ldp-python-ref-apply-changes-from-snapshot)",
+  "ref_links": [
+    {
+      "text": "AUTO CDC INTO (pipelines)",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-sql-ref-apply-changes-into"
+    },
+    {
+      "text": "create_auto_cdc_flow",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-apply-changes"
+    },
+    {
+      "text": "create_auto_cdc_from_snapshot_flow",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-apply-changes-from-snapshot"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.357839Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2026-07-06-july-6-2026",
+  "title": "July 6, 2026",
+  "date": "2026-07-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/serverless#july-6-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "This serverless compute release includes updates from [Databricks Runtime 18](/aws/en/release-notes/runtime/18).\n\n#### New features\n\n* **Lakeflow Spark Declarative Pipelines streaming query ID**: Lakeflow Spark Declarative Pipelines can now set the streaming query ID on demand.\n* **IP address functions (Public Preview)**: New SQL functions are available for working with IPv4 and IPv6 addresses and CIDR blocks, including `ip_host`, `ip_cidr`, `ip_version`, `ip_prefix_length`, `ip_network`, `ip_network_last`, `ip_cidr_contains`, `ip_as_binary`, `ip_as_string`, and `try_*` variants for null-safe behavior. See [ip\\_host](/aws/en/sql/language-manual/functions/ip_host) and related functions.\n* **On-demand state repartitioning (Public Preview)**: [Structured Streaming](/aws/en/structured-streaming/concepts) now supports changing the number of shuffle partitions for stateful queries without losing checkpoint state. See [On-demand state repartitioning for stateful streaming queries](/aws/en/structured-streaming/state-repartitioning).\n* **Auto CDC from snapshot with SQL syntax**: Lakeflow Spark Declarative Pipelines now supports [Auto CDC from snapshot](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table-auto-cdc) using SQL syntax. Previously, this feature was only available through the Python API. Use `CREATE STREAMING TABLE ... FLOW AUTO CDC FROM SNAPSHOT` to process snapshot sources (such as Delta tables, cloud storage, or JDBC) one snapshot at a time. Both SCD Type 1 (default) and SCD Type 2 are supported.\n\n#### Behavior changes\n\n* **`CREATE OR REPLACE TABLE` preserves comments**: [`CREATE OR REPLACE TABLE`](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-table) now preserves existing column and table comments by default. Previously, comments were dropped when recreating a table. Managed tables and views now match the existing behavior of materialized views and streaming tables.\n* **DataFrame by-name writes cast compatible columns**: `writeTo().append()`, `writeTo().overwrite()`, `writeTo().overwritePartitions()`, and `write.mode(\"append\").saveAsTable()` now automatically cast type-compatible columns (for example, `int` to `long`) to match the target Delta table schema. Previously, these operations failed with a `DELTA_FAILED_TO_MERGE_FIELDS` error when column types were compatible but not identical. Behavior now matches SQL `INSERT INTO ... BY NAME`.\n* **`ALTER TABLE SET TBLPROPERTIES` for `pipelines.pipelineId`**: `ALTER TABLE <table> SET TBLPROPERTIES('pipelines.pipelineId' = '<pipeline-id>')` now attempts to make the specified table eligible for writes by the pipeline. Previously, setting this property on a regular table had no effect. If the table isn't eligible for pipeline writes, the command throws `SETTING_PIPELINES_PIPELINE_ID_NOT_SUPPORTED`.\n* **`DESCRIBE EXTENDED AS JSON` includes predictive optimization results**: `DESCRIBE EXTENDED ... AS JSON` now includes predictive optimization evaluation results in its output. Previously, this information wasn't returned in the JSON output.\n* **Metric view window measures return correct results**: Metric view window measures now return correct results when queries use `GROUP BY`, `IN`/`BETWEEN` filters, or mixed predicates on the window's order column. Previously, these filter patterns could produce incorrect results.\n* **Structured Streaming deduplication with `NaN` keys**: [Structured Streaming](/aws/en/structured-streaming/concepts) deduplication now treats `NaN` (Not-a-Number) values that have different bit patterns as duplicates when a `double` or `float` column is used as a deduplication key. Previously, `NaN` values with different internal representations were treated as distinct and were not deduplicated.\n* **`NATURAL JOIN` case-insensitive column matching**: [`NATURAL JOIN`](/aws/en/sql/language-manual/sql-ref-syntax-qry-select-join) now matches common columns case-insensitively, consistent with the equivalent `USING` join. Previously, column matching was case-sensitive, causing columns that differ only in case (for example, `ID` vs `id`) to not be recognized as common columns, resulting in a silent cross join instead of the expected equi-join.",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 18",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18"
+    },
+    {
+      "text": "ip_host",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ip_host"
+    },
+    {
+      "text": "Structured Streaming",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/concepts"
+    },
+    {
+      "text": "On-demand state repartitioning for stateful streaming queries",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/state-repartitioning"
+    },
+    {
+      "text": "Auto CDC from snapshot",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table-auto-cdc"
+    },
+    {
+      "text": "CREATE OR REPLACE TABLE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-table"
+    },
+    {
+      "text": "NATURAL JOIN",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-join"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.512997Z"
+}

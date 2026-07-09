@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-20-databricks-runtime-18-april-20-2026",
+  "title": "Databricks Runtime 18: April 20, 2026",
+  "date": "2026-04-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-april-20-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* Fixed the CRS spatial reference authority for the `GEOMETRY(102100)` type. The authority is now reported as `ESRI:102100` instead of `EPSG:102100`.\n* **[Security fix]** Operating system security updates.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.783855Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2025-02-27-dashboard-date-controls-and-notification-features",
+  "title": "Dashboard date controls and notification features",
+  "date": "2025-02-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-date-controls-and-notification-features",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Relative dates update**: The relative dates in **date** and **date range** pickers now include the current day.\n* **Error message improvement**: Error messages for calculated measures now indicate that filter clauses are not supported.\n* **Publish notification feature**: Dashboard authors can now send publish notifications when updating a dashboard. See [Publish a dashboard](/aws/en/dashboards/share/share#publish-dashboard).\n* **Ask Genie about specific charts**: You can now ask questions about specific charts in Genie-enabled published dashboards. Genie uses the selected chart's title and dataset query as context for the conversation. See  [Ask Genie about a specific chart](/aws/en/dashboards/genie-spaces#genie-chart-details).",
+  "ref_links": [
+    {
+      "text": "Publish a dashboard",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/share#publish-dashboard"
+    },
+    {
+      "text": "Ask Genie about a specific chart",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#genie-chart-details"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.432446Z"
+}

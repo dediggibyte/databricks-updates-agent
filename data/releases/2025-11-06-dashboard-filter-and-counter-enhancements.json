@@ -1,0 +1,12 @@
+{
+  "id": "2025-11-06-dashboard-filter-and-counter-enhancements",
+  "title": "Dashboard filter and counter enhancements",
+  "date": "2025-11-06",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-filter-and-counter-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Per-widget filter enhancements**: Per-widget filters now support date ranges, relative date ranges, and number filters.\n* **Metric view metadata support**: AI/BI dashboards now consume Unity Catalog metadata from metric views, including formatting and display name.\n* **Horizontal chart scrollbars on hover**: Scrollbars for horizontal charts now show on hover.\n* **Fixed custom calculations display in draft mode**: Resolved an issue where visualizations using custom calculations were not displaying in draft mode.\n* **Fixed Slack notification OAuth token field**: Resolved a bug where the OAuth token field appeared pre-filled with placeholder text despite no prior token being provided for dashboard subscription Slack notifications.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.124096Z"
+}

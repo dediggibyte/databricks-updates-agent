@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-10-model-context-protocol-mcp-for-ai-agents-is-in-beta",
+  "title": "Model Context Protocol (MCP) for AI agents is in Beta",
+  "date": "2025-06-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#model-context-protocol-mcp-for-ai-agents-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks now supports MCP, an open standard that lets AI agents securely access tools, resources, prompt, and other contextual information using a consistent interface.\n\n* **Managed MCP servers**: Use Databricks-hosted servers for easy, no-maintenance access to Unity Catalog data and tools.\n* **Custom MCP servers**: Host your own MCP server or third-party server as a Databricks app.\n\nSee [Model Context Protocol (MCP) on Databricks](/aws/en/agents/mcp).",
+  "ref_links": [
+    {
+      "text": "Model Context Protocol (MCP) on Databricks",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.364917Z"
+}

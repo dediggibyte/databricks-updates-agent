@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-18-dashboard-enhancements-and-fixes",
+  "title": "Dashboard enhancements and fixes",
+  "date": "2025-12-18",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-enhancements-and-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Boolean alias formatting**: Boolean values now support alias formatting, allowing users to replace \"true\" and \"false\" with custom strings.\n* **Compact global filters**: Reduced the size of global filters to save space.\n* **Relative date range options**: Relative date range filters now include yesterday, last week, last month, and last year.\n* **Filter widget background fix**: Fixed an issue where a gray background appeared on some filter widgets.\n* **Filter reset button fix**: Fixed an issue where the \"Reset to default\" button appeared on the active filter bar when all filters showed default values.\n* **Custom chart labels**: You can now choose a custom field for chart labels. See [Value labels](/aws/en/dashboards/manage/visualizations#value-labels).\n* **Sortable filter dropdown options**: Authors can now sort filter dropdown options by another field.\n* **Multi-select filter paste**: Viewers can now copy a column of values from a spreadsheet and paste them into a multi-select filter.\n* **Chart tooltip overflow indicator**: Chart tooltips with many series now indicate when there are more series.\n* **Axis label spacing fix**: Fixed an issue where long axis labels took up too much plotting area.\n* **Agent-created widget consistency**: Agent-created widgets now work consistently across edit and published dashboards.\n* **Mark label angle fix**: Fixed mark label angle for charts with multiple Y axes without an X axis.",
+  "ref_links": [
+    {
+      "text": "Value labels",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#value-labels"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.065553Z"
+}

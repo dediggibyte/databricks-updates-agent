@@ -1,0 +1,28 @@
+{
+  "product": "ISMAP compliance support",
+  "tagline": "You can now configure Databricks workspaces to support ISMAP, the Japanese government certification initiative for cloud services.",
+  "updated": "Feb 26, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/ismap",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#ismap-compliance-support",
+  "what_it_does": "You can now configure Databricks workspaces to support ISMAP, the Japanese government certification initiative for cloud services. This page describes ISMAP compliance controls in Databricks. ISMAP overview ISMAP is a Japanese government initiative that certifies cloud service providers for handling government data.",
+  "why_it_matters": "You can now configure Databricks workspaces to support ISMAP, the Japanese government certification initiative for cloud services.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now configure Databricks workspaces to support ISMAP, the Japanese government certification initiative for cloud services.",
+  "note_id": "2026-02-26-ismap-compliance-support",
+  "category": "platform"
+}

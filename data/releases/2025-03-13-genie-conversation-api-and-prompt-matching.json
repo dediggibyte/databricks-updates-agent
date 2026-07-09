@@ -1,0 +1,25 @@
+{
+  "id": "2025-03-13-genie-conversation-api-and-prompt-matching",
+  "title": "Genie conversation API and prompt matching",
+  "date": "2025-03-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-conversation-api-and-prompt-matching",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Easier to understand audit events in Genie**: The `updateConversationMessageFeedback` audit event now includes a `feedback_rating` field to quickly see whether a rating is positive or negative.\n* **Genie Conversations API in Public Preview**: The [Genie Conversation API](https://docs.databricks.com/api/workspace/genie) is now in [Public Preview](/aws/en/release-notes/release-types). Use the API to ask questions, retrieve generated SQL and query results, or get the details associated with a Genie Space. For more details, see [Create and manage a Genie Agent](/aws/en/genie/set-up).\n* **Genie prompt matching is now available in Public Preview**: Prompt matching (previously data sampling) improves Genie's ability to translate user prompts into the right column and row values. To test this feature, contact your Databricks account team.\n* **Genie now self-reflects**: As Genie generates SQL, it self-reflects to fix issues and return higher-quality answers. This improves Genie's ability to author filter conditions and fewer SQL errors.\n* **Improved keyword contextualization in Genie**: Genie has improved its ability to provide relevant context in its responses based on keywords in the user question.\n* **Improved benchmark evaluation logic in Genie**: Genie now supports column and row reordering and permits extraneous column selection in SQL results.",
+  "ref_links": [
+    {
+      "text": "Genie Conversation API",
+      "url": "https://docs.databricks.com/api/workspace/genie"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Create and manage a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.427220Z"
+}

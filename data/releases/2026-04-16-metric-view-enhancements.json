@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-16-metric-view-enhancements",
+  "title": "Metric view enhancements",
+  "date": "2026-04-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#metric-view-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Measures and dimensions creation use Builder mode by default (Public Preview)**: Builder mode, the UI-based transformation tool, is now the default experience for editing measures and dimensions in metric views.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.791910Z"
+}

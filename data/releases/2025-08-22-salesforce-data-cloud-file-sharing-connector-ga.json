@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-22-salesforce-data-cloud-file-sharing-connector-ga",
+  "title": "Salesforce Data Cloud File Sharing connector GA",
+  "date": "2025-08-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#salesforce-data-cloud-file-sharing-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Salesforce Data Cloud File Sharing connector is now generally available.\n\nSee [Lakehouse Federation for Salesforce Data 360 File Sharing](/aws/en/query-federation/salesforce-data-cloud-file-sharing).",
+  "ref_links": [
+    {
+      "text": "Lakehouse Federation for Salesforce Data 360 File Sharing",
+      "url": "https://docs.databricks.com/aws/en/query-federation/salesforce-data-cloud-file-sharing"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.252543Z"
+}

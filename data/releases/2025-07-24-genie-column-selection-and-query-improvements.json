@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-24-genie-column-selection-and-query-improvements",
+  "title": "Genie column selection and query improvements",
+  "date": "2025-07-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-column-selection-and-query-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Improved column selection accuracy**: Genie's ability to choose relevant columns based on user prompts has been improved, especially when the prompt contains a specific column value.\n* **Cross-geo processing error fix**: Resolved an issue where customers based in Australia would receive a **cross-geo processing** error.\n* **Query execution timeout**: Genie now automatically cancels query executions that take longer than 15 minutes to execute.\n* **Entity matching refresh fix**: Resolved an issue with long-running entity matching (previously value dictionary) addition and refresh operations.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.308252Z"
+}

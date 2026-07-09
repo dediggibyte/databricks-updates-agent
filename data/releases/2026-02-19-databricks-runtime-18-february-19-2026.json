@@ -1,0 +1,12 @@
+{
+  "id": "2026-02-19-databricks-runtime-18-february-19-2026",
+  "title": "Databricks Runtime 18: February 19, 2026",
+  "date": "2026-02-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-february-19-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* When inferring the schema of Excel files, string cells are now inferred as Spark `StringType`, respecting the cell type set in Excel. Previously, strings with numeric values were auto-cast to narrower types like `Long` or `Decimal`. Update code that relied on the previous behavior.\n* `DataFrame.toJSON()` is now available in the Python Spark Connect client.\n* **[Security fix]** Operating system security updates.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.945166Z"
+}

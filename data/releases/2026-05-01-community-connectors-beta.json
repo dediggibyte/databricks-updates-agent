@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-01-community-connectors-beta",
+  "title": "Community connectors (Beta)",
+  "date": "2026-05-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#community-connectors-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Open-source connectors extend Lakeflow Connect to sources without managed connector support. They're built and maintained by the community. Use a registered connector or create your own. See [Community connectors in Lakeflow Connect](/aws/en/ingestion/community-connectors).",
+  "ref_links": [
+    {
+      "text": "Community connectors in Lakeflow Connect",
+      "url": "https://docs.databricks.com/aws/en/ingestion/community-connectors"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.745201Z"
+}

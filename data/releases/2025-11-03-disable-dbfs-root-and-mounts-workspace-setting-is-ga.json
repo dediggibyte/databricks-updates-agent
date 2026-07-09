@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-03-disable-dbfs-root-and-mounts-workspace-setting-is-ga",
+  "title": "Disable DBFS root and mounts workspace setting is GA",
+  "date": "2025-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#disable-dbfs-root-and-mounts-workspace-setting-is-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The workspace setting that allows workspace admins to disable access to the Databricks Filesystem (DBFS) root and mounts in existing Databricks workspaces is now generally available. See [Disable access to DBFS root and mounts in your existing Databricks workspace](/aws/en/dbfs/disable-dbfs-root-mounts).",
+  "ref_links": [
+    {
+      "text": "Disable access to DBFS root and mounts in your existing Databricks workspace",
+      "url": "https://docs.databricks.com/aws/en/dbfs/disable-dbfs-root-mounts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.134196Z"
+}

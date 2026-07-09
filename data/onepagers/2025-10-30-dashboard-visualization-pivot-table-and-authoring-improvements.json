@@ -1,0 +1,45 @@
+{
+  "product": "Dashboard visualization, pivot table, and authoring improvements",
+  "tagline": "Dashboard subscriptions to Slack channels: Dashboard authors can now add Slack channels as subscribers to a scheduled dashboard refresh.",
+  "updated": "Oct 30, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#pivot-table-configuration",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-pivot-table-and-authoring-improvements",
+  "what_it_does": "Dashboard subscriptions to Slack channels: Dashboard authors can now add Slack channels as subscribers to a scheduled dashboard refresh. Top N scroll bar behavior: The scroll bar on top N visualizations now appears only on mouseover for a cleaner interface. Legend placement options: You can now place legends at the top and left of visualizations in addition to existing placement options.",
+  "why_it_matters": "Export to materialized view: Authors can now generate a materialized view from any dataset on their dashboard for improved performance and more efficient refresh and execution.",
+  "capabilities": [
+    {
+      "title": "Authors can add links to",
+      "desc": "Authors can add links to text in pivot tables by specifying a URL path in the Actions tab of pivot table values."
+    },
+    {
+      "title": "Pivot table header values are",
+      "desc": "Pivot table header values are now sticky and remain on screen while scrolling."
+    },
+    {
+      "title": "Users can conditionally set the",
+      "desc": "Users can conditionally set the text color in pivot tables. Duplicative audit log events: Dashboards with companion Genie Spaces…"
+    },
+    {
+      "title": "Header height: Specifies the header",
+      "desc": "Header height: Specifies the header height in pixels. Header text wraps to fill the specified height. Overflow text is truncated."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Dashboard subscriptions to Slack channels: Dashboard authors can now add Slack channels as subscribers to a scheduled dashboard refresh.",
+  "note_id": "2025-10-30-dashboard-visualization-pivot-table-and-authoring-improvements",
+  "category": "platform"
+}

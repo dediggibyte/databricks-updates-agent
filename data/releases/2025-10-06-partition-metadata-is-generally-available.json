@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-06-partition-metadata-is-generally-available",
+  "title": "Partition metadata is generally available",
+  "date": "2025-10-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#partition-metadata-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now enable partition metadata logging, a partition discovery strategy for external tables registered to Unity Catalog. See [Use partition metadata logging](/aws/en/tables/external-partition-discovery#metadata-logging).",
+  "ref_links": [
+    {
+      "text": "Use partition metadata logging",
+      "url": "https://docs.databricks.com/aws/en/tables/external-partition-discovery#metadata-logging"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.184151Z"
+}

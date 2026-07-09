@@ -1,0 +1,37 @@
+{
+  "product": "Supervisor API for building agents (Beta)",
+  "tagline": "The Supervisor API (Beta) lets you build agents in a single API call.",
+  "updated": "Apr 20, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/supervisor-api",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#supervisor-api-for-building-agents-beta",
+  "what_it_does": "The Supervisor API (Beta) lets you build agents in a single API call. Define your model, tools, and instructions, and Databricks handles tool selection, execution, and response synthesis. Beta This feature is in Beta.",
+  "why_it_matters": "Requirements AI governance with Unity AI Gateway enabled for your account.",
+  "capabilities": [
+    {
+      "title": "Because the Supervisor API runs",
+      "desc": "Because the Supervisor API runs through Unity AI Gateway, AI Gateway features such as inference tables, rate limits, and…"
+    },
+    {
+      "title": "Stores traces from the Supervisor",
+      "desc": "Stores traces from the Supervisor API agent loop in Unity Catalog tables. A Databricks workspace in a supported region. Unity…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Supervisor API (Beta) lets you build agents in a single API call.",
+  "note_id": "2026-04-20-supervisor-api-for-building-agents-beta",
+  "category": "platform"
+}

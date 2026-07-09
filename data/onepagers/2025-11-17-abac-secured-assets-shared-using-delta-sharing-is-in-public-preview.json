@@ -1,0 +1,28 @@
+{
+  "product": "ABAC-secured assets shared using Delta Sharing is in Public Preview",
+  "tagline": "Applying attribute based access control (ABAC) policies to tables and schemas shared through Delta Sharing is now in Public Preview.",
+  "updated": "Nov 17, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#abac",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#abac-secured-assets-shared-using-delta-sharing-is-in-public-preview",
+  "what_it_does": "Applying attribute based access control (ABAC) policies to tables and schemas shared through Delta Sharing is now in Public Preview. However, recipients can't apply ABAC policies on shared streaming tables or materialized views. This page describes how to read data shared with you using the Databricks to Databricks OpenSharing protocol, where Databricks manages a secure connection for data sharing.",
+  "why_it_matters": "note If you are creating a catalog from an SAP BDC share, SAP semantic metadata (table and column comments, primary keys, foreign keys, and governance tags) syncs automatically into the catalog.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Applying attribute based access control (ABAC) policies to tables and schemas shared through Delta Sharing is now in Public Preview.",
+  "note_id": "2025-11-17-abac-secured-assets-shared-using-delta-sharing-is-in-public-preview",
+  "category": "platform"
+}

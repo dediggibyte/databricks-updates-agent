@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-02-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-04-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-7",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Column display names**: Space authors can now set user-friendly display names on table and view columns. Display names appear in query results and in downloaded CSVs.\n* **Genie Conversation API now generally available**: The Genie Conversation API is now generally available. Use the API to programmatically start conversations, send questions, and retrieve results from Genie Spaces. See [Use the Genie Agents API](/aws/en/genie/conversation-api).\n* **Agent mode (Public Preview) workspace themes**: Visualizations in Genie Agent mode now use workspace-level themes.\n* **Agent mode (Public Preview) prompt caching**: Genie Agent mode now caches repeated prompts, reducing response latency.",
+  "ref_links": [
+    {
+      "text": "Use the Genie Agents API",
+      "url": "https://docs.databricks.com/aws/en/genie/conversation-api"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.820229Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-16-databricks-connector-for-google-sheets-is-now-generally-available",
+  "title": "Databricks Connector for Google Sheets is now generally available",
+  "date": "2026-04-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#databricks-connector-for-google-sheets-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Connector for Google Sheets is now generally available. Use the connector to import and query Unity Catalog data, like Unity Catalog metric views. See [Databricks Connector for Google Sheets](/aws/en/integrations/google-sheets).",
+  "ref_links": [
+    {
+      "text": "Databricks Connector for Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.792458Z"
+}

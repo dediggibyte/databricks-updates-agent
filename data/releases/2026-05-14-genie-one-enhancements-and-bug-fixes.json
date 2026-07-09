@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-14-genie-one-enhancements-and-bug-fixes",
+  "title": "Genie One enhancements and bug fixes",
+  "date": "2026-05-14",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-and-bug-fixes-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Additional chat audit logs in Genie One**: Nine new `genieChat` audit events are now available for granular tracking: `mcpToolInvocation`, `steerGenieChatConversation`, `updateGenieChatConversationFeedback`, `cancelGenieChatConversation`, `getGenieChatConversation`, and scheduled task operations (`createScheduledTask`, `getScheduledTask`, `updateScheduledTask`, `deleteScheduledTask`). See [Chat events in Genie One](/aws/en/admin/account-settings/audit-logs#genie-chat).\n* **Chat input fix in Genie One**: Fixed a bug where text lingered in the chat input field after submission.\n* **Simplified email text formatting for scheduled chat tasks in Genie One**: Email text formatting for scheduled tasks is now more viewer friendly.",
+  "ref_links": [
+    {
+      "text": "Chat events in Genie One",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/audit-logs#genie-chat"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.700104Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-12-column-masks-now-retained-when-replacing-a-table",
+  "title": "Column masks now retained when replacing a table",
+  "date": "2025-08-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#column-masks-now-retained-when-replacing-a-table",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "If a column in the new table matches a column name from the original table, its existing column mask is now retained, even if no mask is specified. This change prevents accidental removal of column-level security policies during table replacement. Previously, replacing a table dropped all existing column masks, and only newly defined masks were applied.\n\nThis change affects SQL commands (`[CREATE OR] REPLACE TABLE`), DataFrame APIs (`saveAsTable`, `replace`, `createOrReplace`), and other similar update table operations.\n\nSee [Manually apply row filters and column masks](/aws/en/data-governance/unity-catalog/filters-and-masks/manually-apply).",
+  "ref_links": [
+    {
+      "text": "Manually apply row filters and column masks",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/filters-and-masks/manually-apply"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.273553Z"
+}

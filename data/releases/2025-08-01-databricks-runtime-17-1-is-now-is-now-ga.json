@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-01-databricks-runtime-17-1-is-now-is-now-ga",
+  "title": "Databricks Runtime 17.1 is now is now GA",
+  "date": "2025-08-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-runtime-171-is-now-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 17.1 is now generally available. See [Databricks Runtime 17.1 (EoS)](/aws/en/release-notes/runtime/17.1).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 17.1 (EoS)",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.1"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.288249Z"
+}

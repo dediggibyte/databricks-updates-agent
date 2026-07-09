@@ -1,0 +1,28 @@
+{
+  "product": "Update request parameters for Delta Sharing recipient audit log events",
+  "tagline": "For Delta Sharing recipients, deltaSharingProxy audit log events now also include the catalog name request parameter, in addition to share name (previously named share).",
+  "updated": "Dec 19, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/account-settings/audit-logs#recipient",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#update-request-parameters-for-delta-sharing-recipient-audit-log-events",
+  "what_it_does": "For Delta Sharing recipients, deltaSharingProxy audit log events now also include the catalog name request parameter, in addition to share name (previously named share). This page provides a comprehensive reference of available audit log services and events. By understanding which events are logged in the audit logs, your enterprise can monitor detailed Databricks usage patterns in your account.",
+  "why_it_matters": "| action\\ name | Description | request\\ params | | | | | | autoScopeDbToken | A batch operation reduces token scopes as part of automated scope enforcement.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "For Delta Sharing recipients, deltaSharingProxy audit log events now also include the catalog name request parameter, in addition to share name (previously named share).",
+  "note_id": "2025-12-19-update-request-parameters-for-delta-sharing-recipient-audit-log-events",
+  "category": "platform"
+}

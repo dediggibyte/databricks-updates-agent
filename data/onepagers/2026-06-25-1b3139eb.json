@@ -1,0 +1,33 @@
+{
+  "product": "Solution Accelerators in Databricks Marketplace are now published as apps or…",
+  "tagline": "Solution Accelerators are no longer a separate listing type in Databricks Marketplace.",
+  "updated": "Jun 25, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/marketplace",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#solution-accelerators-in-databricks-marketplace-are-now-published-as-apps-or-notebooks",
+  "what_it_does": "Solution Accelerators are no longer a separate listing type in Databricks Marketplace. The content is unchanged, but they are now categorized as apps (interactive applications) or notebooks (code based accelerators). Databricks Marketplace is an open exchange where data providers, software vendors, and technology partners publish offerings that Databricks customers can discover, evaluate, and connect with directly from their workspace.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "In addition to datasets",
+    "you can also share Databricks notebooks",
+    "machine learning models",
+    "MCP servers to demonstrate use cases"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Solution Accelerators are no longer a separate listing type in Databricks Marketplace.",
+  "note_id": "2026-06-25-1b3139eb",
+  "category": "platform"
+}

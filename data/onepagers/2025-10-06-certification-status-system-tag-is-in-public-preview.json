@@ -1,0 +1,28 @@
+{
+  "product": "Certification status system tag is in Public Preview",
+  "tagline": "You can now apply the system.certification status governed tag to catalogs, schemas, tables, views, volumes, dashboards, registered models, and Genie Spaces to indicate whether a data asset is…",
+  "updated": "Oct 6, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/certify-deprecate-data",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#certification-status-system-tag-is-in-public-preview",
+  "what_it_does": "You can now apply the system.certification status governed tag to catalogs, schemas, tables, views, volumes, dashboards, registered models, and Genie Spaces to indicate whether a data asset is certified or deprecated. This improves governance, discoverability, and trust in analytics and AI workloads. This page shows how to apply system tags to objects to mark them as certified or deprecated.",
+  "why_it_matters": "You can now apply the system.certification status governed tag to catalogs, schemas, tables, views, volumes, dashboards, registered models, and Genie Spaces to indicate whether a data asset is certified or deprecated.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now apply the system.certification status governed tag to catalogs, schemas, tables, views, volumes, dashboards, registered models, and Genie Spaces to indicate whether a data asset is…",
+  "note_id": "2025-10-06-certification-status-system-tag-is-in-public-preview",
+  "category": "platform"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-29-jobs-pipelines-list-now-includes-databricks-sql-pipelines",
+  "title": "Jobs & Pipelines list now includes Databricks SQL pipelines",
+  "date": "2025-07-29",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#jobs--pipelines-list-now-includes-databricks-sql-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The **Jobs & Pipelines** list now includes pipelines for materialized views and streaming tables that were created with Databricks SQL.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.297385Z"
+}

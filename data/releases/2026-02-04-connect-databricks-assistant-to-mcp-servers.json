@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-04-connect-databricks-assistant-to-mcp-servers",
+  "title": "Connect Databricks Assistant to MCP servers",
+  "date": "2026-02-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#connect-databricks-assistant-to-mcp-servers",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now connect Databricks Assistant in Agent mode to external tools and data sources through the Model Context Protocol (MCP). The Assistant can use any MCP servers that have been added to your workspace and that you have permission to use.\n\nSee [Connect Genie Code to MCP servers](/aws/en/genie-code/mcp).",
+  "ref_links": [
+    {
+      "text": "Connect Genie Code to MCP servers",
+      "url": "https://docs.databricks.com/aws/en/genie-code/mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.004324Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-20-4f930050",
+  "title": "Automatic email notifications for expiring personal access tokens (Public Preview)",
+  "date": "2025-11-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#automatic-email-notifications-for-expiring-personal-access-tokens-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks now sends automatic email notifications to workspace users approximately 7 days before their personal access tokens expire. For more information, see [Set the maximum lifetime of new personal access tokens](/aws/en/admin/access-control/tokens#lifetime).",
+  "ref_links": [
+    {
+      "text": "Set the maximum lifetime of new personal access tokens",
+      "url": "https://docs.databricks.com/aws/en/admin/access-control/tokens#lifetime"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.107925Z"
+}

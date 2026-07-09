@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-17-gemini-3-flash-now-available-as-a-databricks-hosted-model",
+  "title": "Gemini 3 Flash now available as a Databricks-hosted model",
+  "date": "2025-12-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#gemini-3-flash-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Gemini 3 Flash is now available as a Databricks-hosted model. This model offers speed and scale without compromising quality, with advanced multimodal capabilities for complex video analysis, data extraction, and visual Q&As. For more information, see [Gemini 3 Flash](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-flash).",
+  "ref_links": [
+    {
+      "text": "Gemini 3 Flash",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-flash"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.071811Z"
+}

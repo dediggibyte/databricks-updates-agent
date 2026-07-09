@@ -1,0 +1,21 @@
+{
+  "id": "2026-01-28-compute-sizing-for-databricks-apps-is-now-generally-available",
+  "title": "Compute sizing for Databricks Apps is now generally available",
+  "date": "2026-01-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#compute-sizing-for-databricks-apps-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Compute sizing for Databricks Apps is now generally available. Choose between Medium (2 vCPUs, 6 GB) and Large (4 vCPUs, 12 GB) compute sizes to match your workload requirements.\n\nSee [Configure compute resources for a Databricks app](/aws/en/dev-tools/databricks-apps/compute-size).\n\nApp compute sizing is coming soon to workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled.",
+  "ref_links": [
+    {
+      "text": "Configure compute resources for a Databricks app",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/compute-size"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.016282Z"
+}

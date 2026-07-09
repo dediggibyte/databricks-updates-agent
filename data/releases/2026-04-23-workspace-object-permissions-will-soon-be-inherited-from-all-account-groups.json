@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-23-workspace-object-permissions-will-soon-be-inherited-from-all-account-groups",
+  "title": "Workspace object permissions will soon be inherited from all account groups",
+  "date": "2026-04-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#workspace-object-permissions-will-soon-be-inherited-from-all-account-groups",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In an upcoming release, workspace object permissions will be inherited from all account groups, not just groups directly assigned to the workspace. Principals will inherit permissions on workspace objects, such as jobs, notebooks, folders, queries, and dashboards, from all account groups of which they are a member, regardless of whether those groups are assigned to the workspace. Users still need to be assigned to the workspace to use these permissions.\n\nThis change also activates inactive (\"orphaned\") permission grants. These are permission grants that remain on a group after it's removed from a workspace. No new permissions are being added, but existing orphaned grants will become active, potentially giving workspace members unexpected access. For example, if a \"Contractors\" group was removed from a workspace but still has edit access to a folder, any workspace member in \"Contractors\" will gain access to that folder.\n\nDatabricks recommends reviewing your workspace permissions. Use the following notebook to identify inactive permission grants in your workspaces:\n\nOrphaned permissions analysis notebook",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.766064Z"
+}

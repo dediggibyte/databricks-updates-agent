@@ -1,0 +1,21 @@
+{
+  "id": "2025-09-05-mlflow-metadata-is-now-available-in-system-tables-public-preview",
+  "title": "MLflow metadata is now available in system tables (Public Preview)",
+  "date": "2025-09-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#mlflow-metadata-is-now-available-in-system-tables-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "MLflow metadata is now available in system tables. View metadata managed within the [MLflow tracking service](/aws/en/mlflow/tracking) from the entire workspace in one central location, taking advantage of all the lakehouse tooling Databricks offers, such as building custom AI/BI dashboards, SQL alerts, and large scale data analytic queries.\n\nFor information, see [MLflow system tables reference](/aws/en/admin/system-tables/mlflow).",
+  "ref_links": [
+    {
+      "text": "MLflow tracking service",
+      "url": "https://docs.databricks.com/aws/en/mlflow/tracking"
+    },
+    {
+      "text": "MLflow system tables reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/mlflow"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.228051Z"
+}

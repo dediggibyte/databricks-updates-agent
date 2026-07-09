@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-18-unified-runs-list-is-generally-available",
+  "title": "Unified runs list is generally available",
+  "date": "2026-05-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#unified-runs-list-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now view all of your job and pipeline runs in the updated **Runs** list. Track all of your pipeline runs in one place and filter by status, time, run-as user, run ID, and error codes in real time. Spot trends using the visualization and summary of the current top five error codes. See [View recent runs across all jobs and pipelines](/aws/en/jobs/monitor#view-runs).",
+  "ref_links": [
+    {
+      "text": "View recent runs across all jobs and pipelines",
+      "url": "https://docs.databricks.com/aws/en/jobs/monitor#view-runs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.694647Z"
+}

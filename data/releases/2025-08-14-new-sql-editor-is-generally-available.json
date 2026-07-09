@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-14-new-sql-editor-is-generally-available",
+  "title": "New SQL editor is generally available",
+  "date": "2025-08-14",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#new-sql-editor-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new SQL editor is now generally available. The new SQL editor provides a unified authoring environment with support for multiple statement results, inline execution history, real-time collaboration, enhanced Databricks Assistant integration, and additional productivity features. See [Write queries and explore data in the new SQL editor](/aws/en/sql/user/sql-editor).",
+  "ref_links": [
+    {
+      "text": "Write queries and explore data in the new SQL editor",
+      "url": "https://docs.databricks.com/aws/en/sql/user/sql-editor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.268049Z"
+}

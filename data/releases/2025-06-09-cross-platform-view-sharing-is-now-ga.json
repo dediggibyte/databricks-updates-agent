@@ -1,0 +1,25 @@
+{
+  "id": "2025-06-09-cross-platform-view-sharing-is-now-ga",
+  "title": "Cross-platform view sharing is now GA",
+  "date": "2025-06-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#cross-platform-view-sharing-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Cross-platform view sharing via Delta Sharing is now generally available. The data access and billing method when sharing views are updated. See [How do I incur and check OpenSharing costs?](/aws/en/opensharing#share-costs).\n\nA new system table allows you to track the shared materialized data history. See [OpenSharing materialization history system table reference](/aws/en/admin/system-tables/materialization).\n\nAccount admins can now configure the time-to-live (TTL) of data materialization. See [Configure TTL of data materialization](/aws/en/opensharing/set-up#data-ttl).",
+  "ref_links": [
+    {
+      "text": "How do I incur and check OpenSharing costs?",
+      "url": "https://docs.databricks.com/aws/en/opensharing#share-costs"
+    },
+    {
+      "text": "OpenSharing materialization history system table reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/materialization"
+    },
+    {
+      "text": "Configure TTL of data materialization",
+      "url": "https://docs.databricks.com/aws/en/opensharing/set-up#data-ttl"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.365786Z"
+}

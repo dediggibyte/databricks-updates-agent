@@ -1,0 +1,25 @@
+{
+  "id": "2026-03-19-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-03-19",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-12",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Date filter keyboard input**: Fixed an issue where entering a date value via keyboard for relative date ranges failed to accept the input.\n* **Dashboard theme color palette**: Fixed a bug where the visualization color palette was hidden when editing dashboard themes at the workspace level.\n* **Pivot table column width**: The minimum width of pivot table columns is now 30px, reduced from 50px.\n* **Drill-through for pivot tables**: Drill-through filters are now available for pivot tables. See [Use drill-through to filter data](/aws/en/dashboards/manage/filters#drill-through-filter).\n* **Dashboard snapshot audit logs**: Fixed a bug where audit logs for `triggerDashboardSnapshot` included internal system calls from thumbnail generation and probe snapshots. These internal requests are now excluded from the audit logs.\n* **Genie Code dataset refresh**: Fixed a bug where Genie Code endlessly retried reading dataset results after updating a dataset's SQL.\n* **Genie Code dual y-axis charts**: Genie Code now generates dual y-axis bar, line, and area charts correctly.\n* **Custom font data labels**: Custom dashboard fonts now apply to data point labels.\n* **Forecast x-axis time binning**: Forecast visualizations now properly apply x-axis time binning.\n* **Pivot table date cell formatting**: Pivot table date cells no longer wrap at hyphens.\n* **Ask Genie to explain chart changes**: Users can now right-click on bar, line, and area time series visualizations (including multi-series and stacked charts) and ask Genie to explain changes. Genie enters Agent mode to analyze the change and identify top drivers. See [Ask Genie to explain chart changes](/aws/en/dashboards/genie-spaces#explain-chart-changes).\n* **Dashboard subscription audit logs**: Audit logs now include the `sendDashboardSnapshot` event when a dashboard subscription sends a snapshot to a Slack or Teams destination. See [AI/BI dashboard events](/aws/en/admin/account-settings/audit-logs#dashboards).",
+  "ref_links": [
+    {
+      "text": "Use drill-through to filter data",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters#drill-through-filter"
+    },
+    {
+      "text": "Ask Genie to explain chart changes",
+      "url": "https://docs.databricks.com/aws/en/dashboards/genie-spaces#explain-chart-changes"
+    },
+    {
+      "text": "AI/BI dashboard events",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/audit-logs#dashboards"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.863845Z"
+}

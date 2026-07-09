@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-02-tables-backed-by-default-storage-can-be-delta-shared-to-any-recipient-beta",
+  "title": "Tables backed by default storage can be Delta shared to any recipient (Beta)",
+  "date": "2025-09-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#tables-backed-by-default-storage-can-be-delta-shared-to-any-recipient-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Delta Sharing providers can now share tables backed by default storage with any recipient, including both open and Databricks recipients—even if the recipient is using classic compute. Tables with partitioning enabled are an exception.\n\nSee [Limitations](/aws/en/storage/default-storage#limitations).",
+  "ref_links": [
+    {
+      "text": "Limitations",
+      "url": "https://docs.databricks.com/aws/en/storage/default-storage#limitations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.233900Z"
+}

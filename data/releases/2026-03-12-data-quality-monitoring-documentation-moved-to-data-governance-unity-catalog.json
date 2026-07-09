@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-12-data-quality-monitoring-documentation-moved-to-data-governance-unity-catalog",
+  "title": "Data quality monitoring documentation moved to Data governance (Unity Catalog)",
+  "date": "2026-03-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#data-quality-monitoring-documentation-moved-to-data-governance-unity-catalog",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [Data quality monitoring](/aws/en/data-governance/unity-catalog/data-quality-monitoring) documentation has moved from Data guides to the Data governance (Unity Catalog) chapter.",
+  "ref_links": [
+    {
+      "text": "Data quality monitoring",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-quality-monitoring"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.878278Z"
+}

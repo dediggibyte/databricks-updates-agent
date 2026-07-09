@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-01-sql-server-connector-supports-scd-type-2",
+  "title": "SQL Server connector supports SCD type 2",
+  "date": "2025-09-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#sql-server-connector-supports-scd-type-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Microsoft SQL Server connector in Lakeflow Connect now supports SCD type 2. This setting, known as history tracking or slowly changing dimensions (SCD), determines how to handle changes in your data over time. With history tracking off (SCD type 1), outdated records are overwritten as they're updated and deleted in the source. With history tracking on (SCD type 2), the connector maintains a history of those changes. See [Enable history tracking (SCD type 2)](/aws/en/ingestion/lakeflow-connect/scd).",
+  "ref_links": [
+    {
+      "text": "Enable history tracking (SCD type 2)",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/scd"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.235453Z"
+}

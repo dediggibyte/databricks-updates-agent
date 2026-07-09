@@ -1,0 +1,21 @@
+{
+  "id": "2025-09-16-0b9c0bfe",
+  "title": "Discover files in Auto Loader efficiently using file events without enrollment (Public Preview)",
+  "date": "2025-09-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#discover-files-in-auto-loader-efficiently-using-file-events-without-enrollment-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `cloudFiles.useManagedFileEvents` option with Auto Loader is now in ungated Public Preview. This option allows you to discover files efficiently. For details, see the following:\n\n* [(Pre-requisite) Enable file events for an external location](/aws/en/connect/unity-catalog/cloud-storage/manage-external-locations#file-events)\n* [File notification mode with and without file events enabled on external locations](/aws/en/ingestion/cloud-object-storage/auto-loader/file-notification-mode#compare)",
+  "ref_links": [
+    {
+      "text": "(Pre-requisite) Enable file events for an external location",
+      "url": "https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-storage/manage-external-locations#file-events"
+    },
+    {
+      "text": "File notification mode with and without file events enabled on external locations",
+      "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/file-notification-mode#compare"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.215864Z"
+}

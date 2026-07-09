@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-13-vector-search-retrieval-quality-beta",
+  "title": "Vector Search retrieval quality (Beta)",
+  "date": "2026-04-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#vector-search-retrieval-quality-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Vector Search provides built-in retrieval quality evaluation that measures and compares the relevance of different search strategies on your data. For more information, see [Evaluate AI Search retrieval quality](/aws/en/ai-search/retrieval-quality-eval).",
+  "ref_links": [
+    {
+      "text": "Evaluate AI Search retrieval quality",
+      "url": "https://docs.databricks.com/aws/en/ai-search/retrieval-quality-eval"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.803483Z"
+}

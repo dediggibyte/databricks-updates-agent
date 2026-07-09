@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-24-manage-supervisor-agent-programmatically-with-the-databricks-sdk-beta",
+  "title": "Manage Supervisor Agent programmatically with the Databricks SDK (Beta)",
+  "date": "2026-04-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#manage-supervisor-agent-programmatically-with-the-databricks-sdk-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use the Databricks SDK for Python to create and manage Supervisor Agent and their tools. See [Use Supervisor Agent to create a coordinated multi-agent system](/aws/en/agents/agent-bricks/multi-agent-supervisor).",
+  "ref_links": [
+    {
+      "text": "Use Supervisor Agent to create a coordinated multi-agent system",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.762793Z"
+}

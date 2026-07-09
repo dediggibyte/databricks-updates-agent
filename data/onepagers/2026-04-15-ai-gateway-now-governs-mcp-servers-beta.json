@@ -1,0 +1,45 @@
+{
+  "product": "AI Gateway now governs MCP servers (Beta)",
+  "tagline": "You can now use AI Gateway to enforce access control, monitor usage, and audit activity across all MCP interactions in your workspace.",
+  "updated": "Apr 15, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-gateway",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#ai-gateway-now-governs-mcp-servers-beta",
+  "what_it_does": "You can now use AI Gateway to enforce access control, monitor usage, and audit activity across all MCP interactions in your workspace. AI Gateway is the Databricks central governance layer for LLM endpoints, coding agents, and MCP servers. Beta This page covers the new Unity AI Gateway (visible in the sidebar of the UI), which is currently in Beta.",
+  "why_it_matters": "AI Gateway is the Databricks central governance layer for LLM endpoints, coding agents, and MCP servers.",
+  "capabilities": [
+    {
+      "title": "AI governance guide",
+      "desc": "AI governance guide"
+    },
+    {
+      "title": "An end-to-end path for administrators",
+      "desc": "An end-to-end path for administrators to govern access to AI assets, traffic and cost, and the content of requests and responses."
+    },
+    {
+      "title": "Tutorial: Govern a coding agent's",
+      "desc": "Tutorial: Govern a coding agent's GitHub MCP access"
+    },
+    {
+      "title": "Restrict a coding agent's access",
+      "desc": "Restrict a coding agent's access to GitHub MCP tools using Unity Catalog permissions and a built-in service policy."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now use AI Gateway to enforce access control, monitor usage, and audit activity across all MCP interactions in your workspace.",
+  "note_id": "2026-04-15-ai-gateway-now-governs-mcp-servers-beta",
+  "category": "platform"
+}

@@ -1,0 +1,41 @@
+{
+  "product": "New consumer entitlement is generally available",
+  "tagline": "Workspace admins can now grant consumer access as an entitlement to users, service principals, and groups.",
+  "updated": "Jun 5, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/security/auth/entitlements",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#new-consumer-entitlement-is-generally-available",
+  "what_it_does": "Workspace admins can now grant consumer access as an entitlement to users, service principals, and groups. This allows for more fine grained control over what users can do in a Databricks workspace. Key details: Consumer access enables limited workspace UI access, querying SQL warehouses using BI tools, and viewing dashboards with embedded or viewer credentials.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "Workspace access",
+      "desc": "Workspace access"
+    },
+    {
+      "title": "Allow unrestricted cluster creation",
+      "desc": "Allow unrestricted cluster creation"
+    },
+    {
+      "title": "Allow pool creation",
+      "desc": "Allow pool creation"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Workspace admins can now grant consumer access as an entitlement to users, service principals, and groups.",
+  "note_id": "2025-06-05-new-consumer-entitlement-is-generally-available",
+  "category": "platform"
+}

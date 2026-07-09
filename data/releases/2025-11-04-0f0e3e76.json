@@ -1,0 +1,25 @@
+{
+  "id": "2025-11-04-0f0e3e76",
+  "title": "Function calling and structured output now available using the Alibaba Cloud Qwen3-Next Instruct model (Beta)",
+  "date": "2025-11-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#function-calling-and-structured-output-now-available-using-the-alibaba-cloud-qwen3-next-instruct-model-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports function calling and structured output using Alibaba Cloud's [Qwen3-Next 80B A3B Instruct](/aws/en/machine-learning/foundation-model-apis/supported-models#qwen3-next-80b-a3b-instruct).\n\n* See [Function calling on Databricks](/aws/en/machine-learning/model-serving/function-calling)\n* See [Structured outputs on Databricks](/aws/en/machine-learning/model-serving/structured-outputs)",
+  "ref_links": [
+    {
+      "text": "Qwen3-Next 80B A3B Instruct",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#qwen3-next-80b-a3b-instruct"
+    },
+    {
+      "text": "Function calling on Databricks",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/function-calling"
+    },
+    {
+      "text": "Structured outputs on Databricks",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/structured-outputs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.131441Z"
+}

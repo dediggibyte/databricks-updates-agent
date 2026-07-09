@@ -1,0 +1,12 @@
+{
+  "id": "2026-01-29-dashboard-visualization-and-data-improvements",
+  "title": "Dashboard visualization and data improvements",
+  "date": "2026-01-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-visualization-and-data-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Fixed access request availability**: Resolved an issue where the option to request access was not available and a \"Resource not found\" error was incorrectly shown.\n* **Full-width pivot tables**: Widgets now render pivot tables at full width for better readability.\n* **Tooltip fields on charts**: Combo and dual-axis charts now support tooltip fields.\n* **Image rendering in pivot tables**: Cells can now display images directly in pivot tables.\n* **Dark mode scrollbar visibility**: Scrollbars are now easier to see when using dark mode.\n* **Increased pivot data download limits**: Download limits now support up to 10,000 rows by 1,000 columns for pivoted data.\n* **Fixed filter paste behavior**: Resolved an issue where pasting a comma-separated list into a single-select filter only parsed the first element instead of keeping all values.\n* **Fixed stacked chart label rendering**: Labels on stacked charts with a quantitative x-axis now render correctly in notebooks and in the SQL Editor.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.012969Z"
+}

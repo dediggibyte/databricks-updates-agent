@@ -1,0 +1,45 @@
+{
+  "product": "External MCP servers are in Beta",
+  "tagline": "Users can now connect Databricks to external Model Context Protocol (MCP) servers.",
+  "updated": "Aug 28, 2025",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/mcp",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#external-mcp-servers-are-in-beta",
+  "what_it_does": "Users can now connect Databricks to external Model Context Protocol (MCP) servers. This allows agents to access tools outside of Databricks. MCP is an open source standard that connects AI agents to tools, resources, prompts, and other contextual information.",
+  "why_it_matters": "On Databricks, Unity AI Gateway, the enterprise control plane, governs access and monitors activity across MCP servers and LLM endpoints.",
+  "capabilities": [
+    {
+      "title": "MCP Services in Unity Catalog",
+      "desc": "MCP Services in Unity Catalog"
+    },
+    {
+      "title": "Connect to MCP servers hosted",
+      "desc": "Connect to MCP servers hosted outside Databricks using managed connections, and register them as Unity Catalog securables to…"
+    },
+    {
+      "title": "Host your own MCP server",
+      "desc": "Host your own MCP server"
+    },
+    {
+      "title": "Host your own MCP server",
+      "desc": "Host your own MCP server as a Databricks app."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Users can now connect Databricks to external Model Context Protocol (MCP) servers.",
+  "note_id": "2025-08-28-external-mcp-servers-are-in-beta",
+  "category": "platform"
+}

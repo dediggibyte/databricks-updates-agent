@@ -1,0 +1,21 @@
+{
+  "id": "2025-08-21-databricks-assistant-integrated-with-compute",
+  "title": "Databricks Assistant integrated with compute",
+  "date": "2025-08-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-assistant-integrated-with-compute",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Users can now chat with Databricks Assistant on some compute pages. Use the Assistant chat panel to help you create a new compute resource, pool, and policy. Or, ask the Assistant questions about the compute resource, like “Is this compute resource Unity Catalog-enabled?” or “What’s the current compute policy?”\n\nTo learn more about chatting with the Assitant, see [Tour of the Genie Code pane](/aws/en/genie-code/use-genie-code#pane). To learn more about compute resources, see [Compute](/aws/en/compute).",
+  "ref_links": [
+    {
+      "text": "Tour of the Genie Code pane",
+      "url": "https://docs.databricks.com/aws/en/genie-code/use-genie-code#pane"
+    },
+    {
+      "text": "Compute",
+      "url": "https://docs.databricks.com/aws/en/compute"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.256970Z"
+}

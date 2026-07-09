@@ -1,0 +1,12 @@
+{
+  "id": "2025-09-18-ai-bi-dashboard-genie-integration-and-publish-dialog-improvements",
+  "title": "AI/BI dashboard Genie integration and publish dialog improvements",
+  "date": "2025-09-18",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#aibi-dashboard-genie-integration-and-publish-dialog-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie credential handling for embedded dashboards**: Genie integrated with dashboards published with embedded credentials now runs generated queries using the publisher's data credentials. Dashboards published without embedded credentials continue running using the viewer's data credentials.\n* **Simplified publish dialog**: The dashboard publish dialog has been redesigned and simplified. The toggle for Genie integration has been moved to dashboard settings.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.210456Z"
+}

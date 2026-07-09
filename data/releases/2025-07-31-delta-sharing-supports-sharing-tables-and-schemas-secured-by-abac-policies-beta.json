@@ -1,0 +1,21 @@
+{
+  "id": "2025-07-31-delta-sharing-supports-sharing-tables-and-schemas-secured-by-abac-policies-beta",
+  "title": "Delta Sharing supports sharing tables and schemas secured by ABAC policies (Beta)",
+  "date": "2025-07-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#delta-sharing-supports-sharing-tables-and-schemas-secured-by-abac-policies-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Delta Sharing providers can now add tables and schemas secured by attribute-based access control (ABAC) to a Delta share. The policy does not govern the recipient's access, so recipients have full access to the shared asset. Recipients can apply their own ABAC policies.\n\nSee [Add tables and schemas secured by ABAC policies to a share](/aws/en/opensharing/create-share#abac) and [Read ABAC-secured data and apply ABAC policies](/aws/en/opensharing/read-data-databricks#abac).",
+  "ref_links": [
+    {
+      "text": "Add tables and schemas secured by ABAC policies to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#abac"
+    },
+    {
+      "text": "Read ABAC-secured data and apply ABAC policies",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#abac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.296066Z"
+}

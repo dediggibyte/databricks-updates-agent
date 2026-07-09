@@ -1,0 +1,28 @@
+{
+  "product": "Behavior change for the Auto Loader incremental directory listing option",
+  "tagline": "The Auto Loader cloudFiles.useIncrementalListing option is deprecated.",
+  "updated": "Jun 1, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/directory-listing-mode",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#behavior-change-for-the-auto-loader-incremental-directory-listing-option",
+  "what_it_does": "The Auto Loader cloudFiles.useIncrementalListing option is deprecated. Although this note discusses a change to the options's default value and how to continue using it after this change, Databricks recommends against using this option in favor of file notification mode with file events. In an upcoming Databricks Runtime release, the value of the deprecated Auto Loader cloudFiles.useIncrementalListing option will, by default, be set to false.",
+  "why_it_matters": "For best performance with directory listing mode, use Databricks Runtime 9.1 or above.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Auto Loader cloudFiles.useIncrementalListing option is deprecated.",
+  "note_id": "2025-06-01-behavior-change-for-the-auto-loader-incremental-directory-listing-option",
+  "category": "platform"
+}

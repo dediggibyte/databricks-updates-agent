@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-02-built-in-excel-file-format-support-beta",
+  "title": "Built-in Excel file format support (Beta)",
+  "date": "2025-12-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#built-in-excel-file-format-support-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks now provides built-in support for reading Excel files. You can query Excel files directly using Spark DataFrames without external libraries. See [Read and stream Excel files](/aws/en/query/formats/excel).",
+  "ref_links": [
+    {
+      "text": "Read and stream Excel files",
+      "url": "https://docs.databricks.com/aws/en/query/formats/excel"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.097440Z"
+}

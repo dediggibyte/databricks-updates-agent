@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-12-21ba155b",
+  "title": "Lakeflow Declarative Pipelines has been renamed to Lakeflow Spark Declarative Pipelines",
+  "date": "2025-11-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#lakeflow-declarative-pipelines-has-been-renamed-to-lakeflow-spark-declarative-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakeflow Declarative Pipelines has been renamed to Lakeflow Spark Declarative Pipelines. See [Lakeflow Spark Declarative Pipelines](/aws/en/ldp).",
+  "ref_links": [
+    {
+      "text": "Lakeflow Spark Declarative Pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.122549Z"
+}

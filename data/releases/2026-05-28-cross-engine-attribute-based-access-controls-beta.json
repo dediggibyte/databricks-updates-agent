@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-28-cross-engine-attribute-based-access-controls-beta",
+  "title": "Cross-engine attribute-based access controls (Beta)",
+  "date": "2026-05-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#cross-engine-attribute-based-access-controls-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "External engines can now read Unity Catalog managed tables (Delta and Iceberg) with [attribute-based access controls (ABAC)](/aws/en/data-governance/unity-catalog/abac), row filters, and column masks enforced server-side. See [Cross-engine attribute-based access controls (ABAC)](/aws/en/external-access/cross-engine-abac).",
+  "ref_links": [
+    {
+      "text": "attribute-based access controls (ABAC)",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac"
+    },
+    {
+      "text": "Cross-engine attribute-based access controls (ABAC)",
+      "url": "https://docs.databricks.com/aws/en/external-access/cross-engine-abac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.650875Z"
+}

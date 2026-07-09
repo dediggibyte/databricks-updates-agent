@@ -1,0 +1,21 @@
+{
+  "id": "2025-12-11-dashboard-visualization-enhancements-and-fixes",
+  "title": "Dashboard visualization enhancements and fixes",
+  "date": "2025-12-11",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-enhancements-and-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Sort by hidden measure fields**: Users can now sort charts by a different measure field that does not visually appear on the bar chart. See [Format axis settings](/aws/en/dashboards/manage/visualizations#format-axis).\n* **Map legend position control**: Authors can now change map legend positions.\n* **Safari cross-filtering fix**: Fixed an issue where cross-filtering was not working in Safari.\n* **Counter visualization text**: Removed automatic \"vs\" text from counter visualizations.\n* **Range filter spacing**: Added spacing between minimum and maximum values in range filters when the slider bar is hidden.\n* **Dashboard subscriptions to Microsoft Teams channels (Public Preview)**: AI/BI dashboards now support sending scheduled snapshots to Microsoft Teams channels. Teams can receive dashboard updates directly in their Teams workspace, including a PNG image snapshot, a direct link to open the dashboard in Databricks, and a PDF attachment. See [Configure Microsoft Teams notifications](/aws/en/ai-bi/admin/teams-subscriptions).",
+  "ref_links": [
+    {
+      "text": "Format axis settings",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#format-axis"
+    },
+    {
+      "text": "Configure Microsoft Teams notifications",
+      "url": "https://docs.databricks.com/aws/en/ai-bi/admin/teams-subscriptions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.079942Z"
+}

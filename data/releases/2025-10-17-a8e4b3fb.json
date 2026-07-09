@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-17-a8e4b3fb",
+  "title": "Databricks Connector for Google Sheets offers additional features (Public Preview)",
+  "date": "2025-10-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-connector-for-google-sheets-offers-additional-features-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Connector for Google Sheets introduces improved query management options. Users can save queries within a Google Sheet spreadsheet, enabling easy data refresh, query reuse, and query editing.\n\nSee [Databricks Connector for Google Sheets](/aws/en/integrations/google-sheets).",
+  "ref_links": [
+    {
+      "text": "Databricks Connector for Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.164139Z"
+}

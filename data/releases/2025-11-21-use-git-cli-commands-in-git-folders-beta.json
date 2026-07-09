@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-21-use-git-cli-commands-in-git-folders-beta",
+  "title": "Use Git CLI commands in Git folders (Beta)",
+  "date": "2025-11-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#use-git-cli-commands-in-git-folders-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now run standard Git commands directly from the Databricks web terminal in Git folders. See [Use Git CLI commands (Beta)](/aws/en/repos/git-operations-with-repos#use-git-cli).",
+  "ref_links": [
+    {
+      "text": "Use Git CLI commands (Beta)",
+      "url": "https://docs.databricks.com/aws/en/repos/git-operations-with-repos#use-git-cli"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.103175Z"
+}

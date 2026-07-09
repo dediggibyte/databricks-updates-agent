@@ -1,0 +1,28 @@
+{
+  "product": "Declarative Automation Bundles in the workspace is GA",
+  "tagline": "Declarative Automation Bundles in the workspace is now generally available (GA).",
+  "updated": "Oct 16, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/bundles/workspace",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#declarative-automation-bundles-in-the-workspace-is-ga",
+  "what_it_does": "Declarative Automation Bundles in the workspace is now generally available (GA). This feature allows you to collaborate with other users in your organization to edit, commit, test, and deploy bundle updates through the UI. Declarative Automation Bundles (formerly known as Databricks Asset Bundles) are created, deployed to a workspace, then managed programmatically from your local development environment or directly in the workspace UI.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Declarative Automation Bundles in the workspace is now generally available (GA).",
+  "note_id": "2025-10-16-declarative-automation-bundles-in-the-workspace-is-ga",
+  "category": "platform"
+}

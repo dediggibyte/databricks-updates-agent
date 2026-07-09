@@ -1,0 +1,12 @@
+{
+  "id": "2026-01-22-genie-space-lineage-and-entity-matching-improvements",
+  "title": "Genie Space lineage and entity matching improvements",
+  "date": "2026-01-22",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-lineage-and-entity-matching-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Unity Catalog lineage for Genie Spaces**: Genie Spaces are now discoverable in Unity Catalog lineage.\n* **Bulk actions for entity matching**: Users can now make bulk actions for entity matching (add, remove, and refresh).",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.026806Z"
+}

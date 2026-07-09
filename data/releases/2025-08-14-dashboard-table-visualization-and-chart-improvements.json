@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-14-dashboard-table-visualization-and-chart-improvements",
+  "title": "Dashboard table visualization and chart improvements",
+  "date": "2025-08-14",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-table-visualization-and-chart-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Indicator for calculated measures in table editor**: Added an indicator in the table visualization editor to show when calculated measures are not displayed in the table.\n* **Fixed transparent headers in light mode**: Resolved a bug where table visualization headers appeared transparent in light mode.\n* **Fixed pivot table column width retention**: Resolved an issue where custom column widths in pivot table visualizations were not retained after subsequent edits.\n* **Measure fields appear before dimension fields**: In the visualization field picker, measure fields now appear before dimension fields.\n* **Funnel chart support in AI/BI dashboards**: Funnel charts are now supported in AI/BI dashboards. See [Funnel chart](/aws/en/dashboards/manage/visualizations/types#funnel).",
+  "ref_links": [
+    {
+      "text": "Funnel chart",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#funnel"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.260961Z"
+}

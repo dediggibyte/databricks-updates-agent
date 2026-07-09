@@ -1,0 +1,12 @@
+{
+  "id": "2026-05-28-genie-space-enhancements-and-bug-fixes",
+  "title": "Genie Space enhancements and bug fixes",
+  "date": "2026-05-28",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-bug-fixes-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Agent mode thinking traces (Public Preview)**: Agent mode thinking traces now cite the definitions applied to answer questions. For example, \"best selling product\" is defined as the product with the most total sales.\n* **MCP conversation sharing bug fix (Beta)**: Fixed a bug where conversations sent via Genie Spaces MCP were saved as private. Conversations sent via MCP now respect the default sharing setting.\n* **Share modal UI fix**: Fixed a UI-only bug where the **Share to account users** option did not appear in the share modal. The SDK and REST API permission-granting capability for sharing with all account users was available and functional since the feature became generally available on March 26, 2026.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.648431Z"
+}

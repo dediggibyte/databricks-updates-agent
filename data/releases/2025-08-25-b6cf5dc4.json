@@ -1,0 +1,33 @@
+{
+  "id": "2025-08-25-b6cf5dc4",
+  "title": "Automatic liquid clustering is now available for Lakeflow Spark Declarative Pipelines",
+  "date": "2025-08-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#automatic-liquid-clustering-is-now-available-for-lakeflow-spark-declarative-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use automatic liquid clustering with Lakeflow Spark Declarative Pipelines. Use automatic liquid clustering with `CLUSTER BY AUTO`, and Databricks intelligently chooses clustering keys to optimize query performance.\n\nSee [Automatic liquid clustering](/aws/en/tables/clustering#auto-liquid), [create\\_streaming\\_table](/aws/en/ldp/developer/ldp-python-ref-streaming-table), [table](/aws/en/ldp/developer/ldp-python-ref-table), [CREATE MATERIALIZED VIEW (pipelines)](/aws/en/ldp/developer/ldp-sql-ref-create-materialized-view), and [CREATE STREAMING TABLE (pipelines)](/aws/en/ldp/developer/ldp-sql-ref-create-streaming-table).",
+  "ref_links": [
+    {
+      "text": "Automatic liquid clustering",
+      "url": "https://docs.databricks.com/aws/en/tables/clustering#auto-liquid"
+    },
+    {
+      "text": "create_streaming_table",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-streaming-table"
+    },
+    {
+      "text": "table",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-python-ref-table"
+    },
+    {
+      "text": "CREATE MATERIALIZED VIEW (pipelines)",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-sql-ref-create-materialized-view"
+    },
+    {
+      "text": "CREATE STREAMING TABLE (pipelines)",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/ldp-sql-ref-create-streaming-table"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.250218Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-16-declarative-automation-bundles-in-the-workspace-is-ga",
+  "title": "Declarative Automation Bundles in the workspace is GA",
+  "date": "2025-10-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#declarative-automation-bundles-in-the-workspace-is-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Declarative Automation Bundles in the workspace is now generally available (GA). This feature allows you to collaborate with other users in your organization to edit, commit, test, and deploy bundle updates through the UI.\n\nSee [Collaborate on bundles in the workspace](/aws/en/dev-tools/bundles/workspace).",
+  "ref_links": [
+    {
+      "text": "Collaborate on bundles in the workspace",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/workspace"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.170049Z"
+}

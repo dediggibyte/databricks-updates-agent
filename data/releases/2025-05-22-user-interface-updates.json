@@ -1,0 +1,17 @@
+{
+  "id": "2025-05-22-user-interface-updates",
+  "title": "User interface updates",
+  "date": "2025-05-22",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Tooltip formatting in charts**: Tooltips in charts from the SQL editor and notebooks now follow the number formatting defined in the **Data labels** tab. See [Visualizations in Databricks notebooks and SQL editor](/aws/en/visualizations).",
+  "ref_links": [
+    {
+      "text": "Visualizations in Databricks notebooks and SQL editor",
+      "url": "https://docs.databricks.com/aws/en/visualizations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.395314Z"
+}

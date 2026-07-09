@@ -1,0 +1,33 @@
+{
+  "product": "Function calling and structured output now available using the Alibaba Cloud…",
+  "tagline": "Mosaic AI Model Serving now supports function calling and structured output using Alibaba Cloud's Qwen3 Next 80B A3B Instruct.",
+  "updated": "Nov 4, 2025",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/structured-outputs",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#function-calling-and-structured-output-now-available-using-the-alibaba-cloud-qwen3-next-instruct-model-beta",
+  "what_it_does": "Mosaic AI Model Serving now supports function calling and structured output using Alibaba Cloud's Qwen3 Next 80B A3B Instruct. Structured outputs works with OpenAI models that support structured models. prompt Genie Code (Agent mode) can do this for you.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "This includes keywords like maxProperties",
+      "desc": "This includes keywords like maxProperties, minProperties, and maxLength. Heavily nested JSON schemas result in lower quality…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Mosaic AI Model Serving now supports function calling and structured output using Alibaba Cloud's Qwen3 Next 80B A3B Instruct.",
+  "note_id": "2025-11-04-0f0e3e76",
+  "category": "platform"
+}

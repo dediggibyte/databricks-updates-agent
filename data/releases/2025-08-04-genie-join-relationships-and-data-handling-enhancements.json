@@ -1,0 +1,21 @@
+{
+  "id": "2025-08-04-genie-join-relationships-and-data-handling-enhancements",
+  "title": "Genie join relationships and data handling enhancements",
+  "date": "2025-08-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-join-relationships-and-data-handling-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Local join relationships in Genie Space knowledge stores**: You can now define join relationships locally within a Genie Space's knowledge store. This is useful when authors lack permissions to define primary and foreign keys on upstream tables or when the join relationship has specific requirements, such as one-to-many or complex joins. See  [Add SQL examples and instructions](/aws/en/genie/tune-quality#add-context).\n* **Fixed saving issue for example SQL statements**: Resolved a bug where example SQL statements were not saving after clicking **Save**.\n* **Improved entity matching selection**: Entity matching (previously value dictionaries) now selects the most frequent 1024 values from the first 100k rows, instead of the first 1024 values encountered.\n* **Improved CSV download file naming**: Downloaded CSV file names no longer include special characters (`< > : \" / \\ | ? *`). These characters are now replaced with underscores to ensure compatibility when opening files.\n* **Bulk actions for showing or hiding columns**: Added bulk actions that let you show or hide multiple columns at once in Genie Spaces. See [Hide or show relevant columns](/aws/en/genie/tune-quality#show-hide-column).",
+  "ref_links": [
+    {
+      "text": "Add SQL examples and instructions",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#add-context"
+    },
+    {
+      "text": "Hide or show relevant columns",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#show-hide-column"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.287111Z"
+}

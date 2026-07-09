@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-06-query-tags-for-sql-warehouses-public-preview",
+  "title": "Query tags for SQL warehouses (Public Preview)",
+  "date": "2026-02-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#query-tags-for-sql-warehouses-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now apply custom key-value tags to SQL workloads on Databricks SQL warehouses for grouping, filtering, and cost attribution. Query tags appear in the `system.query.history` table and on the **Query History** page of the Databricks UI, allowing you to attribute warehouse costs by business context and identify sources of long-running queries. Tags can be set using session configuration parameters, the `SET QUERY_TAGS` SQL statement, or through connectors including dbt, Power BI, Tableau, Python, Node.js, Go, JDBC, and ODBC. See [Query tags](/aws/en/sql/user/queries/query-tags).",
+  "ref_links": [
+    {
+      "text": "Query tags",
+      "url": "https://docs.databricks.com/aws/en/sql/user/queries/query-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.977801Z"
+}

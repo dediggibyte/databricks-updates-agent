@@ -1,0 +1,12 @@
+{
+  "id": "2025-02-13-user-interface-updates",
+  "title": "User interface updates",
+  "date": "2025-02-13",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-6",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Preview Unity Catalog metadata in data discovery**: Preview metadata for Unity Catalog assets by hovering over an asset in the schema browser. This capability is available in Catalog Explorer and other interfaces where you use the schema browser, such as AI/BI dashboards and the SQL editor.\n\n* **Filter to find data assets you can query**: Filter settings in Catalog Explorer's schema browser now includes a **Can query** checkbox. Selecting this option excludes objects that you can view but not query.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.438311Z"
+}

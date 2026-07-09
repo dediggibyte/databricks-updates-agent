@@ -1,0 +1,28 @@
+{
+  "product": "Attribute-based access control (ABAC) is now generally available",
+  "tagline": "Attribute based access control (ABAC) is now generally available (GA).",
+  "updated": "Apr 28, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#attribute-based-access-control-abac-is-now-generally-available",
+  "what_it_does": "Attribute based access control (ABAC) is now generally available (GA). ABAC is an access control model in Unity Catalog that uses governed tags applied to data assets to dynamically enforce row filter and column mask policies on tables, materialized views, and streaming tables. Policies are attached at the catalog, schema, or table level and are automatically applied to all securables with matching tag attributes, enabling consistent access rules at scale without per table configuration.",
+  "why_it_matters": "ABAC is an access control model in Unity Catalog that uses governed tags applied to data assets to dynamically enforce row filter and column mask policies on tables, materialized views, and streaming tables.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Attribute based access control (ABAC) is now generally available (GA).",
+  "note_id": "2026-04-28-attribute-based-access-control-abac-is-now-generally-available",
+  "category": "platform"
+}

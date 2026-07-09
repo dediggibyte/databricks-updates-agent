@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-12-ai-gateway-beta",
+  "title": "AI Gateway (Beta)",
+  "date": "2026-02-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#ai-gateway-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AI Gateway (Beta) is the enterprise control plane for governing LLM endpoints and coding agents with enhanced features, including a rich UI, improved observability, and expanded API coverage.\n\nSee [AI governance with Unity AI Gateway](/aws/en/ai-gateway).",
+  "ref_links": [
+    {
+      "text": "AI governance with Unity AI Gateway",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.958201Z"
+}

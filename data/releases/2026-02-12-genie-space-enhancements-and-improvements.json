@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-12-genie-space-enhancements-and-improvements",
+  "title": "Genie Space enhancements and improvements",
+  "date": "2026-02-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-improvements-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Heatmap and sankey visualizations**: You can now generate heatmap and sankey visualizations in Genie.\n* **Query tagging for benchmarks**: In query history, Genie attaches query tags to queries generated from benchmarks, helping you differentiate workloads from end users versus benchmarks.\n* **Auto-generated space titles**: Space titles now automatically generate based on the context of selected tables.\n* **Persistent knowledge store suggestions**: Knowledge store suggestions now persist on messages so you can navigate to other tabs within Genie before returning and accepting suggestions.\n* **Knowledge store suggestions on download**: Genie now suggests adding query results to the knowledge store when you download them.\n* **Inspect (Beta)**: Inspect is now in Beta. This feature automatically improves standard Genie's accuracy by reviewing the initially generated SQL, authoring smaller SQL statements to verify specific aspects of the query, and generating improved SQL as needed. See [Improve response accuracy using Inspect](/aws/en/genie/concepts#inspect-mode).\n* **Increased table limit**: The table limit for Genie Spaces has been increased from 25 to 30 tables.",
+  "ref_links": [
+    {
+      "text": "Improve response accuracy using Inspect",
+      "url": "https://docs.databricks.com/aws/en/genie/concepts#inspect-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.957576Z"
+}

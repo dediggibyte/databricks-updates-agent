@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-29-feedback-model-deprecated-for-ai-agents",
+  "title": "Feedback model deprecated for AI agents",
+  "date": "2025-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#feedback-model-deprecated-for-ai-agents",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The experimental feedback model for AI agents has been deprecated. Starting November 1, 2025, newly deployed agents won't include a feedback model. Upgrade to MLflow 3 and use the `log_feedback` API to collect assessments on agent traces. See [Feedback model (deprecated)](/aws/en/agents/agent-framework/feedback-model).",
+  "ref_links": [
+    {
+      "text": "Feedback model (deprecated)",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-framework/feedback-model"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.147764Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-03-13-5e9273a0",
+  "title": "Some partner-powered AI features are now available in-country for Brazil, Canada, Japan, Korea, Singapore, and the UK",
+  "date": "2026-03-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#some-partner-powered-ai-features-are-now-available-in-country-for-brazil-canada-japan-korea-singapore-and-the-uk",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The following features are now available through models hosted in-country in Brazil, Canada, Japan, Korea, Singapore, and the UK:\n\n* Genie Code chat and cell actions\n* Genie Spaces (excluding Agent mode)\n* AI-generated comments\n* AI/BI dashboards\n\nWorkspaces in these countries can use these features with [Enforce data processing within workspace Geography for Designated Services](/aws/en/resources/databricks-geos) enabled and [partner-powered AI features](/aws/en/databricks-ai/partner-powered) enabled. For these features in the listed countries, in-country data routing is enforced, meaning data does not leave the country.\n\nIf partner-powered AI features is disabled, Genie Code can use [Databricks-hosted models](/aws/en/databricks-ai#db-hosted) only if [Enforce data processing within workspace Geography for Designated Services](/aws/en/resources/databricks-geos) is disabled.\n\nAll other designated services continue to comply with data residency managed by Databricks Geos. Some AI capabilities that depend on models not currently hosted in these countries might not be available when [Enforce data processing within workspace Geography for Designated Services](/aws/en/resources/databricks-geos) is enabled. See [Databricks Geos: Data residency](/aws/en/resources/databricks-geos) for more information on which features require cross-geo processing.",
+  "ref_links": [
+    {
+      "text": "Enforce data processing within workspace Geography for Designated Services",
+      "url": "https://docs.databricks.com/aws/en/resources/databricks-geos"
+    },
+    {
+      "text": "partner-powered AI features",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai/partner-powered"
+    },
+    {
+      "text": "Databricks-hosted models",
+      "url": "https://docs.databricks.com/aws/en/databricks-ai#db-hosted"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.874293Z"
+}

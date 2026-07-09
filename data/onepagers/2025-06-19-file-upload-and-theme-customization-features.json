@@ -1,0 +1,28 @@
+{
+  "product": "File upload and theme customization features",
+  "tagline": "File upload to Unity Catalog from dashboards: Authors can now upload files to Unity Catalog directly from the dashboard data tab.",
+  "updated": "Jun 19, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/settings",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#file-upload-and-theme-customization-features",
+  "what_it_does": "File upload to Unity Catalog from dashboards: Authors can now upload files to Unity Catalog directly from the dashboard data tab. Customizable dashboard theme: Authors can now customize the dashboard theme by setting custom font, background, and widget colors. Dashboard level settings provide global control over the following aspects of your dashboard: Theme customization: Control the visual appearance, including colors, fonts, widget styling, and layout preferences General settings: Add tags (Public Preview), set a locale to control formatting standards, and control the availability of the associated Genie Agent.",
+  "why_it_matters": "This page explains how to customize dashboard settings and themes to match your organization's branding, improve readability, and ensure consistent data presentation across different regions and languages.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "File upload to Unity Catalog from dashboards: Authors can now upload files to Unity Catalog directly from the dashboard data tab.",
+  "note_id": "2025-06-19-file-upload-and-theme-customization-features",
+  "category": "platform"
+}

@@ -1,0 +1,50 @@
+{
+  "product": "Dashboard enhancements and new capabilities",
+  "tagline": "Parameterized dashboard tasks: Dashboard tasks in Jobs can now be parameterized, allowing job parameters to dynamically set dashboard filter values at runtime.",
+  "updated": "Feb 5, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-new-capabilities",
+  "what_it_does": "Parameterized dashboard tasks: Dashboard tasks in Jobs can now be parameterized, allowing job parameters to dynamically set dashboard filter values at runtime. Workspace level dashboard themes: Dashboard themes can now be configured at the workspace level. Top aligned text widgets: Text widgets now default to top aligned text.",
+  "why_it_matters": "Refresh only schedules for individual data permissions: Authors and viewers of dashboards published with individual data permissions can now create refresh only schedules that trigger cache refreshes without sending notifications, improving dashboard load times.",
+  "capabilities": [
+    {
+      "title": "\"Create a dashboard showing bakehouse",
+      "desc": "\"Create a dashboard showing bakehouse trends from the @salestransactions table.\""
+    },
+    {
+      "title": "\"Build a sales performance dashboard",
+      "desc": "\"Build a sales performance dashboard using @salesdata with revenue by region and product category.\""
+    },
+    {
+      "title": "\"Create a customer analytics dashboard",
+      "desc": "\"Create a customer analytics dashboard from @customerdata showing retention, churn, and engagement metrics.\""
+    },
+    {
+      "title": "\"Add a line chart showing",
+      "desc": "\"Add a line chart showing sales trends over time from this dataset.\""
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Use cases In Agent mode",
+    "Genie Code has expanded capabilities",
+    "such as finding data",
+    "creating visualizations"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Parameterized dashboard tasks: Dashboard tasks in Jobs can now be parameterized, allowing job parameters to dynamically set dashboard filter values at runtime.",
+  "note_id": "2026-02-05-dashboard-enhancements-and-new-capabilities",
+  "category": "platform"
+}

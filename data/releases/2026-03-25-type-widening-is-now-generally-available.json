@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-25-type-widening-is-now-generally-available",
+  "title": "Type widening is now generally available",
+  "date": "2026-03-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#type-widening-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Type widening for Delta Lake tables is now generally available. Type widening allows you to change column data types to wider types such as `INT` to `BIGINT` or `FLOAT` to `DOUBLE` during ingestion without rewriting underlying data files.\n\nSee [Type widening](/aws/en/tables/features/type-widening).",
+  "ref_links": [
+    {
+      "text": "Type widening",
+      "url": "https://docs.databricks.com/aws/en/tables/features/type-widening"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.852153Z"
+}

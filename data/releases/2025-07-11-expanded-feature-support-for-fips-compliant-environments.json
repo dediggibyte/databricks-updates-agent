@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-11-expanded-feature-support-for-fips-compliant-environments",
+  "title": "Expanded feature support for FIPS-Compliant environments",
+  "date": "2025-07-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#expanded-feature-support-for-fips-compliant-environments",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Model Serving Foundation Model API pay-per-token endpoints and batch inference using Databricks-hosted models are now available in FIPS-compliant environments. This includes support for the following compliance standards offered through the compliance security profile:\n\n* FedRAMP Moderate\n* IRAP\n* Canada Protected B\n\nSee [Compliance security profile standards: Foundation Model APIs workloads](/aws/en/machine-learning/model-serving/model-serving-limits#csp-throughput-aws) for region availability of these standards.",
+  "ref_links": [
+    {
+      "text": "Compliance security profile standards: Foundation Model APIs workloads",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/model-serving-limits#csp-throughput-aws"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.327050Z"
+}

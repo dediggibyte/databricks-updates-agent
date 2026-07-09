@@ -1,0 +1,25 @@
+{
+  "id": "2025-08-21-declarative-automation-bundles-support-for-lakebase-database-resources",
+  "title": "Declarative Automation Bundles support for Lakebase database resources",
+  "date": "2025-08-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#declarative-automation-bundles-support-for-lakebase-database-resources",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now define Lakebase database catalogs, instances, and synced tables in a bundle. This means you can deploy a full database environment with one command instead of setting up resources separately.\n\nWhen you deploy a bundle with a database instance, the instance starts running immediately.\n\nSee [database\\_catalog](/aws/en/dev-tools/bundles/resources#database_catalogs), [database\\_instance](/aws/en/dev-tools/bundles/resources#database_instances), and [synced\\_database\\_table](/aws/en/dev-tools/bundles/resources#database_tables).",
+  "ref_links": [
+    {
+      "text": "database_catalog",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/resources#database_catalogs"
+    },
+    {
+      "text": "database_instance",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/resources#database_instances"
+    },
+    {
+      "text": "synced_database_table",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/resources#database_tables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.256204Z"
+}

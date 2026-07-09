@@ -1,0 +1,37 @@
+{
+  "id": "2026-05-01-upcoming-change-upgrade-to-lakebase-autoscaling",
+  "title": "Upcoming change: Upgrade to Lakebase Autoscaling",
+  "date": "2026-05-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-change-upgrade-to-lakebase-autoscaling",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks is upgrading all Lakebase Provisioned instances to the Lakebase Autoscaling platform. Upgrades begin in June 2026 for customers who have requested them, with remaining instance upgrades continuing in the following weeks. Workspace admins will receive an email with upgrade dates before the upgrade begins.\n\nThe upgrade is automatic. Connections restart briefly during the transition, and existing connection strings, API calls, Declarative Automation Bundles, and Terraform configurations continue to work without modification.\n\nAfter the upgrade, the following changes apply:\n\n* Your instances will support [autoscaling features](/aws/en/oltp/instances#feature-comparison) and can be managed through both the new Autoscaling UI and the familiar Provisioned UI, which remains available until September 1, 2026.\n* Each instance receives a new regional connection string that provides optimized ingress:\n\n  + **Existing connection strings**: Provisioned connection strings (without a region) continue to work over the existing inbound Private Link and **do not require** [Service Direct Private Link](/aws/en/security/network/front-end/service-direct-privatelink).\n  + **New regional connection string**: If you use Private Link and connect to Lakebase **from outside the Databricks workspace**, you must configure [inbound Private Link for performance-intensive services](/aws/en/security/network/front-end/service-direct-privatelink) to use the new regional connection string.\n* To use new autoscaling features such as scale-to-zero in your Declarative Automation Bundles and Terraform configurations, update them to use autoscaling semantics.\n* [Lakebase GA pricing](https://www.databricks.com/product/pricing/lakebase) applies. With elastic compute replacing fixed-size instances, most customers will see a reduction in compute costs.\n* The Forward ETL and REST API Private Preview features on Lakebase Provisioned are disabled after the upgrade. Their replacements, [Lakebase Change Data Feed](/aws/en/oltp/projects/lakebase-cdf) and the [Data API](/aws/en/oltp/projects/data-api), are available on the Autoscaling platform.\n\nLakebase Autoscaling adds autoscaling and scale-to-zero, point-in-time restore and snapshots, maintenance window scheduling, database branching, and other enhancements. For details about what to expect, what changes, and what actions to take, see [Upgrade to Autoscaling](/aws/en/oltp/upgrade-to-autoscaling).\n\nTo request an expedited upgrade or if you have questions, contact your account team or Databricks Support.",
+  "ref_links": [
+    {
+      "text": "autoscaling features",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances#feature-comparison"
+    },
+    {
+      "text": "Service Direct Private Link",
+      "url": "https://docs.databricks.com/aws/en/security/network/front-end/service-direct-privatelink"
+    },
+    {
+      "text": "Lakebase GA pricing",
+      "url": "https://www.databricks.com/product/pricing/lakebase"
+    },
+    {
+      "text": "Lakebase Change Data Feed",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-cdf"
+    },
+    {
+      "text": "Data API",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/data-api"
+    },
+    {
+      "text": "Upgrade to Autoscaling",
+      "url": "https://docs.databricks.com/aws/en/oltp/upgrade-to-autoscaling"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.743395Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-27-databricks-one-renamed-to-genie",
+  "title": "Databricks One renamed to Genie",
+  "date": "2026-04-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#databricks-one-renamed-to-genie",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks One, the simplified Databricks interface, has been renamed to Genie. The feature and its capabilities are unchanged. Genie enables users to:\n\n* View and interact with AI/BI dashboards to track key performance indicators (KPIs) and analyze metrics.\n* Ask data questions in natural language using Genie.\n* Use custom-built Databricks Apps that combine analytics, AI, and workflows.\n\nSee [Use Genie One](/aws/en/genie-one/genie).",
+  "ref_links": [
+    {
+      "text": "Use Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.761106Z"
+}

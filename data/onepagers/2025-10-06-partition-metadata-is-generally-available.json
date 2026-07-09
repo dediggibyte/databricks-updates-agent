@@ -1,0 +1,28 @@
+{
+  "product": "Partition metadata is generally available",
+  "tagline": "You can now enable partition metadata logging, a partition discovery strategy for external tables registered to Unity Catalog.",
+  "updated": "Oct 6, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/external-partition-discovery#metadata-logging",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#partition-metadata-is-generally-available",
+  "what_it_does": "You can now enable partition metadata logging, a partition discovery strategy for external tables registered to Unity Catalog. important Databricks recommends that you use liquid clustering, instead of partitioning, to simplify table management and optimize query performance. Unity Catalog automatically discovers partitions for external tables by recursively listing directories.",
+  "why_it_matters": "important Databricks recommends that you use liquid clustering, instead of partitioning, to simplify table management and optimize query performance.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now enable partition metadata logging, a partition discovery strategy for external tables registered to Unity Catalog.",
+  "note_id": "2025-10-06-partition-metadata-is-generally-available",
+  "category": "platform"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2025-12-09-new-columns-in-lakeflow-system-tables-public-preview",
+  "title": "New columns in Lakeflow system tables (Public Preview)",
+  "date": "2025-12-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#new-columns-in-lakeflow-system-tables-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "New columns are now available in the Lakeflow system tables to provide enhanced job monitoring and troubleshooting capabilities:\n\n**[jobs](/aws/en/admin/system-tables/jobs#jobs) table**: `trigger`, `trigger_type`, `run_as_user_name`, `creator_user_name`, `paused`, `timeout_seconds`, `health_rules`, `deployment`, `create_time`\n\n**[job\\_tasks](/aws/en/admin/system-tables/jobs#job-tasks) table**: `timeout_seconds`, `health_rules`\n\n**[job\\_run\\_timeline](/aws/en/admin/system-tables/jobs#runs) table**: `source_task_run_id`, `root_task_run_id`, `compute`, `termination_type`, `setup_duration_seconds`, `queue_duration_seconds`, `run_duration_seconds`, `cleanup_duration_seconds`, `execution_duration_seconds`\n\n**[job\\_task\\_run\\_timeline](/aws/en/admin/system-tables/jobs#task-timeline) table**: `compute`, `termination_type`, `task_parameters`, `setup_duration_seconds`, `cleanup_duration_seconds`, `execution_duration_seconds`\n\n**[pipelines](/aws/en/admin/system-tables/jobs#pipelines) table**: `create_time`\n\nThese columns are not populated for rows emitted before early December 2025. See [Jobs system table reference](/aws/en/admin/system-tables/jobs).",
+  "ref_links": [
+    {
+      "text": "jobs",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#jobs"
+    },
+    {
+      "text": "job_tasks",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#job-tasks"
+    },
+    {
+      "text": "job_run_timeline",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#runs"
+    },
+    {
+      "text": "job_task_run_timeline",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#task-timeline"
+    },
+    {
+      "text": "pipelines",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#pipelines"
+    },
+    {
+      "text": "Jobs system table reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.093106Z"
+}

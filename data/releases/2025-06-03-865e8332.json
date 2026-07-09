@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-03-865e8332",
+  "title": "History sharing now enabled by default to improve table read performance for Databricks-to-Databricks Delta Sharing (GA)",
+  "date": "2025-06-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#history-sharing-now-enabled-by-default-to-improve-table-read-performance-for-databricks-to-databricks-delta-sharing-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "History sharing is enabled by default (for Databricks Runtime 16.2 and above) to improve table read performance for Databricks-to-Databricks Delta Sharing. See [Improve table read performance with history sharing](/aws/en/opensharing/share-data-databricks#share-history).",
+  "ref_links": [
+    {
+      "text": "Improve table read performance with history sharing",
+      "url": "https://docs.databricks.com/aws/en/opensharing/share-data-databricks#share-history"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.378324Z"
+}

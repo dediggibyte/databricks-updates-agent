@@ -1,0 +1,12 @@
+{
+  "id": "2025-10-30-genie-thinking-steps-and-benchmark-error-resolution",
+  "title": "Genie thinking steps and benchmark error resolution",
+  "date": "2025-10-30",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-thinking-steps-and-benchmark-error-resolution",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie thinking steps in plain language**: Genie thinking steps now explain SQL logic in plain language to help non-technical users understand and build trust in how answers are generated.\n* **Asset preview in selection dialog**: When selecting tables or views in the **Select an asset** dialog, you can now hover over an asset to preview its schema and metadata, including the owner and last updated time. This helps you quickly identify the right data source for your Genie Space.\n* **Fixed benchmark service principal error**: Resolved a bug where running benchmarks would occasionally return a service principal credential error.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.141033Z"
+}

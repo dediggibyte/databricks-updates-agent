@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-09-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-04-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-6",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Embed a Genie Space (Beta)**: You can now embed a Genie Space as an iframe in a website or application. See [Embed a Genie Agent in an external app](/aws/en/genie/embed).\n* **Space thumbnails**: Genie Space authors can now attach thumbnails to a space. Thumbnails appear on the Genie Space's initial chat page and in Genie One. See  [Configure settings](/aws/en/genie/set-up#config).\n* **Request Review for Agent mode (Public Preview)**: Users can now request a review for Agent mode messages.\n* **Table visualizations with conditional formatting**: Genie can now generate table visualizations with conditional formatting colors for better readability.\n* **Agent mode (Public Preview) as default**: Agent mode is now the default conversation setting in Genie Spaces when the Public Preview feature is enabled.\n* **SQL attachment fix**: Fixed a bug where SQL attachments generated from intermediate thinking steps appeared in the list conversation messages API response.",
+  "ref_links": [
+    {
+      "text": "Embed a Genie Agent in an external app",
+      "url": "https://docs.databricks.com/aws/en/genie/embed"
+    },
+    {
+      "text": "Configure settings",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#config"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.809182Z"
+}

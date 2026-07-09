@@ -1,0 +1,28 @@
+{
+  "product": "Removed legacy Assistant slash commands",
+  "tagline": "The /settings and /rename slash commands are no longer available in the notebook Genie Code Assistant chat pane.",
+  "updated": "May 26, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/notebooks/code-assistant#use-slash-commands-for-prompts",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#removed-legacy-assistant-slash-commands",
+  "what_it_does": "The /settings and /rename slash commands are no longer available in the notebook Genie Code Assistant chat pane. Adjust notebook settings and rename notebooks from the notebook UI instead. Other slash commands, such as /doc, /explain, /fix, /optimize, and /prettify, are unchanged.",
+  "why_it_matters": "| | /optimize | Suggests performance improvements for SQL queries.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The /settings and /rename slash commands are no longer available in the notebook Genie Code Assistant chat pane.",
+  "note_id": "2026-05-26-removed-legacy-assistant-slash-commands",
+  "category": "platform"
+}

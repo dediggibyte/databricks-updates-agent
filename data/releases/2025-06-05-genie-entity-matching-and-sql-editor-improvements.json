@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-05-genie-entity-matching-and-sql-editor-improvements",
+  "title": "Genie entity matching and SQL editor improvements",
+  "date": "2025-06-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-entity-matching-and-sql-editor-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **More entity matching in Genie**: Genie can now support up to 60 entity matching (previously value dictionary) columns. See [Tune Genie Agent quality](/aws/en/genie/tune-quality).\n* **Genie Space SQL editor fix**: Resolved an issued that caused the SQL editor in a chat window disappear if the user deleted the generated query. You can now use the editor to delete and rewrite queries.",
+  "ref_links": [
+    {
+      "text": "Tune Genie Agent quality",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.372476Z"
+}

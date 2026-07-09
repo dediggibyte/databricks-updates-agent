@@ -1,0 +1,149 @@
+{
+  "id": "2026-04-20-version-18-1",
+  "title": "Version 18.1",
+  "date": "2026-04-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/serverless#version-181",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "This serverless compute release roughly corresponds to [Databricks Runtime 18.1](/aws/en/release-notes/runtime/18.1).\n\n#### New features\n\n* **DATETIMEOFFSET data type support for Microsoft Azure Synapse**: The `DATETIMEOFFSET` data type is supported for Microsoft Azure Synapse connections.\n* **Google BigQuery table comments**: Google BigQuery table descriptions are resolved and exposed as table comments.\n* **JDBC connection**: Use a [JDBC connection](/aws/en/connect/jdbc-connection) to read and write to a data source with the [Spark Data Source API](https://spark.apache.org/docs/latest/sql-data-sources-jdbc.html) or the Databricks [Remote Query SQL API](/aws/en/query-federation/remote-queries).\n* **Schema evolution with INSERT statements**: Use the `WITH SCHEMA EVOLUTION` clause with SQL [INSERT](/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-into) statements to automatically evolve the target table's schema during insert operations. The clause is supported for `INSERT INTO`, `INSERT OVERWRITE`, and `INSERT INTO ... REPLACE` forms. See [schema evolution](/aws/en/tables/update-schema#enable-schema-evolution).\n* **Preserved NULL struct values in INSERT operations**: `INSERT` operations with schema evolution or implicit casting preserve `NULL` struct values when the source and target tables have differing struct field orders.\n* **Delta Sharing multi-statement transaction support**: Delta Sharing tables that use pre-signed URL or cloud token sharing modes support multi-statement transactions. On first access within a transaction, the table version is pinned and reused for all subsequent reads in that transaction. Time travel, change data feed, and streaming aren't supported.\n* **`parse_timestamp` SQL function**: The [parse\\_timestamp](/aws/en/sql/language-manual/functions/parse_timestamp) SQL function parses timestamp strings using multiple patterns. The function runs on the Photon engine for improved performance.\n* **`max_by` and `min_by` with optional limit**: The aggregate functions [max\\_by](/aws/en/sql/language-manual/functions/max_by) and [min\\_by](/aws/en/sql/language-manual/functions/min_by) now accept an optional third argument `limit` (up to 100,000), returning an array of top- or bottom-K values without window functions or CTEs.\n* **Vector aggregate and scalar functions**: New SQL functions operate on `ARRAY<FLOAT>` vectors for embedding and similarity workloads, including [vector\\_avg](/aws/en/sql/language-manual/functions/vector_avg), [vector\\_sum](/aws/en/sql/language-manual/functions/vector_sum), [vector\\_cosine\\_similarity](/aws/en/sql/language-manual/functions/vector_cosine_similarity), [vector\\_inner\\_product](/aws/en/sql/language-manual/functions/vector_inner_product), [vector\\_l2\\_distance](/aws/en/sql/language-manual/functions/vector_l2_distance), [vector\\_norm](/aws/en/sql/language-manual/functions/vector_norm), and [vector\\_normalize](/aws/en/sql/language-manual/functions/vector_normalize). See [Built-in functions](/aws/en/sql/language-manual/sql-ref-functions-builtin).\n* **SQL cursor support in compound statements**: [SQL scripting](/aws/en/sql/language-manual/sql-ref-scripting) compound statements now support cursor processing. Use [DECLARE CURSOR](/aws/en/sql/language-manual/control-flow/compound-stmt#declare_cursor) to define a cursor, then [OPEN statement](/aws/en/sql/language-manual/control-flow/open-stmt), [FETCH statement](/aws/en/sql/language-manual/control-flow/fetch-stmt), and [CLOSE statement](/aws/en/sql/language-manual/control-flow/close-stmt) to run the query and consume rows one at a time.\n* **Approximate top-k sketch functions**: New functions enable building and combining approximate top-K sketches for distributed top-K aggregation: [approx\\_top\\_k\\_accumulate](/aws/en/sql/language-manual/functions/approx_top_k_accumulate), [approx\\_top\\_k\\_combine](/aws/en/sql/language-manual/functions/approx_top_k_combine), and [approx\\_top\\_k\\_estimate](/aws/en/sql/language-manual/functions/approx_top_k_estimate). See [`approx_top_k` aggregate function](/aws/en/sql/language-manual/functions/approx_top_k).\n* **Tuple sketch functions**: New aggregate and scalar functions for tuple sketch support distinct counting and aggregation over key-summary pairs. See [Built-in functions](/aws/en/sql/language-manual/sql-ref-functions-builtin).\n* **New geospatial functions**: The following geospatial functions are now available:\n\n  + [`st_estimatesrid` function](/aws/en/sql/language-manual/functions/st_estimatesrid): Estimates the best projected spatial reference identifier (SRID) for an input geometry.\n  + [`st_force2d` function](/aws/en/sql/language-manual/functions/st_force2d): Converts a geography or geometry to its 2D representation.\n  + [`st_nrings` function](/aws/en/sql/language-manual/functions/st_nrings): Counts the total number of rings in a polygon or multipolygon, including both exterior and interior rings.\n  + [`st_numpoints` function](/aws/en/sql/language-manual/functions/st_numpoints): Counts the number of non-empty points in a geography or geometry.\n* **Photon support for geospatial functions**: [`st_difference` function](/aws/en/sql/language-manual/functions/st_difference), [`st_intersection` function](/aws/en/sql/language-manual/functions/st_intersection), and [`st_union` function](/aws/en/sql/language-manual/functions/st_union) now run on the Photon engine for faster performance.\n\n#### Behavior changes\n\n* **Observation metric errors no longer fail queries**: Errors during observation metric collection no longer cause query execution failures. Previously, errors in `OBSERVE` clauses (such as division by zero) could block or fail the entire query. Now, the query completes successfully and the error is raised when you call `observation.get`.\n* **`DESCRIBE FLOW` reserved keyword**: The `DESCRIBE FLOW` command is now available. If you have a table named `flow`, use `DESCRIBE schema.flow`, `DESCRIBE TABLE flow`, or `` DESCRIBE `flow` ``  with backticks.\n* **SpatialSQL boolean set operations**: `ST_Difference`, `ST_Intersection`, and `ST_Union` use a new implementation with approximately 2x faster performance. Valid input geometries always produce a result. Results are normalized for consistent output and can differ after the 15th decimal place for line-segment intersections due to different formulas and order of operations.\n* **Exception types for SQLSTATE**: [Exception types](/aws/en/error-messages) are updated to support SQLSTATE. If your code parses exceptions by string matching or catches specific exception types, update your error handling logic.",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 18.1",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18.1"
+    },
+    {
+      "text": "JDBC connection",
+      "url": "https://docs.databricks.com/aws/en/connect/jdbc-connection"
+    },
+    {
+      "text": "Spark Data Source API",
+      "url": "https://spark.apache.org/docs/latest/sql-data-sources-jdbc.html"
+    },
+    {
+      "text": "Remote Query SQL API",
+      "url": "https://docs.databricks.com/aws/en/query-federation/remote-queries"
+    },
+    {
+      "text": "INSERT",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-into"
+    },
+    {
+      "text": "schema evolution",
+      "url": "https://docs.databricks.com/aws/en/tables/update-schema#enable-schema-evolution"
+    },
+    {
+      "text": "parse_timestamp",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/parse_timestamp"
+    },
+    {
+      "text": "max_by",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/max_by"
+    },
+    {
+      "text": "min_by",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/min_by"
+    },
+    {
+      "text": "vector_avg",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_avg"
+    },
+    {
+      "text": "vector_sum",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_sum"
+    },
+    {
+      "text": "vector_cosine_similarity",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_cosine_similarity"
+    },
+    {
+      "text": "vector_inner_product",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_inner_product"
+    },
+    {
+      "text": "vector_l2_distance",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_l2_distance"
+    },
+    {
+      "text": "vector_norm",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_norm"
+    },
+    {
+      "text": "vector_normalize",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_normalize"
+    },
+    {
+      "text": "Built-in functions",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-functions-builtin"
+    },
+    {
+      "text": "SQL scripting",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-scripting"
+    },
+    {
+      "text": "DECLARE CURSOR",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/compound-stmt#declare_cursor"
+    },
+    {
+      "text": "OPEN statement",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/open-stmt"
+    },
+    {
+      "text": "FETCH statement",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/fetch-stmt"
+    },
+    {
+      "text": "CLOSE statement",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/close-stmt"
+    },
+    {
+      "text": "approx_top_k_accumulate",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/approx_top_k_accumulate"
+    },
+    {
+      "text": "approx_top_k_combine",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/approx_top_k_combine"
+    },
+    {
+      "text": "approx_top_k_estimate",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/approx_top_k_estimate"
+    },
+    {
+      "text": "approx_top_k aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/approx_top_k"
+    },
+    {
+      "text": "st_estimatesrid function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_estimatesrid"
+    },
+    {
+      "text": "st_force2d function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_force2d"
+    },
+    {
+      "text": "st_nrings function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_nrings"
+    },
+    {
+      "text": "st_numpoints function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_numpoints"
+    },
+    {
+      "text": "st_difference function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_difference"
+    },
+    {
+      "text": "st_intersection function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_intersection"
+    },
+    {
+      "text": "st_union function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_union"
+    },
+    {
+      "text": "Exception types",
+      "url": "https://docs.databricks.com/aws/en/error-messages"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.782959Z"
+}

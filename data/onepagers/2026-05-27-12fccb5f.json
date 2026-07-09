@@ -1,0 +1,45 @@
+{
+  "product": "Refresh policies and EXPLAIN CREATE MATERIALIZED VIEW for materialized views…",
+  "tagline": "Refresh policies and the EXPLAIN CREATE MATERIALIZED VIEW statement are now generally available for materialized views.",
+  "updated": "May 27, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/incremental-refresh",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#refresh-policies-and-explain-create-materialized-view-for-materialized-views-are-now-generally-available",
+  "what_it_does": "Refresh policies and the EXPLAIN CREATE MATERIALIZED VIEW statement are now generally available for materialized views. Use refresh policies to control when Databricks performs incremental or full refresh, optimizing cost and predictability. Use EXPLAIN CREATE MATERIALIZED VIEW to check whether a query can be incrementalized before defining the materialized view.",
+  "why_it_matters": "Use refresh policies to control when Databricks performs incremental or full refresh, optimizing cost and predictability.",
+  "capabilities": [
+    {
+      "title": "Data sources that don't retain",
+      "desc": "Data sources that don't retain data history, such as Kafka."
+    },
+    {
+      "title": "Ingest operations, such as queries",
+      "desc": "Ingest operations, such as queries that use Auto Loader to ingest data from cloud object storage."
+    },
+    {
+      "title": "Any data source where you",
+      "desc": "Any data source where you plan to delete or archive data after processing but need to retain information in downstream tables.…"
+    },
+    {
+      "title": "Delta tables, including Unity Catalog",
+      "desc": "Delta tables, including Unity Catalog managed tables and external tables backed by Delta Lake."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Refresh policies and the EXPLAIN CREATE MATERIALIZED VIEW statement are now generally available for materialized views.",
+  "note_id": "2026-05-27-12fccb5f",
+  "category": "platform"
+}

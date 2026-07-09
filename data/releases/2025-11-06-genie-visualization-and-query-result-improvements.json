@@ -1,0 +1,12 @@
+{
+  "id": "2025-11-06-genie-visualization-and-query-result-improvements",
+  "title": "Genie visualization and query result improvements",
+  "date": "2025-11-06",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-visualization-and-query-result-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Text explanations for empty results**: Genie now includes text explanations of query results when query results are empty.\n* **Improved auto-generated charts**: Visualizations now use query result metadata for higher-quality auto-generated charts.\n* **Improved date formatting**: The process for formatting date results in visualizations has been improved.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.124895Z"
+}

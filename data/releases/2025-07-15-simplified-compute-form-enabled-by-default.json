@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-15-simplified-compute-form-enabled-by-default",
+  "title": "Simplified compute form enabled by default",
+  "date": "2025-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#simplified-compute-form-enabled-by-default",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The simplified compute creation form is now enabled by default when you create all-purpose or jobs compute in the Databricks UI.\n\nSee [Use the simple form to manage compute](/aws/en/compute/simple-form).",
+  "ref_links": [
+    {
+      "text": "Use the simple form to manage compute",
+      "url": "https://docs.databricks.com/aws/en/compute/simple-form"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.323037Z"
+}

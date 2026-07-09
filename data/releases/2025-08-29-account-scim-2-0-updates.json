@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-29-account-scim-2-0-updates",
+  "title": "Account SCIM 2.0 updates",
+  "date": "2025-08-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#account-scim-20-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "To enhance stability and support future growth, Databricks has updated the Account SCIM API for identity management as follows:\n\n* Calling `GET with filter params filter=displayName eq value_without_quotes` results in a syntax error. To prevent this error, use quotation marks to wrap the value (for example, `filter=displayName eq \"value_with_quotes\"`).\n* Calling `GET /api/2.0/accounts/{account_id}/scim/v2/Groups` no longer returns members. Instead, iterate through `get group details` to get membership information. See [get group details](/aws/en/reference/scim-2-1).\n* Calling `PATCH /api/2.0/accounts/{account_id}/scim/v2/Groups/{id}` returns a 204 response instead of a 200 response.\n\nThese changes apply to new accounts and will be grandfathered into existing accounts. Current integrations will continue to work without disruption.",
+  "ref_links": [
+    {
+      "text": "get group details",
+      "url": "https://docs.databricks.com/aws/en/reference/scim-2-1"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.237641Z"
+}

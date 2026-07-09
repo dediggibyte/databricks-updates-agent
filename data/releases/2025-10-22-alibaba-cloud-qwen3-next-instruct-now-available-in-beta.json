@@ -1,0 +1,29 @@
+{
+  "id": "2025-10-22-alibaba-cloud-qwen3-next-instruct-now-available-in-beta",
+  "title": "Alibaba Cloud Qwen3-Next Instruct now available in Beta",
+  "date": "2025-10-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#alibaba-cloud-qwen3-next-instruct-now-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports Alibaba Cloud's [Qwen3-Next 80B A3B Instruct](/aws/en/machine-learning/foundation-model-apis/supported-models#qwen3-next-80b-a3b-instruct) as a Databricks-hosted model in the `us-west-2` and `ap-northeast-1` regions. This model can be accessed using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).\n\nQwen3-Next 80B A3B Instruct is available in [Beta](/aws/en/release-notes/release-types). See [Manage Databricks previews](/aws/en/admin/workspace-settings/manage-previews) for guidance on how to enable this model based on your Databricks plan tier.",
+  "ref_links": [
+    {
+      "text": "Qwen3-Next 80B A3B Instruct",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#qwen3-next-80b-a3b-instruct"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Manage Databricks previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.160213Z"
+}

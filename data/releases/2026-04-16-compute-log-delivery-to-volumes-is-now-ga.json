@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-16-compute-log-delivery-to-volumes-is-now-ga",
+  "title": "Compute log delivery to volumes is now GA",
+  "date": "2026-04-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#compute-log-delivery-to-volumes-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Delivering Spark driver, worker, and event logs from classic all-purpose and jobs compute to Unity Catalog volumes is now generally available. This is the recommended approach for log storage. See [Compute log delivery](/aws/en/compute/configure#cluster-log-delivery).",
+  "ref_links": [
+    {
+      "text": "Compute log delivery",
+      "url": "https://docs.databricks.com/aws/en/compute/configure#cluster-log-delivery"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.795248Z"
+}

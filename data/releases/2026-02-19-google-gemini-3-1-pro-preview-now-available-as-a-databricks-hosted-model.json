@@ -1,0 +1,33 @@
+{
+  "id": "2026-02-19-google-gemini-3-1-pro-preview-now-available-as-a-databricks-hosted-model",
+  "title": "Google Gemini 3.1 Pro Preview now available as a Databricks-hosted model",
+  "date": "2026-02-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#google-gemini-31-pro-preview-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports [Google Gemini 3.1 Pro Preview](/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-1-pro) as a Databricks-hosted model.\n\nTo access this model, use:\n\n* [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis)\n  + [Query reasoning models](/aws/en/machine-learning/model-serving/query-reason-models)\n  + [Query vision models](/aws/en/machine-learning/model-serving/query-vision-models)\n* [Batch inference workloads using AI Functions](/aws/en/large-language-models/ai-functions)",
+  "ref_links": [
+    {
+      "text": "Google Gemini 3.1 Pro Preview",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-3-1-pro"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "Query reasoning models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/query-reason-models"
+    },
+    {
+      "text": "Query vision models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/query-vision-models"
+    },
+    {
+      "text": "Batch inference workloads using AI Functions",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.946468Z"
+}

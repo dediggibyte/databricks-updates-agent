@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-05-tree-view-of-the-workspace-browser-side-panel-public-preview",
+  "title": "Tree view of the workspace browser side panel (Public Preview)",
+  "date": "2026-03-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#tree-view-of-the-workspace-browser-side-panel-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The workspace browser side panel now includes a tree view that provides a flexible, tree-based view of your workspace folder hierarchy. The tree view allows you to expand descendant folders, change the root of the tree, and navigate your workspace while keeping the tree steady. This improves the multi-asset authoring experience by providing better control over workspace navigation.\n\nSee [Tree view of the workspace browser side panel (Public Preview)](/aws/en/workspace/workspace-browser#tree-view).",
+  "ref_links": [
+    {
+      "text": "Tree view of the workspace browser side panel (Public Preview)",
+      "url": "https://docs.databricks.com/aws/en/workspace/workspace-browser#tree-view"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.906959Z"
+}

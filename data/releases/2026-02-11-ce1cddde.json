@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-11-ce1cddde",
+  "title": "Configure default Python package repositories for Lakeflow Spark Declarative Pipelines (Public Preview)",
+  "date": "2026-02-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#configure-default-python-package-repositories-for-lakeflow-spark-declarative-pipelines-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Workspace admins can now configure private or authenticated package repositories within workspaces as the default pip configuration for Lakeflow Spark Declarative Pipelines. This allows users in the workspace to install packages from internal Python repositories without explicitly defining `index-url` or `extra-index-url` values.\n\nSee [Configure default Python package repositories](/aws/en/admin/workspace-settings/default-python-packages) for more details.",
+  "ref_links": [
+    {
+      "text": "Configure default Python package repositories",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/default-python-packages"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.974521Z"
+}

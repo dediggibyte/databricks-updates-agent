@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-30-power-bi-connections-will-transition-to-adbc",
+  "title": "Power BI connections will transition to ADBC",
+  "date": "2026-04-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#power-bi-connections-will-transition-to-adbc",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Power BI plans to transition all Power BI connections to Arrow Database Connectivity (ADBC) in August 2026. To avoid disruptions, Databricks recommends switching your development and staging semantic models to ADBC now and validating your workloads.\n\nThe ADBC driver for Power BI on Databricks has been in Public Preview since October 2025. Since February 2026, all new connections in Power BI Desktop and the Power BI service use ADBC by default. Existing connections continue to use ODBC unless you manually update them.\n\nSee [Configure ADBC or ODBC driver for Power BI](/aws/en/partners/bi/power-bi-adbc).",
+  "ref_links": [
+    {
+      "text": "Configure ADBC or ODBC driver for Power BI",
+      "url": "https://docs.databricks.com/aws/en/partners/bi/power-bi-adbc"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.746037Z"
+}

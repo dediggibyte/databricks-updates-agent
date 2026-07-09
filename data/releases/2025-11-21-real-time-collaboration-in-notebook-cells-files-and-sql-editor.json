@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-21-real-time-collaboration-in-notebook-cells-files-and-sql-editor",
+  "title": "Real-time collaboration in notebook cells, files, and SQL editor",
+  "date": "2025-11-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#real-time-collaboration-in-notebook-cells-files-and-sql-editor",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Real-time collaboration is now available in notebook cells, files, and the new SQL editor. Multiple users can edit the same cell simultaneously and can view each other's edits. For more information, see [Collaborate using Databricks notebooks](/aws/en/notebooks/notebooks-collaborate).",
+  "ref_links": [
+    {
+      "text": "Collaborate using Databricks notebooks",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebooks-collaborate"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.102663Z"
+}

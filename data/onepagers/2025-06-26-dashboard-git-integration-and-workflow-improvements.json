@@ -1,0 +1,37 @@
+{
+  "product": "Dashboard Git integration and workflow improvements",
+  "tagline": "Improved diff review for dashboard files: When committing dashboard changes to Git, queries and text box content now appear across multiple lines in the diff, making changes easier to review.",
+  "updated": "Jun 26, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#create-schedule",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-git-integration-and-workflow-improvements",
+  "what_it_does": "Improved diff review for dashboard files: When committing dashboard changes to Git, queries and text box content now appear across multiple lines in the diff, making changes easier to review. Multi statement queries in Genie on dashboards: Genie on dashboards now supports multistatement SQL queries. Improved schedule and subscribe workflow: You can now add subscribers when setting up a new schedule.",
+  "why_it_matters": "Improved diff review for dashboard files: When committing dashboard changes to Git, queries and text box content now appear across multiple lines in the diff, making changes easier to review.",
+  "capabilities": [
+    {
+      "title": "Include pages: Select which dashboard",
+      "desc": "Include pages: Select which dashboard pages to include as PDF attachments. Pages are attached in the selected order."
+    },
+    {
+      "title": "Include data: Select widgets to",
+      "desc": "Include data: Select widgets to include as data attachments and choose an export format (CSV, TSV, or Excel)."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Improved diff review for dashboard files: When committing dashboard changes to Git, queries and text box content now appear across multiple lines in the diff, making changes easier to review.",
+  "note_id": "2025-06-26-dashboard-git-integration-and-workflow-improvements",
+  "category": "platform"
+}

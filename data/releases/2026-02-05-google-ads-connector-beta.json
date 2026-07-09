@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-05-google-ads-connector-beta",
+  "title": "Google Ads connector (Beta)",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#google-ads-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed Google Ads connector in Lakeflow Connect allows you to ingest data from Google Ads into Databricks. See [Google Ads connector](/aws/en/ingestion/lakeflow-connect/google-ads-overview).",
+  "ref_links": [
+    {
+      "text": "Google Ads connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/google-ads-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.982839Z"
+}

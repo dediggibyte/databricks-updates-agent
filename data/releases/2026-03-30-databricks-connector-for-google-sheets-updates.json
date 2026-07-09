@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-30-databricks-connector-for-google-sheets-updates",
+  "title": "Databricks Connector for Google Sheets updates",
+  "date": "2026-03-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-connector-for-google-sheets-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The *Databricks Connector for Google Sheets* has been updated with a longer query execution timeout, UI improvements, and additional scheduled refresh limitations. See [Databricks Connector for Google Sheets](/aws/en/integrations/google-sheets).",
+  "ref_links": [
+    {
+      "text": "Databricks Connector for Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.828738Z"
+}

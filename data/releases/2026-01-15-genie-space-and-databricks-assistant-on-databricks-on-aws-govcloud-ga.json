@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-15-genie-space-and-databricks-assistant-on-databricks-on-aws-govcloud-ga",
+  "title": "Genie Space and Databricks Assistant on Databricks on AWS GovCloud GA",
+  "date": "2026-01-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-and-databricks-assistant-on-databricks-on-aws-govcloud-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Databricks on AWS GovCloud support**: Genie and Databricks Assistant are now generally available on Databricks on AWS GovCloud. See [Databricks on AWS GovCloud](/aws/en/security/privacy/gov-cloud).",
+  "ref_links": [
+    {
+      "text": "Databricks on AWS GovCloud",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/gov-cloud"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.034828Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-21-supervisor-agent-supports-long-running-tasks",
+  "title": "Supervisor Agent supports long-running tasks",
+  "date": "2026-03-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#supervisor-agent-supports-long-running-tasks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Supervisor Agent now supports long-running task mode, which automatically breaks complex tasks into multiple request/response cycles using task continuation to avoid timeouts. See [Supervisor Agent long-running tasks](/aws/en/agents/agent-bricks/multi-agent-supervisor-long-running-tasks).",
+  "ref_links": [
+    {
+      "text": "Supervisor Agent long-running tasks",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor-long-running-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.856227Z"
+}

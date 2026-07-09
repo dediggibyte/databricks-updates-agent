@@ -1,0 +1,37 @@
+{
+  "product": "Genie interface and file upload enhancements",
+  "tagline": "Fixed off screen color ramp editor in Genie: Resolved a bug where the color ramp editor was hidden off screen.",
+  "updated": "Aug 14, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/file-upload",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-interface-and-file-upload-enhancements",
+  "what_it_does": "Fixed off screen color ramp editor in Genie: Resolved a bug where the color ramp editor was hidden off screen. Improved file upload security and setup in Genie: File uploads are now accessible only to the users who uploaded them. Setup is simplified to automatically designate the catalog and schema where the file is stored.",
+  "why_it_matters": "Improved file upload security and setup in Genie: File uploads are now accessible only to the users who uploaded them.",
+  "capabilities": [
+    {
+      "title": "Partner-Powered AI features must be",
+      "desc": "Partner-Powered AI features must be enabled. See Partner-powered AI features."
+    },
+    {
+      "title": "PDF uploads are not supported",
+      "desc": "PDF uploads are not supported in compliance security profile workspaces. At least CAN RUN permissions on the Genie Agent. See…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Fixed off screen color ramp editor in Genie: Resolved a bug where the color ramp editor was hidden off screen.",
+  "note_id": "2025-08-14-genie-interface-and-file-upload-enhancements",
+  "category": "platform"
+}

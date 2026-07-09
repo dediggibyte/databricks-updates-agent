@@ -1,0 +1,17 @@
+{
+  "id": "2025-03-20-dashboard-query-history-and-sorting-enhancements",
+  "title": "Dashboard query history and sorting enhancements",
+  "date": "2025-03-20",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-query-history-and-sorting-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Query history update**: When viewing the [query history](/aws/en/sql/user/queries/query-history), scheduled dashboard update queries now display the dashboard publisher as the user instead of **System Service Principal**.\n* **Simplified actions menu**: The **Ask Genie** button no longer appears in a widget's  kebab menu when Genie is not enabled on a dashboard.\n* **Increased custom sorting limits**: You can now custom sort up to 500 items in a visualization.\n* **Resolved issue with subscription emails**: Dashboards created using jobs now correctly apply subscription settings set at the workspace level.",
+  "ref_links": [
+    {
+      "text": "query history",
+      "url": "https://docs.databricks.com/aws/en/sql/user/queries/query-history"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.421016Z"
+}

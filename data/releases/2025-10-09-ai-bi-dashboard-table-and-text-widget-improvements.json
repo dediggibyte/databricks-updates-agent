@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-09-ai-bi-dashboard-table-and-text-widget-improvements",
+  "title": "AI/BI dashboard table and text widget improvements",
+  "date": "2025-10-09",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#aibi-dashboard-table-and-text-widget-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Adjustable line thickness in line charts**: You can now control the thickness of lines in line charts. If no series are specified in the size area, the slider changes all line thickness uniformly. If series are specified, you can set different thickness values for each series, similar to different size circles in scatter charts.\n* **Copy link URLs from tables**: You can now copy link URLs directly from table visualizations.\n* **Improved pivot row headers**: Row header field names in pivot tables no longer overflow and now scroll together with row values.\n* **Improved handling of the `<` character in text widgets**: Fixed an issue where the `<` character would sometimes disappear or delete adjacent characters after re-clicking a text widget.\n* **Improved precision for custom calculations**: Aggregate functions now support the `DISTINCT` keyword and the `FILTER(WHERE ...)` clause. Use them to count unique entities and perform conditional aggregation, replacing complex `CASE` statements. See [Aggregate functions](/aws/en/dashboards/manage/data-modeling/custom-calculations/function-reference#aggregate-functions).\n* **Additional predicate support for custom calculations**: Custom calculations now support `IN`, `BETWEEN`, and pattern matching predicates (`LIKE`, `ILIKE`, `RLIKE`) for more flexible filtering and comparison operations. See [Boolean functions and operators](/aws/en/dashboards/manage/data-modeling/custom-calculations/function-reference#boolean-functions-and-operators).",
+  "ref_links": [
+    {
+      "text": "Aggregate functions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations/function-reference#aggregate-functions"
+    },
+    {
+      "text": "Boolean functions and operators",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations/function-reference#boolean-functions-and-operators"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.175809Z"
+}

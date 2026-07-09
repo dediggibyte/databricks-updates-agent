@@ -1,0 +1,41 @@
+{
+  "product": "OpenAI GPT OSS models now support function calling",
+  "tagline": "The Databricks hosted foundation models, OpenAI GPT OSS 120B and GPT OSS 20B now support function and tool calling.",
+  "updated": "Aug 13, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/function-calling",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#openai-gpt-oss-models-now-support-function-calling",
+  "what_it_does": "The Databricks hosted foundation models, OpenAI GPT OSS 120B and GPT OSS 20B now support function and tool calling. This article describes function calling and how to use it as part of your generative AI application workflows. Databricks Function Calling is OpenAI compatible and is only available during model serving as part of Foundation Model APIs and serving endpoints that serve external models.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "Starting February 15, 2026, this",
+      "desc": "Starting February 15, 2026, this model is not available for pay-per-token workloads."
+    },
+    {
+      "title": "Starting May 15, 2026, this",
+      "desc": "Starting May 15, 2026, this model is not available for provisioned throughput workloads. Starting December 11, 2024…"
+    },
+    {
+      "title": "To allow more time for",
+      "desc": "To allow more time for migration, between March 26, 2026 and June 7, 2026, API calls to Gemini 3 Pro will be temporarily…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Databricks hosted foundation models, OpenAI GPT OSS 120B and GPT OSS 20B now support function and tool calling.",
+  "note_id": "2025-08-13-openai-gpt-oss-models-now-support-function-calling",
+  "category": "platform"
+}

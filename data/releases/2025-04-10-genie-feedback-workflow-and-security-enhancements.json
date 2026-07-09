@@ -1,0 +1,21 @@
+{
+  "id": "2025-04-10-genie-feedback-workflow-and-security-enhancements",
+  "title": "Genie feedback workflow and security enhancements",
+  "date": "2025-04-10",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-feedback-workflow-and-security-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Revamped feedback flow in Genie**: The Genie feedback workflow is now more interactive and responsive. When a response is incorrect, you can explain why it's wrong by choosing from a selection of common issues or entering your own explanation. You can regenerate the response based on the feedback you provide, or send it to a space editor for manual review. See  [Response feedback](/aws/en/genie/monitor#response-feedback).\n* **Customer-managed key support for Genie**: Genie Spaces created after April 10, 2025 are now encrypted and compatible with customer-managed keys. See [Customer-managed keys for encryption](/aws/en/security/keys/customer-managed-keys).",
+  "ref_links": [
+    {
+      "text": "Response feedback",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#response-feedback"
+    },
+    {
+      "text": "Customer-managed keys for encryption",
+      "url": "https://docs.databricks.com/aws/en/security/keys/customer-managed-keys"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.411437Z"
+}

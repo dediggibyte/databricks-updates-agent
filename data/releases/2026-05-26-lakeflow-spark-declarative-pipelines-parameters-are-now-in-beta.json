@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-26-lakeflow-spark-declarative-pipelines-parameters-are-now-in-beta",
+  "title": "Lakeflow Spark Declarative Pipelines parameters are now in Beta",
+  "date": "2026-05-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-spark-declarative-pipelines-parameters-are-now-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Pipeline parameters let you define key-value pairs at the pipeline level and reference them from SQL source code using [named parameter](/aws/en/sql/user/queries/query-parameters) syntax. See [Use parameters with pipelines](/aws/en/ldp/parameters).",
+  "ref_links": [
+    {
+      "text": "named parameter",
+      "url": "https://docs.databricks.com/aws/en/sql/user/queries/query-parameters"
+    },
+    {
+      "text": "Use parameters with pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/parameters"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.663850Z"
+}

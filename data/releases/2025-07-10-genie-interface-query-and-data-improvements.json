@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-10-genie-interface-query-and-data-improvements",
+  "title": "Genie interface, query, and data improvements",
+  "date": "2025-07-10",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-interface-query-and-data-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Editable filters displays multiple values**: Editable filters now display multiple values when Genie generates a SQL filter clause that includes more than one filter value.\n* **Edit space descriptions**: You can now edit Genie Space descriptions directly in place.\n* **SQL query recommendation**: Genie now suggests popular SQL queries that come from notebooks. Previously, only popular SQL query objects were suggested.\n* **Faster entity matching identification**: Entity matching (previously value dictionaries) now identifies unique values faster.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.328689Z"
+}

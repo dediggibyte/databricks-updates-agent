@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-28-external-mcp-servers-are-in-beta",
+  "title": "External MCP servers are in Beta",
+  "date": "2025-08-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#external-mcp-servers-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Users can now connect Databricks to external Model Context Protocol (MCP) servers. This allows agents to access tools outside of Databricks.\n\nSee [Model Context Protocol (MCP) on Databricks](/aws/en/agents/mcp).",
+  "ref_links": [
+    {
+      "text": "Model Context Protocol (MCP) on Databricks",
+      "url": "https://docs.databricks.com/aws/en/agents/mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.242858Z"
+}

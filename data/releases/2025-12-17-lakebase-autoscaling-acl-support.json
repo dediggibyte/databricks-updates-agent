@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-17-lakebase-autoscaling-acl-support",
+  "title": "Lakebase Autoscaling ACL support",
+  "date": "2025-12-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#lakebase-autoscaling-acl-support",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase Autoscaling (Public Preview) now supports Access Control Lists (ACLs). Grant CAN CREATE or CAN MANAGE permissions to control who can access and manage project resources. Manage permissions from project settings in the Lakebase App. See [Manage project permissions](/aws/en/oltp/projects/manage-project-permissions).",
+  "ref_links": [
+    {
+      "text": "Manage project permissions",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-project-permissions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.071243Z"
+}

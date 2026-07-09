@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-22-654e240f",
+  "title": "Scoped personal access tokens will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-04-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#scoped-personal-access-tokens-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Scoped personal access tokens will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in late May 2026.\n\nScoped personal access tokens restrict a PAT's permissions to specific API operations by assigning one or more API scopes, instead of granting the creating identity's full workspace access.\n\nSee [Authenticate with Databricks personal access tokens (legacy)](/aws/en/dev-tools/auth/pat).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Authenticate with Databricks personal access tokens (legacy)",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/pat"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.769884Z"
+}

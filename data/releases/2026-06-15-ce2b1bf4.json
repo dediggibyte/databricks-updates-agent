@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-15-ce2b1bf4",
+  "title": "Databricks-to-Databricks Delta Sharing across regulatory domains is now available (Public Preview)",
+  "date": "2026-06-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-to-databricks-delta-sharing-across-regulatory-domains-is-now-available-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks-to-Databricks Delta Sharing supports sharing across regulatory domains. Commercial workspaces can also share with AWS GovCloud, AWS GovCloud DoD, and Azure China. Sharing between Azure China and either AWS GovCloud or AWS GovCloud DoD is not supported. See [Databricks-to-Databricks OpenSharing support matrix for cloud environments](/aws/en/opensharing/share-data-databricks#cloud-envs).",
+  "ref_links": [
+    {
+      "text": "Databricks-to-Databricks OpenSharing support matrix for cloud environments",
+      "url": "https://docs.databricks.com/aws/en/opensharing/share-data-databricks#cloud-envs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.575576Z"
+}

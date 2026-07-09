@@ -1,0 +1,45 @@
+{
+  "product": "Databricks Runtime 18: May 29, 2026",
+  "tagline": "Structured Streaming deduplication with NaN keys: Structured Streaming deduplication now treats NaN (Not a Number) values that have different bit patterns as duplicates when a double or float column…",
+  "updated": "May 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/structured-streaming/concepts",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-may-29-2026",
+  "what_it_does": "Structured Streaming deduplication with NaN keys: Structured Streaming deduplication now treats NaN (Not a Number) values that have different bit patterns as duplicates when a double or float column is used as a deduplication key. Previously, NaN values with different internal representations were treated as distinct and were not deduplicated. Fixed an issue where table level permissions could be removed from Unity Catalog foreign catalog tables (for example, Snowflake connection tables) during metadata refresh, which caused queries to fail with INSUFFICIENT PERMISSIONS errors.",
+  "why_it_matters": "+ Trigger intervals + Set trigger intervals to balance latency and cost for your processing requirements.",
+  "capabilities": [
+    {
+      "title": "Auto Loader",
+      "desc": "Auto Loader"
+    },
+    {
+      "title": "Incrementally and efficiently process new",
+      "desc": "Incrementally and efficiently process new data files as they arrive in cloud storage."
+    },
+    {
+      "title": "Delta Lake table streaming reads",
+      "desc": "Delta Lake table streaming reads and writes"
+    },
+    {
+      "title": "Use Delta Lake tables as",
+      "desc": "Use Delta Lake tables as streaming sources and sinks with exactly-once processing guarantees."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Structured Streaming deduplication with NaN keys: Structured Streaming deduplication now treats NaN (Not a Number) values that have different bit patterns as duplicates when a double or float column…",
+  "note_id": "2026-05-29-databricks-runtime-18-may-29-2026",
+  "category": "platform"
+}

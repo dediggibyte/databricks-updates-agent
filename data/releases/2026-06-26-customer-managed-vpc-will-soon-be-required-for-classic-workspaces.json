@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-26-customer-managed-vpc-will-soon-be-required-for-classic-workspaces",
+  "title": "Customer-managed VPC will soon be required for classic workspaces",
+  "date": "2026-06-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#customer-managed-vpc-will-soon-be-required-for-classic-workspaces",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In a future release, Databricks plans to deprecate classic workspace creation with a Databricks-managed VPC. New classic workspaces will require a customer-managed VPC. For the simplest quick start, use a [serverless workspace](/aws/en/admin/workspace/serverless-workspaces). A detailed migration timeline will be communicated separately.\n\nSee [Configure a customer-managed VPC](/aws/en/security/network/classic/customer-managed-vpc).",
+  "ref_links": [
+    {
+      "text": "serverless workspace",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace/serverless-workspaces"
+    },
+    {
+      "text": "Configure a customer-managed VPC",
+      "url": "https://docs.databricks.com/aws/en/security/network/classic/customer-managed-vpc"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.537270Z"
+}

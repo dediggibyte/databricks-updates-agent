@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-19-create-alerts-for-anomaly-detection-in-the-data-quality-monitoring-ui-beta",
+  "title": "Create alerts for anomaly detection in the Data Quality Monitoring UI (Beta)",
+  "date": "2026-03-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#create-alerts-for-anomaly-detection-in-the-data-quality-monitoring-ui-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create and view alerts for anomaly detection directly in the Databricks Data Quality Monitoring UI. This feature is in Beta. See [Alerts for anomaly detection](/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection/alerts).",
+  "ref_links": [
+    {
+      "text": "Alerts for anomaly detection",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection/alerts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.859823Z"
+}

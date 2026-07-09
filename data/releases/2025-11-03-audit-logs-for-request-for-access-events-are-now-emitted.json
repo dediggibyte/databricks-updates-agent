@@ -1,0 +1,21 @@
+{
+  "id": "2025-11-03-audit-logs-for-request-for-access-events-are-now-emitted",
+  "title": "Audit logs for request-for-access events are now emitted",
+  "date": "2025-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#audit-logs-for-request-for-access-events-are-now-emitted",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Actions related to [access request destinations (Public Preview)](/aws/en/data-governance/unity-catalog/manage-privileges/access-request-destinations) are now emitted in the audit logs. For more details, see [Request for access events](/aws/en/admin/account-settings/audit-logs#request-for-access).",
+  "ref_links": [
+    {
+      "text": "access request destinations (Public Preview)",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/access-request-destinations"
+    },
+    {
+      "text": "Request for access events",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/audit-logs#request-for-access"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.133643Z"
+}

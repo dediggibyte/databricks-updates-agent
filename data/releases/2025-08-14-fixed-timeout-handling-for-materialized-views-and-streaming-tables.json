@@ -1,0 +1,12 @@
+{
+  "id": "2025-08-14-fixed-timeout-handling-for-materialized-views-and-streaming-tables",
+  "title": "Fixed timeout handling for materialized views and streaming tables",
+  "date": "2025-08-14",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#fixed-timeout-handling-for-materialized-views-and-streaming-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "New timeout behavior for materialized views and streaming tables created in Databricks SQL:\n\n* Materialized views and streaming tables created after August 14, 2025 will have the warehouse timeout automatically applied.\n* For materialized views and streaming tables created before August 14, 2025, run `CREATE OR REFRESH` to synchronize the timeout setting with the timeout configuration of the warehouse.\n* All materialized views and streaming tables now have a default timeout of two days.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.268857Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2025-07-31-synced-tables-are-now-metered-and-billed",
+  "title": "Synced tables are now metered and billed",
+  "date": "2025-07-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#synced-tables-are-now-metered-and-billed",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Synced tables are now automatically metered and billed. Synced tables use Lakeflow Spark Declarative Pipelines to sync data from Unity Catalog tables into a Lakebase database instance. All usage is tracked and reported in `system.billing.usage`.\n\nSee [Billable usage system table reference](/aws/en/admin/system-tables/billing) and [Serve lakehouse data with synced tables (Lakebase Provisioned)](/aws/en/oltp/instances/sync-data/sync-table).",
+  "ref_links": [
+    {
+      "text": "Billable usage system table reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/billing"
+    },
+    {
+      "text": "Serve lakehouse data with synced tables (Lakebase Provisioned)",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/sync-data/sync-table"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.293920Z"
+}

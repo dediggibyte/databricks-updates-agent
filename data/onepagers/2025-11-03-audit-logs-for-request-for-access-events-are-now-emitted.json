@@ -1,0 +1,28 @@
+{
+  "product": "Audit logs for request-for-access events are now emitted",
+  "tagline": "Actions related to access request destinations (Public Preview) are now emitted in the audit logs.",
+  "updated": "Nov 3, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/account-settings/audit-logs#request-for-access",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#audit-logs-for-request-for-access-events-are-now-emitted",
+  "what_it_does": "Actions related to access request destinations (Public Preview) are now emitted in the audit logs. This page provides a comprehensive reference of available audit log services and events. By understanding which events are logged in the audit logs, your enterprise can monitor detailed Databricks usage patterns in your account.",
+  "why_it_matters": "| action\\ name | Description | request\\ params | | | | | | autoScopeDbToken | A batch operation reduces token scopes as part of automated scope enforcement.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Actions related to access request destinations (Public Preview) are now emitted in the audit logs.",
+  "note_id": "2025-11-03-audit-logs-for-request-for-access-events-are-now-emitted",
+  "category": "platform"
+}

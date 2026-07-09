@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-16-genie-api-updates-benchmark-explanations-and-join-improvements",
+  "title": "Genie API updates, benchmark explanations, and JOIN improvements",
+  "date": "2025-10-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-api-updates-benchmark-explanations-and-join-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **JOIN relationship discovery improvements**: You can now sort `JOIN` relationships and SQL snippet definitions for easier management.\n* **API endpoints moving to Public Preview**: The following Genie API endpoints are moving from Beta to Public Preview: list conversation messages, delete conversation message, and send thumbs up/down feedback.\n* **Benchmark result explanations**: Benchmark results now include an explanation for why a result was rated incorrect.\n* **SQL execution result summaries**: Genie now automatically generates summaries of SQL execution results to make responses more natural and easier to interpret.\n* **SQL measures in knowledge stores**: Users can now add SQL measures to a space's knowledge store, along with filters and dimensions, to guide Genie in generating specific SQL expressions. See [Tune Genie Agent quality](/aws/en/genie/tune-quality).\n* **Fixed permissions messaging**: Messaging for users with CAN RUN or CAN VIEW permissions has been corrected to accurately reflect their capabilities in the monitoring and data tabs.\n* **Workspace asset tagging support**: Genie Spaces are now included in the workspace asset tagging public preview.",
+  "ref_links": [
+    {
+      "text": "Tune Genie Agent quality",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.167984Z"
+}

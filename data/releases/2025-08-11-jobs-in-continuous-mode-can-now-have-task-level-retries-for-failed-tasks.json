@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-11-jobs-in-continuous-mode-can-now-have-task-level-retries-for-failed-tasks",
+  "title": "Jobs in continuous mode can now have task-level retries for failed tasks",
+  "date": "2025-08-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#jobs-in-continuous-mode-can-now-have-task-level-retries-for-failed-tasks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Jobs that are set to run in continuous mode now have the option to retry individual tasks on task failure.\n\nSee [Run jobs continuously](/aws/en/jobs/continuous).",
+  "ref_links": [
+    {
+      "text": "Run jobs continuously",
+      "url": "https://docs.databricks.com/aws/en/jobs/continuous"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.277119Z"
+}

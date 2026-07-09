@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-18-tiktok-ads-connector-beta",
+  "title": "TikTok Ads connector (Beta)",
+  "date": "2026-02-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#tiktok-ads-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakeflow Connect now supports a managed connector for ingestion from TikTok Ads. See [TikTok Ads connector](/aws/en/ingestion/lakeflow-connect/tiktok-ads-overview).",
+  "ref_links": [
+    {
+      "text": "TikTok Ads connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/tiktok-ads-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.949501Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-25-serverless-environment-version-5-is-now-available",
+  "title": "Serverless environment version 5 is now available",
+  "date": "2026-02-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/serverless#serverless-environment-version-5-is-now-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use serverless environment version 5 in your serverless notebooks and jobs. This includes both the CPU and GPU environment versions. See [Serverless environment version 5](/aws/en/release-notes/serverless/environment-version/five).",
+  "ref_links": [
+    {
+      "text": "Serverless environment version 5",
+      "url": "https://docs.databricks.com/aws/en/release-notes/serverless/environment-version/five"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.937102Z"
+}

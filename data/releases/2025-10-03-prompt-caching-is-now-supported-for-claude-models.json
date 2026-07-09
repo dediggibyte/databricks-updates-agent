@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-03-prompt-caching-is-now-supported-for-claude-models",
+  "title": "Prompt caching is now supported for Claude models",
+  "date": "2025-10-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#prompt-caching-is-now-supported-for-claude-models",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Prompt caching is now supported for Databricks-hosted Claude models. You can specify the `cache_control` parameter in your query requests to cache the following:\n\n* Thinking messages content in the `messages.content` array.\n* Images content blocks in the `messages.content` array.\n* Tool use, results and definitions in the `tools` array.\n\nSee [Foundation model REST API reference](/aws/en/machine-learning/foundation-model-apis/api-reference).",
+  "ref_links": [
+    {
+      "text": "Foundation model REST API reference",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/api-reference"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.186841Z"
+}

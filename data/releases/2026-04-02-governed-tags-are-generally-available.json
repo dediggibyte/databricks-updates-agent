@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-02-governed-tags-are-generally-available",
+  "title": "Governed tags are generally available",
+  "date": "2026-04-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#governed-tags-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Governed tags are generally available. Governed tags allow administrators to define a controlled set of tags that can be applied to Unity Catalog objects and workspace objects, helping organizations enforce consistent metadata tagging for access control, data classification, and cost tracking. See [Governed tags](/aws/en/admin/governed-tags).",
+  "ref_links": [
+    {
+      "text": "Governed tags",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.824287Z"
+}

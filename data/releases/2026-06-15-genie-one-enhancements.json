@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-15-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-06-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-2",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Chat in Genie One (GA)**: Chat in Genie One is now generally available. Chat provides a unified interface for asking data questions in natural language using your Genie Spaces, dashboards, queries, and metric views. See [Chat in Genie One](/aws/en/genie-one/chat).\n* **Documents in Genie One (GA)**: You can now create and share documents from Genie One chat conversations without leaving the interface. Ask Genie One to draft a document, or click **Draft a document** from the homepage. Genie One generates the document and opens it in a canvas pane alongside the conversation, where you can edit and share it. See [Documents in Genie One](/aws/en/genie-one/documents).",
+  "ref_links": [
+    {
+      "text": "Chat in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat"
+    },
+    {
+      "text": "Documents in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/documents"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.574261Z"
+}

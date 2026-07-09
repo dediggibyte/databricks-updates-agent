@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-16-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-04-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-5",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Reasoning traces using the API (Public Preview)**: Users can now access Genie's reasoning traces using the API through the `GenieQueryAttachments` field in the `GenieMessage` object. See [Get message](https://docs.databricks.com/api/workspace/genie/getmessage).\n* **Message comments using the API (Public Preview)**: Users can now add text comments to messages and list them using the API. See [Create message comment](https://docs.databricks.com/api/workspace/genie/createmessagecomment).\n* **Increased token limit for Agent mode (Public Preview)**: The maximum token limit for Agent mode conversations increased, improving performance and context retention across long, multi-turn interactions.",
+  "ref_links": [
+    {
+      "text": "Get message",
+      "url": "https://docs.databricks.com/api/workspace/genie/getmessage"
+    },
+    {
+      "text": "Create message comment",
+      "url": "https://docs.databricks.com/api/workspace/genie/createmessagecomment"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.791375Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-13-jdbc-unity-catalog-connection-in-beta",
+  "title": "JDBC Unity Catalog connection in Beta",
+  "date": "2025-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#jdbc-unity-catalog-connection-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks now supports connecting to external databases using JDBC with Unity Catalog connections in Beta. You can use a JDBC Unity Catalog connection to read and write to a data source with the Spark Data Source API or Databricks Remote Query SQL API. Key benefits include:\n\n* Governed access to data sources using Unity Catalog connections\n* Create the connection one time and reuse it across any Unity Catalog compute type: serverless, standard clusters, dedicated clusters, and Databricks SQL\n* Stable for Spark and compute upgrades\n* Connection credentials are hidden from the querying user\n\nThe JDBC connection is available on Databricks Runtime 17.3 and above on standard or dedicated access mode, or on serverless compute. For more information, see [JDBC connection](/aws/en/connect/jdbc-connection).",
+  "ref_links": [
+    {
+      "text": "JDBC connection",
+      "url": "https://docs.databricks.com/aws/en/connect/jdbc-connection"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.122013Z"
+}

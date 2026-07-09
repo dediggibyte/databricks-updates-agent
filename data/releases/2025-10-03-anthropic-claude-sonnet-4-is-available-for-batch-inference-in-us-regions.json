@@ -1,0 +1,25 @@
+{
+  "id": "2025-10-03-anthropic-claude-sonnet-4-is-available-for-batch-inference-in-us-regions",
+  "title": "Anthropic Claude Sonnet 4 is available for batch inference in US regions",
+  "date": "2025-10-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#anthropic-claude-sonnet-4-is-available-for-batch-inference-in-us-regions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports Anthropic Claude Sonnet 4 for batch inference workflows. You can now use [`databricks-claude-sonnet-4`](/aws/en/machine-learning/foundation-model-apis/supported-models#claude-sonnet-4) in your `ai_query` requests to perform batch inference.\n\n* See [Enrich data using AI Functions](/aws/en/large-language-models/ai-functions) for an example.\n* See [Supported foundation models on Model Serving](/aws/en/machine-learning/model-serving/foundation-model-overview) for region availability.",
+  "ref_links": [
+    {
+      "text": "databricks-claude-sonnet-4",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#claude-sonnet-4"
+    },
+    {
+      "text": "Enrich data using AI Functions",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions"
+    },
+    {
+      "text": "Supported foundation models on Model Serving",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/foundation-model-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.190461Z"
+}

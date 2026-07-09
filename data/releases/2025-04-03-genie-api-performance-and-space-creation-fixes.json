@@ -1,0 +1,12 @@
+{
+  "id": "2025-04-03-genie-api-performance-and-space-creation-fixes",
+  "title": "Genie API performance and space creation fixes",
+  "date": "2025-04-03",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-api-performance-and-space-creation-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie API performance improvement**: API response latency has been improved by removing unnecessary completion steps.\n* **Create Genie Spaces from Catalog Explorer fix**: An issue with creating Genie Spaces from Catalog Explorer has been resolved.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.415242Z"
+}

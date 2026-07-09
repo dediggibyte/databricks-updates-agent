@@ -1,0 +1,21 @@
+{
+  "id": "2025-09-16-lakehouse-federation-sharing-and-default-storage",
+  "title": "Lakehouse Federation sharing and default storage",
+  "date": "2025-09-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#lakehouse-federation-sharing-and-default-storage",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Delta Sharing on Lakehouse Federation is in Beta, allowing Delta Sharing data providers to share foreign catalogs and tables. By default, data must be temporarily materialized and stored on default storage. Currently, users must manually enable the **Delta Sharing for Default Storage – Expanded Access** feature in the account console to use Lakehouse Federation sharing.\n\nAfter **Delta Sharing for Default Storage – Expanded Access** is enabled by default for all Databricks users, Delta Sharing on Lakehouse Federation will automatically be available in regions where default storage is supported.\n\nSee [Default storage in Databricks](/aws/en/storage/default-storage) and [Add foreign schemas or tables to a share](/aws/en/opensharing/create-share#foreign-asset).",
+  "ref_links": [
+    {
+      "text": "Default storage in Databricks",
+      "url": "https://docs.databricks.com/aws/en/storage/default-storage"
+    },
+    {
+      "text": "Add foreign schemas or tables to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#foreign-asset"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.214963Z"
+}

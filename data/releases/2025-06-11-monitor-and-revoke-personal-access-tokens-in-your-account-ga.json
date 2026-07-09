@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-11-monitor-and-revoke-personal-access-tokens-in-your-account-ga",
+  "title": "Monitor and revoke personal access tokens in your account (GA)",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#monitor-and-revoke-personal-access-tokens-in-your-account-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The token report page enables account admins to monitor and revoke personal access tokens (PATs) in the account console. Databricks recommends you use OAuth access tokens instead of PATs for greater security and convenience. See [Monitor and revoke personal access tokens in the account](/aws/en/admin/access-control/tokens#monitor-account-tokens).",
+  "ref_links": [
+    {
+      "text": "Monitor and revoke personal access tokens in the account",
+      "url": "https://docs.databricks.com/aws/en/admin/access-control/tokens#monitor-account-tokens"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.354066Z"
+}

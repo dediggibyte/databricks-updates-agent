@@ -1,0 +1,28 @@
+{
+  "product": "User authorization for Databricks Apps will soon be available for workspaces…",
+  "tagline": "In early June 2026, user authorization for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled.",
+  "updated": "Apr 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/auth#user-authorization",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#user-authorization-for-databricks-apps-will-soon-be-available-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "In early June 2026, user authorization for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled. User authorization allows apps to act with the identity of the app user, so apps can access resources on the user's behalf while enforcing the user's existing permissions. Databricks Apps supports secure application development on Databricks.",
+  "why_it_matters": "This approach keeps access control consistent with workspace governance and avoids hardcoding permission logic into the app.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "In early June 2026, user authorization for Databricks Apps will be automatically enabled for workspaces with the compliance security profile enabled.",
+  "note_id": "2026-04-29-9152c7c3",
+  "category": "platform"
+}

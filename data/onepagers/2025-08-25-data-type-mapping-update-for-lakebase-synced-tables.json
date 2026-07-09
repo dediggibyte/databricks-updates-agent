@@ -1,0 +1,28 @@
+{
+  "product": "Data type mapping update for Lakebase synced tables",
+  "tagline": "For newly created synced tables, TIMESTAMP types in source tables are now mapped to TIMESTAMP WITH TIMEZONE in synced tables.",
+  "updated": "Aug 25, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/instances/sync-data/sync-table#data-type-mapping",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#data-type-mapping-update-for-lakebase-synced-tables",
+  "what_it_does": "For newly created synced tables, TIMESTAMP types in source tables are now mapped to TIMESTAMP WITH TIMEZONE in synced tables. In existing synced tables, TIMESTAMP types continue to map to TIMESTAMP WITHOUT TIMEZONE. info Lakebase Provisioned is the original Lakebase offering that uses provisioned compute you scale manually.",
+  "why_it_matters": "info Lakebase Provisioned is the original Lakebase offering that uses provisioned compute you scale manually.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "For newly created synced tables, TIMESTAMP types in source tables are now mapped to TIMESTAMP WITH TIMEZONE in synced tables.",
+  "note_id": "2025-08-25-data-type-mapping-update-for-lakebase-synced-tables",
+  "category": "platform"
+}

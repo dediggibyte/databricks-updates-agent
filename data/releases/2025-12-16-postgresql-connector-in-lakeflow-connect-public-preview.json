@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-16-postgresql-connector-in-lakeflow-connect-public-preview",
+  "title": "PostgreSQL connector in Lakeflow Connect (Public Preview)",
+  "date": "2025-12-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#postgresql-connector-in-lakeflow-connect-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The fully-managed PostgreSQL connector in Lakeflow Connect is in Public Preview. This connector enables incremental data ingestion from PostgreSQL databases, including Amazon RDS PostgreSQL, Amazon Aurora PostgreSQL, Azure Database for PostgreSQL, Google Cloud SQL for PostgreSQL, and on-premises PostgreSQL databases. See [Configure PostgreSQL for ingestion into Databricks](/aws/en/ingestion/lakeflow-connect/postgresql-source-setup).",
+  "ref_links": [
+    {
+      "text": "Configure PostgreSQL for ingestion into Databricks",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/postgresql-source-setup"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.076507Z"
+}

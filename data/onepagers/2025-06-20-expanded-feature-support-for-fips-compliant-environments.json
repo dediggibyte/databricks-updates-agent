@@ -1,0 +1,30 @@
+{
+  "product": "Expanded feature support for FIPS-Compliant environments",
+  "tagline": "Model Serving CPU and GPU workloads, Foundation Model API provisioned throughput endpoints (excluding LLaMA 4), Mosaic AI Gateway, and external models are now available in FIPS compliant environments.",
+  "updated": "Jun 20, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/model-serving-limits#csp-cpu-aws",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#expanded-feature-support-for-fips-compliant-environments",
+  "what_it_does": "Model Serving CPU and GPU workloads, Foundation Model API provisioned throughput endpoints (excluding LLaMA 4), Mosaic AI Gateway, and external models are now available in FIPS compliant environments. This includes support for the following compliance standards offered through the compliance security profile: FedRAMP Moderate IRAP Canada Protected B See Compliance security profile standards: CPU and GPU workloads for region availability of these standards. This article summarizes the limitations and region availability for Databricks Model Serving and supported endpoint types.",
+  "why_it_matters": "Resource and payload limits Model Serving imposes default limits to ensure reliable performance.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "200 for non route optimized"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Model Serving CPU and GPU workloads, Foundation Model API provisioned throughput endpoints (excluding LLaMA 4), Mosaic AI Gateway, and external models are now available in FIPS compliant environments.",
+  "note_id": "2025-06-20-expanded-feature-support-for-fips-compliant-environments",
+  "category": "platform"
+}

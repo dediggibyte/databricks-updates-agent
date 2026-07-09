@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-22-lakebase-is-now-generally-available",
+  "title": "Lakebase is now generally available",
+  "date": "2026-01-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#lakebase-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase is now generally available. Lakebase Autoscaling and Lakebase Provisioned are now unified in a single UI. GA includes autoscaling, scale-to-zero, instant branching, automated backups, point-in-time recovery, storage up to 8 TB, and expanded region availability.\n\nSee [Get started with Lakebase Postgres](/aws/en/oltp/projects/get-started).",
+  "ref_links": [
+    {
+      "text": "Get started with Lakebase Postgres",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/get-started"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.028100Z"
+}

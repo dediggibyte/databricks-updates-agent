@@ -1,0 +1,12 @@
+{
+  "id": "2025-05-29-dashboard-catalog-picker-and-filter-fixes",
+  "title": "Dashboard catalog picker and filter fixes",
+  "date": "2025-05-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-catalog-picker-and-filter-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Catalog and schema picker in the dataset editor**: You can now select a catalog and schema from the SQL editor in the **Data** tab of a draft dashboard. With the catalog and schema selected, you can write queries that reference a table name only, instead of a fully-qualified table name. You can still use a table's three-level namespace to reference it in a query.\n\n* **Fix for global filters on full-screen widgets**: An issue that prevented full-screen widgets from displaying data when used with global filters has been resolved.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.385601Z"
+}

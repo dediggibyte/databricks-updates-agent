@@ -1,0 +1,21 @@
+{
+  "id": "2025-11-20-genie-apis-and-research-agent-in-beta",
+  "title": "Genie APIs and Research Agent in Beta",
+  "date": "2025-11-20",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-apis-and-research-agent-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie Create and Update APIs in Beta**: Genie Create and Update APIs have been released to Beta. Get API has been updated to allow users to retrieve a serialized definition of the Genie Space. See the [Genie API](https://docs.databricks.com/api/workspace/genie).\n* **Research Agent in Beta**: Research Agent extends Genie's capabilities to help you uncover deeper insights and tackle complex business questions using multi-step reasoning and hypothesis testing. See [Agent mode in Genie Agents](/aws/en/genie/agent-mode).",
+  "ref_links": [
+    {
+      "text": "Genie API",
+      "url": "https://docs.databricks.com/api/workspace/genie"
+    },
+    {
+      "text": "Agent mode in Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie/agent-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.105247Z"
+}

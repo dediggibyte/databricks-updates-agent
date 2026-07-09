@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-05-serverless-notebook-tasks-can-now-use-jobs-environment",
+  "title": "Serverless notebook tasks can now use jobs environment",
+  "date": "2025-11-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#serverless-notebook-tasks-can-now-use-jobs-environment",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The ability to use a job environment in serverless notebook tasks is now generally available, allowing you to use the notebook's environment or select a specific job environment. Previously, serverless notebook tasks always inherited the serverless environment from the notebook. See [Configure environment for job tasks](/aws/en/compute/serverless/dependencies#libraries).",
+  "ref_links": [
+    {
+      "text": "Configure environment for job tasks",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless/dependencies#libraries"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.128859Z"
+}

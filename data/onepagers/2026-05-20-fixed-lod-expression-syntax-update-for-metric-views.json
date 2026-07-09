@@ -1,0 +1,45 @@
+{
+  "product": "Fixed LOD expression syntax update for metric views",
+  "tagline": "Fixed level of detail (LOD) expressions in metric views are now defined directly in the expr field of a dimension using SQL window functions, replacing the previous two step approach of pre…",
+  "updated": "May 20, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/business-semantics/metric-views/level-of-detail",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#fixed-lod-expression-syntax-update-for-metric-views",
+  "what_it_does": "Fixed level of detail (LOD) expressions in metric views are now defined directly in the expr field of a dimension using SQL window functions, replacing the previous two step approach of pre computing values in the source query. Level of detail (LOD) expressions let you specify the granularity at which to calculate aggregations, independently of the fields (also called dimensions) in your query. This lets you compute metrics like percent of total, where the denominator aggregates at a coarser grain than the query.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "name: <lodname> expr: <AGGREGATEFUNCTION>(<column>) OVER",
+      "desc": "name: <lodname> expr: <AGGREGATEFUNCTION>(<column>) OVER (PARTITION BY <dim1>, <dim2>, ...)"
+    },
+    {
+      "title": "name: orderpriority expr: oorderpriority",
+      "desc": "name: orderpriority expr: oorderpriority"
+    },
+    {
+      "title": "name: orderdate expr: oorderdate",
+      "desc": "name: orderdate expr: oorderdate"
+    },
+    {
+      "title": "name: prioritytotalprice expr: SUM(ototalprice) OVER",
+      "desc": "name: prioritytotalprice expr: SUM(ototalprice) OVER (PARTITION BY oorderpriority)"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Fixed level of detail (LOD) expressions in metric views are now defined directly in the expr field of a dimension using SQL window functions, replacing the previous two step approach of pre…",
+  "note_id": "2026-05-20-fixed-lod-expression-syntax-update-for-metric-views",
+  "category": "platform"
+}

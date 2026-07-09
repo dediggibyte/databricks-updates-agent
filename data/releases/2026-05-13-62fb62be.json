@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-13-62fb62be",
+  "title": "ai_parse_document is now available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-05-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#ai_parse_document-is-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`ai_parse_document` is now available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled and **HIPAA**, **PCI-DSS**, **FedRAMP Moderate**, **CCCS Medium (Protected B)**, **UK Cyber Essentials Plus**, **HITRUST**, **IRAP**, **C5**, and **TISAX** controls selected.\n\nUse `ai_parse_document` to parse structured content from unstructured documents including PDFs, images, Word documents, and PowerPoint files.\n\nSee [`ai_parse_document` function](/aws/en/sql/language-manual/functions/ai_parse_document).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "ai_parse_document function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.715310Z"
+}

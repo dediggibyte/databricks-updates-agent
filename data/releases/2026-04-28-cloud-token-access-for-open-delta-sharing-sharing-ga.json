@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-28-cloud-token-access-for-open-delta-sharing-sharing-ga",
+  "title": "Cloud token access for open Delta Sharing sharing (GA)",
+  "date": "2026-04-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#cloud-token-access-for-open-delta-sharing-sharing-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Eligible managed and external Delta tables shared using the open Delta Sharing protocol now support directory-based access mode. Databricks includes the table's cloud storage location and temporary cloud credentials in sharing responses, allowing recipients whose clients support directory-based access to read directly from cloud storage without using pre-signed URLs.\n\nSee [Cloud token eligibility](/aws/en/opensharing/create-share#cloud-token-eligibility) for eligibility requirements and data privacy considerations.",
+  "ref_links": [
+    {
+      "text": "Cloud token eligibility",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#cloud-token-eligibility"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.760238Z"
+}

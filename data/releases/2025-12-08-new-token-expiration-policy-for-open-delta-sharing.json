@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-08-new-token-expiration-policy-for-open-delta-sharing",
+  "title": "New token expiration policy for open Delta Sharing",
+  "date": "2025-12-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#new-token-expiration-policy-for-open-delta-sharing",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "All new Delta Sharing open sharing recipient tokens are issued with a maximum expiration of one year from the date of creation. Tokens with an expiration period longer than one year or no expiration date can no longer be created.\n\nExisting open sharing recipient tokens issued before December 8, 2025, with expiration dates after December 8, 2026, or with no expiration date, automatically expire on December 8, 2026. If you currently use recipient tokens with long or unlimited lifetimes, review your integrations and renew tokens as needed to avoid breaking changes after this date.\n\nSee [Create a recipient object for non-Databricks users using bearer tokens (Databricks-to-Open sharing)](/aws/en/opensharing/create-recipient-token).",
+  "ref_links": [
+    {
+      "text": "Create a recipient object for non-Databricks users using bearer tokens (Databricks-to-Open sharing)",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-token"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.093858Z"
+}

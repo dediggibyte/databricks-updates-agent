@@ -1,0 +1,48 @@
+{
+  "product": "Agent Bricks Supervisor Agent now supports nesting supervisor agents as…",
+  "tagline": "You can now add another Supervisor Agent as a subagent tool, enabling nested multi agent orchestration.",
+  "updated": "May 19, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#agent-bricks-supervisor-agent-now-supports-nesting-supervisor-agents-as-subagent-tools",
+  "what_it_does": "You can now add another Supervisor Agent as a subagent tool, enabling nested multi agent orchestration. This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex tasks. You can improve their coordination based on natural language feedback from your subject matter experts.",
+  "why_it_matters": "You can improve their coordination based on natural language feedback from your subject matter experts.",
+  "capabilities": [
+    {
+      "title": "Serverless compute available (enabled by",
+      "desc": "Serverless compute available (enabled by default in workspaces with Unity Catalog in a supported region)."
+    },
+    {
+      "title": "Unity Catalog enabled. See Enable",
+      "desc": "Unity Catalog enabled. See Enable a workspace for Unity Catalog."
+    },
+    {
+      "title": "Access to Model Serving",
+      "desc": "Access to Model Serving."
+    },
+    {
+      "title": "Access to a serverless usage",
+      "desc": "Access to a serverless usage policy with a nonzero budget. A workspace in one of the supported regions. You must have agents or…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Provide market analysis",
+    "usage data."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now add another Supervisor Agent as a subagent tool, enabling nested multi agent orchestration.",
+  "note_id": "2026-05-19-f935d5c7",
+  "category": "platform"
+}

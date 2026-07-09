@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-23-genie-code-space-configuration",
+  "title": "Genie Code space configuration",
+  "date": "2026-04-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-code-space-configuration",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie Code space configuration**: Genie Code now includes tools to configure your Genie Space. You can ask it to update instructions, example questions, descriptions, and more.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.769098Z"
+}

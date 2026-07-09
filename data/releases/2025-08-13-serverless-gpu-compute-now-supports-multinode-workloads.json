@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-13-serverless-gpu-compute-now-supports-multinode-workloads",
+  "title": "Serverless GPU compute now supports multinode workloads",
+  "date": "2025-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-gpu-compute-now-supports-multinode-workloads",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless GPU compute now supports multinode workloads. See [AI Runtime](/aws/en/machine-learning/ai-runtime).",
+  "ref_links": [
+    {
+      "text": "AI Runtime",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.270544Z"
+}

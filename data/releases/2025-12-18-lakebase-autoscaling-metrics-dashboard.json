@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-18-lakebase-autoscaling-metrics-dashboard",
+  "title": "Lakebase Autoscaling metrics dashboard",
+  "date": "2025-12-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#lakebase-autoscaling-metrics-dashboard",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase Autoscaling (Public Preview) now includes a **Metrics** dashboard for monitoring system and database metrics. See [Metrics](/aws/en/oltp/projects/metrics).",
+  "ref_links": [
+    {
+      "text": "Metrics",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/metrics"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.068401Z"
+}

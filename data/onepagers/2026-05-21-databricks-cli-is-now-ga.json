@@ -1,0 +1,28 @@
+{
+  "product": "Databricks CLI is now GA",
+  "tagline": "The Databricks CLI is now generally available (GA).",
+  "updated": "May 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/cli",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-cli-is-now-ga",
+  "what_it_does": "The Databricks CLI is now generally available (GA). As part of this release, the CLI has been updated to store user to machine (U2M) tokens in OS native secure storage. For information about the Databricks CLI, see Databricks CLI.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Databricks CLI is now generally available (GA).",
+  "note_id": "2026-05-21-databricks-cli-is-now-ga",
+  "category": "platform"
+}

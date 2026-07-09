@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-17-login-required-to-download-odbc-driver",
+  "title": "Login required to download ODBC driver",
+  "date": "2025-12-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#login-required-to-download-odbc-driver",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You must now log in to Databricks and accept license terms before downloading the Simba Apache Spark ODBC Driver. See [Download and install the Databricks ODBC Driver](/aws/en/integrations/odbc/download).\n\nIf you use Databricks on AWS GovCloud, contact your account team to receive access to the driver.",
+  "ref_links": [
+    {
+      "text": "Download and install the Databricks ODBC Driver",
+      "url": "https://docs.databricks.com/aws/en/integrations/odbc/download"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.072410Z"
+}

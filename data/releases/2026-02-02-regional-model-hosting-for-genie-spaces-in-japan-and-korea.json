@@ -1,0 +1,25 @@
+{
+  "id": "2026-02-02-regional-model-hosting-for-genie-spaces-in-japan-and-korea",
+  "title": "Regional model hosting for Genie Spaces in Japan and Korea",
+  "date": "2026-02-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#regional-model-hosting-for-genie-spaces-in-japan-and-korea",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "For workspaces in `ap-northeast-1` (Tokyo) and `ap-northeast-2` (Seoul), [Genie Spaces](/aws/en/genie) now use models hosted in the same region. Users in these regions no longer require [cross-Geo processing](/aws/en/resources/databricks-geos#cross-geo-processing) to use Genie Spaces.\n\nSee [Availability of Designated Services in each Geo](/aws/en/resources/designated-services#ds-availability) for more information on which features require cross-geo processing.",
+  "ref_links": [
+    {
+      "text": "Genie Spaces",
+      "url": "https://docs.databricks.com/aws/en/genie"
+    },
+    {
+      "text": "cross-Geo processing",
+      "url": "https://docs.databricks.com/aws/en/resources/databricks-geos#cross-geo-processing"
+    },
+    {
+      "text": "Availability of Designated Services in each Geo",
+      "url": "https://docs.databricks.com/aws/en/resources/designated-services#ds-availability"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.005992Z"
+}

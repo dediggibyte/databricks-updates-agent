@@ -1,0 +1,26 @@
+The articles in this section explain the purpose and function of notable workspace settings. Databricks workspace administrators can access the workspace settings by clicking their username in the top bar of the Databricks workspace and selecting **Settings**.
+
+This section includes:
+
+* [SQL warehouse admin settings](/aws/en/admin/sql/)
+* [Enable fleet instance types](/aws/en/admin/workspace-settings/fleet)
+* [Data access configurations](/aws/en/admin/sql/data-access-configuration)
+* [Manage Databricks previews](/aws/en/admin/workspace-settings/manage-previews)
+* [Manage workspace appearance settings](/aws/en/admin/workspace-settings/appearance)
+* [Manage workspace email settings](/aws/en/admin/workspace-settings/email)
+* [Default access mode for jobs compute](/aws/en/admin/workspace-settings/default-access-mode)
+* [Manage notification destinations](/aws/en/admin/workspace-settings/notification-destinations)
+* [Auto-enable deletion vectors](/aws/en/admin/workspace-settings/deletion-vectors)
+* [Enable the web terminal](/aws/en/admin/clusters/web-terminal)
+* [Purge workspace storage](/aws/en/admin/workspace-settings/storage)
+* [Configure notebook result storage location](/aws/en/admin/workspace-settings/notebook-results)
+* [Manage third-party analytics tools](/aws/en/admin/workspace-settings/usage-analytics-tools)
+* [Manage access to notebook features](/aws/en/admin/workspace-settings/notebooks)
+* [Disable the upload data UI](/aws/en/admin/workspace-settings/disable-upload-data-ui)
+* [Manage the DBFS file browser](/aws/en/admin/workspace-settings/dbfs-browser)
+* [Enforce user isolation cluster types on a workspace](/aws/en/admin/workspace-settings/enforce-user-isolation)
+* [Manage SSD storage](/aws/en/admin/clusters/manage-ssd)
+* [Workspace access for Databricks personnel](/aws/en/admin/workspace/workspace-access)
+* [Enforce AWS Instance Metadata Service v2 on a workspace](/aws/en/admin/cloud-configurations/aws/imdsv2)
+* [Manage instance profiles in Databricks](/aws/en/admin/workspace-settings/manage-instance-profiles)
+* [Restrict workspace admins](/aws/en/admin/workspace-settings/restrict-workspace-admins)

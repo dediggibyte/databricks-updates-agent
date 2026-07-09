@@ -1,0 +1,12 @@
+{
+  "id": "2025-11-27-genie-space-limits-and-research-agent-improvements",
+  "title": "Genie Space limits and Research Agent improvements",
+  "date": "2025-11-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-space-limits-and-research-agent-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Increased SQL snippets and JOIN relationship limit**: The limit for SQL snippets and `JOIN` relationships in a Genie Space has been increased to 200.\n* **Research Agent starter questions**: Research Agent (Beta) now displays starter questions to help users begin their data exploration.\n* **Auto-suggested benchmarks**: Genie now automatically suggests benchmarks based on the space context to help authors build evaluation sets.\n* **Fixed knowledge store permissions**: Resolved an issue where users with CAN EDIT permissions couldn't manage Genie knowledge store column descriptions and entity matching (previously value dictionaries).",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.098963Z"
+}

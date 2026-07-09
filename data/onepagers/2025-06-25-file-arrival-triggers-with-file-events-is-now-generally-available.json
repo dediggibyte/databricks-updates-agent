@@ -1,0 +1,45 @@
+{
+  "product": "File arrival triggers with file events is now generally available",
+  "tagline": "You can trigger job runs using file arrival triggers with file events on external locations, such as Amazon S3, Azure storage, or Google Cloud Storage.",
+  "updated": "Jun 25, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/file-arrival-triggers#differences",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#file-arrival-triggers-with-file-events-is-now-generally-available",
+  "what_it_does": "You can trigger job runs using file arrival triggers with file events on external locations, such as Amazon S3, Azure storage, or Google Cloud Storage. To benefit from this feature, the external locations must have file events enabled. File arrival triggers with file events allow a higher trigger limit (1,000 per workspace) and removes the 10,000 files per trigger limit.",
+  "why_it_matters": "How file arrival triggers work File arrival triggers make a best effort to check for new files every minute, although this can be affected by the performance of the underlying cloud storage.",
+  "capabilities": [
+    {
+      "title": "There no limits on the",
+      "desc": "There no limits on the number of files in the storage location."
+    },
+    {
+      "title": "Triggers can error on time",
+      "desc": "Triggers can error on time out when there are too many extraneous file updates."
+    },
+    {
+      "title": "If an existing file is",
+      "desc": "If an existing file is modified and its metadata falls outside the rolling retention period, that modification is treated as a…"
+    },
+    {
+      "title": "A maximum of 50 jobs",
+      "desc": "A maximum of 50 jobs can be configured with a file arrival trigger on such locations in a Databricks workspace."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can trigger job runs using file arrival triggers with file events on external locations, such as Amazon S3, Azure storage, or Google Cloud Storage.",
+  "note_id": "2025-06-25-file-arrival-triggers-with-file-events-is-now-generally-available",
+  "category": "platform"
+}

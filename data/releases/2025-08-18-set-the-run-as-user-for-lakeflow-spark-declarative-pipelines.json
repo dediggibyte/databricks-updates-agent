@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-18-set-the-run-as-user-for-lakeflow-spark-declarative-pipelines",
+  "title": "Set the run-as user for Lakeflow Spark Declarative Pipelines",
+  "date": "2025-08-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#set-the-run-as-user-for-lakeflow-spark-declarative-pipelines",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now change the identity that a pipeline uses to run updates and the owner of tables published by the pipeline. This feature allows you to set a service principal as the run-as identity, which is safer and more reliable than using user accounts for automated workloads. Common use cases include recovering pipelines when the original owner was deactivated and deploying pipelines with service principals as a best practice.\n\nFor information about setting the run-as user, see [Set the run-as user](/aws/en/ldp/configure-pipeline#set-the-run-as-user).",
+  "ref_links": [
+    {
+      "text": "Set the run-as user",
+      "url": "https://docs.databricks.com/aws/en/ldp/configure-pipeline#set-the-run-as-user"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.258941Z"
+}

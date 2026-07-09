@@ -1,0 +1,29 @@
+{
+  "id": "2025-06-26-new-databricks-jdbc-driver-is-open-source",
+  "title": "New Databricks JDBC Driver is open source",
+  "date": "2025-06-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#new-databricks-jdbc-driver-is-open-source",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new [Databricks JDBC Driver](/aws/en/integrations/jdbc-oss) is now open source. The [source code](https://github.com/databricks/databricks-jdbc) is publicly available under the [Apache 2.0 license](https://github.com/databricks/databricks-jdbc/blob/main/LICENSE). Community contributions are welcome. See the [Contribution Guidelines](https://github.com/databricks/databricks-jdbc/blob/main/CONTRIBUTING.md).",
+  "ref_links": [
+    {
+      "text": "Databricks JDBC Driver",
+      "url": "https://docs.databricks.com/aws/en/integrations/jdbc-oss"
+    },
+    {
+      "text": "source code",
+      "url": "https://github.com/databricks/databricks-jdbc"
+    },
+    {
+      "text": "Apache 2.0 license",
+      "url": "https://github.com/databricks/databricks-jdbc/blob/main/LICENSE"
+    },
+    {
+      "text": "Contribution Guidelines",
+      "url": "https://github.com/databricks/databricks-jdbc/blob/main/CONTRIBUTING.md"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.337307Z"
+}

@@ -1,0 +1,28 @@
+{
+  "product": "Dashboard migration and localization improvements",
+  "tagline": "Chart migration fix: Dual axis charts are now converted as expected when migrating from legacy dashboards to AI/BI dashboards.",
+  "updated": "Mar 27, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/set-up",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-migration-and-localization-improvements",
+  "what_it_does": "Chart migration fix: Dual axis charts are now converted as expected when migrating from legacy dashboards to AI/BI dashboards. More space for titles: Narrow widgets and filter drop downs now allocate more space for titles. Customize dashboard visualization settings by locale: Use the editing panel on your draft dashboard to select a locale and customize settings across all filter and visualization widgets.",
+  "why_it_matters": "Improved URL stability: Importing a new version of a dashboard in draft and publishing no longer breaks filter values saved in existing URLs.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Chart migration fix: Dual axis charts are now converted as expected when migrating from legacy dashboards to AI/BI dashboards.",
+  "note_id": "2025-03-27-dashboard-migration-and-localization-improvements",
+  "category": "platform"
+}

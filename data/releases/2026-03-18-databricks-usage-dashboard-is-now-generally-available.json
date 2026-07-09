@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-18-databricks-usage-dashboard-is-now-generally-available",
+  "title": "Databricks usage dashboard is now generally available",
+  "date": "2026-03-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-usage-dashboard-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The usage dashboard is now generally available. Account admins can import customizable, pre-built usage dashboards to monitor their Databricks usage at the account and workspace levels. See [Usage dashboards](/aws/en/admin/account-settings/usage).",
+  "ref_links": [
+    {
+      "text": "Usage dashboards",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/usage"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.867516Z"
+}

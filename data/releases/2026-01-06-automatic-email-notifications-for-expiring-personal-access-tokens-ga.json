@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-06-automatic-email-notifications-for-expiring-personal-access-tokens-ga",
+  "title": "Automatic email notifications for expiring personal access tokens (GA)",
+  "date": "2026-01-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#automatic-email-notifications-for-expiring-personal-access-tokens-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Automatic email notifications for expiring personal access tokens are now generally available. For more information, see [Set the maximum lifetime of new personal access tokens](/aws/en/admin/access-control/tokens#lifetime).",
+  "ref_links": [
+    {
+      "text": "Set the maximum lifetime of new personal access tokens",
+      "url": "https://docs.databricks.com/aws/en/admin/access-control/tokens#lifetime"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.058663Z"
+}

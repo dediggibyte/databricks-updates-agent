@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-17-search-in-metric-views-fix",
+  "title": "Search in metric views fix",
+  "date": "2026-03-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#search-in-metric-views-fix",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Searching for measures and dimensions in the metric view overview page now returns correct results across paginated results and supports filtering by display name. See [Unity Catalog metric views](/aws/en/business-semantics/metric-views).",
+  "ref_links": [
+    {
+      "text": "Unity Catalog metric views",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/metric-views"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.868931Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-20-databricks-sql-version-2025-35-is-rolling-out-in-current",
+  "title": "Databricks SQL version 2025.35 is rolling out in Current",
+  "date": "2025-11-20",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-version-202535-is-rolling-out-in-current",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2025.35 is rolling out to the **Current** channel. See features in [2025.35](/aws/en/sql/release-notes/2025#2025-35-features).",
+  "ref_links": [
+    {
+      "text": "2025.35",
+      "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#2025-35-features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.106846Z"
+}

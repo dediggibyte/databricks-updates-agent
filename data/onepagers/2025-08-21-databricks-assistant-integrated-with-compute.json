@@ -1,0 +1,50 @@
+{
+  "product": "Databricks Assistant integrated with compute",
+  "tagline": "Users can now chat with Databricks Assistant on some compute pages.",
+  "updated": "Aug 21, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/compute",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-assistant-integrated-with-compute",
+  "what_it_does": "Users can now chat with Databricks Assistant on some compute pages. Use the Assistant chat panel to help you create a new compute resource, pool, and policy. Or, ask the Assistant questions about the compute resource, like “Is this compute resource Unity Catalog enabled?” or “What’s the current compute policy?” To learn more about chatting with the Assitant, see Tour of the Genie Code pane.",
+  "why_it_matters": "Serverless compute On demand, automatically managed compute that scales based on your workload requirements.",
+  "capabilities": [
+    {
+      "title": "Serverless compute for notebooks",
+      "desc": "Serverless compute for notebooks"
+    },
+    {
+      "title": "Interactive Python and SQL execution",
+      "desc": "Interactive Python and SQL execution in notebooks with automatic scaling and no infrastructure management."
+    },
+    {
+      "title": "Serverless compute for jobs",
+      "desc": "Serverless compute for jobs"
+    },
+    {
+      "title": "Run Lakeflow Jobs without configuring",
+      "desc": "Run Lakeflow Jobs without configuring or deploying infrastructure. Automatically provisions and scales compute resources."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "SQL warehouses",
+    "Optimized compute for SQL queries, analytics, and business intelligence workloads with serverless or classic options.",
+    "SQL warehouse types",
+    "Understanding the differences between serverless and classic SQL warehouse options to choose the right type for your workloads."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Users can now chat with Databricks Assistant on some compute pages.",
+  "note_id": "2025-08-21-databricks-assistant-integrated-with-compute",
+  "category": "platform"
+}

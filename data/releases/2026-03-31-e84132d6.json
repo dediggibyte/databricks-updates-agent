@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-31-e84132d6",
+  "title": "Lakebase will be enabled by default for workspaces with the compliance security profile",
+  "date": "2026-03-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#lakebase-will-be-enabled-by-default-for-workspaces-with-the-compliance-security-profile",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "On or after April 30, 2026, Lakebase will be enabled by default for workspaces with the compliance security profile when the compliance standard is set to HIPAA, C5, TISAX, or None.\n\nSee [Lakebase compliance](/aws/en/oltp/projects/data-protection#compliance).",
+  "ref_links": [
+    {
+      "text": "Lakebase compliance",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection#compliance"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.825607Z"
+}

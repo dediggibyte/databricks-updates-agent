@@ -1,0 +1,21 @@
+{
+  "id": "2026-01-26-store-and-query-mlflow-traces-in-unity-catalog-beta",
+  "title": "Store and query MLflow traces in Unity Catalog (Beta)",
+  "date": "2026-01-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#store-and-query-mlflow-traces-in-unity-catalog-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now store MLflow traces in Unity Catalog tables using OpenTelemetry format and query them using Databricks SQL. This provides several benefits:\n\n* Store unlimited traces in Delta tables for long-term retention and analysis\n* Query trace data directly using SQL through a Databricks SQL warehouse\n* Manage access control through Unity Catalog schema and table permissions\n* Ensure compatibility with other OpenTelemetry clients and tools\n\nSee [Store OpenTelemetry traces in Unity Catalog](/aws/en/mlflow3/genai/tracing/trace-unity-catalog) and [Query OpenTelemetry traces stored in Unity Catalog](/aws/en/mlflow3/genai/tracing/observe-with-traces/query-dbsql).",
+  "ref_links": [
+    {
+      "text": "Store OpenTelemetry traces in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/trace-unity-catalog"
+    },
+    {
+      "text": "Query OpenTelemetry traces stored in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/observe-with-traces/query-dbsql"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.022694Z"
+}

@@ -1,0 +1,45 @@
+{
+  "product": "New documentation for authoring and deploying agents on Databricks Apps",
+  "tagline": "New documentation and project templates are available for building and deploying AI agents on Databricks Apps.",
+  "updated": "Feb 10, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-framework/author-agent",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#new-documentation-for-authoring-and-deploying-agents-on-databricks-apps",
+  "what_it_does": "New documentation and project templates are available for building and deploying AI agents on Databricks Apps. Author agents with popular libraries like LangGraph, PyFunc, and OpenAI Agent SDK, then deploy them on Databricks Apps. Build an AI agent and deploy it using Databricks Apps.",
+  "why_it_matters": "+ Comprehensive tool calling message history: Return multiple messages, including intermediate tool calling messages, for improved quality and conversation management.",
+  "capabilities": [
+    {
+      "title": "Multi-agent support",
+      "desc": "Multi-agent support"
+    },
+    {
+      "title": "Streaming output: Stream the output",
+      "desc": "Streaming output: Stream the output in smaller chunks."
+    },
+    {
+      "title": "Comprehensive tool-calling message history: Return",
+      "desc": "Comprehensive tool-calling message history: Return multiple messages, including intermediate tool-calling messages, for improved…"
+    },
+    {
+      "title": "Tool-calling confirmation support",
+      "desc": "Tool-calling confirmation support"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "New documentation and project templates are available for building and deploying AI agents on Databricks Apps.",
+  "note_id": "2026-02-10-new-documentation-for-authoring-and-deploying-agents-on-databricks-apps",
+  "category": "platform"
+}

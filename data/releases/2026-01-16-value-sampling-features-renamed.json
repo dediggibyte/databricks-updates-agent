@@ -1,0 +1,25 @@
+{
+  "id": "2026-01-16-value-sampling-features-renamed",
+  "title": "Value sampling features renamed",
+  "date": "2026-01-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#value-sampling-features-renamed",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The value sampling features in Genie have been renamed to better describe their function:\n\n* [Prompt matching](/aws/en/genie/tune-quality#prompt-matching-overview) (previously value sampling)\n* [Format assistance](/aws/en/genie/tune-quality#manage-format-assistance) (previously example values)\n* [Entity matching](/aws/en/genie/tune-quality#configure-entity-matching) (previously value dictionaries)",
+  "ref_links": [
+    {
+      "text": "Prompt matching",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#prompt-matching-overview"
+    },
+    {
+      "text": "Format assistance",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#manage-format-assistance"
+    },
+    {
+      "text": "Entity matching",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality#configure-entity-matching"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.030834Z"
+}

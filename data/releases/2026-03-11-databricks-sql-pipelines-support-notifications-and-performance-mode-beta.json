@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-11-databricks-sql-pipelines-support-notifications-and-performance-mode-beta",
+  "title": "Databricks SQL pipelines support notifications and performance mode (Beta)",
+  "date": "2026-03-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-sql-pipelines-support-notifications-and-performance-mode-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Materialized views and streaming tables defined and scheduled in Databricks SQL now support failure notifications and serverless performance mode configuration in Beta.\n\nSee [Schedule refreshes](/aws/en/ldp/dbsql/schedule-refreshes).",
+  "ref_links": [
+    {
+      "text": "Schedule refreshes",
+      "url": "https://docs.databricks.com/aws/en/ldp/dbsql/schedule-refreshes"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.886227Z"
+}

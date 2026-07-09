@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-02-c5-compliance-controls",
+  "title": "C5 compliance controls",
+  "date": "2025-09-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#c5-compliance-controls",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "C5 compliance controls provide enhancements that help you with compliance for your workspace. C5 is a German Federal Office for Information Security (BSI) standard that defines minimum security requirements for cloud service providers. See [Cloud Computing Compliance Criteria Catalog (C5)](/aws/en/security/privacy/c5).",
+  "ref_links": [
+    {
+      "text": "Cloud Computing Compliance Criteria Catalog (C5)",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/c5"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.233295Z"
+}

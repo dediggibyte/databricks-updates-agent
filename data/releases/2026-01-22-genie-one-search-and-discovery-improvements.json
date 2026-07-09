@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-22-genie-one-search-and-discovery-improvements",
+  "title": "Genie One search and discovery improvements",
+  "date": "2026-01-22",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-search-and-discovery-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Databricks Apps filtering**: Genie One consumers can now filter to include or exclude inactive Databricks apps when browsing. Inactive apps are those with a status other than Running, such as Stopped, Deploying, or Crashed. See [App status](/aws/en/dev-tools/databricks-apps/key-concepts#app-status).\n* **Dashboard widget title search**: Search now supports dashboard widget titles.\n* **Enhanced search rankings**: Certified and favorite content is now boosted in search rankings in Genie One.\n* **Recents and favorites in discovery**: Recents and favorites are now surfaced in the **For you** page.",
+  "ref_links": [
+    {
+      "text": "App status",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/key-concepts#app-status"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.024742Z"
+}

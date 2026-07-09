@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-26-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-03-26",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-8",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Share Genie Space with all account users**: The share modal now includes an option to share your Genie Space with all account users. See [Share a Genie Agent](/aws/en/genie/set-up#share).\n* **SQL download settings for full query results**: The APIs to download full query results now respect workspace-level settings for SQL downloads.",
+  "ref_links": [
+    {
+      "text": "Share a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#share"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.847948Z"
+}

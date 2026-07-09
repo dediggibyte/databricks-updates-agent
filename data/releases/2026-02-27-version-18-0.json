@@ -1,0 +1,137 @@
+{
+  "id": "2026-02-27-version-18-0",
+  "title": "Version 18.0",
+  "date": "2026-02-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/serverless#version-180",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "This serverless compute release roughly corresponds to [Databricks Runtime 18.0](/aws/en/release-notes/runtime/18.0).\n\n#### New features\n\n* **SQL scripting is now generally available**: [SQL scripting](/aws/en/sql/language-manual/sql-ref-scripting) is now generally available.\n* **Redshift JDBC driver upgraded to 2.1.0.28**: The Redshift JDBC driver has been upgraded to version 2.1.0.28.\n* **Shared isolation execution environment for Unity Catalog Python UDFs**: Unity Catalog Python UDFs with the same owner can now share an isolation environment by default, improving performance and reducing memory usage. To ensure a UDF always runs in a fully isolated environment, add the `STRICT ISOLATION` characteristic clause. See  [Environment isolation](/aws/en/udf/unity-catalog#isolation).\n* **SQL window functions in metric views**: You can now use [SQL window functions](/aws/en/sql/language-manual/sql-ref-window-functions) in metric views to calculate running totals, rankings, and other window-based calculations.\n* **Dynamic shuffle partition adjustment in stateless streaming queries**: You can now change the number of shuffle partitions in [stateless streaming queries](/aws/en/structured-streaming/stateful-streaming) without restarting the query.\n* **Adaptive Query Execution and auto-optimized shuffle in stateless streaming queries**: Adaptive Query Execution (AQE) and auto-optimized shuffle (AOS) are now supported in [stateless streaming queries](/aws/en/structured-streaming/stateful-streaming).\n* **Literal string coalescing everywhere**: The ability to coalesce sequential string literals such as `'Hello' ' World'` into `'Hello World'` has been expanded to any place string literals are allowed. See [`STRING` type](/aws/en/sql/language-manual/data-types/string-type).\n* **Parameter markers everywhere**: You can now use named (`:param`) and unnamed (`?`) parameter markers virtually anywhere a literal value of the appropriate type can be used, including DDL statements and column types. See [Parameter markers](/aws/en/sql/language-manual/sql-ref-parameter-marker).\n* **`IDENTIFIER` clause everywhere**: The `IDENTIFIER` clause, which casts strings to SQL object names, has been expanded to nearly everywhere an identifier is permitted, including column aliases and column definitions. See [IDENTIFIER clause](/aws/en/sql/language-manual/sql-ref-names-identifier-clause).\n* **New `BITMAP_AND_AGG` function**: A new [`bitmap_and_agg` aggregate function](/aws/en/sql/language-manual/functions/bitmap_and_agg) function is now available.\n* **New Theta sketch functions**: A new library of functions for approximate distinct count and set operations using Datasketches Theta Sketch is now available, including [theta\\_sketch\\_agg](/aws/en/sql/language-manual/functions/theta_sketch_agg), [theta\\_union\\_agg](/aws/en/sql/language-manual/functions/theta_union_agg), [theta\\_intersection\\_agg](/aws/en/sql/language-manual/functions/theta_intersection_agg), and related functions.\n* **New KLL Sketch function library**: A new library of functions for building KLL Sketches for approximate quantile computation is now available, including [kll\\_sketch\\_agg\\_bigint](/aws/en/sql/language-manual/functions/kll_sketch_agg_bigint), [kll\\_sketch\\_agg\\_double](/aws/en/sql/language-manual/functions/kll_sketch_agg_double), and related functions.\n* **Apache Parquet library upgraded to 1.16.0**: The [Apache Parquet](/aws/en/query/formats/parquet) library has been upgraded to version 1.16.0.\n* **New geospatial functions**: The following new geospatial functions are now supported:\n\n  + [`st_azimuth` function](/aws/en/sql/language-manual/functions/st_azimuth): Returns the north-based azimuth from the first point to the second in radians.\n  + [`st_boundary` function](/aws/en/sql/language-manual/functions/st_boundary): Returns the boundary of the input geometry.\n  + [`st_closestpoint` function](/aws/en/sql/language-manual/functions/st_closestpoint): Returns the 2D projection of a point on the first geometry closest to the second geometry.\n  + [`st_geogfromewkt` function](/aws/en/sql/language-manual/functions/st_geogfromewkt): Parses an Extended Well-Known Text (EWKT) description of a geography.\n  + [`st_geomfromewkt` function](/aws/en/sql/language-manual/functions/st_geomfromewkt): Parses an Extended Well-Known Text (EWKT) description of a geometry.\n* **Improved spatial join performance**: Spatial join performance is now improved by introducing shuffled spatial join support.\n* **Improved performance for geospatial functions**: Photon implementations are now available for [`st_isvalid` function](/aws/en/sql/language-manual/functions/st_isvalid), [`st_makeline` function](/aws/en/sql/language-manual/functions/st_makeline), and [`st_makepolygon` function](/aws/en/sql/language-manual/functions/st_makepolygon).\n* **EWKT input support**: The [try\\_to\\_geography](/aws/en/sql/language-manual/functions/try_to_geography), [try\\_to\\_geometry](/aws/en/sql/language-manual/functions/try_to_geometry), [to\\_geography](/aws/en/sql/language-manual/functions/to_geography), and [to\\_geometry](/aws/en/sql/language-manual/functions/to_geometry) functions now accept Extended Well-Known Text (EWKT) as input.\n\n#### Behavior changes\n\n* **`FSCK REPAIR TABLE` includes metadata repair by default**: The [`FSCK REPAIR TABLE`](/aws/en/sql/language-manual/delta-fsck) command now includes an initial metadata repair step before checking for missing data files. The command can work on tables with corrupt checkpoints or invalid partition values.\n* **Proration factors aligned between reads and auto-optimized writes**: Proration factors for partition sizing now use fractional values consistently across read operations and auto-optimized writes. This change might result in a different number of tasks for read operations.\n* **Python UDF execution unified across PySpark and Unity Catalog**: Unity Catalog Python UDFs now use Apache Arrow as the default interchange format, improving overall performance. As part of this change, `TIMESTAMP` values passed to Python UDFs no longer include timezone information in the `datetime` object's `tzinfo` attribute. If your UDF relies on timezone information, restore it with `date = date.replace(tzinfo=timezone.utc)`. See [Timestamp timezone behavior for inputs](/aws/en/udf/unity-catalog#timestamp-timezone).\n* **Improved error messages for Kafka connector login module issues**: When using the Kafka connector with an unshaded login module class, Databricks now provides error messages that suggest using the correct shaded class prefix (`kafkashaded.org.apache.kafka` or `kafkashaded.software.amazon.msk.auth.iam`).\n* **Time travel restrictions and `VACUUM` retention behavior**: Databricks now blocks time travel queries beyond the `deletedFileRetentionDuration` threshold for all tables. The `VACUUM` command ignores the retention duration argument except when the value is 0 hours. You can't set `deletedFileRetentionDuration` larger than `logRetentionDuration` or vice versa.\n* **`BinaryType` maps to `bytes` by default in PySpark**: In [PySpark](/aws/en/pyspark/basics), `BinaryType` now consistently maps to Python `bytes`. Previously, PySpark mapped `BinaryType` to either `bytes` or `bytearray` depending on the context. To restore the old behavior, set `spark.sql.execution.pyspark.binaryAsBytes` to `false`.\n* **Partition columns materialized in Parquet files**: Partitioned Delta tables now materialize partition columns in newly written Parquet data files. Previously, partition values were stored in the Delta transaction log metadata and reflected in directory paths, but not written as columns in the Parquet files themselves. This change might affect workloads that directly read Parquet files written by Delta.\n* **`DESCRIBE TABLE` output includes metadata column**: The output of [`DESCRIBE TABLE [EXTENDED]`](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table) now includes a new `metadata` column for all table types, containing semantic metadata (display name, format, and synonyms) defined on the table as a JSON string.",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 18.0",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18.0"
+    },
+    {
+      "text": "SQL scripting",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-scripting"
+    },
+    {
+      "text": "Environment isolation",
+      "url": "https://docs.databricks.com/aws/en/udf/unity-catalog#isolation"
+    },
+    {
+      "text": "SQL window functions",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-window-functions"
+    },
+    {
+      "text": "stateless streaming queries",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/stateful-streaming"
+    },
+    {
+      "text": "STRING type",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/string-type"
+    },
+    {
+      "text": "Parameter markers",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-parameter-marker"
+    },
+    {
+      "text": "IDENTIFIER clause",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-names-identifier-clause"
+    },
+    {
+      "text": "bitmap_and_agg aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/bitmap_and_agg"
+    },
+    {
+      "text": "theta_sketch_agg",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_sketch_agg"
+    },
+    {
+      "text": "theta_union_agg",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_union_agg"
+    },
+    {
+      "text": "theta_intersection_agg",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_intersection_agg"
+    },
+    {
+      "text": "kll_sketch_agg_bigint",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_agg_bigint"
+    },
+    {
+      "text": "kll_sketch_agg_double",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_agg_double"
+    },
+    {
+      "text": "Apache Parquet",
+      "url": "https://docs.databricks.com/aws/en/query/formats/parquet"
+    },
+    {
+      "text": "st_azimuth function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_azimuth"
+    },
+    {
+      "text": "st_boundary function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_boundary"
+    },
+    {
+      "text": "st_closestpoint function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_closestpoint"
+    },
+    {
+      "text": "st_geogfromewkt function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_geogfromewkt"
+    },
+    {
+      "text": "st_geomfromewkt function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_geomfromewkt"
+    },
+    {
+      "text": "st_isvalid function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_isvalid"
+    },
+    {
+      "text": "st_makeline function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_makeline"
+    },
+    {
+      "text": "st_makepolygon function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_makepolygon"
+    },
+    {
+      "text": "try_to_geography",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/try_to_geography"
+    },
+    {
+      "text": "try_to_geometry",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/try_to_geometry"
+    },
+    {
+      "text": "to_geography",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/to_geography"
+    },
+    {
+      "text": "to_geometry",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/to_geometry"
+    },
+    {
+      "text": "FSCK REPAIR TABLE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/delta-fsck"
+    },
+    {
+      "text": "Timestamp timezone behavior for inputs",
+      "url": "https://docs.databricks.com/aws/en/udf/unity-catalog#timestamp-timezone"
+    },
+    {
+      "text": "PySpark",
+      "url": "https://docs.databricks.com/aws/en/pyspark/basics"
+    },
+    {
+      "text": "DESCRIBE TABLE [EXTENDED]",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.927652Z"
+}

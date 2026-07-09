@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-24-databricks-excel-add-in-requires-workspace-preview-enablement",
+  "title": "Databricks Excel Add-in requires workspace preview enablement",
+  "date": "2026-04-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#databricks-excel-add-in-requires-workspace-preview-enablement",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "To use the Databricks Excel Add-in, a workspace admin must now enable the **Excel Connector** preview from the Previews page. See [Set up the Databricks Excel Add-in](/aws/en/integrations/excel-setup) and [Manage Databricks previews](/aws/en/admin/workspace-settings/manage-previews).",
+  "ref_links": [
+    {
+      "text": "Set up the Databricks Excel Add-in",
+      "url": "https://docs.databricks.com/aws/en/integrations/excel-setup"
+    },
+    {
+      "text": "Manage Databricks previews",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/manage-previews"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.764560Z"
+}

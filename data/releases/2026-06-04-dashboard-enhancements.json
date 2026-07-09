@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-04-dashboard-enhancements",
+  "title": "Dashboard enhancements",
+  "date": "2026-06-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Bookmark filter combinations**: Dashboard authors can now save filter combinations as shared bookmarks, which viewers can quickly apply. See [Bookmarks](/aws/en/dashboards/manage#bookmarks).\n* **Pivot table column improvements**: Pivot table columns can now expand and collapse.\n* **Theme customization enhancements**: New theme customization options are now available, including the ability to change axis and grid line colors, adjust widget layout (margin, padding, corner radius, and shadow), and apply a color ramp. See [Manage AI/BI dashboard workspace themes](/aws/en/ai-bi/admin/themes).\n* **Workspace theme settings**: New theme settings are now available in workspace-level themes and automatically apply to new dashboards. See [Manage AI/BI dashboard workspace themes](/aws/en/ai-bi/admin/themes).\n* **Dashboard variables**: Dashboard authors can now create dashboard variables that allow viewers to swap fields on visualizations. See [Use dashboard variables](/aws/en/dashboards/manage/filters/dashboard-variables).\n* **Customizable table headers**: Dashboard authors can now customize table column headers.\n* **Field picker improvements**: Field pickers now show which dataset each field belongs to. Combo charts on semantic models use the data field picker for the Y-axis, and tables support adding the same field more than once. This release also includes truncated dataset labels, tooltips on disabled menu items, and a relocated filter toggle.\n* **Widget-level color gradient**: You can now derive a color gradient from the visualization color at the widget level, matching the behavior available in theme settings.",
+  "ref_links": [
+    {
+      "text": "Bookmarks",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage#bookmarks"
+    },
+    {
+      "text": "Manage AI/BI dashboard workspace themes",
+      "url": "https://docs.databricks.com/aws/en/ai-bi/admin/themes"
+    },
+    {
+      "text": "Use dashboard variables",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.625556Z"
+}

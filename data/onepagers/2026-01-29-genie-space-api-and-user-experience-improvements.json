@@ -1,0 +1,28 @@
+{
+  "product": "Genie Space API and user experience improvements",
+  "tagline": "Full query result downloads: A new API endpoint supports downloading complete result sets up to about 1 GB.",
+  "updated": "Jan 29, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-api-and-user-experience-improvements",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-api-and-user-experience-improvements",
+  "what_it_does": "Full query result downloads: A new API endpoint supports downloading complete result sets up to about 1 GB. Fixed chart generation from prompts: Resolved an issue where requesting charts directly in the prompt would not create visualizations. Collapsible error messages: Errors now appear in a collapsible modal for improved readability.",
+  "why_it_matters": "Collapsible error messages: Errors now appear in a collapsible modal for improved readability.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Full query result downloads: A new API endpoint supports downloading complete result sets up to about 1 GB.",
+  "note_id": "2026-01-29-genie-space-api-and-user-experience-improvements",
+  "category": "platform"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2025-05-29-user-interface-updates",
+  "title": "User interface updates",
+  "date": "2025-05-29",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **New SQL editor improvements**:\n  + **New queries in Drafts folder**: New queries are now created by default in the Drafts folder. When saved or renamed, they automatically move out of Drafts.\n  + **Query snippets support**: You can now create and reuse query snippets—predefined segments of SQL such as `JOIN` or `CASE` expressions, with support for autocomplete and dynamic insertion points. Create snippets by choosing **View** > **Query Snippets**.\n  + **Audit log events**: Audit log events are now emitted for actions taken in the new SQL editor.\n  + **Filters impact on visualizations**: Filters applied to result tables now also affect visualizations, enabling interactive exploration without modifying the SQL query.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.390327Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-11-hipaa-support-for-the-databricks-add-in-for-excel",
+  "title": "HIPAA support for the Databricks Add-in for Excel",
+  "date": "2026-05-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#hipaa-support-for-the-databricks-add-in-for-excel",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Add-in for Excel (Public Preview) is now available for workspaces with HIPAA compliance across all supported regions. See [Connect to Databricks from Microsoft Excel](/aws/en/integrations/excel).",
+  "ref_links": [
+    {
+      "text": "Connect to Databricks from Microsoft Excel",
+      "url": "https://docs.databricks.com/aws/en/integrations/excel"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.718498Z"
+}

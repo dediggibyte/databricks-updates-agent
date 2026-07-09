@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-30-lakeflow-jobs-system-tables-are-now-generally-available-ga",
+  "title": "Lakeflow jobs system tables are now generally available (GA)",
+  "date": "2026-01-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#lakeflow-jobs-system-tables-are-now-generally-available-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The lakeflow system tables `jobs`, `job_tasks`, `job_run_timeline`, and `job_task_run_timeline` are now generally available (GA). These tables provide insights into all jobs and job runs in your account.\n\nFor a reference of these tables, see [Jobs system table reference](/aws/en/admin/system-tables/jobs).",
+  "ref_links": [
+    {
+      "text": "Jobs system table reference",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.010107Z"
+}

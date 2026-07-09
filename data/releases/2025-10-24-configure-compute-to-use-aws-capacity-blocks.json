@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-24-configure-compute-to-use-aws-capacity-blocks",
+  "title": "Configure compute to use AWS Capacity Blocks",
+  "date": "2025-10-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#configure-compute-to-use-aws-capacity-blocks",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure classic Databricks compute to use AWS Capacity Blocks.\n\nSee [AWS Capacity Blocks](/aws/en/compute/configure#aws-capacity-blocks)",
+  "ref_links": [
+    {
+      "text": "AWS Capacity Blocks",
+      "url": "https://docs.databricks.com/aws/en/compute/configure#aws-capacity-blocks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.151718Z"
+}

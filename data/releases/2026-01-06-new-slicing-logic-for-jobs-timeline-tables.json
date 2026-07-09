@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-06-new-slicing-logic-for-jobs-timeline-tables",
+  "title": "New slicing logic for jobs timeline tables",
+  "date": "2026-01-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#new-slicing-logic-for-jobs-timeline-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Starting January 19, 2026, the jobs timeline tables use a new clock-hour-aligned slicing logic. Time slices now align to standard clock hour boundaries (5:00-6:00 PM, 6:00-7:00 PM, and so on) instead of one-hour intervals based on the run's start time. New rows will use the new slicing logic, while existing rows remain unchanged.\n\nSee [Clock-hour-aligned slicing logic](/aws/en/admin/system-tables/jobs#clock-hour-slicing-logic).",
+  "ref_links": [
+    {
+      "text": "Clock-hour-aligned slicing logic",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#clock-hour-slicing-logic"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.056626Z"
+}

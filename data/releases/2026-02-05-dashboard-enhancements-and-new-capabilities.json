@@ -1,0 +1,25 @@
+{
+  "id": "2026-02-05-dashboard-enhancements-and-new-capabilities",
+  "title": "Dashboard enhancements and new capabilities",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-new-capabilities",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Parameterized dashboard tasks**: Dashboard tasks in Jobs can now be parameterized, allowing job parameters to dynamically set dashboard filter values at runtime.\n* **Workspace-level dashboard themes**: Dashboard themes can now be configured at the workspace level. See [Manage AI/BI dashboard workspace themes](/aws/en/ai-bi/admin/themes).\n* **Top-aligned text widgets**: Text widgets now default to top-aligned text.\n* **Refresh-only schedules for individual data permissions**: Authors and viewers of dashboards published with individual data permissions can now create refresh-only schedules that trigger cache refreshes without sending notifications, improving dashboard load times. See  [Subscribe to an existing schedule](/aws/en/dashboards/share/schedule-subscribe#subscribe).\n* **Genie Spaces enabled by default**: Genie is now on by default for published dashboards, allowing viewers to ask questions using the Ask Genie button.\n* **Tag search**: Tag search is now supported for dashboards, allowing users to find dashboards by their assigned tags.\n* **Assistant for dashboard authoring (Beta)**: Authors can now automate multi-step dashboard workflows using natural language prompts to create datasets, visualizations, layouts, and filters. The legacy inline-visualization prompting experience now redirects to the Assistant side pane. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).",
+  "ref_links": [
+    {
+      "text": "Manage AI/BI dashboard workspace themes",
+      "url": "https://docs.databricks.com/aws/en/ai-bi/admin/themes"
+    },
+    {
+      "text": "Subscribe to an existing schedule",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#subscribe"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.979473Z"
+}

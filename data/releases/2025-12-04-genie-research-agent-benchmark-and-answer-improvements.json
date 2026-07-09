@@ -1,0 +1,12 @@
+{
+  "id": "2025-12-04-genie-research-agent-benchmark-and-answer-improvements",
+  "title": "Genie Research Agent, benchmark, and answer improvements",
+  "date": "2025-12-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-research-agent-benchmark-and-answer-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Improved clarifying questions**: Genie's ability to ask clarifying questions in cases of semantic ambiguity in the user's prompt has been improved.\n* **Streamlined Research Agent**: The Research Agent (Beta) experience has been streamlined by simplifying the thinking trace and moving hypothesis evaluations into a sidebar for easier review.\n* **Benchmark error explanations**: Benchmarks now include an LLM explanation of what was incorrect in the Genie generated answer.\n* **Improved answer readability**: When the answer summary contains all of the details in the query result, the query result table is automatically collapsed to improve readability.\n* **Better instruction following**: Genie now more effectively follows text instructions on how to format answer summaries to common questions.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.096734Z"
+}

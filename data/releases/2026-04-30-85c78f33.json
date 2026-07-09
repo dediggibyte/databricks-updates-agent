@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-30-85c78f33",
+  "title": "Agent Bricks Supervisor Agent now supports custom MCP servers and custom agents on Databricks Apps",
+  "date": "2026-04-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#agent-bricks-supervisor-agent-now-supports-custom-mcp-servers-and-custom-agents-on-databricks-apps",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add custom MCP servers and custom agents hosted in Databricks Apps as subagents in your Supervisor Agent. See [Use Supervisor Agent to create a coordinated multi-agent system](/aws/en/agents/agent-bricks/multi-agent-supervisor).",
+  "ref_links": [
+    {
+      "text": "Use Supervisor Agent to create a coordinated multi-agent system",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.751765Z"
+}

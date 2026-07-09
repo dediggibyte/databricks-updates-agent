@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-15-genie-one-favorite-and-filtering-improvements",
+  "title": "Genie One favorite and filtering improvements",
+  "date": "2026-01-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-favorite-and-filtering-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Mark assets as favorites**: Click the star icon next to asset names in Genie One to mark them as favorites.\n* **Favorite and certified content filtering**: Filter content by favorite and certified status in Genie One. See [Listing pages](/aws/en/genie-one/genie#listing-pages).",
+  "ref_links": [
+    {
+      "text": "Listing pages",
+      "url": "https://docs.databricks.com/aws/en/genie-one/genie#listing-pages"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.032709Z"
+}

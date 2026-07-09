@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-30-disabling-tasks-in-lakeflow-jobs-is-now-ga",
+  "title": "Disabling tasks in Lakeflow Jobs is now GA",
+  "date": "2026-04-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#disabling-tasks-in-lakeflow-jobs-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now disable a task in a Databricks Lakeflow job to skip it at run time without removing it from the job. Disabled tasks keep their configuration and run history, so you can re-enable them later without rebuilding the task. See [Disabled tasks in Lakeflow Jobs](/aws/en/jobs/disabled-tasks).",
+  "ref_links": [
+    {
+      "text": "Disabled tasks in Lakeflow Jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/disabled-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.751243Z"
+}

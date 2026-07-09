@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-13-upcoming-behavioral-change-void-columns-included-in-delta-table-reads",
+  "title": "Upcoming behavioral change: VOID columns included in Delta table reads",
+  "date": "2026-04-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-behavioral-change-void-columns-included-in-delta-table-reads",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In mid-June 2026, Delta Lake will fully support [`VOID`](/aws/en/sql/language-manual/data-types/null-type) columns. Previously, `VOID` columns were silently skipped by path-based DataFrame reads (for example, `spark.read.format(\"delta\").load(path)`) and time travel queries. After this change, these queries include `VOID` columns in the output.\n\nQueries that depend on column count or position, such as `INSERT INTO ... SELECT *`, may fail or produce incorrect results after this change. Review any queries that read from Delta Lake tables with `VOID` columns to ensure they handle the additional columns correctly.\n\nSee [`VOID` type](/aws/en/sql/language-manual/data-types/null-type).",
+  "ref_links": [
+    {
+      "text": "VOID",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/null-type"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.801445Z"
+}

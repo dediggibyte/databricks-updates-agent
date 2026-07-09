@@ -1,0 +1,28 @@
+{
+  "product": "Genie Space enhancements",
+  "tagline": "Genie Chat prompt monitoring (Beta): Prompts and responses initiated by Genie Chat are now visible in Genie Spaces monitoring when the sharing Beta is enabled.",
+  "updated": "Jun 4, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/embed",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-2",
+  "what_it_does": "Genie Chat prompt monitoring (Beta): Prompts and responses initiated by Genie Chat are now visible in Genie Spaces monitoring when the sharing Beta is enabled. Knowledge store edit confirmation dialog: A confirmation dialog now appears before an author removes a table that has knowledge store edits (for example, local table or column descriptions or hidden columns). Delete conversations: Users with CAN MANAGE permission can now delete the conversations of other users from the UI, matching existing API capabilities.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Genie Chat prompt monitoring (Beta): Prompts and responses initiated by Genie Chat are now visible in Genie Spaces monitoring when the sharing Beta is enabled.",
+  "note_id": "2026-06-04-genie-space-enhancements",
+  "category": "platform"
+}

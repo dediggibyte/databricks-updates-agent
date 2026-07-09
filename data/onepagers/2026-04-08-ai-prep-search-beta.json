@@ -1,0 +1,41 @@
+{
+  "product": "ai_prep_search (Beta)",
+  "tagline": "ai prep search is now available in Beta.",
+  "updated": "Apr 8, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_prep_search",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#ai_prep_search-beta",
+  "what_it_does": "ai prep search is now available in Beta. This SQL function transforms the structured output of ai parse document into search ready chunks optimized for vector search and RAG pipelines. Applies to: Databricks SQL Databricks Runtime Beta This feature is in Beta.",
+  "why_it_matters": "Databricks might upgrade the supported or default version to reflect improved representations based on ongoing research.",
+  "capabilities": [
+    {
+      "title": "The serverless environment version must",
+      "desc": "The serverless environment version must be set to 3 or above, as this enables features like VARIANT."
+    },
+    {
+      "title": "Must use either Python or",
+      "desc": "Must use either Python or SQL. For additional serverless features and limitations, see Serverless compute limitations. The…"
+    },
+    {
+      "title": "'version': The version of the",
+      "desc": "'version': The version of the output schema to use."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "ai prep search is now available in Beta.",
+  "note_id": "2026-04-08-ai-prep-search-beta",
+  "category": "platform"
+}

@@ -1,0 +1,28 @@
+{
+  "product": "Embed Genie Agent will soon be available by default for workspaces with the…",
+  "tagline": "Embedding a Genie Agent as an iframe will be available by default for workspaces with the compliance security profile enabled in June 2026.",
+  "updated": "May 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/embed",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#embed-genie-agent-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Embedding a Genie Agent as an iframe will be available by default for workspaces with the compliance security profile enabled in June 2026. Embedding a Genie Agent lets business users interact with Genie directly within your internal tools or portals without navigating to Databricks. Embed a Genie Agent as an iframe in an external website or application so users can interact with Genie inside your internal tools or portals without navigating to Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Embedding a Genie Agent as an iframe will be available by default for workspaces with the compliance security profile enabled in June 2026.",
+  "note_id": "2026-05-28-52fdbda3",
+  "category": "platform"
+}

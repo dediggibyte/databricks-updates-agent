@@ -1,0 +1,28 @@
+{
+  "product": "Synced tables are now metered and billed",
+  "tagline": "Synced tables are now automatically metered and billed.",
+  "updated": "Jul 31, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/instances/sync-data/sync-table",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#synced-tables-are-now-metered-and-billed",
+  "what_it_does": "Synced tables are now automatically metered and billed. Synced tables use Lakeflow Spark Declarative Pipelines to sync data from Unity Catalog tables into a Lakebase database instance. All usage is tracked and reported in system.billing.usage.",
+  "why_it_matters": "info Lakebase Provisioned is the original Lakebase offering that uses provisioned compute you scale manually.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Synced tables are now automatically metered and billed.",
+  "note_id": "2025-07-31-synced-tables-are-now-metered-and-billed",
+  "category": "platform"
+}

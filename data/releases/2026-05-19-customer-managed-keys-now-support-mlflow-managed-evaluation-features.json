@@ -1,0 +1,29 @@
+{
+  "id": "2026-05-19-customer-managed-keys-now-support-mlflow-managed-evaluation-features",
+  "title": "Customer-managed keys now support MLflow managed evaluation features",
+  "date": "2026-05-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#customer-managed-keys-now-support-mlflow-managed-evaluation-features",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use the following MLflow managed evaluation features in workspaces encrypted with [customer-managed keys (CMK)](/aws/en/security/keys/customer-managed-keys):\n\n* [Production monitoring](/aws/en/mlflow3/genai/eval-monitor/production-monitoring) of GenAI apps with MLflow 3 scorers.\n* The [Review App](/aws/en/mlflow3/genai/human-feedback/expert-feedback/label-existing-traces) for collecting expert feedback on traces.\n* [Evaluation datasets](/aws/en/mlflow3/genai/eval-monitor/build-eval-dataset). The catalog that stores the dataset must not itself be CMK-encrypted.",
+  "ref_links": [
+    {
+      "text": "customer-managed keys (CMK)",
+      "url": "https://docs.databricks.com/aws/en/security/keys/customer-managed-keys"
+    },
+    {
+      "text": "Production monitoring",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/production-monitoring"
+    },
+    {
+      "text": "Review App",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/human-feedback/expert-feedback/label-existing-traces"
+    },
+    {
+      "text": "Evaluation datasets",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/build-eval-dataset"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.682179Z"
+}

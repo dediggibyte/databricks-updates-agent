@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-17-flexible-node-types-are-now-generally-available",
+  "title": "Flexible node types are now generally available",
+  "date": "2025-12-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#flexible-node-types-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Flexible node types allow your compute resource to fall back to alternative, compatible instance types when your specified instance type is unavailable. This behavior improves compute launch reliability by reducing capacity failures during compute launches. See [Improve compute launch reliability using flexible node types](/aws/en/compute/flexible-node-types).",
+  "ref_links": [
+    {
+      "text": "Improve compute launch reliability using flexible node types",
+      "url": "https://docs.databricks.com/aws/en/compute/flexible-node-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.072935Z"
+}

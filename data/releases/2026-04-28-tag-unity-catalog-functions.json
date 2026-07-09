@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-28-tag-unity-catalog-functions",
+  "title": "Tag Unity Catalog functions",
+  "date": "2026-04-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#tag-unity-catalog-functions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Functions are now a supported securable object type for tagging in Unity Catalog. Use `SET TAG` and `UNSET TAG` to add and remove tags from functions. You can use tags to search for functions and certify or deprecate functions. Tagging functions and procedures requires Databricks Runtime 18.1 or above. See [Apply tags to Unity Catalog securable objects](/aws/en/database-objects/tags).",
+  "ref_links": [
+    {
+      "text": "Apply tags to Unity Catalog securable objects",
+      "url": "https://docs.databricks.com/aws/en/database-objects/tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.758943Z"
+}

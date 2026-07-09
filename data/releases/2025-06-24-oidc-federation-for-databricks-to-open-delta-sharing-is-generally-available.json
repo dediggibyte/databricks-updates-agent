@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-24-oidc-federation-for-databricks-to-open-delta-sharing-is-generally-available",
+  "title": "OIDC federation for Databricks-to-open Delta Sharing is generally available",
+  "date": "2025-06-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#oidc-federation-for-databricks-to-open-delta-sharing-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Using Open ID Connect (OIDC) federation for Delta Sharing, where recipients use JSON web tokens (JWT) from their own IdP as short-lived OAuth tokens for secure, federated authentication, is generally available.\n\nSee [Enable Open ID Connect (OIDC) federation for OpenSharing recipients](/aws/en/opensharing/create-recipient-oidc-fed).",
+  "ref_links": [
+    {
+      "text": "Enable Open ID Connect (OIDC) federation for OpenSharing recipients",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-oidc-fed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.341478Z"
+}

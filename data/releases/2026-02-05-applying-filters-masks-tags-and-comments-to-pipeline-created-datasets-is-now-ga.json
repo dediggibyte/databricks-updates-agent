@@ -1,0 +1,25 @@
+{
+  "id": "2026-02-05-applying-filters-masks-tags-and-comments-to-pipeline-created-datasets-is-now-ga",
+  "title": "Applying filters, masks, tags, and comments to pipeline-created datasets is now GA",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#applying-filters-masks-tags-and-comments-to-pipeline-created-datasets-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Using `CREATE`, `ALTER`, or the Lakeflow UI to modify ETL and ingestion pipelines (Lakeflow Spark Declarative Pipelines and Lakeflow Connect) is now GA. You can modify pipelines to apply row filters, column masks, table and column tags, column comments, and (for materialized views only) table comments.\n\nSee [ALTER STREAMING TABLE](/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-streaming-table) and [ALTER MATERIALIZED VIEW](/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-materialized-view). For general information about using `ALTER` with Lakeflow Spark Declarative Pipelines, see [Use `ALTER` statements with pipeline datasets](/aws/en/ldp/using-alter-sql).",
+  "ref_links": [
+    {
+      "text": "ALTER STREAMING TABLE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-streaming-table"
+    },
+    {
+      "text": "ALTER MATERIALIZED VIEW",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-materialized-view"
+    },
+    {
+      "text": "Use ALTER statements with pipeline datasets",
+      "url": "https://docs.databricks.com/aws/en/ldp/using-alter-sql"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.984731Z"
+}

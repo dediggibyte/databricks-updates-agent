@@ -1,0 +1,45 @@
+{
+  "product": "Managed MCP servers is now Public Preview",
+  "tagline": "Databricks Managed MCP servers is now Public Preview.",
+  "updated": "Jan 27, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/mcp",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#managed-mcp-servers-is-now-public-preview",
+  "what_it_does": "Databricks Managed MCP servers is now Public Preview. Managed MCP servers allow your AI agents to securely connect to Databricks resources and external APIs. MCP is an open source standard that connects AI agents to tools, resources, prompts, and other contextual information.",
+  "why_it_matters": "On Databricks, Unity AI Gateway, the enterprise control plane, governs access and monitors activity across MCP servers and LLM endpoints.",
+  "capabilities": [
+    {
+      "title": "MCP Services in Unity Catalog",
+      "desc": "MCP Services in Unity Catalog"
+    },
+    {
+      "title": "Connect to MCP servers hosted",
+      "desc": "Connect to MCP servers hosted outside Databricks using managed connections, and register them as Unity Catalog securables to…"
+    },
+    {
+      "title": "Host your own MCP server",
+      "desc": "Host your own MCP server"
+    },
+    {
+      "title": "Host your own MCP server",
+      "desc": "Host your own MCP server as a Databricks app."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks Managed MCP servers is now Public Preview.",
+  "note_id": "2026-01-27-managed-mcp-servers-is-now-public-preview",
+  "category": "platform"
+}

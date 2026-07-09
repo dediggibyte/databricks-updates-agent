@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-25-genie-space-enhancements",
+  "title": "Genie Space enhancements",
+  "date": "2026-06-25",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie Code space authoring skills**: Genie Code now includes dedicated skills for authoring and maintaining Genie Spaces. See  [Create a Genie Agent](/aws/en/genie/set-up#create) and [Debug responses with Genie Code](/aws/en/genie/monitor#debug-with-genie-code).",
+  "ref_links": [
+    {
+      "text": "Create a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#create"
+    },
+    {
+      "text": "Debug responses with Genie Code",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#debug-with-genie-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.542498Z"
+}

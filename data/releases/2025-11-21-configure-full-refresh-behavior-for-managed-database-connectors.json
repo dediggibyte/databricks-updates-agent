@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-21-configure-full-refresh-behavior-for-managed-database-connectors",
+  "title": "Configure full refresh behavior for managed database connectors",
+  "date": "2025-11-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#configure-full-refresh-behavior-for-managed-database-connectors",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now schedule when full refresh snapshots occur and enable automatic full refresh to recover from unsupported schema changes. This applies to managed database connectors like SQL Server in Lakeflow Connect. See  [Configure full refresh behavior for database connectors](/aws/en/ingestion/lakeflow-connect/full-refresh#full-refresh-config).",
+  "ref_links": [
+    {
+      "text": "Configure full refresh behavior for database connectors",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/full-refresh#full-refresh-config"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.101525Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2025-06-18-jobs-pipelines-in-the-left-navigation-menu",
+  "title": "Jobs & Pipelines in the left navigation menu",
+  "date": "2025-06-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#jobs--pipelines-in-the-left-navigation-menu",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The **Jobs & Pipelines** item in the left navigation is the entry point to the Databricks' unified data engineering features, Lakeflow. The **Pipelines** and **Workflows** items in the left navigation have been removed, and their functionality is now available from **Jobs & Pipelines**.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.349759Z"
+}

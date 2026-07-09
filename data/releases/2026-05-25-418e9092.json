@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-25-418e9092",
+  "title": "Genie Code Agent mode is now available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-05-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#genie-code-agent-mode-is-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Code Agent mode is now available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled and **HIPAA**, **PCI-DSS**, and **FedRAMP Moderate** controls selected.\n\nWith Agent mode, Genie Code can automate multiple steps from a single prompt, including retrieving relevant assets, generating and running code, fixing errors automatically, and visualizing results.\n\nSee [Genie Code](/aws/en/genie-code).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Genie Code",
+      "url": "https://docs.databricks.com/aws/en/genie-code"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.666459Z"
+}

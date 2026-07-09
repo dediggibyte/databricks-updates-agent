@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-02-managed-oauth-flows-for-external-mcp-servers",
+  "title": "Managed OAuth flows for external MCP servers",
+  "date": "2026-03-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#managed-oauth-flows-for-external-mcp-servers",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks now provides managed OAuth flows for select external MCP servers, eliminating the need to register your own OAuth app or manage credentials. Supported providers include Glean MCP, GitHub MCP, Google Drive API, and SharePoint API.\n\nSee [Install an external MCP server](/aws/en/agents/agent-framework/mcp-services#install).",
+  "ref_links": [
+    {
+      "text": "Install an external MCP server",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-framework/mcp-services#install"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.911702Z"
+}

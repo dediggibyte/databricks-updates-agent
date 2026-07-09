@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-13-sftp-connector-public-preview",
+  "title": "SFTP connector (Public Preview)",
+  "date": "2025-11-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#sftp-connector-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The SFTP connector in Lakeflow Connect (Public Preview) extends Auto Loader functionality to ingest files from SFTP servers. See [Ingest files from SFTP servers](/aws/en/ingestion/sftp).",
+  "ref_links": [
+    {
+      "text": "Ingest files from SFTP servers",
+      "url": "https://docs.databricks.com/aws/en/ingestion/sftp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.119088Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-13-empty-vector-search-endpoints-no-longer-incur-charges",
+  "title": "Empty vector search endpoints no longer incur charges",
+  "date": "2026-03-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#empty-vector-search-endpoints-no-longer-incur-charges",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Vector search endpoints are now only charged after an index has been created, and 24 hours after the last index is deleted from the endpoint, the endpoint no longer incurs any charges.\n\nFor more information, see [AI Search cost management guide](/aws/en/ai-search/cost-management).",
+  "ref_links": [
+    {
+      "text": "AI Search cost management guide",
+      "url": "https://docs.databricks.com/aws/en/ai-search/cost-management"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.874917Z"
+}

@@ -1,0 +1,45 @@
+{
+  "product": "Genie Code Agent mode is now available by default for workspaces with the…",
+  "tagline": "Genie Code Agent mode is now available by default for workspaces with the compliance security profile enabled and HIPAA, PCI DSS, and FedRAMP Moderate controls selected.",
+  "updated": "May 25, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#genie-code-agent-mode-is-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Genie Code Agent mode is now available by default for workspaces with the compliance security profile enabled and HIPAA, PCI DSS, and FedRAMP Moderate controls selected. With Agent mode, Genie Code can automate multiple steps from a single prompt, including retrieving relevant assets, generating and running code, fixing errors automatically, and visualizing results. note Starting July 8, 2026 at 00:00 UTC, Genie products are billed following a pay as you go pricing model that includes a per user free monthly allowance.",
+  "why_it_matters": "Account admins can manage budgets and cost controls for Genie.",
+  "capabilities": [
+    {
+      "title": "Data science and ML in",
+      "desc": "Data science and ML in notebooks"
+    },
+    {
+      "title": "Genie Code is integrated with",
+      "desc": "Genie Code is integrated with Databricks notebooks and optimized to automate exploratory data analysis and model training."
+    },
+    {
+      "title": "Pipeline development in Lakeflow",
+      "desc": "Pipeline development in Lakeflow"
+    },
+    {
+      "title": "Genie Code has data engineering",
+      "desc": "Genie Code has data engineering capabilities that make it easy to automate ETL workloads and build Lakeflow Spark Declarative…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Genie Code Agent mode is now available by default for workspaces with the compliance security profile enabled and HIPAA, PCI DSS, and FedRAMP Moderate controls selected.",
+  "note_id": "2026-05-25-418e9092",
+  "category": "platform"
+}

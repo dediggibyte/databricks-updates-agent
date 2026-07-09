@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-31-databricks-documentation-site-table-of-contents-tabs",
+  "title": "Databricks Documentation site table of contents tabs",
+  "date": "2026-03-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-documentation-site-table-of-contents-tabs",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The [Databricks Documentation site](https://docs.databricks.com) now provides a tabbed experience for easier navigation and discoverability of documentation pages. Click the links in the documentation site header to switch between information contexts: usage guides, getting started, developer tools and partners, reference, resources, and release notes.",
+  "ref_links": [
+    {
+      "text": "Databricks Documentation site",
+      "url": "https://docs.databricks.com"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.826149Z"
+}

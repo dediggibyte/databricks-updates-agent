@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-26-oauth-token-federation-is-now-ga",
+  "title": "OAuth token federation is now GA",
+  "date": "2025-08-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#oauth-token-federation-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "OAuth token federation is now generally available. Token federation enables you to securely access Databricks APIs using tokens from your identity provider (IdP). You can configure token federation policies directly in the Databricks UI, or using the Databricks CLI or REST API.\n\nSee [Configure a federation policy](/aws/en/dev-tools/auth/oauth-federation-policy).",
+  "ref_links": [
+    {
+      "text": "Configure a federation policy",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/auth/oauth-federation-policy"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.246937Z"
+}

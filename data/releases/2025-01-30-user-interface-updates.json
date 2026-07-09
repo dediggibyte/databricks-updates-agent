@@ -1,0 +1,17 @@
+{
+  "id": "2025-01-30-user-interface-updates",
+  "title": "User interface updates",
+  "date": "2025-01-30",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-7",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Completed query count chart for SQL warehouses (Public Preview)**: A new **Completed query count** chart is now available on the SQL warehouse monitoring UI. This chart shows the number of queries finished in a time window, including canceled and failed queries. The chart can be used with the other charts and the Query History table to assess and troubleshoot the performance of the warehouse. The query is allocated in the time window it is completed. Counts are averaged per minute. For more information, see [Monitor a SQL warehouse](/aws/en/compute/sql-warehouse/monitor).\n* **Expanded data display in SQL editor charts**: Visualizations created in the SQL editor now support up to 15,000 rows of data.",
+  "ref_links": [
+    {
+      "text": "Monitor a SQL warehouse",
+      "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/monitor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.439512Z"
+}

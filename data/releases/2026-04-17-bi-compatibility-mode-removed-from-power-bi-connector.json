@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-17-bi-compatibility-mode-removed-from-power-bi-connector",
+  "title": "BI compatibility mode removed from Power BI connector",
+  "date": "2026-04-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#bi-compatibility-mode-removed-from-power-bi-connector",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Microsoft has removed the **BI compatibility mode** option, which allows you to query Unity Catalog metric views in Power BI, from the Power BI Databricks connector. Reports that use this connector option no longer function. To request restored support for Databricks metric views in Power BI, vote and provide feedback on the [Fabric Ideas community post](https://community.fabric.microsoft.com/t5/Fabric-Ideas/Enable-native-Power-BI-integration-with-Databricks-Metric-View/idi-p/4823684). BI compatibility mode is still available for other BI tools. See [Query metric views with BI compatibility mode](/aws/en/partners/bi/bi-metric-view).",
+  "ref_links": [
+    {
+      "text": "Fabric Ideas community post",
+      "url": "https://community.fabric.microsoft.com/t5/Fabric-Ideas/Enable-native-Power-BI-integration-with-Databricks-Metric-View/idi-p/4823684"
+    },
+    {
+      "text": "Query metric views with BI compatibility mode",
+      "url": "https://docs.databricks.com/aws/en/partners/bi/bi-metric-view"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.787947Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-13-column-level-sap-governance-tags-sync-into-unity-catalog",
+  "title": "Column-level SAP governance tags sync into Unity Catalog",
+  "date": "2026-04-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#column-level-sap-governance-tags-sync-into-unity-catalog",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Column-level personal data governance tags from SAP Business Data Cloud (BDC) now sync into Unity Catalog, including `fieldSemantics`, `isPotentiallyPersonal`, and `isPotentiallySensitive`. Use these tags in attribute-based access control (ABAC) policies to govern access to sensitive columns. See [SAP BDC semantic metadata](/aws/en/opensharing/sap-bdc/semantic-metadata).",
+  "ref_links": [
+    {
+      "text": "SAP BDC semantic metadata",
+      "url": "https://docs.databricks.com/aws/en/opensharing/sap-bdc/semantic-metadata"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.802254Z"
+}

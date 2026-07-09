@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-23-google-drive-connector-beta",
+  "title": "Google Drive connector (Beta)",
+  "date": "2026-01-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#google-drive-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The standard Google Drive connector in Lakeflow Connect allows you ingest Google Drive files into Databricks. You can use `read_files`, `spark.read`, `COPY INTO`, and Auto Loader to create Spark DataFrames, materialized views, and streaming tables, enabling you to build custom pipelines for common file ingestion use cases. See [Ingest files from Google Drive](/aws/en/ingestion/google-drive).",
+  "ref_links": [
+    {
+      "text": "Ingest files from Google Drive",
+      "url": "https://docs.databricks.com/aws/en/ingestion/google-drive"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.023604Z"
+}

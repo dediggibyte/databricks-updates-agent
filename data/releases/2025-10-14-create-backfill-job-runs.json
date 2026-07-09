@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-14-create-backfill-job-runs",
+  "title": "Create backfill job runs",
+  "date": "2025-10-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#create-backfill-job-runs",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Job backfills allow you to trigger job runs to backfill data from the past. This is useful for loading older data, or repairing data when there are failures in processing. For more details, see [Backfill jobs](/aws/en/jobs/backfill-jobs).",
+  "ref_links": [
+    {
+      "text": "Backfill jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/backfill-jobs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.170601Z"
+}

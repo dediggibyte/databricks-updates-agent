@@ -1,0 +1,37 @@
+{
+  "product": "Behavior changes for continuous jobs and pipelines",
+  "tagline": "In early August 2026, continuous Lakeflow Spark Declarative Pipelines and jobs will receive updates to simplify configuration and state management.",
+  "updated": "Jul 8, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/serverless#performance",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#behavior-changes-for-continuous-jobs-and-pipelines",
+  "what_it_does": "In early August 2026, continuous Lakeflow Spark Declarative Pipelines and jobs will receive updates to simplify configuration and state management. Continuous pipelines You will be able to configure a continuous schedule directly from the pipeline page, including job level settings such as performance mode. Configuring a continuous schedule this way wraps the pipeline in a continuous job.",
+  "why_it_matters": "Continuous pipelines You will be able to configure a continuous schedule directly from the pipeline page, including job level settings such as performance mode.",
+  "capabilities": [
+    {
+      "title": "Set arbitrary parameters you can",
+      "desc": "Set arbitrary parameters you can reference in your source code. See Use parameters with pipelines."
+    },
+    {
+      "title": "Configure pipeline settings and Spark",
+      "desc": "Configure pipeline settings and Spark configurations. See Pipeline properties reference. Use the Preview channel to test your…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "In early August 2026, continuous Lakeflow Spark Declarative Pipelines and jobs will receive updates to simplify configuration and state management.",
+  "note_id": "2026-07-08-behavior-changes-for-continuous-jobs-and-pipelines",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2025-09-29-anthropic-claude-opus-4-1-now-available-as-a-databricks-hosted-foundation-model",
+  "title": "Anthropic Claude Opus 4.1 now available as a Databricks-hosted foundation model",
+  "date": "2025-09-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#anthropic-claude-opus-41-now-available-as-a-databricks-hosted-foundation-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports Anthropic's [Claude Opus 4.1](/aws/en/machine-learning/foundation-model-apis/supported-models#claude-opus-4-1) a Databricks-hosted foundation model. You can access this model using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).",
+  "ref_links": [
+    {
+      "text": "Claude Opus 4.1",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#claude-opus-4-1"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.199307Z"
+}

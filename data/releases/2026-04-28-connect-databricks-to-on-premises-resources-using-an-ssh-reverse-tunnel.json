@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-28-connect-databricks-to-on-premises-resources-using-an-ssh-reverse-tunnel",
+  "title": "Connect Databricks to on-premises resources using an SSH reverse tunnel",
+  "date": "2026-04-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#connect-databricks-to-on-premises-resources-using-an-ssh-reverse-tunnel",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now connect Databricks classic and serverless compute to on-premises resources without opening inbound firewall access by configuring an SSH reverse tunnel with proxy VMs in AWS. See [Connect to on-premises resources using an SSH reverse tunnel](/aws/en/security/network/serverless-network-security/ssh-reverse-tunnel).",
+  "ref_links": [
+    {
+      "text": "Connect to on-premises resources using an SSH reverse tunnel",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/ssh-reverse-tunnel"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.758236Z"
+}

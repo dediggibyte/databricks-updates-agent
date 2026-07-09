@@ -1,0 +1,45 @@
+{
+  "product": "Version 18.1",
+  "tagline": "This serverless compute release roughly corresponds to Databricks Runtime 18.1.",
+  "updated": "Apr 20, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/error-messages",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/serverless#version-181",
+  "what_it_does": "This serverless compute release roughly corresponds to Databricks Runtime 18.1. New features DATETIMEOFFSET data type support for Microsoft Azure Synapse: The DATETIMEOFFSET data type is supported for Microsoft Azure Synapse connections. Google BigQuery table comments: Google BigQuery table descriptions are resolved and exposed as table comments.",
+  "why_it_matters": "The function runs on the Photon engine for improved performance.",
+  "capabilities": [
+    {
+      "title": "stestimatesrid function: Estimates the best",
+      "desc": "stestimatesrid function: Estimates the best projected spatial reference identifier (SRID) for an input geometry."
+    },
+    {
+      "title": "stforce2d function: Converts a geography",
+      "desc": "stforce2d function: Converts a geography or geometry to its 2D representation."
+    },
+    {
+      "title": "stnrings function: Counts the total",
+      "desc": "stnrings function: Counts the total number of rings in a polygon or multipolygon, including both exterior and interior rings."
+    },
+    {
+      "title": "stnumpoints function: Counts the number",
+      "desc": "stnumpoints function: Counts the number of non-empty points in a geography or geometry. Photon support for geospatial functions…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "This serverless compute release roughly corresponds to Databricks Runtime 18.1.",
+  "note_id": "2026-04-20-version-18-1",
+  "category": "platform"
+}

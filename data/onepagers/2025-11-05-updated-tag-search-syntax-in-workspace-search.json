@@ -1,0 +1,28 @@
+{
+  "product": "Updated tag search syntax in workspace search",
+  "tagline": "The workspace search syntax for searching tables and views by tag has been updated.",
+  "updated": "Nov 5, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/search#tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#updated-tag-search-syntax-in-workspace-search",
+  "what_it_does": "The workspace search syntax for searching tables and views by tag has been updated. To search by both tag key and value, use the syntax tag:<tag key :<tag value . Previously, the syntax was to omit tag: when searching by both key and value.",
+  "why_it_matters": "Popularity Search uses popularity signals based on how often other users in your workspace are interacting with specific tables to improve how tables are ranked.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The workspace search syntax for searching tables and views by tag has been updated.",
+  "note_id": "2025-11-05-updated-tag-search-syntax-in-workspace-search",
+  "category": "platform"
+}

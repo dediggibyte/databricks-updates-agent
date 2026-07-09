@@ -1,0 +1,12 @@
+{
+  "id": "2025-05-15-dashboard-query-updates-and-calculation-support",
+  "title": "Dashboard query updates and calculation support",
+  "date": "2025-05-15",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-query-updates-and-calculation-support",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie in dashboards query update**: Genie in dashboards will now only query from dashboard datasets, instead of the underlying tables within dashboard datasets.\n* **Custom calculation support in dashboards**: Added support for custom calculations using `isnull`, `isnotnull` functions, and the `null` operator.\n* **AI/BI dashboard schedule support**: AI/BI dashboard schedules now support dashboards without embedded credentials.\n* **Dashboard tooltip and number formatting fixes**:\n\n  + **Tooltip fix**: Fixed tooltips to display an empty value when the field value is an empty string (\"\").\n  + **Number formatting support**: Number formatting in table and pivot table cells from notebooks, SQL editor, and legacy dashboards can now be carried over to AI/BI dashboards.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.397206Z"
+}

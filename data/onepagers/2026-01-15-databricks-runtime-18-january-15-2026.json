@@ -1,0 +1,41 @@
+{
+  "product": "Databricks Runtime 18: January 15, 2026",
+  "tagline": "Databricks Runtime 18 is now in feature development, powered by Apache Spark 4.1.0.",
+  "updated": "Jan 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/structured-streaming/state-repartitioning",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-january-15-2026",
+  "what_it_does": "Databricks Runtime 18 is now in feature development, powered by Apache Spark 4.1.0. This version incorporates all features, improvements, and bug fixes from all previous Databricks Runtime releases. Behavioral changes Review the following changes, which take effect when clusters restart on this runtime.",
+  "why_it_matters": "This version incorporates all features, improvements, and bug fixes from all previous Databricks Runtime releases.",
+  "capabilities": [
+    {
+      "title": "Double.toString() and Float.toString() now produce",
+      "desc": "Double.toString() and Float.toString() now produce shortest unique string representations, which might differ from JDK 17…"
+    },
+    {
+      "title": "Thread.stop(), Thread.suspend(), and Thread.resume() now",
+      "desc": "Thread.stop(), Thread.suspend(), and Thread.resume() now throw UnsupportedOperationException."
+    },
+    {
+      "title": "Updated locale data (CLDR v42)",
+      "desc": "Updated locale data (CLDR v42) might affect date, time, and number formatting."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks Runtime 18 is now in feature development, powered by Apache Spark 4.1.0.",
+  "note_id": "2026-01-15-databricks-runtime-18-january-15-2026",
+  "category": "platform"
+}

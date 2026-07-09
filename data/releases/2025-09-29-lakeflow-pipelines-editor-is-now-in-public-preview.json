@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-29-lakeflow-pipelines-editor-is-now-in-public-preview",
+  "title": "Lakeflow Pipelines Editor is now in public preview",
+  "date": "2025-09-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#lakeflow-pipelines-editor-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Lakeflow Pipelines Editor (previously called the *multi-file editor*) is now in public preview. The Lakeflow Pipelines Editor shows a pipeline as a set of files in the pipeline asset browser. You can edit the files and control the configuration of the pipeline and which files to include in one location. This also changes the default source code format for pipelines from notebooks to Python and SQL code files.\n\nSee [Develop and debug ETL pipelines with the Lakeflow Pipelines Editor](/aws/en/ldp/multi-file-editor).",
+  "ref_links": [
+    {
+      "text": "Develop and debug ETL pipelines with the Lakeflow Pipelines Editor",
+      "url": "https://docs.databricks.com/aws/en/ldp/multi-file-editor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.200001Z"
+}

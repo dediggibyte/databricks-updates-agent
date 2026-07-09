@@ -1,0 +1,28 @@
+{
+  "product": "Genie conversation API and prompt matching",
+  "tagline": "Easier to understand audit events in Genie: The updateConversationMessageFeedback audit event now includes a feedback rating field to quickly see whether a rating is positive or negative.",
+  "updated": "Mar 13, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/set-up",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-conversation-api-and-prompt-matching",
+  "what_it_does": "Easier to understand audit events in Genie: The updateConversationMessageFeedback audit event now includes a feedback rating field to quickly see whether a rating is positive or negative. Genie Conversations API in Public Preview: The Genie Conversation API is now in Public Preview. Use the API to ask questions, retrieve generated SQL and query results, or get the details associated with a Genie Space.",
+  "why_it_matters": "Genie prompt matching is now available in Public Preview: Prompt matching (previously data sampling) improves Genie's ability to translate user prompts into the right column and row values.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Easier to understand audit events in Genie: The updateConversationMessageFeedback audit event now includes a feedback rating field to quickly see whether a rating is positive or negative.",
+  "note_id": "2025-03-13-genie-conversation-api-and-prompt-matching",
+  "category": "platform"
+}

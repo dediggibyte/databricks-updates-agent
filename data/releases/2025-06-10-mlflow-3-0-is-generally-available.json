@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-10-mlflow-3-0-is-generally-available",
+  "title": "MLflow 3.0 is generally available",
+  "date": "2025-06-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#mlflow-30-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "MLflow 3.0 is now generally available.\n\nMLflow 3.0 on Databricks delivers state-of-the-art experiment tracking, observability, and performance evaluation for machine learning models, generative AI applications, and agents on the Databricks Lakehouse. See [Get started with MLflow 3 for models](/aws/en/mlflow/mlflow-3-install).",
+  "ref_links": [
+    {
+      "text": "Get started with MLflow 3 for models",
+      "url": "https://docs.databricks.com/aws/en/mlflow/mlflow-3-install"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.362523Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2025-08-07-use-openai-gpt-oss-models-for-batch-inference-and-structured-outputs",
+  "title": "Use OpenAI GPT OSS models for batch inference and structured outputs",
+  "date": "2025-08-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#use-openai-gpt-oss-models-for-batch-inference-and-structured-outputs",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks-hosted foundation models, OpenAI GPT OSS 120B and GPT OSS 20B are now optimized for AI Functions, which means you can [perform batch inference](/aws/en/large-language-models/ai-functions) using these models and AI Functions like `ai_query()`. Inference workloads that use these models also now support [specifying structured outputs](/aws/en/sql/language-manual/functions/ai_query#structured-output).",
+  "ref_links": [
+    {
+      "text": "perform batch inference",
+      "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions"
+    },
+    {
+      "text": "specifying structured outputs",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_query#structured-output"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.279495Z"
+}

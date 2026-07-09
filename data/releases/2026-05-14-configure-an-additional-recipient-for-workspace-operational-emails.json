@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-14-configure-an-additional-recipient-for-workspace-operational-emails",
+  "title": "Configure an additional recipient for workspace operational emails",
+  "date": "2026-05-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#configure-an-additional-recipient-for-workspace-operational-emails",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Workspace admins can now add an additional email recipient to receive operational emails about a workspace. Once configured, this address receives the same operational updates as workspace admins, including things like breaking changes, incident communications, and feature rollout announcements. To deliver to multiple people, use a distribution-list alias. See [Manage workspace email settings](/aws/en/admin/workspace-settings/email).",
+  "ref_links": [
+    {
+      "text": "Manage workspace email settings",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/email"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.703455Z"
+}

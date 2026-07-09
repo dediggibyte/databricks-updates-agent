@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-11-foreign-apache-iceberg-tables-are-in-public-preview",
+  "title": "Foreign Apache Iceberg tables are in Public Preview",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#foreign-apache-iceberg-tables-are-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Foreign Apache Iceberg tables are now in Public Preview. You can read Iceberg tables managed by foreign catalogs, such as HMS, Glue, and Snowflake Horizon Catalog, using Lakehouse Federation. These tables support Unity Catalog advanced features such as fine-grained access controls, lineage, and auditing. See [What is Apache Iceberg in Databricks?](/aws/en/iceberg) and [Work with foreign tables](/aws/en/tables/foreign).",
+  "ref_links": [
+    {
+      "text": "What is Apache Iceberg in Databricks?",
+      "url": "https://docs.databricks.com/aws/en/iceberg"
+    },
+    {
+      "text": "Work with foreign tables",
+      "url": "https://docs.databricks.com/aws/en/tables/foreign"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.360208Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2025-04-03-dashboard-publishing-and-visualization-updates",
+  "title": "Dashboard publishing and visualization updates",
+  "date": "2025-04-03",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-publishing-and-visualization-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Streamlined publish flow**: All publish actions now embed the publishing user's warehouse permission. The only decision is whether to embed the data credential. Embedding credentials removes the previous requirement of all users requiring individual access to the selected warehouse if the dashboard was published without embedded credentials. See [What are shared data permissions?](/aws/en/dashboards/share/share#data-compute).\n* **Continue Genie conversations**: When Genie is enabled for a dashboard, opening it now resumes the last conversation until a new one is started.\n* **Stable color assignment**: Color assignment is now stable as filter values change.\n* **PNG download support for maps**: Downloading PNGs for maps is now supported.\n* **Sankey visualizations**: Sankey visualizations are now available on AI/BI dashboards. See [Sankey diagram](/aws/en/dashboards/manage/visualizations/types#sankey).",
+  "ref_links": [
+    {
+      "text": "What are shared data permissions?",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/share#data-compute"
+    },
+    {
+      "text": "Sankey diagram",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#sankey"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.414444Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-11-microsoft-sharepoint-connector-beta",
+  "title": "Microsoft SharePoint connector (Beta)",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#microsoft-sharepoint-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The fully-managed Microsoft SharePoint connector in Lakeflow Connect allows you to ingest data from SharePoint into Databricks. See [Overview of SharePoint ingestion setup](/aws/en/ingestion/lakeflow-connect/sharepoint-source-setup-overview).\n\nThe Beta release supports API-based pipeline creation. UI-based pipeline creation is not yet supported.",
+  "ref_links": [
+    {
+      "text": "Overview of SharePoint ingestion setup",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sharepoint-source-setup-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.354661Z"
+}

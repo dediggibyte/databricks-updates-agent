@@ -1,0 +1,37 @@
+{
+  "id": "2026-03-12-dashboard-enhancements-and-improvements",
+  "title": "Dashboard enhancements and improvements",
+  "date": "2026-03-12",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dashboard embedding for external users is generally available**: Embed AI/BI dashboards in external applications without requiring viewers to have Databricks accounts. See [What is embedding for external users?](/aws/en/dashboards/share/embedding/external-embed).\n* **Hide Databricks logo in embedded dashboards**: Externally embedded dashboards now support hiding the Databricks logo using the `hideDatabricksLogo` option. See [Hide the Databricks logo](/aws/en/dashboards/share/embedding/external-embed#hide-logo).\n* **Metric view lineage highlighting**: Hovering over metric views in the lineage pane now highlights the visualizations built on those metric views.\n* **Certification and deprecation icons in lineage**: Data objects in the dashboard lineage pane now show their certification or deprecation status.\n* **Clear individual active filters**: You can now remove a single filter selection from the active filter bar without resetting all active filters.\n* **Mobile layouts**: Dashboards now automatically render in a mobile-friendly layout when viewed on small screens in Genie One. See [Mobile layout](/aws/en/dashboards/concepts#mobile-layout).\n* **Custom subscription email subjects**: When configuring a dashboard subscription, authors can now edit the subject line of notification emails sent to subscribers.\n* **Accounting-style number formatting**: Number fields now support accounting-style formatting, which displays negative values in parentheses and vertically aligns currency symbols. See [Format numeric values](/aws/en/dashboards/manage/visualizations#number-formatting).\n* **Custom fonts**: Dashboard authors can now select custom fonts for dashboards. Fonts must be preinstalled on viewer machines. If a font is not available, dashboards fall back to Databricks default fonts. See [Set a custom font](/aws/en/dashboards/manage/settings#custom-font).\n* **Genie Code for dashboard authoring (Public Preview)**: Automate multi-step dashboard workflows using natural language prompts to create datasets, visualizations, layouts, and filters. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).",
+  "ref_links": [
+    {
+      "text": "What is embedding for external users?",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/embedding/external-embed"
+    },
+    {
+      "text": "Hide the Databricks logo",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/embedding/external-embed#hide-logo"
+    },
+    {
+      "text": "Mobile layout",
+      "url": "https://docs.databricks.com/aws/en/dashboards/concepts#mobile-layout"
+    },
+    {
+      "text": "Format numeric values",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#number-formatting"
+    },
+    {
+      "text": "Set a custom font",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#custom-font"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.882332Z"
+}

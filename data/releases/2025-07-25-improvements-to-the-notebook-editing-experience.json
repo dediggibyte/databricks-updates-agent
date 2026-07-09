@@ -1,0 +1,25 @@
+{
+  "id": "2025-07-25-improvements-to-the-notebook-editing-experience",
+  "title": "Improvements to the notebook editing experience",
+  "date": "2025-07-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#improvements-to-the-notebook-editing-experience",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The following improvements have been made to the notebook editing experience:\n\n* Add a split view to edit notebooks side by side. See [Edit notebooks side by side](/aws/en/notebooks/basic-editing#splitview).\n* Pressing `Cmd + F` (Mac) or `Ctrl + F` (Windows) in a notebook now opens the native Databricks find-and-replace tool. This allows you to quickly search and replace text throughout your entire notebook, including content outside the current viewport. See [Find and replace text](/aws/en/notebooks/notebook-editor#find-and-replace-text).\n* Quickly switch between tab groups based on authoring contexts using the , , and  icons on the top left in the editor. See [Switch between authoring contexts](/aws/en/workspace/navigate-workspace#authoring-contexts).",
+  "ref_links": [
+    {
+      "text": "Edit notebooks side by side",
+      "url": "https://docs.databricks.com/aws/en/notebooks/basic-editing#splitview"
+    },
+    {
+      "text": "Find and replace text",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-editor#find-and-replace-text"
+    },
+    {
+      "text": "Switch between authoring contexts",
+      "url": "https://docs.databricks.com/aws/en/workspace/navigate-workspace#authoring-contexts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.302317Z"
+}

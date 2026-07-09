@@ -1,0 +1,21 @@
+{
+  "id": "2026-03-09-multi-table-transactions-are-now-in-public-preview",
+  "title": "Multi-table transactions are now in Public Preview",
+  "date": "2026-03-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#multi-table-transactions-are-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now group multiple SQL statements across multiple tables into a single atomic transaction using `BEGIN ATOMIC ... END;` syntax. All changes succeed together or roll back together, ensuring data consistency across your operations. Multi-table transactions require [catalog commits](/aws/en/tables/features/catalog-commits) enabled on participating tables and are supported on Unity Catalog managed Delta tables.\n\nSee [Transactions](/aws/en/transactions).",
+  "ref_links": [
+    {
+      "text": "catalog commits",
+      "url": "https://docs.databricks.com/aws/en/tables/features/catalog-commits"
+    },
+    {
+      "text": "Transactions",
+      "url": "https://docs.databricks.com/aws/en/transactions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.901621Z"
+}

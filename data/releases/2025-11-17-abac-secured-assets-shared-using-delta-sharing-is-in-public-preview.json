@@ -1,0 +1,21 @@
+{
+  "id": "2025-11-17-abac-secured-assets-shared-using-delta-sharing-is-in-public-preview",
+  "title": "ABAC-secured assets shared using Delta Sharing is in Public Preview",
+  "date": "2025-11-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#abac-secured-assets-shared-using-delta-sharing-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Applying attribute-based access control (ABAC) policies to tables and schemas shared through Delta Sharing is now in Public Preview. However, recipients can't apply ABAC policies on shared streaming tables or materialized views.\n\nSee [Add tables and schemas secured by ABAC policies to a share](/aws/en/opensharing/create-share#abac) and [Read ABAC-secured data and apply ABAC policies](/aws/en/opensharing/read-data-databricks#abac).",
+  "ref_links": [
+    {
+      "text": "Add tables and schemas secured by ABAC policies to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#abac"
+    },
+    {
+      "text": "Read ABAC-secured data and apply ABAC policies",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#abac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.112869Z"
+}

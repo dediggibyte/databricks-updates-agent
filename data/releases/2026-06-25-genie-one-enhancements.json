@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-25-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-06-25",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Share chats with account users**: You can now share Genie One chats with all users in your account as read-only. See [Share a chat](/aws/en/genie-one/chat#share-chat).\n* **New external source connections (Beta)**: Chat in Genie One now supports connecting to Gmail and additional Microsoft 365 apps (Teams, Outlook, and Calendar). See [Connect to external tools and sources](/aws/en/genie-one/external-sources).\n* **Scheduled task frequency limit**: Scheduled tasks can no longer be created with a frequency greater than daily. Hourly and per-minute frequencies are no longer supported. Contact your Databricks account team if you require more frequent scheduling.\n* **Scheduled task email prefix**: Scheduled task notification emails now use the prefix \"Genie Task:\" instead of \"Task update:\".",
+  "ref_links": [
+    {
+      "text": "Share a chat",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#share-chat"
+    },
+    {
+      "text": "Connect to external tools and sources",
+      "url": "https://docs.databricks.com/aws/en/genie-one/external-sources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.541723Z"
+}

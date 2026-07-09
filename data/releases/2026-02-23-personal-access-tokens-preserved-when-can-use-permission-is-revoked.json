@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-23-personal-access-tokens-preserved-when-can-use-permission-is-revoked",
+  "title": "Personal access tokens preserved when CAN USE permission is revoked",
+  "date": "2026-02-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#personal-access-tokens-preserved-when-can-use-permission-is-revoked",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When you revoke a user's CAN USE permission, their personal access tokens become unusable but are not deleted. If the permission is restored, the same tokens become active again. See [Manage personal access token permissions](/aws/en/security/auth/api-access-permissions).",
+  "ref_links": [
+    {
+      "text": "Manage personal access token permissions",
+      "url": "https://docs.databricks.com/aws/en/security/auth/api-access-permissions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.941804Z"
+}

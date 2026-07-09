@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-03-375405d7",
+  "title": "Declarative Automation Bundles will soon default to use the direct deployment engine",
+  "date": "2026-06-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#declarative-automation-bundles-will-soon-default-to-use-the-direct-deployment-engine",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "On July 24, 2026, Declarative Automation Bundles will start using the direct deployment engine by default instead of the Terraform deployment engine. This will trigger a migration for all bundles still using the Terraform deployment engine.\n\nFor more information about the direct deployment engine and migration from the Terraform deployment engine, see [Migrate to the direct deployment engine](/aws/en/dev-tools/bundles/direct).\n\nThe Terraform deployment engine will eventually be removed and no longer available.",
+  "ref_links": [
+    {
+      "text": "Migrate to the direct deployment engine",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/direct"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.633084Z"
+}

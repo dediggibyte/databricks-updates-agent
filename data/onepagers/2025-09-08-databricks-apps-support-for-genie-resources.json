@@ -1,0 +1,45 @@
+{
+  "product": "Databricks Apps support for Genie resources",
+  "tagline": "Databricks Apps now supports adding a Genie Space as an app resource to enable natural language querying over curated datasets.",
+  "updated": "Sep 8, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/genie",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-apps-support-for-genie-resources",
+  "what_it_does": "Databricks Apps now supports adding a Genie Space as an app resource to enable natural language querying over curated datasets. Add Genie Agents as Databricks Apps resources to enable natural language querying in your applications. Genie Agents provide a conversational interface for data exploration, allowing users to ask business questions in plain English and receive SQL based insights from your curated datasets.",
+  "why_it_matters": "Ensure the Genie Agent contains well curated datasets and metadata to improve the quality of natural language query responses.",
+  "capabilities": [
+    {
+      "title": "name: GENIESPACEID valueFrom: genie-space #",
+      "desc": "name: GENIESPACEID valueFrom: genie-space # Use your custom resource key if different"
+    },
+    {
+      "title": "name: GENIESPACEID valueFrom: genie-space",
+      "desc": "name: GENIESPACEID valueFrom: genie-space"
+    },
+    {
+      "title": "name: SQLWAREHOUSEID valueFrom: sql-warehouse",
+      "desc": "name: SQLWAREHOUSEID valueFrom: sql-warehouse"
+    },
+    {
+      "title": "name: EXTERNALAPIKEY valueFrom: viz-secret",
+      "desc": "name: EXTERNALAPIKEY valueFrom: viz-secret"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks Apps now supports adding a Genie Space as an app resource to enable natural language querying over curated datasets.",
+  "note_id": "2025-09-08-databricks-apps-support-for-genie-resources",
+  "category": "platform"
+}

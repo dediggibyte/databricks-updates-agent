@@ -1,0 +1,21 @@
+{
+  "id": "2025-07-17-sql-editor-updates",
+  "title": "SQL editor updates",
+  "date": "2025-07-17",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#sql-editor-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Improvements to named parameters**: Date-range and multi-select parameters are now supported. For date range parameters, see [Add a date range using `.min` and `.max`](/aws/en/sql/user/queries/query-parameters#add-a-date-range-using-min-and-max). For multi-select parameters, see [Pass multiple values as a string](/aws/en/sql/user/queries/query-parameters#pass-multiple-values-as-a-string).\n* **Updated header layout in SQL editor**: The run button and catalog picker have moved to the header, creating more vertical space for writing queries.",
+  "ref_links": [
+    {
+      "text": "Add a date range using .min and .max",
+      "url": "https://docs.databricks.com/aws/en/sql/user/queries/query-parameters#add-a-date-range-using-min-and-max"
+    },
+    {
+      "text": "Pass multiple values as a string",
+      "url": "https://docs.databricks.com/aws/en/sql/user/queries/query-parameters#pass-multiple-values-as-a-string"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.317929Z"
+}

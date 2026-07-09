@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-02-semantic-metadata-support-for-metric-views",
+  "title": "Semantic metadata support for metric views",
+  "date": "2025-10-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#semantic-metadata-support-for-metric-views",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now define semantic metadata in a metric view. Semantic metadata helps AI tools such as Genie Spaces and AI/BI dashboards interpret and use your data more effectively.\n\nTo use semantic metadata, your metric view must use YAML specification version 1.1 or higher and run on Databricks Runtime 17.3 or above. The corresponding Databricks SQL version is 2025.30, available in the Preview channel for SQL warehouses.\n\nSee [Agent metadata in metric views](/aws/en/business-semantics/agent-metadata) and [Upgrade considerations](/aws/en/business-semantics/metric-views/yaml-reference#upgrade-recs).",
+  "ref_links": [
+    {
+      "text": "Agent metadata in metric views",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/agent-metadata"
+    },
+    {
+      "text": "Upgrade considerations",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/metric-views/yaml-reference#upgrade-recs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.192953Z"
+}

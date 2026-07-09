@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-12-lakebase-autoscaling-lakehouse-sync-is-now-in-public-preview",
+  "title": "Lakebase Autoscaling: Lakehouse Sync is now in Public Preview",
+  "date": "2026-05-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakebase-autoscaling-lakehouse-sync-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakehouse Sync is now in Public Preview for Lakebase Autoscaling. Lakehouse Sync enables continuous, low-latency replication of your Lakebase Postgres tables into Unity Catalog managed Delta tables using Change Data Capture (CDC). See [Lakebase Change Data Feed](/aws/en/oltp/projects/lakebase-cdf).",
+  "ref_links": [
+    {
+      "text": "Lakebase Change Data Feed",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-cdf"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.717434Z"
+}

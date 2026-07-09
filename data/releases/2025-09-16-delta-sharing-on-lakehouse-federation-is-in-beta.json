@@ -1,0 +1,21 @@
+{
+  "id": "2025-09-16-delta-sharing-on-lakehouse-federation-is-in-beta",
+  "title": "Delta Sharing on Lakehouse Federation is in Beta",
+  "date": "2025-09-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#delta-sharing-on-lakehouse-federation-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use Delta Sharing to share foreign schemas and tables created with query federation in Databricks-to-Databricks sharing and open sharing. See [Add foreign schemas or tables to a share](/aws/en/opensharing/create-share#foreign-asset) and [Read data in a shared foreign table or foreign schema](/aws/en/opensharing/read-data-databricks#foreign-tables).",
+  "ref_links": [
+    {
+      "text": "Add foreign schemas or tables to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#foreign-asset"
+    },
+    {
+      "text": "Read data in a shared foreign table or foreign schema",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#foreign-tables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.217062Z"
+}

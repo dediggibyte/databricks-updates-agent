@@ -1,0 +1,45 @@
+{
+  "product": "Genie knowledge store enhancements and benchmark improvements",
+  "tagline": "Easier benchmark generation: + Space editors can save representative messages or SQL answers from chat conversations to benchmark questions.",
+  "updated": "Oct 9, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/monitor#review-single-eval",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-knowledge-store-enhancements-and-benchmark-improvements",
+  "what_it_does": "Easier benchmark generation: + Space editors can save representative messages or SQL answers from chat conversations to benchmark questions. + Space editors can generate benchmark SQL answers after entering a benchmark text question. + Accurate Genie answers from one benchmark result can now be saved to update future benchmark sets.",
+  "why_it_matters": "Improved performance and latency: Genie's internal reasoning process has been simplified, slightly improving overall latency and streamlining context for SQL generation.",
+  "capabilities": [
+    {
+      "title": "Space editors can save representative",
+      "desc": "Space editors can save representative messages or SQL answers from chat conversations to benchmark questions. See Other response…"
+    },
+    {
+      "title": "Space editors can generate benchmark",
+      "desc": "Space editors can generate benchmark SQL answers after entering a benchmark text question. See Add benchmark questions."
+    },
+    {
+      "title": "Accurate Genie answers from one",
+      "desc": "Accurate Genie answers from one benchmark result can now be saved to update future benchmark sets. See Review individual…"
+    },
+    {
+      "title": "Click Submit and try again",
+      "desc": "Click Submit and try again to regenerate the response using the provided feedback."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Easier benchmark generation: + Space editors can save representative messages or SQL answers from chat conversations to benchmark questions.",
+  "note_id": "2025-10-09-genie-knowledge-store-enhancements-and-benchmark-improvements",
+  "category": "platform"
+}

@@ -1,0 +1,28 @@
+{
+  "product": "Genie enhancements and fixes",
+  "tagline": "Numeric column formatting: Numeric columns in tables are now formatted more effectively, including IDs, ZIP codes, and currency.",
+  "updated": "Dec 18, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-enhancements-and-fixes",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-enhancements-and-fixes",
+  "what_it_does": "Numeric column formatting: Numeric columns in tables are now formatted more effectively, including IDs, ZIP codes, and currency. File upload fix for CAN MANAGE users: Fixed an issue where CAN MANAGE users couldn't use the upload file feature. Entity matching indexing improvements: Entity matching (previously value dictionaries) now scans up to 100 million rows (previously 100,000 rows) to detect up to 1024 unique values.",
+  "why_it_matters": "Entity matching indexing improvements: Entity matching (previously value dictionaries) now scans up to 100 million rows (previously 100,000 rows) to detect up to 1024 unique values.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Numeric column formatting: Numeric columns in tables are now formatted more effectively, including IDs, ZIP codes, and currency.",
+  "note_id": "2025-12-18-genie-enhancements-and-fixes",
+  "category": "platform"
+}

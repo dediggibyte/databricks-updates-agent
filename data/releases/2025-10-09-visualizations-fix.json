@@ -1,0 +1,12 @@
+{
+  "id": "2025-10-09-visualizations-fix",
+  "title": "Visualizations fix",
+  "date": "2025-10-09",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#visualizations-fix",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Legend selection for aliased series names**: Legend selection now works correctly for charts with aliased series names in SQL editor and notebooks.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.177836Z"
+}

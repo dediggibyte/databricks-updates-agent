@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-03-2218b027",
+  "title": "Upcoming change: Lakebase Autoscaling update notifications post 3 days in advance",
+  "date": "2026-07-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-change-lakebase-autoscaling-update-notifications-post-3-days-in-advance",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "To deliver Postgres version updates, security patches, and new features to your projects sooner, Lakebase Autoscaling is shortening the planned update notification window. Starting July 10, 2026, planned updates are posted at least 3 days in advance, rather than 7. You can continue to check your project's settings for upcoming updates.\n\nSee [Manage updates](/aws/en/oltp/projects/updates).",
+  "ref_links": [
+    {
+      "text": "Manage updates",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/updates"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.515932Z"
+}

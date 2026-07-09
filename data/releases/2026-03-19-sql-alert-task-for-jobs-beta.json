@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-19-sql-alert-task-for-jobs-beta",
+  "title": "SQL alert task for jobs (Beta)",
+  "date": "2026-03-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#sql-alert-task-for-jobs-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add a SQL alert task to your Databricks jobs to evaluate Databricks SQL alerts as part of your workflows. SQL alert tasks enable automated condition checks and notifications within your data pipelines. See [SQL alert task for jobs](/aws/en/jobs/tasks/alert).",
+  "ref_links": [
+    {
+      "text": "SQL alert task for jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/tasks/alert"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.861263Z"
+}

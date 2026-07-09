@@ -1,0 +1,21 @@
+{
+  "id": "2025-02-27-genie-file-uploads-and-formatting-improvements",
+  "title": "Genie file uploads and formatting improvements",
+  "date": "2025-02-27",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-file-uploads-and-formatting-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **File uploads in gated Public Preview**: A new feature that allows users to upload CSV and Excel files directly to a Genie Space. See [Upload a file to a Genie Agent](/aws/en/genie/file-upload). To enable file uploads, contact your Databricks account team.\n* **X-axis formatting**: The x-axis for **Combo** charts now applies formatting for improved readability.\n* **Consistent security settings**: Genie now respects the workspace level setting to enable **Results tables clipboard features** in admin security settings. See [Manage your workspace](/aws/en/admin/workspace-settings).",
+  "ref_links": [
+    {
+      "text": "Upload a file to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie/file-upload"
+    },
+    {
+      "text": "Manage your workspace",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.433795Z"
+}

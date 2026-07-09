@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-21-databricks-cli-is-now-ga",
+  "title": "Databricks CLI is now GA",
+  "date": "2026-05-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-cli-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks CLI is now generally available (GA). As part of this release, the CLI has been updated to store user-to-machine (U2M) tokens in OS-native secure storage. See [Token storage](/aws/en/dev-tools/cli/authentication#auth-storage).\n\nFor information about the Databricks CLI, see [Databricks CLI](/aws/en/dev-tools/cli).",
+  "ref_links": [
+    {
+      "text": "Token storage",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/cli/authentication#auth-storage"
+    },
+    {
+      "text": "Databricks CLI",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/cli"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.675793Z"
+}

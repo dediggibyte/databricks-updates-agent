@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-14-databricks-sql-alerts-are-now-in-public-preview",
+  "title": "Databricks SQL alerts are now in Public Preview",
+  "date": "2025-11-14",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-alerts-are-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Databricks SQL alerts**: The latest version of Databricks SQL alerts, with a new editing experience, is now in Public Preview. See [Databricks SQL alerts](/aws/en/sql/user/alerts).",
+  "ref_links": [
+    {
+      "text": "Databricks SQL alerts",
+      "url": "https://docs.databricks.com/aws/en/sql/user/alerts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.113524Z"
+}

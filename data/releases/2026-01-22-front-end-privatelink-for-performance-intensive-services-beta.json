@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-22-front-end-privatelink-for-performance-intensive-services-beta",
+  "title": "Front-end PrivateLink for performance-intensive services (Beta)",
+  "date": "2026-01-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#front-end-privatelink-for-performance-intensive-services-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use AWS front-end PrivateLink for private connectivity to performance-intensive services like Zerobus Ingest and Lakebase Autoscaling. See [Configure inbound PrivateLink for performance-intensive services](/aws/en/security/network/front-end/service-direct-privatelink).",
+  "ref_links": [
+    {
+      "text": "Configure inbound PrivateLink for performance-intensive services",
+      "url": "https://docs.databricks.com/aws/en/security/network/front-end/service-direct-privatelink"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.027337Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-26-new-insert-replace-commands-ga",
+  "title": "New INSERT REPLACE commands (GA)",
+  "date": "2025-08-26",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#new-insert-replace-commands-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "`INSERT REPLACE USING` and `INSERT REPLACE ON` are now generally available for Databricks Runtime 17.2. For details, see the [Databricks Runtime 17.2 release notes](/aws/en/release-notes/runtime/17.2).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 17.2 release notes",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/17.2"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.246332Z"
+}

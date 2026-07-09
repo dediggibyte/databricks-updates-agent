@@ -1,0 +1,21 @@
+{
+  "id": "2026-03-17-databricks-apps-supports-uv-for-python-dependency-management",
+  "title": "Databricks Apps supports uv for Python dependency management",
+  "date": "2026-03-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-apps-supports-uv-for-python-dependency-management",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use `uv` to manage Python dependencies in your Databricks apps using `pyproject.toml` and `uv.lock`. See [Define Python dependencies with `uv`](/aws/en/dev-tools/databricks-apps/dependencies#uv-dependencies) and [Deployment logic](/aws/en/dev-tools/databricks-apps/deploy#deployment-logic).",
+  "ref_links": [
+    {
+      "text": "Define Python dependencies with uv",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/dependencies#uv-dependencies"
+    },
+    {
+      "text": "Deployment logic",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/deploy#deployment-logic"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.868418Z"
+}

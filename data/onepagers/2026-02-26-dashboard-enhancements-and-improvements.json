@@ -1,0 +1,37 @@
+{
+  "product": "Dashboard enhancements and improvements",
+  "tagline": "Unity Catalog metric view lineage: Dashboard info now shows Unity Catalog metric views in the lineage section.",
+  "updated": "Feb 26, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/parameters#date-range",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-improvements-2",
+  "what_it_does": "Unity Catalog metric view lineage: Dashboard info now shows Unity Catalog metric views in the lineage section. Dashboard refresh cancellation: Cancelling a dashboard refresh now shows the last available data instead of an error. DD MM YYYY date format: The DD MM YYYY date format is now available for date fields.",
+  "why_it_matters": "Dataset field filters can also offer dashboard interactivity, more features, and better performance with large datasets than parameters.",
+  "capabilities": [
+    {
+      "title": "The default type is String",
+      "desc": "The default type is String."
+    },
+    {
+      "title": "The Numeric datatype allows you",
+      "desc": "The Numeric datatype allows you to specify between Decimal and Integer. The default numeric type is Decimal. Allow multiple…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Unity Catalog metric view lineage: Dashboard info now shows Unity Catalog metric views in the lineage section.",
+  "note_id": "2026-02-26-dashboard-enhancements-and-improvements",
+  "category": "platform"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-31-sankey-visualization-and-table-formatting-improvements",
+  "title": "Sankey visualization and table formatting improvements",
+  "date": "2025-07-31",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#sankey-visualization-and-table-formatting-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Display name support for Sankey visualizations**: Sankey charts now support display names for nodes.\n* **Fixed duplicate `$` signs in table formatting**: Resolved an issue where table visualizations sometimes displayed duplicate dollar signs.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.290443Z"
+}

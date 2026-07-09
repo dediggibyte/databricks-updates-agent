@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-11-git-support-for-alerts",
+  "title": "Git support for alerts",
+  "date": "2025-07-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#git-support-for-alerts",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use Databricks Git folders to track and manage changes to alerts. To track alerts with Git, place them in a Databricks Git folder. Newly cloned alerts only appear in the alerts list page or API after a user interacts with them. They have paused schedules and need to be explicitly resumed by users.\n\nSee [How Git integration works with alerts](/aws/en/sql/user/alerts/manage#git).",
+  "ref_links": [
+    {
+      "text": "How Git integration works with alerts",
+      "url": "https://docs.databricks.com/aws/en/sql/user/alerts/manage#git"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.325296Z"
+}

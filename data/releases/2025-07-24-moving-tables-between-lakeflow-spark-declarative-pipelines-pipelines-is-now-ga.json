@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-24-moving-tables-between-lakeflow-spark-declarative-pipelines-pipelines-is-now-ga",
+  "title": "Moving tables between Lakeflow Spark Declarative Pipelines pipelines is now GA",
+  "date": "2025-07-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#moving-tables-between-lakeflow-spark-declarative-pipelines-pipelines-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Tables created by Lakeflow Spark Declarative Pipelines in Unity Catalog ETL pipelines can be moved from one pipeline to another. See [Move tables between pipelines](/aws/en/ldp/move-table).",
+  "ref_links": [
+    {
+      "text": "Move tables between pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/move-table"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.310476Z"
+}

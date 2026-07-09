@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-10-dashboard-visualization-updates",
+  "title": "Dashboard visualization updates",
+  "date": "2025-07-10",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Area chart error message fix**: Fixed an error message that appeared when using disaggregated stacked area charts.\n* **Point map visualization UI update**: Swapped the latitude and longitude sections in Point Map visualizations.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.327727Z"
+}

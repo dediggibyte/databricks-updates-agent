@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-20-databricks-data-classification-is-now-ga",
+  "title": "Databricks Data Classification is now GA",
+  "date": "2026-04-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#databricks-data-classification-is-now-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Data Classification is now generally available. Use Data Classification to automatically classify and tag sensitive data in Unity Catalog using an agentic AI system. See [Data Classification](/aws/en/data-governance/unity-catalog/data-classification).",
+  "ref_links": [
+    {
+      "text": "Data Classification",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.784416Z"
+}

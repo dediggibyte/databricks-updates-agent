@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-29-supervisor-agent-now-supports-unity-catalog-functions-and-external-mcp-servers",
+  "title": "Supervisor Agent now supports Unity Catalog functions and external MCP servers",
+  "date": "2025-10-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#supervisor-agent-now-supports-unity-catalog-functions-and-external-mcp-servers",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use Supervisor Agent to create a supervisor system that coordinates Genie Spaces, agent endpoints, and tools to work together to complete complex tasks across different, specialized domains. You can now provide the supervisor system tools like Unity Catalog functions and external MCP servers. The supervisor agent will delegate relevant tasks to those tools.\n\nSee [Use Supervisor Agent to create a coordinated multi-agent system](/aws/en/agents/agent-bricks/multi-agent-supervisor).",
+  "ref_links": [
+    {
+      "text": "Use Supervisor Agent to create a coordinated multi-agent system",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.147147Z"
+}

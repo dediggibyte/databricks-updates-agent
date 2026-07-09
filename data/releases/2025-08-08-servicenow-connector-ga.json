@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-08-servicenow-connector-ga",
+  "title": "ServiceNow connector GA",
+  "date": "2025-08-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#servicenow-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The fully-managed ServiceNow ingestion connector in Lakeflow Connect is now generally available. See [Configure ServiceNow for Databricks ingestion](/aws/en/ingestion/lakeflow-connect/servicenow-source-setup).",
+  "ref_links": [
+    {
+      "text": "Configure ServiceNow for Databricks ingestion",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/servicenow-source-setup"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.277666Z"
+}

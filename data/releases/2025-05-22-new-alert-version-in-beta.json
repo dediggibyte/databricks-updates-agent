@@ -1,0 +1,17 @@
+{
+  "id": "2025-05-22-new-alert-version-in-beta",
+  "title": "New alert version in Beta",
+  "date": "2025-05-22",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#new-alert-version-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "A new version of alerts is now in Beta. This version simplifies creating and managing alerts by consolidating query setup, conditions, schedules, and notification destinations into a single interface. You can still use legacy alerts alongside the new version. See [Databricks SQL alerts](/aws/en/sql/user/alerts).",
+  "ref_links": [
+    {
+      "text": "Databricks SQL alerts",
+      "url": "https://docs.databricks.com/aws/en/sql/user/alerts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.394574Z"
+}

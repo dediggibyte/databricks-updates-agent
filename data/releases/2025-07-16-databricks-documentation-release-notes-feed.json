@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-16-databricks-documentation-release-notes-feed",
+  "title": "Databricks documentation release notes feed",
+  "date": "2025-07-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#databricks-documentation-release-notes-feed",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks documentation site now provides an RSS feed that contains updates to the product and other feature release notes. This feed can be used by any feed reader or client that can consume RSS, so that you can take advantage of feed reader features such as email notifications for Databricks product releases. See [Databricks release notes feed](/aws/en/release-notes#feed).",
+  "ref_links": [
+    {
+      "text": "Databricks release notes feed",
+      "url": "https://docs.databricks.com/aws/en/release-notes#feed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.319028Z"
+}

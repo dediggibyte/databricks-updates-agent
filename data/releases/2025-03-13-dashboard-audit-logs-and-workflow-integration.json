@@ -1,0 +1,12 @@
+{
+  "id": "2025-03-13-dashboard-audit-logs-and-workflow-integration",
+  "title": "Dashboard audit logs and workflow integration",
+  "date": "2025-03-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-audit-logs-and-workflow-integration",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **New audit log emitted for dashboard downloads**: Downloading dashboards as PDF now triggers the audit log event `triggerDashboardSnapshot`.\n* **Dashboards are supported as a task type in workflows**: Create a job task with the **Dashboard** task type to refresh dashboard results and optionally send subscription emails.\n* **Calculated measures from dashboards better supported**: Genie Spaces created from dashboards are now better able to use any calculated measures defined on the dashboard.\n* **Fixed null value styling**: Pivot table cells with null values now display with the correct styling.\n* **Sorting with filters now supported**: Single-value and multi-value filters now support sorting.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.424645Z"
+}

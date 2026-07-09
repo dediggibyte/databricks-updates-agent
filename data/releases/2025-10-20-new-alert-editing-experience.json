@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-20-new-alert-editing-experience",
+  "title": "New alert editing experience",
+  "date": "2025-10-20",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#new-alert-editing-experience",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **New alert editing experience**: Creating or editing an alert now opens in the new multi-tab editor, providing a unified editing workflow. See [Databricks SQL alerts](/aws/en/sql/user/alerts).",
+  "ref_links": [
+    {
+      "text": "Databricks SQL alerts",
+      "url": "https://docs.databricks.com/aws/en/sql/user/alerts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.162839Z"
+}

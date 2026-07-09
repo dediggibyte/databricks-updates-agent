@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-11-managed-apache-iceberg-tables-are-in-public-preview",
+  "title": "Managed Apache Iceberg tables are in Public Preview",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#managed-apache-iceberg-tables-are-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Managed Apache Iceberg tables are now in Public Preview. You can read from and write to these tables from Databricks or from external Iceberg engines using the Iceberg REST Catalog API. These tables are integrated with predictive optimization to apply advanced optimizations, including liquid clustering automatically. See [What is Apache Iceberg in Databricks?](/aws/en/iceberg) and [Unity Catalog managed tables for Delta Lake and Apache Iceberg](/aws/en/tables/managed).",
+  "ref_links": [
+    {
+      "text": "What is Apache Iceberg in Databricks?",
+      "url": "https://docs.databricks.com/aws/en/iceberg"
+    },
+    {
+      "text": "Unity Catalog managed tables for Delta Lake and Apache Iceberg",
+      "url": "https://docs.databricks.com/aws/en/tables/managed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.359568Z"
+}

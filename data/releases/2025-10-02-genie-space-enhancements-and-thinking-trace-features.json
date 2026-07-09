@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-02-genie-space-enhancements-and-thinking-trace-features",
+  "title": "Genie Space enhancements and thinking trace features",
+  "date": "2025-10-02",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-space-enhancements-and-thinking-trace-features",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Add tables and metric views to spaces**: Users can now add tables and metric views to a space and analyze them together.\n* **Benchmarks scoring improvement**: Benchmarks now treat extra rows or columns in Genie's output as incorrect. See [Chat mode ratings](/aws/en/genie/monitor#ratings).\n* **Thinking steps in responses**: Each Genie response now includes thinking steps that show how the prompt was interpreted, along with the tables and example SQL statements that were used. See [Review a response](/aws/en/genie/talk-to-genie#review-response).",
+  "ref_links": [
+    {
+      "text": "Chat mode ratings",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#ratings"
+    },
+    {
+      "text": "Review a response",
+      "url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#review-response"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.194029Z"
+}

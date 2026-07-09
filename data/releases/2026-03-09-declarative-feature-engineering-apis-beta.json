@@ -1,0 +1,21 @@
+{
+  "id": "2026-03-09-declarative-feature-engineering-apis-beta",
+  "title": "Declarative Feature Engineering APIs (Beta)",
+  "date": "2026-03-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#declarative-feature-engineering-apis-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Declarative Feature Engineering APIs are now available in Beta in the AWS `us-east-1` and `us-west-2` regions. These APIs let you declaratively define and compute time-windowed aggregation features from your data sources.\n\nWith declarative feature engineering, you can:\n\n* Define features in Unity Catalog.\n* Materialize batch features to Delta tables or Lakebase.\n* Serve Unity Catalog models using online model serving.\n\nSee [Feature Views](/aws/en/machine-learning/feature-store/declarative-apis) and [Materialize Feature Views](/aws/en/machine-learning/feature-store/materialized-features).",
+  "ref_links": [
+    {
+      "text": "Feature Views",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/declarative-apis"
+    },
+    {
+      "text": "Materialize Feature Views",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/materialized-features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.899456Z"
+}

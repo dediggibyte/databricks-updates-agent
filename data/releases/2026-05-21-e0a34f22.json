@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-21-e0a34f22",
+  "title": "Postgres password authentication is now disabled by default for new Lakebase Autoscaling projects",
+  "date": "2026-05-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#postgres-password-authentication-is-now-disabled-by-default-for-new-lakebase-autoscaling-projects",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "New Lakebase Autoscaling projects now have native Postgres password authentication disabled by default. Existing Autoscaling projects are unaffected. To allow native Postgres roles to connect with static passwords, enable password connections in project settings. See [Manage password connections](/aws/en/oltp/projects/manage-roles#block-connections).",
+  "ref_links": [
+    {
+      "text": "Manage password connections",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-roles#block-connections"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.675093Z"
+}

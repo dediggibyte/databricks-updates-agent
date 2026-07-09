@@ -1,0 +1,29 @@
+{
+  "id": "2026-05-28-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-05-28",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-3",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Banded rows in tables**: Tables can now display banded rows.\n* **Custom geographies in maps**: Custom geographies are now available in choropleth and point maps. See [Custom geographic data](/aws/en/dashboards/manage/visualizations/maps#custom-geographic-data).\n* **Genie Code for dashboard authoring**: Genie Code for dashboard authoring is now generally available. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent).\n* **Median and percentile expressions in metric views**: Low-code metric view building now supports two new expression types: median and percentile. See [Create a metric view](/aws/en/business-semantics/metric-views/create).\n* **`AGGREGATE OVER` enhancements**: The `AGGREGATE OVER` operator now supports an optional `INCLUSIVE` or `EXCLUSIVE` keyword for `TRAILING` and `LEADING` ranges, and an optional `OFFSET` clause that shifts the range by a specified interval. See [Aggregate window functions](/aws/en/dashboards/manage/data-modeling/custom-calculations#aggregate-window-functions).\n* **Point map shape field**: Point maps now support a shape field to differentiate data points by category.\n* **Default table sorting**: Tables now support default sorting, allowing dashboard authors to define a default sort order for table columns.\n* **Aggregated variable Y-axis fix**: Fixed a bug where adding an aggregated variable to a bar, line, or area chart's Y-axis prevented adding a second field.\n* **Symbol map interaction fix**: Fixed symbol map interaction issues where clicking an empty area did not deselect markers and the cursor did not indicate that markers were clickable on hover.\n* **Cross-filter conditional formatting fix**: Fixed a bug where cross-filter hover and selection styling overrode conditional formatting colors on table cells.\n* **SQL Editor results visibility fix**: Fixed an issue where filtered results in the SQL Editor were not visible even though the data was present, caused by the table container collapsing within the page layout.\n* **Symbol map field picker fix**: Fixed an issue where the latitude and longitude field pickers in the symbol map editor did not work when using a semantic model as a dataset.",
+  "ref_links": [
+    {
+      "text": "Custom geographic data",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/maps#custom-geographic-data"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    },
+    {
+      "text": "Create a metric view",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/metric-views/create"
+    },
+    {
+      "text": "Aggregate window functions",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations#aggregate-window-functions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.647522Z"
+}

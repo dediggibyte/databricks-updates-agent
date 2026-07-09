@@ -1,0 +1,21 @@
+{
+  "id": "2026-05-19-c2a0761f",
+  "title": "Databricks Add-in for Excel support for all compliance security profile standards",
+  "date": "2026-05-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-add-in-for-excel-support-for-all-compliance-security-profile-standards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Add-in for Excel (Public Preview) now supports all compliance security profile standards supported by Databricks. For more, see [Compliance security profile](/aws/en/security/privacy/security-profile) and [Connect to Databricks from Microsoft Excel](/aws/en/integrations/excel).",
+  "ref_links": [
+    {
+      "text": "Compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Connect to Databricks from Microsoft Excel",
+      "url": "https://docs.databricks.com/aws/en/integrations/excel"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.687394Z"
+}

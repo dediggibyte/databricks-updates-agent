@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-11-databricks-jobs-is-now-lakeflow-jobs",
+  "title": "Databricks Jobs is now Lakeflow Jobs",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#databricks-jobs-is-now-lakeflow-jobs",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The product known as Databricks Jobs is now Lakeflow Jobs. No migration is required to use Lakeflow Jobs. See [Lakeflow Jobs](/aws/en/jobs).",
+  "ref_links": [
+    {
+      "text": "Lakeflow Jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.358390Z"
+}

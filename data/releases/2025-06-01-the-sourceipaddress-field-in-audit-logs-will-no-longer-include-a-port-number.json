@@ -1,0 +1,12 @@
+{
+  "id": "2025-06-01-the-sourceipaddress-field-in-audit-logs-will-no-longer-include-a-port-number",
+  "title": "The sourceIpAddress field in audit logs will no longer include a port number",
+  "date": "2025-06-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#the-sourceipaddress-field-in-audit-logs-will-no-longer-include-a-port-number",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Due to a bug, certain authorization and authentication audit logs include a port number in addition to the IP in the `sourceIPAddress` field (for example, `\"sourceIPAddress\":\"10.2.91.100:0\"`). The port number, which is logged as `0`, does not provide any real value and is inconsistent with the rest of the Databricks audit logs. To enhance the consistency of audit logs, Databricks plans to change the format of the IP address for these audit log events. This change will gradually roll out starting in early August 2024.\n\nIf the audit log contains a `sourceIpAddress` of `0.0.0.0`, Databricks might stop logging it.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.382253Z"
+}

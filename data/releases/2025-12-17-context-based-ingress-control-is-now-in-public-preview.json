@@ -1,0 +1,21 @@
+{
+  "id": "2025-12-17-context-based-ingress-control-is-now-in-public-preview",
+  "title": "Context based ingress control is now in Public Preview",
+  "date": "2025-12-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#context-based-ingress-control-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Context-based ingress control is now in [Public Preview](/aws/en/release-notes/release-types). This feature enables account admins to set allow and deny rules that combine *who* is calling, *from where* they are calling, and *what* they can reach in Databricks. Context-based ingress control ensures that only trusted combinations of identity, request type, and network source can reach your workspace. A single policy can govern multiple workspaces, ensuring consistent enforcement across your organization.\n\nSee [Context-based ingress control](/aws/en/security/network/front-end/context-based-ingress).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Context-based ingress control",
+      "url": "https://docs.databricks.com/aws/en/security/network/front-end/context-based-ingress"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.070529Z"
+}

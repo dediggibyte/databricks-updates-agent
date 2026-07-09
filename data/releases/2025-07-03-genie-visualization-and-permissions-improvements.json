@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-03-genie-visualization-and-permissions-improvements",
+  "title": "Genie visualization and permissions improvements",
+  "date": "2025-07-03",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-visualization-and-permissions-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Genie visualizations respect SQL sort order**: Genie visualizations now default to the same sort order as returned by the SQL query.\n* **Permissions fix**: Users with CAN MANAGE on a Genie Space can now delete it.\n* **Datatype interpretation fix**: Resolved an issue where string fields were incorrectly interpreted as date or time values.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.332535Z"
+}

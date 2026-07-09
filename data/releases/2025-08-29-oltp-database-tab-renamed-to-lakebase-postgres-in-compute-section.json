@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-29-oltp-database-tab-renamed-to-lakebase-postgres-in-compute-section",
+  "title": "OLTP Database tab renamed to Lakebase Postgres in Compute section",
+  "date": "2025-08-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#oltp-database-tab-renamed-to-lakebase-postgres-in-compute-section",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The OLTP Database tab in the Compute section of the workspace is renamed to Lakebase Postgres. Use this tab to create and manage your Lakebase database instances.\n\nSee [Create and manage a database instance](/aws/en/oltp/instances/create).",
+  "ref_links": [
+    {
+      "text": "Create and manage a database instance",
+      "url": "https://docs.databricks.com/aws/en/oltp/instances/create"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.236027Z"
+}

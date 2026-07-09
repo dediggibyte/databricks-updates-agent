@@ -1,0 +1,50 @@
+{
+  "product": "Lakebase, a managed PostgreSQL OLTP database, is in Public Preview",
+  "tagline": "Lakebase is an online transactional processing (OLTP) engine that is fully integrated with the Databricks Data Intelligence Platform.",
+  "updated": "Jun 11, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#lakebase-a-managed-postgresql-oltp-database-is-in-public-preview",
+  "what_it_does": "Lakebase is an online transactional processing (OLTP) engine that is fully integrated with the Databricks Data Intelligence Platform. You can create a database instance, a new compute type, which provides dedicated, PostgreSQL compatible storage and compute, enabling you to run transactional workloads alongside your Lakehouse data. Lakebase is a fully managed Postgres database integrated into the Databricks platform.",
+  "why_it_matters": "Build low latency apps: Connect Databricks Apps or any application to Lakebase for transactional workloads.",
+  "capabilities": [
+    {
+      "title": "Get a Postgres database",
+      "desc": "Get a Postgres database"
+    },
+    {
+      "title": "Create a project, branch, and",
+      "desc": "Create a project, branch, and database. Connect with psql or any Postgres driver."
+    },
+    {
+      "title": "Serve lakehouse data",
+      "desc": "Serve lakehouse data"
+    },
+    {
+      "title": "Sync Unity Catalog tables into",
+      "desc": "Sync Unity Catalog tables into Postgres for low-latency app reads."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "serve lakehouse data",
+    "replicate to the lakehouse",
+    "application backend",
+    "AI agents"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Lakebase is an online transactional processing (OLTP) engine that is fully integrated with the Databricks Data Intelligence Platform.",
+  "note_id": "2025-06-11-lakebase-a-managed-postgresql-oltp-database-is-in-public-preview",
+  "category": "platform"
+}

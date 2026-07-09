@@ -1,0 +1,25 @@
+{
+  "id": "2025-06-01-external-support-ticket-submission-will-soon-be-deprecated",
+  "title": "External support ticket submission will soon be deprecated",
+  "date": "2025-06-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#external-support-ticket-submission-will-soon-be-deprecated",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks is transitioning the support ticket submission experience from `help.databricks.com` to the help menu in the Databricks workspace. Support ticket submission via `help.databricks.com` will soon be deprecated. You'll continue to view and triage your tickets at `help.databricks.com`.\n\nThe in-product experience, which is available if your organization has a [Databricks Support contract](/aws/en/resources/support), integrates with Genie Code to help address your issues quickly without having to submit a ticket.\n\nTo access the in-product experience, click your user icon in the top bar of the workspace, and then click **Contact Support** or type \"I need help\" into the assistant.\n\nThe **Contact support** modal opens.\n\nIf the in-product experience is down, send requests for support with detailed information about your issue to [help@databricks.com](mailto:help@databricks.com). For more information, see [Get help](/aws/en/workspace/navigate-workspace#get-help).",
+  "ref_links": [
+    {
+      "text": "Databricks Support contract",
+      "url": "https://docs.databricks.com/aws/en/resources/support"
+    },
+    {
+      "text": "help@databricks.com",
+      "url": "mailto:help@databricks.com"
+    },
+    {
+      "text": "Get help",
+      "url": "https://docs.databricks.com/aws/en/workspace/navigate-workspace#get-help"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.383762Z"
+}

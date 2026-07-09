@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-11-disable-legacy-features-for-new-workspaces-public-preview",
+  "title": "Disable legacy features for new workspaces (Public Preview)",
+  "date": "2025-08-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#disable-legacy-features-for-new-workspaces-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "A new account console setting allows account admins to disable certain legacy features on new workspaces created in their account. If set, new workspaces will not include DBFS root and mounts, the Hive metastore, no-isolation shared compute, or Databricks Runtime versions prior to 13.3 LTS. If needed, workspace admins can still enable these legacy features from their workspace settings.\n\nSee [Disable access to legacy features in new workspaces](/aws/en/admin/account-settings/legacy-features).",
+  "ref_links": [
+    {
+      "text": "Disable access to legacy features in new workspaces",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/legacy-features"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.274958Z"
+}

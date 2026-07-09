@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-25-expanded-region-availability-for-databricks-apps",
+  "title": "Expanded region availability for Databricks Apps",
+  "date": "2025-08-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#expanded-region-availability-for-databricks-apps",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Apps now available in the following regions:\n\n* `ap-northeast-2`\n* `ap-south-1`\n\nSee [Features with limited regional availability](/aws/en/resources/feature-region-support)",
+  "ref_links": [
+    {
+      "text": "Features with limited regional availability",
+      "url": "https://docs.databricks.com/aws/en/resources/feature-region-support"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.251941Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-03-27-ai-classify-and-ai-extract-now-support-v2-signatures-public-preview",
+  "title": "ai_classify and ai_extract now support v2 signatures (Public Preview)",
+  "date": "2026-03-27",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#ai_classify-and-ai_extract-now-support-v2-signatures-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `ai_classify` and `ai_extract` AI Functions now support new v2 signatures with improved quality and performance, greater flexibility, and native composability with `ai_parse_document` to power end-to-end document processing workflows.\n\nSee [`ai_classify` function](/aws/en/sql/language-manual/functions/ai_classify) and [`ai_extract` function](/aws/en/sql/language-manual/functions/ai_extract).",
+  "ref_links": [
+    {
+      "text": "ai_classify function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_classify"
+    },
+    {
+      "text": "ai_extract function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_extract"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.832285Z"
+}

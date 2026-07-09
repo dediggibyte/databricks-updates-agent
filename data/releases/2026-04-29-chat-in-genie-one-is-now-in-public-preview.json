@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-29-chat-in-genie-one-is-now-in-public-preview",
+  "title": "Chat in Genie One is now in Public Preview",
+  "date": "2026-04-29",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#chat-in-genie-one-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Chat in Genie One has moved from Beta to Public Preview. Chat provides a unified, full-screen interface for asking data questions in natural language. It uses existing Genie spaces, dashboards, and queries to answer questions with your organization's data. Workspace admins can enable chat from the **Previews** page.\n\nSee [Chat in Genie One](/aws/en/genie-one/chat).",
+  "ref_links": [
+    {
+      "text": "Chat in Genie One",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.754067Z"
+}

@@ -1,0 +1,30 @@
+{
+  "product": "Customer-managed keys for Unity Catalog (Public Preview)",
+  "tagline": "You can now protect data in Unity Catalog catalogs with your own encryption keys using customer managed keys (CMK).",
+  "updated": "Mar 2, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/security/keys/cmek-unity-catalog",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#customer-managed-keys-for-unity-catalog-public-preview",
+  "what_it_does": "You can now protect data in Unity Catalog catalogs with your own encryption keys using customer managed keys (CMK). note This feature requires the Enterprise tier. Customer managed keys (CMK) for Unity Catalog let you protect data managed by Databricks with your own encryption keys.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "workspace storage."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now protect data in Unity Catalog catalogs with your own encryption keys using customer managed keys (CMK).",
+  "note_id": "2026-03-02-customer-managed-keys-for-unity-catalog-public-preview",
+  "category": "platform"
+}

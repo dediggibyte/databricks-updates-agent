@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-04-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-06-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-3",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Workspace-level Genie One customization**: Workspace admins can now customize Genie One at the workspace level. Under workspace settings, admins can configure colors, a logo, a markdown welcome message, and pinned content. See [Customize the Genie One homepage](/aws/en/genie-one/customize-genie-homepage).\n* **Certified object prioritization**: Chat in Genie One now acknowledges and prioritizes certified objects.\n* **User skills (Public Preview)**: You can now create personal user skills to extend chat in Genie One with custom capabilities. A skill is a repeatable task you teach Genie One once and run whenever you need it, such as building your weekly metrics report. See [User skills](/aws/en/genie-one/chat#user-skills).\n* **Rich output (Public Preview)**: Genie One responses for non-SQL answers, such as search results and MCP reads, can now include rich HTML, CSS, and JavaScript content, enabling more varied data presentations beyond plain prose.\n* **Genie Ontology (Public Preview)**: Genie One now automatically builds and maintains a map of your business by extracting and ranking knowledge from sources such as dashboards, notebooks, and pipelines, improving response accuracy and reducing latency. See [Genie Ontology](/aws/en/genie-one/chat#ontology).",
+  "ref_links": [
+    {
+      "text": "Customize the Genie One homepage",
+      "url": "https://docs.databricks.com/aws/en/genie-one/customize-genie-homepage"
+    },
+    {
+      "text": "User skills",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#user-skills"
+    },
+    {
+      "text": "Genie Ontology",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#ontology"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.628148Z"
+}

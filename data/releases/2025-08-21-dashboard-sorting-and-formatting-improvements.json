@@ -1,0 +1,12 @@
+{
+  "id": "2025-08-21-dashboard-sorting-and-formatting-improvements",
+  "title": "Dashboard sorting and formatting improvements",
+  "date": "2025-08-21",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-sorting-and-formatting-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Fixed sorting on temporal categorical axes**: Resolved an issue where sorting did not work correctly on temporal categorical axes.\n* **Numeric formatting as Bytes**: Users can now format numeric values as Bytes.\n* **Totals in histogram tooltips**: Histograms now display totals in tooltips.\n* **Axis gridlines respect custom background colors**: Gridlines now automatically update based on custom color palette selections for background color.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.254544Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-03-27-user-interface-updates",
+  "title": "User interface updates",
+  "date": "2025-03-27",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-3",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Query profiles updated for improved usability**: Query profiles have been updated to improve usability and help you quickly access key insights. See [Query profile](/aws/en/sql/user/queries/query-profile).",
+  "ref_links": [
+    {
+      "text": "Query profile",
+      "url": "https://docs.databricks.com/aws/en/sql/user/queries/query-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.419470Z"
+}

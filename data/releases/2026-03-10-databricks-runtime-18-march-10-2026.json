@@ -1,0 +1,12 @@
+{
+  "id": "2026-03-10-databricks-runtime-18-march-10-2026",
+  "title": "Databricks Runtime 18: March 10, 2026",
+  "date": "2026-03-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-march-10-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* Error messages for scalar subqueries used with `EXEC IMMEDIATE` now identify the specific cause more clearly.\n* Fixed a race condition in streaming checkpoint log compaction that could cause non-deterministic behavior in Structured Streaming queries.\n* **[Security fix]** Operating system security updates.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.897712Z"
+}

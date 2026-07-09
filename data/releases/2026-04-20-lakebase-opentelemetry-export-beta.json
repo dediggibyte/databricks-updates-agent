@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-20-lakebase-opentelemetry-export-beta",
+  "title": "Lakebase OpenTelemetry export (Beta)",
+  "date": "2026-04-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#lakebase-opentelemetry-export-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now export Lakebase Postgres metrics and logs to any OTLP-compatible observability backend, including Grafana Cloud, New Relic, and Datadog. Configure the endpoint, authentication, and resource attributes from the Lakebase App. This feature is in [Beta](/aws/en/release-notes/release-types).\n\nSee [OpenTelemetry export](/aws/en/oltp/projects/opentelemetry).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "OpenTelemetry export",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/opentelemetry"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.786704Z"
+}

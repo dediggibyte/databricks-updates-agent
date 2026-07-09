@@ -1,0 +1,25 @@
+{
+  "id": "2025-11-03-attribute-based-access-control-abac-now-in-public-preview",
+  "title": "Attribute-based access control (ABAC) now in Public Preview",
+  "date": "2025-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#attribute-based-access-control-abac-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Attribute-based access control (ABAC) is now in Public Preview. ABAC is a data governance model that provides flexible, scalable, and centralized access control by defining policies based on governed tags applied to data assets.\n\nIn Public Preview, ABAC includes two key changes from the Beta:\n\n* **Account-level enforcement:** ABAC has transitioned from a workspace-level preview to an account-level preview. ABAC policies are now enforced across all workspaces attached to an account’s metastore by default. See [ABAC Beta to Public Preview transition](/aws/en/archive/unity-catalog/abac-public-preview-transition).\n* **Automatic type casting for column masks:** Databricks now automatically casts the output of column mask functions defined in ABAC policies to match the target column’s data type. This ensures consistent typing and more reliable query behavior. Existing column mask functions might fail if their return types are incompatible with the target column’s type. See [Automatic type casting for column masks](/aws/en/data-governance/unity-catalog/abac/policy-evaluation#type-casting)\n\nFor more information, see [Attribute-based access control in Unity Catalog](/aws/en/data-governance/unity-catalog/abac).",
+  "ref_links": [
+    {
+      "text": "ABAC Beta to Public Preview transition",
+      "url": "https://docs.databricks.com/aws/en/archive/unity-catalog/abac-public-preview-transition"
+    },
+    {
+      "text": "Automatic type casting for column masks",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/policy-evaluation#type-casting"
+    },
+    {
+      "text": "Attribute-based access control in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.132988Z"
+}

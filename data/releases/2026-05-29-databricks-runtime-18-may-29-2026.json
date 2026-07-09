@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-29-databricks-runtime-18-may-29-2026",
+  "title": "Databricks Runtime 18: May 29, 2026",
+  "date": "2026-05-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-may-29-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Structured Streaming deduplication with `NaN` keys**: [Structured Streaming](/aws/en/structured-streaming/concepts) deduplication now treats `NaN` (Not-a-Number) values that have different bit patterns as duplicates when a `double` or `float` column is used as a deduplication key. Previously, `NaN` values with different internal representations were treated as distinct and were not deduplicated.\n* Fixed an issue where table-level permissions could be removed from Unity Catalog foreign catalog tables (for example, Snowflake connection tables) during metadata refresh, which caused queries to fail with `INSUFFICIENT_PERMISSIONS` errors. Permissions are now preserved when foreign table metadata is refreshed.",
+  "ref_links": [
+    {
+      "text": "Structured Streaming",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/concepts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.640109Z"
+}

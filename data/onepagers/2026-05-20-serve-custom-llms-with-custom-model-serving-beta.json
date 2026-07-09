@@ -1,0 +1,28 @@
+{
+  "product": "Serve custom LLMs with Custom Model Serving (Beta)",
+  "tagline": "You can now serve custom and fine tuned LLMs on Databricks with a vLLM engine, including multimodal models and PEFT recipes that Foundation Model APIs does not support.",
+  "updated": "May 20, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/serve-custom-llms",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#serve-custom-llms-with-custom-model-serving-beta",
+  "what_it_does": "You can now serve custom and fine tuned LLMs on Databricks with a vLLM engine, including multimodal models and PEFT recipes that Foundation Model APIs does not support. Custom LLM Serving is in Beta. Beta This feature is in Beta.",
+  "why_it_matters": "Select a GPU based on your model's memory and performance needs.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now serve custom and fine tuned LLMs on Databricks with a vLLM engine, including multimodal models and PEFT recipes that Foundation Model APIs does not support.",
+  "note_id": "2026-05-20-serve-custom-llms-with-custom-model-serving-beta",
+  "category": "platform"
+}

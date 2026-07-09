@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-04-lakebase-is-now-generally-available-with-compliance-security-profile",
+  "title": "Lakebase is now generally available with compliance security profile",
+  "date": "2026-03-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#lakebase-is-now-generally-available-with-compliance-security-profile",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase is now generally available for workspaces with the compliance security profile when the compliance standard is set to HIPAA, C5, TISAX, or None.\n\nSee [Lakebase compliance](/aws/en/oltp/projects/data-protection#compliance).",
+  "ref_links": [
+    {
+      "text": "Lakebase compliance",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection#compliance"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.909692Z"
+}

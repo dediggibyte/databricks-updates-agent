@@ -1,0 +1,17 @@
+{
+  "id": "2025-04-17-dashboard-custom-dimensions-and-pivot-table-improvements",
+  "title": "Dashboard custom dimensions and pivot table improvements",
+  "date": "2025-04-17",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-custom-dimensions-and-pivot-table-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Custom dimensions**: Authors can create custom dimensions on AI/BI dashboards. A new set of functions, including `CASE WHEN` statements, `CONCAT`, `COALESCE`, and others, are now supported. See [What are custom calculations?](/aws/en/dashboards/manage/data-modeling/custom-calculations).\n* **Customizable pivot table widths**: Pivot tables now support customizable widths.\n* **Sankey visualization improvements**: Sankey visualizations now have reduced flickering on hover and use a lighter gray for flow lines.",
+  "ref_links": [
+    {
+      "text": "What are custom calculations?",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.406274Z"
+}

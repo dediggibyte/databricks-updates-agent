@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-25-846c0aec",
+  "title": "Lakeflow Spark Declarative Pipelines stream progress metrics are generally available",
+  "date": "2025-11-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#lakeflow-spark-declarative-pipelines-stream-progress-metrics-are-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakeflow Spark Declarative Pipelines support for querying the event log for metrics about the progress of a stream is now generally available. See [Monitor pipeline streaming metrics](/aws/en/ldp/monitor-event-logs#stream-progress).",
+  "ref_links": [
+    {
+      "text": "Monitor pipeline streaming metrics",
+      "url": "https://docs.databricks.com/aws/en/ldp/monitor-event-logs#stream-progress"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.099523Z"
+}

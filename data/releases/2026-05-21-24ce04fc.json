@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-21-24ce04fc",
+  "title": "Instance events and instance pools system tables are now available (Public Preview)",
+  "date": "2026-05-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#instance-events-and-instance-pools-system-tables-are-now-available-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `system.compute.instance_events` and `system.compute.instance_pools` system tables are now in [Public Preview](/aws/en/release-notes/release-types). Use these tables to track state transitions of classic compute instances and the full history of instance pool configurations across your account. See [Instance events table schema](/aws/en/admin/system-tables/compute#instance-events) and [Instance pools table schema](/aws/en/admin/system-tables/compute#instance-pools).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Instance events table schema",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/compute#instance-events"
+    },
+    {
+      "text": "Instance pools table schema",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/compute#instance-pools"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.676717Z"
+}

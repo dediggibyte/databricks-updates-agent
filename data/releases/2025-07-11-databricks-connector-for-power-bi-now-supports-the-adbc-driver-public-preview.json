@@ -1,0 +1,21 @@
+{
+  "id": "2025-07-11-databricks-connector-for-power-bi-now-supports-the-adbc-driver-public-preview",
+  "title": "Databricks connector for Power BI now supports the ADBC driver (Public Preview)",
+  "date": "2025-07-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#databricks-connector-for-power-bi-now-supports-the-adbc-driver-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can set the Databricks connector for Power BI to use the [Arrow Database Connectivity (ADBC)](https://github.com/apache/arrow-adbc/blob/main/csharp/src/Drivers/Databricks/readme.md) driver instead of the ODBC driver.\n\nSee [Configure ADBC or ODBC driver for Power BI](/aws/en/partners/bi/power-bi-adbc).",
+  "ref_links": [
+    {
+      "text": "Arrow Database Connectivity (ADBC)",
+      "url": "https://github.com/apache/arrow-adbc/blob/main/csharp/src/Drivers/Databricks/readme.md"
+    },
+    {
+      "text": "Configure ADBC or ODBC driver for Power BI",
+      "url": "https://docs.databricks.com/aws/en/partners/bi/power-bi-adbc"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.326116Z"
+}

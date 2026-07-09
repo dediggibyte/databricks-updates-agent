@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-25-confluence-connector-ga",
+  "title": "Confluence connector (GA)",
+  "date": "2026-04-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#confluence-connector-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Confluence connector in Lakeflow Connect is now Generally Available. See [Confluence connector](/aws/en/ingestion/lakeflow-connect/confluence).",
+  "ref_links": [
+    {
+      "text": "Confluence connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/confluence"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.762281Z"
+}

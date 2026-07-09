@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-05-outlook-managed-ingestion-connector-beta",
+  "title": "Outlook managed ingestion connector (Beta)",
+  "date": "2026-05-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#outlook-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Outlook connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest email data from Microsoft Outlook into Databricks. See [Outlook connector](/aws/en/ingestion/lakeflow-connect/outlook-overview).",
+  "ref_links": [
+    {
+      "text": "Outlook connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/outlook-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.728456Z"
+}

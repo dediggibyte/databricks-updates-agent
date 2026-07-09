@@ -1,0 +1,32 @@
+{
+  "product": "OpenAI GPT-5.1 Codex Max and Codex Mini now available as Databricks-hosted…",
+  "tagline": "Mosaic AI Model Serving now supports OpenAI GPT 5.1 Codex Max and GPT 5.1 Codex Mini as Databricks hosted models.",
+  "updated": "Jan 12, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#openai-gpt-51-codex-max-and-codex-mini-now-available-as-databricks-hosted-models",
+  "what_it_does": "Mosaic AI Model Serving now supports OpenAI GPT 5.1 Codex Max and GPT 5.1 Codex Mini as Databricks hosted models. These code specialized models excel at code generation, refactoring, and software engineering tasks. You can access these models using Foundation Model APIs pay per token.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [
+    "| Model | Terms",
+    "Copyright (c) Meta Platforms",
+    "Inc."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Mosaic AI Model Serving now supports OpenAI GPT 5.1 Codex Max and GPT 5.1 Codex Mini as Databricks hosted models.",
+  "note_id": "2026-01-12-7d82e8ff",
+  "category": "platform"
+}

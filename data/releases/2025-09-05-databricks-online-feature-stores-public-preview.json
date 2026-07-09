@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-05-databricks-online-feature-stores-public-preview",
+  "title": "Databricks Online Feature Stores (Public Preview)",
+  "date": "2025-09-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-online-feature-stores-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Online Feature Stores, powered by Lakebase, provide highly-scalable low-latency access to feature data while maintaining consistency with your offline feature tables. Native integrations with Unity Catalog, MLflow, and Mosaic AI Model Serving help you productionize your model endpoints, agents, and rule engines, so they can automatically and securely access features from Online Feature Stores while maintaining high performance.\n\nSee [Databricks Online Feature Stores](/aws/en/machine-learning/feature-store/online-feature-store).",
+  "ref_links": [
+    {
+      "text": "Databricks Online Feature Stores",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/online-feature-store"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.227335Z"
+}

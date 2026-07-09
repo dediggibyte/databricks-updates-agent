@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-03-tisax-compliance-controls",
+  "title": "TISAX compliance controls",
+  "date": "2025-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#tisax-compliance-controls",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "TISAX compliance controls provide enhancements that help you with compliance for your workspace. TISAX (Trusted Information Security Assessment Exchange) is an assessment and exchange mechanism defined by the ENX Association for the German automotive industry, based on ISO/IEC 27001 and VDA ISA requirements. See [Trusted Information Security Assessment Exchange (TISAX)](/aws/en/security/privacy/tisax).",
+  "ref_links": [
+    {
+      "text": "Trusted Information Security Assessment Exchange (TISAX)",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/tisax"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.134727Z"
+}

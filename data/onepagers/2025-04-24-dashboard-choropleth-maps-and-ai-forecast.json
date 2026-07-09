@@ -1,0 +1,45 @@
+{
+  "product": "Dashboard choropleth maps and AI forecast",
+  "tagline": "Choropleth maps available: Choropleth maps are now available for dashboards, allowing users to visualize data across geographical regions with varying colors based on values such as population…",
+  "updated": "Apr 24, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#ai-forecast",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-choropleth-maps-and-ai-forecast",
+  "what_it_does": "Choropleth maps available: Choropleth maps are now available for dashboards, allowing users to visualize data across geographical regions with varying colors based on values such as population, income, or other metrics. AI Forecast on line charts: You can now generate a forecast for a line chart (Public Preview). This page explains how to use and customize visualization widgets on AI/BI dashboards.",
+  "why_it_matters": "Scale function: Choose Linear or Log (Symmetric).",
+  "capabilities": [
+    {
+      "title": "Alphabetical: Sort category names alphabetically",
+      "desc": "Alphabetical: Sort category names alphabetically"
+    },
+    {
+      "title": "By field: Sort by a",
+      "desc": "By field: Sort by a measure field value in ascending or descending order. After selecting the sort direction, choose which field…"
+    },
+    {
+      "title": "Y axis: Sort by the",
+      "desc": "Y axis: Sort by the measure field displayed on the Y axis"
+    },
+    {
+      "title": "Field: Sort by any other",
+      "desc": "Field: Sort by any other measure field in the dataset, even if it's not displayed on the chart. Select the field from the…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Choropleth maps available: Choropleth maps are now available for dashboards, allowing users to visualize data across geographical regions with varying colors based on values such as population…",
+  "note_id": "2025-04-24-dashboard-choropleth-maps-and-ai-forecast",
+  "category": "platform"
+}

@@ -1,0 +1,45 @@
+{
+  "product": "Connect Databricks to on-premises resources using an SSH reverse tunnel",
+  "tagline": "You can now connect Databricks classic and serverless compute to on premises resources without opening inbound firewall access by configuring an SSH reverse tunnel with proxy VMs in AWS.",
+  "updated": "Apr 28, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/ssh-reverse-tunnel",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#connect-databricks-to-on-premises-resources-using-an-ssh-reverse-tunnel",
+  "what_it_does": "You can now connect Databricks classic and serverless compute to on premises resources without opening inbound firewall access by configuring an SSH reverse tunnel with proxy VMs in AWS. Connect your on premises resources to Databricks without opening inbound firewall access. An on premises tunnel host opens an outbound SSH connection to proxy virtual machines (VMs) in AWS, allowing Databricks classic and serverless compute to reach your on premises resources.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "Classic compute: peering between the",
+      "desc": "Classic compute: peering between the Databricks VPC and the proxy hub VPC."
+    },
+    {
+      "title": "Serverless compute: a private endpoint",
+      "desc": "Serverless compute: a private endpoint connection using your cloud provider's private connectivity service and a Network…"
+    },
+    {
+      "title": "Both compute types: configure both",
+      "desc": "Both compute types: configure both paths."
+    },
+    {
+      "title": "sshd: The SSH daemon accepts",
+      "desc": "sshd: The SSH daemon accepts incoming reverse tunnels from the on-premises tunnel host and places the tunnel listener on…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now connect Databricks classic and serverless compute to on premises resources without opening inbound firewall access by configuring an SSH reverse tunnel with proxy VMs in AWS.",
+  "note_id": "2026-04-28-connect-databricks-to-on-premises-resources-using-an-ssh-reverse-tunnel",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-01-native-data-profiling-for-notebook-results-tables",
+  "title": "Native data profiling for notebook results tables",
+  "date": "2026-05-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#native-data-profiling-for-notebook-results-tables",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now view profiling statistics for columns in notebook results tables. From a results table, select column headers and click  **Open selection details** to view profiling statistics. This feature is also available in the new Databricks SQL editor. See [Select data](/aws/en/notebooks/notebook-outputs#select).",
+  "ref_links": [
+    {
+      "text": "Select data",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebook-outputs#select"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.744674Z"
+}

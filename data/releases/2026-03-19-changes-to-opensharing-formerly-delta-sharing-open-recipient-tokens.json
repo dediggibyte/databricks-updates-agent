@@ -1,0 +1,21 @@
+{
+  "id": "2026-03-19-changes-to-opensharing-formerly-delta-sharing-open-recipient-tokens",
+  "title": "Changes to OpenSharing (formerly Delta Sharing) open recipient tokens",
+  "date": "2026-03-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#changes-to-opensharing-formerly-delta-sharing-open-recipient-tokens",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Based on customer feedback and the introduction of [OpenSharing](https://www.databricks.com/company/newsroom/press-releases/databricks-announces-opensharing), this change has been postponed from July 1, 2026. The new transition date will be updated when available. No immediate action is required. Existing recipient URLs and tokens continue to work as they do today.\n\nOpenSharing for open recipients will transition to a new recipient-specific URL format. New tokens created after the transition date will automatically use the new URL format. This change improves network security and lets recipients configure recipient-specific network policies and firewall rules.\n\nFor AWS GovCloud and AWS GovCloud DoD, the transition will be announced later.\n\nThe new URLs include the recipient ID in the domain:\n\n```\nhttps://<recipient-id>.opensharing.us-west-2.cloud.databricks.com/api/2.0/opensharing/metastores/<metastore-id>\n```\n\nFor reference, URLs created before this change do not contain the recipient ID and use the Delta Sharing endpoint.\n\n```\nhttps://oregon.cloud.databricks.com/api/2.0/delta-sharing/metastores/<metastore-id>\n```\n\nThe old URLs will continue to work for a period of time. The specific duration depends on the recipient type and the token creation date. Data providers should transition to the new URL format before the old URL format becomes invalid.\n\n**OIDC Federation sharing:**\n\nDatabricks recommends that data providers begin transitioning their recipients to the new URL format. Although a transition date hasn't been set, transition now to allow time to troubleshoot. After the transition, providers can find the new URL in the OpenSharing UI. After the old URL format is retired, it's no longer valid.\n\n**Bearer token sharing:**\n\n* + Token creation date\n  + URL format\n  + Token expiration date\n  + Recommended action\n* + Before the transition date\n  + Old format\n  + One year from creation date or December 8, 2026, whichever date is further in the future\n  + Data providers need to [rotate tokens](/aws/en/opensharing/create-recipient-token#rotate-token) before expiration to migrate to the new URL format. To provide recipients time to migrate, configure a downtime window by setting an expiration date for the current token during rotation. Both old and new URL formats are supported during this period.\n* + On or after the transition date\n  + New format\n  + Per your configuration, up to one year from creation date.\n  + None",
+  "ref_links": [
+    {
+      "text": "OpenSharing",
+      "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-announces-opensharing"
+    },
+    {
+      "text": "rotate tokens",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-recipient-token#rotate-token"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.859267Z"
+}

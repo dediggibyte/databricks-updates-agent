@@ -1,0 +1,28 @@
+{
+  "product": "Real-time mode in Structured Streaming (Public Preview)",
+  "tagline": "You can now use real time mode, a trigger type for Structured Streaming that enables sub second latency data processing.",
+  "updated": "Jul 22, 2025",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/structured-streaming/real-time/concepts",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#real-time-mode-in-structured-streaming-public-preview",
+  "what_it_does": "You can now use real time mode, a trigger type for Structured Streaming that enables sub second latency data processing. This mode is designed for operational workloads that require immediate response to streaming data. What is real time mode?",
+  "why_it_matters": "You can now use real time mode, a trigger type for Structured Streaming that enables sub second latency data processing.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now use real time mode, a trigger type for Structured Streaming that enables sub second latency data processing.",
+  "note_id": "2025-07-22-real-time-mode-in-structured-streaming-public-preview",
+  "category": "platform"
+}

@@ -1,0 +1,28 @@
+{
+  "product": "Tag Databricks Apps (Public Preview)",
+  "tagline": "You can now apply tags to Databricks apps to organize and categorize them.",
+  "updated": "Feb 2, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/tags",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#tag-databricks-apps-public-preview",
+  "what_it_does": "You can now apply tags to Databricks apps to organize and categorize them. Search is not supported using Databricks apps tags. Preview This feature is in Public Preview.",
+  "why_it_matters": "To add a governed tag, you must also have the ASSIGN permission on the governed tag.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now apply tags to Databricks apps to organize and categorize them.",
+  "note_id": "2026-02-02-tag-databricks-apps-public-preview",
+  "category": "platform"
+}

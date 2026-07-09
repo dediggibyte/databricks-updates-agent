@@ -1,0 +1,12 @@
+{
+  "id": "2025-11-07-migrate-community-edition-workspaces-to-free-edition-public-preview",
+  "title": "Migrate Community Edition workspaces to Free Edition (Public Preview)",
+  "date": "2025-11-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#migrate-community-edition-workspaces-to-free-edition-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The migration tool for migrating Community Edition workspaces to Free Edition is now available.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.122923Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2026-05-04-databricks-runtime-18-may-4-2026",
+  "title": "Databricks Runtime 18: May 4, 2026",
+  "date": "2026-05-04",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-may-4-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Behavioral changes\n\nReview the following changes, which take effect when clusters restart on this runtime.\n\n* **`XPath`**: When evaluating [XPath](/aws/en/sql/language-manual/functions/xpath) over XML, Databricks no longer loads external Document Type Definitions (DTDs). Queries that previously failed only because of an unreachable external DTD reference can now succeed.\n* **NULL struct behavior with schema evolution**: For `INSERT`, `MERGE`, and streaming writes that use [schema evolution](/aws/en/tables/update-schema), a NULL struct in the source is now stored as NULL in the target. Previously, NULL structs were incorrectly materialized as non-null structs with every field set to NULL. Update any code that relied on receiving a non-null struct with all-NULL fields — those cases now return a NULL struct.\n* **`NATURAL JOIN`**: Now correctly uses case-insensitive column matching when `spark.sql.caseSensitive` is `false` (the default). Previously, columns that differed only in case (for example, `ID` vs `id`) were not recognized as matching, causing `NATURAL JOIN` to silently produce cross-join results. This fix aligns `NATURAL JOIN` behavior with `USING` joins.\n* **AWS SDK v1 dependencies**: Now shaded and no longer directly available on the classpath. If your code depends on AWS SDK v1 libraries previously provided by Databricks Runtime, add them as explicit dependencies in your project.\n* **SQL UDF dependency validation in Unity Catalog**: Unity Catalog now enforces dependency validation for SQL user-defined functions to prevent access control bypass. SQL UDFs with invalid dependency configurations are blocked from execution.\n* **`LEFT OUTER JOIN LATERAL`**: A bug that incorrectly dropped rows has been fixed. Queries using this construct now return correct results. To temporarily revert to the previous behavior, set `spark.databricks.sql.optimizer.lateralJoinPreserveOuterSemantic` to `true`.\n* **`regr_r2`**: Now correctly treats the first parameter as the dependent variable. Queries that relied on the previous incorrect behavior return different results.\n* **Hyperbolic functions**: `sinh`, `cosh`, `tanh`, and related hyperbolic functions now return `Infinity` instead of throwing an overflow error when given very large inputs.\n* **`asinh` and `acosh`**: Now use the fdlibm algorithm for cross-engine consistency. Results might differ slightly from previous versions for edge-case inputs.\n* **`LIKE` pattern matching**: Now correctly handles supplementary Unicode characters (code points above U+FFFF). Patterns that previously matched or failed incorrectly for these characters now return correct results.\n* **`VOID` (`NullType`) columns**: Delta tables now support `VOID` (`NullType`) columns. `VOID` columns are no longer dropped from the table schema upon reads. Writes are unaffected.\n\n### New features and improvements\n\nThe following features and improvements are available in this release.\n\n* **`CREATE OR REPLACE TEMP TABLE`**: Now supported, allowing you to create or replace [temporary tables](/aws/en/tables/temporary-tables) in a single statement.\n* **`agg()`**: Now available as an alias for the `measure()` function. Existing queries using `measure()` continue to work without modification.\n* **`pyspark.pipelines.testing`**: Now available as a convenience alias for `dlt.testing` APIs.\n* **Auto Loader listing performance**: [Auto Loader](/aws/en/ingestion/cloud-object-storage/auto-loader) now uses a more efficient listing method that improves listing speed for cloud storage sources. If your stream triggers overlap due to long-running listing operations, this optimization can result in increased cloud listing API costs.\n* **`DESCRIBE HISTORY` write option flags**: Delta table history ([`DESCRIBE HISTORY`](/aws/en/tables/history)) now includes write option flags in `operationParameters` for `WRITE` and `REPLACE TABLE` operations. Flags appear only when `true`: `isDynamicPartitionOverwrite`, `canOverwriteSchema`, `canMergeSchema`, `predicate`, and `isV1WriterSaveAsTableOverwrite`.\n* **Structured Streaming rewind and replay**: [Structured Streaming](/aws/en/structured-streaming/concepts) now supports rewind and replay, enabling reprocessing from an earlier point in the stream to recover from failures such as schema changes or logic errors, without a full state reset.\n* **`SparkSession.emptyDataFrame`**: Now available as a convenience API for creating an empty `DataFrame` with no columns and no rows.\n* **`TIMESTAMP WITH LOCAL TIME ZONE`**: Now supported as a SQL syntax alias for the `TIMESTAMP_LTZ` type.\n* **`to_json` `sortKeys` option**: The `to_json` function now accepts a `sortKeys` option to produce JSON output with keys in sorted order.\n* **`spark.catalog.*`**: API methods now have feature parity with their equivalent DDL commands for catalog, schema, and table operations.\n* **[Security fix]** Operating system security updates.",
+  "ref_links": [
+    {
+      "text": "XPath",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/xpath"
+    },
+    {
+      "text": "schema evolution",
+      "url": "https://docs.databricks.com/aws/en/tables/update-schema"
+    },
+    {
+      "text": "temporary tables",
+      "url": "https://docs.databricks.com/aws/en/tables/temporary-tables"
+    },
+    {
+      "text": "Auto Loader",
+      "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader"
+    },
+    {
+      "text": "DESCRIBE HISTORY",
+      "url": "https://docs.databricks.com/aws/en/tables/history"
+    },
+    {
+      "text": "Structured Streaming",
+      "url": "https://docs.databricks.com/aws/en/structured-streaming/concepts"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.739464Z"
+}

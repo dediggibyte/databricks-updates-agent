@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-22-supervisor-agent-is-in-beta",
+  "title": "Supervisor Agent is in Beta",
+  "date": "2025-07-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#supervisor-agent-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In Beta, Supervisor Agent supports designing a multi-agent AI system that combines Genie Spaces and Knowledge Assistant agent endpoints to work together on complex tasks that require different specialized skills. Supervisor Agent integrates with the Review App, so you can use natural-language feedback from your subject matter experts to improve the quality of the supervisor agent.\n\nSee [Use Supervisor Agent to create a coordinated multi-agent system](/aws/en/agents/agent-bricks/multi-agent-supervisor).",
+  "ref_links": [
+    {
+      "text": "Use Supervisor Agent to create a coordinated multi-agent system",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.313132Z"
+}

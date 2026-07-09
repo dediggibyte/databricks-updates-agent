@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-14-lakeflow-spark-declarative-pipelines-environment-versions-beta",
+  "title": "Lakeflow Spark Declarative Pipelines environment versions (Beta)",
+  "date": "2026-05-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-spark-declarative-pipelines-environment-versions-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Environment versions for Lakeflow Spark Declarative Pipelines are now in Beta. Configure an environment version on a pipeline to pin the Python language version and set of preinstalled libraries, decoupling your pipeline's Python runtime from Databricks Runtime upgrades. See [Configure environment versions for pipelines](/aws/en/ldp/developer/environment-versions).",
+  "ref_links": [
+    {
+      "text": "Configure environment versions for pipelines",
+      "url": "https://docs.databricks.com/aws/en/ldp/developer/environment-versions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.702744Z"
+}

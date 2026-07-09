@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-06-databricks-apps-telemetry-beta",
+  "title": "Databricks Apps telemetry (Beta)",
+  "date": "2026-03-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-apps-telemetry-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure telemetry for your Databricks apps to collect traces, logs, and metrics and persist them to Unity Catalog tables using the OpenTelemetry (OTel) protocol. After you enable app telemetry, Databricks automatically captures system logs and usage events.\n\nSee [Configure telemetry for Databricks Apps](/aws/en/dev-tools/databricks-apps/observability).",
+  "ref_links": [
+    {
+      "text": "Configure telemetry for Databricks Apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/observability"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.905537Z"
+}

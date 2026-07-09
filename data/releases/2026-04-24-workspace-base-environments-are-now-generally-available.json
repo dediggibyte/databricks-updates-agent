@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-24-workspace-base-environments-are-now-generally-available",
+  "title": "Workspace base environments are now generally available",
+  "date": "2026-04-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#workspace-base-environments-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Workspace base environments are now generally available. Workspace base environments let workspace admins create and manage pre-built, cached environments for serverless notebooks.\n\nSee [Manage workspace base environments](/aws/en/admin/workspace-settings/base-environment).\n\nThis feature will roll out in workspaces enabled for the compliance security profile starting in late May 2026. The feature will be enabled by default.",
+  "ref_links": [
+    {
+      "text": "Manage workspace base environments",
+      "url": "https://docs.databricks.com/aws/en/admin/workspace-settings/base-environment"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.765286Z"
+}

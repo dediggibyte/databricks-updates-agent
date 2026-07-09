@@ -1,0 +1,21 @@
+{
+  "id": "2026-03-09-new-resources-for-databricks-apps",
+  "title": "New resources for Databricks Apps",
+  "date": "2026-03-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#new-resources-for-databricks-apps",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add other Databricks apps and Unity Catalog tables as resources for your Databricks app. App resources enable app-to-app communication, and table resources provide governed access to structured data. See [Add a Databricks app resource to a Databricks app](/aws/en/dev-tools/databricks-apps/apps-resource) and [Add a Unity Catalog table resource to a Databricks app](/aws/en/dev-tools/databricks-apps/tables).",
+  "ref_links": [
+    {
+      "text": "Add a Databricks app resource to a Databricks app",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/apps-resource"
+    },
+    {
+      "text": "Add a Unity Catalog table resource to a Databricks app",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/tables"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.900794Z"
+}

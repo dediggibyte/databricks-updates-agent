@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-08-databricks-apps-support-for-genie-resources",
+  "title": "Databricks Apps support for Genie resources",
+  "date": "2025-09-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-apps-support-for-genie-resources",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Apps now supports adding a Genie Space as an app resource to enable natural language querying over curated datasets. See [Add a Genie Agent resource to a Databricks app](/aws/en/dev-tools/databricks-apps/genie).",
+  "ref_links": [
+    {
+      "text": "Add a Genie Agent resource to a Databricks app",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/genie"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.225360Z"
+}

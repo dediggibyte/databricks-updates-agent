@@ -1,0 +1,25 @@
+{
+  "id": "2026-04-21-cpu-medium-and-cpu-large-workload-types-for-model-serving-beta",
+  "title": "CPU_MEDIUM and CPU_LARGE workload types for Model Serving (Beta)",
+  "date": "2026-04-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#cpu_medium-and-cpu_large-workload-types-for-model-serving-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `CPU_MEDIUM` and `CPU_LARGE` workload types for [Model Serving](/aws/en/machine-learning/model-serving) are now in [Beta](/aws/en/release-notes/release-types). These workload types let you trade concurrency for more memory per worker on the same CPU hardware. Use them when your model needs more memory than the standard `CPU` workload type provides. See [Compute type](/aws/en/machine-learning/model-serving/custom-models#compute-type).",
+  "ref_links": [
+    {
+      "text": "Model Serving",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving"
+    },
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Compute type",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-models#compute-type"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.772495Z"
+}

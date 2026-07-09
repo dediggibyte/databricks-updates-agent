@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-18-genie-sql-improvements-api-enhancements-and-bug-fixes",
+  "title": "Genie SQL improvements, API enhancements, and bug fixes",
+  "date": "2025-09-18",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-sql-improvements-api-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Upgraded large language models (LLMs)**: The LLMs used by Genie to author SQL have been upgraded for improved accuracy and performance.\n* **SQL autocomplete**: Autocomplete is now available when editing Genie SQL to help users write queries more efficiently.\n* **Feedback API endpoints**: Thumbs up and thumbs down feedback API endpoints are now available for collecting user feedback on Genie responses.\n* **Suggested follow-up questions API**: Suggested follow-up questions through the API are now available. See [Get message](https://docs.databricks.com/api/workspace/genie/getmessage#attachments-suggested_questions).\n* **Consumer entitlement API access**: Users with the workspace consumer entitlement can now use the API suite.\n* **Warehouse ID in API responses**: GET API requests for Genie Spaces now include the `warehouse_id` attached to the space.",
+  "ref_links": [
+    {
+      "text": "Get message",
+      "url": "https://docs.databricks.com/api/workspace/genie/getmessage#attachments-suggested_questions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.211833Z"
+}

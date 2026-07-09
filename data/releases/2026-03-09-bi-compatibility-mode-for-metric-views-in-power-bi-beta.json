@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-09-bi-compatibility-mode-for-metric-views-in-power-bi-beta",
+  "title": "BI compatibility mode for metric views in Power BI (Beta)",
+  "date": "2026-03-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#bi-compatibility-mode-for-metric-views-in-power-bi-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "BI compatibility mode for metric views in Power BI is now available in Beta. You can query Databricks metric views in Power BI using standard SQL aggregation functions by enabling BI compatibility mode when creating a connection. It automatically rewrites aggregate functions to use the correct measure definitions. See [Query metric views with BI compatibility mode](/aws/en/partners/bi/bi-metric-view).",
+  "ref_links": [
+    {
+      "text": "Query metric views with BI compatibility mode",
+      "url": "https://docs.databricks.com/aws/en/partners/bi/bi-metric-view"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.900003Z"
+}

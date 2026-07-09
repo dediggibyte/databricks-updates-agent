@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-05-github-managed-ingestion-connector-beta",
+  "title": "GitHub managed ingestion connector (Beta)",
+  "date": "2026-05-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#github-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The GitHub connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest data from GitHub into Databricks. See [GitHub connector](/aws/en/ingestion/lakeflow-connect/github-overview).",
+  "ref_links": [
+    {
+      "text": "GitHub connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/github-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.730059Z"
+}

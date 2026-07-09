@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-03-anthropic-claude-sonnet-4-5-now-available-as-a-databricks-hosted-model",
+  "title": "Anthropic Claude Sonnet 4.5 now available as a Databricks-hosted model",
+  "date": "2025-10-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#anthropic-claude-sonnet-45-now-available-as-a-databricks-hosted-model",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Model Serving now supports Anthropic [Claude Sonnet 4.5](/aws/en/machine-learning/foundation-model-apis/supported-models#claude-sonnet-4-5) as a Databricks-hosted model. You can access this model using [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis).",
+  "ref_links": [
+    {
+      "text": "Claude Sonnet 4.5",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#claude-sonnet-4-5"
+    },
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.187496Z"
+}

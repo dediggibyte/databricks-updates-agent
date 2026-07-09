@@ -1,0 +1,21 @@
+{
+  "id": "2025-10-16-dashboard-and-genie-spaces-tagging-public-preview",
+  "title": "Dashboard and Genie spaces tagging (Public Preview)",
+  "date": "2025-10-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#dashboard-and-genie-spaces-tagging-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add tags to dashboards and Genie spaces to improve organization across your workspace. Tags can be used for automation. For example, you can tag a dashboard as “Work in progress,” and an overnight process can automatically retrieve all dashboards with that tag using the API and assign them to the temporary warehouse until they’re tagged as “Certified.” Search is not supported using dashboard tags.\n\nSee [Manage dashboard tags](/aws/en/dashboards/manage/settings#tags) and [Add tags](/aws/en/genie/set-up#tags).",
+  "ref_links": [
+    {
+      "text": "Manage dashboard tags",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#tags"
+    },
+    {
+      "text": "Add tags",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.168877Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-09-30-pipeline-update-timeline-table-is-now-available-public-preview",
+  "title": "Pipeline update timeline table is now available (Public Preview)",
+  "date": "2025-09-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#pipeline-update-timeline-table-is-now-available-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The `system.lakeflow.pipeline_update_timeline` table provides complete historical tracking of pipeline updates and supports fine-grained analysis of update activity, triggers, results, and compute usage.\n\nSee [Pipeline update timeline table schema](/aws/en/admin/system-tables/jobs#pipeline-update-timeline).",
+  "ref_links": [
+    {
+      "text": "Pipeline update timeline table schema",
+      "url": "https://docs.databricks.com/aws/en/admin/system-tables/jobs#pipeline-update-timeline"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.198213Z"
+}

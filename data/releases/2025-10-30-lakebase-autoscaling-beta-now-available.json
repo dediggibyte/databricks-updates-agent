@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-30-lakebase-autoscaling-beta-now-available",
+  "title": "Lakebase (Autoscaling Beta) now available",
+  "date": "2025-10-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#lakebase-autoscaling-beta-now-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase (Autoscaling Beta) is now available on AWS as a new app in the app switcher, separate from the existing Lakebase Public Preview. This new version introduces autoscaling, scale-to-zero, database branching, instant restore, and project-based organization with a redesigned UI.\n\nSee [Get started with Lakebase Postgres (Autoscaling Beta)](/aws/en/oltp/projects/get-started).",
+  "ref_links": [
+    {
+      "text": "Get started with Lakebase Postgres (Autoscaling Beta)",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/get-started"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.145646Z"
+}

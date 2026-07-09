@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-30-new-sql-editor-default-enablement-and-legacy-sql-editor-retirement",
+  "title": "New SQL editor default enablement and legacy SQL editor retirement",
+  "date": "2026-03-30",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#new-sql-editor-default-enablement-and-legacy-sql-editor-retirement",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The new SQL editor has been generally available since October 2025. As part of the transition to the new editor, the following changes are planned:\n\n* **Starting in late May 2026**: The new SQL editor will be enabled by default for all workspaces. The ability to turn off the feature at the workspace level will no longer be available. Individual users will still be able to switch their queries to the legacy SQL editor after this period begins.\n* **Starting in late July 2026**: The legacy SQL editor will be retired. All users will use the new SQL editor, and the individual opt-out will no longer be available.\n\nTo learn more about the new SQL editor, see [Write queries and explore data in the new SQL editor](/aws/en/sql/user/sql-editor). If you have questions about this transition, contact your account team.",
+  "ref_links": [
+    {
+      "text": "Write queries and explore data in the new SQL editor",
+      "url": "https://docs.databricks.com/aws/en/sql/user/sql-editor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.828125Z"
+}

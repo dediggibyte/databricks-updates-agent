@@ -1,0 +1,28 @@
+{
+  "product": "Simplified compute form enabled by default",
+  "tagline": "The simplified compute creation form is now enabled by default when you create all purpose or jobs compute in the Databricks UI.",
+  "updated": "Jul 15, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/simple-form",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#simplified-compute-form-enabled-by-default",
+  "what_it_does": "The simplified compute creation form is now enabled by default when you create all purpose or jobs compute in the Databricks UI. This article explains how to access and use the simplified compute UI to create and edit all purpose and job compute. You can switch between the simple form and the legacy compute form at the top of the create compute UI using the Simple form toggle.",
+  "why_it_matters": "These updates include: Policy selection Machine learning runtime checkbox Node type selection Access mode updates Removed the credential passthrough setting Removed the on demand/spot instance slider Policy selection The Policy dropdown setting has improved to allow changing between policies without resetting the form.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The simplified compute creation form is now enabled by default when you create all purpose or jobs compute in the Databricks UI.",
+  "note_id": "2025-07-15-simplified-compute-form-enabled-by-default",
+  "category": "platform"
+}

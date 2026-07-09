@@ -1,0 +1,25 @@
+{
+  "id": "2026-04-28-attribute-based-access-control-abac-is-now-generally-available",
+  "title": "Attribute-based access control (ABAC) is now generally available",
+  "date": "2026-04-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#attribute-based-access-control-abac-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Attribute-based access control (ABAC) is now generally available (GA). ABAC is an access control model in Unity Catalog that uses [governed tags](/aws/en/admin/governed-tags) applied to data assets to dynamically enforce row filter and column mask policies on tables, materialized views, and streaming tables. Policies are attached at the catalog, schema, or table level and are automatically applied to all securables with matching tag attributes, enabling consistent access rules at scale without per-table configuration.\n\nAs part of this GA release, when a user queries a view or function that accesses ABAC-protected tables, row filters and column masks are now evaluated using the **session user's identity** (the identity of the person running the query) rather than the view or function owner's identity. This aligns ABAC behavior with table-level row-level security and column masking. Users querying through views and functions still do not need direct privileges on the underlying tables.\n\nThis is a breaking change. If Databricks contacted you as a potentially impacted customer, you have a three-month grace period to adapt your policies. If you were not contacted or are a new customer, the new session identity behavior is already the default for your account. See [ABAC policies on views](/aws/en/data-governance/unity-catalog/abac/requirements#abac-policies-on-views).\n\nSee [Attribute-based access control in Unity Catalog](/aws/en/data-governance/unity-catalog/abac).",
+  "ref_links": [
+    {
+      "text": "governed tags",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags"
+    },
+    {
+      "text": "ABAC policies on views",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/requirements#abac-policies-on-views"
+    },
+    {
+      "text": "Attribute-based access control in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.756374Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-01-edit-mode-in-assistant-does-multi-cell-code-refactoring-and-more",
+  "title": "Edit mode in Assistant does multi-cell code refactoring and more",
+  "date": "2025-08-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#edit-mode-in-assistant-does-multi-cell-code-refactoring-and-more",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Assistant now supports edit mode, which performs reasoning and editing steps across multiple cells in a notebook. Edit mode handles complex, multi-step tasks efficiently, coordinating changes across multiple cells without requiring manual intervention or repetitive prompting.\n\nFor information about using Assistant on code, see [Get coding help from Genie Code](/aws/en/notebooks/code-assistant).",
+  "ref_links": [
+    {
+      "text": "Get coding help from Genie Code",
+      "url": "https://docs.databricks.com/aws/en/notebooks/code-assistant"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.289400Z"
+}

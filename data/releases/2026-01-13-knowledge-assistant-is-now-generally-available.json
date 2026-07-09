@@ -1,0 +1,21 @@
+{
+  "id": "2026-01-13-knowledge-assistant-is-now-generally-available",
+  "title": "Knowledge Assistant is now generally available",
+  "date": "2026-01-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#knowledge-assistant-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Use [Knowledge Assistant](/aws/en/agents/agent-bricks/knowledge-assistant) to create a chatbot that can answer questions about your documents and provide high-quality responses with citations.\n\nKnowledge Assistant is now generally available in select US regions for workspaces without [Enhanced Security and Compliance](/aws/en/security/privacy#esc) features.",
+  "ref_links": [
+    {
+      "text": "Knowledge Assistant",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/knowledge-assistant"
+    },
+    {
+      "text": "Enhanced Security and Compliance",
+      "url": "https://docs.databricks.com/aws/en/security/privacy#esc"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.048998Z"
+}

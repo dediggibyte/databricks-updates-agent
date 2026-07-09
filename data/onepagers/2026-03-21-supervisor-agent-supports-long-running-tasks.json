@@ -1,0 +1,28 @@
+{
+  "product": "Supervisor Agent supports long-running tasks",
+  "tagline": "Supervisor Agent now supports long running task mode, which automatically breaks complex tasks into multiple request/response cycles using task continuation to avoid timeouts.",
+  "updated": "Mar 21, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor-long-running-tasks",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#supervisor-agent-supports-long-running-tasks",
+  "what_it_does": "Supervisor Agent now supports long running task mode, which automatically breaks complex tasks into multiple request/response cycles using task continuation to avoid timeouts. This page explains how to handle long running tasks using task continuation with Supervisor Agent. When a supervisor agent works on complex tasks that require many tool calls, the task might need more time than a single API request allows.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Supervisor Agent now supports long running task mode, which automatically breaks complex tasks into multiple request/response cycles using task continuation to avoid timeouts.",
+  "note_id": "2026-03-21-supervisor-agent-supports-long-running-tasks",
+  "category": "platform"
+}

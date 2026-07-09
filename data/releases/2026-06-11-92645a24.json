@@ -1,0 +1,17 @@
+{
+  "id": "2026-06-11-92645a24",
+  "title": "Agent Bricks Supervisor Agent now supports Unity Catalog volumes as subagent tools",
+  "date": "2026-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-unity-catalog-volumes-as-subagent-tools",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. See [Use Supervisor Agent to create a coordinated multi-agent system](/aws/en/agents/agent-bricks/multi-agent-supervisor).",
+  "ref_links": [
+    {
+      "text": "Use Supervisor Agent to create a coordinated multi-agent system",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.596478Z"
+}

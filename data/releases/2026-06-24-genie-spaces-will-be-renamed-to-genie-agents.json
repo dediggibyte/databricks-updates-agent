@@ -1,0 +1,12 @@
+{
+  "id": "2026-06-24-genie-spaces-will-be-renamed-to-genie-agents",
+  "title": "Genie Spaces will be renamed to Genie Agents",
+  "date": "2026-06-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#genie-spaces-will-be-renamed-to-genie-agents",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie Spaces is being renamed to Genie Agents. In early July 2026, Genie Spaces is renamed to Genie Agents to better reflect the full capabilities of this feature.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.545033Z"
+}

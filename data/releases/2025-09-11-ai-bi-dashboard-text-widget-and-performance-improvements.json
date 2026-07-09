@@ -1,0 +1,12 @@
+{
+  "id": "2025-09-11-ai-bi-dashboard-text-widget-and-performance-improvements",
+  "title": "AI/BI dashboard text widget and performance improvements",
+  "date": "2025-09-11",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#aibi-dashboard-text-widget-and-performance-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Improved text widget editor**: The dashboard text widget now has an enhanced UI for formatting text, adding links, and inserting images.\n* **Fixed performance regressions**: Resolved issues that caused performance slowdowns, including pages failing to load and URL parameters applying incorrectly.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.218822Z"
+}

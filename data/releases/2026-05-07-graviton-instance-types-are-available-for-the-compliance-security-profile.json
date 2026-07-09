@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-07-graviton-instance-types-are-available-for-the-compliance-security-profile",
+  "title": "Graviton instance types are available for the compliance security profile",
+  "date": "2026-05-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#graviton-instance-types-are-available-for-the-compliance-security-profile",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Graviton (Arm64) instance types are now available on AWS Commercial workspaces that use the compliance security profile with the FedRAMP Moderate, IRAP, or CCCS Medium (Protected B) compliance standards. Graviton instances improve price-performance for many workloads. For the instance types supported under each compliance standard, see [Supported instance types](/aws/en/security/privacy/enhanced-security-compliance#supported-instance-types).",
+  "ref_links": [
+    {
+      "text": "Supported instance types",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/enhanced-security-compliance#supported-instance-types"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.727119Z"
+}

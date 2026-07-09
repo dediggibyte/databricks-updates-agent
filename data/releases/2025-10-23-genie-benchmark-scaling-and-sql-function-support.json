@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-23-genie-benchmark-scaling-and-sql-function-support",
+  "title": "Genie benchmark scaling and SQL function support",
+  "date": "2025-10-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-benchmark-scaling-and-sql-function-support",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Increased benchmark limit**: The maximum number of benchmarks you can add to a Genie Space has been raised from 100 to 500.\n* **Run benchmarks selectively**: You can now select a subset of benchmark questions to start a run from either the benchmark list page or from a previous benchmark result. See [Review individual evaluations](/aws/en/genie/monitor#review-single-eval).\n* **Unity Catalog SQL functions as benchmark answers**: You can now add Unity Catalog SQL functions as gold standard answers to benchmarks for more comprehensive testing.",
+  "ref_links": [
+    {
+      "text": "Review individual evaluations",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#review-single-eval"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.154121Z"
+}

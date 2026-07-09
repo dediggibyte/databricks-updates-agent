@@ -1,0 +1,12 @@
+{
+  "id": "2025-09-02-ai-agents-authorize-on-behalf-of-user-public-preview",
+  "title": "AI agents: Authorize on-behalf-of-user Public Preview",
+  "date": "2025-09-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#ai-agents-authorize-on-behalf-of-user-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AI agents deployed to Model Serving endpoints can use on-behalf-of-user authorization. This lets an agent act as the Databricks user who runs the query for added security and fine-grained access to sensitive data.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.234921Z"
+}

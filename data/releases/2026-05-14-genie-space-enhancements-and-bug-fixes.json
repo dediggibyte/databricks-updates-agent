@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-14-genie-space-enhancements-and-bug-fixes",
+  "title": "Genie Space enhancements and bug fixes",
+  "date": "2026-05-14",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-bug-fixes-3",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Create API instruction limits raised**: The create API now enforces the same limits as the UI for instruction creation. The maximum characters for query text has been raised from 20,000 to 40,000.\n* **Answer now in Agent mode (Public Preview)**: Users can click **Answer now** to stop Agent mode reasoning and get an answer based on the existing context. See [Agent mode in Genie Agents](/aws/en/genie/agent-mode).\n* **Request review on Agent mode (Public Preview) conversations**: Users can now request a review on Agent mode conversations. See  [Response feedback](/aws/en/genie/monitor#response-feedback).\n* **Conversation history bug fix**: Fixed a bug where the conversation history list would only show the current conversation.\n* **Genie Code citation links for monitoring**: When using **Analyze space usage**, Genie Code responses now include citations. Click a citation to open the relevant conversation directly in the Genie Code thread. See [Review usage and trends](/aws/en/genie/monitor#usage-trends).",
+  "ref_links": [
+    {
+      "text": "Agent mode in Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie/agent-mode"
+    },
+    {
+      "text": "Response feedback",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#response-feedback"
+    },
+    {
+      "text": "Review usage and trends",
+      "url": "https://docs.databricks.com/aws/en/genie/monitor#usage-trends"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.701681Z"
+}

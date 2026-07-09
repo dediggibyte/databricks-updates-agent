@@ -1,0 +1,25 @@
+{
+  "id": "2025-10-01-new-permissions-for-the-databricks-github-app",
+  "title": "New permissions for the Databricks GitHub App",
+  "date": "2025-10-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#new-permissions-for-the-databricks-github-app",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "If you own a Databricks account with the Databricks [GitHub app](https://github.com/apps/databricks) installed, you may receive an email titled \"Databricks is requesting updated permissions\" from GitHub.\n\nThis is a legitimate request from Databricks. It asks you to approve a new permission that allows Databricks to read your [GitHub account email(s)](https://docs.github.com/en/rest/users/emails). Granting this permission will let Databricks retrieve and save your primary GitHub account email to your Linked Git credential in Databricks. In an upcoming feature, this will ensure that commits made from Databricks are [properly linked](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address) to your GitHub identity.\n\nIf you don't accept the new permission, your Linked Git credential will still authenticate with GitHub. However, future commits from this credential will not be [associated with your GitHub account identity](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)",
+  "ref_links": [
+    {
+      "text": "GitHub app",
+      "url": "https://github.com/apps/databricks"
+    },
+    {
+      "text": "GitHub account email(s)",
+      "url": "https://docs.github.com/en/rest/users/emails"
+    },
+    {
+      "text": "properly linked",
+      "url": "https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.197507Z"
+}

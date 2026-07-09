@@ -1,0 +1,28 @@
+{
+  "product": "Serverless workspaces are now generally available",
+  "tagline": "Serverless workspaces are now generally available.",
+  "updated": "Jan 29, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/workspace/serverless-workspaces",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#serverless-workspaces-are-now-generally-available",
+  "what_it_does": "Serverless workspaces are now generally available. Serverless workspaces come pre configured with serverless compute and default storage, providing a fully managed, enterprise ready SaaS experience. A serverless workspace is a workspace deployed in your Databricks account that comes preconfigured with serverless compute and default storage, providing a fully managed, enterprise ready SaaS experience.",
+  "why_it_matters": "This allows Databricks to deliver performance improvements, security enhancements, and bug fixes without requiring any code changes to workloads.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Serverless workspaces are now generally available.",
+  "note_id": "2026-01-29-serverless-workspaces-are-now-generally-available",
+  "category": "platform"
+}

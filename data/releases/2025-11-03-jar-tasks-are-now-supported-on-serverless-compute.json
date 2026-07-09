@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-03-jar-tasks-are-now-supported-on-serverless-compute",
+  "title": "JAR tasks are now supported on serverless compute",
+  "date": "2025-11-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#jar-tasks-are-now-supported-on-serverless-compute",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now run JAR jobs on serverless compute. See [JAR task for jobs](/aws/en/jobs/tasks/jar).",
+  "ref_links": [
+    {
+      "text": "JAR task for jobs",
+      "url": "https://docs.databricks.com/aws/en/jobs/tasks/jar"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.135228Z"
+}

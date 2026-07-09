@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-02-databricks-runtime-18-april-2-2026",
+  "title": "Databricks Runtime 18: April 2, 2026",
+  "date": "2026-04-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-april-2-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* Improved error handling for queries writing data to Delta tables that contain a `VOID` (`NullType`) column inside a user-defined type (UDT).\n* JDBC streaming sink connections now apply a 30-second socket timeout, retry logic with exponential backoff for transient errors (connection failures, deadlocks, rate limiting), and graceful rollback on broken connections.\n* Fixed SQL text corruption that occurred when using Unicode characters in parameterized queries.\n* `SHOW CREATE TABLE` now produces correct output for tables and views with a non-default collation.\n* **[Security fix]** Operating system security updates.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.822304Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2025-07-31-databricks-terraform-provider-supports-lakebase-resources",
+  "title": "Databricks Terraform provider supports Lakebase resources",
+  "date": "2025-07-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#databricks-terraform-provider-supports-lakebase-resources",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can use the Databricks Terraform provider to create Lakebase resources such as database catalogs, database instances, and synced tables. This lets you set up and manage Lakebase resources with infrastructure as code.\n\nSee the [Terraform documentation](https://registry.terraform.io/providers/databricks/databricks/latest/docs/resources/database_database_catalog) and [changelog](https://github.com/databricks/terraform-provider-databricks/releases/tag/v1.85.0).",
+  "ref_links": [
+    {
+      "text": "Terraform documentation",
+      "url": "https://registry.terraform.io/providers/databricks/databricks/latest/docs/resources/database_database_catalog"
+    },
+    {
+      "text": "changelog",
+      "url": "https://github.com/databricks/terraform-provider-databricks/releases/tag/v1.85.0"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.293105Z"
+}

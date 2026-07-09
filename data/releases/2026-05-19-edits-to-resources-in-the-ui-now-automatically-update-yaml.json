@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-19-edits-to-resources-in-the-ui-now-automatically-update-yaml",
+  "title": "Edits to resources in the UI now automatically update YAML",
+  "date": "2026-05-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#edits-to-resources-in-the-ui-now-automatically-update-yaml",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Edits to jobs and pipeline settings in the UI now automatically update YAML. See [Edit bundle resources](/aws/en/dev-tools/bundles/workspace-author#edit-bundle-resources).",
+  "ref_links": [
+    {
+      "text": "Edit bundle resources",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/workspace-author#edit-bundle-resources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.686751Z"
+}

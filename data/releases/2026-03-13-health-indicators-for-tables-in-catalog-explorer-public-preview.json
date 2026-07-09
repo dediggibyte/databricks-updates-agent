@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-13-health-indicators-for-tables-in-catalog-explorer-public-preview",
+  "title": "Health indicators for tables in Catalog Explorer (Public Preview)",
+  "date": "2026-03-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#health-indicators-for-tables-in-catalog-explorer-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now view health indicators for tables on schema and table overview pages in Catalog Explorer (Public Preview). Health indicators show a summary of each table's freshness and completeness status based on anomaly detection. See [Anomaly detection](/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection).",
+  "ref_links": [
+    {
+      "text": "Anomaly detection",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.871573Z"
+}

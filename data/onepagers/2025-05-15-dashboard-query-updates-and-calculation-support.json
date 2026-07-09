@@ -1,0 +1,37 @@
+{
+  "product": "Dashboard query updates and calculation support",
+  "tagline": "Genie in dashboards query update: Genie in dashboards will now only query from dashboard datasets, instead of the underlying tables within dashboard datasets.",
+  "updated": "May 15, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-query-updates-and-calculation-support",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-query-updates-and-calculation-support",
+  "what_it_does": "Genie in dashboards query update: Genie in dashboards will now only query from dashboard datasets, instead of the underlying tables within dashboard datasets. Custom calculation support in dashboards: Added support for custom calculations using isnull, isnotnull functions, and the null operator. AI/BI dashboard schedule support: AI/BI dashboard schedules now support dashboards without embedded credentials.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "Tooltip fix: Fixed tooltips to",
+      "desc": "Tooltip fix: Fixed tooltips to display an empty value when the field value is an empty string (\"\")."
+    },
+    {
+      "title": "Number formatting support: Number formatting",
+      "desc": "Number formatting support: Number formatting in table and pivot table cells from notebooks, SQL editor, and legacy dashboards…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Genie in dashboards query update: Genie in dashboards will now only query from dashboard datasets, instead of the underlying tables within dashboard datasets.",
+  "note_id": "2025-05-15-dashboard-query-updates-and-calculation-support",
+  "category": "platform"
+}

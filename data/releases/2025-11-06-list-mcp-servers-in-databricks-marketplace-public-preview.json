@@ -1,0 +1,21 @@
+{
+  "id": "2025-11-06-list-mcp-servers-in-databricks-marketplace-public-preview",
+  "title": "List MCP servers in Databricks Marketplace (Public Preview)",
+  "date": "2025-11-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#list-mcp-servers-in-databricks-marketplace-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Marketplace now supports listing Model Context Protocol (MCP) servers. Providers can list MCP servers to distribute AI tools and other Databricks users can install MCP servers from Marketplace to connect AI agents to external data sources, SaaS tools, and developer APIs.\n\nSee [MCP server listing fields](/aws/en/marketplace/create-listing#mcp-listings) and [Get access to external MCP servers](/aws/en/marketplace/get-started-consumer#install-mcp).",
+  "ref_links": [
+    {
+      "text": "MCP server listing fields",
+      "url": "https://docs.databricks.com/aws/en/marketplace/create-listing#mcp-listings"
+    },
+    {
+      "text": "Get access to external MCP servers",
+      "url": "https://docs.databricks.com/aws/en/marketplace/get-started-consumer#install-mcp"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.126715Z"
+}

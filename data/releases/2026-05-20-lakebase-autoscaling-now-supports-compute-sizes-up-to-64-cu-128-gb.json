@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-20-lakebase-autoscaling-now-supports-compute-sizes-up-to-64-cu-128-gb",
+  "title": "Lakebase Autoscaling now supports compute sizes up to 64 CU (128 GB)",
+  "date": "2026-05-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakebase-autoscaling-now-supports-compute-sizes-up-to-64-cu-128-gb",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase Autoscaling now supports compute sizes up to 64 CU (128 GB RAM), up from the previous maximum of 32 CU (64 GB RAM). Larger workloads can now use dynamic scaling. See [Autoscaling](/aws/en/oltp/projects/autoscaling).",
+  "ref_links": [
+    {
+      "text": "Autoscaling",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/autoscaling"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.679689Z"
+}

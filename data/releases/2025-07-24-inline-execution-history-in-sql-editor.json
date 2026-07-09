@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-24-inline-execution-history-in-sql-editor",
+  "title": "Inline execution history in SQL editor",
+  "date": "2025-07-24",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#inline-execution-history-in-sql-editor",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Inline execution history is now available in the new SQL editor, allowing you to quickly access past results without re-executing queries. Easily reference previous executions, navigate directly to past query profiles, or compare run times and statuses—all within the context of your current query.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.308699Z"
+}

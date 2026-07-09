@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-12-databricks-assistant-user-and-workspace-instructions-now-available",
+  "title": "Databricks Assistant: User and workspace instructions now available",
+  "date": "2025-08-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-assistant-user-and-workspace-instructions-now-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now tailor how Databricks Assistant responds by adding custom user instructions. Guide the Assistant with preferences, coding conventions, and response guidelines.\n\nAdmins can also add workspace-wide instructions, which take priority over user instructions.\n\nInstructions apply across Assistant experiences like Inline Assistant, General Chat, Suggest Fix, and Edit mode. See [Customize Genie Code with custom instructions](/aws/en/genie-code/instructions).",
+  "ref_links": [
+    {
+      "text": "Customize Genie Code with custom instructions",
+      "url": "https://docs.databricks.com/aws/en/genie-code/instructions"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.271753Z"
+}

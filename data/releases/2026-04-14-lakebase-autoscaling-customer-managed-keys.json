@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-14-lakebase-autoscaling-customer-managed-keys",
+  "title": "Lakebase Autoscaling: Customer-managed keys",
+  "date": "2026-04-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#lakebase-autoscaling-customer-managed-keys",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now manage encrypted Lakebase Autoscaling project data using a customer-managed key (CMK) from your own cloud KMS. This gives your organization full control over encryption and helps meet regulatory and compliance requirements. See [Customer-managed keys for Lakebase](/aws/en/oltp/projects/customer-managed-keys).",
+  "ref_links": [
+    {
+      "text": "Customer-managed keys for Lakebase",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/customer-managed-keys"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.799465Z"
+}

@@ -1,0 +1,217 @@
+{
+  "id": "2026-02-11-databricks-sql-version-2025-40-is-now-available-in-preview",
+  "title": "Databricks SQL version 2025.40 is now available in Preview",
+  "date": "2026-02-11",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202540-is-now-available-in-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2025.40 is now available in the **Preview** channel. Review the following section to learn about new features, behavioral changes, and bug fixes.\n\n#### SQL scripting is generally available\n\n[SQL scripting](/aws/en/sql/language-manual/sql-ref-scripting) is now generally available. Write procedural logic with SQL, including conditional statements, loops, local variables, and exception handling.\n\n#### Parameter markers now supported in more SQL contexts\n\nYou can now use named (`:param`) and unnamed (`?`) parameter markers anywhere a literal value of the appropriate type is allowed. This includes DDL statements such as `CREATE VIEW v AS SELECT ? AS c1`, column types such as `DECIMAL(:p, :s)`, and comments such as `COMMENT ON t IS :comment`. This allows you to parameterize a large variety of SQL statements without exposing your code to SQL injection attacks. See [Parameter markers](/aws/en/sql/language-manual/sql-ref-parameter-marker).\n\n#### IDENTIFIER clause expanded to more SQL contexts\n\nThe `IDENTIFIER` clause, which casts strings to SQL object names, is now supported in nearly every context where an identifier is permitted. Combined with expanded parameter marker and literal string coalescing support, you can parameterize anything from column aliases (`AS IDENTIFIER(:name)`) to column definitions (`IDENTIFIER(:pk) BIGINT NOT NULL`). See [IDENTIFIER clause](/aws/en/sql/language-manual/sql-ref-names-identifier-clause).\n\n#### Literal string coalescing supported everywhere\n\nSequential string literals such as `'Hello' ' World'` now coalesce into `'Hello World'` in any context where string literals are allowed, including `COMMENT 'This' ' is a ' 'comment'`. See [`STRING` type](/aws/en/sql/language-manual/data-types/string-type).\n\n#### New BITMAP\\_AND\\_AGG function\n\nA new [BITMAP\\_AND\\_AGG](/aws/en/sql/language-manual/functions/bitmap_and_agg) function is now available to complement the existing library of `BITMAP` functions.\n\n#### New Theta Sketch functions for approximate distinct counts\n\nA new library of functions for approximate distinct count and set operations using Datasketches Theta Sketch is now available:\n\n* [`theta_sketch_agg` aggregate function](/aws/en/sql/language-manual/functions/theta_sketch_agg)\n* [`theta_union_agg` aggregate function](/aws/en/sql/language-manual/functions/theta_union_agg)\n* [`theta_intersection_agg` aggregate function](/aws/en/sql/language-manual/functions/theta_intersection_agg)\n* [`theta_sketch_estimate` function](/aws/en/sql/language-manual/functions/theta_sketch_estimate)\n* [`theta_union` function](/aws/en/sql/language-manual/functions/theta_union)\n* [`theta_difference` function](/aws/en/sql/language-manual/functions/theta_difference)\n* [`theta_intersection` function](/aws/en/sql/language-manual/functions/theta_intersection)\n\n#### New KLL Sketch functions for approximate quantiles\n\nA new library of functions for building KLL Sketches for approximate quantile computation is now available:\n\n* [`kll_sketch_agg_bigint` aggregate function](/aws/en/sql/language-manual/functions/kll_sketch_agg_bigint)\n* [`kll_sketch_get_quantile_bigint` function](/aws/en/sql/language-manual/functions/kll_sketch_get_quantile_bigint)\n* [`kll_sketch_merge_bigint` function](/aws/en/sql/language-manual/functions/kll_sketch_merge_bigint)\n* [`kll_sketch_agg_double` aggregate function](/aws/en/sql/language-manual/functions/kll_sketch_agg_double)\n* [`kll_sketch_get_quantile_double` function](/aws/en/sql/language-manual/functions/kll_sketch_get_quantile_double)\n* [`kll_sketch_merge_double` function](/aws/en/sql/language-manual/functions/kll_sketch_merge_double)\n* [`kll_sketch_agg_float` aggregate function](/aws/en/sql/language-manual/functions/kll_sketch_agg_float)\n* [`kll_sketch_get_quantile_float` function](/aws/en/sql/language-manual/functions/kll_sketch_get_quantile_float)\n* [`kll_sketch_merge_float` function](/aws/en/sql/language-manual/functions/kll_sketch_merge_float)\n* [`kll_sketch_get_n_bigint` function](/aws/en/sql/language-manual/functions/kll_sketch_get_n_bigint)\n* [`kll_sketch_get_rank_bigint` function](/aws/en/sql/language-manual/functions/kll_sketch_get_rank_bigint)\n* [`kll_sketch_to_string_bigint` function](/aws/en/sql/language-manual/functions/kll_sketch_to_string_bigint)\n* [`kll_sketch_get_n_double` function](/aws/en/sql/language-manual/functions/kll_sketch_get_n_double)\n* [`kll_sketch_get_rank_double` function](/aws/en/sql/language-manual/functions/kll_sketch_get_rank_double)\n* [`kll_sketch_to_string_double` function](/aws/en/sql/language-manual/functions/kll_sketch_to_string_double)\n* [`kll_sketch_get_n_float` function](/aws/en/sql/language-manual/functions/kll_sketch_get_n_float)\n* [`kll_sketch_get_rank_float` function](/aws/en/sql/language-manual/functions/kll_sketch_get_rank_float)\n* [`kll_sketch_to_string_float` function](/aws/en/sql/language-manual/functions/kll_sketch_to_string_float)\n\nYou can merge multiple KLL sketches in an aggregation context using [kll\\_merge\\_agg\\_bigint](/aws/en/sql/language-manual/functions/kll_merge_agg_bigint), [kll\\_merge\\_agg\\_double](/aws/en/sql/language-manual/functions/kll_merge_agg_double), and [kll\\_merge\\_agg\\_float](/aws/en/sql/language-manual/functions/kll_merge_agg_float).\n\n#### SQL window functions in metric views\n\nYou can now use [SQL window functions](/aws/en/sql/language-manual/sql-ref-window-functions) in [metric views](/aws/en/business-semantics/metric-views) to calculate running totals, rankings, and other window-based calculations.\n\n#### New geospatial functions\n\nThe following new geospatial functions are now available:\n\n* [`st_azimuth` function](/aws/en/sql/language-manual/functions/st_azimuth): Returns the north-based azimuth from the first point to the second in radians in `[0, 2π)`.\n* [`st_boundary` function](/aws/en/sql/language-manual/functions/st_boundary): Returns the boundary of the input geometry.\n* [`st_closestpoint` function](/aws/en/sql/language-manual/functions/st_closestpoint): Returns the 2D projection of a point on the first geometry that is closest to the second geometry.\n* [`st_geogfromewkt` function](/aws/en/sql/language-manual/functions/st_geogfromewkt): Parses an Extended Well-Known Text (EWKT) description of a geography.\n* [`st_geomfromewkt` function](/aws/en/sql/language-manual/functions/st_geomfromewkt): Parses an Extended Well-Known Text (EWKT) description of a geometry.\n\n#### EWKT input support for existing geometry and geography functions\n\nThe following functions now accept Extended Well-Known Text (EWKT) as input:\n\n* [`try_to_geography` function](/aws/en/sql/language-manual/functions/try_to_geography)\n* [`try_to_geometry` function](/aws/en/sql/language-manual/functions/try_to_geometry)\n* [`to_geography` function](/aws/en/sql/language-manual/functions/to_geography)\n* [`to_geometry` function](/aws/en/sql/language-manual/functions/to_geometry)\n\n#### Improved performance for repeated queries over tables with row filters and column masks\n\nRepeated eligible queries over tables with [row filters and column masks](/aws/en/data-governance/unity-catalog/filters-and-masks) now benefit from improved query result caching, resulting in faster execution times.\n\n#### Improved geospatial function performance\n\nSpatial join performance is improved with shuffled spatial join support. The following ST functions now have Photon implementations:\n\n* [`st_isvalid` function](/aws/en/sql/language-manual/functions/st_isvalid)\n* [`st_makeline` function](/aws/en/sql/language-manual/functions/st_makeline)\n* [`st_makepolygon` function](/aws/en/sql/language-manual/functions/st_makepolygon)\n\n#### FSCK REPAIR TABLE includes metadata repair by default\n\n[`FSCK REPAIR TABLE`](/aws/en/sql/language-manual/delta-fsck) now includes an initial metadata repair step before checking for missing data files, allowing it to work on tables with corrupt checkpoints or invalid partition values. Additionally, the `dataFilePath` column in the `FSCK REPAIR TABLE DRY RUN` output schema is now nullable to support new issue types where the data file path is not applicable.\n\n#### DESCRIBE TABLE output includes metadata column\n\nThe output of [`DESCRIBE TABLE [EXTENDED]`](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table) now includes a `metadata` column for all table types. This column contains semantic metadata (display name, format, and synonyms) defined on the table as a JSON string.\n\n#### NULL structs preserved in MERGE, UPDATE, and streaming write operations\n\nNULL structs are now preserved as NULL in Delta Lake `MERGE`, `UPDATE`, and streaming write operations that include struct type casts. Previously, NULL structs were expanded to structs with all fields set to NULL.\n\n#### Partition columns materialized in Parquet files\n\nPartitioned Delta Lake tables now materialize partition columns in newly written Parquet data files. Previously, partition values were stored only in the Delta Lake transaction log metadata. Workloads that directly read Parquet files written by Delta Lake sees additional partition columns in newly written files.\n\n#### Timestamp partition values respect session timezone\n\nTimestamp partition values are now correctly adjusted using the `spark.sql.session.timeZone` configuration. Previously, they were incorrectly converted to UTC using the JVM timezone.\n\n#### Time travel restrictions updated\n\nDatabricks now blocks time travel queries beyond the `deletedFileRetentionDuration` threshold for all tables. The `VACUUM` command ignores the retention duration argument except when the value is 0 hours. You cannot set `deletedFileRetentionDuration` larger than `logRetentionDuration`.\n\n#### SHOW TABLES DROPPED respects LIMIT clause\n\n[`SHOW TABLES DROPPED`](/aws/en/sql/language-manual/sql-ref-syntax-aux-show-tables-dropped) now correctly respects the `LIMIT` clause.",
+  "ref_links": [
+    {
+      "text": "SQL scripting",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-scripting"
+    },
+    {
+      "text": "Parameter markers",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-parameter-marker"
+    },
+    {
+      "text": "IDENTIFIER clause",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-names-identifier-clause"
+    },
+    {
+      "text": "STRING type",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/string-type"
+    },
+    {
+      "text": "BITMAP_AND_AGG",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/bitmap_and_agg"
+    },
+    {
+      "text": "theta_sketch_agg aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_sketch_agg"
+    },
+    {
+      "text": "theta_union_agg aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_union_agg"
+    },
+    {
+      "text": "theta_intersection_agg aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_intersection_agg"
+    },
+    {
+      "text": "theta_sketch_estimate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_sketch_estimate"
+    },
+    {
+      "text": "theta_union function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_union"
+    },
+    {
+      "text": "theta_difference function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_difference"
+    },
+    {
+      "text": "theta_intersection function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/theta_intersection"
+    },
+    {
+      "text": "kll_sketch_agg_bigint aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_agg_bigint"
+    },
+    {
+      "text": "kll_sketch_get_quantile_bigint function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_quantile_bigint"
+    },
+    {
+      "text": "kll_sketch_merge_bigint function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_merge_bigint"
+    },
+    {
+      "text": "kll_sketch_agg_double aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_agg_double"
+    },
+    {
+      "text": "kll_sketch_get_quantile_double function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_quantile_double"
+    },
+    {
+      "text": "kll_sketch_merge_double function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_merge_double"
+    },
+    {
+      "text": "kll_sketch_agg_float aggregate function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_agg_float"
+    },
+    {
+      "text": "kll_sketch_get_quantile_float function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_quantile_float"
+    },
+    {
+      "text": "kll_sketch_merge_float function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_merge_float"
+    },
+    {
+      "text": "kll_sketch_get_n_bigint function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_n_bigint"
+    },
+    {
+      "text": "kll_sketch_get_rank_bigint function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_rank_bigint"
+    },
+    {
+      "text": "kll_sketch_to_string_bigint function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_to_string_bigint"
+    },
+    {
+      "text": "kll_sketch_get_n_double function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_n_double"
+    },
+    {
+      "text": "kll_sketch_get_rank_double function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_rank_double"
+    },
+    {
+      "text": "kll_sketch_to_string_double function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_to_string_double"
+    },
+    {
+      "text": "kll_sketch_get_n_float function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_n_float"
+    },
+    {
+      "text": "kll_sketch_get_rank_float function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_get_rank_float"
+    },
+    {
+      "text": "kll_sketch_to_string_float function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_sketch_to_string_float"
+    },
+    {
+      "text": "kll_merge_agg_bigint",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_merge_agg_bigint"
+    },
+    {
+      "text": "kll_merge_agg_double",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_merge_agg_double"
+    },
+    {
+      "text": "kll_merge_agg_float",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/kll_merge_agg_float"
+    },
+    {
+      "text": "SQL window functions",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-window-functions"
+    },
+    {
+      "text": "metric views",
+      "url": "https://docs.databricks.com/aws/en/business-semantics/metric-views"
+    },
+    {
+      "text": "st_azimuth function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_azimuth"
+    },
+    {
+      "text": "st_boundary function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_boundary"
+    },
+    {
+      "text": "st_closestpoint function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_closestpoint"
+    },
+    {
+      "text": "st_geogfromewkt function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_geogfromewkt"
+    },
+    {
+      "text": "st_geomfromewkt function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_geomfromewkt"
+    },
+    {
+      "text": "try_to_geography function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/try_to_geography"
+    },
+    {
+      "text": "try_to_geometry function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/try_to_geometry"
+    },
+    {
+      "text": "to_geography function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/to_geography"
+    },
+    {
+      "text": "to_geometry function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/to_geometry"
+    },
+    {
+      "text": "row filters and column masks",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/filters-and-masks"
+    },
+    {
+      "text": "st_isvalid function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_isvalid"
+    },
+    {
+      "text": "st_makeline function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_makeline"
+    },
+    {
+      "text": "st_makepolygon function",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/st_makepolygon"
+    },
+    {
+      "text": "FSCK REPAIR TABLE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/delta-fsck"
+    },
+    {
+      "text": "DESCRIBE TABLE [EXTENDED]",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-table"
+    },
+    {
+      "text": "SHOW TABLES DROPPED",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-show-tables-dropped"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.973659Z"
+}

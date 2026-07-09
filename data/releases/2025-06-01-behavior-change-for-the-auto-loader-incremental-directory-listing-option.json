@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-01-behavior-change-for-the-auto-loader-incremental-directory-listing-option",
+  "title": "Behavior change for the Auto Loader incremental directory listing option",
+  "date": "2025-06-01",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#behavior-change-for-the-auto-loader-incremental-directory-listing-option",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Auto Loader `cloudFiles.useIncrementalListing` option is deprecated. Although this note discusses a change to the options's default value and how to continue using it after this change, Databricks recommends against using this option in favor of [file notification mode with file events](/aws/en/ingestion/cloud-object-storage/auto-loader/file-notification-mode#file-events).\n\nIn an upcoming Databricks Runtime release, the value of the deprecated Auto Loader `cloudFiles.useIncrementalListing` option will, by default, be set to `false`. Setting this value to `false` causes Auto Loader to perform a full directory listing each time it's run. Currently, the default value of the `cloudFiles.useIncrementalListing` option is `auto`, instructing Auto Loader to make a best-effort attempt at detecting if an incremental listing can be used with a directory.\n\nTo continue using the incremental listing feature, set the `cloudFiles.useIncrementalListing` option to `auto`. When you set this value to `auto`, Auto Loader makes a best-effort attempt to do a full listing once every seven incremental listings, which matches the behavior of this option before this change.\n\nTo learn more about Auto Loader directory listing, see [Configure Auto Loader streams in directory listing mode](/aws/en/ingestion/cloud-object-storage/auto-loader/directory-listing-mode).",
+  "ref_links": [
+    {
+      "text": "file notification mode with file events",
+      "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/file-notification-mode#file-events"
+    },
+    {
+      "text": "Configure Auto Loader streams in directory listing mode",
+      "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/directory-listing-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.380685Z"
+}

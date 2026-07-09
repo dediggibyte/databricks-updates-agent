@@ -1,0 +1,12 @@
+{
+  "id": "2025-06-05-user-interface-updates",
+  "title": "User interface updates",
+  "date": "2025-06-05",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Query insights improvements**: Visiting the **Query History** page now emits the `listHistoryQueries` event. Opening a query profile now emits the `getHistoryQuery` event.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.375597Z"
+}

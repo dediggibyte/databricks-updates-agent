@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-02-tag-databricks-apps-public-preview",
+  "title": "Tag Databricks Apps (Public Preview)",
+  "date": "2026-02-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#tag-databricks-apps-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now apply tags to Databricks apps to organize and categorize them. See [Apply tags to Databricks apps](/aws/en/dev-tools/databricks-apps/tags). Search is not supported using Databricks apps tags.",
+  "ref_links": [
+    {
+      "text": "Apply tags to Databricks apps",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.007516Z"
+}

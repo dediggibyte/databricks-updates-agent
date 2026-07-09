@@ -1,0 +1,45 @@
+{
+  "product": "Lakeflow Pipelines Editor is now generally available",
+  "tagline": "The Lakeflow Pipelines Editor is now generally available.",
+  "updated": "May 4, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ldp/multi-file-editor",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-pipelines-editor-is-now-generally-available",
+  "what_it_does": "The Lakeflow Pipelines Editor is now generally available. The editor offers an agent first experience with Genie Code for creating, updating, and debugging production pipelines, with your code and Genie Code chat side by side with the pipeline graph and metrics. You develop and debug Lakeflow Spark Declarative Pipelines (SDP) ETL (extract, transform, and load) pipelines in the Lakeflow Pipelines Editor, an IDE built for pipeline development.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "From the editor, you can",
+      "desc": "From the editor, you can navigate to other pipelines you have recently edited by clicking the name of the pipeline at the top of…"
+    },
+    {
+      "title": "From outside the editor, from",
+      "desc": "From outside the editor, from the Recents page on the left sidebar, open a pipeline or a file configured as the source code for…"
+    },
+    {
+      "title": "In the pipeline monitoring page",
+      "desc": "In the pipeline monitoring page, click  Edit pipeline."
+    },
+    {
+      "title": "On the Jobs & Pipelines",
+      "desc": "On the Jobs & Pipelines page in the left sidebar, click  to edit the pipeline."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The Lakeflow Pipelines Editor is now generally available.",
+  "note_id": "2026-05-04-lakeflow-pipelines-editor-is-now-generally-available",
+  "category": "platform"
+}

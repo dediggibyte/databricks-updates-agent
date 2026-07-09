@@ -1,0 +1,17 @@
+{
+  "id": "2025-05-08-genie-entity-matching-and-point-map-support",
+  "title": "Genie entity matching and point map support",
+  "date": "2025-05-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-entity-matching-and-point-map-support",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Increased entity matching support in Genie**: Each entity matching (previously value dictionary) column in Genie now supports 1024 values per column, up from 255. Click **Refresh** on your existing entity matching columns to increase cardinality support. See [Tune Genie Agent quality](/aws/en/genie/tune-quality).\n* **Point maps support in Genie**: Point maps are now supported in Genie.",
+  "ref_links": [
+    {
+      "text": "Tune Genie Agent quality",
+      "url": "https://docs.databricks.com/aws/en/genie/tune-quality"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.400317Z"
+}

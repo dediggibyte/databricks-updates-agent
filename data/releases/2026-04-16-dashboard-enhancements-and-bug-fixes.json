@@ -1,0 +1,12 @@
+{
+  "id": "2026-04-16-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-04-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-9",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Warehouse overload message**: Dashboards now show a message explaining when rendering is delayed due to the warehouse being overloaded.\n* **Tabular attachments in email subscriptions**: Dashboard email subscriptions now include tabular attachments.\n* **Fullscreen scroll position**: Exiting fullscreen mode on a published dashboard now returns you to your previous scroll position instead of jumping to the top of the page.\n* **Widget query batch fix**: Fixed a bug where a widget query failing for one widget caused all other widgets in the same query batch to fail.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.789572Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-03-mosaic-ai-vector-search-storage-optimized-endpoints-are-public-preview",
+  "title": "Mosaic AI Vector Search storage-optimized endpoints are Public Preview",
+  "date": "2025-06-03",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#mosaic-ai-vector-search-storage-optimized-endpoints-are-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Mosaic AI Vector Search now offers the option of storage-optimized endpoints. Storage-optimized endpoints have a larger capacity (over one billion vectors at dimension 768) and provide 10-20x faster indexing. Pricing is optimized for the larger number of vectors. For details, see [Vector Search endpoint options](/aws/en/ai-search/ai-search#endpoint-options).",
+  "ref_links": [
+    {
+      "text": "Vector Search endpoint options",
+      "url": "https://docs.databricks.com/aws/en/ai-search/ai-search#endpoint-options"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.377794Z"
+}

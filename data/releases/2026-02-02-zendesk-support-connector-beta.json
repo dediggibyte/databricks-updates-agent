@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-02-zendesk-support-connector-beta",
+  "title": "Zendesk Support connector (Beta)",
+  "date": "2026-02-02",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#zendesk-support-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Zendesk Support connector allows you to ingest ticket data, help center content, and community forum data from Zendesk Support. See [Zendesk Support connector overview](/aws/en/ingestion/lakeflow-connect/zendesk-support-overview).",
+  "ref_links": [
+    {
+      "text": "Zendesk Support connector overview",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/zendesk-support-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.008016Z"
+}

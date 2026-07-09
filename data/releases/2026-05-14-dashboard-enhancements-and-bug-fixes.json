@@ -1,0 +1,12 @@
+{
+  "id": "2026-05-14-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-05-14",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-5",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Error bars on line charts**: Line charts now support displaying error bars as bands.\n* **Custom SQL measure bug fix (Public Preview)**: Fixed a bug where a measure defined using the custom SQL option would fail if a dataset-scoped measure didn't specify the full name path. For example, `sum(orders.field)` was previously required rather than `sum(field)`.\n* **Genie Code dashboard visualization authoring**: Genie Code can now author the full set of dashboard visualization configuration options.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.698329Z"
+}

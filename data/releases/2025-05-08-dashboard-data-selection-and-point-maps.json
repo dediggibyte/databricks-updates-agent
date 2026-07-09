@@ -1,0 +1,21 @@
+{
+  "id": "2025-05-08-dashboard-data-selection-and-point-maps",
+  "title": "Dashboard data selection and point maps",
+  "date": "2025-05-08",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-data-selection-and-point-maps",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Select and add multiple tables and views**: Users can now select and add multiple tables and views at once from the **Add data** dialog.\n* **Draft dashboard scheduling bug fix**: Fixed a bug that allowed draft dashboards to be scheduled using the API. Now, only published dashboards can be scheduled.\n* **AI-assisted point maps in dashboards**: You can now use natural-language prompts to generate point map charts in dashboards.\n* **Deploy dashboard tasks using Declarative Automation Bundles**: You can now use dashboard tasks within a `job` resource when deploying bundles. To learn more about Declarative Automation Bundles, see [What are Declarative Automation Bundles?](/aws/en/dev-tools/bundles). To learn more about programmatically configuring a dashboard task in a job, see the [Jobs API](https://docs.databricks.com/api/workspace/jobs/create#tasks-dashboard_task).",
+  "ref_links": [
+    {
+      "text": "What are Declarative Automation Bundles?",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles"
+    },
+    {
+      "text": "Jobs API",
+      "url": "https://docs.databricks.com/api/workspace/jobs/create#tasks-dashboard_task"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.399298Z"
+}

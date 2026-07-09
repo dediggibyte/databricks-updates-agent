@@ -1,0 +1,25 @@
+{
+  "id": "2025-08-28-aa2d82bc",
+  "title": "Dashboard external embedding Public Preview and new custom calculations functions",
+  "date": "2025-08-28",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-external-embedding-public-preview-and-new-custom-calculations-functions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Custom calculation functions**: Support added for `ln`, `log`, `log10`, and `round` functions. See [What are custom calculations?](/aws/en/dashboards/manage/data-modeling/custom-calculations).\n* **Custom calculations limit increase**: You can now define up to 200 custom calculations per dataset.\n* **Embedding for external users in [Public Preview](/aws/en/release-notes/release-types)**: Embedding dashboards for external users is now available in Public Preview. See [Embedding for external users](/aws/en/dashboards/share/embedding#external-embed).\n* **Multi-y charts with apostrophes in column names**: Labels now render correctly when column names include apostrophes.\n* **Custom tooltips for pie charts**: Pie charts now support custom tooltips.\n* **Fixed page and dataset renaming**: An issue that prevented users from renaming pages and datasets has been resolved.",
+  "ref_links": [
+    {
+      "text": "What are custom calculations?",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Embedding for external users",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/embedding#external-embed"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.239444Z"
+}

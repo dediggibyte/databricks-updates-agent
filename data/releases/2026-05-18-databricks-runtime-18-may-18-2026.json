@@ -1,0 +1,37 @@
+{
+  "id": "2026-05-18-databricks-runtime-18-may-18-2026",
+  "title": "Databricks Runtime 18: May 18, 2026",
+  "date": "2026-05-18",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-may-18-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "### Behavioral changes\n\nReview the following changes, which take effect when clusters restart on this runtime.\n\n* **`CREATE OR REPLACE TABLE`**: [`CREATE OR REPLACE TABLE`](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-table) now preserves existing column and table comments by default. Previously, comments were dropped when recreating a table. Managed tables and views now match the existing behavior of materialized views and streaming tables.\n* **DataFrame by-name writes**: `writeTo().append()`, `writeTo().overwrite()`, `writeTo().overwritePartitions()`, and `write.mode(\"append\").saveAsTable()` now automatically cast type-compatible columns (for example, `int` to `long`) to match the target Delta table schema. Previously, these operations failed with a `DELTA_FAILED_TO_MERGE_FIELDS` error when column types were compatible but not identical. Behavior now matches SQL `INSERT INTO ... BY NAME`. `save()` and `saveAsTable()` in overwrite mode are not affected.\n* **`ALTER TABLE SET TBLPROPERTIES` for `pipelines.pipelineId`**: `ALTER TABLE <table> SET TBLPROPERTIES('pipelines.pipelineId' = '<pipeline-id>')` now attempts to make the specified table eligible for writes by the pipeline. Previously, setting this property on a regular table had no effect. If the table isn't eligible for pipeline writes, the command throws `SETTING_PIPELINES_PIPELINE_ID_NOT_SUPPORTED`.\n* **`cloud_files_state`**: The [`cloud_files_state`](/aws/en/sql/language-manual/functions/cloud_files_state) table-valued function (TVF) now includes a `discovery_mode` column showing how Auto Loader discovered each file. Files discovered before upgrading have a `null` value in this column.\n* **`DESCRIBE EXTENDED AS JSON`**: Now includes predictive optimization evaluation results in its output. Previously, this information wasn't returned in the JSON output.\n* **Metric view window measures**: Now return correct results when queries use `GROUP BY`, `IN`/`BETWEEN` filters, or mixed predicates on the window's order column. Previously, these filter patterns could produce incorrect results.\n\n### New features and improvements\n\nThe following features and improvements are available in this release.\n\n* **Cluster libraries**: When you install PyPI libraries, wheels, or requirements.txt files on a cluster, the [Libraries tab and Libraries REST API](/aws/en/libraries/cluster-libraries) now display all resolved and installed packages, including transitive dependencies. For installations that resolve more than 500 packages, the list is truncated. The full installation report is available in the cluster's driver logs.\n* **Auto CDC from snapshot with SQL syntax**: Lakeflow Spark Declarative Pipelines now supports [Auto CDC from snapshot](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table-auto-cdc) using SQL syntax. Previously, this feature was only available through the Python API. Use `CREATE STREAMING TABLE ... FLOW AUTO CDC FROM SNAPSHOT` to process snapshot sources (such as Delta tables, cloud storage, or JDBC) one snapshot at a time. Both SCD Type 1 (default) and SCD Type 2 are supported.\n* **`array_sort` with custom comparators**: [Photon](/aws/en/compute/photon) now accelerates [`array_sort`](/aws/en/sql/language-manual/functions/array_sort) expressions that use custom comparators to sort arrays of structs by one or more fields. Previously, these expressions fell back to non-Photon execution. To enable this optimization, set `spark.databricks.photon.rewriteArraySortComparator.enabled` to `true`.\n\n### Apache Spark fixes and improvements\n\nThis release includes the following bug fixes and improvements made to Spark:\n\n* SQL queries now support a `QUALIFY` clause, which lets you filter on window function results directly in the query. Previously this required wrapping the query in a subquery.\n* `spark.read.json`, `spark.read.csv`, and `spark.read.xml` now accept a DataFrame as input, so you can parse in-memory data without saving it to a file first.\n* `DataFrame.changes()` is now available for reading change data capture (CDC) output through the DataFrame API.\n* When a DataFrame column is referenced from the wrong DataFrame, the error now names the specific column. You can also set `spark.sql.columnResolution.strict` to make Spark enforce stricter column matching and catch these mistakes earlier.\n* `MERGE INTO` schema evolution now works correctly when the statement includes `WHEN MATCHED THEN DELETE` or references nested columns by alias. Previously, these combinations could fail or silently produce wrong results.\n* `SHOW COLLATIONS` lists all supported collations and their properties, which is useful when choosing a collation for text sorting or comparison.\n* Spark's query optimizer now correctly estimates how much data filters will reduce. Incorrect estimates previously caused Spark to pull large tables fully into memory during joins, leading to out-of-memory errors.\n* Queries with multiple `COUNT(DISTINCT)` expressions run faster because Spark now reduces the data earlier in the execution plan instead of expanding it first.\n* Python UDFs that use the Arrow optimization no longer perform an unnecessary data format conversion, reducing overhead.\n* Stream-stream non-outer joins can now produce output in Update mode, not just Append mode, which allows them to write to more output destinations.\n* JDBC connections are now properly closed when a task is cancelled. Previously, cancellation could leave a connection open, causing later tasks to hang.\n* `array_insert` no longer produces wrong results when given a very large negative number as the insert position.",
+  "ref_links": [
+    {
+      "text": "CREATE OR REPLACE TABLE",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-table"
+    },
+    {
+      "text": "cloud_files_state",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/cloud_files_state"
+    },
+    {
+      "text": "Libraries tab and Libraries REST API",
+      "url": "https://docs.databricks.com/aws/en/libraries/cluster-libraries"
+    },
+    {
+      "text": "Auto CDC from snapshot",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table-auto-cdc"
+    },
+    {
+      "text": "Photon",
+      "url": "https://docs.databricks.com/aws/en/compute/photon"
+    },
+    {
+      "text": "array_sort",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/array_sort"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.693862Z"
+}

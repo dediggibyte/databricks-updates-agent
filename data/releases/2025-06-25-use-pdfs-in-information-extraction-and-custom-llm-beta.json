@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-25-use-pdfs-in-information-extraction-and-custom-llm-beta",
+  "title": "Use PDFs in Information Extraction and Custom LLM (Beta)",
+  "date": "2025-06-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#use-pdfs-in-information-extraction-and-custom-llm-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Information Extraction and Custom LLM have a UI workflow to convert PDFs to Markdown and store the results in a table. Users can then use the resulting table as input in Information Extraction and Custom LLM.\n\nSee Use PDFs for [Information Extraction](/aws/en/agents/agent-bricks/key-info-extraction#pdf) and [Custom LLM](/aws/en/agents/agent-bricks/custom-llm#pdf).",
+  "ref_links": [
+    {
+      "text": "Information Extraction",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/key-info-extraction#pdf"
+    },
+    {
+      "text": "Custom LLM",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/custom-llm#pdf"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.339108Z"
+}

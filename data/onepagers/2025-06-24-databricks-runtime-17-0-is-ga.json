@@ -1,0 +1,28 @@
+{
+  "product": "Databricks Runtime 17.0 is GA",
+  "tagline": "Databricks Runtime 17.0 and Databricks Runtime 17.0 ML are now generally available.",
+  "updated": "Jun 24, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#databricks-runtime-170-is-ga",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#databricks-runtime-170-is-ga",
+  "what_it_does": "Databricks Runtime 17.0 and Databricks Runtime 17.0 ML are now generally available.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks Runtime 17.0 and Databricks Runtime 17.0 ML are now generally available.",
+  "note_id": "2025-06-24-databricks-runtime-17-0-is-ga",
+  "category": "platform"
+}

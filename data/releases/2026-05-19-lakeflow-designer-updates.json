@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-19-lakeflow-designer-updates",
+  "title": "Lakeflow Designer updates",
+  "date": "2026-05-19",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-designer-updates",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The following updates were made to Lakeflow Designer:\n\n* **Enabled by default**: Lakeflow Designer is now enabled by default for all free edition, premium, and enterprise tier workspaces. To get started, click **+New** in the sidebar and select **Visual data prep**. If you don't see this option, contact your workspace admin.\n* **AI operator search**: The operator panel now suggests operators based on intent. For example, typing \"average by month\" surfaces the Aggregate operator.\n* **Configurable sample size**: You can now set the number of sample rows to run with each operator. Each operator remembers its own custom limit.\n* **Git, import, clone, and export**: You can now export, clone, and import visual data prep files using **File > Export** or **File > Clone**. Files can also be stored and managed in Git folders.\n* **User-defined operators (Public Preview)**: You can now create user-defined operators that appear alongside built-in operators. Use them to extend Lakeflow Designer with your own business logic, calculations, or integrations. Three operator types are supported: `uc-udf`, `uc-udtf`, and `python-run-function`. See [User-defined operators in Lakeflow Designer](/aws/en/designer/user-operators).\n* **Bug fixes and improvements**: Fixed multiple issues including right-click canvas behavior, undo/redo button state, Markdown node underline formatting, and unconfigured filter condition handling.",
+  "ref_links": [
+    {
+      "text": "User-defined operators in Lakeflow Designer",
+      "url": "https://docs.databricks.com/aws/en/designer/user-operators"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.686197Z"
+}

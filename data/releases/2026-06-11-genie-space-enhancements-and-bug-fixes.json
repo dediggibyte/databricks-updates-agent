@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-11-genie-space-enhancements-and-bug-fixes",
+  "title": "Genie Space enhancements and bug fixes",
+  "date": "2026-06-11",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Save visualizations to a dashboard**: You can now save Genie Space visualization outputs to a dashboard. See [Save a visualization to a dashboard](/aws/en/genie/talk-to-genie#save-to-dashboard).\n* **Reference previous visualizations**: Select and reference visualizations from previous prompts in follow-up prompts.\n* **Genie Code for metric view export**: Use Genie Code when exporting metric views from a Genie Space to refine the metric view definition. See [Export a Genie Agent as a metric view](/aws/en/genie/set-up#export-metric-view).\n* **Common question prioritization fix**: Author-defined common questions now take priority on the new chat page. Auto-generated common questions appear when there aren't enough author-defined ones.\n* **Declarative Automation Bundles (DABs) support**: You can now define and deploy Genie Spaces as Declarative Automation Bundles resources. See [Declarative Automation Bundles resources](/aws/en/dev-tools/bundles/resources).",
+  "ref_links": [
+    {
+      "text": "Save a visualization to a dashboard",
+      "url": "https://docs.databricks.com/aws/en/genie/talk-to-genie#save-to-dashboard"
+    },
+    {
+      "text": "Export a Genie Agent as a metric view",
+      "url": "https://docs.databricks.com/aws/en/genie/set-up#export-metric-view"
+    },
+    {
+      "text": "Declarative Automation Bundles resources",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/bundles/resources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.590494Z"
+}

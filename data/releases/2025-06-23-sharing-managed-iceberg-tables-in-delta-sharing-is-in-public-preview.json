@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-23-sharing-managed-iceberg-tables-in-delta-sharing-is-in-public-preview",
+  "title": "Sharing managed Iceberg tables in Delta Sharing is in Public Preview",
+  "date": "2025-06-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#sharing-managed-iceberg-tables-in-delta-sharing-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use Delta Sharing to share managed Iceberg tables in Databricks-to-Databricks sharing and open sharing. See [Add managed Iceberg tables to a share](/aws/en/opensharing/create-share#managed-iceberg) and [Read shared managed Iceberg tables](/aws/en/opensharing/read-data-databricks#managed-iceberg).",
+  "ref_links": [
+    {
+      "text": "Add managed Iceberg tables to a share",
+      "url": "https://docs.databricks.com/aws/en/opensharing/create-share#managed-iceberg"
+    },
+    {
+      "text": "Read shared managed Iceberg tables",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#managed-iceberg"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.343865Z"
+}

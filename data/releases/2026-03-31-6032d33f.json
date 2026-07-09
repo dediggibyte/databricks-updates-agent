@@ -1,0 +1,29 @@
+{
+  "id": "2026-03-31-6032d33f",
+  "title": "Agent Bricks Knowledge Assistant and Supervisor Agent are now available in additional regions",
+  "date": "2026-03-31",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#agent-bricks-knowledge-assistant-and-supervisor-agent-are-now-available-in-additional-regions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Knowledge Assistant](/aws/en/agents/agent-bricks/knowledge-assistant) and [Supervisor Agent](/aws/en/agents/agent-bricks/multi-agent-supervisor) are now available in the `ap-south-1` (Mumbai) AWS region. [Cross-geo processing](/aws/en/resources/databricks-geos#cross-geo-processing) must be enabled for this region.\n\nFor the full list of supported regions, see [Features with limited regional availability](/aws/en/resources/feature-region-support).",
+  "ref_links": [
+    {
+      "text": "Knowledge Assistant",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/knowledge-assistant"
+    },
+    {
+      "text": "Supervisor Agent",
+      "url": "https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor"
+    },
+    {
+      "text": "Cross-geo processing",
+      "url": "https://docs.databricks.com/aws/en/resources/databricks-geos#cross-geo-processing"
+    },
+    {
+      "text": "Features with limited regional availability",
+      "url": "https://docs.databricks.com/aws/en/resources/feature-region-support"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.827116Z"
+}

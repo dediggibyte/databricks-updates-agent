@@ -1,0 +1,25 @@
+{
+  "id": "2025-04-24-dashboard-choropleth-maps-and-ai-forecast",
+  "title": "Dashboard choropleth maps and AI forecast",
+  "date": "2025-04-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-choropleth-maps-and-ai-forecast",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Choropleth maps available**: Choropleth maps are now available for dashboards, allowing users to visualize data across geographical regions with varying colors based on values such as population, income, or other metrics. See [Choropleth map](/aws/en/dashboards/manage/visualizations/types#choropleth).\n* **AI Forecast on line charts**: You can now generate a forecast for a line chart ([Public Preview](/aws/en/release-notes/release-types)). See  [Generate a forecast](/aws/en/dashboards/manage/visualizations#ai-forecast).",
+  "ref_links": [
+    {
+      "text": "Choropleth map",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/types#choropleth"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Generate a forecast",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#ai-forecast"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.403049Z"
+}

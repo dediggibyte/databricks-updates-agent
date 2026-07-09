@@ -1,0 +1,45 @@
+{
+  "product": "Genie entity matching and SQL editor improvements",
+  "tagline": "More entity matching in Genie: Genie can now support up to 60 entity matching (previously value dictionary) columns.",
+  "updated": "Jun 5, 2025",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie/tune-quality",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-entity-matching-and-sql-editor-improvements",
+  "what_it_does": "More entity matching in Genie: Genie can now support up to 60 entity matching (previously value dictionary) columns. Genie Space SQL editor fix: Resolved an issued that caused the SQL editor in a chat window disappear if the user deleted the generated query. You can now use the editor to delete and rewrite queries.",
+  "why_it_matters": "Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics).",
+  "capabilities": [
+    {
+      "title": "Company-specific business information",
+      "desc": "Company-specific business information:"
+    },
+    {
+      "title": "Fiscal year starts in February",
+      "desc": "Fiscal year starts in February, for example fiscal year 26 or FY26 is February 1, 2026 through January 31, 2027"
+    },
+    {
+      "title": "Formatting",
+      "desc": "Formatting:"
+    },
+    {
+      "title": "Always respond in Spanish",
+      "desc": "Always respond in Spanish"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "More entity matching in Genie: Genie can now support up to 60 entity matching (previously value dictionary) columns.",
+  "note_id": "2025-06-05-genie-entity-matching-and-sql-editor-improvements",
+  "category": "platform"
+}

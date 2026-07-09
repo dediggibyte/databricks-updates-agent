@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-05-new-consumer-entitlement-is-generally-available",
+  "title": "New consumer entitlement is generally available",
+  "date": "2025-06-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#new-consumer-entitlement-is-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Workspace admins can now grant consumer access as an entitlement to users, service principals, and groups. This allows for more fine-grained control over what users can do in a Databricks workspace. Key details:\n\n* Consumer access enables limited workspace UI access, querying SQL warehouses using BI tools, and viewing dashboards with embedded or viewer credentials.\n* Useful for business users who need access to shared content and dashboards but not to author or manage workspace objects.\n* This entitlement is more restrictive than workspace access or Databricks SQL access. To assign it independently, remove broader entitlements from the `users` group and configure them per user or group.\n\nSee [Manage entitlements](/aws/en/security/auth/entitlements).",
+  "ref_links": [
+    {
+      "text": "Manage entitlements",
+      "url": "https://docs.databricks.com/aws/en/security/auth/entitlements"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.373646Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2025-10-28-openai-gpt-5-models-are-now-generally-available-in-mosaic-ai-model-serving",
+  "title": "OpenAI GPT 5 models are now generally available in Mosaic AI Model Serving",
+  "date": "2025-10-28",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#-openai-gpt-5-models-are-now-generally-available-in-mosaic-ai-model-serving",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The OpenAI [GPT-5](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5), [GPT-5 mini](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-mini) and [GPT-5 nano](/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-nano) models are now generally available in Mosaic AI Model Serving.",
+  "ref_links": [
+    {
+      "text": "GPT-5",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5"
+    },
+    {
+      "text": "GPT-5 mini",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-mini"
+    },
+    {
+      "text": "GPT-5 nano",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#openai-gpt-5-nano"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.150634Z"
+}

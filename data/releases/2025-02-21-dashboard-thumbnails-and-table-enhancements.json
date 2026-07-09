@@ -1,0 +1,12 @@
+{
+  "id": "2025-02-21-dashboard-thumbnails-and-table-enhancements",
+  "title": "Dashboard thumbnails and table enhancements",
+  "date": "2025-02-21",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-thumbnails-and-table-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Quickly navigate to the most popular dashboards**: Dashboard thumbnails are now shown for all dashboards published with embedded credentials. The dashboards listing page attempts to show thumbnails for the four most popular dashboards you can access. Dashboards you don't have access to do not appear on the listing page.\n* **Pivot tables support more cells**: Pivot tables now accommodate up to 1,000 rows and 1,000 columns, up from the previous limit of 100 rows and 100 columns.\n* **Edit box plot display names**: You can now edit the Y-axis display names in box plots, enabling a more customized presentation.\n* **Multiple Y fields for generated charts**: Visualizations generated using the Databricks Assistant now support multiple Y fields.\n* **ColorBy performance optimization**: Rendering is now optimized for charts with a very large number of groupings. This optimization prevents performance issues and crashes.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.435333Z"
+}

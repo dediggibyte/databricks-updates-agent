@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-07-git-backed-app-deployments-are-now-generally-available",
+  "title": "Git-backed app deployments are now generally available",
+  "date": "2026-04-07",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#git-backed-app-deployments-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now deploy Databricks apps directly from Git repositories. Configure a Git reference, specify a source code path within a repository, and optionally enforce Git-only deployments across a workspace. See [Deploy from a Git repository](/aws/en/dev-tools/databricks-apps/deploy#deploy-git).",
+  "ref_links": [
+    {
+      "text": "Deploy from a Git repository",
+      "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-apps/deploy#deploy-git"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.814527Z"
+}

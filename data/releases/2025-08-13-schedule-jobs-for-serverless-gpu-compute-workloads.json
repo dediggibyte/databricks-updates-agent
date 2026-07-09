@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-13-schedule-jobs-for-serverless-gpu-compute-workloads",
+  "title": "Schedule jobs for Serverless GPU compute workloads",
+  "date": "2025-08-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#schedule-jobs-for-serverless-gpu-compute-workloads",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create and schedule jobs for your Serverless GPU Compute workloads. See  [Jobs (Scheduled)](/aws/en/machine-learning/ai-runtime/connecting#jobs).",
+  "ref_links": [
+    {
+      "text": "Jobs (Scheduled)",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/connecting#jobs"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.271059Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2026-04-13-sql-reference-documentation-for-managing-governed-tags",
+  "title": "SQL reference documentation for managing governed tags",
+  "date": "2026-04-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#sql-reference-documentation-for-managing-governed-tags",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks SQL reference now includes documentation for five new SQL statements for managing governed tags: [CREATE GOVERNED TAG](/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-governed-tag), [ALTER GOVERNED TAG](/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-governed-tag), [DROP GOVERNED TAG](/aws/en/sql/language-manual/sql-ref-syntax-ddl-drop-governed-tag), [DESCRIBE GOVERNED TAG](/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-governed-tag), and [SHOW GOVERNED TAGS](/aws/en/sql/language-manual/sql-ref-syntax-aux-show-governed-tags).\n\nFor more information, see [Create and manage governed tags](/aws/en/admin/governed-tags/manage-governed-tags).",
+  "ref_links": [
+    {
+      "text": "CREATE GOVERNED TAG",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-governed-tag"
+    },
+    {
+      "text": "ALTER GOVERNED TAG",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-governed-tag"
+    },
+    {
+      "text": "DROP GOVERNED TAG",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-drop-governed-tag"
+    },
+    {
+      "text": "DESCRIBE GOVERNED TAG",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-governed-tag"
+    },
+    {
+      "text": "SHOW GOVERNED TAGS",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-show-governed-tags"
+    },
+    {
+      "text": "Create and manage governed tags",
+      "url": "https://docs.databricks.com/aws/en/admin/governed-tags/manage-governed-tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.804550Z"
+}

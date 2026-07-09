@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-14-improved-full-refresh-flow-for-managed-database-connectors",
+  "title": "Improved full refresh flow for managed database connectors",
+  "date": "2025-11-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#improved-full-refresh-flow-for-managed-database-connectors",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Full refresh operations for managed database connectors (like SQL Server) now reduce downtime by delaying the table refresh until after the snapshot is completed. During the snapshot process, destination streaming tables remain available with their existing data. New inserts, deletes, and updates are accumulated but not immediately applied. After the snapshot completes, the full refresh and other accumulated changes are applied in a single update, minimizing disruption to data availability. This improvement helps reduce `PENDING_RESET` and timeout errors during full refresh operations. See  [Full refresh behavior (CDC)](/aws/en/ingestion/lakeflow-connect/full-refresh#cdc).",
+  "ref_links": [
+    {
+      "text": "Full refresh behavior (CDC)",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/full-refresh#cdc"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.114640Z"
+}

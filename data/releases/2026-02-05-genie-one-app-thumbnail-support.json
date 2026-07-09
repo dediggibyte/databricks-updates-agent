@@ -1,0 +1,12 @@
+{
+  "id": "2026-02-05-genie-one-app-thumbnail-support",
+  "title": "Genie One app thumbnail support",
+  "date": "2026-02-05",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-app-thumbnail-support",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **App thumbnail uploads**: Customers can now upload thumbnails as the preview image for Databricks apps.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.980024Z"
+}

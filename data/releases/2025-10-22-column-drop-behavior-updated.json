@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-22-column-drop-behavior-updated",
+  "title": "Column drop behavior updated",
+  "date": "2025-10-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#column-drop-behavior-updated",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "When you attempt to drop a column that has one or more governed tags assigned, the operation now fails. To drop a tagged column, you must first remove all governed tags from it. See [Drop a column with governed tags](/aws/en/database-objects/tags#drop).",
+  "ref_links": [
+    {
+      "text": "Drop a column with governed tags",
+      "url": "https://docs.databricks.com/aws/en/database-objects/tags#drop"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.157916Z"
+}

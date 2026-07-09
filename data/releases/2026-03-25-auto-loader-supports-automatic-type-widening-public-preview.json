@@ -1,0 +1,17 @@
+{
+  "id": "2026-03-25-auto-loader-supports-automatic-type-widening-public-preview",
+  "title": "Auto Loader supports automatic type widening (Public Preview)",
+  "date": "2026-03-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#auto-loader-supports-automatic-type-widening-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Auto Loader now supports automatic type widening with the new `addNewColumnsWithTypeWidening` schema evolution mode. This feature automatically widens data types (such as `int` to `long` or `float` to `double`) without requiring data rewrite or user intervention. Type widening is available for all file formats with schema evolution support in Auto Loader including text formats (JSON, CSV, XML) and binary formats (Avro, Parquet).\n\nThis feature is in Public Preview and requires DBR 16.4 or above. See [Automatic type widening with Auto Loader](/aws/en/ingestion/cloud-object-storage/auto-loader/type-widening).",
+  "ref_links": [
+    {
+      "text": "Automatic type widening with Auto Loader",
+      "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/type-widening"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.853157Z"
+}

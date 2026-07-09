@@ -1,0 +1,45 @@
+{
+  "product": "Connect Databricks Assistant to MCP servers",
+  "tagline": "You can now connect Databricks Assistant in Agent mode to external tools and data sources through the Model Context Protocol (MCP).",
+  "updated": "Feb 4, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/mcp",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#connect-databricks-assistant-to-mcp-servers",
+  "what_it_does": "You can now connect Databricks Assistant in Agent mode to external tools and data sources through the Model Context Protocol (MCP). The Assistant can use any MCP servers that have been added to your workspace and that you have permission to use. Genie Code connects to external tools, documents, and data through Model Context Protocol (MCP) servers and native connectors for Google Drive, SharePoint, GitHub, Glean, Atlassian, and Slack.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [
+    {
+      "title": "For help creating a custom",
+      "desc": "For help creating a custom GitHub MCP server, see Search GitHub code with Genie Code. AI Search: Select the schema for the…"
+    },
+    {
+      "title": "Your app must be deployed",
+      "desc": "Your app must be deployed in the same workspace that you are trying to connect to it from."
+    },
+    {
+      "title": "The MCP server must be",
+      "desc": "The MCP server must be accessed at https://<server-url>/mcp."
+    },
+    {
+      "title": "Your app must be stateless",
+      "desc": "Your app must be stateless. For example, set mcpapp = mcpserver.httpapp(statelesshttp=True)."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "You can now connect Databricks Assistant in Agent mode to external tools and data sources through the Model Context Protocol (MCP).",
+  "note_id": "2026-02-04-connect-databricks-assistant-to-mcp-servers",
+  "category": "platform"
+}

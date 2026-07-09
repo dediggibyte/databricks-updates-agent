@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-24-dashboard-performance-optimizations-and-feature-enhancements",
+  "title": "Dashboard performance optimizations and feature enhancements",
+  "date": "2025-07-24",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-performance-optimizations-and-feature-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Metric views dataset performance improvement**: The dataset result table view for Metric views has been removed to reduce query executions and improve performance.\n* **Undo and redo support**: Authors can now undo and redo actions on the canvas using keyboard shortcuts or the toolbar.\n* **Metric views filtering in data dialog**: Within the **Add data** dialog, authors can now filter to show only metric views.\n* **Dashboard header menu reorganization**: The kebab menu  in the dashboard header has been reorganized for improved usability.\n* **Choropleth maps PNG download**: Choropleth maps now support download to PNG format.\n* **Axis label rotation**: Non-categorical axes now support label rotation for better readability.\n* **`AGGREGATE OVER` support in custom calculations**: Custom calculations now support `AGGREGATE OVER` to enable window function-like behavior, such as computing moving averages and running totals. See [What are custom calculations?](/aws/en/dashboards/manage/data-modeling/custom-calculations).",
+  "ref_links": [
+    {
+      "text": "What are custom calculations?",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/custom-calculations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.306826Z"
+}

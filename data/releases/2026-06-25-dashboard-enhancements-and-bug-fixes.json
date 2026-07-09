@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-25-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-06-25",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-1",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Dynamic annotation lines**: Annotation lines can now be driven by data or a calculation instead of a fixed value, letting you show running averages, variable thresholds, or anomaly markers that update with your data. See [Annotations](/aws/en/dashboards/manage/visualizations#annotations).\n* **Six new preset themes**: Six new built-in color and style themes are now available for AI/BI dashboards, giving authors more ready-made options without creating a custom theme. See [Choose a preset theme](/aws/en/dashboards/manage/settings#preset).\n* **Local metric view and dashboard relationship fix**: Fixed a bug where local metric views and dashboard relationships sometimes failed when referencing assets from a Hive Metastore.\n* **Faceted chart fix**: Fixed an issue where faceted charts with a `DECIMAL` facet column dropped most rows in each facet.\n* **Combo chart hover bug fix**: Fixed an issue where hovering over buckets with null line or area values showed an incorrect tooltip and drew a stray point at the baseline. Null values now remain null instead of displaying as 0.",
+  "ref_links": [
+    {
+      "text": "Annotations",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations#annotations"
+    },
+    {
+      "text": "Choose a preset theme",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/settings#preset"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.544061Z"
+}

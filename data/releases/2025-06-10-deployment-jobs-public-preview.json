@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-10-deployment-jobs-public-preview",
+  "title": "Deployment jobs (Public Preview)",
+  "date": "2025-06-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#deployment-jobs-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Deployment jobs are now available in Public Preview.\n\nDeployment jobs allow you to automate tasks like evaluation, approval, and deployment whenever a new model version is created, integrating seamlessly with Unity Catalog models and Lakeflow Jobs. See [MLflow 3 deployment jobs](/aws/en/mlflow/deployment-job).",
+  "ref_links": [
+    {
+      "text": "MLflow 3 deployment jobs",
+      "url": "https://docs.databricks.com/aws/en/mlflow/deployment-job"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.363108Z"
+}

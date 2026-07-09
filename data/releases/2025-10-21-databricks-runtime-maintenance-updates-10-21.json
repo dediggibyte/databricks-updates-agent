@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-21-databricks-runtime-maintenance-updates-10-21",
+  "title": "Databricks Runtime maintenance updates (10/21)",
+  "date": "2025-10-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-runtime-maintenance-updates-1021",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see [Databricks Runtime maintenance updates](/aws/en/release-notes/runtime/maintenance-updates).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime maintenance updates",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/maintenance-updates"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.162138Z"
+}

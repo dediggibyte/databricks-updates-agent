@@ -1,0 +1,21 @@
+{
+  "id": "2025-12-10-customizable-sharepoint-connector-beta",
+  "title": "Customizable SharePoint connector (Beta)",
+  "date": "2025-12-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#customizable-sharepoint-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The standard SharePoint connector offers more flexibility than the managed SharePoint connector. It allows you to ingest structured, semi-structured, and unstructured files into Delta tables with full control over schema inference, parsing options, and transformations. To get started, see [Ingest files from SharePoint](/aws/en/ingestion/sharepoint).\n\nFor an in-depth comparison of the SharePoint connectors, see [Choose your SharePoint connector](/aws/en/ingestion/sharepoint#compare-connectors).",
+  "ref_links": [
+    {
+      "text": "Ingest files from SharePoint",
+      "url": "https://docs.databricks.com/aws/en/ingestion/sharepoint"
+    },
+    {
+      "text": "Choose your SharePoint connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/sharepoint#compare-connectors"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.082942Z"
+}

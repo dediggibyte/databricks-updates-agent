@@ -1,0 +1,21 @@
+{
+  "id": "2025-08-28-default-warehouse-setting-is-now-available-in-beta",
+  "title": "Default warehouse setting is now available in Beta",
+  "date": "2025-08-28",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#default-warehouse-setting-is-now-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Set a default warehouse that will be automatically selected in the compute selector across the SQL editor, AI/BI dashboards, Genie Spaces, Alerts, and Catalog Explorer. Individual users can override this setting by selecting a different warehouse before running a query. They can also define their own user-level default warehouse to apply across their sessions. See [Set a default SQL warehouse for the workspace](/aws/en/admin/sql#default-warehouse) and [Set a user-level default warehouse](/aws/en/compute/sql-warehouse/create#user-default).",
+  "ref_links": [
+    {
+      "text": "Set a default SQL warehouse for the workspace",
+      "url": "https://docs.databricks.com/aws/en/admin/sql#default-warehouse"
+    },
+    {
+      "text": "Set a user-level default warehouse",
+      "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/create#user-default"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.244134Z"
+}

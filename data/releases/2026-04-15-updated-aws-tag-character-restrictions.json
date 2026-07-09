@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-15-updated-aws-tag-character-restrictions",
+  "title": "Updated AWS tag character restrictions",
+  "date": "2026-04-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#updated-aws-tag-character-restrictions",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Custom usage tag character restrictions have been updated. Tag keys and values now cannot contain spaces or `/`. Tag keys now cannot consist only of `.` (one period), `..` (two periods), or `_index`. For the latest guidance, see [Tag limitations](/aws/en/admin/account-settings/usage-detail-tags#limitations).",
+  "ref_links": [
+    {
+      "text": "Tag limitations",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/usage-detail-tags#limitations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.798903Z"
+}

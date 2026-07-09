@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-14-view-run-history-for-scheduled-refreshes-in-google-sheets",
+  "title": "View run history for scheduled refreshes in Google Sheets",
+  "date": "2026-05-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#view-run-history-for-scheduled-refreshes-in-google-sheets",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now view the run history of scheduled refreshes in the Databricks Connector for Google Sheets. Each run shows its Run ID, start time, and success status. See [Schedule data refreshes in Google Sheets](/aws/en/integrations/google-sheets/schedule-refresh).",
+  "ref_links": [
+    {
+      "text": "Schedule data refreshes in Google Sheets",
+      "url": "https://docs.databricks.com/aws/en/integrations/google-sheets/schedule-refresh"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.702224Z"
+}

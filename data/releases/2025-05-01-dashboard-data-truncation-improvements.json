@@ -1,0 +1,12 @@
+{
+  "id": "2025-05-01-dashboard-data-truncation-improvements",
+  "title": "Dashboard data truncation improvements",
+  "date": "2025-05-01",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-data-truncation-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **View truncated data**: You can now view more data in charts with truncated results by clicking **Render more data**.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.401052Z"
+}

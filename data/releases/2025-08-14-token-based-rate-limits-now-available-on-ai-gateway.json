@@ -1,0 +1,17 @@
+{
+  "id": "2025-08-14-token-based-rate-limits-now-available-on-ai-gateway",
+  "title": "Token-based rate limits now available on AI Gateway",
+  "date": "2025-08-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#token-based-rate-limits-now-available-on-ai-gateway",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now configure token-based rate limits on your model serving endpoints.\n\nSee [Configure AI Gateway on model serving endpoints](/aws/en/ai-gateway/configure-ai-gateway-endpoints) for how to configure token-based rate limits.",
+  "ref_links": [
+    {
+      "text": "Configure AI Gateway on model serving endpoints",
+      "url": "https://docs.databricks.com/aws/en/ai-gateway/configure-ai-gateway-endpoints"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.263310Z"
+}

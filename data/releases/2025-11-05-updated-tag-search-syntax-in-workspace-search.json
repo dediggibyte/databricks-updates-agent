@@ -1,0 +1,17 @@
+{
+  "id": "2025-11-05-updated-tag-search-syntax-in-workspace-search",
+  "title": "Updated tag search syntax in workspace search",
+  "date": "2025-11-05",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#updated-tag-search-syntax-in-workspace-search",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The workspace search syntax for searching tables and views by tag has been updated. To search by both tag key and value, use the syntax `tag:<tag_key>:<tag_value>`. Previously, the syntax was to omit `tag:` when searching by both key and value. To search by tag key alone, continue using `tag:<tag_key>`. See [Use tags to search](/aws/en/search#tags).",
+  "ref_links": [
+    {
+      "text": "Use tags to search",
+      "url": "https://docs.databricks.com/aws/en/search#tags"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.128154Z"
+}

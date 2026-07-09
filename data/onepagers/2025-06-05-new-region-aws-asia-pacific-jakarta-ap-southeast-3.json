@@ -1,0 +1,28 @@
+{
+  "product": "New region: AWS Asia Pacific (Jakarta) (ap-southeast-3)",
+  "tagline": "Databricks is now available in the AWS Asia Pacific (Jakarta) region (ap southeast 3).",
+  "updated": "Jun 5, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/resources/supported-regions",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#new-region-aws-asia-pacific-jakarta-ap-southeast-3",
+  "what_it_does": "Databricks is now available in the AWS Asia Pacific (Jakarta) region (ap southeast 3). Customers can now create new workspaces and use Databricks products in this region. This expansion allows organizations operating in or near Indonesia to deploy Databricks closer to their data and users, improving performance and meeting regional compliance requirements.",
+  "why_it_matters": "This expansion allows organizations operating in or near Indonesia to deploy Databricks closer to their data and users, improving performance and meeting regional compliance requirements.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "Databricks is now available in the AWS Asia Pacific (Jakarta) region (ap southeast 3).",
+  "note_id": "2025-06-05-new-region-aws-asia-pacific-jakarta-ap-southeast-3",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-25-mlflow-support-for-compliance-security-profile-standards",
+  "title": "MLfLow support for compliance security profile standards",
+  "date": "2025-06-25",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#mlflow-support-for-compliance-security-profile-standards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "MLflow now supports all compliance security profile standards supported by Databricks, such as HIPAA, PCI-DSS, and FedRAMP Moderate. For a full list of supported compliance standards, see [Compliance security profile](/aws/en/security/privacy/security-profile).",
+  "ref_links": [
+    {
+      "text": "Compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.337848Z"
+}

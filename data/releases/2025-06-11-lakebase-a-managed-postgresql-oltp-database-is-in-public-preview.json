@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-11-lakebase-a-managed-postgresql-oltp-database-is-in-public-preview",
+  "title": "Lakebase, a managed PostgreSQL OLTP database, is in Public Preview",
+  "date": "2025-06-11",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#lakebase-a-managed-postgresql-oltp-database-is-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase is an online transactional processing (OLTP) engine that is fully integrated with the Databricks Data Intelligence Platform. You can create a database instance, a new compute type, which provides dedicated, PostgreSQL-compatible storage and compute, enabling you to run transactional workloads alongside your Lakehouse data.\n\nSee [Lakebase Postgres](/aws/en/oltp/projects).",
+  "ref_links": [
+    {
+      "text": "Lakebase Postgres",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.353542Z"
+}

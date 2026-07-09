@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-14-must-be-metastore-admin-to-transfer-share-ownership-for-delta-sharing",
+  "title": "Must be metastore admin to transfer share ownership for Delta Sharing",
+  "date": "2025-07-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#must-be-metastore-admin-to-transfer-share-ownership-for-delta-sharing",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "To change the ownership of a share for Delta Sharing, you must now be the metastore admin. Share owners can no longer transfer ownership. See [Update shares](/aws/en/opensharing/manage-share#update).",
+  "ref_links": [
+    {
+      "text": "Update shares",
+      "url": "https://docs.databricks.com/aws/en/opensharing/manage-share#update"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.324227Z"
+}

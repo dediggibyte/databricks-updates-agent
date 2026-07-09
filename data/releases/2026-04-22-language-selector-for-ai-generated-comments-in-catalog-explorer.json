@@ -1,0 +1,17 @@
+{
+  "id": "2026-04-22-language-selector-for-ai-generated-comments-in-catalog-explorer",
+  "title": "Language selector for AI-generated comments in Catalog Explorer",
+  "date": "2026-04-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#language-selector-for-ai-generated-comments-in-catalog-explorer",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now change the default language for AI-generated comments in Catalog Explorer. Your selection is saved in your browser's local storage and applies to all subsequent AI-generated comment requests across all supported entity types. See [Change the default language for AI-generated comments](/aws/en/comments/ai-comments#change-the-default-language-for-ai-generated-comments).",
+  "ref_links": [
+    {
+      "text": "Change the default language for AI-generated comments",
+      "url": "https://docs.databricks.com/aws/en/comments/ai-comments#change-the-default-language-for-ai-generated-comments"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.770945Z"
+}

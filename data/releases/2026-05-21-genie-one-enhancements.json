@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-21-genie-one-enhancements",
+  "title": "Genie One enhancements",
+  "date": "2026-05-21",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-5",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Direct link to associated dashboard**: Genie One now surfaces a direct link to the associated dashboard when hovering over entities in the chat pane.\n* **Ask Genie on the workspace homepage**: Ask Genie has been added to the workspace homepage. See [Homepage](/aws/en/workspace/navigate-workspace#homepage).",
+  "ref_links": [
+    {
+      "text": "Homepage",
+      "url": "https://docs.databricks.com/aws/en/workspace/navigate-workspace#homepage"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.670166Z"
+}

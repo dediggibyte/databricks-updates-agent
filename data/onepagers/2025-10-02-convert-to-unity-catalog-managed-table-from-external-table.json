@@ -1,0 +1,45 @@
+{
+  "product": "Convert to Unity Catalog managed table from external table",
+  "tagline": "SET MANAGED command is now generally available.",
+  "updated": "Oct 2, 2025",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/tables/convert-to-managed",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#convert-to-unity-catalog-managed-table-from-external-table",
+  "what_it_does": "SET MANAGED command is now generally available. This command seamlessly converts Unity Catalog external tables to managed tables. It allows you to take full advantage of Unity Catalog managed table features, such as enhanced governance, reliability, and performance.",
+  "why_it_matters": "It allows you to take full advantage of Unity Catalog managed table features, such as enhanced governance, reliability, and performance.",
+  "capabilities": [
+    {
+      "title": "Use the Access Insights dashboard",
+      "desc": "Use the Access Insights dashboard to see whether readers and writers accessing your tables are Databricks Runtime or external…"
+    },
+    {
+      "title": "Access through the external catalog",
+      "desc": "Access through the external catalog or path-based access fails after you convert the table. All readers and writers to the table…"
+    },
+    {
+      "title": "Path-based access is not supported",
+      "desc": "Path-based access is not supported and fails after you convert the table. For example:"
+    },
+    {
+      "title": "The reader/writer version and client-compatibility",
+      "desc": "The reader/writer version and client-compatibility requirements are the same as described in Prerequisites and Legacy readers…"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "SET MANAGED command is now generally available.",
+  "note_id": "2025-10-02-convert-to-unity-catalog-managed-table-from-external-table",
+  "category": "platform"
+}

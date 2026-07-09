@@ -1,0 +1,12 @@
+{
+  "id": "2025-08-04-dashboard-theme-improvements",
+  "title": "Dashboard theme improvements",
+  "date": "2025-08-04",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-theme-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Updated selection color in Terra theme**: The selection color in the Terra theme has been updated to improve visibility.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.285096Z"
+}

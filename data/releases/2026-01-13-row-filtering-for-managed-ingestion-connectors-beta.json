@@ -1,0 +1,17 @@
+{
+  "id": "2026-01-13-row-filtering-for-managed-ingestion-connectors-beta",
+  "title": "Row filtering for managed ingestion connectors (Beta)",
+  "date": "2026-01-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#row-filtering-for-managed-ingestion-connectors-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakeflow Connect now offers row filtering for managed ingestion connectors to improve performance and minimize data duplication. Row filtering applies conditions similar to a SQL `WHERE` clause, allowing you to ingest only the data you need from your source systems.\n\nThis feature is available for the Google Analytics, Salesforce, and ServiceNow connectors.\n\nSee [Select rows to ingest](/aws/en/ingestion/lakeflow-connect/row-filtering).",
+  "ref_links": [
+    {
+      "text": "Select rows to ingest",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/row-filtering"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.049763Z"
+}

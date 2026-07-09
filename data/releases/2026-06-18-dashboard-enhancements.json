@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-18-dashboard-enhancements",
+  "title": "Dashboard enhancements",
+  "date": "2026-06-18",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Table header color customization**: Authors can now set font color, background color, and text formatting for table column headers. See [Table layout settings](/aws/en/dashboards/manage/visualizations/tables#table-layout-settings).\n* **Dashboard relationships (Private Preview)**: Dashboard relationships, which allow users to create complex multi-fact data models, are now in Private Preview. See [Dashboard relationships](/aws/en/dashboards/manage/data-modeling/dashboard-relationships).\n* **Local metric view parameters**: Local metric views now support parameters, allowing Databricks to dynamically change query inputs based on user selections in a UI.\n* **Local metric view wildcard expressions**: Local metric views now support wildcard expressions, which allows users to inherit all fields from upstream tables or metric views.\n* **Power BI enhanced report format support (Beta)**: Genie Code now supports Power BI files exported with the Power BI enhanced report format (PBIR).\n* **Image upload suggestions for Power BI and Tableau imports (Beta)**: Genie Code now suggests that authors upload images when importing files from Power BI and Tableau to improve migration quality.",
+  "ref_links": [
+    {
+      "text": "Table layout settings",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/tables#table-layout-settings"
+    },
+    {
+      "text": "Dashboard relationships",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.555628Z"
+}

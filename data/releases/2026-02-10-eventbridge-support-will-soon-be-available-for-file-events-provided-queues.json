@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-10-eventbridge-support-will-soon-be-available-for-file-events-provided-queues",
+  "title": "EventBridge support will soon be available for file events provided queues",
+  "date": "2026-02-10",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#eventbridge-support-will-soon-be-available-for-file-events-provided-queues",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In late February 2026, EventBridge support will be available for file events provided queues for S3 locations. Currently, file events can only be set up using SNS or by routing storage events directly to SQS.\n\nSee [Using a provided queue for S3](/aws/en/connect/unity-catalog/cloud-storage/manage-external-locations#using-a-provided-queue-for-s3).",
+  "ref_links": [
+    {
+      "text": "Using a provided queue for S3",
+      "url": "https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-storage/manage-external-locations#using-a-provided-queue-for-s3"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.975143Z"
+}

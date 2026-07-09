@@ -1,0 +1,17 @@
+{
+  "id": "2025-06-09-manage-network-policies-for-serverless-egress-control-generally-available",
+  "title": "Manage network policies for serverless egress control (Generally Available)",
+  "date": "2025-06-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#manage-network-policies-for-serverless-egress-control-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can configure and enforce outbound network policies for serverless compute resources, including SQL warehouses and model serving endpoints.\n\nWith network policies you can:\n\n* Configure outbound access for serverless workloads.\n* Allowlist specific domains and storage accounts for restricted mode.\n* Enable dry-run mode to monitor policy impact before enforcement.\n* View and analyze denial logs in Unity Catalog for auditing and troubleshooting.\n\nSee [Manage network policies for serverless egress control](/aws/en/security/network/serverless-network-security/manage-network-policies)",
+  "ref_links": [
+    {
+      "text": "Manage network policies for serverless egress control",
+      "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/manage-network-policies"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.366995Z"
+}

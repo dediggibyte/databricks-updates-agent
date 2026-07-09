@@ -1,0 +1,28 @@
+{
+  "product": "SQL alert task in Lakeflow Jobs is now in Public Preview",
+  "tagline": "The SQL alert task in Lakeflow Jobs, previously in Beta, is now in Public Preview.",
+  "updated": "May 14, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/jobs/tasks/alert",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#sql-alert-task-in-lakeflow-jobs-is-now-in-public-preview",
+  "what_it_does": "The SQL alert task in Lakeflow Jobs, previously in Beta, is now in Public Preview. Use the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The SQL alert task in Lakeflow Jobs, previously in Beta, is now in Public Preview.",
+  "note_id": "2026-05-14-sql-alert-task-in-lakeflow-jobs-is-now-in-public-preview",
+  "category": "platform"
+}

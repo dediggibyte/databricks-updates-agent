@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-12-hubspot-connector-beta",
+  "title": "HubSpot connector (Beta)",
+  "date": "2026-02-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#hubspot-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed HubSpot connector in Lakeflow Connect allows you to ingest data from HubSpot Marketing Hub into Databricks. See [HubSpot connector](/aws/en/ingestion/lakeflow-connect/hubspot-overview).",
+  "ref_links": [
+    {
+      "text": "HubSpot connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/hubspot-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.959443Z"
+}

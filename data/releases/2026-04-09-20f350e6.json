@@ -1,0 +1,21 @@
+{
+  "id": "2026-04-09-20f350e6",
+  "title": "Upcoming breaking change: default behavior when deleting a Unity Catalog pipeline",
+  "date": "2026-04-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-breaking-change-default-behavior-when-deleting-a-unity-catalog-pipeline",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In an upcoming release, the default behavior when deleting a Unity Catalog pipeline will change. Currently, deleting a pipeline also removes all associated materialized views, streaming tables, and views. After this change, associated tables will be retained, but inactive after the pipeline is removed. The API will also change to retain tables by default, but setting the `cascade` field to `true` overrides this and keeps the current behavior.\n\nThe `cascade` field is available now. To preserve the current behavior of removing all tables when deleting a pipeline, update your code to set `cascade=true`.\n\nSee [Delete a pipeline](https://docs.databricks.com/api/workspace/pipelines/delete), and [Delete a pipeline](/aws/en/ldp/unity-catalog#delete-a-pipeline).",
+  "ref_links": [
+    {
+      "text": "Delete a pipeline",
+      "url": "https://docs.databricks.com/api/workspace/pipelines/delete"
+    },
+    {
+      "text": "Delete a pipeline",
+      "url": "https://docs.databricks.com/aws/en/ldp/unity-catalog#delete-a-pipeline"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.805658Z"
+}

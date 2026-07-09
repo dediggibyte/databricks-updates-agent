@@ -1,0 +1,28 @@
+{
+  "product": "Some partner-powered AI features are now available in-country for Brazil…",
+  "tagline": "The following features are now available through models hosted in country in Brazil, Canada, Japan, Korea, Singapore, and the UK: Genie Code chat and cell actions Genie Spaces (excluding Agent mode)…",
+  "updated": "Mar 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/databricks-ai#db-hosted",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#some-partner-powered-ai-features-are-now-available-in-country-for-brazil-canada-japan-korea-singapore-and-the-uk",
+  "what_it_does": "The following features are now available through models hosted in country in Brazil, Canada, Japan, Korea, Singapore, and the UK: Genie Code chat and cell actions Genie Spaces (excluding Agent mode) AI generated comments AI/BI dashboards Workspaces in these countries can use these features with Enforce data processing within workspace Geography for Designated Services enabled and partner powered AI features enabled. For these features in the listed countries, in country data routing is enforced, meaning data does not leave the country. If partner powered AI features is disabled, Genie Code can use Databricks hosted models only if Enforce data processing within workspace Geography for Designated Services is disabled.",
+  "why_it_matters": "| | Genie Ontology | A map of your data and business that Genie automatically generates and maintains to return more accurate, lower latency responses.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [
+    {
+      "title": "Read the docs",
+      "desc": "Review the linked release note."
+    }
+  ],
+  "key_takeaway": "The following features are now available through models hosted in country in Brazil, Canada, Japan, Korea, Singapore, and the UK: Genie Code chat and cell actions Genie Spaces (excluding Agent mode)…",
+  "note_id": "2026-03-13-5e9273a0",
+  "category": "platform"
+}

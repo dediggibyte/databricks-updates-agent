@@ -1,0 +1,12 @@
+{
+  "id": "2025-11-13-genie-navigation-and-accuracy-improvements",
+  "title": "Genie navigation and accuracy improvements",
+  "date": "2025-11-13",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-navigation-and-accuracy-improvements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Fixed back navigation error**: Resolved a bug where clicking the browser back button while viewing a Genie Space would result in an error.\n* **Fixed entity matching documentation link**: Fixed a broken link to the description of entity matching (previously value dictionaries).\n* **Improved column selection**: Genie now optimizes column selection to provide more columns with higher relevance while efficiently managing context consumption.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.118566Z"
+}

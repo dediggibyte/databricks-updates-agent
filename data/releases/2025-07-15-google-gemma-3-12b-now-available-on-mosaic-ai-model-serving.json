@@ -1,0 +1,17 @@
+{
+  "id": "2025-07-15-google-gemma-3-12b-now-available-on-mosaic-ai-model-serving",
+  "title": "Google Gemma 3 12B now available on Mosaic AI Model Serving",
+  "date": "2025-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#google-gemma-3-12b-now-available-on-mosaic-ai-model-serving",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Google Gemma 3 12B is now available on Mosaic AI Model Serving as a Databricks-hosted foundation model. See [Supported foundation models on Model Serving](/aws/en/machine-learning/model-serving/foundation-model-overview).\n\nGemma 3 12B model supports text inputs for the following Model Serving features:\n\n* Foundation Model APIs pay-per-token.\n* Foundation Model APIs provisioned throughput.\n* AI Functions. Both real time inference and batch inference workloads are supported.",
+  "ref_links": [
+    {
+      "text": "Supported foundation models on Model Serving",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/foundation-model-overview"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.321762Z"
+}

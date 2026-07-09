@@ -1,0 +1,17 @@
+{
+  "id": "2025-12-08-expanded-regional-availability-for-c5-and-tisax-compliance",
+  "title": "Expanded regional availability for C5 and TISAX compliance",
+  "date": "2025-12-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#expanded-regional-availability-for-c5-and-tisax-compliance",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use the Cloud Computing Compliance Criteria Catalogue (C5) and the Trusted Information Security Assessment Exchange (TISAX) compliance standards in all regions and with serverless compute. See [Compliance security profile](/aws/en/security/privacy/security-profile).",
+  "ref_links": [
+    {
+      "text": "Compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.094416Z"
+}

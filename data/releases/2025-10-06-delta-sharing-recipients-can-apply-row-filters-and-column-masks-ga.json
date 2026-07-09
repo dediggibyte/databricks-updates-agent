@@ -1,0 +1,17 @@
+{
+  "id": "2025-10-06-delta-sharing-recipients-can-apply-row-filters-and-column-masks-ga",
+  "title": "Delta Sharing recipients can apply row filters and column masks (GA)",
+  "date": "2025-10-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#delta-sharing-recipients-can-apply-row-filters-and-column-masks-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Delta Sharing recipients can now apply their own row filters and columns masks on shared tables and shared foreign tables. However, Delta Sharing providers still cannot share data assets that have row-level security or column masks.\n\nFor details, see [Apply row filters and column masks](/aws/en/opensharing/read-data-databricks#rls-cm).",
+  "ref_links": [
+    {
+      "text": "Apply row filters and column masks",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#rls-cm"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.184767Z"
+}

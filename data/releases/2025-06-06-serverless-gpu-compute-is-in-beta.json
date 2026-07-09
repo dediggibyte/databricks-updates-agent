@@ -1,0 +1,21 @@
+{
+  "id": "2025-06-06-serverless-gpu-compute-is-in-beta",
+  "title": "Serverless GPU compute is in Beta",
+  "date": "2025-06-06",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#serverless-gpu-compute-is-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Serverless GPU compute is now part of the [Serverless compute offering](/aws/en/compute/serverless). Serverless GPU compute is specialized for custom single and multi-node deep learning workloads. You can use serverless GPU compute to train and fine-tune custom models using your favorite frameworks and get state-of-the-art efficiency, performance, and quality.\n\nSee [AI Runtime](/aws/en/machine-learning/ai-runtime).",
+  "ref_links": [
+    {
+      "text": "Serverless compute offering",
+      "url": "https://docs.databricks.com/aws/en/compute/serverless"
+    },
+    {
+      "text": "AI Runtime",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/ai-runtime"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.369417Z"
+}

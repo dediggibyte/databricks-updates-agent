@@ -1,0 +1,25 @@
+{
+  "id": "2026-03-12-338de35a",
+  "title": "Lakebase Autoscaling updates: OAuth role management, budget policies and tags, and Lakehouse sync",
+  "date": "2026-03-12",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#lakebase-autoscaling-updates-oauth-role-management-budget-policies-and-tags-and-lakehouse-sync",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase Autoscaling now includes the following features:\n\n* **OAuth roles**: Create OAuth roles using the Lakebase UI or REST API, in addition to SQL. See [Create Postgres roles](/aws/en/oltp/projects/postgres-roles).\n* **Budget policies and tags**: Associate a serverless budget policy and add custom tags to your project for cost attribution and tracking. See [Manage projects](/aws/en/oltp/projects/manage-projects).\n* **Lakehouse sync (Beta)**: Continuously replicate Lakebase Postgres tables to Unity Catalog Delta tables using CDC. See [Lakebase Change Data Feed](/aws/en/oltp/projects/lakebase-cdf).",
+  "ref_links": [
+    {
+      "text": "Create Postgres roles",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/postgres-roles"
+    },
+    {
+      "text": "Manage projects",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects"
+    },
+    {
+      "text": "Lakebase Change Data Feed",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/lakebase-cdf"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.877735Z"
+}

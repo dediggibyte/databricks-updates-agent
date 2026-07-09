@@ -1,0 +1,12 @@
+{
+  "id": "2026-05-29-lakeflow-designer-updates-for-may-29-2026",
+  "title": "Lakeflow Designer updates for May 29, 2026",
+  "date": "2026-05-29",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-designer-updates-for-may-29-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The following updates were made to Lakeflow Designer:\n\n* **Bidirectional AI-generated descriptions**: Each operator now displays an AI-generated description of what it does. Editing the description reconfigures the operator.\n* **N-way Combine**: The Combine operator now accepts any number of input tables.\n* **Custom join conditions**: You can now add a custom join condition by clicking the arrow between the left and right tables. Edit the AI-generated description or manually write SQL to configure the condition.\n* **Improved filter readability**: Datetime values in filter conditions now render in plain English instead of ISO format.\n* **Multi-modal output types**: Operators can now render plots, HTML, images, and other non-table outputs directly in the preview pane.\n* **Configurable output panel**: Switch the output panel between input and output (default), input only, or output only. In the combined view, you can now resize the input and output panes.\n* **Improved drag-to-connect hit target**: Drag from an operator's **+** button to add a connected downstream operator.\n* **Genie Code change summary**: Genie Code now shows a one-line summary of its most recent edit above the input box.\n* **Better Note placement**: New Notes no longer overlap neighboring operators by default.\n* **Inline parameter examples**: SQL and Python operators now surface available parameters with inline sample code showing how to reference them.\n* **Bug fixes and improvements**: Fixed Python operator handling of triple-quoted strings, and a `KeyError` thrown by the Python preview when an upstream operator was disconnected.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:44.643705Z"
+}

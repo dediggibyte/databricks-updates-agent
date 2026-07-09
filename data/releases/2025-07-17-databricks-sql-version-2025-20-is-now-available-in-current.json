@@ -1,0 +1,12 @@
+{
+  "id": "2025-07-17-databricks-sql-version-2025-20-is-now-available-in-current",
+  "title": "Databricks SQL version 2025.20 is now available in Current",
+  "date": "2025-07-17",
+  "url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#databricks-sql-version-202520-is-now-available-in-current",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks SQL version 2025.20 is rolling out in stages to the **Current** channel. For features and updates in this release, see [2025.20 features](#2025-20-features).",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-09T13:44:45.316753Z"
+}
