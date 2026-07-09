@@ -249,6 +249,42 @@ def test_enrich_sets_docs_url_to_tech_reference():
     assert op.source_url == note.url                  # provenance kept
 
 
+def test_github_models_uses_llm_response_when_available(monkeypatch):
+    """Regression: a function-local `import urllib.error` once shadowed the
+    module-level `urllib`, so every github-models call died with an
+    UnboundLocalError before the request was even sent and silently fell
+    back to the heuristic. With the HTTP layer mocked, the enriched
+    one-pager must come from the (fake) LLM, not the heuristic."""
+    import io
+    import json
+
+    from dbx_onepager import enrich as enrich_mod
+
+    llm_fields = dict(
+        product="Feature X", tagline="Straight from the LLM.", updated="Jul 8, 2026",
+        status_label="GA", status="ga", what_it_does="LLM what.",
+        why_it_matters="LLM why.", key_takeaway="LLM takeaway.",
+    )
+    body = json.dumps(
+        {"choices": [{"message": {"content": json.dumps(llm_fields)}}]}
+    ).encode("utf-8")
+
+    class _Resp(io.BytesIO):
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return False
+
+    monkeypatch.setenv("GITHUB_TOKEN", "test-token")
+    monkeypatch.setattr(
+        enrich_mod.urllib.request, "urlopen", lambda req, timeout=0: _Resp(body)
+    )
+    cfg = {"llm": {"provider": "github-models"}, "source": {}, "doc": {"fetch_underlying": False}}
+    op = enrich_note(_note(), cfg)
+    assert op.tagline == "Straight from the LLM."
+
+
 def test_provider_falls_back_to_heuristic_when_unavailable():
     # provider=github-models but no GITHUB_TOKEN -> must not raise, degrades.
     import os

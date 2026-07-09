@@ -18,6 +18,8 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 from typing import Optional
@@ -192,9 +194,6 @@ def _llm_github_models(
     )
     # The free tier rate-limits aggressively (429); wait and retry a few times
     # before degrading to the heuristic.
-    import time
-    import urllib.error
-
     attempts = int(llm.get("retries", 3)) + 1
     for attempt in range(attempts):
         try:
