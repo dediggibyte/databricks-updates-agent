@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-7",
   "what_it_does": "Publish with service principal credentials: Authors can now publish dashboards using the data credentials of a service principal. Service principal draft view fix: Fixed a bug where a dashboard published via a service principal loses the ability to view draft. Text widget menu fix: Removed Show visualization query from the kebab menu on text widgets.",
   "why_it_matters": "Dataset field filters can also offer dashboard interactivity, more features, and better performance with large datasets than parameters.",
+  "plain_summary": "Publish with service principal credentials: Authors can now publish dashboards using the data credentials of a service principal. Service principal draft view fix: Fixed a bug where a dashboard published via a service principal loses the ability to view draft.",
   "capabilities": [
     {
       "title": "The default type is String",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Publish with service principal credentials: Authors can now publish dashboards using the data credentials of a service principal.",
   "note_id": "2026-04-30-dashboard-enhancements-and-bug-fixes",
   "category": "platform"

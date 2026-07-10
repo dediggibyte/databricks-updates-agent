@@ -341,3 +341,58 @@ def test_parse_notes_from_html_splits_and_dedupes():
     # Explicit in-text date parsed; anchor id used for the URL.
     assert a.date == date(2026, 6, 3)
     assert a.url.endswith("#feat-a")
+
+
+# --- table-dump + "read the docs" cleanup (branch: cleaner-why) --------------
+_TABLE_NOTE_BODY = (
+    "Change to default pipeline editor for compliance workspaces. The editor "
+    "becomes default in August and the legacy editor will be removed.\n\n"
+    "| Feature | Status | Compute | Notes |\n"
+    "| --- | --- | --- | --- |\n"
+    "| Custom Agents | Public Preview | Serverless | HIPAA only |\n"
+    "| Genie app | Public Preview | Standard | Legacy feature |\n"
+)
+
+
+def test_clean_text_strips_markdown_tables():
+    from dbx_onepager.enrich import _clean_text, _looks_like_table
+
+    out = _clean_text(_TABLE_NOTE_BODY)
+    assert "|" not in out
+    assert _looks_like_table("| a | b | c |") and not _looks_like_table("plain text")
+
+
+def test_heuristic_no_table_dump_no_placeholder_step():
+    cfg = {"llm": {}, "source": {}}
+    op = enrich_note(_note(body=_TABLE_NOTE_BODY), cfg, mock=True)
+    # why_it_matters must be clean prose, never the status matrix.
+    assert "|" not in op.why_it_matters
+    assert "Feature" not in op.why_it_matters or "matrix" not in op.why_it_matters
+    # No fabricated "read the docs" step; a plain summary is provided instead.
+    assert op.steps == []
+    assert op.plain_summary
+
+
+def test_repair_fixes_table_why_and_placeholder_step():
+    from dbx_onepager.models import Step
+    from dbx_onepager.repair import repair_onepager
+
+    op = OnePager(
+        product="Change to default pipeline editor",
+        tagline="The editor becomes default in August.",
+        updated="Jul 9, 2026",
+        status_label="GA",
+        status="ga",
+        what_it_does="The editor becomes the default in August; the legacy editor is removed.",
+        why_it_matters="| Feature | Status | Compute | Notes | | Custom Agents | Public Preview |",
+        key_takeaway="The editor becomes default in August.",
+        steps=[Step(title="Read the docs", desc="Review the linked release note.")],
+    )
+    changed = repair_onepager(op)
+    assert changed
+    assert "|" not in op.why_it_matters          # table dump removed
+    assert op.why_it_matters.strip()             # replaced, not blanked
+    assert op.steps == []                        # placeholder step dropped
+    assert op.plain_summary                       # "In short" populated
+    # Idempotent: a second pass makes no further change.
+    assert repair_onepager(op) is False

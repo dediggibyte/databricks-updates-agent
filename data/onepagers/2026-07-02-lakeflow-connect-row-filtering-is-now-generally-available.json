@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-connect-row-filtering-is-now-generally-available",
   "what_it_does": "Row filtering in Lakeflow Connect allows users to ingest only the rows that meet specified conditions, similar to a SQL `WHERE` clause. This filtering occurs on the source side of the connector, ensuring that only relevant data is transferred, staged, or stored. It applies during both the initial load and subsequent incremental updates, maintaining consistency over time and reducing unnecessary data movement.",
   "why_it_matters": "This feature significantly improves performance and reduces costs by minimizing data duplication and storage needs. By allowing organizations to ingest only the necessary data, it enhances productivity and streamlines data management processes, making it easier to maintain clean and relevant datasets.",
+  "plain_summary": "Row filtering in Lakeflow Connect allows users to ingest only the rows that meet specified conditions, similar to a SQL WHERE clause. This filtering occurs on the source side of the connector, ensuring that only relevant data is transferred, staged, or stored.",
   "capabilities": [
     {
       "title": "Conditional Row Ingestion",

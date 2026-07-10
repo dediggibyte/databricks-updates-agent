@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#the-discover-page-is-now-in-public-preview",
   "what_it_does": "The Discover page is now in Public Preview. Discover is a curated browsing experience that helps users find data assets governed by Unity Catalog without requiring deep knowledge of catalog hierarchies. Use domains and subdomains to organize tables, dashboards, and Genie Spaces by business area, highlight key assets with custom curation, and explore AI recommended assets.",
   "why_it_matters": "Discover is a curated browsing experience that helps users find data assets governed by Unity Catalog without requiring deep knowledge of catalog hierarchies.",
+  "plain_summary": "The Discover page is now in Public Preview. Discover is a curated browsing experience that helps users find data assets governed by Unity Catalog without requiring deep knowledge of catalog hierarchies.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The Discover page is now in Public Preview.",
   "note_id": "2026-06-22-the-discover-page-is-now-in-public-preview",
   "category": "platform"

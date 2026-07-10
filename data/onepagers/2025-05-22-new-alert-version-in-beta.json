@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#new-alert-version-in-beta",
   "what_it_does": "A new version of alerts is now in Beta. This version simplifies creating and managing alerts by consolidating query setup, conditions, schedules, and notification destinations into a single interface. You can still use legacy alerts alongside the new version.",
   "why_it_matters": "Use them to track business KPIs, monitor data quality, watch cost trends, and catch operational issues across your Databricks workloads.",
+  "plain_summary": "A new version of alerts is now in Beta. This version simplifies creating and managing alerts by consolidating query setup, conditions, schedules, and notification destinations into a single interface.",
   "capabilities": [
     {
       "title": "Create an alert",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "A new version of alerts is now in Beta.",
   "note_id": "2025-05-22-new-alert-version-in-beta",
   "category": "platform"

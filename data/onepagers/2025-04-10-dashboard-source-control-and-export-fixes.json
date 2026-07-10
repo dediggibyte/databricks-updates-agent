@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-source-control-and-export-fixes",
   "what_it_does": "Source control for dashboards: Dashboards can now be integrated with Databricks Git folders for collaboration and version control(Public Preview). Revert draft dashboards to the last published version: You can now discard changes to a draft dashboard and restore it to the most recently published state. This makes it easier to undo edits and return to a known, shared version.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Source control for dashboards: Dashboards can now be integrated with Databricks Git folders for collaboration and version control(Public Preview). Revert draft dashboards to the last published version: You can now discard changes to a draft dashboard and…",
   "capabilities": [
     {
       "title": "PDF export fix: Fixed an",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Source control for dashboards: Dashboards can now be integrated with Databricks Git folders for collaboration and version control(Public Preview).",
   "note_id": "2025-04-10-dashboard-source-control-and-export-fixes",
   "category": "platform"

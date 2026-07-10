@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#replace-where-flows-are-now-generally-available",
   "what_it_does": "REPLACE WHERE flows allow for targeted updates of a table by replacing only the rows that match a specified predicate, without the need to reprocess the entire table history. This mechanism supports late-arriving data, schema evolution, and selective reprocessing, making it ideal for incremental batch processing. The flows can be defined using SQL or Python, and they can handle complex scenarios beyond standard materialized views.",
   "why_it_matters": "This feature significantly enhances data processing efficiency by reducing the computational overhead associated with full table refreshes. Businesses can achieve faster data updates, lower operational costs, and improved data accuracy, ultimately leading to better decision-making and responsiveness to changing data conditions.",
+  "plain_summary": "REPLACE WHERE flows allow for targeted updates of a table by replacing only the rows that match a specified predicate, without the need to reprocess the entire table history. This mechanism supports late arriving data, schema evolution, and selective…",
   "capabilities": [
     {
       "title": "Incremental Batch Processing",

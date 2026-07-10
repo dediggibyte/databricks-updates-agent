@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#create-backfill-job-runs",
   "what_it_does": "Job backfills allow you to trigger job runs to backfill data from the past. This is useful for loading older data, or repairing data when there are failures in processing. After you have created a job that runs on a schedule, there are times when you need to backfill data into the system.",
   "why_it_matters": "By using the same time interval your regular job, the performance and optimizations that you have set up in your job are maintained.",
+  "plain_summary": "Job backfills allow you to trigger job runs to backfill data from the past. This is useful for loading older data, or repairing data when there are failures in processing.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -19,12 +20,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Job backfills allow you to trigger job runs to backfill data from the past.",
   "note_id": "2025-10-14-create-backfill-job-runs",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/#lakeflow-declarative-pipelines",
   "what_it_does": "Lakeflow Declarative Pipelines allows users to define end-to-end data pipelines using SQL or Python, focusing on the desired transformations while the runtime handles orchestration, incremental processing, checkpointing, and recovery. This release introduces serverless compute for automatic scaling during pipeline execution, native change data capture (CDC) for ingesting data from operational databases, data quality expectations with quarantine and alerting for failed rows, and governance through Unity Catalog for all pipeline tables and lineage.",
   "why_it_matters": "This update enhances data pipeline management by simplifying the development process and improving operational efficiency through automatic scaling and robust data governance. Businesses can benefit from reduced operational overhead, improved data quality, and the ability to quickly adapt to changing data sources, ultimately leading to faster insights and decision-making.",
+  "plain_summary": "Lakeflow Declarative Pipelines allows users to define end to end data pipelines using SQL or Python, focusing on the desired transformations while the runtime handles orchestration, incremental processing, checkpointing, and recovery. This release introduces…",
   "capabilities": [
     {
       "title": "Serverless Compute",

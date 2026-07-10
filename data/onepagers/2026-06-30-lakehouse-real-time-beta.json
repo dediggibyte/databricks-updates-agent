@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakehouse-real-time-beta",
   "what_it_does": "Lakehouse Real-Time (Lakehouse//RT) is a serverless SQL warehouse designed for low-latency, high-concurrency workloads, enabling sub-second SQL read queries against Unity Catalog tables. It supports Delta Lake and Apache Iceberg formats, allowing users to serve analytical data to applications, run operational analytics, and power dashboards for hundreds to thousands of concurrent users. Users can create and manage Lakehouse//RT similarly to other SQL warehouses, with specific permissions assigned to users.",
   "why_it_matters": "This feature significantly enhances the ability to deliver real-time analytics, improving decision-making speed and operational efficiency. Organizations can leverage Lakehouse//RT to support high-demand applications and BI dashboards, ultimately driving better insights and responsiveness to business needs. The serverless nature reduces infrastructure management overhead, allowing teams to focus on data insights rather than system maintenance.",
+  "plain_summary": "Lakehouse Real Time (Lakehouse//RT) is a serverless SQL warehouse designed for low latency, high concurrency workloads, enabling sub second SQL read queries against Unity Catalog tables. It supports Delta Lake and Apache Iceberg formats, allowing users to…",
   "capabilities": [
     {
       "title": "Sub-Second Query Performance",

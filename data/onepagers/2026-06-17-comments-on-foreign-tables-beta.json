@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#comments-on-foreign-tables-beta",
   "what_it_does": "This feature allows Lakehouse Federation to sync table and column comments from supported external data sources to foreign tables in Unity Catalog. The synced comments are accessible in table metadata, including Catalog Explorer and through SQL commands like `DESCRIBE` and `DESCRIBE EXTENDED`. Comments are updated dynamically when the foreign table metadata is resolved during query execution.",
   "why_it_matters": "This update enhances data governance and usability by ensuring that metadata is consistent and up-to-date across different data sources. It benefits data analysts and engineers by providing clearer context and documentation directly within the data platform, improving productivity and reducing the risk of misinterpretation of data assets.",
+  "plain_summary": "This feature allows Lakehouse Federation to sync table and column comments from supported external data sources to foreign tables in Unity Catalog. The synced comments are accessible in table metadata, including Catalog Explorer and through SQL commands like…",
   "capabilities": [
     {
       "title": "Dynamic Comment Syncing",

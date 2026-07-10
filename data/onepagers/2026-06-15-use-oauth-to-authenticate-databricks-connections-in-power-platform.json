@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-oauth-to-authenticate-databricks-connections-in-power-platform",
   "what_it_does": "This update allows users to authenticate Databricks connections in Microsoft Power Platform using OAuth instead of personal access tokens (PAT). It requires unified login or SSO to be enabled and supports creating Power canvas apps, Power Automate flows, and Copilot Studio agents. The integration enhances security by providing a more robust authentication mechanism.",
   "why_it_matters": "By enabling OAuth authentication, organizations can improve security and compliance while reducing the risk associated with managing personal access tokens. This flexibility benefits data teams and developers by streamlining the connection process to Databricks, ultimately enhancing productivity and data governance.",
+  "plain_summary": "This update allows users to authenticate Databricks connections in Microsoft Power Platform using OAuth instead of personal access tokens (PAT). It requires unified login or SSO to be enabled and supports creating Power canvas apps, Power Automate flows, and…",
   "capabilities": [
     {
       "title": "OAuth Authentication",

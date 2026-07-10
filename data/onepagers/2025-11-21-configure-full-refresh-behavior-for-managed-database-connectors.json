@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#configure-full-refresh-behavior-for-managed-database-connectors",
   "what_it_does": "You can now schedule when full refresh snapshots occur and enable automatic full refresh to recover from unsupported schema changes. This applies to managed database connectors like SQL Server in Lakeflow Connect. Applies to: SaaS connectors Database connectors Query based connectors Fully refreshing the ingestion pipeline clears the data and state of the target tables, then reprocesses all records from the data source.",
   "why_it_matters": "Full refresh behavior (CDC) Applies to: SaaS connectors Database connectors When you trigger a full refresh of a table, Databricks optimizes the process to reduce downtime and maintain data availability: 1.",
+  "plain_summary": "You can now schedule when full refresh snapshots occur and enable automatic full refresh to recover from unsupported schema changes. This applies to managed database connectors like SQL Server in Lakeflow Connect.",
   "capabilities": [
     {
       "title": "table: sourceschema: <source-schema> sourcetable: <source-table>",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now schedule when full refresh snapshots occur and enable automatic full refresh to recover from unsupported schema changes.",
   "note_id": "2025-11-21-configure-full-refresh-behavior-for-managed-database-connectors",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#hitrust-compliance-controls-public-preview",
   "what_it_does": "You can now enable HITRUST compliance controls to manage risk and demonstrate security and privacy compliance. This page describes HITRUST compliance controls in Databricks. HITRUST overview HITRUST is a certifiable framework that integrates multiple compliance standards, including HIPAA, to help organizations manage risk and demonstrate security and privacy compliance.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now enable HITRUST compliance controls to manage risk and demonstrate security and privacy compliance. This page describes HITRUST compliance controls in Databricks.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now enable HITRUST compliance controls to manage risk and demonstrate security and privacy compliance.",
   "note_id": "2026-02-26-hitrust-compliance-controls-public-preview",
   "category": "platform"

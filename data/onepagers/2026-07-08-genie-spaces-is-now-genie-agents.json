@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-spaces-is-now-genie-agents",
   "what_it_does": "Genie Agents serve as a domain-specific natural-language chat interface within Databricks, allowing users to query their data and receive SQL queries, results tables, and visualizations. Each agent is curated by data analysts using datasets from Unity Catalog, example SQL queries, and tailored instructions to fit organizational terminology. The product's capabilities remain unchanged despite the name change from Genie Spaces.",
   "why_it_matters": "The rebranding to Genie Agents enhances clarity and aligns with the product's functionality, making it easier for business users to leverage AI for data exploration. This change supports improved productivity for data analysts and business users by providing a streamlined chat interface for accessing data insights, ultimately driving better decision-making.",
+  "plain_summary": "Genie Agents serve as a domain specific natural language chat interface within Databricks, allowing users to query their data and receive SQL queries, results tables, and visualizations. Each agent is curated by data analysts using datasets from Unity…",
   "capabilities": [
     {
       "title": "Natural Language Queries",

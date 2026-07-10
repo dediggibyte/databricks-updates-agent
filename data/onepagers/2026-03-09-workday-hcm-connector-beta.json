@@ -7,7 +7,8 @@
   "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/workday-hcm-overview",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#workday-hcm-connector-beta",
   "what_it_does": "The managed Workday HCM connector in Lakeflow Connect is now available in Beta. Use this connector to ingest data from Workday Human Capital Management into Databricks. Beta This feature is in Beta.",
-  "why_it_matters": "Feature availability | Feature | Availability | | | | | UI based pipeline authoring | Supported | | API based pipeline authoring | Supported | | Declarative Automation Bundles | Supported | | Incremental ingestion | Supported (selected tables only) | | Unity Catalog governance | Supported | | Orchestration using Databricks Workflows | Supported | | SCD type 2 | Not supported | | API based column selection and deselection | Not supported | | API based row filtering | Not supported | | Automated schema evolution: New and deleted columns | Not supported | | Automated schema evolution: Data type changes | Not supported | | Automated schema evolution: Column renames | Not supported | | Automated schema evolution: New tables | Not supported | | Maximum number of tables per pipeline | N/A | Authentication methods | Authentication method | Availability | | | | | OAuth U2M | Not supported | | OAuth M2M | Not supported | | OAuth (manual refresh token) | Supported | | Basic authentication (username/password) | Not supported | | Basic authentication (API key) | Not supported | | Basic authentication (service account JSON key) | Not supported | What to know before you start | Topic | Why it matters | | | | | Databricks user persona | The workflow depends on your Databricks user persona: Single user: An admin user creates a Unity Catalog connection and an ingestion pipeline.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The managed Workday HCM connector in Lakeflow Connect is now available in Beta. Use this connector to ingest data from Workday Human Capital Management into Databricks.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The managed Workday HCM connector in Lakeflow Connect is now available in Beta.",
   "note_id": "2026-03-09-workday-hcm-connector-beta",
   "category": "platform"

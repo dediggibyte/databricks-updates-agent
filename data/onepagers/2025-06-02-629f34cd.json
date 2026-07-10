@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#unity-catalog-http-connections-support-oauth-user-to-machine-per-user-credentials-public-preview",
   "what_it_does": "Individual users can now use their own OAuth credentials to sign into external services when using a Unity Catalog HTTP connection. Previously, the only OAuth option was to share a single OAuth credential for the connection regardless of the user. Preview This feature is in Public Preview.",
   "why_it_matters": "This approach is suitable for shared devices or environments where a consistent user identity is sufficient, but it reduces individual accountability and tracking.",
+  "plain_summary": "Individual users can now use their own OAuth credentials to sign into external services when using a Unity Catalog HTTP connection. Previously, the only OAuth option was to share a single OAuth credential for the connection regardless of the user.",
   "capabilities": [
     {
       "title": "Bearer token: Obtain a bearer",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Individual users can now use their own OAuth credentials to sign into external services when using a Unity Catalog HTTP connection.",
   "note_id": "2025-06-02-629f34cd",
   "category": "platform"

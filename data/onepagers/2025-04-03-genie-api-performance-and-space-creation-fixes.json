@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-api-performance-and-space-creation-fixes",
   "what_it_does": "Genie API performance improvement: API response latency has been improved by removing unnecessary completion steps. Create Genie Spaces from Catalog Explorer fix: An issue with creating Genie Spaces from Catalog Explorer has been resolved.",
   "why_it_matters": "Genie API performance improvement: API response latency has been improved by removing unnecessary completion steps.",
+  "plain_summary": "Genie API performance improvement: API response latency has been improved by removing unnecessary completion steps. Create Genie Spaces from Catalog Explorer fix: An issue with creating Genie Spaces from Catalog Explorer has been resolved.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Genie API performance improvement: API response latency has been improved by removing unnecessary completion steps.",
   "note_id": "2025-04-03-genie-api-performance-and-space-creation-fixes",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-enhancements",
   "what_it_does": "Improved pivot table performance: Pivot table headers now render significantly faster with reduced scroll lag.",
   "why_it_matters": "Improved pivot table performance: Pivot table headers now render significantly faster with reduced scroll lag.",
+  "plain_summary": "Improved pivot table performance: Pivot table headers now render significantly faster with reduced scroll lag. Improved pivot table performance: Pivot table headers now render significantly faster with reduced scroll lag.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Improved pivot table performance: Pivot table headers now render significantly faster with reduced scroll lag.",
   "note_id": "2025-11-27-dashboard-visualization-enhancements",
   "category": "platform"

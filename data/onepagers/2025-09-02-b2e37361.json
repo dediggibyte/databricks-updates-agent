@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#delta-sharing-for-tables-on-default-storage-will-soon-be-enabled-by-default-beta",
   "what_it_does": "This default storage update for Delta Sharing has expanded sharing capabilities, allowing providers to share tables backed by default storage to any Delta Sharing recipient (open or Databricks), including recipients using classic compute. This feature is currently in Beta and requires providers to manually enable Delta Sharing for Default Storage – Expanded Access in the account console. Soon, this will be enabled by default for all users.",
   "why_it_matters": "note For information on monitoring default storage costs in your account, see Monitor default storage costs.",
+  "plain_summary": "This default storage update for Delta Sharing has expanded sharing capabilities, allowing providers to share tables backed by default storage to any Delta Sharing recipient (open or Databricks), including recipients using classic compute. This feature is…",
   "capabilities": [
     {
       "title": "All other shareable assets can",
@@ -21,12 +22,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "This default storage update for Delta Sharing has expanded sharing capabilities, allowing providers to share tables backed by default storage to any Delta Sharing recipient (open or Databricks)…",
   "note_id": "2025-09-02-b2e37361",
   "category": "platform"

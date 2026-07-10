@@ -6,8 +6,9 @@
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/hubspot-overview",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#hubspot-connector-beta",
-  "what_it_does": "The managed HubSpot connector in Lakeflow Connect allows you to ingest data from HubSpot Marketing Hub into Databricks. The managed HubSpot connector in Lakeflow Connect allows you to ingest data from HubSpot Marketing Hub into Databricks. Feature availability | Feature | Availability | | | | | UI based pipeline authoring | Supported | | API based pipeline authoring | Supported | | Declarative Automation Bundles | Supported | | Incremental ingestion | Partially supported Some tables support incremental ingestion.",
-  "why_it_matters": "| | Unity Catalog governance | Supported | | Lakeflow Jobs | Supported | | SCD type 2 | Supported | | Column selection and deselection | Supported | | API based row filtering | Not supported | | Automated schema evolution: New and deleted columns | Not supported | | Automated schema evolution: Data type changes | Not supported | | Automated schema evolution: Column renames | Not supported | | Automated schema evolution: New tables | Supported | | Maximum number of tables per pipeline | 250 | Authentication methods | Authentication method | Availability | | | | | OAuth U2M | Supported | | OAuth M2M | Not supported | | OAuth (manual refresh token) | Not supported | | Basic authentication (username/password) | Not supported | | Basic authentication (API key) | Not supported | | Basic authentication (service account JSON key) | Not supported | What to know before you start | Topic | Why it matters | | | | | Databricks user persona | The workflow depends on your Databricks user persona: Single user: An admin user creates a Unity Catalog connection and an ingestion pipeline.",
+  "what_it_does": "The managed HubSpot connector in Lakeflow Connect allows you to ingest data from HubSpot Marketing Hub into Databricks.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The managed HubSpot connector in Lakeflow Connect allows you to ingest data from HubSpot Marketing Hub into Databricks. The managed HubSpot connector in Lakeflow Connect allows you to ingest data from HubSpot Marketing Hub into Databricks.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The managed HubSpot connector in Lakeflow Connect allows you to ingest data from HubSpot Marketing Hub into Databricks.",
   "note_id": "2026-02-12-hubspot-connector-beta",
   "category": "platform"

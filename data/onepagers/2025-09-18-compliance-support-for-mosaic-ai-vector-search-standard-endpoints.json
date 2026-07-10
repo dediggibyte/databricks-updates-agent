@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#compliance-support-for-mosaic-ai-vector-search-standard-endpoints",
   "what_it_does": "Mosaic AI Vector Search standard endpoints are now available in FedRAMP Moderate and IRAP workspaces. Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools. It powers retrieval for generative AI applications such as RAG systems, recommender systems, and image and video recognition by finding the embeddings most similar to a query.",
   "why_it_matters": "Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools.",
+  "plain_summary": "Mosaic AI Vector Search standard endpoints are now available in FedRAMP Moderate and IRAP workspaces. Databricks AI Search (formerly Databricks Vector Search) is a search solution that is built into the Databricks Data Intelligence Platform and integrated…",
   "capabilities": [
     {
       "title": "With standard endpoints, you can",
@@ -23,12 +24,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Mosaic AI Vector Search standard endpoints are now available in FedRAMP Moderate and IRAP workspaces.",
   "note_id": "2025-09-18-compliance-support-for-mosaic-ai-vector-search-standard-endpoints",
   "category": "platform"

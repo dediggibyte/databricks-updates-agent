@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#serverless-outbound-ips-available-through-public-json-endpoint-public-preview",
   "what_it_does": "You can now retrieve serverless outbound IP addresses from a public JSON endpoint. This replaces the existing stable IPs shared with customers enrolled in the Public Preview. Databricks serverless compute connects to your cloud resources through managed network infrastructure.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now retrieve serverless outbound IP addresses from a public JSON endpoint. This replaces the existing stable IPs shared with customers enrolled in the Public Preview.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now retrieve serverless outbound IP addresses from a public JSON endpoint.",
   "note_id": "2026-02-25-serverless-outbound-ips-available-through-public-json-endpoint-public-preview",
   "category": "platform"

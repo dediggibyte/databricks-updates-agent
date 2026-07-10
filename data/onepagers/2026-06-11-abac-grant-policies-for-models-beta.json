@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#abac-grant-policies-for-models-beta",
   "what_it_does": "ABAC GRANT policies enable dynamic granting of Unity Catalog privileges based on the governed tags of securable objects, specifically allowing the `EXECUTE` privilege on models at the catalog or schema level. This feature supports both customer-registered MLflow models and Databricks-hosted foundation models. The policies evaluate conditions against tags each time access is checked, streamlining access management for models.",
   "why_it_matters": "This update enhances data governance by simplifying access control for machine learning models, reducing administrative overhead and potential errors associated with direct grants. Organizations can ensure that only authorized users can execute models based on dynamic conditions, improving security and compliance while fostering collaboration among data scientists and analysts.",
+  "plain_summary": "ABAC GRANT policies enable dynamic granting of Unity Catalog privileges based on the governed tags of securable objects, specifically allowing the EXECUTE privilege on models at the catalog or schema level. This feature supports both customer registered…",
   "capabilities": [
     {
       "title": "Dynamic Privilege Granting",

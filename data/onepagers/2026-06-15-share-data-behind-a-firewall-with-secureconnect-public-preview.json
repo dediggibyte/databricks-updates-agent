@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#share-data-behind-a-firewall-with-secureconnect-public-preview",
   "what_it_does": "SecureConnect allows providers to share data from cloud storage behind a firewall or private endpoint without needing to add each recipient's network to an allowlist. This is achieved through a managed proxy that brokers the connection, simplifying the sharing process for clean rooms. Recipients can access shared data using their existing OpenSharing setup, enhancing collaboration while maintaining security.",
   "why_it_matters": "This feature significantly reduces the complexity and administrative overhead associated with data sharing across secure environments, enabling faster collaboration and data access. Organizations can now share sensitive data without compromising security, which is crucial for compliance and governance. This capability is particularly beneficial for industries that handle sensitive information, such as finance and healthcare.",
+  "plain_summary": "SecureConnect allows providers to share data from cloud storage behind a firewall or private endpoint without needing to add each recipient's network to an allowlist. This is achieved through a managed proxy that brokers the connection, simplifying the…",
   "capabilities": [
     {
       "title": "Firewall Bypass",

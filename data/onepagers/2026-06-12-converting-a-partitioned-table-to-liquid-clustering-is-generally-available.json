@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#converting-a-partitioned-table-to-liquid-clustering-is-generally-available",
   "what_it_does": "This feature allows users to convert existing partitioned Delta Lake tables to liquid clustering using the `ALTER TABLE ... REPLACE PARTITIONED BY WITH CLUSTER BY` command. It minimizes reader and writer downtime during the conversion process and supports both external and managed tables. Liquid clustering optimizes query performance by automatically organizing data based on clustering keys, making it easier to adapt to changing analytic needs.",
   "why_it_matters": "This update enhances data management efficiency and query performance, particularly for organizations dealing with high cardinality columns and heavy data skew. By simplifying the data layout and reducing maintenance efforts, businesses can achieve better performance and lower operational costs, ultimately improving productivity and responsiveness to changing data access patterns.",
+  "plain_summary": "This feature allows users to convert existing partitioned Delta Lake tables to liquid clustering using the ALTER TABLE ... REPLACE PARTITIONED BY WITH CLUSTER BY command.",
   "capabilities": [
     {
       "title": "Minimized Downtime",

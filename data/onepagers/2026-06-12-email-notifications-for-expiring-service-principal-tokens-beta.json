@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#email-notifications-for-expiring-service-principal-tokens-beta",
   "what_it_does": "Databricks now sends automatic email notifications to workspace admins when service principal tokens are within seven days of expiration. This feature applies to tokens with a lifetime greater than seven days that have been used at least once, requiring no additional configuration from the user. The notifications help ensure that admins are aware of impending token expirations, allowing for timely management.",
   "why_it_matters": "This feature significantly enhances security governance by ensuring that admins are promptly informed about expiring tokens, reducing the risk of service disruptions due to expired tokens. It streamlines the management of service principal tokens, ultimately improving operational efficiency and compliance.",
+  "plain_summary": "Databricks now sends automatic email notifications to workspace admins when service principal tokens are within seven days of expiration. This feature applies to tokens with a lifetime greater than seven days that have been used at least once, requiring no…",
   "capabilities": [
     {
       "title": "Automatic Notifications",

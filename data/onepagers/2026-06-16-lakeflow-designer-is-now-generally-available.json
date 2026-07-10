@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakeflow-designer-is-now-generally-available",
   "what_it_does": "Lakeflow Designer is a visual, no-code, AI-native tool for data preparation and analytics, allowing users to create workflows through a drag-and-drop interface and natural language. These workflows, known as visual data preps, are supported by production-ready code and governed by Unity Catalog, ensuring a seamless transition from prototype to production. Users can utilize built-in operators or define their own custom operators to enhance functionality.",
   "why_it_matters": "This release empowers data analysts to efficiently prepare and transform data without needing extensive coding skills, thereby increasing productivity and reducing time to insights. By leveraging a governed environment, organizations can ensure compliance and data integrity, which is critical for decision-making and operational efficiency.",
+  "plain_summary": "Lakeflow Designer is a visual, no code, AI native tool for data preparation and analytics, allowing users to create workflows through a drag and drop interface and natural language. These workflows, known as visual data preps, are supported by production…",
   "capabilities": [
     {
       "title": "Visual Data Preps",

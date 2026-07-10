@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#list-dashboards-api-sort-order-change",
   "what_it_does": "On May 4, 2026, a new version of the List Dashboards API will change the sort order of results. Dashboards will be returned in reverse chronological order by last modified date, with the most recently modified dashboard first, instead of alphabetically by title. This is a breaking change for users who paginate results using next page token.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "On May 4, 2026, a new version of the List Dashboards API will change the sort order of results. Dashboards will be returned in reverse chronological order by last modified date, with the most recently modified dashboard first, instead of alphabetically by…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "On May 4, 2026, a new version of the List Dashboards API will change the sort order of results.",
   "note_id": "2026-04-06-list-dashboards-api-sort-order-change",
   "category": "platform"

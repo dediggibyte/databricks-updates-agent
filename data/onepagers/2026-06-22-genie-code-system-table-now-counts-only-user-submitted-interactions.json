@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-system-table-now-counts-only-user-submitted-interactions",
   "what_it_does": "The Genie Code system table (system.access.assistant events) now records only user submitted Genie Code interactions, such as side panel chat, agent mode, and the inline assistant (%assistant). Background and automated requests, such as autocomplete (ghost text), quick fix suggestions, and automatic renaming, are no longer logged as events. This change took effect on May 7, 2026 and corrects earlier behavior that counted these background requests.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Genie Code system table (system.access.assistant events) now records only user submitted Genie Code interactions, such as side panel chat, agent mode, and the inline assistant (%assistant). Background and automated requests, such as autocomplete (ghost…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The Genie Code system table (system.access.assistant events) now records only user submitted Genie Code interactions, such as side panel chat, agent mode, and the inline assistant (%assistant).",
   "note_id": "2026-06-22-genie-code-system-table-now-counts-only-user-submitted-interactions",
   "category": "platform"

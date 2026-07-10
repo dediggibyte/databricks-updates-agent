@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#excel-file-format-support-is-now-available-by-default",
   "what_it_does": "Databricks now supports reading `.xls`, `.xlsx`, and `.xlsm` files natively, allowing users to ingest, parse, and query Excel files without needing external libraries or manual conversions. Users can read any sheet from multi-sheet workbooks, target specific cell ranges, and automatically infer schema and data types. This feature supports both batch and streaming workloads using Auto Loader, facilitating seamless data integration from Excel files.",
   "why_it_matters": "This enhancement significantly improves productivity by streamlining the data ingestion process for users who rely on Excel files, reducing the time and effort spent on data preparation. It allows data teams to leverage existing Excel data directly in their analytics workflows, enhancing decision-making capabilities and enabling faster insights. The built-in support also mitigates risks associated with manual conversions and external dependencies.",
+  "plain_summary": "Databricks now supports reading .xls, .xlsx, and .xlsm files natively, allowing users to ingest, parse, and query Excel files without needing external libraries or manual conversions. Users can read any sheet from multi sheet workbooks, target specific cell…",
   "capabilities": [
     {
       "title": "Native Excel Support",

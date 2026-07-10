@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#aibi-dashboard-table-and-text-widget-improvements",
   "what_it_does": "Adjustable line thickness in line charts: You can now control the thickness of lines in line charts. If no series are specified in the size area, the slider changes all line thickness uniformly. If series are specified, you can set different thickness values for each series, similar to different size circles in scatter charts.",
   "why_it_matters": "Improved pivot row headers: Row header field names in pivot tables no longer overflow and now scroll together with row values.",
+  "plain_summary": "Adjustable line thickness in line charts: You can now control the thickness of lines in line charts. If no series are specified in the size area, the slider changes all line thickness uniformly.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Adjustable line thickness in line charts: You can now control the thickness of lines in line charts.",
   "note_id": "2025-10-09-ai-bi-dashboard-table-and-text-widget-improvements",
   "category": "platform"

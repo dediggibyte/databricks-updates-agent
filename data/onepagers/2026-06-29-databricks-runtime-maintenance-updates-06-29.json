@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-runtime-maintenance-updates-0629",
   "what_it_does": "The latest maintenance updates for Databricks Runtime versions include critical bug fixes, security patches, and performance improvements. These updates ensure that users benefit from the latest enhancements and maintain a secure and efficient environment. Supported versions include Databricks Runtime 18, 18.2, 18.1, 18.0, and several LTS versions.",
   "why_it_matters": "Regular maintenance updates are essential for maintaining system security, improving performance, and ensuring reliability. By applying these updates, organizations can mitigate risks associated with vulnerabilities and enhance the overall user experience, leading to increased productivity and trust in the platform.",
+  "plain_summary": "The latest maintenance updates for Databricks Runtime versions include critical bug fixes, security patches, and performance improvements. These updates ensure that users benefit from the latest enhancements and maintain a secure and efficient environment.",
   "capabilities": [
     {
       "title": "Bug Fixes",

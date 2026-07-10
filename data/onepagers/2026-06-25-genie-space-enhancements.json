@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-1",
   "what_it_does": "Genie Code space authoring skills: Genie Code now includes dedicated skills for authoring and maintaining Genie Spaces. Test a Genie Agent with real world questions, review the generated SQL and visualizations, edit responses when Genie gets something wrong, and monitor agent usage and user feedback so you can keep the agent accurate as data and questions evolve. Use benchmarks to score response accuracy at scale.",
   "why_it_matters": "Use benchmarks to score response accuracy at scale.",
+  "plain_summary": "Genie Code space authoring skills: Genie Code now includes dedicated skills for authoring and maintaining Genie Spaces. Test a Genie Agent with real world questions, review the generated SQL and visualizations, edit responses when Genie gets something wrong…",
   "capabilities": [
     {
       "title": "Click Submit and try again",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Genie Code space authoring skills: Genie Code now includes dedicated skills for authoring and maintaining Genie Spaces.",
   "note_id": "2026-06-25-genie-space-enhancements",
   "category": "platform"

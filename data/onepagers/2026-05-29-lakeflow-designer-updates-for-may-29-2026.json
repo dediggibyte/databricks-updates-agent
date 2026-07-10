@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-designer-updates-for-may-29-2026",
   "what_it_does": "The following updates were made to Lakeflow Designer: Bidirectional AI generated descriptions: Each operator now displays an AI generated description of what it does. Editing the description reconfigures the operator. N way Combine: The Combine operator now accepts any number of input tables.",
   "why_it_matters": "Improved filter readability: Datetime values in filter conditions now render in plain English instead of ISO format.",
+  "plain_summary": "The following updates were made to Lakeflow Designer: Bidirectional AI generated descriptions: Each operator now displays an AI generated description of what it does. Editing the description reconfigures the operator.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The following updates were made to Lakeflow Designer: Bidirectional AI generated descriptions: Each operator now displays an AI generated description of what it does.",
   "note_id": "2026-05-29-lakeflow-designer-updates-for-may-29-2026",
   "category": "platform"

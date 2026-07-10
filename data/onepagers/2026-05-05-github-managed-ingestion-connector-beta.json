@@ -7,7 +7,8 @@
   "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/github-overview",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#github-managed-ingestion-connector-beta",
   "what_it_does": "The GitHub connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest data from GitHub into Databricks. Beta This feature is in Beta.",
-  "why_it_matters": "| | Unity Catalog governance | Supported | | Lakeflow Jobs | Supported | | SCD type 2 | Supported | | Column selection and deselection | Supported | | API based row filtering | Not supported | | Automated schema evolution: New and deleted columns | Not supported | | Automated schema evolution: Data type changes | Not supported | | Automated schema evolution: Column renames | Not supported | | Automated schema evolution: New tables | Not supported | Authentication methods | Authentication method | Availability | | | | | OAuth U2M | Supported | | OAuth M2M | Not supported | | OAuth (manual refresh token) | Not supported | | Basic authentication (username/password) | Not supported | | Basic authentication (API key) | Not supported | | Basic authentication (service account JSON key) | Not supported | What to know before you start | Topic | Why it matters | | | | | Databricks user persona | The workflow depends on your Databricks user persona: Single user: An admin user creates a Unity Catalog connection and an ingestion pipeline.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The GitHub connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest data from GitHub into Databricks.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The GitHub connector in Lakeflow Connect is now available in Beta.",
   "note_id": "2026-05-05-github-managed-ingestion-connector-beta",
   "category": "platform"

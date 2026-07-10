@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_query-is-now-generally-available",
   "what_it_does": "`ai_query` is a versatile AI function that allows users to query any supported AI model directly from SQL or Python. It provides full control over the model, prompt, and parameters, distinguishing it from task-specific AI functions. This function is designed for use with Databricks-hosted models, provisioned throughput models, and custom or external models, enabling flexible querying for various use cases.",
   "why_it_matters": "The availability of `ai_query` empowers data teams to leverage AI models more effectively, enhancing productivity and flexibility in data processing tasks. By allowing precise control over model parameters and prompts, organizations can optimize their AI workflows for better performance and tailored outputs, ultimately driving more insightful data-driven decisions.",
+  "plain_summary": "ai query is a versatile AI function that allows users to query any supported AI model directly from SQL or Python. It provides full control over the model, prompt, and parameters, distinguishing it from task specific AI functions.",
   "capabilities": [
     {
       "title": "Flexible Model Querying",

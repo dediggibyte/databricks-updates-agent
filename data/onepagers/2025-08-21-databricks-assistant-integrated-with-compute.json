@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-assistant-integrated-with-compute",
   "what_it_does": "Users can now chat with Databricks Assistant on some compute pages. Use the Assistant chat panel to help you create a new compute resource, pool, and policy. Or, ask the Assistant questions about the compute resource, like “Is this compute resource Unity Catalog enabled?” or “What’s the current compute policy?” To learn more about chatting with the Assitant, see Tour of the Genie Code pane.",
   "why_it_matters": "Serverless compute On demand, automatically managed compute that scales based on your workload requirements.",
+  "plain_summary": "Users can now chat with Databricks Assistant on some compute pages. Use the Assistant chat panel to help you create a new compute resource, pool, and policy.",
   "capabilities": [
     {
       "title": "Serverless compute for notebooks",
@@ -38,12 +39,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Users can now chat with Databricks Assistant on some compute pages.",
   "note_id": "2025-08-21-databricks-assistant-integrated-with-compute",
   "category": "platform"

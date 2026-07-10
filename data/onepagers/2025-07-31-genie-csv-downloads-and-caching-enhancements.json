@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-csv-downloads-and-caching-enhancements",
   "what_it_does": "Fixed NULL value handling in downloaded CSVs: Genie no longer replaces NULL values with the string undefined when downloading CSV files. Improved caching of Genie Space context: Caching enhancements speed up question performance when starting a new Genie session. Fixed incorrect access to Genie file upload feature: The file upload feature is now restricted to customers who have opted into the Public Preview as intended.",
   "why_it_matters": "Improved caching of Genie Space context: Caching enhancements speed up question performance when starting a new Genie session.",
+  "plain_summary": "Fixed NULL value handling in downloaded CSVs: Genie no longer replaces NULL values with the string undefined when downloading CSV files. Improved caching of Genie Space context: Caching enhancements speed up question performance when starting a new Genie…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Fixed NULL value handling in downloaded CSVs: Genie no longer replaces NULL values with the string undefined when downloading CSV files.",
   "note_id": "2025-07-31-genie-csv-downloads-and-caching-enhancements",
   "category": "platform"

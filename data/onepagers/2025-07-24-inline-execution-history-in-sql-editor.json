@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#inline-execution-history-in-sql-editor",
   "what_it_does": "Inline execution history is now available in the new SQL editor, allowing you to quickly access past results without re executing queries. Easily reference previous executions, navigate directly to past query profiles, or compare run times and statuses—all within the context of your current query.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Inline execution history is now available in the new SQL editor, allowing you to quickly access past results without re executing queries. Easily reference previous executions, navigate directly to past query profiles, or compare run times and statuses—all…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Inline execution history is now available in the new SQL editor, allowing you to quickly access past results without re executing queries.",
   "note_id": "2025-07-24-inline-execution-history-in-sql-editor",
   "category": "platform"

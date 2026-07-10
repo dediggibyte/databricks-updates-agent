@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#auto-cdc-flows-for-streaming-tables-in-databricks-sql-are-generally-available",
   "what_it_does": "The `FLOW AUTO CDC` clause allows users to create streaming tables in Databricks SQL that automatically process change data capture (CDC) records from a source. It simplifies the handling of out-of-order records and supports both slowly changing dimensions (SCD) type 1 and type 2 without the complexity of `MERGE INTO`. Users must set the `pipelines.channel` table property to 'PREVIEW' to utilize this feature.",
   "why_it_matters": "This update significantly reduces the complexity and potential errors associated with processing CDC records, enhancing data accuracy and operational efficiency. It benefits data engineers and analysts by simplifying workflows, improving data freshness, and enabling more reliable historical tracking, which is crucial for analytics and reporting.",
+  "plain_summary": "The FLOW AUTO CDC clause allows users to create streaming tables in Databricks SQL that automatically process change data capture (CDC) records from a source. It simplifies the handling of out of order records and supports both slowly changing dimensions…",
   "capabilities": [
     {
       "title": "Automatic Out-of-Order Handling",

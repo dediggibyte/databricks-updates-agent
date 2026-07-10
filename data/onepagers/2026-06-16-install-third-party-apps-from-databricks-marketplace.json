@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#install-third-party-apps-from-databricks-marketplace",
   "what_it_does": "Databricks Marketplace now allows users to discover, install, and run third-party data and AI applications directly within their Unity Catalog-governed workspace. These applications maintain closed-source code, and users can authorize any external access required during installation. This feature supports a wide range of applications, enhancing the capabilities of data consumers in a secure environment governed by Unity Catalog.",
   "why_it_matters": "This update empowers organizations to leverage third-party applications seamlessly within their existing data infrastructure, enhancing productivity and operational efficiency. By integrating external tools directly into their workflows, users can accelerate data-driven decision-making while ensuring compliance with governance policies.",
+  "plain_summary": "Databricks Marketplace now allows users to discover, install, and run third party data and AI applications directly within their Unity Catalog governed workspace. These applications maintain closed source code, and users can authorize any external access…",
   "capabilities": [
     {
       "title": "Secure Third-Party Integration",

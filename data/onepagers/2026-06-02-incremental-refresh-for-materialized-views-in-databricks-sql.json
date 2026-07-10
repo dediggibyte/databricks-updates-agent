@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/#sql-materialized-views",
   "what_it_does": "Databricks SQL materialized views now support incremental refresh in Public Preview. Instead of recomputing the entire result set on every refresh, the engine detects changes in base tables and updates only the affected rows, dramatically reducing refresh cost and latency for large aggregations. Highlights: Incremental refresh for a broad set of SQL constructs including joins and aggregations.",
   "why_it_matters": "Instead of recomputing the entire result set on every refresh, the engine detects changes in base tables and updates only the affected rows, dramatically reducing refresh cost and latency for large aggregations.",
+  "plain_summary": "Databricks SQL materialized views now support incremental refresh in Public Preview. Instead of recomputing the entire result set on every refresh, the engine detects changes in base tables and updates only the affected rows, dramatically reducing refresh…",
   "capabilities": [
     {
       "title": "Incremental refresh for a broad",
@@ -35,12 +36,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Databricks SQL materialized views now support incremental refresh in Public Preview.",
   "note_id": "2026-06-02-incremental-refresh-for-materialized-views-in-databricks-sql",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-disaster-recovery-is-now-in-public-preview",
   "what_it_does": "Managed disaster recovery (DR) replicates your Databricks deployment to a secondary region, allowing for rapid recovery from regional outages. It continuously replicates Unity Catalog metadata, managed table data, and workspace assets, while providing a stable URL that remains consistent through failover events. Users can trigger failovers as needed, ensuring minimal disruption during outages.",
   "why_it_matters": "This feature significantly enhances business continuity by minimizing downtime during regional outages, thus protecting critical data and applications. Organizations can maintain operational resilience, reduce recovery time objectives (RTO), and ensure that downstream clients remain connected without reconfiguration, ultimately safeguarding productivity and reducing risk.",
+  "plain_summary": "Managed disaster recovery (DR) replicates your Databricks deployment to a secondary region, allowing for rapid recovery from regional outages. It continuously replicates Unity Catalog metadata, managed table data, and workspace assets, while providing a…",
   "capabilities": [
     {
       "title": "Continuous Replication",

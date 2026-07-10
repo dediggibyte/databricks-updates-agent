@@ -69,6 +69,9 @@ def build_parser() -> argparse.ArgumentParser:
     en.add_argument("--force", action="store_true",
                     help="Re-enrich ALL stored notes (refresh existing one-pagers)")
     sub.add_parser("build", parents=[common], help="Rebuild the static site from existing data")
+    sub.add_parser("clean", parents=[common],
+                   help="Repair existing one-pagers offline (de-table prose, "
+                        "replace hollow 'read the docs' steps), then rebuild")
 
     em = sub.add_parser("email-summary", parents=[common],
                         help="Emit an HTML email digest of recent one-pagers")
@@ -103,6 +106,8 @@ def main(argv: list[str] | None = None) -> int:
         pipeline.run_enrich(args.config, args.model, args.mock, force=args.force)
     elif cmd == "build":
         pipeline.run_build(args.config)
+    elif cmd == "clean":
+        pipeline.run_clean(args.config)
     elif cmd == "email-summary":
         pipeline.run_email_summary(args.config, args.days, args.site_url,
                                    args.out, args.subject_out, send=args.send,

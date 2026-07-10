@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#notebook-tagging-public-preview",
   "what_it_does": "You can now apply tags to notebooks to organize and categorize them for easier management. Notebooks also support governed tags, including certification and deprecation system tags, to indicate trust levels or lifecycle status directly within the notebook interface. Preview This feature is in Public Preview.",
   "why_it_matters": "Notebooks also support governed tags, including certification and deprecation system tags, to indicate trust levels or lifecycle status directly within the notebook interface.",
+  "plain_summary": "You can now apply tags to notebooks to organize and categorize them for easier management. Notebooks also support governed tags, including certification and deprecation system tags, to indicate trust levels or lifecycle status directly within the notebook…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now apply tags to notebooks to organize and categorize them for easier management.",
   "note_id": "2026-03-02-notebook-tagging-public-preview",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-beta-june-15-2026",
   "what_it_does": "Databricks Runtime 19 is now available in Beta, powered by Apache Spark 4.2.0. Behavioral changes JDK 17 removed: Databricks Runtime 19 only supports JDK 21. Previously, Databricks Runtime 18 included JDK 17 as a fallback option that could be selected using the JNAME environment variable.",
   "why_it_matters": "Apache Spark fixes and improvements Databricks Runtime 19 includes Apache Spark 4.2.0.",
+  "plain_summary": "Databricks Runtime 19 is now available in Beta, powered by Apache Spark 4.2.0. Behavioral changes JDK 17 removed: Databricks Runtime 19 only supports JDK 21.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Databricks Runtime 19 is now available in Beta, powered by Apache Spark 4.2.0.",
   "note_id": "2026-06-15-databricks-runtime-19-beta-june-15-2026",
   "category": "platform"

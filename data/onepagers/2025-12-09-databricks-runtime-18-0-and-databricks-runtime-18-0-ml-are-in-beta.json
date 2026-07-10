@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#databricks-runtime-180-and-databricks-runtime-180-ml-are-in-beta",
   "what_it_does": "Databricks Runtime 18.0 and Databricks Runtime 18.0 ML are now in Beta, powered by Apache Spark 4.1.0. The release includes JDK 21 as the default, new features for jobs and streaming, and library upgrades.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Databricks Runtime 18.0 and Databricks Runtime 18.0 ML are now in Beta, powered by Apache Spark 4.1.0. The release includes JDK 21 as the default, new features for jobs and streaming, and library upgrades.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Databricks Runtime 18.0 and Databricks Runtime 18.0 ML are now in Beta, powered by Apache Spark 4.1.0.",
   "note_id": "2025-12-09-databricks-runtime-18-0-and-databricks-runtime-18-0-ml-are-in-beta",
   "category": "platform"

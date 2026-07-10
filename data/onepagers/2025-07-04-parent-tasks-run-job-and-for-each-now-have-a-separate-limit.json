@@ -7,7 +7,8 @@
   "docs_url": "https://docs.databricks.com/aws/en/resources/limits",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#parent-tasks-run-job-and-for-each-now-have-a-separate-limit",
   "what_it_does": "Tasks that wait on child processes (Run job and For each tasks) now have a separate limit for the number of tasks that can run simultaneously, and do not count against the overall limit. The following tables list various numerical limits for Databricks resources. For additional information about Databricks resource limits, see each individual resource's overview documentation.",
-  "why_it_matters": "| | Tags | Allowed values per governed tag | 50 | Governed tag | Yes | | | Tags | Governed tag | 1,000 | Account | Yes | | | Unity Catalog | Column | 32,768 | Table | Yes | | | Unity Catalog | Table | 10,000 | Schema | No | | | Unity Catalog | Table | 1,000,000 | Metastore | Yes | | | Unity Catalog | Volume | 10,000 | Schema | No | | | Unity Catalog | Volume | 100,000 | Metastore | No | | | Unity Catalog | Function | 10,000 | Schema | No | | | Unity Catalog | Registered model | 1,000 | Schema | No | | | Unity Catalog | Registered model | 5,000 | Metastore | No | | | Unity Catalog | Registered model alias | 10 | Registered model | No | | | Unity Catalog | Model version | 10,000 | Registered model | No | | | Unity Catalog | Model version | 100,000 | Metastore | Yes | | | Unity Catalog | Schema | 10,000 | Catalog | No | | | Unity Catalog | Catalog | 1,000 | Metastore | No | | | Unity Catalog | Connection | 1,000 | Metastore | No | | | Unity Catalog | External lineage relationships | 100,000 | Metastore | Yes | | | Unity Catalog | External metadata objects | 10,000 | Metastore | Yes | | | Unity Catalog | Storage and service credential | 1,000 | Metastore | No | The quota includes the combined total of both storage and service credentials | | Unity Catalog | External location | 10,000 | Metastore | No | | | Unity Catalog | Privileges | 4,000 | Parent objects | No | For example, metastores, catalogs, schemas | | Unity Catalog | Privileges | 1,000 | Non parent object | No | For example, tables, views, shares | | Unity Catalog | Policy | 100 | Catalog | No | | | [Unity Catalog](/aws/en/data governance/unity c",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Tasks that wait on child processes (Run job and For each tasks) now have a separate limit for the number of tasks that can run simultaneously, and do not count against the overall limit. The following tables list various numerical limits for Databricks…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Tasks that wait on child processes (Run job and For each tasks) now have a separate limit for the number of tasks that can run simultaneously, and do not count against the overall limit.",
   "note_id": "2025-07-04-parent-tasks-run-job-and-for-each-now-have-a-separate-limit",
   "category": "platform"

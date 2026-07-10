@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#jobs--pipelines-list-now-includes-databricks-sql-pipelines",
   "what_it_does": "The Jobs & Pipelines list now includes pipelines for materialized views and streaming tables that were created with Databricks SQL.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The Jobs & Pipelines list now includes pipelines for materialized views and streaming tables that were created with Databricks SQL. The Jobs & Pipelines list now includes pipelines for materialized views and streaming tables that were created with Databricks…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The Jobs & Pipelines list now includes pipelines for materialized views and streaming tables that were created with Databricks SQL.",
   "note_id": "2025-07-29-jobs-pipelines-list-now-includes-databricks-sql-pipelines",
   "category": "platform"

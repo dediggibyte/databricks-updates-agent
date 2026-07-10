@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#disable-legacy-features-settings-are-now-ga",
   "what_it_does": "To help migrate accounts and workspaces to Unity Catalog, two admin settings that disable legacy features are now generally available: Disable legacy features: Account level setting that disables access to DBFS, Hive Metastore, and No isolation shared compute in new workspaces. Disable access to Hive metastore: Workspace level setting that disables access to the Hive metastore used by your workspace. This page describes how to disable direct access to the legacy Hive metastore that is used by your Databricks workspace, whether the workspace local Hive metastore or an external Hive metastore, including AWS Glue.",
   "why_it_matters": "When you've completed your Unity Catalog migration or federated your Hive metastore as a foreign catalog that is governed by Unity Catalog, you can use a simple workspace admin setting to prevent users from bypassing Unity Catalog and accessing tables registered in the Hive metastore.",
+  "plain_summary": "To help migrate accounts and workspaces to Unity Catalog, two admin settings that disable legacy features are now generally available: Disable legacy features: Account level setting that disables access to DBFS, Hive Metastore, and No isolation shared…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "To help migrate accounts and workspaces to Unity Catalog, two admin settings that disable legacy features are now generally available: Disable legacy features: Account level setting that disables…",
   "note_id": "2025-12-11-disable-legacy-features-settings-are-now-ga",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/#unity-catalog-abac",
   "what_it_does": "Attribute based access control (ABAC) for Unity Catalog is now in Public Preview. ABAC lets you govern access to data using policies that reference attributes — tags on securable objects and properties of the requesting principal — instead of granting permissions object by object. With ABAC you can: Write policies that apply automatically to any table tagged with a classification such as pii or restricted.",
   "why_it_matters": "ABAC lets you govern access to data using policies that reference attributes — tags on securable objects and properties of the requesting principal — instead of granting permissions object by object.",
+  "plain_summary": "Attribute based access control (ABAC) for Unity Catalog is now in Public Preview. ABAC lets you govern access to data using policies that reference attributes — tags on securable objects and properties of the requesting principal — instead of granting…",
   "capabilities": [
     {
       "title": "Write policies that apply automatically",
@@ -38,12 +39,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Attribute based access control (ABAC) for Unity Catalog is now in Public Preview.",
   "note_id": "2026-06-09-attribute-based-access-control-abac-in-unity-catalog-is-in-public-preview",
   "category": "platform"

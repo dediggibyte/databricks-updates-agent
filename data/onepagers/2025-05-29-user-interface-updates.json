@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-1",
   "what_it_does": "New SQL editor improvements: + New queries in Drafts folder: New queries are now created by default in the Drafts folder. When saved or renamed, they automatically move out of Drafts. + Query snippets support: You can now create and reuse query snippets—predefined segments of SQL such as JOIN or CASE expressions, with support for autocomplete and dynamic insertion points.",
   "why_it_matters": "New SQL editor improvements: + New queries in Drafts folder: New queries are now created by default in the Drafts folder.",
+  "plain_summary": "New SQL editor improvements: + New queries in Drafts folder: New queries are now created by default in the Drafts folder. When saved or renamed, they automatically move out of Drafts.",
   "capabilities": [
     {
       "title": "New queries in Drafts folder",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "New SQL editor improvements: + New queries in Drafts folder: New queries are now created by default in the Drafts folder.",
   "note_id": "2025-05-29-user-interface-updates",
   "category": "platform"

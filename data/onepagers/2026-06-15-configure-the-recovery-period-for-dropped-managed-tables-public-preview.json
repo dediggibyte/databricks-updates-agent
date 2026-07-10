@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#configure-the-recovery-period-for-dropped-managed-tables-public-preview",
   "what_it_does": "This update allows users to configure the recovery period for dropped Unity Catalog managed tables, enabling a range from 0 hours (immediate purge) to 30 days. By default, the recovery period is set to 7 days, during which users can recover dropped tables using the UNDROP TABLE command. This feature can be configured at both the catalog and schema levels, with schema-level settings taking precedence.",
   "why_it_matters": "Configuring the recovery period enhances data governance by providing flexibility in data retention policies, allowing organizations to balance between data recovery needs and cloud storage costs. This is particularly beneficial for businesses that frequently create and drop tables, as it can lead to significant cost savings while ensuring critical data is protected against accidental deletions.",
+  "plain_summary": "This update allows users to configure the recovery period for dropped Unity Catalog managed tables, enabling a range from 0 hours (immediate purge) to 30 days. By default, the recovery period is set to 7 days, during which users can recover dropped tables…",
   "capabilities": [
     {
       "title": "Configurable Recovery Period",

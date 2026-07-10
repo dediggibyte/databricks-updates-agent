@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#run-a-subset-of-job-tasks-with-their-dependencies",
   "what_it_does": "When you run a subset of a job's tasks, you can now expand your selection to include each task's dependencies. Add the + modifier to a task key to also run its upstream tasks (+my task), its downstream tasks (my task+), or both (+my task+). Start a partial run from the UI, the REST API, the Databricks CLI, the SDKs, or Declarative Automation Bundles.",
   "why_it_matters": "Run a job with different settings Run now with different settings allows you to choose which tasks to run, different parameters to run with, to override default values for existing parameters, and to run Performance optimized serverless workloads.",
+  "plain_summary": "When you run a subset of a job's tasks, you can now expand your selection to include each task's dependencies. Add the + modifier to a task key to also run its upstream tasks (+my task), its downstream tasks (my task+), or both (+my task+).",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "When you run a subset of a job's tasks, you can now expand your selection to include each task's dependencies.",
   "note_id": "2026-06-30-run-a-subset-of-job-tasks-with-their-dependencies",
   "category": "platform"

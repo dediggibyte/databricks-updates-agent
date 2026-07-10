@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-autoscaling-now-available-in-aws-tokyo-region-ap-northeast-1",
   "what_it_does": "Lakebase Autoscaling allows users to automatically adjust compute resources based on workload demands within the Databricks environment. This feature is now available in the AWS Tokyo region (ap-northeast-1), enabling users to create projects with autoscaling capabilities that include a default database and compute resources. The autoscaling feature includes a scale-to-zero option, which conserves resources by shutting down compute when not in use, with a configurable inactivity timeout.",
   "why_it_matters": "This update significantly enhances operational efficiency and cost management for businesses operating in the Tokyo region by providing on-demand resource scaling. Organizations can benefit from reduced costs associated with idle resources while ensuring that applications maintain performance during peak usage. This is particularly valuable for companies looking to optimize their cloud expenditures while maintaining high availability and responsiveness.",
+  "plain_summary": "Lakebase Autoscaling allows users to automatically adjust compute resources based on workload demands within the Databricks environment. This feature is now available in the AWS Tokyo region (ap northeast 1), enabling users to create projects with…",
   "capabilities": [
     {
       "title": "Automatic Resource Scaling",

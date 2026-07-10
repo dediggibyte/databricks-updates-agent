@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#chart-visualization-updates",
   "what_it_does": "The new chart system with improved performance, enhanced color schemes, and faster interactivity is now generally available. This page outlines the types of visualizations available to use in Databricks notebooks and in the SQL editor, and shows you how to create an example of each visualization type. important This page covers visualizations for Databricks notebooks and the SQL editor.",
   "why_it_matters": "The new chart system with improved performance, enhanced color schemes, and faster interactivity is now generally available.",
+  "plain_summary": "The new chart system with improved performance, enhanced color schemes, and faster interactivity is now generally available. This page outlines the types of visualizations available to use in Databricks notebooks and in the SQL editor, and shows you how to…",
   "capabilities": [
     {
       "title": "Dataset column: oorderdate",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The new chart system with improved performance, enhanced color schemes, and faster interactivity is now generally available.",
   "note_id": "2025-01-15-chart-visualization-updates",
   "category": "platform"

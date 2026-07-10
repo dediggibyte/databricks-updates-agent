@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#managed-iceberg-materialized-views-are-in-public-preview",
   "what_it_does": "Databricks now supports the creation of materialized views that are compatible with external Iceberg readers, allowing users to leverage Iceberg's capabilities for analytics workloads. This feature enables users to create materialized views using the `USING ICEBERG` syntax, which can be read by external systems but not written to. The materialized views are managed by Unity Catalog, ensuring lifecycle management and integration with other Databricks features.",
   "why_it_matters": "This update enhances interoperability with external systems, allowing organizations to utilize Iceberg's advanced features while maintaining data integrity and performance. It benefits data engineers and analysts by providing a seamless way to access and analyze data across different platforms, ultimately improving productivity and decision-making processes.",
+  "plain_summary": "Databricks now supports the creation of materialized views that are compatible with external Iceberg readers, allowing users to leverage Iceberg's capabilities for analytics workloads. This feature enables users to create materialized views using the USING…",
   "capabilities": [
     {
       "title": "External Compatibility",

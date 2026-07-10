@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#create-external-delta-tables-from-third-party-clients-public-preview",
   "what_it_does": "You can now create Unity Catalog external tables backed by Delta Lake from external clients and systems, such as Apache Spark. This page describes how to use the Unity REST API to create, read, and write to Unity Catalog managed and external tables from external Delta clients. For a full list of supported integrations, see Unity Catalog integrations.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now create Unity Catalog external tables backed by Delta Lake from external clients and systems, such as Apache Spark. This page describes how to use the Unity REST API to create, read, and write to Unity Catalog managed and external tables from…",
   "capabilities": [
     {
       "title": "SELECT on the table for",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now create Unity Catalog external tables backed by Delta Lake from external clients and systems, such as Apache Spark.",
   "note_id": "2025-08-08-create-external-delta-tables-from-third-party-clients-public-preview",
   "category": "platform"

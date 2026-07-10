@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-breaking-change-default-behavior-when-deleting-a-unity-catalog-pipeline",
   "what_it_does": "In an upcoming release, the default behavior when deleting a Unity Catalog pipeline will change. Currently, deleting a pipeline also removes all associated materialized views, streaming tables, and views. After this change, associated tables will be retained, but inactive after the pipeline is removed.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "In an upcoming release, the default behavior when deleting a Unity Catalog pipeline will change. Currently, deleting a pipeline also removes all associated materialized views, streaming tables, and views.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "In an upcoming release, the default behavior when deleting a Unity Catalog pipeline will change.",
   "note_id": "2026-04-09-20f350e6",
   "category": "platform"

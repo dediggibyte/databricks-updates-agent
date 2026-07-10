@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-publishing-and-visualization-updates",
   "what_it_does": "Streamlined publish flow: All publish actions now embed the publishing user's warehouse permission. The only decision is whether to embed the data credential. Embedding credentials removes the previous requirement of all users requiring individual access to the selected warehouse if the dashboard was published without embedded credentials.",
   "why_it_matters": "Configuration values: For the provided area visualization example, the following values were set: Dataset: samples.tpch.orders Visualization: Area Title: Total price and order year by order priority and clerk X axis: + Field: o orderdate + Transform: Yearly + Scale Type: Continuous + Display name: Order year Y axis: + Field: o totalprice + Display name: Total price + Scale Type: Continuous + Transform: Sum Color: + Field: o orderpriority + Legend title: Order priority Filter + Field: TPCH orders.o clerk SQL query: For this area visualization, the following SQL query was used to generate the dataset named TPCH orders.",
+  "plain_summary": "Streamlined publish flow: All publish actions now embed the publishing user's warehouse permission. The only decision is whether to embed the data credential.",
   "capabilities": [
     {
       "title": "Field: oorderdate",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Streamlined publish flow: All publish actions now embed the publishing user's warehouse permission.",
   "note_id": "2025-04-03-dashboard-publishing-and-visualization-updates",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#instance-events-and-instance-pools-system-tables-are-now-available-public-preview",
   "what_it_does": "The system.compute.instance events and system.compute.instance pools system tables are now in Public Preview. Use these tables to track state transitions of classic compute instances and the full history of instance pool configurations across your account. This article provides you with a reference guide for the compute system tables.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The system.compute.instance events and system.compute.instance pools system tables are now in Public Preview. Use these tables to track state transitions of classic compute instances and the full history of instance pool configurations across your account.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The system.compute.instance events and system.compute.instance pools system tables are now in Public Preview.",
   "note_id": "2026-05-21-24ce04fc",
   "category": "platform"

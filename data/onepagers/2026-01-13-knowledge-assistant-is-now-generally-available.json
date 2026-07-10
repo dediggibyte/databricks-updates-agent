@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#knowledge-assistant-is-now-generally-available",
   "what_it_does": "Use Knowledge Assistant to create a chatbot that can answer questions about your documents and provide high quality responses with citations. Knowledge Assistant is now generally available in select US regions for workspaces without Enhanced Security and Compliance features. Databricks has put in place controls to meet the unique compliance needs of highly regulated industries.",
   "why_it_matters": "Enhanced security monitoring: Enhanced security monitoring provides the workspace with an enhanced hardened host OS image and additional security monitoring agents to improve your threat detection capabilities.",
+  "plain_summary": "Use Knowledge Assistant to create a chatbot that can answer questions about your documents and provide high quality responses with citations. Knowledge Assistant is now generally available in select US regions for workspaces without Enhanced Security and…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Use Knowledge Assistant to create a chatbot that can answer questions about your documents and provide high quality responses with citations.",
   "note_id": "2026-01-13-knowledge-assistant-is-now-generally-available",
   "category": "platform"

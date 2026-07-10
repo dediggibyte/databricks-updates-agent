@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-follow-up-questions-and-instruction-processing",
   "what_it_does": "Follow up questions for text responses in Genie: Genie now suggests follow up questions for text responses that include no generated SQL or results. Previously, follow up questions appeared only after responses with a result set. Now, prompts such as Explain the data set also return suggested follow up questions to help Genie Space users explore the data.",
   "why_it_matters": "Improved instruction processing in Genie: Genie's chain of thought reasoning has been refined to prioritize and adhere to the most relevant instructions based on the user prompt.",
+  "plain_summary": "Follow up questions for text responses in Genie: Genie now suggests follow up questions for text responses that include no generated SQL or results. Previously, follow up questions appeared only after responses with a result set.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Follow up questions for text responses in Genie: Genie now suggests follow up questions for text responses that include no generated SQL or results.",
   "note_id": "2025-05-01-genie-follow-up-questions-and-instruction-processing",
   "category": "platform"

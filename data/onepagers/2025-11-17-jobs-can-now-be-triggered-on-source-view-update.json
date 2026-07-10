@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#jobs-can-now-be-triggered-on-source-view-update",
   "what_it_does": "Table update triggers for jobs now support views as a source, when the view references supported table types. You can use table update triggers to trigger a run of your job when source tables are updated. Use this feature to run a job when new data is ready without the need for a continuously running cluster or knowledge of the processes that update a table.",
   "why_it_matters": "Table update triggers do not incur additional costs other than cloud provider costs associated with listing tables and reading updates from the storage location.",
+  "plain_summary": "Table update triggers for jobs now support views as a source, when the view references supported table types. You can use table update triggers to trigger a run of your job when source tables are updated.",
   "capabilities": [
     {
       "title": "Table Update Triggers on OpenSharing",
@@ -31,12 +32,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Table update triggers for jobs now support views as a source, when the view references supported table types.",
   "note_id": "2025-11-17-jobs-can-now-be-triggered-on-source-view-update",
   "category": "platform"

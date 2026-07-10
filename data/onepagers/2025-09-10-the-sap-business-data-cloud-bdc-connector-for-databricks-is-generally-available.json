@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#the-sap-business-data-cloud-bdc-connector-for-databricks-is-generally-available",
   "what_it_does": "The SAP BDC Connector enables secure, zero copy data sharing between SAP BDC and a Unity Catalog enabled Databricks workspace. Access and analyze SAP BDC data on Databricks, and share Databricks data assets back to SAP BDC for unified analytics across both platforms. This page introduces the SAP Business Data Cloud (BDC) Connector for Databricks, which allows you to share data from SAP BDC to Databricks and from Databricks to SAP BDC using OpenSharing.",
   "why_it_matters": "With this connector, organizations can access and analyze SAP BDC data directly from their Databricks workspace that is enabled for Unity Catalog, eliminating data silos and reducing the complexity and cost of traditional data extraction.",
+  "plain_summary": "The SAP BDC Connector enables secure, zero copy data sharing between SAP BDC and a Unity Catalog enabled Databricks workspace. Access and analyze SAP BDC data on Databricks, and share Databricks data assets back to SAP BDC for unified analytics across both…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The SAP BDC Connector enables secure, zero copy data sharing between SAP BDC and a Unity Catalog enabled Databricks workspace.",
   "note_id": "2025-09-10-the-sap-business-data-cloud-bdc-connector-for-databricks-is-generally-available",
   "category": "platform"

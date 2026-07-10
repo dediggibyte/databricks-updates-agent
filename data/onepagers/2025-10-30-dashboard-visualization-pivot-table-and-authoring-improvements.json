@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-pivot-table-and-authoring-improvements",
   "what_it_does": "Dashboard subscriptions to Slack channels: Dashboard authors can now add Slack channels as subscribers to a scheduled dashboard refresh. Top N scroll bar behavior: The scroll bar on top N visualizations now appears only on mouseover for a cleaner interface. Legend placement options: You can now place legends at the top and left of visualizations in addition to existing placement options.",
   "why_it_matters": "Export to materialized view: Authors can now generate a materialized view from any dataset on their dashboard for improved performance and more efficient refresh and execution.",
+  "plain_summary": "Dashboard subscriptions to Slack channels: Dashboard authors can now add Slack channels as subscribers to a scheduled dashboard refresh. Top N scroll bar behavior: The scroll bar on top N visualizations now appears only on mouseover for a cleaner interface.",
   "capabilities": [
     {
       "title": "Authors can add links to",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Dashboard subscriptions to Slack channels: Dashboard authors can now add Slack channels as subscribers to a scheduled dashboard refresh.",
   "note_id": "2025-10-30-dashboard-visualization-pivot-table-and-authoring-improvements",
   "category": "platform"

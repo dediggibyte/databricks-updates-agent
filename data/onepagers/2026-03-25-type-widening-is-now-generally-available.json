@@ -7,7 +7,8 @@
   "docs_url": "https://docs.databricks.com/aws/en/tables/features/type-widening",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#type-widening-is-now-generally-available",
   "what_it_does": "Type widening for Delta Lake tables is now generally available. Type widening allows you to change column data types to wider types such as INT to BIGINT or FLOAT to DOUBLE during ingestion without rewriting underlying data files. Available on Delta Lake tables in Databricks Runtime 15.4 LTS and above, type widening allows you to change column data types to a wider type without rewriting data files.",
-  "why_it_matters": "Supported type changes You can widen types according to the following rules: | Source type | Supported wider types | | | | | BYTE | SHORT, INT, BIGINT, DECIMAL, DOUBLE | | SHORT | INT, BIGINT, DECIMAL, DOUBLE | | INT | BIGINT, DECIMAL, DOUBLE | | BIGINT | DECIMAL | | FLOAT | DOUBLE | | DECIMAL | DECIMAL with greater precision and scale | | DATE | TIMESTAMP NTZ | | VOID | Any type | Type changes are supported for top level columns and fields nested inside structs, maps, and arrays.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Type widening for Delta Lake tables is now generally available. Type widening allows you to change column data types to wider types such as INT to BIGINT or FLOAT to DOUBLE during ingestion without rewriting underlying data files.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Type widening for Delta Lake tables is now generally available.",
   "note_id": "2026-03-25-type-widening-is-now-generally-available",
   "category": "platform"

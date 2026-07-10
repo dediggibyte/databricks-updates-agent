@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#new-documentation-for-authoring-and-deploying-agents-on-databricks-apps",
   "what_it_does": "New documentation and project templates are available for building and deploying AI agents on Databricks Apps. Author agents with popular libraries like LangGraph, PyFunc, and OpenAI Agent SDK, then deploy them on Databricks Apps. Build an AI agent and deploy it using Databricks Apps.",
   "why_it_matters": "+ Comprehensive tool calling message history: Return multiple messages, including intermediate tool calling messages, for improved quality and conversation management.",
+  "plain_summary": "New documentation and project templates are available for building and deploying AI agents on Databricks Apps. Author agents with popular libraries like LangGraph, PyFunc, and OpenAI Agent SDK, then deploy them on Databricks Apps.",
   "capabilities": [
     {
       "title": "Multi-agent support",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "New documentation and project templates are available for building and deploying AI agents on Databricks Apps.",
   "note_id": "2026-02-10-new-documentation-for-authoring-and-deploying-agents-on-databricks-apps",
   "category": "platform"

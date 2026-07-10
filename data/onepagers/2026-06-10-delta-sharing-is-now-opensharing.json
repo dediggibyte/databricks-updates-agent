@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#delta-sharing-is-now-opensharing",
   "what_it_does": "Following the release of open source OpenSharing, Delta Sharing is now OpenSharing. OpenSharing is the new open standard for sharing data and AI assets across platforms and organizations, available both on GitHub and natively on Databricks. and opensharing.io for more.",
   "why_it_matters": "It supports some OpenSharing features that are not supported in the other protocols, including notebook sharing, Unity Catalog volume sharing, Unity Catalog AI model sharing, Unity Catalog data governance, auditing, and usage tracking for both providers and recipients.",
+  "plain_summary": "Following the release of open source OpenSharing, Delta Sharing is now OpenSharing. OpenSharing is the new open standard for sharing data and AI assets across platforms and organizations, available both on GitHub and natively on Databricks.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Following the release of open source OpenSharing, Delta Sharing is now OpenSharing.",
   "note_id": "2026-06-10-delta-sharing-is-now-opensharing",
   "category": "platform"

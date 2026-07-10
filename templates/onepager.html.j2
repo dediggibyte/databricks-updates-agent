@@ -104,6 +104,7 @@
     .src-link { font: var(--type-code-sm); color: var(--t3); text-decoration: none;
                 border-bottom: 1px solid var(--line-strong); padding-bottom: 2px; }
     .src-link:hover { color: var(--acc-ink); }
+    .inshort-link { display: inline-block; margin-top: 12px; }
 
     .grid-a { display: grid; grid-template-columns: 1.5fr 1fr; gap: 18px; padding-top: 24px; }
     .grid-a.solo { grid-template-columns: 1fr; }
@@ -273,7 +274,7 @@
       </div>
       {% endif %}
 
-      <!-- STEPS -->
+      <!-- STEPS (concrete adoption flow) -->
       {% if op.steps %}
       <div class="well mt18">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
@@ -291,6 +292,16 @@
           </div>
           {% endfor %}
         </div>
+      </div>
+      {# No concrete steps — give a plain-language explanation instead of a
+         hollow "read the docs" flow. #}
+      {% elif op.plain_summary %}
+      <div class="well mt18 inshort">
+        <div class="label sec-label" style="margin-bottom:10px;">In short</div>
+        <p class="p">{{ op.plain_summary }}</p>
+        {% if op.docs_url %}
+        <a class="src-link inshort-link" href="{{ op.docs_url }}" target="_blank" rel="noopener">Read the full documentation ↗</a>
+        {% endif %}
       </div>
       {% endif %}
 

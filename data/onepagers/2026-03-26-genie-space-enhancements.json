@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-8",
   "what_it_does": "Share Genie Space with all account users: The share modal now includes an option to share your Genie Space with all account users. SQL download settings for full query results: The APIs to download full query results now respect workspace level settings for SQL downloads. Create, share, and manage a Genie Agent, the natural language chat interface that business users use to ask questions of their data in Databricks.",
   "why_it_matters": "Before sharing the agent with users, Databricks recommends adding example SQL queries, instructions, and knowledge store configurations to improve response accuracy.",
+  "plain_summary": "Share Genie Space with all account users: The share modal now includes an option to share your Genie Space with all account users. SQL download settings for full query results: The APIs to download full query results now respect workspace level settings for…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Share Genie Space with all account users: The share modal now includes an option to share your Genie Space with all account users.",
   "note_id": "2026-03-26-genie-space-enhancements",
   "category": "platform"

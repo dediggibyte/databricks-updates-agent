@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#5x-large-sql-warehouse-size-public-preview",
   "what_it_does": "The 5X Large cluster size for serverless and pro SQL warehouses is in Public Preview in all regions. The 5X Large size provides 512 workers. Workspace admins can control access to this feature from the Previews page.",
   "why_it_matters": "This article explains how to size, scale, and manage query queues for Databricks SQL warehouses to optimize performance and cost.",
+  "plain_summary": "The 5X Large cluster size for serverless and pro SQL warehouses is in Public Preview in all regions. The 5X Large size provides 512 workers.",
   "capabilities": [
     {
       "title": "If capacity exists, the query",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The 5X Large cluster size for serverless and pro SQL warehouses is in Public Preview in all regions.",
   "note_id": "2026-04-28-5x-large-sql-warehouse-size-public-preview",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#tag-policies-is-in-beta",
   "what_it_does": "Tag policies enables admins to enforce consistent tagging across data assets such as catalogs, schemas, and tables. Tag policies define allowed tag keys and values, and control which users and groups can assign them. This enables standardized metadata management for data classification, cost tracking, access control, and automation use cases.",
   "why_it_matters": "This enables standardized metadata management for data classification, cost tracking, access control, and automation use cases.",
+  "plain_summary": "Tag policies enables admins to enforce consistent tagging across data assets such as catalogs, schemas, and tables. Tag policies define allowed tag keys and values, and control which users and groups can assign them.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [
@@ -20,12 +21,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Tag policies enables admins to enforce consistent tagging across data assets such as catalogs, schemas, and tables.",
   "note_id": "2025-06-09-tag-policies-is-in-beta",
   "category": "platform"

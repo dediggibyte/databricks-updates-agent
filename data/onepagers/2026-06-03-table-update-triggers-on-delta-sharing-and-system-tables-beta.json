@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#table-update-triggers-on-delta-sharing-and-system-tables-beta",
   "what_it_does": "Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables. You can trigger a job whenever a provider updates a shared table or view, or whenever new operational data lands in a system table. This feature supports Databricks to Databricks Delta Sharing only.",
   "why_it_matters": "Table update triggers do not incur additional costs other than cloud provider costs associated with listing tables and reading updates from the storage location.",
+  "plain_summary": "Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables. You can trigger a job whenever a provider updates a shared table or view, or whenever new operational data lands in a…",
   "capabilities": [
     {
       "title": "Table Update Triggers on OpenSharing",
@@ -31,12 +32,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables.",
   "note_id": "2026-06-03-table-update-triggers-on-delta-sharing-and-system-tables-beta",
   "category": "platform"

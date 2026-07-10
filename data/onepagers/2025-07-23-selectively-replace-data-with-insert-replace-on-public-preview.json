@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#selectively-replace-data-with-insert-replace-on-public-preview",
   "what_it_does": "INSERT REPLACE ON is now in Public Preview for Databricks Runtime 17.1. This SQL command replaces part of the table with the result of a query. Rows are replaced when they match the user defined condition.",
   "why_it_matters": "Parameters common table expression Common table expressions (CTE) are one or more named queries which can be reused multiple times within the main query block to avoid repeated computations or to improve readability of complex, nested queries.",
+  "plain_summary": "INSERT REPLACE ON is now in Public Preview for Databricks Runtime 17.1. This SQL command replaces part of the table with the result of a query.",
   "capabilities": [
     {
       "title": "Without a partitionspec the table",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "INSERT REPLACE ON is now in Public Preview for Databricks Runtime 17.1.",
   "note_id": "2025-07-23-selectively-replace-data-with-insert-replace-on-public-preview",
   "category": "platform"

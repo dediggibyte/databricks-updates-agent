@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#deploy-databricks-apps-from-git-repositories-beta",
   "what_it_does": "You can now deploy Databricks apps directly from Git repositories without uploading files to the workspace. Configure a repository for your app and deploy from any branch, tag, or commit. After you create and develop your Databricks app, deploy it to make it accessible in the Databricks workspace.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now deploy Databricks apps directly from Git repositories without uploading files to the workspace. Configure a repository for your app and deploy from any branch, tag, or commit.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now deploy Databricks apps directly from Git repositories without uploading files to the workspace.",
   "note_id": "2026-02-06-deploy-databricks-apps-from-git-repositories-beta",
   "category": "platform"

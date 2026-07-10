@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#netsuite-connector-public-preview",
   "what_it_does": "You can now ingest data from the NetSuite2.com data source programmatically using the Databricks API, the Databricks CLI, or a Databricks notebook. Preview This feature is in Public Preview. Learn how to configure your NetSuite account for Databricks ingestion using token based authentication (TBA).",
   "why_it_matters": "After saving, NetSuite displays the Consumer Key and Consumer Secret.",
+  "plain_summary": "You can now ingest data from the NetSuite2.com data source programmatically using the Databricks API, the Databricks CLI, or a Databricks notebook. Preview This feature is in Public Preview.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now ingest data from the NetSuite2.com data source programmatically using the Databricks API, the Databricks CLI, or a Databricks notebook.",
   "note_id": "2025-12-10-netsuite-connector-public-preview",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-connector-for-power-platform-is-generally-available",
   "what_it_does": "The Databricks connector for Microsoft Power Platform allows users to integrate Databricks data into low-code applications, workflows, and AI agents. It supports building applications in Power Apps, automating workflows in Power Automate, and developing AI agents in Copilot Studio, all while maintaining Databricks governance controls. This integration facilitates seamless data access and manipulation for users within the Microsoft ecosystem.",
   "why_it_matters": "This release empowers business users to leverage Databricks data without deep technical expertise, enhancing productivity and accelerating application development. By integrating with Power Platform, organizations can streamline workflows and improve decision-making processes, ultimately driving better business outcomes. The governance controls ensure that data security and compliance are upheld, reducing risk.",
+  "plain_summary": "The Databricks connector for Microsoft Power Platform allows users to integrate Databricks data into low code applications, workflows, and AI agents. It supports building applications in Power Apps, automating workflows in Power Automate, and developing AI…",
   "capabilities": [
     {
       "title": "Low-Code Application Development",

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#metric-view-parameters-are-now-in-public-preview",
   "what_it_does": "Metric views can now include parameters that allow users to pass values at query time, enabling a single metric view definition to serve multiple query variants. Parameters can be used in various SQL expressions, including filters and joins, and can have default values for convenience. This reduces the need for multiple metric view definitions, streamlining maintenance and enhancing usability.",
   "why_it_matters": "This update significantly improves productivity by reducing duplication in metric view definitions, allowing data teams to manage fewer artifacts while still providing flexibility in querying. It also enhances the ability to adapt metrics to varying business scenarios without additional overhead, ultimately leading to better decision-making and faster insights.",
+  "plain_summary": "Metric views can now include parameters that allow users to pass values at query time, enabling a single metric view definition to serve multiple query variants. Parameters can be used in various SQL expressions, including filters and joins, and can have…",
   "capabilities": [
     {
       "title": "Dynamic Parameterization",

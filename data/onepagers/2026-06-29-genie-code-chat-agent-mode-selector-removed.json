@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-chatagent-mode-selector-removed",
   "what_it_does": "Genie Code now operates solely in Agent mode, which automates multi-step workflows, retrieves relevant assets, executes code, and improves results based on outputs. Users can still request conversational responses by specifying their preferences in prompts. This change simplifies the user experience by removing the Chat mode selector.",
   "why_it_matters": "This update enhances productivity by streamlining the interaction model for developers, allowing them to focus on code generation and optimization without toggling between modes. It benefits teams looking for efficient code assistance and automation in their workflows, ultimately reducing development time and improving code quality.",
+  "plain_summary": "Genie Code now operates solely in Agent mode, which automates multi step workflows, retrieves relevant assets, executes code, and improves results based on outputs. Users can still request conversational responses by specifying their preferences in prompts.",
   "capabilities": [
     {
       "title": "Automated Workflows",

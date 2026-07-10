@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#lakeflow-designer-is-now-in-public-preview",
   "what_it_does": "You can now visually build data transformation workflows with a drag and drop canvas and natural language in Lakeflow Designer. Available in Public Preview. Lakeflow Designer is a visual, no code, AI native experience for data preparation and analytics.",
   "why_it_matters": "The workflows you build, called visual data preps, are backed by production ready code and fully governed by Unity Catalog, so your work moves smoothly from prototype to production, with no need to reverse engineer or rebuild.",
+  "plain_summary": "You can now visually build data transformation workflows with a drag and drop canvas and natural language in Lakeflow Designer. Available in Public Preview.",
   "capabilities": [
     {
       "title": "What is Lakeflow Designer?",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now visually build data transformation workflows with a drag and drop canvas and natural language in Lakeflow Designer.",
   "note_id": "2026-04-22-lakeflow-designer-is-now-in-public-preview",
   "category": "platform"

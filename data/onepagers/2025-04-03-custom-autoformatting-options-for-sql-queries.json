@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#custom-autoformatting-options-for-sql-queries",
   "what_it_does": "Customize autoformatting options for all of your SQL queries. Preview This feature is in Public Preview. This article explains how to customize SQL auto formatting options in the Databricks UI.",
   "why_it_matters": "Overview SQL formatting improves the readability and maintainability of your queries.",
+  "plain_summary": "Customize autoformatting options for all of your SQL queries. Preview This feature is in Public Preview.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Customize autoformatting options for all of your SQL queries.",
   "note_id": "2025-04-03-custom-autoformatting-options-for-sql-queries",
   "category": "platform"

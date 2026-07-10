@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-9",
   "what_it_does": "Warehouse overload message: Dashboards now show a message explaining when rendering is delayed due to the warehouse being overloaded. Tabular attachments in email subscriptions: Dashboard email subscriptions now include tabular attachments. Fullscreen scroll position: Exiting fullscreen mode on a published dashboard now returns you to your previous scroll position instead of jumping to the top of the page.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Warehouse overload message: Dashboards now show a message explaining when rendering is delayed due to the warehouse being overloaded. Tabular attachments in email subscriptions: Dashboard email subscriptions now include tabular attachments.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Warehouse overload message: Dashboards now show a message explaining when rendering is delayed due to the warehouse being overloaded.",
   "note_id": "2026-04-16-dashboard-enhancements-and-bug-fixes",
   "category": "platform"

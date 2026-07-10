@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-api-enhancements-and-sql-function-improvements",
   "what_it_does": "New Genie API endpoints in Public Preview: You can now use the Genie API to list all conversations in a space, delete conversations, and delete Genie Spaces. More selective application of SQL functions in Genie: Genie's ability to apply SQL functions to relevant user questions has been improved. Genie Genie provides a no code experience for business users, powered by AI/BI.",
   "why_it_matters": "More selective application of SQL functions in Genie: Genie's ability to apply SQL functions to relevant user questions has been improved.",
+  "plain_summary": "New Genie API endpoints in Public Preview: You can now use the Genie API to list all conversations in a space, delete conversations, and delete Genie Spaces. More selective application of SQL functions in Genie: Genie's ability to apply SQL functions to…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "New Genie API endpoints in Public Preview: You can now use the Genie API to list all conversations in a space, delete conversations, and delete Genie Spaces.",
   "note_id": "2025-06-26-genie-api-enhancements-and-sql-function-improvements",
   "category": "platform"

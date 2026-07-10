@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#microsoft-dynamics-365-connector-ga",
   "what_it_does": "The Microsoft Dynamics 365 connector in Lakeflow Connect enables users to ingest CRM and ERP data from Dynamics 365 into Databricks via Azure Synapse Link, which exports data to Azure Data Lake Storage Gen2. It supports various features such as UI and API-based pipeline authoring, incremental ingestion, and governance through Unity Catalog. The connector allows for automated schema evolution and supports up to 250 tables per pipeline.",
   "why_it_matters": "This connector enhances data accessibility and integration for organizations using Dynamics 365, enabling more efficient analytics and reporting. By streamlining the ingestion process, businesses can reduce time-to-insight and improve decision-making capabilities. The support for incremental ingestion and governance ensures that data remains up-to-date and compliant.",
+  "plain_summary": "The Microsoft Dynamics 365 connector in Lakeflow Connect enables users to ingest CRM and ERP data from Dynamics 365 into Databricks via Azure Synapse Link, which exports data to Azure Data Lake Storage Gen2. It supports various features such as UI and API…",
   "capabilities": [
     {
       "title": "UI-based Pipeline Authoring",

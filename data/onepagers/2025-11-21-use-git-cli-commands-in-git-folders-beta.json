@@ -6,8 +6,9 @@
   "status": "beta",
   "docs_url": "https://docs.databricks.com/aws/en/repos/git-operations-with-repos#use-git-cli",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#use-git-cli-commands-in-git-folders-beta",
-  "what_it_does": "You can now run standard Git commands directly from the Databricks web terminal in Git folders. This page describes how to create Databricks Git folders and perform common Git operations, including cloning, branching, committing, and pushing. This guide covers the following Git operations: | Setup and configuration | Daily workflow | Advanced operations | | | | | | Clone a repo Use the Git CLI (Beta) Access the Git dialog | Create a new branch Switch to a different branch Commit and push changes Pull changes Collaborate in Git folders | Merge branches Resolve merge conflicts Rebase a branch Reset a branch Configure sparse checkout Delete a Git folder | Clone a repo When you clone a remote repository, Databricks creates a Git folder in your workspace that contains the repo contents and tracks changes.",
+  "what_it_does": "You can now run standard Git commands directly from the Databricks web terminal in Git folders.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now run standard Git commands directly from the Databricks web terminal in Git folders. You can now run standard Git commands directly from the Databricks web terminal in Git folders.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now run standard Git commands directly from the Databricks web terminal in Git folders.",
   "note_id": "2025-11-21-use-git-cli-commands-in-git-folders-beta",
   "category": "platform"

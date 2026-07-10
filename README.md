@@ -100,6 +100,11 @@ python -m dbx_onepager backfill --from 2025-01 --to 2025-12
 python -m dbx_onepager enrich
 python -m dbx_onepager build
 
+# Repair existing one-pagers offline (no LLM/fetch): strip any leaked
+# "| Feature | Status | ... |" table dumps from prose, and replace hollow
+# "read the docs" steps with a plain-language "In short" summary.
+python -m dbx_onepager clean
+
 # Refresh EXISTING notes with newer logic (re-fetch reference links +
 # underlying docs, then re-enrich). Use after upgrading the pipeline.
 python -m dbx_onepager backfill --from 2026-06 --to 2026-07 --refresh

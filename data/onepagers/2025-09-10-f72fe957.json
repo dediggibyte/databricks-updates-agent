@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#lakeflow-spark-declarative-pipelines-now-supports-stream-progress-metrics-in-public-preview",
   "what_it_does": "Lakeflow Spark Declarative Pipelines now supports querying the event log for metrics about the progress of a stream. The pipeline event log contains all information related to a pipeline, including audit logs, data quality checks, pipeline progress, and data lineage. You can use the event log to track, understand, and monitor the state of your data pipelines.",
   "why_it_matters": "SQL WITH latest update AS ( SELECT origin.pipeline id, origin.update id AS latest update id FROM event log raw AS origin WHERE origin.event type = 'create update' ORDER BY timestamp DESC LIMIT 1 remove if you want to get all of the update ids ), parsed planning AS ( SELECT origin.pipeline name, origin.pipeline id, origin.flow name, lu.latest update id, from json( details:planning information, 'struct< technique information: array<struct< maintenance type: string, is chosen: boolean, is applicable: boolean, cost: double, incrementalization issues: array<struct< issue type: string, prevent incrementalization: boolean, operator name: string, plan not incrementalizable sub type: string, expression name: string, plan not deterministic sub type: string ' ) AS parsed FROM event log raw AS origin JOIN latest update lu ON origin.update id = lu.latest update id WHERE details:planning information IS NOT NULL ), chosen technique AS ( SELECT pipeline name, pipeline id, flow name, latest update id, FILTER(parsed.technique information, t t.is chosen = true)[0] AS chosen technique, parsed.technique information AS planning information FROM parsed planning ) SELECT pipeline name, pipeline id, flow name, latest update id, chosen technique.maintenance type, chosen technique, planning information FROM chosen technique ORDER BY latest update id DESC; Query the cost of a pipeline update This example show how to query the DBU usage for a pipeline, as well as the user for a given pipeline run.",
+  "plain_summary": "Lakeflow Spark Declarative Pipelines now supports querying the event log for metrics about the progress of a stream. The pipeline event log contains all information related to a pipeline, including audit logs, data quality checks, pipeline progress, and data…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Lakeflow Spark Declarative Pipelines now supports querying the event log for metrics about the progress of a stream.",
   "note_id": "2025-09-10-f72fe957",
   "category": "platform"

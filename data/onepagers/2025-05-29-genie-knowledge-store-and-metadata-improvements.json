@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-knowledge-store-and-metadata-improvements",
   "what_it_does": "Benchmark execution bug fix in Genie: A bug where benchmarks would not execute immediately after creating a benchmark run has been fixed. Popular query suggestions in Genie: Genie will now suggest popular queries as example SQL for newly added tables to the space. Only popular queries that the author has access to are suggested.",
   "why_it_matters": "Table metadata improvement in Genie: The process to provide table metadata to Genie has been changed to simplify data transformation for Genie workloads.",
+  "plain_summary": "Benchmark execution bug fix in Genie: A bug where benchmarks would not execute immediately after creating a benchmark run has been fixed. Popular query suggestions in Genie: Genie will now suggest popular queries as example SQL for newly added tables to the…",
   "capabilities": [
     {
       "title": "Increased accuracy with format assistance",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Benchmark execution bug fix in Genie: A bug where benchmarks would not execute immediately after creating a benchmark run has been fixed.",
   "note_id": "2025-05-29-genie-knowledge-store-and-metadata-improvements",
   "category": "platform"

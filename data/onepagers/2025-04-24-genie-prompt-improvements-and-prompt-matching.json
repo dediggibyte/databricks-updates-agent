@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-prompt-improvements-and-prompt-matching",
   "what_it_does": "Distilled top k prompt snippet: Replaced the original top k prompt snippet with a shorter version (25% of the original token count) to reduce irrelevant context and improve LLM response accuracy. Clearer permissions warnings: Added a banner that explains when a user tries to access a Genie Space containing tables they no longer have access to or that have been removed. Clearer next steps for permissions issues: When users try to select a table they can't read, the error message now explicitly advises them to request access from the asset owner.",
   "why_it_matters": "Distilled top k prompt snippet: Replaced the original top k prompt snippet with a shorter version (25% of the original token count) to reduce irrelevant context and improve LLM response accuracy.",
+  "plain_summary": "Distilled top k prompt snippet: Replaced the original top k prompt snippet with a shorter version (25% of the original token count) to reduce irrelevant context and improve LLM response accuracy. Clearer permissions warnings: Added a banner that explains…",
   "capabilities": [
     {
       "title": "Company-specific business information",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Distilled top k prompt snippet: Replaced the original top k prompt snippet with a shorter version (25% of the original token count) to reduce irrelevant context and improve LLM response accuracy.",
   "note_id": "2025-04-24-genie-prompt-improvements-and-prompt-matching",
   "category": "platform"

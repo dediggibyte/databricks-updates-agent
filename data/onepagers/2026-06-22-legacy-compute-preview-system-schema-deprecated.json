@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#legacy-compute_preview-system-schema-deprecated",
   "what_it_does": "The legacy `compute_preview` system schema has been deprecated and will be removed from the `system` catalog, urging users to transition to the `system.compute` schema. This change is part of Databricks' ongoing efforts to streamline system table management and improve operational data accessibility. System tables are utilized for monitoring costs, auditing security events, and tracking compute performance across the Databricks environment.",
   "why_it_matters": "This update is crucial for maintaining an organized and efficient data management system, reducing potential confusion from deprecated schemas. By consolidating to the `system.compute` schema, organizations can enhance their operational oversight, ensuring better governance and compliance while optimizing resource usage.",
+  "plain_summary": "The legacy compute preview system schema has been deprecated and will be removed from the system catalog, urging users to transition to the system.compute schema. This change is part of Databricks' ongoing efforts to streamline system table management and…",
   "capabilities": [
     {
       "title": "Enhanced Data Monitoring",

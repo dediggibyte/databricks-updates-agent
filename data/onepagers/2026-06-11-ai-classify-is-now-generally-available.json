@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_classify-is-now-generally-available",
   "what_it_does": "The `ai_classify` function enables users to classify text content into predefined categories based on custom labels, supporting features like multi-label classification and label descriptions. It is designed to work with unstructured data stored in Unity Catalog, allowing for efficient document classification. Users can create classification agents through a no-code UI to streamline the classification process and improve accuracy over time.",
   "why_it_matters": "This release enhances productivity by providing a robust tool for automating text classification, which can lead to improved decision-making and operational efficiency. Businesses can leverage this capability to better understand customer interactions, categorize documents, and analyze sentiment, ultimately driving better customer experiences and insights.",
+  "plain_summary": "The ai classify function enables users to classify text content into predefined categories based on custom labels, supporting features like multi label classification and label descriptions. It is designed to work with unstructured data stored in Unity…",
   "capabilities": [
     {
       "title": "Multi-Label Classification",

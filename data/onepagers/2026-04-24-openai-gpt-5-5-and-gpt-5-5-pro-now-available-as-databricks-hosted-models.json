@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#openai-gpt-55-and-gpt-55-pro-now-available-as-databricks-hosted-models",
   "what_it_does": "Mosaic AI Model Serving now supports OpenAI GPT 5.5 and GPT 5.5 Pro as Databricks hosted models. You can access these models using Foundation Model APIs pay per token. Customers are responsible for ensuring their compliance with applicable terms.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Mosaic AI Model Serving now supports OpenAI GPT 5.5 and GPT 5.5 Pro as Databricks hosted models. You can access these models using Foundation Model APIs pay per token.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [
@@ -20,12 +21,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Mosaic AI Model Serving now supports OpenAI GPT 5.5 and GPT 5.5 Pro as Databricks hosted models.",
   "note_id": "2026-04-24-openai-gpt-5-5-and-gpt-5-5-pro-now-available-as-databricks-hosted-models",
   "category": "platform"

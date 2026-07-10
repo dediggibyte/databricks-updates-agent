@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#edits-to-resources-in-the-ui-now-automatically-update-yaml",
   "what_it_does": "Edits to jobs and pipeline settings in the UI now automatically update YAML. Declarative Automation Bundles can be created and modified directly in the workspace. For requirements for using bundles in the workspace, see Declarative Automation Bundles in the workspace requirements.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Edits to jobs and pipeline settings in the UI now automatically update YAML. Declarative Automation Bundles can be created and modified directly in the workspace.",
   "capabilities": [
     {
       "title": "taskkey: my-notebook-task",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Edits to jobs and pipeline settings in the UI now automatically update YAML.",
   "note_id": "2026-05-19-edits-to-resources-in-the-ui-now-automatically-update-yaml",
   "category": "platform"

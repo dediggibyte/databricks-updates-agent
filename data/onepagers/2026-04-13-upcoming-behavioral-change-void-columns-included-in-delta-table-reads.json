@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-behavioral-change-void-columns-included-in-delta-table-reads",
   "what_it_does": "In mid June 2026, Delta Lake will fully support VOID columns. Previously, VOID columns were silently skipped by path based DataFrame reads (for example, spark.read.format(\"delta\").load(path)) and time travel queries. After this change, these queries include VOID columns in the output.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "In mid June 2026, Delta Lake will fully support VOID columns. Previously, VOID columns were silently skipped by path based DataFrame reads (for example, spark.read.format(\"delta\").load(path)) and time travel queries.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "In mid June 2026, Delta Lake will fully support VOID columns.",
   "note_id": "2026-04-13-upcoming-behavioral-change-void-columns-included-in-delta-table-reads",
   "category": "platform"

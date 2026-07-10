@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#value-sampling-features-renamed",
   "what_it_does": "The value sampling features in Genie have been renamed to better describe their function: Prompt matching (previously value sampling) Format assistance (previously example values) Entity matching (previously value dictionaries) Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics). note Genie Agents were formerly known as Genie Spaces. Add SQL examples and instructions You can add sample SQL queries, Unity Catalog functions, and plain text instructions to help generate accurate responses.",
   "why_it_matters": "The value sampling features in Genie have been renamed to better describe their function: Prompt matching (previously value sampling) Format assistance (previously example values) Entity matching (previously value dictionaries) Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics).",
+  "plain_summary": "The value sampling features in Genie have been renamed to better describe their function: Prompt matching (previously value sampling) Format assistance (previously example values) Entity matching (previously value dictionaries) Improve Genie Agent accuracy…",
   "capabilities": [
     {
       "title": "Company-specific business information",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The value sampling features in Genie have been renamed to better describe their function: Prompt matching (previously value sampling) Format assistance (previously example values) Entity matching…",
   "note_id": "2026-01-16-value-sampling-features-renamed",
   "category": "platform"

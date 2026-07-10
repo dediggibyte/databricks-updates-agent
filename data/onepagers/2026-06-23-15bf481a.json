@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#data-classification-is-now-available-by-default-for-some-workspaces-with-the-compliance-security-profile-enabled",
   "what_it_does": "Data Classification is now automatically enabled for Databricks workspaces that have the compliance security profile activated, specifically for those adhering to HIPAA, HITRUST, PCI-DSS, or FedRAMP Moderate standards, or for those without a specific compliance standard. This feature enhances data governance by allowing users to classify sensitive data effectively, ensuring compliance with regulatory requirements. The compliance security profile also includes additional monitoring and security controls to protect regulated data.",
   "why_it_matters": "This update significantly enhances data governance capabilities for organizations that must comply with stringent regulatory standards, thereby reducing the risk of non-compliance and potential penalties. By automating data classification, businesses can improve their operational efficiency and focus on core activities rather than manual compliance checks, ultimately leading to better data management and security.",
+  "plain_summary": "Data Classification is now automatically enabled for Databricks workspaces that have the compliance security profile activated, specifically for those adhering to HIPAA, HITRUST, PCI DSS, or FedRAMP Moderate standards, or for those without a specific…",
   "capabilities": [
     {
       "title": "Automatic Data Classification",

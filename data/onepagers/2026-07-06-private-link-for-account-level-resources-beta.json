@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#private-link-for-account-level-resources-beta",
   "what_it_does": "This feature enables private access to Databricks account-level resources, such as the account console, through a VPC interface endpoint, ensuring that traffic does not traverse the public internet. Users can configure inbound Private Link connections for both the Databricks web application and REST API. Additionally, it allows sharing a single inbound VPC endpoint across multiple Databricks accounts, enhancing resource management and security.",
   "why_it_matters": "By utilizing Private Link, organizations can significantly enhance their security posture by ensuring that sensitive data does not traverse the public internet. This feature is particularly beneficial for enterprises that require strict compliance and governance measures, as it reduces exposure to potential threats and vulnerabilities. It also streamlines connectivity for users in AWS VPCs or on-premises networks, improving overall productivity.",
+  "plain_summary": "This feature enables private access to Databricks account level resources, such as the account console, through a VPC interface endpoint, ensuring that traffic does not traverse the public internet. Users can configure inbound Private Link connections for…",
   "capabilities": [
     {
       "title": "Private Access Configuration",

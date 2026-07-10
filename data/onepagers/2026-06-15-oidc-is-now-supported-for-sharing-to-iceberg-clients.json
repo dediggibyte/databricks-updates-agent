@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients",
   "what_it_does": "Databricks now supports OpenID Connect (OIDC) federation for sharing data with Iceberg clients, allowing them to read OpenSharing shares securely. This mechanism uses JSON Web Tokens (JWTs) issued by the recipient's identity provider (IdP) for authentication, enabling fine-grained access control and support for Multi-Factor Authentication (MFA). The OIDC federation allows data providers to manage access without needing to issue long-lived bearer tokens, thus enhancing security and compliance.",
   "why_it_matters": "This update significantly improves the security and flexibility of data sharing across platforms, particularly for organizations using Iceberg clients like Snowflake or OSS Spark. By leveraging OIDC, businesses can enforce stricter access controls and reduce the risk associated with credential management, ultimately leading to enhanced data governance and compliance. It also streamlines the process for data providers, allowing them to share data securely with external partners or internal departments without compromising security.",
+  "plain_summary": "Databricks now supports OpenID Connect (OIDC) federation for sharing data with Iceberg clients, allowing them to read OpenSharing shares securely. This mechanism uses JSON Web Tokens (JWTs) issued by the recipient's identity provider (IdP) for…",
   "capabilities": [
     {
       "title": "OIDC Federation Support",

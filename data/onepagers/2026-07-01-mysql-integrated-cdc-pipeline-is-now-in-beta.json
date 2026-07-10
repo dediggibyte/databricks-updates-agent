@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mysql-integrated-cdc-pipeline-is-now-in-beta",
   "what_it_does": "The integrated CDC pipeline for MySQL allows users to ingest change data directly into Databricks using a single pipeline, which combines both extraction and application stages. This approach eliminates the need for a separate ingestion gateway, simplifying the setup process. The pipeline supports scheduled execution and auto full refresh, enhancing data management capabilities.",
   "why_it_matters": "This update streamlines the data ingestion process from MySQL, reducing operational complexity and setup time. By consolidating the pipeline architecture, organizations can achieve faster data updates and better resource utilization, ultimately leading to improved decision-making and analytics capabilities.",
+  "plain_summary": "The integrated CDC pipeline for MySQL allows users to ingest change data directly into Databricks using a single pipeline, which combines both extraction and application stages. This approach eliminates the need for a separate ingestion gateway, simplifying…",
   "capabilities": [
     {
       "title": "Unified Pipeline Architecture",
