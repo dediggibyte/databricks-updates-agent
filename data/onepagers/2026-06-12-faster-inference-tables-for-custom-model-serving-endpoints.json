@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#faster-inference-tables-for-custom-model-serving-endpoints",
   "what_it_does": "Inference tables for custom model serving endpoints now utilize endpoint telemetry to quickly ingest request and response payloads into Unity Catalog tables. This feature allows for configurable sampling and ensures that existing inference tables remain unaffected. The telemetry data can be used for root cause analysis, monitoring endpoint health, and compliance reporting through standard SQL queries.",
   "why_it_matters": "This update significantly improves the speed and efficiency of data ingestion for model serving, enabling organizations to gain real-time insights into model performance and usage. By leveraging telemetry data, data teams can enhance monitoring, improve compliance, and optimize model performance, ultimately driving better business decisions and outcomes.",
+  "plain_summary": "Inference tables for custom model serving endpoints now utilize endpoint telemetry to quickly ingest request and response payloads into Unity Catalog tables. This feature allows for configurable sampling and ensures that existing inference tables remain…",
   "capabilities": [
     {
       "title": "Real-time Data Ingestion",

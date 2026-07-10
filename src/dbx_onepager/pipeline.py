@@ -100,6 +100,26 @@ def run_build(config_path: Optional[str]) -> None:
     _finish(store, cfg, paths)
 
 
+def run_clean(config_path: Optional[str]) -> None:
+    """Repair already-generated one-pagers in place (offline), then rebuild.
+
+    Strips leaked table dumps from prose and replaces hollow 'read the docs'
+    steps with a plain-language summary. No fetch, no LLM.
+    """
+    from .repair import repair_onepager
+
+    cfg = load_config(config_path)
+    paths = Paths(cfg)
+    store = Store(paths)
+    fixed = 0
+    for op in store.all_onepagers():
+        if repair_onepager(op):
+            store.save_onepager(op)
+            fixed += 1
+    print(f"clean: repaired {fixed} one-pager(s)")
+    _finish(store, cfg, paths)
+
+
 def run_email_summary(
     config_path: Optional[str],
     days: int,

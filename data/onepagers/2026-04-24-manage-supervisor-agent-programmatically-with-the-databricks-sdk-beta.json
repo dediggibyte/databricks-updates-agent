@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#manage-supervisor-agent-programmatically-with-the-databricks-sdk-beta",
   "what_it_does": "You can now use the Databricks SDK for Python to create and manage Supervisor Agent and their tools. This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex tasks. You can improve their coordination based on natural language feedback from your subject matter experts.",
   "why_it_matters": "You can improve their coordination based on natural language feedback from your subject matter experts.",
+  "plain_summary": "You can now use the Databricks SDK for Python to create and manage Supervisor Agent and their tools. This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex…",
   "capabilities": [
     {
       "title": "Serverless compute available (enabled by",
@@ -36,12 +37,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now use the Databricks SDK for Python to create and manage Supervisor Agent and their tools.",
   "note_id": "2026-04-24-manage-supervisor-agent-programmatically-with-the-databricks-sdk-beta",
   "category": "platform"

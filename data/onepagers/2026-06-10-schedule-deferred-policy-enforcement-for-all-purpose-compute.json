@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#schedule-deferred-policy-enforcement-for-all-purpose-compute",
   "what_it_does": "This update allows workspace admins to schedule the enforcement of compute policy compliance for out-of-compliance all-purpose compute resources to occur at the next termination or restart, rather than immediately. This feature helps avoid disruptions to running workloads while ensuring compliance with defined policies. Admins can also cancel scheduled enforcements for individual compute resources or entire policies.",
   "why_it_matters": "By enabling deferred enforcement, organizations can maintain operational continuity and minimize downtime, which is crucial for productivity and cost management. This feature benefits workspace admins who need to ensure compliance without interrupting user activities, thus enhancing governance and reducing operational risks.",
+  "plain_summary": "This update allows workspace admins to schedule the enforcement of compute policy compliance for out of compliance all purpose compute resources to occur at the next termination or restart, rather than immediately. This feature helps avoid disruptions to…",
   "capabilities": [
     {
       "title": "Deferred Enforcement Scheduling",

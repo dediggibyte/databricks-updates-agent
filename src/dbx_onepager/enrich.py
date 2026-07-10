@@ -47,11 +47,17 @@ numbers, dates, or features not present in the note or doc.
 - "what_it_does" is 3-5 sentences: technical and concrete, drawn from the doc \
 (mechanism, scope, what it supports). "why_it_matters" is real business impact \
 for a data/platform leader (performance, cost, governance, risk, productivity).
+- "plain_summary": ONE plain-English sentence a non-expert can understand — \
+the simple gist of the update, no jargon.
+- Never output markdown tables or pipe-delimited cell content ("| ... |") in \
+any field. Write prose sentences only.
 - capabilities: up to 4 concrete features from the doc, each a short title + \
 one specific sentence.
 - prerequisites, limitations, use_cases: extract the REAL ones from the doc; \
 leave a list empty only if the material truly has none.
-- steps: up to 5 concrete adoption steps from the doc's guidance.
+- steps: up to 5 concrete adoption steps from the doc's guidance. If the note \
+is purely informational (nothing to set up), return an EMPTY steps list — do \
+NOT invent a "read the docs" step.
 - "architecture" is an ordered list of 3-6 short stage/component labels showing \
 where this fits in the data stack (e.g. "Lakeflow Connect", "Unity Catalog").
 - "updated" must be a human date like "Jul 2, 2026".
@@ -232,11 +238,30 @@ _LEAD_DATE = re.compile(
     r"^\s*(January|February|March|April|May|June|July|August|September|"
     r"October|November|December)\s+\d{1,2},\s+\d{4}[\s—:-]*"
 )
+_TABLE_LINE = re.compile(r"^\s*\|.*\|\s*$")          # a markdown table row
+_TABLE_SEP = re.compile(r"^\s*\|?[\s:|-]*-{2,}[\s:|-]*$")  # | --- | --- |
+
+
+def _strip_tables(text: str) -> str:
+    """Drop markdown table rows/separators. Databricks' 'what's coming' page is
+    a big feature-status matrix; without this it leaks into prose fields as a
+    '| Feature | Status | ... |' dump."""
+    return "\n".join(
+        ln for ln in text.splitlines()
+        if not _TABLE_LINE.match(ln) and not _TABLE_SEP.match(ln)
+    )
+
+
+def _looks_like_table(s: str) -> bool:
+    """A fragment that is really table cells, not a sentence (catches rows that
+    were already mashed onto one line)."""
+    return s.count("|") >= 3
 
 
 def _clean_text(text: str) -> str:
-    """Strip markdown link syntax + emphasis markers and drop a leading date
-    stamp (Databricks notes often begin with '**June 8, 2026**')."""
+    """Strip markdown tables, link syntax + emphasis markers, and a leading
+    date stamp (Databricks notes often begin with '**June 8, 2026**')."""
+    text = _strip_tables(text)
     text = _MD_LINK.sub(r"\1", text)
     text = re.sub(r"[*`]", "", text)          # bold/italic/code markers
     return _LEAD_DATE.sub("", text).strip()
@@ -280,7 +305,11 @@ def _truncate_words(text: str, limit: int) -> str:
 def _sentences(text: str) -> list[str]:
     clean = re.sub(r"\s+", " ", re.sub(r"[#>*`_\-]{1,}", " ", text)).strip()
     parts = re.split(r"(?<=[.!?])\s+", clean)
-    return [p.strip() for p in parts if len(p.strip()) > 20]
+    return [
+        p.strip()
+        for p in parts
+        if len(p.strip()) > 20 and not _looks_like_table(p)
+    ]
 
 
 def _all_bullets(text: str) -> list[str]:
@@ -342,10 +371,19 @@ def _heuristic_onepager(note: ReleaseNote, doc_text: str = "") -> OnePager:
     tagline = note_sents[0] if note_sents else note.title
     # "What it does" prefers the fuller doc-backed description (3 sentences).
     what = " ".join(prose[:3]) if prose else (note_body[:320] or note.title)
+    # Business impact: a clean sentence — never a table fragment. Fall back to
+    # a generic line rather than dumping matrix content.
     why = next(
-        (s for s in prose if re.search(r"\b(reduc|cost|faster|improv|scale|govern|saving|productiv|latency|performance|minimiz)\w*", s, re.I)),
+        (
+            s for s in prose
+            if not _looks_like_table(s)
+            and re.search(r"\b(reduc|cost|faster|improv|scale|govern|saving|productiv|latency|performance|minimiz|simplif|secur|complian)\w*", s, re.I)
+        ),
         "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
     )
+    # Plain-language gist for the "In short" block: the note's own first one or
+    # two sentences, cleaned — a simple explanation for thin, docs-only notes.
+    plain = _truncate_words(" ".join(note_sents[:2]), 260) if note_sents else _truncate_words(tagline, 260)
     # Capabilities come from real bullets; if the note has none, leave the
     # section empty rather than echoing the tagline.
     caps = [Capability(title=_cap_title(b), desc=_truncate_words(b, 130)) for b in highlights[:4]]
@@ -364,11 +402,14 @@ def _heuristic_onepager(note: ReleaseNote, doc_text: str = "") -> OnePager:
         source_url=note.url,
         what_it_does=what,
         why_it_matters=why,
+        plain_summary=plain,
         capabilities=caps,
         prerequisites=prereqs[:5],
         use_cases=use_cases[:6],
         limitations=limits[:5],
         architecture=["Databricks Platform", note.category.title()],
-        steps=[Step(title="Read the docs", desc="Review the linked release note.")],
+        # No fabricated "Read the docs" step — the docs link is in the header
+        # and the "In short" block carries the plain explanation instead.
+        steps=[],
         key_takeaway=_truncate_words(tagline, 200),
     )

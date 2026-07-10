@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#anthropic-claude-opus-45-now-available-as-a-databricks-hosted-model",
   "what_it_does": "Mosaic AI Model Serving now supports Anthropic Claude Opus 4.5 as a Databricks hosted model. To access this model, use: Foundation Model APIs pay per token + Query reasoning models + Query vision models Batch inference workloads using AI Functions AI Functions are built in functions that you can use to apply LLMs or state of the art research techniques on data stored on Databricks for data transformation and enrichment. They can be run from Databricks SQL, notebooks, Lakeflow Spark Declarative Pipelines, and Workflows.",
   "why_it_matters": "| Use AI Functions in production workflows For large scale batch inference, you can integrate task specific AI Functions, or the general purpose function ai query into your production workflows, like Lakeflow Spark Declarative Pipelines, Databricks workflows and Structured Streaming.",
+  "plain_summary": "Mosaic AI Model Serving now supports Anthropic Claude Opus 4.5 as a Databricks hosted model. To access this model, use: Foundation Model APIs pay per token + Query reasoning models + Query vision models Batch inference workloads using AI Functions AI…",
   "capabilities": [
     {
       "title": "Query reasoning models",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Mosaic AI Model Serving now supports Anthropic Claude Opus 4.5 as a Databricks hosted model.",
   "note_id": "2025-11-24-anthropic-claude-opus-4-5-now-available-as-a-databricks-hosted-model",
   "category": "platform"

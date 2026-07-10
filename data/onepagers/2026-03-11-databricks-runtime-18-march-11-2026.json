@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-march-11-2026",
   "what_it_does": "Behavioral changes Review the following changes, which take effect when clusters restart on this runtime. Observation metric errors: No longer cause query execution failures. Previously, errors in OBSERVE clauses (such as division by zero) could block or fail the entire query.",
   "why_it_matters": "SpatialSQL Boolean set operations: ST Difference, ST Intersection, and ST Union use a new implementation with the following improvements: + Valid input geometries always produce a result and no longer raise errors.",
+  "plain_summary": "Behavioral changes Review the following changes, which take effect when clusters restart on this runtime. Observation metric errors: No longer cause query execution failures.",
   "capabilities": [
     {
       "title": "Valid input geometries always produce",
@@ -29,12 +30,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Behavioral changes Review the following changes, which take effect when clusters restart on this runtime.",
   "note_id": "2026-03-11-databricks-runtime-18-march-11-2026",
   "category": "platform"

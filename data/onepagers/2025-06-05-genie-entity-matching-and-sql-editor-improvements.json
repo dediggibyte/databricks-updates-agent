@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-entity-matching-and-sql-editor-improvements",
   "what_it_does": "More entity matching in Genie: Genie can now support up to 60 entity matching (previously value dictionary) columns. Genie Space SQL editor fix: Resolved an issued that caused the SQL editor in a chat window disappear if the user deleted the generated query. You can now use the editor to delete and rewrite queries.",
   "why_it_matters": "Improve Genie Agent accuracy and reliability by adding example SQL queries, Unity Catalog functions, plain text instructions, and knowledge store snippets (table descriptions, JOIN relationships, and SQL expressions for business semantics).",
+  "plain_summary": "More entity matching in Genie: Genie can now support up to 60 entity matching (previously value dictionary) columns. Genie Space SQL editor fix: Resolved an issued that caused the SQL editor in a chat window disappear if the user deleted the generated query.",
   "capabilities": [
     {
       "title": "Company-specific business information",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "More entity matching in Genie: Genie can now support up to 60 entity matching (previously value dictionary) columns.",
   "note_id": "2025-06-05-genie-entity-matching-and-sql-editor-improvements",
   "category": "platform"

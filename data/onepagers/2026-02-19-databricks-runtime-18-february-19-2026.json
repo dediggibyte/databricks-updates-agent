@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-february-19-2026",
   "what_it_does": "When inferring the schema of Excel files, string cells are now inferred as Spark StringType, respecting the cell type set in Excel. Previously, strings with numeric values were auto cast to narrower types like Long or Decimal. Update code that relied on the previous behavior.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "When inferring the schema of Excel files, string cells are now inferred as Spark StringType, respecting the cell type set in Excel. Previously, strings with numeric values were auto cast to narrower types like Long or Decimal.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "When inferring the schema of Excel files, string cells are now inferred as Spark StringType, respecting the cell type set in Excel.",
   "note_id": "2026-02-19-databricks-runtime-18-february-19-2026",
   "category": "platform"

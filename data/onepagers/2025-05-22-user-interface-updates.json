@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#user-interface-updates-2",
   "what_it_does": "Tooltip formatting in charts: Tooltips in charts from the SQL editor and notebooks now follow the number formatting defined in the Data labels tab. Databricks has powerful, built in tools for creating charts and visualizations directly from your data when working with notebooks or the SQL editor. This page explains how to create, edit, and manage visualizations in notebooks and the SQL editor.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Tooltip formatting in charts: Tooltips in charts from the SQL editor and notebooks now follow the number formatting defined in the Data labels tab. Databricks has powerful, built in tools for creating charts and visualizations directly from your data when…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Tooltip formatting in charts: Tooltips in charts from the SQL editor and notebooks now follow the number formatting defined in the Data labels tab.",
   "note_id": "2025-05-22-user-interface-updates",
   "category": "platform"

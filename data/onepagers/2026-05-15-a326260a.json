@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#agent-bricks-supervisor-agent-now-supports-unity-catalog-tables-as-subagent-tools",
   "what_it_does": "You can now add Unity Catalog tables as subagent tools in your Supervisor Agent. This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex tasks. You can improve their coordination based on natural language feedback from your subject matter experts.",
   "why_it_matters": "You can improve their coordination based on natural language feedback from your subject matter experts.",
+  "plain_summary": "You can now add Unity Catalog tables as subagent tools in your Supervisor Agent. This page describes how to use Supervisor Agent to create a multi agent supervisor system that orchestrates AI agents and tools to work together on complex tasks.",
   "capabilities": [
     {
       "title": "Serverless compute available (enabled by",
@@ -36,12 +37,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now add Unity Catalog tables as subagent tools in your Supervisor Agent.",
   "note_id": "2026-05-15-a326260a",
   "category": "platform"

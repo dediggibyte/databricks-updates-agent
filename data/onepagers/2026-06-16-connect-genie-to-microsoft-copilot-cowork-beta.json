@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#connect-genie-to-microsoft-copilot-cowork-beta",
   "what_it_does": "This feature allows users to connect Genie to Microsoft Copilot Cowork via the Genie managed MCP server, enabling natural-language queries about Databricks data directly from within Copilot Cowork. The integration requires setting up an OAuth connection and packaging a plugin manifest. Users can leverage this functionality to enhance their data interaction experience without switching platforms.",
   "why_it_matters": "This integration empowers users to access and analyze Databricks data more efficiently, improving productivity and decision-making. By enabling natural-language queries, it reduces the technical barrier for non-technical users, fostering a data-driven culture within organizations. This can lead to faster insights and better utilization of data resources.",
+  "plain_summary": "This feature allows users to connect Genie to Microsoft Copilot Cowork via the Genie managed MCP server, enabling natural language queries about Databricks data directly from within Copilot Cowork. The integration requires setting up an OAuth connection and…",
   "capabilities": [
     {
       "title": "Natural Language Queries",

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-12",
   "what_it_does": "Date filter keyboard input: Fixed an issue where entering a date value via keyboard for relative date ranges failed to accept the input. Dashboard theme color palette: Fixed a bug where the visualization color palette was hidden when editing dashboard themes at the workspace level. Pivot table column width: The minimum width of pivot table columns is now 30px, reduced from 50px.",
   "why_it_matters": "Pivot table column width: The minimum width of pivot table columns is now 30px, reduced from 50px.",
+  "plain_summary": "Date filter keyboard input: Fixed an issue where entering a date value via keyboard for relative date ranges failed to accept the input. Dashboard theme color palette: Fixed a bug where the visualization color palette was hidden when editing dashboard themes…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Date filter keyboard input: Fixed an issue where entering a date value via keyboard for relative date ranges failed to accept the input.",
   "note_id": "2026-03-19-dashboard-enhancements-and-bug-fixes",
   "category": "platform"

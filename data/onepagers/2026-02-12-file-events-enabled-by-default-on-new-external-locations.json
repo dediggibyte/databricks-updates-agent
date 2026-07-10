@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#file-events-enabled-by-default-on-new-external-locations",
   "what_it_does": "File events are now enabled by default when you create new external locations. The Databricks file events service sets up cloud resources to detect file changes, enabling more efficient, event driven storage jobs and ingestion pipelines. When you create an external location using the UI, Databricks checks for the required permissions and guides you to fix any issues or proceed with a force create.",
   "why_it_matters": "note Databricks recommends governing file access using volumes.",
+  "plain_summary": "File events are now enabled by default when you create new external locations. The Databricks file events service sets up cloud resources to detect file changes, enabling more efficient, event driven storage jobs and ingestion pipelines.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "File events are now enabled by default when you create new external locations.",
   "note_id": "2026-02-12-file-events-enabled-by-default-on-new-external-locations",
   "category": "platform"

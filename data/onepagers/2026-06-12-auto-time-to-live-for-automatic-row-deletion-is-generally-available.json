@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#auto-time-to-live-for-automatic-row-deletion-is-generally-available",
   "what_it_does": "Auto time-to-live (auto-TTL) automatically deletes rows from Unity Catalog managed Delta Lake tables, managed Apache Iceberg tables, and streaming tables based on a specified timestamp column and a defined expiration period in days. The system performs background operations such as DELETE, PURGE, and VACUUM to manage the removal of expired rows and clear them from storage. This feature helps maintain data hygiene and optimize storage costs by ensuring that outdated data is automatically purged.",
   "why_it_matters": "This feature significantly enhances data management efficiency by automating the deletion of stale data, which can reduce storage costs and improve query performance. Organizations can benefit from streamlined data lifecycle management, ensuring compliance with data retention policies while minimizing manual intervention. Use cases include managing data retention for regulatory compliance and optimizing storage for analytical workloads.",
+  "plain_summary": "Auto time to live (auto TTL) automatically deletes rows from Unity Catalog managed Delta Lake tables, managed Apache Iceberg tables, and streaming tables based on a specified timestamp column and a defined expiration period in days. The system performs…",
   "capabilities": [
     {
       "title": "Configurable Expiration Period",

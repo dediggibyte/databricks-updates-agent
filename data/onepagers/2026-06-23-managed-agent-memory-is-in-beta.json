@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-agent-memory-is-in-beta",
   "what_it_does": "Managed agent memory enables AI agents to retain long-term memory across conversations, with Databricks managing the infrastructure and isolating memories by scope. Memory is stored in Unity Catalog memory stores, which are governed as Unity Catalog securables and accessed via the Unity Catalog REST API. This allows agents to remember user preferences and past interactions, improving their accuracy and efficiency over time.",
   "why_it_matters": "This feature significantly enhances the user experience by allowing AI agents to provide personalized interactions based on historical context. Businesses can leverage this capability to improve customer support, increase user engagement, and streamline workflows, ultimately leading to higher productivity and satisfaction.",
+  "plain_summary": "Managed agent memory enables AI agents to retain long term memory across conversations, with Databricks managing the infrastructure and isolating memories by scope. Memory is stored in Unity Catalog memory stores, which are governed as Unity Catalog…",
   "capabilities": [
     {
       "title": "Long-Term Memory",

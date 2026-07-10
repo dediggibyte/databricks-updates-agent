@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#custom-docker-images-for-ai-runtime-cli-workloads-beta",
   "what_it_does": "This feature allows users to bring their own Docker container images to AI Runtime CLI workloads, enabling the use of specific system library versions, complex dependencies, and reproducible environments. Users can register public or private Docker images, which are then cached in the Databricks platform for use in workloads. The registration process ensures that the images are ready for execution within 2-6 minutes.",
   "why_it_matters": "This capability empowers data scientists and engineers to customize their environments, leading to improved reproducibility of research results and the ability to leverage specific dependencies that may not be available in standard images. This flexibility can enhance productivity and reduce the time spent on environment setup, ultimately accelerating the development of AI models.",
+  "plain_summary": "This feature allows users to bring their own Docker container images to AI Runtime CLI workloads, enabling the use of specific system library versions, complex dependencies, and reproducible environments. Users can register public or private Docker images…",
   "capabilities": [
     {
       "title": "Custom Image Registration",

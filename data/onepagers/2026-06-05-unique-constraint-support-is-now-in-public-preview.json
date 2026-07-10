@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2026#unique-constraint-support-is-now-in-public-preview",
   "what_it_does": "Databricks SQL now supports informational UNIQUE constraints on Unity Catalog Delta Lake tables. Foreign keys can reference UNIQUE columns, and RELY on a UNIQUE constraint enables join elimination and DISTINCT simplification on Photon enabled compute. Applies to: Databricks SQL Databricks Runtime Adds an informational primary key, an informational foreign key, or an informational unique constraint as part of a CREATE TABLE or CREATE MATERIALIZED VIEW statement.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Databricks SQL now supports informational UNIQUE constraints on Unity Catalog Delta Lake tables. Foreign keys can reference UNIQUE columns, and RELY on a UNIQUE constraint enables join elimination and DISTINCT simplification on Photon enabled compute.",
   "capabilities": [
     {
       "title": "TIMESERIES",
@@ -35,12 +36,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Databricks SQL now supports informational UNIQUE constraints on Unity Catalog Delta Lake tables.",
   "note_id": "2026-06-05-unique-constraint-support-is-now-in-public-preview",
   "category": "platform"

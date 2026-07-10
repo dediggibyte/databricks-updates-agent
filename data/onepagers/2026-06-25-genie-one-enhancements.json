@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements",
   "what_it_does": "Share chats with account users: You can now share Genie One chats with all users in your account as read only. New external source connections (Beta): Chat in Genie One now supports connecting to Gmail and additional Microsoft 365 apps (Teams, Outlook, and Calendar). Scheduled task frequency limit: Scheduled tasks can no longer be created with a frequency greater than daily.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Share chats with account users: You can now share Genie One chats with all users in your account as read only. New external source connections (Beta): Chat in Genie One now supports connecting to Gmail and additional Microsoft 365 apps (Teams, Outlook, and…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Share chats with account users: You can now share Genie One chats with all users in your account as read only.",
   "note_id": "2026-06-25-genie-one-enhancements",
   "category": "platform"

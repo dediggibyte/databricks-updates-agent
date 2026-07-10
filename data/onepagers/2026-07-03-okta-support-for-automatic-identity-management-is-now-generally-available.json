@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#okta-support-for-automatic-identity-management-is-now-generally-available",
   "what_it_does": "The Okta support for automatic identity management allows users and groups to be synchronized from Okta into Databricks without the need for SCIM provisioning. This feature enables direct searching for users and groups in identity federated workspaces, and Databricks utilizes Okta as the authoritative source for group memberships. It simplifies user management by automating the provisioning process and ensuring consistency across platforms.",
   "why_it_matters": "This update enhances operational efficiency by reducing manual user management tasks, thereby saving time and minimizing errors. Organizations can benefit from improved governance and compliance through centralized identity management, leading to better security and user access control. It is particularly valuable for enterprises with large user bases that require seamless integration between identity providers and data platforms.",
+  "plain_summary": "The Okta support for automatic identity management allows users and groups to be synchronized from Okta into Databricks without the need for SCIM provisioning. This feature enables direct searching for users and groups in identity federated workspaces, and…",
   "capabilities": [
     {
       "title": "User Synchronization",

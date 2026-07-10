@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-improvements-3",
   "what_it_does": "Workspace admin theme permissions: Fixed a bug where workspace admins couldn't edit workspace level themes. Level of detail calculations: Level of detail calculations now support EXCLUDE syntax on multiple fields. Pivot table cell styles: Pivot tables now support HTML, JSON, and image cell styles.",
   "why_it_matters": "Assistant for dashboard authoring improvements: Assistant for dashboard authoring now supports creating labels and setting color values.",
+  "plain_summary": "Workspace admin theme permissions: Fixed a bug where workspace admins couldn't edit workspace level themes. Level of detail calculations: Level of detail calculations now support EXCLUDE syntax on multiple fields.",
   "capabilities": [
     {
       "title": "Table formatting now uses the",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Workspace admin theme permissions: Fixed a bug where workspace admins couldn't edit workspace level themes.",
   "note_id": "2026-02-12-dashboard-enhancements-and-improvements",
   "category": "platform"

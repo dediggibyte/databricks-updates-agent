@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-enhancements-and-bug-fixes",
   "what_it_does": "Save visualizations to a dashboard: You can now save Genie Space visualization outputs to a dashboard. Reference previous visualizations: Select and reference visualizations from previous prompts in follow up prompts. Genie Code for metric view export: Use Genie Code when exporting metric views from a Genie Space to refine the metric view definition.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Save visualizations to a dashboard: You can now save Genie Space visualization outputs to a dashboard. Reference previous visualizations: Select and reference visualizations from previous prompts in follow up prompts.",
   "capabilities": [
     {
       "title": "level: CANMANAGE username: someone@example.com",
@@ -21,12 +22,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Save visualizations to a dashboard: You can now save Genie Space visualization outputs to a dashboard.",
   "note_id": "2026-06-11-genie-space-enhancements-and-bug-fixes",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#admins-can-now-manage-a-workspaces-serverless-base-environments-public-preview",
   "what_it_does": "Base environments are custom environment specifications for serverless notebooks that define a serverless environment version and a set of dependencies. Workspace admins can now create and manage the base environments available in their workspace. They can also set a default base environment for all new serverless notebooks.",
   "why_it_matters": "When a workspace base environment is selected, the pre built cached environment loads quickly, reducing startup time for notebooks and jobs.",
+  "plain_summary": "Base environments are custom environment specifications for serverless notebooks that define a serverless environment version and a set of dependencies. Workspace admins can now create and manage the base environments available in their workspace.",
   "capabilities": [
     {
       "title": "--index-url https://pypi.org/simple",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Base environments are custom environment specifications for serverless notebooks that define a serverless environment version and a set of dependencies.",
   "note_id": "2025-08-28-admins-can-now-manage-a-workspace-s-serverless-base-environments-public-preview",
   "category": "platform"

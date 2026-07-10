@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#auto-cdc-apis-replace-apply-changes",
   "what_it_does": "The new AUTO CDC APIs create flows that support change data feeds (CDF) in Lakeflow Spark Declarative Pipelines. Databricks recommends replacing usage of APPLY CHANGES APIs with AUTO CDC. For information about the SQL AUTO CDC API, see: AUTO CDC INTO (pipelines) For information about the Python create auto cdc flow APIs, see create\\ auto\\ cdc\\ flow create\\ auto\\ cdc\\ from\\ snapshot\\ flow The create auto cdc from snapshot flow function creates a flow that uses Lakeflow Spark Declarative Pipelines change data capture (CDC) functionality to process source data from database snapshots.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The new AUTO CDC APIs create flows that support change data feeds (CDF) in Lakeflow Spark Declarative Pipelines. Databricks recommends replacing usage of APPLY CHANGES APIs with AUTO CDC.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The new AUTO CDC APIs create flows that support change data feeds (CDF) in Lakeflow Spark Declarative Pipelines.",
   "note_id": "2025-06-11-auto-cdc-apis-replace-apply-changes",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#view-warehouse-activity-details-beta",
   "what_it_does": "You can now view detailed annotations on the Running clusters chart in the SQL warehouse monitoring UI to understand why warehouses remain active. The Activity details toggle displays color coded bars that show query activity, fetching queries, open sessions, and idle states. Hover over bars to see metadata, or click on fetching activity to filter the query history table.",
   "why_it_matters": "Time scale filter: The time scale filter sets the time range for the query count chart, running cluster chart, and query history.",
+  "plain_summary": "You can now view detailed annotations on the Running clusters chart in the SQL warehouse monitoring UI to understand why warehouses remain active. The Activity details toggle displays color coded bars that show query activity, fetching queries, open…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now view detailed annotations on the Running clusters chart in the SQL warehouse monitoring UI to understand why warehouses remain active.",
   "note_id": "2026-02-05-view-warehouse-activity-details-beta",
   "category": "platform"

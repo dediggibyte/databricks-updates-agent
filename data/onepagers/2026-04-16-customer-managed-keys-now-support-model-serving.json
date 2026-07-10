@@ -7,7 +7,8 @@
   "docs_url": "https://docs.databricks.com/aws/en/security/keys/customer-managed-keys",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#customer-managed-keys-now-support-model-serving",
   "what_it_does": "You can now use customer managed keys to encrypt model serving container images and model artifacts stored in Databricks managed registry. Endpoint artifacts created after April 16, 2026 are protected with customer managed keys. note This feature requires the Enterprise tier.",
-  "why_it_matters": "Serverless workspaces: The workspace's default storage | Classic workspaces: Workspace storage Serverless workspaces: Managed services | | Interactive notebook results | Classic workspaces: By default, when you run a notebook interactively (rather than as a job) results are stored in the control plane for performance with some large results stored in your workspace storage bucket in your AWS account.",
+  "why_it_matters": "note This feature requires the Enterprise tier.",
+  "plain_summary": "You can now use customer managed keys to encrypt model serving container images and model artifacts stored in Databricks managed registry. Endpoint artifacts created after April 16, 2026 are protected with customer managed keys.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [
@@ -21,12 +22,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now use customer managed keys to encrypt model serving container images and model artifacts stored in Databricks managed registry.",
   "note_id": "2026-04-16-customer-managed-keys-now-support-model-serving",
   "category": "platform"

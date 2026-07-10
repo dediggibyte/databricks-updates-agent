@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#sql-editor-updates",
   "what_it_does": "Improvements to named parameters: Date range and multi select parameters are now supported. For date range parameters, see Add a date range using .min and .max. For multi select parameters, see Pass multiple values as a string.",
   "why_it_matters": "Improvements to named parameters: Date range and multi select parameters are now supported.",
+  "plain_summary": "Improvements to named parameters: Date range and multi select parameters are now supported. For date range parameters, see Add a date range using .min and .max.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [
@@ -18,12 +19,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Improvements to named parameters: Date range and multi select parameters are now supported.",
   "note_id": "2025-07-17-sql-editor-updates",
   "category": "platform"

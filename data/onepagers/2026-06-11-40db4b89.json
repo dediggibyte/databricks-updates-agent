@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-unity-catalog-volumes-as-subagent-tools",
   "what_it_does": "The Supervisor Agent now allows the integration of Unity Catalog volumes as subagent tools, enhancing its capability to orchestrate complex tasks across various AI agents and tools. This integration facilitates better data management and access control, enabling users to leverage Unity Catalog's features within multi-agent systems. The Supervisor Agent coordinates interactions among agents, task delegation, and result synthesis, improving overall system performance.",
   "why_it_matters": "This update significantly enhances the functionality of the Supervisor Agent, allowing organizations to utilize Unity Catalog volumes for more efficient data handling and access management. By integrating these volumes, businesses can streamline workflows, improve data governance, and enhance the quality of insights derived from AI agents. This is particularly beneficial for teams involved in data analysis, customer service automation, and operational efficiency.",
+  "plain_summary": "The Supervisor Agent now allows the integration of Unity Catalog volumes as subagent tools, enhancing its capability to orchestrate complex tasks across various AI agents and tools. This integration facilitates better data management and access control…",
   "capabilities": [
     {
       "title": "Unity Catalog Integration",

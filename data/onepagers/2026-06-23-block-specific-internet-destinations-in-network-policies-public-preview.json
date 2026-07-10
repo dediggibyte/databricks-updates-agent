@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#block-specific-internet-destinations-in-network-policies-public-preview",
   "what_it_does": "This feature allows users to block specific internet destinations from serverless workloads via the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode, providing a lightweight alternative to restricted access mode for blocking known-bad domains. The API requires an account admin OAuth token for configuration, and blocked destinations take precedence over allowed destinations.",
   "why_it_matters": "By enabling the blocking of specific internet destinations, organizations can enhance their security posture, reducing the risk of exposure to malicious domains. This feature is particularly beneficial for compliance and governance, allowing data and platform leaders to enforce stricter network controls without overhauling existing policies. It supports better risk management and can lead to improved operational efficiency.",
+  "plain_summary": "This feature allows users to block specific internet destinations from serverless workloads via the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode, providing a lightweight alternative to restricted…",
   "capabilities": [
     {
       "title": "Block Internet Destinations",

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#lakebase-is-now-generally-available",
   "what_it_does": "Lakebase is now generally available. Lakebase Autoscaling and Lakebase Provisioned are now unified in a single UI. GA includes autoscaling, scale to zero, instant branching, automated backups, point in time recovery, storage up to 8 TB, and expanded region availability.",
   "why_it_matters": "GA includes autoscaling, scale to zero, instant branching, automated backups, point in time recovery, storage up to 8 TB, and expanded region availability.",
+  "plain_summary": "Lakebase is now generally available. Lakebase Autoscaling and Lakebase Provisioned are now unified in a single UI.",
   "capabilities": [
     {
       "title": "Build an app",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Lakebase is now generally available.",
   "note_id": "2026-01-22-lakebase-is-now-generally-available",
   "category": "platform"

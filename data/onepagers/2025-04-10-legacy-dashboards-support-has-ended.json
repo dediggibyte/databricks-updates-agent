@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#legacy-dashboards-support-has-ended",
   "what_it_does": "Official support for legacy dashboards has ended. You can no longer create or clone legacy dashboards using the UI or API. Databricks continues to address critical security issues and service outages, but recommends using AI/BI dashboards for all new development.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Official support for legacy dashboards has ended. You can no longer create or clone legacy dashboards using the UI or API.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Official support for legacy dashboards has ended.",
   "note_id": "2025-04-10-legacy-dashboards-support-has-ended",
   "category": "platform"

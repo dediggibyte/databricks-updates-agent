@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#oltp-database-tab-renamed-to-lakebase-postgres-in-compute-section",
   "what_it_does": "The OLTP Database tab in the Compute section of the workspace is renamed to Lakebase Postgres. Use this tab to create and manage your Lakebase database instances. info Lakebase Provisioned is the original Lakebase offering that uses provisioned compute you scale manually.",
   "why_it_matters": "info Lakebase Provisioned is the original Lakebase offering that uses provisioned compute you scale manually.",
+  "plain_summary": "The OLTP Database tab in the Compute section of the workspace is renamed to Lakebase Postgres. Use this tab to create and manage your Lakebase database instances.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The OLTP Database tab in the Compute section of the workspace is renamed to Lakebase Postgres.",
   "note_id": "2025-08-29-oltp-database-tab-renamed-to-lakebase-postgres-in-compute-section",
   "category": "platform"

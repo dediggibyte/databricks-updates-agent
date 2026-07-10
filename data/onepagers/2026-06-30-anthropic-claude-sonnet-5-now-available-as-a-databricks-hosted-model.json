@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#anthropic-claude-sonnet-5-now-available-as-a-databricks-hosted-model",
   "what_it_does": "Databricks Model Serving now includes Anthropic Claude Sonnet 5, a model optimized for coding and professional workflows. This model provides advanced intelligence capabilities while maintaining cost efficiency and speed. Users can access it through the Foundation Model APIs, enabling seamless integration into their applications.",
   "why_it_matters": "The introduction of Claude Sonnet 5 enhances Databricks' offering in the AI and machine learning space, allowing businesses to leverage advanced AI for coding and agentic workflows. This can lead to increased productivity, reduced operational costs, and improved performance in AI-driven tasks, making it a valuable tool for data and platform leaders.",
+  "plain_summary": "Databricks Model Serving now includes Anthropic Claude Sonnet 5, a model optimized for coding and professional workflows. This model provides advanced intelligence capabilities while maintaining cost efficiency and speed.",
   "capabilities": [
     {
       "title": "Advanced Coding Support",

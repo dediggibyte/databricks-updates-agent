@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#notebook-improvements",
   "what_it_does": "The following notebook improvements are now available: The cell execution minimap now appears in the right margin of notebooks. Use the minimap to get a visual overview of your notebook's run status and quickly navigate between cells. Use Databricks Assistant to help diagnose and fix environment errors, including library installation errors.",
   "why_it_matters": "The following notebook improvements are now available: The cell execution minimap now appears in the right margin of notebooks.",
+  "plain_summary": "The following notebook improvements are now available: The cell execution minimap now appears in the right margin of notebooks. Use the minimap to get a visual overview of your notebook's run status and quickly navigate between cells.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The following notebook improvements are now available: The cell execution minimap now appears in the right margin of notebooks.",
   "note_id": "2025-10-03-notebook-improvements",
   "category": "platform"

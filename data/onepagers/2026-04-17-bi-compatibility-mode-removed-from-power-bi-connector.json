@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#bi-compatibility-mode-removed-from-power-bi-connector",
   "what_it_does": "Microsoft has removed the BI compatibility mode option, which allows you to query Unity Catalog metric views in Power BI, from the Power BI Databricks connector. Reports that use this connector option no longer function. To request restored support for Databricks metric views in Power BI, vote and provide feedback on the Fabric Ideas community post.",
   "why_it_matters": "When you query a materialized metric view, the query optimizer automatically routes the query to a suitable materialization for faster performance, or falls back to the source data when no suitable materialization is available.",
+  "plain_summary": "Microsoft has removed the BI compatibility mode option, which allows you to query Unity Catalog metric views in Power BI, from the Power BI Databricks connector. Reports that use this connector option no longer function.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Microsoft has removed the BI compatibility mode option, which allows you to query Unity Catalog metric views in Power BI, from the Power BI Databricks connector.",
   "note_id": "2026-04-17-bi-compatibility-mode-removed-from-power-bi-connector",
   "category": "platform"

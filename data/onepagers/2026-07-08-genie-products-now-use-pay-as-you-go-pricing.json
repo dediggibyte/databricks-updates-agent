@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-products-now-use-pay-as-you-go-pricing",
   "what_it_does": "Starting July 8, 2026, Genie products, including Genie Agents, Genie Code, and Genie One, will be billed on a pay-as-you-go basis, with each user receiving 150 DBUs of free large language model (LLM) usage monthly. Usage beyond this free allowance will incur charges based on the underlying LLM usage tracked through Unity AI Gateway. Account admins can set budgets to monitor and control Genie spending across users and workspaces.",
   "why_it_matters": "This pricing model allows organizations to better manage costs associated with using Genie products, providing flexibility and scalability in budgeting for AI workloads. By offering a free monthly allowance, businesses can experiment with Genie products without immediate financial commitment, fostering innovation while maintaining cost control.",
+  "plain_summary": "Starting July 8, 2026, Genie products, including Genie Agents, Genie Code, and Genie One, will be billed on a pay as you go basis, with each user receiving 150 DBUs of free large language model (LLM) usage monthly. Usage beyond this free allowance will incur…",
   "capabilities": [
     {
       "title": "Free Monthly Usage",

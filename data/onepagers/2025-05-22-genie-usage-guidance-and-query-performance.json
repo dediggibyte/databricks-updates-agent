@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-usage-guidance-and-query-performance",
   "what_it_does": "Usage guidance addition in Genie: You can now add Usage Guidance to clarify how and when SQL examples should be used. Improved query result display in Genie: Query results now show more quickly. It now displays Running query until the query result is ready and Still thinking if additional work is required.",
   "why_it_matters": "Improved query result display in Genie: Query results now show more quickly.",
+  "plain_summary": "Usage guidance addition in Genie: You can now add Usage Guidance to clarify how and when SQL examples should be used. Improved query result display in Genie: Query results now show more quickly.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Usage guidance addition in Genie: You can now add Usage Guidance to clarify how and when SQL examples should be used.",
   "note_id": "2025-05-22-genie-usage-guidance-and-query-performance",
   "category": "platform"

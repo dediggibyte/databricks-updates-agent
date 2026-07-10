@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#chat-in-genie-one-beta",
   "what_it_does": "Chat in Genie One is now available in Beta. Chat provides a unified, full screen interface for talking to Genie. Genie routes your question to the most relevant Genie Space or directly answers your question agentically using available data and data assets.",
   "why_it_matters": "This generates more accurate responses and reduces latency by reducing the amount of data Genie One needs to crawl and query.",
+  "plain_summary": "Chat in Genie One is now available in Beta. Chat provides a unified, full screen interface for talking to Genie.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Chat in Genie One is now available in Beta.",
   "note_id": "2026-03-13-chat-in-genie-one-beta",
   "category": "platform"

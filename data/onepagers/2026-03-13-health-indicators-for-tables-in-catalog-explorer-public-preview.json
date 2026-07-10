@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#health-indicators-for-tables-in-catalog-explorer-public-preview",
   "what_it_does": "You can now view health indicators for tables on schema and table overview pages in Catalog Explorer (Public Preview). Health indicators show a summary of each table's freshness and completeness status based on anomaly detection. Preview This feature is in Public Preview.",
   "why_it_matters": "Intelligent scanning prioritizes high impact tables as determined by popularity and downstream usage, and reduces frequency for less critical tables.",
+  "plain_summary": "You can now view health indicators for tables on schema and table overview pages in Catalog Explorer (Public Preview). Health indicators show a summary of each table's freshness and completeness status based on anomaly detection.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now view health indicators for tables on schema and table overview pages in Catalog Explorer (Public Preview).",
   "note_id": "2026-03-13-health-indicators-for-tables-in-catalog-explorer-public-preview",
   "category": "platform"

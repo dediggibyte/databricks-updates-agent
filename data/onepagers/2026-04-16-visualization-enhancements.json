@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#visualization-enhancements",
   "what_it_does": "Dashed and dotted line styles: You can now style lines as dashed or dotted in the Pattern section of the configuration pane.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Dashed and dotted line styles: You can now style lines as dashed or dotted in the Pattern section of the configuration pane. Dashed and dotted line styles: You can now style lines as dashed or dotted in the Pattern section of the configuration pane.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Dashed and dotted line styles: You can now style lines as dashed or dotted in the Pattern section of the configuration pane.",
   "note_id": "2026-04-16-visualization-enhancements",
   "category": "platform"

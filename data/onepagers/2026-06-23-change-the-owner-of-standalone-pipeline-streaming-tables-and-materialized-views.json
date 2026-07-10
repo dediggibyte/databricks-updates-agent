@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#change-the-owner-of-standalone-pipeline-streaming-tables-and-materialized-views",
   "what_it_does": "The update allows users to change the owner of streaming tables and materialized views that are backed by standalone pipelines in Databricks SQL using the `ALTER STREAMING TABLE` and `ALTER MATERIALIZED VIEW` commands with `SET OWNER TO`. This functionality is applicable to datasets created with either Databricks SQL or Lakeflow Connect, enabling greater flexibility in dataset management. However, modifications made with `ALTER` statements may be overridden by the pipeline's SQL definition during updates.",
   "why_it_matters": "This enhancement streamlines the management of data ownership, which is crucial for governance and compliance in data operations. By enabling ownership changes directly through SQL commands, organizations can improve their data stewardship and reduce administrative overhead. This is particularly beneficial for teams managing multiple datasets and needing to reassign ownership as personnel or project responsibilities change.",
+  "plain_summary": "The update allows users to change the owner of streaming tables and materialized views that are backed by standalone pipelines in Databricks SQL using the ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW commands with SET OWNER TO. This functionality is…",
   "capabilities": [
     {
       "title": "Change Owner",

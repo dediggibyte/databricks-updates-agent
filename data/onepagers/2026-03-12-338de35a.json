@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#lakebase-autoscaling-updates-oauth-role-management-budget-policies-and-tags-and-lakehouse-sync",
   "what_it_does": "Lakebase Autoscaling now includes the following features: OAuth roles: Create OAuth roles using the Lakebase UI or REST API, in addition to SQL. Budget policies and tags: Associate a serverless budget policy and add custom tags to your project for cost attribution and tracking. Lakehouse sync (Beta): Continuously replicate Lakebase Postgres tables to Unity Catalog Delta tables using CDC.",
   "why_it_matters": "Budget policies and tags: Associate a serverless budget policy and add custom tags to your project for cost attribution and tracking.",
+  "plain_summary": "Lakebase Autoscaling now includes the following features: OAuth roles: Create OAuth roles using the Lakebase UI or REST API, in addition to SQL. Budget policies and tags: Associate a serverless budget policy and add custom tags to your project for cost…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Lakebase Autoscaling now includes the following features: OAuth roles: Create OAuth roles using the Lakebase UI or REST API, in addition to SQL.",
   "note_id": "2026-03-12-338de35a",
   "category": "platform"

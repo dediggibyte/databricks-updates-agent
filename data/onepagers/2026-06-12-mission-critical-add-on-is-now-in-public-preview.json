@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#mission-critical-add-on-is-now-in-public-preview",
   "what_it_does": "The Mission Critical workspace add-on integrates managed disaster recovery (DR) with Enhanced Security and Compliance (ESC) features, allowing users to enable these capabilities at a single compute rate. It is activated per workspace through the Add-ons tab in the account console, and users must ensure Managed DR is enabled to utilize its full functionality. The add-on is designed for workspaces on the Enterprise plan and requires account admin privileges for activation.",
   "why_it_matters": "This add-on is crucial for organizations that prioritize data security and compliance, providing a streamlined approach to disaster recovery and enhanced security features without incurring additional costs for ESC. It enables businesses to maintain operational continuity and safeguard sensitive data, thereby reducing risk and enhancing governance.",
+  "plain_summary": "The Mission Critical workspace add on integrates managed disaster recovery (DR) with Enhanced Security and Compliance (ESC) features, allowing users to enable these capabilities at a single compute rate. It is activated per workspace through the Add ons tab…",
   "capabilities": [
     {
       "title": "Managed Disaster Recovery",

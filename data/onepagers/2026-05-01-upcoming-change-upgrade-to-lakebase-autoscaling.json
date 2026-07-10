@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-change-upgrade-to-lakebase-autoscaling",
   "what_it_does": "Databricks is upgrading all Lakebase Provisioned instances to the Lakebase Autoscaling platform. Upgrades begin in June 2026 for customers who have requested them, with remaining instance upgrades continuing in the following weeks. Workspace admins will receive an email with upgrade dates before the upgrade begins.",
   "why_it_matters": "+ New regional connection string: If you use Private Link and connect to Lakebase from outside the Databricks workspace, you must configure inbound Private Link for performance intensive services to use the new regional connection string.",
+  "plain_summary": "Databricks is upgrading all Lakebase Provisioned instances to the Lakebase Autoscaling platform. Upgrades begin in June 2026 for customers who have requested them, with remaining instance upgrades continuing in the following weeks.",
   "capabilities": [
     {
       "title": "Existing connection strings: Provisioned connection",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Databricks is upgrading all Lakebase Provisioned instances to the Lakebase Autoscaling platform.",
   "note_id": "2026-05-01-upcoming-change-upgrade-to-lakebase-autoscaling",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#improved-full-refresh-flow-for-managed-database-connectors",
   "what_it_does": "Full refresh operations for managed database connectors (like SQL Server) now reduce downtime by delaying the table refresh until after the snapshot is completed. During the snapshot process, destination streaming tables remain available with their existing data. New inserts, deletes, and updates are accumulated but not immediately applied.",
   "why_it_matters": "Full refresh operations for managed database connectors (like SQL Server) now reduce downtime by delaying the table refresh until after the snapshot is completed.",
+  "plain_summary": "Full refresh operations for managed database connectors (like SQL Server) now reduce downtime by delaying the table refresh until after the snapshot is completed. During the snapshot process, destination streaming tables remain available with their existing…",
   "capabilities": [
     {
       "title": "table: sourceschema: <source-schema> sourcetable: <source-table>",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Full refresh operations for managed database connectors (like SQL Server) now reduce downtime by delaying the table refresh until after the snapshot is completed.",
   "note_id": "2025-11-14-improved-full-refresh-flow-for-managed-database-connectors",
   "category": "platform"

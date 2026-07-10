@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#customizable-sharepoint-connector-beta",
   "what_it_does": "The standard SharePoint connector offers more flexibility than the managed SharePoint connector. It allows you to ingest structured, semi structured, and unstructured files into Delta tables with full control over schema inference, parsing options, and transformations. To get started, see Ingest files from SharePoint.",
   "why_it_matters": "The SharePoint connector supports incremental ingestion of SharePoint files using batch and streaming APIs, including Auto Loader, spark.read and COPY INTO, all with Unity Catalog governance.",
+  "plain_summary": "The standard SharePoint connector offers more flexibility than the managed SharePoint connector. It allows you to ingest structured, semi structured, and unstructured files into Delta tables with full control over schema inference, parsing options, and…",
   "capabilities": [
     {
       "title": "Dedicated Access Mode: MANAGE CONNECTION",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The standard SharePoint connector offers more flexibility than the managed SharePoint connector.",
   "note_id": "2025-12-10-customizable-sharepoint-connector-beta",
   "category": "platform"

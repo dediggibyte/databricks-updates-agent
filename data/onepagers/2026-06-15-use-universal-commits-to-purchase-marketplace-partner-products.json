@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-universal-commits-to-purchase-marketplace-partner-products",
   "what_it_does": "Databricks users can now utilize up to 10% of their Universal Commits to purchase eligible third-party partner products through the Databricks Marketplace. This feature enhances the purchasing flexibility for customers, allowing them to acquire various data assets, including datasets, AI models, and notebooks, directly from the Marketplace. The integration with OpenSharing ensures secure transactions and access to a wide range of partner offerings.",
   "why_it_matters": "This update significantly enhances the value of Universal Commits by allowing organizations to invest in third-party solutions that can improve their data capabilities and analytics. By facilitating easier access to partner products, businesses can accelerate their data-driven initiatives, optimize costs, and enhance productivity through the use of specialized tools and datasets.",
+  "plain_summary": "Databricks users can now utilize up to 10% of their Universal Commits to purchase eligible third party partner products through the Databricks Marketplace. This feature enhances the purchasing flexibility for customers, allowing them to acquire various data…",
   "capabilities": [
     {
       "title": "Universal Commits Usage",

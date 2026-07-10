@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-jdbc-driver-280-is-available",
   "what_it_does": "Databricks JDBC driver version 2.8.0 is now available for download. The new version includes the following features: Upgrades the Simple Logging Facade for Java (SLF4J) from version 1.7.36 to 2.0.13 and moves slf4j api to the root package path to align with standard SLF4J usage. The driver no longer depends on Log4j.",
   "why_it_matters": "It includes improvements such as support for Unity Catalog metric views, transactions that span multiple SQL statements, stored procedures, faster large result retrieval, and built in client telemetry.",
+  "plain_summary": "Databricks JDBC driver version 2.8.0 is now available for download. The new version includes the following features: Upgrades the Simple Logging Facade for Java (SLF4J) from version 1.7.36 to 2.0.13 and moves slf4j api to the root package path to align with…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Databricks JDBC driver version 2.8.0 is now available for download.",
   "note_id": "2026-03-18-databricks-jdbc-driver-2-8-0-is-available",
   "category": "platform"

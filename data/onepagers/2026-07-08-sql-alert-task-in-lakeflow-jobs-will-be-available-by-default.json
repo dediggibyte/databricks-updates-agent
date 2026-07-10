@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#sql-alert-task-in-lakeflow-jobs-will-be-available-by-default",
   "what_it_does": "The SQL alert task in Lakeflow Jobs is generally available and will be available by default in your workspace. Use the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The SQL alert task in Lakeflow Jobs is generally available and will be available by default in your workspace. Use the task to evaluate a Databricks SQL alert as part of a Lakeflow Job.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The SQL alert task in Lakeflow Jobs is generally available and will be available by default in your workspace.",
   "note_id": "2026-07-08-sql-alert-task-in-lakeflow-jobs-will-be-available-by-default",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-sql-alerts-are-now-generally-available",
   "what_it_does": "The latest version of Databricks SQL alerts is now generally available. SQL alerts let you monitor data and KPIs by running a query on a schedule, evaluating a condition, and notifying recipients when the condition is met. Use SQL alerts to monitor KPI drifts, detect anomalies, and surface data quality issues.",
   "why_it_matters": "Use them to track business KPIs, monitor data quality, watch cost trends, and catch operational issues across your Databricks workloads.",
+  "plain_summary": "The latest version of Databricks SQL alerts is now generally available. SQL alerts let you monitor data and KPIs by running a query on a schedule, evaluating a condition, and notifying recipients when the condition is met.",
   "capabilities": [
     {
       "title": "Create an alert",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The latest version of Databricks SQL alerts is now generally available.",
   "note_id": "2026-05-14-databricks-sql-alerts-are-now-generally-available",
   "category": "platform"

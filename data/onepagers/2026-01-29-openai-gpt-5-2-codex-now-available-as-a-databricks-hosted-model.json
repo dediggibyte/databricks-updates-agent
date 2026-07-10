@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#openai-gpt-52-codex-now-available-as-a-databricks-hosted-model",
   "what_it_does": "Mosaic AI Model Serving now supports OpenAI GPT 5.2 Codex as a Databricks hosted model. This code specialized model excels at code generation, refactoring, debugging, and software engineering tasks. You can access this model using Foundation Model APIs pay per token.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Mosaic AI Model Serving now supports OpenAI GPT 5.2 Codex as a Databricks hosted model. This code specialized model excels at code generation, refactoring, debugging, and software engineering tasks.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [
@@ -20,12 +21,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Mosaic AI Model Serving now supports OpenAI GPT 5.2 Codex as a Databricks hosted model.",
   "note_id": "2026-01-29-openai-gpt-5-2-codex-now-available-as-a-databricks-hosted-model",
   "category": "platform"

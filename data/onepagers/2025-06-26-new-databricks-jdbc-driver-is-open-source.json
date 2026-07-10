@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#new-databricks-jdbc-driver-is-open-source",
   "what_it_does": "The new Databricks JDBC Driver is now open source. The source code is publicly available under the Apache 2.0 license. Community contributions are welcome.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "The new Databricks JDBC Driver is now open source. The source code is publicly available under the Apache 2.0 license.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The new Databricks JDBC Driver is now open source.",
   "note_id": "2025-06-26-new-databricks-jdbc-driver-is-open-source",
   "category": "platform"

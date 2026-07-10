@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#parquet-v2-for-delta-lake-tables-is-generally-available",
   "what_it_does": "Parquet v2 introduces advanced encodings, v2 data page headers, and `INT64` timestamps for Delta Lake tables, significantly improving query performance and reducing storage requirements. Users can activate this feature by setting the `delta.parquet.format.version` table property to `2.12.0` or by enabling automatic upgrades. This functionality is supported in Databricks Runtime 18.1 and above.",
   "why_it_matters": "The introduction of Parquet v2 allows organizations to optimize their data storage and enhance query performance, which can lead to reduced costs and improved operational efficiency. This is particularly beneficial for data-intensive applications and analytics workloads, enabling faster insights and better resource utilization.",
+  "plain_summary": "Parquet v2 introduces advanced encodings, v2 data page headers, and INT64 timestamps for Delta Lake tables, significantly improving query performance and reducing storage requirements. Users can activate this feature by setting the…",
   "capabilities": [
     {
       "title": "Advanced Data Encoding",

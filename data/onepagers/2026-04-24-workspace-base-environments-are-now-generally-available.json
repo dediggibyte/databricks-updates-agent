@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#workspace-base-environments-are-now-generally-available",
   "what_it_does": "Workspace base environments are now generally available. Workspace base environments let workspace admins create and manage pre built, cached environments for serverless notebooks. This feature will roll out in workspaces enabled for the compliance security profile starting in late May 2026.",
   "why_it_matters": "When a workspace base environment is selected, the pre built cached environment loads quickly, reducing startup time for notebooks and jobs.",
+  "plain_summary": "Workspace base environments are now generally available. Workspace base environments let workspace admins create and manage pre built, cached environments for serverless notebooks.",
   "capabilities": [
     {
       "title": "--index-url https://pypi.org/simple",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Workspace base environments are now generally available.",
   "note_id": "2026-04-24-workspace-base-environments-are-now-generally-available",
   "category": "platform"

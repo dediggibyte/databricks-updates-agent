@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#data-classification-system-table-beta",
   "what_it_does": "A new system table, system.data classification.results, is now available in Beta. This table captures detections of sensitive data at the column level across all enabled catalogs in your metastore.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "A new system table, system.data classification.results, is now available in Beta. This table captures detections of sensitive data at the column level across all enabled catalogs in your metastore.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "A new system table, system.data classification.results, is now available in Beta.",
   "note_id": "2025-09-30-data-classification-system-table-beta",
   "category": "platform"

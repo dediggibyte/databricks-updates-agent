@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/sql/release-notes/2025#visualizations-fix",
   "what_it_does": "Legend selection for aliased series names: Legend selection now works correctly for charts with aliased series names in SQL editor and notebooks.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Legend selection for aliased series names: Legend selection now works correctly for charts with aliased series names in SQL editor and notebooks. Legend selection for aliased series names: Legend selection now works correctly for charts with aliased series…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Legend selection for aliased series names: Legend selection now works correctly for charts with aliased series names in SQL editor and notebooks.",
   "note_id": "2025-10-09-visualizations-fix",
   "category": "platform"

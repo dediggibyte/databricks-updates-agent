@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/july#improvements-to-the-notebook-editing-experience",
   "what_it_does": "The following improvements have been made to the notebook editing experience: Add a split view to edit notebooks side by side. Pressing Cmd + F (Mac) or Ctrl + F (Windows) in a notebook now opens the native Databricks find and replace tool. This allows you to quickly search and replace text throughout your entire notebook, including content outside the current viewport.",
   "why_it_matters": "The following improvements have been made to the notebook editing experience: Add a split view to edit notebooks side by side.",
+  "plain_summary": "The following improvements have been made to the notebook editing experience: Add a split view to edit notebooks side by side. Pressing Cmd + F (Mac) or Ctrl + F (Windows) in a notebook now opens the native Databricks find and replace tool.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The following improvements have been made to the notebook editing experience: Add a split view to edit notebooks side by side.",
   "note_id": "2025-07-25-improvements-to-the-notebook-editing-experience",
   "category": "platform"

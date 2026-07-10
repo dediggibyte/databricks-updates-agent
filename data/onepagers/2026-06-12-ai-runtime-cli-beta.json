@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai-runtime-cli-beta",
   "what_it_does": "The AI Runtime CLI (`air`) allows users to submit and manage distributed training workloads on the AI Runtime serverless GPU compute platform directly from their local machines. It utilizes YAML-based job configurations for easy source control integration and supports both workspace-based and git-based workflows. This CLI is particularly useful for long-running or multi-node distributed training jobs that require persistence beyond interactive sessions.",
   "why_it_matters": "This update enhances productivity by enabling data scientists and machine learning engineers to manage GPU training workloads without the need for a notebook interface, streamlining the workflow and reducing the time to deployment. It also facilitates better version control and collaboration through YAML configurations, which can be easily integrated into existing CI/CD pipelines.",
+  "plain_summary": "The AI Runtime CLI (air) allows users to submit and manage distributed training workloads on the AI Runtime serverless GPU compute platform directly from their local machines. It utilizes YAML based job configurations for easy source control integration and…",
   "capabilities": [
     {
       "title": "YAML Job Configuration",

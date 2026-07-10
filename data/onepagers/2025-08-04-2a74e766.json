@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#privatelink-connections-from-serverless-compute-to-resources-in-your-vpc-through-an-nlb-is-generally-available",
   "what_it_does": "You can now enable AWS PrivateLink to resources in your VPC (virtual private cloud) through an NLB (network load balancer) from serverless compute. note Databricks charges for networking costs when serverless workloads connect to customer resources, and when performance intensive services egress data cross region back to clients. This page explains how to use the Databricks account console UI to configure PrivateLink connections from serverless compute to resources in your virtual private cloud (VPC) through a network load balancer (NLB).",
   "why_it_matters": "note Databricks charges for networking costs when serverless workloads connect to customer resources, and when performance intensive services egress data cross region back to clients.",
+  "plain_summary": "You can now enable AWS PrivateLink to resources in your VPC (virtual private cloud) through an NLB (network load balancer) from serverless compute. note Databricks charges for networking costs when serverless workloads connect to customer resources, and when…",
   "capabilities": [
     {
       "title": "For simplified deployment",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now enable AWS PrivateLink to resources in your VPC (virtual private cloud) through an NLB (network load balancer) from serverless compute.",
   "note_id": "2025-08-04-2a74e766",
   "category": "platform"

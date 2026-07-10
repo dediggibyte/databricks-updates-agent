@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#genie-file-uploads-and-formatting-improvements",
   "what_it_does": "File uploads in gated Public Preview: A new feature that allows users to upload CSV and Excel files directly to a Genie Space. To enable file uploads, contact your Databricks account team. X axis formatting: The x axis for Combo charts now applies formatting for improved readability.",
   "why_it_matters": "X axis formatting: The x axis for Combo charts now applies formatting for improved readability.",
+  "plain_summary": "File uploads in gated Public Preview: A new feature that allows users to upload CSV and Excel files directly to a Genie Space. To enable file uploads, contact your Databricks account team.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "File uploads in gated Public Preview: A new feature that allows users to upload CSV and Excel files directly to a Genie Space.",
   "note_id": "2025-02-27-genie-file-uploads-and-formatting-improvements",
   "category": "platform"

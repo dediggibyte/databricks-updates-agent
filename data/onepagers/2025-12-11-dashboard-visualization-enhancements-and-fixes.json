@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#dashboard-visualization-enhancements-and-fixes",
   "what_it_does": "Sort by hidden measure fields: Users can now sort charts by a different measure field that does not visually appear on the bar chart. Map legend position control: Authors can now change map legend positions. Safari cross filtering fix: Fixed an issue where cross filtering was not working in Safari.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Sort by hidden measure fields: Users can now sort charts by a different measure field that does not visually appear on the bar chart. Map legend position control: Authors can now change map legend positions.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Sort by hidden measure fields: Users can now sort charts by a different measure field that does not visually appear on the bar chart.",
   "note_id": "2025-12-11-dashboard-visualization-enhancements-and-fixes",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#anthropic-claude-opus-46-now-available-as-a-databricks-hosted-model",
   "what_it_does": "Mosaic AI Model Serving now supports Anthropic Claude Opus 4.6 as a Databricks hosted model. To access this model, use: Foundation Model APIs pay per token + Query reasoning models + Query vision models In this article, you learn how to write query requests for foundation models optimized for vision tasks, and served by Unity AI Gateway. prompt Genie Code (Agent mode) can do this for you.",
   "why_it_matters": "| For optimal performance, resize images before uploading if they are too large.",
+  "plain_summary": "Mosaic AI Model Serving now supports Anthropic Claude Opus 4.6 as a Databricks hosted model. To access this model, use: Foundation Model APIs pay per token + Query reasoning models + Query vision models In this article, you learn how to write query requests…",
   "capabilities": [
     {
       "title": "Query reasoning models",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Mosaic AI Model Serving now supports Anthropic Claude Opus 4.6 as a Databricks hosted model.",
   "note_id": "2026-02-05-anthropic-claude-opus-4-6-now-available-as-a-databricks-hosted-model",
   "category": "platform"

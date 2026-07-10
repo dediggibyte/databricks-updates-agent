@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-code-space-configuration",
   "what_it_does": "Genie Code space configuration: Genie Code now includes tools to configure your Genie Space. You can ask it to update instructions, example questions, descriptions, and more.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Genie Code space configuration: Genie Code now includes tools to configure your Genie Space. You can ask it to update instructions, example questions, descriptions, and more.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Genie Code space configuration: Genie Code now includes tools to configure your Genie Space.",
   "note_id": "2026-04-23-genie-code-space-configuration",
   "category": "platform"

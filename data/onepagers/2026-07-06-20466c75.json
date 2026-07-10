@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#standard-performance-mode-is-now-supported-for-materialized-view-or-streaming-table-refreshes-in-jobs",
   "what_it_does": "The update allows materialized view and streaming table refreshes orchestrated through SQL tasks in Lakeflow jobs to utilize the job's performance optimization settings. When performance optimization is disabled, these refreshes will operate in standard performance mode, which reduces the consumption of Databricks Units (DBUs). This feature enhances the flexibility of scheduling refreshes based on performance needs.",
   "why_it_matters": "This enhancement is significant for organizations looking to optimize their cloud costs by reducing DBU consumption during less critical refresh operations. It allows data teams to balance performance and cost, ensuring that resources are allocated efficiently while maintaining data freshness.",
+  "plain_summary": "The update allows materialized view and streaming table refreshes orchestrated through SQL tasks in Lakeflow jobs to utilize the job's performance optimization settings. When performance optimization is disabled, these refreshes will operate in standard…",
   "capabilities": [
     {
       "title": "Performance Mode Selection",

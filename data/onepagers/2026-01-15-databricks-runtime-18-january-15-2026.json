@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/18#databricks-runtime-18-january-15-2026",
   "what_it_does": "Databricks Runtime 18 is now in feature development, powered by Apache Spark 4.1.0. This version incorporates all features, improvements, and bug fixes from all previous Databricks Runtime releases. Behavioral changes Review the following changes, which take effect when clusters restart on this runtime.",
   "why_it_matters": "This version incorporates all features, improvements, and bug fixes from all previous Databricks Runtime releases.",
+  "plain_summary": "Databricks Runtime 18 is now in feature development, powered by Apache Spark 4.1.0. This version incorporates all features, improvements, and bug fixes from all previous Databricks Runtime releases.",
   "capabilities": [
     {
       "title": "Double.toString() and Float.toString() now produce",
@@ -29,12 +30,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Databricks Runtime 18 is now in feature development, powered by Apache Spark 4.1.0.",
   "note_id": "2026-01-15-databricks-runtime-18-january-15-2026",
   "category": "platform"

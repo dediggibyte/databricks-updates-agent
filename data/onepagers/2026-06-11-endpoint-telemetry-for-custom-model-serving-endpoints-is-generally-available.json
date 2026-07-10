@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#endpoint-telemetry-for-custom-model-serving-endpoints-is-generally-available",
   "what_it_does": "This feature allows users to configure endpoint telemetry for custom model serving endpoints, enabling the persistence of OpenTelemetry logs, traces, and metrics to Unity Catalog tables. It supports root cause analysis, monitoring of endpoint health, and compliance with SQL queries. Users can instrument their model code to capture telemetry data seamlessly.",
   "why_it_matters": "By providing detailed telemetry data, organizations can enhance their model performance monitoring, improve troubleshooting capabilities, and ensure compliance with data governance standards. This leads to better decision-making, reduced downtime, and increased trust in model outputs.",
+  "plain_summary": "This feature allows users to configure endpoint telemetry for custom model serving endpoints, enabling the persistence of OpenTelemetry logs, traces, and metrics to Unity Catalog tables. It supports root cause analysis, monitoring of endpoint health, and…",
   "capabilities": [
     {
       "title": "Telemetry Data Persistence",

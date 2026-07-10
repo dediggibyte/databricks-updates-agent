@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-space-improvements",
   "what_it_does": "Embedded compute credentials: Compute credentials are now embedded for all users of a Genie Space. These credentials are embedded when a Genie Space author changes the attached warehouse in the Genie Space. Paginated column lists: Column lists in the Configure tab are now paginated for improved usability, especially for rendering tables with many columns.",
   "why_it_matters": "Paginated column lists: Column lists in the Configure tab are now paginated for improved usability, especially for rendering tables with many columns.",
+  "plain_summary": "Embedded compute credentials: Compute credentials are now embedded for all users of a Genie Space. These credentials are embedded when a Genie Space author changes the attached warehouse in the Genie Space.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Embedded compute credentials: Compute credentials are now embedded for all users of a Genie Space.",
   "note_id": "2026-02-05-genie-space-improvements",
   "category": "platform"

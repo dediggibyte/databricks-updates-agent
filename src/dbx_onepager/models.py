@@ -107,6 +107,9 @@ class OnePager(BaseModel):
     # -- body
     what_it_does: str = Field(..., description="Technical explanation paragraph")
     why_it_matters: str = Field(..., description="Business impact paragraph")
+    # Plain-language one-liner for readers who just want the gist — shown as an
+    # "In short" block, especially for notes with no concrete adoption steps.
+    plain_summary: str = Field("", description="One plain-English sentence a non-expert understands")
     capabilities: list[Capability] = Field(default_factory=list, max_length=4)
     prerequisites: list[str] = Field(default_factory=list, max_length=5)
     use_cases: list[str] = Field(default_factory=list, max_length=6)

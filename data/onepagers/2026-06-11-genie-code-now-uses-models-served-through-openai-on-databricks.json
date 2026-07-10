@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-now-uses-models-served-through-openai-on-databricks",
   "what_it_does": "Genie Code now utilizes models served through OpenAI on Databricks, alongside Azure OpenAI and Anthropic models, when the partner-powered AI features setting is enabled. This integration allows users to access advanced AI capabilities, including Genie Code's agentic features, which are not available when the setting is disabled. The partner-powered AI features setting is enabled by default for most workspaces, providing broader access to AI functionalities.",
   "why_it_matters": "This update enhances Genie Code's functionality by leveraging powerful AI models, improving productivity and efficiency for data scientists and developers. By integrating OpenAI, users can access more sophisticated AI-driven features, which can lead to better insights and faster development cycles, ultimately driving innovation and competitive advantage.",
+  "plain_summary": "Genie Code now utilizes models served through OpenAI on Databricks, alongside Azure OpenAI and Anthropic models, when the partner powered AI features setting is enabled. This integration allows users to access advanced AI capabilities, including Genie Code's…",
   "capabilities": [
     {
       "title": "Enhanced AI Features",

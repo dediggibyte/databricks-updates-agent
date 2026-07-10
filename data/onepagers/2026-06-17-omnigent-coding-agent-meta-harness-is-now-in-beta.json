@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#omnigent-coding-agent-meta-harness-is-now-in-beta",
   "what_it_does": "Omnigent is now available in Beta. Omnigent is a coding agent meta harness that wraps coding agents such as Claude Code and Codex with a common platform: a web UI, persistent and shareable sessions, team collaboration, mobile access, contextual policies, and deployment infrastructure. Swap one line of configuration to switch runtimes while your tools, policies, and prompts stay the same.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "Omnigent is now available in Beta. Omnigent is a coding agent meta harness that wraps coding agents such as Claude Code and Codex with a common platform: a web UI, persistent and shareable sessions, team collaboration, mobile access, contextual policies, and…",
   "capabilities": [
     {
       "title": "A workspace in a region",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Omnigent is now available in Beta.",
   "note_id": "2026-06-17-omnigent-coding-agent-meta-harness-is-now-in-beta",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#declarative-automation-bundles-will-soon-default-to-use-the-direct-deployment-engine",
   "what_it_does": "On July 24, 2026, Declarative Automation Bundles will start using the direct deployment engine by default instead of the Terraform deployment engine. This will trigger a migration for all bundles still using the Terraform deployment engine. The Terraform deployment engine will eventually be removed and no longer available.",
   "why_it_matters": "The new direct deployment engine uses the Databricks Go SDK and has the following benefits: Avoids issues with firewalls, proxies, and custom provider registries Detailed diffs of changes available using bundle plan o json Faster deployment No requirement to download Terraform and terraform provider databricks before deployment Reduced time to release new bundle resources, because there is no need to align with a Terraform provider release How do I start using direct deployment?",
+  "plain_summary": "On July 24, 2026, Declarative Automation Bundles will start using the direct deployment engine by default instead of the Terraform deployment engine. This will trigger a migration for all bundles still using the Terraform deployment engine.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "On July 24, 2026, Declarative Automation Bundles will start using the direct deployment engine by default instead of the Terraform deployment engine.",
   "note_id": "2026-06-03-375405d7",
   "category": "platform"

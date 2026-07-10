@@ -7,7 +7,8 @@
   "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/manage-projects#recover-project",
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#recover-a-deleted-lakebase-project-within-7-days",
   "what_it_does": "When you delete a Lakebase project, it now enters a soft deleted state for 7 days before permanent deletion. You can recover the project during that window, restoring all branches, databases, endpoints, and project settings. A project is the top level container for your Lakebase resources, including branches, computes, databases, and roles.",
-  "why_it_matters": "Project limits Lakebase Postgres enforces the following limits for projects: | Resource | Limit | | | | | Maximum number of concurrently active computes | 20 | | Maximum number of read replicas per branch | 6 | | Maximum number of branches per project | 500 | | Maximum number of Postgres roles per branch | 500 | | Maximum number of Postgres databases per branch | 500 | | Database storage quota (per branch) | 16 TB | | Maximum number of projects per workspace | 1000 | | Maximum number of protected branches | 1 | | Maximum number of root branches | 3 | | Maximum number of unarchived branches | 10 | | Maximum number of manual snapshots | 10 | | Maximum history retention period | 30 days | | Minimum scale to zero time | 60 seconds | | Maximum scale to zero time | 7 days | Concurrently active compute limit The concurrently active compute limit caps how many computes can run at the same time to prevent resource exhaustion.",
+  "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "When you delete a Lakebase project, it now enters a soft deleted state for 7 days before permanent deletion. You can recover the project during that window, restoring all branches, databases, endpoints, and project settings.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [
@@ -19,12 +20,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "When you delete a Lakebase project, it now enters a soft deleted state for 7 days before permanent deletion.",
   "note_id": "2026-05-15-recover-a-deleted-lakebase-project-within-7-days",
   "category": "platform"

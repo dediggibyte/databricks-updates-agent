@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#govern-llms-in-unity-catalog-with-model-services-beta",
   "what_it_does": "This feature allows users to govern Databricks-hosted LLMs through model services in Unity Catalog, enabling centralized management of LLM endpoints. Model services serve as securable objects that define, share, and govern access to LLMs across multiple workspaces. Users can create and manage these services using the Unity AI Gateway UI, Catalog Explorer, or REST API, and can query them from both inside and outside Databricks.",
   "why_it_matters": "By centralizing the governance of LLMs, organizations can reduce duplication of effort and streamline access management across workspaces, enhancing productivity and governance. This feature allows for better tracking of usage and costs associated with LLMs, which is crucial for budgeting and resource allocation.",
+  "plain_summary": "This feature allows users to govern Databricks hosted LLMs through model services in Unity Catalog, enabling centralized management of LLM endpoints. Model services serve as securable objects that define, share, and govern access to LLMs across multiple…",
   "capabilities": [
     {
       "title": "Centralized Governance",

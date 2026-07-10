@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automatic-cost-attribution-for-materialized-views-and-streaming-tables-in-databricks-sql",
   "what_it_does": "Materialized view and streaming table refreshes in Databricks SQL now inherit custom tags from the SQL warehouse environment. These tags are propagated to billing surfaces, enabling accurate cost attribution of updates back to the source SQL warehouse. This feature allows users to better monitor and manage costs associated with materialized views and streaming tables.",
   "why_it_matters": "This update significantly enhances cost transparency and accountability for organizations using Databricks SQL. By linking costs directly to specific SQL warehouses, data teams can optimize resource allocation, improve budgeting accuracy, and reduce unnecessary expenses, ultimately leading to better financial governance.",
+  "plain_summary": "Materialized view and streaming table refreshes in Databricks SQL now inherit custom tags from the SQL warehouse environment. These tags are propagated to billing surfaces, enabling accurate cost attribution of updates back to the source SQL warehouse.",
   "capabilities": [
     {
       "title": "Custom Tag Inheritance",

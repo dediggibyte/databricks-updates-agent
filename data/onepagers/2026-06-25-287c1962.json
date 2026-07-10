@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#solution-accelerators-in-databricks-marketplace-are-now-published-as-apps-or-notebooks",
   "what_it_does": "Solution Accelerators in Databricks Marketplace have been reclassified from a separate listing type to being categorized as either interactive applications (apps) or code-based accelerators (notebooks). This change streamlines the user experience by consolidating offerings under familiar categories while maintaining the original content. The Marketplace serves as a centralized platform for discovering and connecting with various data assets and partner solutions.",
   "why_it_matters": "This update enhances the discoverability and usability of Solution Accelerators, allowing users to more easily find and utilize these resources in their workflows. By integrating them into the broader app and notebook categories, organizations can improve productivity and accelerate their data-driven initiatives, ultimately leading to better decision-making and innovation.",
+  "plain_summary": "Solution Accelerators in Databricks Marketplace have been reclassified from a separate listing type to being categorized as either interactive applications (apps) or code based accelerators (notebooks). This change streamlines the user experience by…",
   "capabilities": [
     {
       "title": "Unified Listing Categories",

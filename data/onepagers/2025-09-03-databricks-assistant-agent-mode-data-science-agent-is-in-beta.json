@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-assistant-agent-mode-data-science-agent-is-in-beta",
   "what_it_does": "Agent mode for Databricks Assistant is now in Beta. In Agent mode, the Assistant can orchestrate multi step workflows from a single prompt. The Data Science Agent is custom built for data science workflows and can build an entire notebook for tasks like EDA, forecasting, and machine learning from scratch.",
   "why_it_matters": "Using your prompt, it can plan a solution, retrieve relevant assets, run code, use cell outputs to improve results, fix errors automatically, and more.",
+  "plain_summary": "Agent mode for Databricks Assistant is now in Beta. In Agent mode, the Assistant can orchestrate multi step workflows from a single prompt.",
   "capabilities": [
     {
       "title": "\"Which table contains bakehouse transaction",
@@ -37,12 +38,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Agent mode for Databricks Assistant is now in Beta.",
   "note_id": "2025-09-03-databricks-assistant-agent-mode-data-science-agent-is-in-beta",
   "category": "platform"

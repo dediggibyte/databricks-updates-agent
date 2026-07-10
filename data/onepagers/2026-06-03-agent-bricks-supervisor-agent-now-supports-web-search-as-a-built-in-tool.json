@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-web-search-as-a-built-in-tool",
   "what_it_does": "You can now enable web search on your Supervisor Agent to answer questions that require current information from the public web. The supervisor returns a synthesized answer with source citations. Web search is also available as a web search tool in the Supervisor API.",
   "why_it_matters": "You can improve their coordination based on natural language feedback from your subject matter experts.",
+  "plain_summary": "You can now enable web search on your Supervisor Agent to answer questions that require current information from the public web. The supervisor returns a synthesized answer with source citations.",
   "capabilities": [
     {
       "title": "Serverless compute available (enabled by",
@@ -36,12 +37,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now enable web search on your Supervisor Agent to answer questions that require current information from the public web.",
   "note_id": "2026-06-03-agent-bricks-supervisor-agent-now-supports-web-search-as-a-built-in-tool",
   "category": "platform"

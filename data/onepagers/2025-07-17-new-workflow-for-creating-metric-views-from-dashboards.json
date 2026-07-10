@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2025#new-workflow-for-creating-metric-views-from-dashboards",
   "what_it_does": "Create a metric view from a dashboard dataset: Authors can now promote a dashboard dataset to a metric view using the AI/BI dashboard data tab. This article explains how to create and manage dashboard datasets using the dataset editor in an AI/BI dashboard. Define datasets To define or access existing datasets, click the Data tab near the upper left corner of your dashboard.",
   "why_it_matters": "Materialized views cache query results and refresh them on a specified schedule, which can reduce query execution time when the same data is accessed repeatedly.",
+  "plain_summary": "Create a metric view from a dashboard dataset: Authors can now promote a dashboard dataset to a metric view using the AI/BI dashboard data tab. This article explains how to create and manage dashboard datasets using the dataset editor in an AI/BI dashboard.",
   "capabilities": [
     {
       "title": "Select a Unity Catalog object",
@@ -29,12 +30,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Create a metric view from a dashboard dataset: Authors can now promote a dashboard dataset to a metric view using the AI/BI dashboard data tab.",
   "note_id": "2025-07-17-new-workflow-for-creating-metric-views-from-dashboards",
   "category": "platform"

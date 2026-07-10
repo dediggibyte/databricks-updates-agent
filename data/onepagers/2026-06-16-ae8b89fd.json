@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#lakeflow-designer-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
   "what_it_does": "Lakeflow Designer will be available by default for workspaces with the compliance security profile enabled in late July 2026. Lakeflow Designer is a visual, no code experience for preparing and transforming data on a drag and drop canvas, with all workflows backed by production ready code governed by Unity Catalog. Lakeflow Designer is a visual, no code, AI native experience for data preparation and analytics.",
   "why_it_matters": "Lakeflow Designer is a visual, no code experience for preparing and transforming data on a drag and drop canvas, with all workflows backed by production ready code governed by Unity Catalog.",
+  "plain_summary": "Lakeflow Designer will be available by default for workspaces with the compliance security profile enabled in late July 2026. Lakeflow Designer is a visual, no code experience for preparing and transforming data on a drag and drop canvas, with all workflows…",
   "capabilities": [
     {
       "title": "What is Lakeflow Designer?",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Lakeflow Designer will be available by default for workspaces with the compliance security profile enabled in late July 2026.",
   "note_id": "2026-06-16-ae8b89fd",
   "category": "platform"

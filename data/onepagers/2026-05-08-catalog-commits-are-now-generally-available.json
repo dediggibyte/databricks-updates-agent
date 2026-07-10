@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#catalog-commits-are-now-generally-available",
   "what_it_does": "Catalog commits are now generally available. Catalog commits expand Unity Catalog managed table interoperability, strengthen Unity Catalog governance capabilities, and unlock new features such as multi statement, multi table transactions. When catalog commits are enabled on a Unity Catalog managed Delta table, Unity Catalog becomes the table's system of coordination, brokering access and state across engines.",
   "why_it_matters": "Catalog commits expand Unity Catalog managed table interoperability, strengthen Unity Catalog governance capabilities, and unlock new features such as multi statement, multi table transactions.",
+  "plain_summary": "Catalog commits are now generally available. Catalog commits expand Unity Catalog managed table interoperability, strengthen Unity Catalog governance capabilities, and unlock new features such as multi statement, multi table transactions.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Catalog commits are now generally available.",
   "note_id": "2026-05-08-catalog-commits-are-now-generally-available",
   "category": "platform"

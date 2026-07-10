@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes-1",
   "what_it_does": "Dynamic annotation lines: Annotation lines can now be driven by data or a calculation instead of a fixed value, letting you show running averages, variable thresholds, or anomaly markers that update with your data. Six new preset themes: Six new built in color and style themes are now available for AI/BI dashboards, giving authors more ready made options without creating a custom theme. Local metric view and dashboard relationship fix: Fixed a bug where local metric views and dashboard relationships sometimes failed when referencing assets from a Hive Metastore.",
   "why_it_matters": "This page explains how to customize dashboard settings and themes to match your organization's branding, improve readability, and ensure consistent data presentation across different regions and languages.",
+  "plain_summary": "Dynamic annotation lines: Annotation lines can now be driven by data or a calculation instead of a fixed value, letting you show running averages, variable thresholds, or anomaly markers that update with your data. Six new preset themes: Six new built in…",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Dynamic annotation lines: Annotation lines can now be driven by data or a calculation instead of a fixed value, letting you show running averages, variable thresholds, or anomaly markers that update…",
   "note_id": "2026-06-25-dashboard-enhancements-and-bug-fixes",
   "category": "platform"

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-now-supports-auto-approve-for-tool-actions",
   "what_it_does": "Genie Code now offers an auto approve mode that approves tool actions, like running code or editing notebooks, without prompting you for each request. An AI classifier reviews each action and blocks risky ones. Auto approve is a productivity feature, not a security boundary.",
   "why_it_matters": "Auto approve is a productivity feature, not a security boundary.",
+  "plain_summary": "Genie Code now offers an auto approve mode that approves tool actions, like running code or editing notebooks, without prompting you for each request. An AI classifier reviews each action and blocks risky ones.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Genie Code now offers an auto approve mode that approves tool actions, like running code or editing notebooks, without prompting you for each request.",
   "note_id": "2026-06-04-genie-code-now-supports-auto-approve-for-tool-actions",
   "category": "platform"

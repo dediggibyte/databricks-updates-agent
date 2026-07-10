@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/march#databricks-apps-supports-uv-for-python-dependency-management",
   "what_it_does": "You can now use uv to manage Python dependencies in your Databricks apps using pyproject.toml and uv.lock. After you create and develop your Databricks app, deploy it to make it accessible in the Databricks workspace. Deployment builds your app, installs dependencies, and runs it using the configuration defined in your project files.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "You can now use uv to manage Python dependencies in your Databricks apps using pyproject.toml and uv.lock. After you create and develop your Databricks app, deploy it to make it accessible in the Databricks workspace.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now use uv to manage Python dependencies in your Databricks apps using pyproject.toml and uv.lock.",
   "note_id": "2026-03-17-databricks-apps-supports-uv-for-python-dependency-management",
   "category": "platform"

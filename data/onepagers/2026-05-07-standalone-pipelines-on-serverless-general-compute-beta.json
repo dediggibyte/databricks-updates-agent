@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#standalone-pipelines-on-serverless-general-compute-beta",
   "what_it_does": "Standalone pipelines, including materialized views and streaming tables, can now be created from a notebook running on serverless general compute. Standalone pipelines (renamed from pipelines on Databricks SQL) can be created using SQL or Python. Standalone pipelines are in Beta.",
   "why_it_matters": "Cost attribution and control are not available.",
+  "plain_summary": "Standalone pipelines, including materialized views and streaming tables, can now be created from a notebook running on serverless general compute. Standalone pipelines (renamed from pipelines on Databricks SQL) can be created using SQL or Python.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Standalone pipelines, including materialized views and streaming tables, can now be created from a notebook running on serverless general compute.",
   "note_id": "2026-05-07-standalone-pipelines-on-serverless-general-compute-beta",
   "category": "platform"

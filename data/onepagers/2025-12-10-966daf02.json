@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#change-owner-for-materialized-views-or-streaming-tables-defined-in-databricks-sql",
   "what_it_does": "You can now change the owner for materialized views or streaming tables defined in Databricks SQL through Catalog Explorer. For materialized view details, see Configure standalone materialized views. For streaming table details, see Use standalone streaming tables.",
   "why_it_matters": "Scheduled refreshes can have update notifications, and you can set the performance mode for the refresh.",
+  "plain_summary": "You can now change the owner for materialized views or streaming tables defined in Databricks SQL through Catalog Explorer. For materialized view details, see Configure standalone materialized views.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now change the owner for materialized views or streaming tables defined in Databricks SQL through Catalog Explorer.",
   "note_id": "2025-12-10-966daf02",
   "category": "platform"

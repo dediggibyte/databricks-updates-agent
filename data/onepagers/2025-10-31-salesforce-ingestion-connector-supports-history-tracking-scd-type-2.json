@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#salesforce-ingestion-connector-supports-history-tracking-scd-type-2",
   "what_it_does": "By default, history tracking is off (SCD type 1) for managed connectors in Lakeflow Connect. This setting overwrites outdated records as they're updated and deleted in the source. You can now enable history tracking (SCD type 2) to maintain a history of those changes.",
   "why_it_matters": "Reduces operational overhead and unlocks new capabilities for data teams on Databricks.",
+  "plain_summary": "By default, history tracking is off (SCD type 1) for managed connectors in Lakeflow Connect. This setting overwrites outdated records as they're updated and deleted in the source.",
   "capabilities": [
     {
       "title": "table: sourceurl: <project-id> sourceschema: <property-name>",
@@ -33,12 +34,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "By default, history tracking is off (SCD type 1) for managed connectors in Lakeflow Connect.",
   "note_id": "2025-10-31-salesforce-ingestion-connector-supports-history-tracking-scd-type-2",
   "category": "platform"

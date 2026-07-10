@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/november#sftp-connector-public-preview",
   "what_it_does": "The SFTP connector in Lakeflow Connect (Public Preview) extends Auto Loader functionality to ingest files from SFTP servers. Learn how to ingest files from SFTP servers using Lakeflow Connect. The SFTP connector extends Auto Loader functionality to provide secure, incremental ingestion from SFTP servers with Unity Catalog governance.",
   "why_it_matters": "The SFTP connector extends Auto Loader functionality to provide secure, incremental ingestion from SFTP servers with Unity Catalog governance.",
+  "plain_summary": "The SFTP connector in Lakeflow Connect (Public Preview) extends Auto Loader functionality to ingest files from SFTP servers. Learn how to ingest files from SFTP servers using Lakeflow Connect.",
   "capabilities": [
     {
       "title": "Dedicated Access Mode: MANAGE CONNECTION",
@@ -25,12 +26,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "The SFTP connector in Lakeflow Connect (Public Preview) extends Auto Loader functionality to ingest files from SFTP servers.",
   "note_id": "2025-11-13-sftp-connector-public-preview",
   "category": "platform"

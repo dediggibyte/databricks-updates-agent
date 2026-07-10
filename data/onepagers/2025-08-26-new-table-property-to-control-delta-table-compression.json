@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#new-table-property-to-control-delta-table-compression",
   "what_it_does": "You can now explicitly set the compression codec for a Delta table using the delta.parquet.compression.codec table property. This property ensures that all future writes to the table use the chosen codec. Delta Lake and Apache Iceberg tables use table properties to configure behavior and features, including data layout, file size, data skipping, isolation level, and change data feed.",
   "why_it_matters": "This doesn't impact performance because operations against the log are constant time.",
+  "plain_summary": "You can now explicitly set the compression codec for a Delta table using the delta.parquet.compression.codec table property. This property ensures that all future writes to the table use the chosen codec.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now explicitly set the compression codec for a Delta table using the delta.parquet.compression.codec table property.",
   "note_id": "2025-08-26-new-table-property-to-control-delta-table-compression",
   "category": "platform"

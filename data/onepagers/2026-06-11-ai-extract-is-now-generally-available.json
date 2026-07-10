@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai_extract-is-now-generally-available",
   "what_it_does": "The `ai_extract` function enables the extraction of structured data from unstructured text, documents, and images based on a user-defined schema. It supports complex data types including nested objects and arrays, and provides features like type validation, citation tracking, and confidence scoring. This function is integrated with a visual UI for building and refining extraction agents, allowing users to optimize their data extraction processes.",
   "why_it_matters": "This update enhances data accessibility and usability for organizations by transforming unstructured data into actionable insights, improving reporting and analysis capabilities. It benefits data analysts and business leaders by streamlining workflows, reducing manual data processing time, and enabling more informed decision-making based on structured data extraction.",
+  "plain_summary": "The ai extract function enables the extraction of structured data from unstructured text, documents, and images based on a user defined schema. It supports complex data types including nested objects and arrays, and provides features like type validation…",
   "capabilities": [
     {
       "title": "Schema-Based Extraction",

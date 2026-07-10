@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#budgets-are-now-generally-available",
   "what_it_does": "Budgets allow administrators to define spending thresholds specifically for Unity AI Gateway, enabling tracking of monthly expenses through filters applied to billing records. Admins can create shared or per-user thresholds, with options for alerts or blocking usage when limits are reached. This functionality also extends to Genie product usage within Unity AI Gateway budgets.",
   "why_it_matters": "This feature enhances financial control and governance for organizations using Unity AI Gateway, allowing for better budget management and cost predictability. By setting thresholds, companies can prevent unexpected overspending, ensuring that resources are allocated efficiently and effectively.",
+  "plain_summary": "Budgets allow administrators to define spending thresholds specifically for Unity AI Gateway, enabling tracking of monthly expenses through filters applied to billing records. Admins can create shared or per user thresholds, with options for alerts or…",
   "capabilities": [
     {
       "title": "Shared Thresholds",

@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/april#lakebase-opentelemetry-export-beta",
   "what_it_does": "You can now export Lakebase Postgres metrics and logs to any OTLP compatible observability backend, including Grafana Cloud, New Relic, and Datadog. Configure the endpoint, authentication, and resource attributes from the Lakebase App. This feature is in Beta.",
   "why_it_matters": "note If scale to zero suspends a compute, that compute doesn't emit metrics or logs until it runs again.",
+  "plain_summary": "You can now export Lakebase Postgres metrics and logs to any OTLP compatible observability backend, including Grafana Cloud, New Relic, and Datadog. Configure the endpoint, authentication, and resource attributes from the Lakebase App.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "You can now export Lakebase Postgres metrics and logs to any OTLP compatible observability backend, including Grafana Cloud, New Relic, and Datadog.",
   "note_id": "2026-04-20-lakebase-opentelemetry-export-beta",
   "category": "platform"

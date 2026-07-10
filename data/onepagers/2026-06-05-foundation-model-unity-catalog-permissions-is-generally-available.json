@@ -8,6 +8,7 @@
   "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#foundation-model-unity-catalog-permissions-is-generally-available",
   "what_it_does": "Foundation model Unity Catalog permissions is now generally available. This feature requires enablement by your Databricks account team. Account admins can use Unity Catalog permissions on the system.ai schema to control which Databricks hosted foundation models your organization can access.",
   "why_it_matters": "When to use foundation model Unity Catalog permissions Use this feature only when legally required to restrict which specific models are open, such as: Export controlled model families Vendor restricted or region restricted models Corporate policies prohibiting specific foundation models For day to day governance, use: system.billing for cost tracking and attribution AI Gateway for rate limits and request level usage tracking Private Link or private networking for secure connectivity Egress and network controls for restricting outbound traffic How foundation model Unity Catalog permissions work Foundation model Unity Catalog permissions use Unity Catalog permissions on the system.ai schema and individual model objects.",
+  "plain_summary": "Foundation model Unity Catalog permissions is now generally available. This feature requires enablement by your Databricks account team.",
   "capabilities": [],
   "prerequisites": [],
   "use_cases": [],
@@ -16,12 +17,7 @@
     "Databricks Platform",
     "Platform"
   ],
-  "steps": [
-    {
-      "title": "Read the docs",
-      "desc": "Review the linked release note."
-    }
-  ],
+  "steps": [],
   "key_takeaway": "Foundation model Unity Catalog permissions is now generally available.",
   "note_id": "2026-06-05-foundation-model-unity-catalog-permissions-is-generally-available",
   "category": "platform"
