@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-09-private-connectivity-to-sap-business-data-cloud-bdc",
+  "title": "Private connectivity to SAP Business Data Cloud (BDC)",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#private-connectivity-to-sap-business-data-cloud-bdc",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now use AWS PrivateLink to privately connect to SAP Business Data Cloud (BDC). If your organization requires private network connectivity, configure AWS PrivateLink to the S3 buckets that back your SAP BDC shares before you create a connection. See [Set up private connectivity to SAP BDC](/aws/en/opensharing/sap-bdc/create-connection#private-connectivity).",
+  "ref_links": [
+    {
+      "text": "Set up private connectivity to SAP BDC",
+      "url": "https://docs.databricks.com/aws/en/opensharing/sap-bdc/create-connection#private-connectivity"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-14T09:09:55.471934Z"
+}

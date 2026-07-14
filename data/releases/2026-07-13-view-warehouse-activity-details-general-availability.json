@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-13-view-warehouse-activity-details-general-availability",
+  "title": "View warehouse activity details (General Availability)",
+  "date": "2026-07-13",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#view-warehouse-activity-details-general-availability",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The **Activity details** toggle in the SQL warehouse monitoring UI is now generally available. View color-coded annotations on the **Running clusters** chart that explain why a warehouse remains active, including query activity, fetching queries, open sessions, and idle states. Hover over bars to see metadata, or click on fetching activity to filter the query history table. See [Activity details](/aws/en/compute/sql-warehouse/monitor#activity-details).",
+  "ref_links": [
+    {
+      "text": "Activity details",
+      "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/monitor#activity-details"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-14T09:09:55.464567Z"
+}

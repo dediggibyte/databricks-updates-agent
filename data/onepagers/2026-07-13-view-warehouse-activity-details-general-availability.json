@@ -1,0 +1,47 @@
+{
+  "product": "SQL Warehouse Monitoring",
+  "tagline": "Enhanced visibility into warehouse activity now generally available.",
+  "updated": "Jul 13, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/monitor#activity-details",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#view-warehouse-activity-details-general-availability",
+  "what_it_does": "The Activity details feature in the SQL warehouse monitoring UI allows users to view color-coded annotations on the Running clusters chart, indicating the reasons for warehouse activity, such as query processing, fetching results, or idle states. Users can hover over the bars for metadata insights and click on fetching activity to filter the query history table. This feature refreshes every 5-10 minutes, providing real-time insights into warehouse utilization.",
+  "why_it_matters": "This update enhances operational efficiency by providing clear visibility into SQL warehouse activity, enabling data teams to quickly identify and address performance bottlenecks. By understanding why a warehouse remains active, organizations can optimize resource allocation, reduce costs, and improve overall query performance, leading to better user experiences and productivity.",
+  "plain_summary": "You can now see detailed reasons for SQL warehouse activity in real-time.",
+  "capabilities": [
+    {
+      "title": "Color-Coded Annotations",
+      "desc": "View color-coded annotations that explain why a warehouse is active during specific time intervals."
+    },
+    {
+      "title": "Metadata Insights",
+      "desc": "Hover over activity bars to see detailed metadata, including statement IDs and user information."
+    },
+    {
+      "title": "Query Filtering",
+      "desc": "Click on fetching activity bars to filter the query history table for relevant queries."
+    },
+    {
+      "title": "Real-Time Updates",
+      "desc": "Activity details refresh every 5-10 minutes, providing up-to-date information on warehouse status."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Identify long-running queries that keep the warehouse active.",
+    "Optimize resource allocation based on real-time activity insights.",
+    "Monitor user activity and query performance for better governance.",
+    "Quickly troubleshoot performance issues by analyzing fetching states."
+  ],
+  "limitations": [],
+  "architecture": [
+    "SQL Warehouse",
+    "Monitoring UI",
+    "Activity Details Feature"
+  ],
+  "steps": [],
+  "key_takeaway": "The new Activity details feature provides critical insights into SQL warehouse utilization, enabling better resource management and performance optimization.",
+  "note_id": "2026-07-13-view-warehouse-activity-details-general-availability",
+  "category": "platform"
+}

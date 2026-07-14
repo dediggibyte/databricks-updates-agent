@@ -1,0 +1,75 @@
+{
+  "product": "Private Connectivity to SAP Business Data Cloud",
+  "tagline": "Enhance your data security with private network access to SAP BDC.",
+  "updated": "Jul 9, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/sap-bdc/create-connection#private-connectivity",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#private-connectivity-to-sap-business-data-cloud-bdc",
+  "what_it_does": "This update allows users to establish private connectivity to SAP Business Data Cloud (BDC) using AWS PrivateLink, ensuring secure data transfer. Organizations must configure AWS PrivateLink to the S3 buckets associated with their SAP BDC shares prior to creating a connection. The setup involves creating an AWS interface endpoint and submitting a ServiceNow ticket to SAP for bucket policy adjustments. This feature is essential for organizations that prioritize data privacy and security in their cloud environments.",
+  "why_it_matters": "By enabling private connectivity to SAP BDC, organizations can enhance their data security posture, reduce exposure to public networks, and comply with stringent data governance requirements. This capability benefits data engineers and platform leaders by facilitating secure data sharing and integration, ultimately improving operational efficiency and reducing risk.",
+  "plain_summary": "You can now securely connect to SAP Business Data Cloud using private network access.",
+  "capabilities": [
+    {
+      "title": "AWS PrivateLink Integration",
+      "desc": "Establish private connections to SAP BDC using AWS PrivateLink for enhanced security."
+    },
+    {
+      "title": "Unity Catalog Support",
+      "desc": "Integrate SAP BDC data products with Unity Catalog for improved data governance."
+    },
+    {
+      "title": "Automatic Metadata Sync",
+      "desc": "SAP semantic metadata automatically syncs into Unity Catalog upon mounting shares."
+    },
+    {
+      "title": "Connection Management",
+      "desc": "Easily create, update, and delete SAP BDC connections within Databricks."
+    }
+  ],
+  "prerequisites": [
+    "User must be a workspace admin.",
+    "User must have CREATE PROVIDER and CREATE RECIPIENT privileges.",
+    "Databricks workspace must be enabled for Unity Catalog.",
+    "OpenSharing must be enabled on the metastore."
+  ],
+  "use_cases": [
+    "Securely share data between Databricks and SAP BDC.",
+    "Integrate SAP BDC data into analytics workflows.",
+    "Maintain compliance with data governance policies."
+  ],
+  "limitations": [
+    "A maximum of five connections per metastore is allowed."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "AWS PrivateLink",
+    "SAP Business Data Cloud",
+    "Unity Catalog"
+  ],
+  "steps": [
+    {
+      "title": "Configure AWS PrivateLink",
+      "desc": "Set up AWS PrivateLink to the S3 buckets backing your SAP BDC shares."
+    },
+    {
+      "title": "Create AWS Interface Endpoint",
+      "desc": "Enter the name of the S3 bucket backing your SAP BDC share when creating the endpoint."
+    },
+    {
+      "title": "Submit ServiceNow Ticket",
+      "desc": "Request SAP to add your VPC endpoint to the bucket policy."
+    },
+    {
+      "title": "Obtain Connection Identifier",
+      "desc": "Share the Databricks connection identifier with your SAP BDC admin."
+    },
+    {
+      "title": "Establish SAP BDC Connection",
+      "desc": "Use the connection link provided by your SAP BDC admin to complete the connection setup."
+    }
+  ],
+  "key_takeaway": "This update provides secure, private connectivity to SAP Business Data Cloud, enhancing data security and compliance.",
+  "note_id": "2026-07-09-private-connectivity-to-sap-business-data-cloud-bdc",
+  "category": "platform"
+}
