@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-14-trigger-availablenow-support-for-opensharing-streaming-ga",
+  "title": "Trigger.AvailableNow support for OpenSharing streaming (GA)",
+  "date": "2026-07-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#triggeravailablenow-support-for-opensharing-streaming-ga",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Streaming reads from OpenSharing tables now support the `Trigger.AvailableNow` trigger. This trigger captures the shared table's current version when it starts, processes all available data across one or more micro-batches (honoring `maxFilesPerTrigger` and `maxVersionsPerRpc`), and then stops, which is well suited to scheduled, batch-like incremental processing. Previously, `Trigger.AvailableNow` on a OpenSharing source was converted to `Trigger.Once`, which processed a single micro-batch per run. This feature requires Databricks Runtime 18.0 or above.\n\nSee [Query a table using Apache Spark Structured Streaming](/aws/en/opensharing/read-data-databricks#streaming-source) for Databricks-to-Databricks recipients and [Access a shared table using Spark Structured Streaming](/aws/en/opensharing/read-data-open#streaming-source) for open sharing recipients.",
+  "ref_links": [
+    {
+      "text": "Query a table using Apache Spark Structured Streaming",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-databricks#streaming-source"
+    },
+    {
+      "text": "Access a shared table using Spark Structured Streaming",
+      "url": "https://docs.databricks.com/aws/en/opensharing/read-data-open#streaming-source"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-15T09:15:09.049005Z"
+}

@@ -1,0 +1,48 @@
+{
+  "product": "Trigger.AvailableNow for OpenSharing Streaming",
+  "tagline": "Enhanced streaming capabilities for OpenSharing tables.",
+  "updated": "Jul 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/opensharing/read-data-open#streaming-source",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#triggeravailablenow-support-for-opensharing-streaming-ga",
+  "what_it_does": "The `Trigger.AvailableNow` trigger now supports streaming reads from OpenSharing tables, capturing the current version of the shared table and processing all available data across multiple micro-batches. This mechanism allows for scheduled, batch-like incremental processing, adhering to limits set by `maxFilesPerTrigger` and `maxVersionsPerRpc`. This feature is available for users on Databricks Runtime 18.0 or higher.",
+  "why_it_matters": "This update significantly enhances the efficiency of data processing workflows by allowing users to process all available data in a single run, rather than just one micro-batch. This capability is particularly beneficial for organizations that rely on timely data updates for analytics and reporting, ultimately improving productivity and decision-making processes.",
+  "plain_summary": "You can now use a new trigger to efficiently process streaming data from shared tables.",
+  "capabilities": [
+    {
+      "title": "Batch-like Processing",
+      "desc": "Processes all available data across multiple micro-batches."
+    },
+    {
+      "title": "Version Capture",
+      "desc": "Captures the current version of the shared table at the start of processing."
+    },
+    {
+      "title": "Incremental Updates",
+      "desc": "Supports scheduled processing for timely data updates."
+    },
+    {
+      "title": "Runtime Requirement",
+      "desc": "Requires Databricks Runtime 18.0 or above."
+    }
+  ],
+  "prerequisites": [
+    "Databricks Runtime 18.0 or above"
+  ],
+  "use_cases": [
+    "Scheduled data processing for analytics",
+    "Incremental updates for reporting",
+    "Real-time data integration workflows"
+  ],
+  "limitations": [],
+  "architecture": [
+    "OpenSharing Source",
+    "Streaming Trigger",
+    "Databricks Runtime"
+  ],
+  "steps": [],
+  "key_takeaway": "The new `Trigger.AvailableNow` support for OpenSharing streaming enhances data processing efficiency and enables timely analytics.",
+  "note_id": "2026-07-14-trigger-availablenow-support-for-opensharing-streaming-ga",
+  "category": "platform"
+}
