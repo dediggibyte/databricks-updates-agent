@@ -1,0 +1,70 @@
+{
+  "product": "Strac Connector",
+  "tagline": "Ingest data-security audit events from Strac into Databricks.",
+  "updated": "Jul 9, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/strac",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#strac-connector-beta",
+  "what_it_does": "The Strac connector in Lakeflow Connect allows users to ingest data-security audit events from their Strac instance into Databricks. It supports UI-based and API-based pipeline authoring, incremental ingestion, and automated schema evolution for new and deleted columns. Authentication is performed using a Strac API key, ensuring secure access to the data. The connector also integrates with Unity Catalog for governance and orchestration using Databricks Lakeflow Jobs.",
+  "why_it_matters": "This update enhances data governance and security by enabling organizations to seamlessly ingest and analyze audit events from Strac, improving compliance and monitoring capabilities. It benefits data engineers and administrators by simplifying the data ingestion process and ensuring that security-related data is readily available for analysis. This can lead to better decision-making and risk management.",
+  "plain_summary": "The Strac connector allows you to easily bring security audit data from Strac into Databricks.",
+  "capabilities": [
+    {
+      "title": "UI-based Pipeline Authoring",
+      "desc": "Users can create data ingestion pipelines through a user-friendly interface."
+    },
+    {
+      "title": "Incremental Ingestion",
+      "desc": "The connector supports incremental data ingestion, reducing the load on systems."
+    },
+    {
+      "title": "Unity Catalog Governance",
+      "desc": "Integrates with Unity Catalog for enhanced data governance and access control."
+    },
+    {
+      "title": "Automated Schema Evolution",
+      "desc": "Supports automated schema evolution for new and deleted columns."
+    }
+  ],
+  "prerequisites": [
+    "A valid Strac API key for authentication.",
+    "Admin access to configure Strac for ingestion.",
+    "Unity Catalog connection must be created for non-admins to create pipelines."
+  ],
+  "use_cases": [
+    "Ingesting security audit logs for compliance monitoring.",
+    "Analyzing data-security events for risk assessment.",
+    "Automating data ingestion workflows for security data."
+  ],
+  "limitations": [
+    "API-based column selection and deselection is not supported.",
+    "API-based row filtering is not supported.",
+    "SCD Type 2 is not supported.",
+    "Automated schema evolution does not support data type changes.",
+    "Column renames require a full refresh."
+  ],
+  "architecture": [
+    "Strac Instance",
+    "Lakeflow Connect",
+    "Databricks Workspace",
+    "Unity Catalog"
+  ],
+  "steps": [
+    {
+      "title": "Configure Strac for Ingestion",
+      "desc": "Obtain a Strac API key to authenticate with Databricks."
+    },
+    {
+      "title": "Create Unity Catalog Connection",
+      "desc": "Create a connection in Catalog Explorer for pipeline creation."
+    },
+    {
+      "title": "Create Ingestion Pipeline",
+      "desc": "Select a supported interface and create a pipeline from an existing connection."
+    }
+  ],
+  "key_takeaway": "The Strac connector streamlines the ingestion of security audit data into Databricks, enhancing data governance and compliance capabilities.",
+  "note_id": "2026-07-09-strac-connector-beta",
+  "category": "platform"
+}

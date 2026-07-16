@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-15-custom-urls-for-your-databricks-account-public-preview",
+  "title": "Custom URLs for your Databricks account (Public Preview)",
+  "date": "2026-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#custom-urls-for-your-databricks-account-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now claim and enable a Custom URL that gives your Databricks account a single, branded entry point (for example, `acme.databricks.com`) for all users and workspaces. See [Give your Databricks account a custom URL](/aws/en/admin/account-settings/custom-url).",
+  "ref_links": [
+    {
+      "text": "Give your Databricks account a custom URL",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/custom-url"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-16T09:21:09.256829Z"
+}

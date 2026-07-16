@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-09-strac-connector-beta",
+  "title": "Strac connector (Beta)",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#strac-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Strac connector is now available in Lakeflow Connect in [Beta](/aws/en/release-notes/release-types). Workspace admins can control access to this feature from the **Previews** page.\n\nThe connector ingests data-security audit events from your Strac instance into Databricks. Authentication uses a Strac API key.\n\nSee [Strac connector](/aws/en/ingestion/lakeflow-connect/strac).",
+  "ref_links": [
+    {
+      "text": "Beta",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Strac connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/strac"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-16T09:21:09.276564Z"
+}

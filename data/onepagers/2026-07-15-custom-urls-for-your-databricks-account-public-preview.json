@@ -1,0 +1,73 @@
+{
+  "product": "Custom URLs for Databricks Account",
+  "tagline": "Enhance branding with a single entry point for your Databricks account.",
+  "updated": "Jul 15, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/account-settings/custom-url",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#custom-urls-for-your-databricks-account-public-preview",
+  "what_it_does": "The Custom URL feature allows eligible Databricks account admins to claim a branded URL (e.g., `acme.databricks.com`) that serves as a unified entry point for all users and workspaces. This replaces the need for multiple per-workspace URLs, enabling seamless navigation between workspaces without reauthentication. The feature requires accounts to be enabled for unified login and has specific prerequisites regarding domain email addresses and workspace configurations.",
+  "why_it_matters": "This update improves user experience by simplifying access to Databricks environments, enhancing brand visibility, and potentially increasing user engagement. By providing a single, recognizable URL, organizations can streamline their workflows and reduce confusion among users, ultimately leading to improved productivity and collaboration.",
+  "plain_summary": "You can now set a custom URL for your Databricks account, making it easier for users to access all workspaces.",
+  "capabilities": [
+    {
+      "title": "Branded Entry Point",
+      "desc": "Claim a custom URL that serves as a single branded entry point for your Databricks account."
+    },
+    {
+      "title": "Seamless Navigation",
+      "desc": "Users can switch between workspaces without needing to log in again after enabling the custom URL."
+    },
+    {
+      "title": "Auto-Redirect Option",
+      "desc": "Enable auto-redirect to automatically send users from legacy workspace URLs to the new custom URL."
+    },
+    {
+      "title": "Developer Tool Compatibility",
+      "desc": "Support for custom URLs is available in various Databricks developer tools, requiring specific minimum versions."
+    }
+  ],
+  "prerequisites": [
+    "Account must be a paying, verified customer account.",
+    "Admin must have a non-reserved domain email address.",
+    "Account must be enabled for unified login.",
+    "Account must not use Chrome-managed passkeys.",
+    "Workspaces must not use Private Link Inbound."
+  ],
+  "use_cases": [
+    "Organizations looking to enhance their brand presence through a unified URL.",
+    "Teams needing to simplify access to multiple workspaces for improved collaboration.",
+    "Companies wanting to streamline user onboarding and reduce login friction."
+  ],
+  "limitations": [
+    "Custom URLs can be changed or revoked by Databricks at any time.",
+    "Certain partner connectors do not support custom URLs and must use legacy URLs."
+  ],
+  "architecture": [
+    "Account Console",
+    "Custom URL Configuration",
+    "Unified Login",
+    "Workspace Navigation"
+  ],
+  "steps": [
+    {
+      "title": "Access Account Settings",
+      "desc": "In the account console, navigate to Settings > Account settings."
+    },
+    {
+      "title": "Claim Custom URL",
+      "desc": "Click the Claim your URL button to enable the custom URL."
+    },
+    {
+      "title": "Enable Auto-Redirect",
+      "desc": "Optionally enable the auto-redirect setting for legacy workspace URLs."
+    },
+    {
+      "title": "Access Genie One",
+      "desc": "Navigate to Genie One at your new custom URL to access assets."
+    }
+  ],
+  "key_takeaway": "The new Custom URL feature provides a branded, single entry point for Databricks accounts, enhancing user experience and brand visibility.",
+  "note_id": "2026-07-15-custom-urls-for-your-databricks-account-public-preview",
+  "category": "platform"
+}

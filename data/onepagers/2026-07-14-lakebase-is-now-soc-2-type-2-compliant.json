@@ -1,0 +1,41 @@
+{
+  "product": "Lakebase",
+  "tagline": "Now SOC 2 Type 2 compliant for enhanced security.",
+  "updated": "Jul 14, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection#compliance",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakebase-is-now-soc-2-type-2-compliant",
+  "what_it_does": "Lakebase is now compliant with SOC 2 Type 2 standards, which ensures that it meets rigorous security and data protection requirements. This compliance indicates that Lakebase has implemented effective controls to protect customer data and maintain confidentiality, integrity, and availability. The compliance status is particularly relevant for organizations that handle sensitive information and require assurance of data security practices.",
+  "why_it_matters": "Achieving SOC 2 Type 2 compliance enhances trust and credibility with customers, particularly those in regulated industries. It demonstrates a commitment to data security and can be a differentiator in competitive markets. Organizations can leverage this compliance to mitigate risks associated with data breaches and to meet regulatory requirements, ultimately leading to improved customer confidence and potentially increased business opportunities.",
+  "plain_summary": "Lakebase has achieved SOC 2 Type 2 compliance, ensuring enhanced data security for users.",
+  "capabilities": [
+    {
+      "title": "Customer-managed keys",
+      "desc": "Encrypt Lakebase project data at rest using keys managed by your organization."
+    },
+    {
+      "title": "Protected branches",
+      "desc": "Prevent accidental modifications or deletions of critical branches to maintain data integrity."
+    },
+    {
+      "title": "Private Link for Autoscaling",
+      "desc": "Supports Private Link for secure and efficient connectivity for Lakebase Autoscaling."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [
+    "Lakebase Autoscaling only supports compliance profiles for HIPAA, C5, TISAX, or None.",
+    "Other compliance standards are not supported."
+  ],
+  "architecture": [
+    "Lakebase",
+    "Data Protection Features",
+    "Compliance Framework"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakebase's SOC 2 Type 2 compliance strengthens data security and builds customer trust.",
+  "note_id": "2026-07-14-lakebase-is-now-soc-2-type-2-compliant",
+  "category": "platform"
+}

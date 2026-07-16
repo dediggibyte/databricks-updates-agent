@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-14-lakebase-is-now-soc-2-type-2-compliant",
+  "title": "Lakebase is now SOC 2 Type 2 compliant",
+  "date": "2026-07-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakebase-is-now-soc-2-type-2-compliant",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Lakebase is now SOC 2 Type 2 compliant. For our SOC reports, please ask your Databricks account team or see [Compliance](/aws/en/oltp/projects/data-protection#compliance).",
+  "ref_links": [
+    {
+      "text": "Compliance",
+      "url": "https://docs.databricks.com/aws/en/oltp/projects/data-protection#compliance"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-16T09:21:09.257555Z"
+}

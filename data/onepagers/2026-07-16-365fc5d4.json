@@ -1,0 +1,76 @@
+{
+  "product": "MLflow Trace Storage",
+  "tagline": "Default storage in Unity Catalog for compliance workspaces enhances trace management.",
+  "updated": "Jul 16, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/trace-unity-catalog",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#mlflow-trace-storage-in-unity-catalog-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "MLflow traces can now be stored in Unity Catalog tables by default for workspaces with the compliance security profile enabled. This allows for unlimited storage of traces in OpenTelemetry format, with access governed through Unity Catalog permissions. Users can query traces using SQL, enabling advanced analytics and reporting.",
+  "why_it_matters": "This update significantly enhances trace management by providing a scalable and governed storage solution, which improves data governance and compliance. It allows data teams to perform advanced analytics on traces, leading to better insights and decision-making, ultimately driving productivity and reducing operational risks.",
+  "plain_summary": "MLflow traces will automatically be stored in Unity Catalog for compliance workspaces, improving trace management.",
+  "capabilities": [
+    {
+      "title": "Unlimited Trace Storage",
+      "desc": "Store large volumes of traces in Delta tables without per-experiment limits."
+    },
+    {
+      "title": "Governed Access Control",
+      "desc": "Manage access through Unity Catalog permissions instead of experiment-level ACLs."
+    },
+    {
+      "title": "SQL Querying",
+      "desc": "Query trace data directly using SQL for advanced analytics."
+    },
+    {
+      "title": "OpenTelemetry Compatibility",
+      "desc": "Traces are stored in OTel format, ensuring compatibility with other tools."
+    }
+  ],
+  "prerequisites": [
+    "A Unity Catalog-enabled workspace.",
+    "Ensure the 'Variant Shredding for Optimized Read Performance on Semi-Structured Data' preview is enabled.",
+    "Permissions to create catalogs and schemas in Unity Catalog.",
+    "A Databricks SQL warehouse with 'CAN USE' permissions.",
+    "MLflow Python library version 3.14 or later installed."
+  ],
+  "use_cases": [],
+  "limitations": [
+    "Trace ingestion is limited to 200 traces per second per workspace and 100 MB per second per table.",
+    "An experiment can only be bound to a Unity Catalog trace location at creation time.",
+    "Deleting individual traces is not supported; rows must be deleted directly from tables.",
+    "Traces cannot yet be written to a default storage catalog or storage protected by Private Link.",
+    "Enabling tracing on a serving endpoint may reduce serving throughput."
+  ],
+  "architecture": [
+    "Unity Catalog",
+    "MLflow",
+    "Databricks SQL Warehouse",
+    "OpenTelemetry"
+  ],
+  "steps": [
+    {
+      "title": "Create Experiment",
+      "desc": "Run code to create and bind an experiment to a Unity Catalog trace location."
+    },
+    {
+      "title": "Grant Permissions",
+      "desc": "Ensure users have the necessary Unity Catalog privileges to access trace tables."
+    },
+    {
+      "title": "Log Traces",
+      "desc": "Use the MLflow SDK to log traces to the Unity Catalog tables."
+    },
+    {
+      "title": "View Traces",
+      "desc": "Access traces through the MLflow UI by navigating to the Experiments section."
+    },
+    {
+      "title": "Enable Monitoring",
+      "desc": "Configure a SQL warehouse ID for production monitoring of traces."
+    }
+  ],
+  "key_takeaway": "MLflow trace storage in Unity Catalog enhances compliance and governance for data teams.",
+  "note_id": "2026-07-16-365fc5d4",
+  "category": "platform"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-16-365fc5d4",
+  "title": "MLflow trace storage in Unity Catalog will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-07-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#mlflow-trace-storage-in-unity-catalog-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "MLflow trace storage in Unity Catalog tables will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in mid-August 2026.\n\nStore MLflow traces in Unity Catalog tables for scalable, governed trace storage: storage is unlimited, traces are stored in OpenTelemetry (OTel) format, access is governed through Unity Catalog schema and table permissions, and you can query traces with SQL. To view traces, point an MLflow experiment at a Unity Catalog trace location.\n\nSee [Store OpenTelemetry traces in Unity Catalog](/aws/en/mlflow3/genai/tracing/trace-unity-catalog).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Store OpenTelemetry traces in Unity Catalog",
+      "url": "https://docs.databricks.com/aws/en/mlflow3/genai/tracing/trace-unity-catalog"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-16T09:21:09.255755Z"
+}
