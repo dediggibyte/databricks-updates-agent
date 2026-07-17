@@ -1,0 +1,12 @@
+{
+  "id": "2026-07-15-governed-tags-system-table-will-be-available-in-beta",
+  "title": "Governed tags system table will be available in Beta",
+  "date": "2026-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#governed-tags-system-table-will-be-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks plans to launch the `system.governance.governed_tags` system table in Beta. This table contains versioned records for all governed tag keys in your account, including customer-created and system-generated tags.",
+  "ref_links": [],
+  "source": "rss",
+  "fetched_at": "2026-07-17T09:15:18.467893Z"
+}

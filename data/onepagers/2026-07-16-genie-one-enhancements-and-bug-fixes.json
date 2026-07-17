@@ -1,0 +1,52 @@
+{
+  "product": "Genie One Enhancements",
+  "tagline": "New features and bug fixes to improve user experience.",
+  "updated": "Jul 16, 2026",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-one/chat#scheduled-tasks",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-and-bug-fixes",
+  "what_it_does": "Genie One now allows users to search and reuse past conversations, enhancing contextual interactions. It introduces a memory feature that can save user preferences for future chats, and users can run scheduled tasks on demand or mention them in conversations. Additionally, a bug fix resolves an issue where new chats displayed a blank screen while waiting for responses.",
+  "why_it_matters": "These enhancements significantly improve user productivity by enabling quicker access to relevant information and personalized interactions. The ability to recall past conversations and run tasks on demand streamlines workflows, making Genie One a more effective tool for data-driven decision-making.",
+  "plain_summary": "Genie One now lets users search past chats, remembers preferences, and allows immediate execution of scheduled tasks.",
+  "capabilities": [
+    {
+      "title": "Search Past Conversations",
+      "desc": "Users can now search and reuse previous conversations for better context."
+    },
+    {
+      "title": "Memory Feature",
+      "desc": "Genie One can remember user preferences and workflows for future interactions."
+    },
+    {
+      "title": "Run Scheduled Tasks On Demand",
+      "desc": "Users can execute scheduled tasks immediately by selecting 'Run now'."
+    },
+    {
+      "title": "Mention Scheduled Tasks",
+      "desc": "Users can @mention scheduled tasks in conversations for easier reference."
+    }
+  ],
+  "prerequisites": [
+    "Users must have CAN USE permission on at least one SQL warehouse."
+  ],
+  "use_cases": [
+    "Quickly access previous data inquiries for ongoing projects.",
+    "Personalize interactions by saving user preferences.",
+    "Execute scheduled reports immediately when needed.",
+    "Reference scheduled tasks in conversations for clarity."
+  ],
+  "limitations": [
+    "Workspaces with many Genie Agents might experience reduced routing accuracy."
+  ],
+  "architecture": [
+    "Genie One Interface",
+    "Genie Agents",
+    "Scheduled Tasks Management",
+    "External Data Connections"
+  ],
+  "steps": [],
+  "key_takeaway": "The latest Genie One updates enhance user interaction and efficiency through improved memory and task management features.",
+  "note_id": "2026-07-16-genie-one-enhancements-and-bug-fixes",
+  "category": "platform"
+}

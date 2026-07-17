@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-15-24b48f2d",
+  "title": "Data Classification is now available by default for additional compliance standards",
+  "date": "2026-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#data-classification-is-now-available-by-default-for-additional-compliance-standards",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[Data Classification](/aws/en/data-governance/unity-catalog/data-classification) is now available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled and either C5, TISAX, or IRAP controls selected.",
+  "ref_links": [
+    {
+      "text": "Data Classification",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification"
+    },
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-17T09:15:18.469406Z"
+}

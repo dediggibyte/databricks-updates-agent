@@ -1,0 +1,43 @@
+{
+  "product": "Genie Agents",
+  "tagline": "Enhancements and bug fixes for improved user experience.",
+  "updated": "Jul 16, 2026",
+  "status_label": "Public Preview",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/talk-to-genie#share-conversation",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "what_it_does": "The latest updates to Genie Agents include the ability to save chat threads as Genie Agents, enabling users to create reusable conversational agents. Additionally, conversation sharing is now in Public Preview, allowing users to share individual conversations easily. The updates also enhance email terminology for access notifications and fix bugs related to visualization downloads and benchmark results.",
+  "why_it_matters": "These enhancements improve user productivity by enabling the creation of reusable agents and facilitating easier collaboration through conversation sharing. The fixes ensure a smoother experience when using visualizations, which is critical for data-driven decision-making. Overall, these updates enhance the usability and reliability of Genie Agents, making them more effective tools for business users.",
+  "plain_summary": "Genie Agents now allow users to save chats as agents and share conversations, along with several bug fixes.",
+  "capabilities": [
+    {
+      "title": "Save Chat as Agent",
+      "desc": "Users can now save a Genie One thread as a reusable Genie Agent."
+    },
+    {
+      "title": "Conversation Sharing",
+      "desc": "Sharing individual Genie Agent conversations is now available in Public Preview."
+    },
+    {
+      "title": "Improved Email Notifications",
+      "desc": "Access emails now include the Genie Agent's name for clarity."
+    },
+    {
+      "title": "Bug Fixes",
+      "desc": "Resolved issues with downloading visualizations and displaying benchmark results."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "User Interface",
+    "Genie Agent",
+    "Data Query Engine",
+    "Visualization Layer"
+  ],
+  "steps": [],
+  "key_takeaway": "The enhancements to Genie Agents streamline the user experience and improve collaboration through new features and bug fixes.",
+  "note_id": "2026-07-16-genie-agents-enhancements-and-bug-fixes",
+  "category": "platform"
+}

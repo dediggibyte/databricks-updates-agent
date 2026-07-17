@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-16-genie-agents-enhancements-and-bug-fixes",
+  "title": "Genie Agents enhancements and bug fixes",
+  "date": "2026-07-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Save a chat as a Genie Agent**: You can now save a Genie One thread as a Genie Agent. See [Create an agent](/aws/en/genie-one/chat#create-an-agent).\n* **Conversation sharing (Public Preview)**: Sharing an individual Genie Agent conversation is now in Public Preview. See [Share a conversation](/aws/en/genie-agents/talk-to-genie#share-conversation).\n* **Access email terminology**: Access-granted and access-request emails now use the Genie Agent's name.\n* **Download visualization fix**: Fixed a bug where choropleth and point map visualizations were not returned by the download visualization API.\n* **Benchmark results fix**: Fixed a bug where benchmark results incorrectly showed as empty.",
+  "ref_links": [
+    {
+      "text": "Create an agent",
+      "url": "https://docs.databricks.com/aws/en/genie-one/chat#create-an-agent"
+    },
+    {
+      "text": "Share a conversation",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/talk-to-genie#share-conversation"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-17T09:15:18.462889Z"
+}

@@ -1,0 +1,62 @@
+{
+  "product": "Data Classification",
+  "tagline": "Enhanced compliance support for data governance.",
+  "updated": "Jul 15, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/security/privacy/security-profile",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#data-classification-is-now-available-by-default-for-additional-compliance-standards",
+  "what_it_does": "Data Classification is now automatically enabled for workspaces that have the compliance security profile activated, specifically for those utilizing C5, TISAX, or IRAP compliance controls. This feature enhances data governance by allowing organizations to classify sensitive data according to regulatory requirements. The compliance security profile also includes additional monitoring and security features to ensure data protection and compliance.",
+  "why_it_matters": "This update is crucial for organizations that must adhere to strict compliance standards, as it simplifies the process of data classification and enhances overall data governance. By automating data classification, businesses can reduce the risk of non-compliance and improve their ability to manage sensitive information effectively. This is particularly beneficial for industries such as finance, healthcare, and government, where data security is paramount.",
+  "plain_summary": "Data Classification is now automatically available for more compliance standards, making it easier to manage sensitive data.",
+  "capabilities": [
+    {
+      "title": "Automatic Data Classification",
+      "desc": "Data Classification is enabled by default for compliance security profiles with selected controls."
+    },
+    {
+      "title": "Enhanced Security Monitoring",
+      "desc": "Includes monitoring agents that generate reviewable logs for compliance verification."
+    },
+    {
+      "title": "Hardened Compute Environment",
+      "desc": "Utilizes a hardened operating system image and enforced instance types for improved security."
+    },
+    {
+      "title": "Compliance with Multiple Standards",
+      "desc": "Supports various compliance standards like C5, TISAX, and IRAP, ensuring broader regulatory coverage."
+    }
+  ],
+  "prerequisites": [
+    "Compliance security profile must be enabled.",
+    "C5, TISAX, or IRAP controls must be selected."
+  ],
+  "use_cases": [
+    "Financial institutions managing sensitive customer data.",
+    "Healthcare organizations processing protected health information.",
+    "Government agencies handling classified information."
+  ],
+  "limitations": [
+    "Certain features may not be available on AWS GovCloud.",
+    "You are responsible for ensuring compliance with applicable laws."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Compliance Security Profile",
+    "Data Classification Feature",
+    "Enhanced Security Monitoring"
+  ],
+  "steps": [
+    {
+      "title": "Enable Compliance Profile",
+      "desc": "Activate the compliance security profile in your Databricks workspace."
+    },
+    {
+      "title": "Select Compliance Controls",
+      "desc": "Choose C5, TISAX, or IRAP controls as needed."
+    }
+  ],
+  "key_takeaway": "Data Classification is now automatically available for additional compliance standards, enhancing data governance and security.",
+  "note_id": "2026-07-15-24b48f2d",
+  "category": "platform"
+}

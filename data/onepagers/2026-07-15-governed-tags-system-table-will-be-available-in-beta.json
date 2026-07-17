@@ -1,0 +1,38 @@
+{
+  "product": "Governed Tags System Table",
+  "tagline": "Introducing a new system table for managing governed tags.",
+  "updated": "Jul 15, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#governed-tags-system-table-will-be-available-in-beta",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#governed-tags-system-table-will-be-available-in-beta",
+  "what_it_does": "The `system.governance.governed_tags` system table provides a centralized repository for versioned records of all governed tag keys within a Databricks account. This includes both customer-created and system-generated tags, allowing for better management and governance of tagging practices. The table supports tracking changes over time, ensuring that users can maintain an accurate history of tag usage and modifications.",
+  "why_it_matters": "This update enhances governance and compliance by providing a structured way to manage tags, which are critical for data classification and access control. Organizations can benefit from improved visibility and control over their tagging strategies, leading to better data management and reduced risk of misclassification. This is particularly valuable for enterprises that need to adhere to strict regulatory requirements.",
+  "plain_summary": "A new system table for managing governed tags will soon be available in Beta.",
+  "capabilities": [
+    {
+      "title": "Versioned Records",
+      "desc": "Tracks changes to governed tag keys over time."
+    },
+    {
+      "title": "Centralized Management",
+      "desc": "Provides a single source of truth for all governed tags."
+    },
+    {
+      "title": "Customer and System Tags",
+      "desc": "Includes both user-created and system-generated tags."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Workspace",
+    "Governed Tags Management",
+    "System Table Access"
+  ],
+  "steps": [],
+  "key_takeaway": "The new governed tags system table will streamline tag management and enhance governance capabilities.",
+  "note_id": "2026-07-15-governed-tags-system-table-will-be-available-in-beta",
+  "category": "platform"
+}

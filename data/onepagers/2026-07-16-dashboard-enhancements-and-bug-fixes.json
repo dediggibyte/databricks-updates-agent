@@ -1,0 +1,64 @@
+{
+  "product": "Dashboard Enhancements",
+  "tagline": "New features and bug fixes to improve dashboard usability and performance.",
+  "updated": "Jul 16, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#manage-schedules",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "This release introduces Git folder support for dashboards, allowing version control. Users can now run dashboard schedules on demand, enhancing flexibility. Additionally, dashboard variable displays have been improved to show user-friendly names, and Ask Genie has been optimized for better question suggestions and reduced latency. Error handling in Genie Code has also been enhanced to prevent unnecessary retries on invalid SQL queries, thereby reducing costs.",
+  "why_it_matters": "These enhancements significantly improve user experience and operational efficiency. The ability to run schedules on demand allows for timely data updates, which is crucial for decision-making. Improved error handling and caching mechanisms reduce compute costs and enhance performance, benefiting data teams and stakeholders who rely on accurate and timely insights.",
+  "plain_summary": "Dashboards now have new features for better usability and performance, including Git support and on-demand scheduling.",
+  "capabilities": [
+    {
+      "title": "Git Folders",
+      "desc": "Dashboards can now be organized and version-controlled using Git folders."
+    },
+    {
+      "title": "On-Demand Scheduling",
+      "desc": "Users can run dashboard schedules immediately with the 'Run now' option."
+    },
+    {
+      "title": "Improved Variable Display",
+      "desc": "Dashboard variable options now display user-friendly names instead of field names."
+    },
+    {
+      "title": "Enhanced Genie Code Handling",
+      "desc": "Invalid SQL queries in Genie Code now return errors instead of retrying, reducing unnecessary costs."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Dashboard UI",
+    "Scheduling Engine",
+    "Query Result Cache",
+    "Notification System"
+  ],
+  "steps": [
+    {
+      "title": "Create a Schedule",
+      "desc": "Click 'Schedule' in the dashboard to set up a new schedule."
+    },
+    {
+      "title": "Edit a Schedule",
+      "desc": "Use the kebab menu next to the schedule to edit its settings."
+    },
+    {
+      "title": "Run Now",
+      "desc": "Select 'Run now' from the schedule menu to execute it immediately."
+    },
+    {
+      "title": "Manage Subscriptions",
+      "desc": "Click 'Schedule' to view and manage existing subscriptions."
+    },
+    {
+      "title": "Configure Advanced Settings",
+      "desc": "Use 'Advanced settings' to customize schedule options like SQL warehouse and email subjects."
+    }
+  ],
+  "key_takeaway": "The latest dashboard enhancements streamline usability and performance, enabling more efficient data management and insights.",
+  "note_id": "2026-07-16-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

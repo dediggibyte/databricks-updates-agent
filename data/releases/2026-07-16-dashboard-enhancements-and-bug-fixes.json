@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-16-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-07-16",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Git folders (GA)**: Git folders for dashboards are now generally available. See [Version control dashboards with Git](/aws/en/dashboards/automate/git-support).\n* **Run a schedule on demand**: You can now select **Run now** on a dashboard schedule to run it immediately. See [Manage schedules](/aws/en/dashboards/share/schedule-subscribe#manage-schedules).\n* **Dashboard variable display names**: Dashboard variable drop-down options now show the column's display name instead of the field name when a display name is available.\n* **Improved Ask Genie starter questions**: Ask Genie suggests better starter questions for dashboards and caches them to reduce latency.\n* **Genie Code error handling**: When you author a dashboard with Genie Code, it now returns an error instead of retrying SQL queries that are not valid. This behavior reduces the cost of query errors.\n* **Bookmark icon visibility**: When viewing a published dashboard, the bookmark icon no longer appears if a dashboard has no bookmarks.\n* **Ask Genie health-check fix**: Ask Genie no longer shows a health-check warning when the linked Genie Agent is still usable.\n* **Dashboard creation fix**: Fixed a bug where some authors with the SQL access entitlement could not create or clone dashboards.\n* **PNG download fix**: Fixed a bug where custom fonts were dropped from the chart title and legend in single-widget PNG downloads.\n* **Waterfall chart fix**: Fixed a bug where y-axis formatting options on a waterfall chart did not work.",
+  "ref_links": [
+    {
+      "text": "Version control dashboards with Git",
+      "url": "https://docs.databricks.com/aws/en/dashboards/automate/git-support"
+    },
+    {
+      "text": "Manage schedules",
+      "url": "https://docs.databricks.com/aws/en/dashboards/share/schedule-subscribe#manage-schedules"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-17T09:15:18.465526Z"
+}

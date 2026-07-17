@@ -1,0 +1,24 @@
+{
+  "product": "Scala and Java UDFs in Unity Catalog are now generally available",
+  "tagline": "You can now register Scala and Java user defined functions (UDFs) in Unity Catalog and reuse them across notebooks, jobs, and SQL warehouses with Unity Catalog governance.",
+  "updated": "Jul 16, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/udf/scala-java-uc",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#scala-and-java-udfs-in-unity-catalog-are-now-generally-available",
+  "what_it_does": "You can now register Scala and Java user defined functions (UDFs) in Unity Catalog and reuse them across notebooks, jobs, and SQL warehouses with Unity Catalog governance. Reuse your existing JVM logic and get better performance than Python UDFs on all compute, including serverless. This page describes how to create Scala and Java user defined functions (UDFs), register them in Unity Catalog, and share them across compute environments.",
+  "why_it_matters": "You can now register Scala and Java user defined functions (UDFs) in Unity Catalog and reuse them across notebooks, jobs, and SQL warehouses with Unity Catalog governance.",
+  "plain_summary": "You can now register Scala and Java user defined functions (UDFs) in Unity Catalog and reuse them across notebooks, jobs, and SQL warehouses with Unity Catalog governance. Reuse your existing JVM logic and get better performance than Python UDFs on all…",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "You can now register Scala and Java user defined functions (UDFs) in Unity Catalog and reuse them across notebooks, jobs, and SQL warehouses with Unity Catalog governance.",
+  "note_id": "2026-07-16-scala-and-java-udfs-in-unity-catalog-are-now-generally-available",
+  "category": "platform"
+}
