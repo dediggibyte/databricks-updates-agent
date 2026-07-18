@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-08-google-gemini-2-5-flash-is-scheduled-for-retirement",
+  "title": "Google Gemini 2.5 Flash is scheduled for retirement",
+  "date": "2026-07-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-25-flash-is-scheduled-for-retirement",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Google Gemini 2.5 Flash will be retired on October 2, 2026. The recommended replacement is Gemini 3.1 Pro or Gemini 3.5 Flash. See [Deprecated and retired models](/aws/en/machine-learning/retired-models-policy#retired) for migration guidance.",
+  "ref_links": [
+    {
+      "text": "Deprecated and retired models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-18T08:53:14.519893Z"
+}

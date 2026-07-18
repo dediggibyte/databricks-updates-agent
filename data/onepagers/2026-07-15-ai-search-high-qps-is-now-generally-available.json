@@ -1,0 +1,62 @@
+{
+  "product": "AI Search High QPS",
+  "tagline": "High-throughput capabilities for real-time applications are now generally available.",
+  "updated": "Jul 15, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-search/high-qps",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#ai-search-high-qps-is-now-generally-available",
+  "what_it_does": "AI Search High QPS allows users to set a target Queries Per Second (QPS) on standard AI Search endpoints, enabling support for high-throughput workloads such as search bars and recommendation systems. By default, standard endpoints support 20–200 QPS, but with this feature, users can configure a target QPS of 1000 or more, provisioning additional infrastructure to meet demand. The scaling of throughput is best-effort and not guaranteed, meaning actual performance may vary based on several factors including index size and query complexity.",
+  "why_it_matters": "This update significantly enhances the performance of real-time applications, allowing businesses to handle increased query loads without degradation in service. Organizations that rely on high QPS for critical applications can improve user experience, reduce latency, and avoid errors related to traffic overload, ultimately leading to better customer satisfaction and retention.",
+  "plain_summary": "AI Search High QPS is now available, allowing users to handle more queries per second for real-time applications.",
+  "capabilities": [
+    {
+      "title": "Target QPS Configuration",
+      "desc": "Users can set a target QPS for standard endpoints to optimize performance for high-demand applications."
+    },
+    {
+      "title": "High Throughput Support",
+      "desc": "Supports sustained query loads exceeding 50 QPS, ideal for applications like search bars and recommendation systems."
+    },
+    {
+      "title": "Best-Effort Scaling",
+      "desc": "Databricks provisions additional capacity to match the target QPS, although actual throughput is not guaranteed."
+    },
+    {
+      "title": "Service Principal Authentication",
+      "desc": "High QPS workloads require service principal OAuth authentication for optimized query routing."
+    }
+  ],
+  "prerequisites": [
+    "High QPS is available for standard endpoints only; storage-optimized endpoints are not supported.",
+    "Service principal OAuth authentication is required for high-QPS production workloads."
+  ],
+  "use_cases": [
+    "Real-time search applications requiring high throughput.",
+    "Recommendation systems needing to handle large volumes of queries.",
+    "Entity matching tasks that demand low latency and high query rates."
+  ],
+  "limitations": [
+    "No autoscaling; target QPS must be set manually based on expected traffic.",
+    "Traffic using personal access tokens is capped at a few tens of QPS."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "AI Search",
+    "Standard Endpoints",
+    "High QPS Configuration"
+  ],
+  "steps": [
+    {
+      "title": "Create Endpoint",
+      "desc": "In the Databricks UI, navigate to Compute, select AI Search, and create a new endpoint with a specified target QPS."
+    },
+    {
+      "title": "Update Existing Endpoint",
+      "desc": "Navigate to the endpoint detail page and update the target QPS value as needed."
+    }
+  ],
+  "key_takeaway": "AI Search High QPS enables organizations to efficiently manage high query loads, enhancing performance for critical real-time applications.",
+  "note_id": "2026-07-15-ai-search-high-qps-is-now-generally-available",
+  "category": "platform"
+}

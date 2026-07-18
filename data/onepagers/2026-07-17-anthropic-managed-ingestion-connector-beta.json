@@ -1,0 +1,67 @@
+{
+  "product": "Anthropic Managed Ingestion Connector",
+  "tagline": "Seamlessly ingest compliance and usage data from Anthropic into Databricks.",
+  "updated": "Jul 17, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/anthropic",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#anthropic-managed-ingestion-connector-beta",
+  "what_it_does": "The Anthropic managed ingestion connector in Lakeflow Connect enables users to ingest compliance API data, including audit activities, organizations, users, roles, groups, settings, and Claude chats and messages, directly into Databricks. It supports UI-based and API-based pipeline authoring, incremental ingestion for specific tables, and automated schema evolution for new and deleted columns. Unity Catalog governance and orchestration using Databricks Workflows are also supported, enhancing data management capabilities.",
+  "why_it_matters": "This connector streamlines the process of integrating Anthropic data into Databricks, improving data accessibility and governance for organizations. By enabling compliance data ingestion, it enhances the ability to monitor and audit activities, which is crucial for regulatory compliance. The support for incremental ingestion and automated schema evolution reduces operational overhead, allowing teams to focus on data analysis rather than data management.",
+  "plain_summary": "You can now easily bring compliance and usage data from Anthropic into Databricks using the new connector.",
+  "capabilities": [
+    {
+      "title": "UI-based Pipeline Authoring",
+      "desc": "Users can create ingestion pipelines through a user-friendly interface."
+    },
+    {
+      "title": "Incremental Ingestion",
+      "desc": "Supports incremental updates for specific data tables, enhancing efficiency."
+    },
+    {
+      "title": "Automated Schema Evolution",
+      "desc": "Automatically handles new and deleted columns during ingestion."
+    },
+    {
+      "title": "Unity Catalog Governance",
+      "desc": "Integrates with Unity Catalog for improved data governance and management."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admins must enable access to the connector from the Previews page.",
+    "Anthropic Compliance Access Key is required for authentication."
+  ],
+  "use_cases": [
+    "Ingesting audit logs for compliance monitoring.",
+    "Tracking user interactions and activities within Claude.",
+    "Managing organizational data for regulatory purposes."
+  ],
+  "limitations": [
+    "SCD type 2 is not supported due to the presence of VARIANT columns.",
+    "API-based row filtering is not supported.",
+    "Data type changes and column renames require a full refresh."
+  ],
+  "architecture": [
+    "Lakeflow Connect",
+    "Anthropic Compliance API",
+    "Databricks Workflows",
+    "Unity Catalog"
+  ],
+  "steps": [
+    {
+      "title": "Configure Anthropic for Ingestion",
+      "desc": "Set up Anthropic to authenticate with Databricks."
+    },
+    {
+      "title": "Create a Unity Catalog Connection",
+      "desc": "Establish a connection in Catalog Explorer for pipeline creation."
+    },
+    {
+      "title": "Create an Ingestion Pipeline",
+      "desc": "Select a supported interface and create a pipeline from an existing connection."
+    }
+  ],
+  "key_takeaway": "The Anthropic connector simplifies data ingestion into Databricks, enhancing compliance and operational efficiency.",
+  "note_id": "2026-07-17-anthropic-managed-ingestion-connector-beta",
+  "category": "platform"
+}

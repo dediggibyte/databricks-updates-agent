@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-17-databricks-genie-app-in-microsoft-teams-is-now-in-public-preview",
+  "title": "Databricks Genie app in Microsoft Teams is now in Public Preview",
+  "date": "2026-07-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-genie-app-in-microsoft-teams-is-now-in-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Databricks Genie app in Microsoft Teams is now in [Public Preview](/aws/en/release-notes/release-types). The app brings Genie into Microsoft Teams so users can ask data questions and get answers without leaving Microsoft Teams. See [Databricks Genie app in Microsoft Teams](/aws/en/integrations/msft-teams).",
+  "ref_links": [
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Databricks Genie app in Microsoft Teams",
+      "url": "https://docs.databricks.com/aws/en/integrations/msft-teams"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-18T08:53:14.477669Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2026-07-09-protobuf-tensor-input-for-custom-model-serving-endpoints-public-preview",
+  "title": "Protobuf tensor input for custom model serving endpoints (Public Preview)",
+  "date": "2026-07-09",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#protobuf-tensor-input-for-custom-model-serving-endpoints-public-preview",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "For [custom model serving endpoints](/aws/en/machine-learning/model-serving/custom-models) with a tensor-based input signature, you can now send the request body as a serialized [KServe v2](https://github.com/kserve/open-inference-protocol) `ModelInferRequest` with `Content-Type: application/x-protobuf`, instead of JSON.\n\nThis feature is in [Public Preview](/aws/en/release-notes/release-types) and is only available on endpoints deployed after July 9, 2026. See [Protobuf tensor input](/aws/en/machine-learning/model-serving/score-custom-model-endpoints#protobuf-tensor-input).",
+  "ref_links": [
+    {
+      "text": "custom model serving endpoints",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/custom-models"
+    },
+    {
+      "text": "KServe v2",
+      "url": "https://github.com/kserve/open-inference-protocol"
+    },
+    {
+      "text": "Public Preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Protobuf tensor input",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-custom-model-endpoints#protobuf-tensor-input"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-18T08:53:14.509243Z"
+}

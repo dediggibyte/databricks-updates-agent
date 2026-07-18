@@ -1,0 +1,72 @@
+{
+  "product": "Google Gemini 2.5 Flash Retirement",
+  "tagline": "Transitioning to newer models for enhanced performance.",
+  "updated": "Jul 8, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-25-flash-is-scheduled-for-retirement",
+  "what_it_does": "Google Gemini 2.5 Flash will be officially retired on October 2, 2026, meaning it will no longer be accessible for use in any workloads. Users currently utilizing this model are encouraged to migrate to either Gemini 3.1 Pro or Gemini 3.5 Flash, which are recommended replacements. The retirement process follows Databricks' model lifecycle policy, which includes phases of update, deprecation, and retirement to ensure users are informed and can transition smoothly.",
+  "why_it_matters": "This retirement is crucial for maintaining access to state-of-the-art AI capabilities, as older models may not support the latest advancements in machine learning. Transitioning to the newer models will enhance performance and reliability, ensuring that organizations can leverage the most effective tools for their workloads. This change also helps mitigate risks associated with using outdated technology, which can lead to inefficiencies and increased operational costs.",
+  "plain_summary": "Google Gemini 2.5 Flash will be retired, and users should switch to newer models.",
+  "capabilities": [
+    {
+      "title": "Model Lifecycle Management",
+      "desc": "Databricks manages models through a structured lifecycle from update to retirement."
+    },
+    {
+      "title": "Migration Guidance",
+      "desc": "Users are provided with clear recommendations for transitioning to replacement models."
+    },
+    {
+      "title": "Deprecation Notifications",
+      "desc": "Customers receive advance notifications about model deprecation and retirement timelines."
+    },
+    {
+      "title": "Access Control",
+      "desc": "Only workspaces with existing workloads can access deprecated models until retirement."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Organizations using Gemini 2.5 Flash for AI applications.",
+    "Teams needing to upgrade to maintain performance and support.",
+    "Developers looking to leverage the latest model capabilities."
+  ],
+  "limitations": [
+    "Once retired, the model will no longer be accessible.",
+    "Existing workloads using the retired model will stop functioning.",
+    "Users must migrate to recommended models before the retirement date."
+  ],
+  "architecture": [
+    "Foundation Model APIs",
+    "Model Management",
+    "Workload Transition",
+    "Model Replacement"
+  ],
+  "steps": [
+    {
+      "title": "Review Current Usage",
+      "desc": "Identify any workloads currently using Google Gemini 2.5 Flash."
+    },
+    {
+      "title": "Select Replacement Model",
+      "desc": "Choose between Gemini 3.1 Pro or Gemini 3.5 Flash as the new model."
+    },
+    {
+      "title": "Plan Migration",
+      "desc": "Develop a migration plan to transition workloads to the new model."
+    },
+    {
+      "title": "Implement Changes",
+      "desc": "Update your applications to use the selected replacement model."
+    },
+    {
+      "title": "Test Workloads",
+      "desc": "Verify that workloads function correctly with the new model before the retirement date."
+    }
+  ],
+  "key_takeaway": "Transitioning from Google Gemini 2.5 Flash to newer models is essential for maintaining cutting-edge AI capabilities.",
+  "note_id": "2026-07-08-google-gemini-2-5-flash-is-scheduled-for-retirement",
+  "category": "platform"
+}

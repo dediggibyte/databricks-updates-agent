@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-08-anthropic-claude-sonnet-4-is-scheduled-for-retirement",
+  "title": "Anthropic Claude Sonnet 4 is scheduled for retirement",
+  "date": "2026-07-08",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#anthropic-claude-sonnet-4-is-scheduled-for-retirement",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Anthropic Claude Sonnet 4 will be retired on October 9, 2026. Claude Sonnet 4.6 is the recommended replacement. See [Deprecated and retired models](/aws/en/machine-learning/retired-models-policy#retired) for migration guidance.",
+  "ref_links": [
+    {
+      "text": "Deprecated and retired models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-18T08:53:14.521038Z"
+}

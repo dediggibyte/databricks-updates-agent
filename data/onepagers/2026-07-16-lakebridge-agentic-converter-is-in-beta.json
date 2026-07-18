@@ -1,0 +1,76 @@
+{
+  "product": "Lakebridge Agentic Converter",
+  "tagline": "Now in Beta for SQL migration projects.",
+  "updated": "Jul 16, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/migration/lakebridge-agentic-converter",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakebridge-agentic-converter-is-in-beta",
+  "what_it_does": "The Lakebridge Agentic Converter allows users to convert legacy SQL dialects, including T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata, into ANSI SQL suitable for Databricks. It utilizes Genie Code to analyze source scripts, validate their syntax and semantic intent, and iteratively correct errors before saving the converted results to a specified workspace folder. This tool is part of the broader Lakebridge migration framework designed to facilitate the transition of workloads to Databricks.",
+  "why_it_matters": "This feature streamlines the migration process for organizations transitioning from legacy SQL databases to Databricks, reducing the time and effort required to rewrite SQL code manually. By automating the conversion, it minimizes errors and enhances productivity, allowing data teams to focus on more strategic tasks rather than code translation. Businesses can leverage this tool to modernize their data infrastructure while ensuring compatibility with existing SQL scripts.",
+  "plain_summary": "The Lakebridge Agentic Converter helps convert old SQL code to a format that works with Databricks.",
+  "capabilities": [
+    {
+      "title": "Multi-Dialect Support",
+      "desc": "Converts SQL from various legacy dialects to ANSI SQL."
+    },
+    {
+      "title": "Error Correction",
+      "desc": "Iteratively fixes syntax and semantic errors during conversion."
+    },
+    {
+      "title": "Batch Processing",
+      "desc": "Supports conversion of up to 300 files in a single batch."
+    },
+    {
+      "title": "Custom Skills",
+      "desc": "Allows users to create custom rules for specific conversion needs."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin must enable the Lakebridge Agentic Converter from the Previews page.",
+    "Existing SQL files must be accessible in the workspace.",
+    "Workspace must meet Genie Code requirements."
+  ],
+  "use_cases": [
+    "Migrating legacy SQL workloads to Databricks.",
+    "Automating the conversion of SQL scripts during data migration projects.",
+    "Validating and correcting SQL syntax and semantics for compatibility with Databricks."
+  ],
+  "limitations": [
+    "A batch can contain a maximum of 300 files.",
+    "A script can contain a maximum of 1,000 lines.",
+    "Teradata BTEQ scripts are not yet supported."
+  ],
+  "architecture": [
+    "Lakebridge Agentic Converter",
+    "Genie Code",
+    "Migration Project Management",
+    "Databricks SQL"
+  ],
+  "steps": [
+    {
+      "title": "Upload Source Files",
+      "desc": "Use the workspace file browser or Databricks CLI to upload existing SQL files."
+    },
+    {
+      "title": "Create Migration Project",
+      "desc": "Set up a migration project in your workspace to manage the conversion."
+    },
+    {
+      "title": "Add Files to Project",
+      "desc": "Select and add the source files or folders to your migration project."
+    },
+    {
+      "title": "Run Conversion",
+      "desc": "Select files to convert and initiate the conversion process."
+    },
+    {
+      "title": "Review Results",
+      "desc": "Check the conversion results and validate the output in the SQL editor."
+    }
+  ],
+  "key_takeaway": "The Lakebridge Agentic Converter simplifies the migration of legacy SQL to Databricks, enhancing efficiency and reducing manual coding efforts.",
+  "note_id": "2026-07-16-lakebridge-agentic-converter-is-in-beta",
+  "category": "platform"
+}

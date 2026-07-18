@@ -1,0 +1,42 @@
+{
+  "product": "Anthropic Claude Sonnet 4 Retirement",
+  "tagline": "Claude Sonnet 4 will be retired on October 9, 2026, with Claude Sonnet 4.6 as the recommended replacement.",
+  "updated": "Jul 8, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#anthropic-claude-sonnet-4-is-scheduled-for-retirement",
+  "what_it_does": "Anthropic Claude Sonnet 4 is scheduled for retirement on October 9, 2026, following Databricks' model lifecycle policy. Once retired, the model will no longer be accessible, and any workloads utilizing it will cease to function. Users are encouraged to transition to Claude Sonnet 4.6, which is the recommended replacement model.",
+  "why_it_matters": "This retirement is crucial for maintaining access to the latest advancements in AI models, ensuring users benefit from improved performance and capabilities. Transitioning to the recommended model will help avoid disruptions in service and maintain operational efficiency. Organizations relying on Claude Sonnet 4 should act promptly to migrate their workloads to prevent any service interruptions.",
+  "plain_summary": "Claude Sonnet 4 will be retired, and users should switch to Claude Sonnet 4.6 to avoid service disruptions.",
+  "capabilities": [
+    {
+      "title": "Model Lifecycle Management",
+      "desc": "Databricks manages models through a lifecycle from update to deprecation to retirement."
+    },
+    {
+      "title": "Migration Guidance",
+      "desc": "Users are provided with documentation to assist in migrating to the recommended replacement model."
+    },
+    {
+      "title": "Notification System",
+      "desc": "Users receive notifications in the Databricks UI when a model is deprecated."
+    },
+    {
+      "title": "Access Control",
+      "desc": "Deprecated models remain available only for workspaces with existing usage until retirement."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Foundation Model APIs",
+    "Model Management",
+    "Model Retirement Process"
+  ],
+  "steps": [],
+  "key_takeaway": "Transitioning from Claude Sonnet 4 to Claude Sonnet 4.6 is essential to maintain uninterrupted access to advanced AI capabilities.",
+  "note_id": "2026-07-08-anthropic-claude-sonnet-4-is-scheduled-for-retirement",
+  "category": "platform"
+}

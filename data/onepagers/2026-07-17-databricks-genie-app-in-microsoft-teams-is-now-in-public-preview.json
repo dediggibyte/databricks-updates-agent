@@ -1,0 +1,78 @@
+{
+  "product": "Databricks Genie App in Microsoft Teams",
+  "tagline": "Now in Public Preview, enabling seamless data queries within Teams.",
+  "updated": "Jul 17, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/msft-teams",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-genie-app-in-microsoft-teams-is-now-in-public-preview",
+  "what_it_does": "The Databricks Genie app integrates with Microsoft Teams, allowing users to ask data-related questions and receive answers directly within the Teams environment. Users can interact with the app via direct messages or by mentioning `@Databricks Genie` in channels, with options for channel owners to pin specific Genie Agents for tailored responses. The app maintains the same trust and safety standards as the standalone Genie application.",
+  "why_it_matters": "This integration enhances productivity by allowing data queries without switching applications, streamlining workflows for data teams. It empowers users to access insights quickly, reducing the time spent on data retrieval and improving decision-making processes. Organizations can leverage this feature to foster a data-driven culture within their teams.",
+  "plain_summary": "Users can now ask data questions directly in Microsoft Teams using the Databricks Genie app.",
+  "capabilities": [
+    {
+      "title": "Direct Messaging",
+      "desc": "Users can ask questions directly to the Genie app in private messages."
+    },
+    {
+      "title": "Channel Integration",
+      "desc": "Channel owners can configure the app for specific use cases by pinning Genie Agents."
+    },
+    {
+      "title": "Custom Configurations",
+      "desc": "Settings for workspace selection and message visibility can be customized at multiple levels."
+    },
+    {
+      "title": "AI Trust and Safety",
+      "desc": "The app adheres to the same trust and safety standards as the standalone Genie."
+    }
+  ],
+  "prerequisites": [
+    "Account admin must enable the Databricks Microsoft Teams App preview.",
+    "Add Databricks control plane outbound IPs to the IP access list if applicable.",
+    "Download the Microsoft Teams app if using a custom installation."
+  ],
+  "use_cases": [
+    "Data teams can quickly retrieve insights during meetings.",
+    "Business analysts can ask ad-hoc questions without leaving Teams.",
+    "Data-driven decision-making can be facilitated in real-time discussions."
+  ],
+  "limitations": [
+    "Cannot specify which SQL warehouse the app uses; it selects automatically.",
+    "PrivateLink is not supported.",
+    "Visualizing charts is not supported.",
+    "Sending Databricks notifications to Teams is not supported.",
+    "Triggering actions in Databricks from Teams is not supported."
+  ],
+  "architecture": [
+    "Microsoft Teams",
+    "Databricks Genie",
+    "Databricks Control Plane",
+    "Data Warehouse"
+  ],
+  "steps": [
+    {
+      "title": "Enable Preview",
+      "desc": "Account admin enables the Databricks Microsoft Teams App preview in the account console."
+    },
+    {
+      "title": "Install App",
+      "desc": "A Microsoft 365 admin installs the Databricks Genie app from the Microsoft marketplace."
+    },
+    {
+      "title": "Grant Permissions",
+      "desc": "Admin grants necessary permissions in the Microsoft Entra portal."
+    },
+    {
+      "title": "Configure Settings",
+      "desc": "Channel owners configure Genie settings for their channels."
+    },
+    {
+      "title": "Start Using",
+      "desc": "Users begin interacting with the Genie app in Teams."
+    }
+  ],
+  "key_takeaway": "The Databricks Genie app in Microsoft Teams enhances data accessibility and collaboration for users within their existing workflows.",
+  "note_id": "2026-07-17-databricks-genie-app-in-microsoft-teams-is-now-in-public-preview",
+  "category": "platform"
+}

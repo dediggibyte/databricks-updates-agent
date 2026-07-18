@@ -1,0 +1,53 @@
+{
+  "product": "Protobuf Tensor Input",
+  "tagline": "Now supports serialized KServe v2 requests for custom model endpoints.",
+  "updated": "Jul 9, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/score-custom-model-endpoints#protobuf-tensor-input",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#protobuf-tensor-input-for-custom-model-serving-endpoints-public-preview",
+  "what_it_does": "This update allows users to send requests to custom model serving endpoints using a serialized KServe v2 `ModelInferRequest` with `Content-Type: application/x-protobuf`, instead of the traditional JSON format. This method enhances performance by reducing the overhead of parsing numeric tensors from JSON, particularly beneficial for large payloads. The feature is available only for endpoints deployed after July 9, 2026.",
+  "why_it_matters": "By enabling Protobuf tensor input, organizations can achieve faster model inference times, which is crucial for applications requiring real-time predictions. This enhancement can lead to improved user experiences and operational efficiency, especially in high-demand environments such as AI and machine learning applications.",
+  "plain_summary": "You can now send requests to custom model endpoints using a faster Protobuf format instead of JSON.",
+  "capabilities": [
+    {
+      "title": "Faster Inference",
+      "desc": "Reduces the overhead of parsing numeric tensors, improving response times."
+    },
+    {
+      "title": "Supports KServe v2",
+      "desc": "Utilizes the KServe v2 `ModelInferRequest` format for input."
+    },
+    {
+      "title": "Tensor Data Types",
+      "desc": "Supports various tensor data types including FP32, INT32, and BOOL."
+    },
+    {
+      "title": "Endpoint Compatibility",
+      "desc": "Maintains existing endpoint URL and authentication methods."
+    }
+  ],
+  "prerequisites": [
+    "A model serving endpoint must be created.",
+    "MLflow 2.9 or above is required for the MLflow Deployment SDK.",
+    "A valid Databricks API token is needed for requests."
+  ],
+  "use_cases": [
+    "Real-time predictions in AI applications.",
+    "High-performance model serving for large datasets.",
+    "Integration with existing KServe-based workflows."
+  ],
+  "limitations": [
+    "Only available for endpoints deployed after July 9, 2026.",
+    "Route optimization endpoints require OAuth tokens and have different invocation URLs."
+  ],
+  "architecture": [
+    "Model Serving",
+    "Custom Model Endpoints",
+    "KServe Integration"
+  ],
+  "steps": [],
+  "key_takeaway": "The introduction of Protobuf tensor input streamlines the request process for custom model serving, enhancing performance and efficiency.",
+  "note_id": "2026-07-09-protobuf-tensor-input-for-custom-model-serving-endpoints-public-preview",
+  "category": "platform"
+}

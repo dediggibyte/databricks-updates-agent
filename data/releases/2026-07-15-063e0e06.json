@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-15-063e0e06",
+  "title": "AI Search high QPS will soon be available by default for workspaces with the compliance security profile enabled",
+  "date": "2026-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai-search-high-qps-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AI Search high QPS will be available by default for workspaces with the [compliance security profile](/aws/en/security/privacy/security-profile) enabled in late August 2026.\n\nSet a target QPS on standard AI Search endpoints to power high-throughput, real-time workloads like search bars, recommendation systems, and entity matching. High QPS is enabled by default, but existing endpoints are not affected. Additional capacity and the associated cost apply only when you configure a target QPS for an endpoint.\n\nSee [Scale AI Search endpoint throughput with high QPS](/aws/en/ai-search/high-qps).",
+  "ref_links": [
+    {
+      "text": "compliance security profile",
+      "url": "https://docs.databricks.com/aws/en/security/privacy/security-profile"
+    },
+    {
+      "text": "Scale AI Search endpoint throughput with high QPS",
+      "url": "https://docs.databricks.com/aws/en/ai-search/high-qps"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-18T08:53:14.494181Z"
+}

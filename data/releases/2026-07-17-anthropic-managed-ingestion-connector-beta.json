@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-17-anthropic-managed-ingestion-connector-beta",
+  "title": "Anthropic managed ingestion connector (Beta)",
+  "date": "2026-07-17",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#anthropic-managed-ingestion-connector-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The Anthropic connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest Compliance API data — audit activity, organizations, users, roles, groups, settings, and Claude chats and messages — from Anthropic into Databricks. See [Anthropic connector](/aws/en/ingestion/lakeflow-connect/anthropic).",
+  "ref_links": [
+    {
+      "text": "Anthropic connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/anthropic"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-18T08:53:14.476526Z"
+}

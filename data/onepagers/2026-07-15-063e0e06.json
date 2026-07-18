@@ -1,0 +1,76 @@
+{
+  "product": "AI Search High QPS",
+  "tagline": "Enhanced throughput for compliance workspaces.",
+  "updated": "Jul 15, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-search/high-qps",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai-search-high-qps-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "AI Search high QPS will be enabled by default for workspaces with the compliance security profile, allowing users to set a target queries per second (QPS) on standard AI Search endpoints. This feature supports high-throughput, real-time applications such as search bars and recommendation systems, with the ability to provision additional capacity as needed. However, the actual throughput is best-effort and not guaranteed, depending on various factors like index size and query complexity.",
+  "why_it_matters": "This update significantly enhances the performance of real-time applications, enabling businesses to handle higher query loads without degradation in service. Organizations that rely on search and recommendation functionalities will benefit from improved responsiveness and user experience, potentially leading to increased customer satisfaction and engagement. Additionally, it allows for better resource management and cost control by enabling targeted scaling based on actual needs.",
+  "plain_summary": "AI Search will soon support higher query rates by default for compliant workspaces.",
+  "capabilities": [
+    {
+      "title": "High QPS Support",
+      "desc": "Standard endpoints can now handle 100–1000+ QPS for real-time applications."
+    },
+    {
+      "title": "Automatic Capacity Provisioning",
+      "desc": "Databricks provisions additional capacity based on the configured target QPS."
+    },
+    {
+      "title": "Service Principal Authentication",
+      "desc": "High QPS requires service principal OAuth authentication for optimized performance."
+    },
+    {
+      "title": "Endpoint Configuration",
+      "desc": "Users can set or update target QPS when creating or modifying endpoints."
+    }
+  ],
+  "prerequisites": [
+    "High QPS is available for standard endpoints only.",
+    "Service principal OAuth authentication is required for production workloads.",
+    "The optimized query route is not available with IP access lists or private connectivity."
+  ],
+  "use_cases": [
+    "High-throughput search applications.",
+    "Real-time recommendation systems.",
+    "Entity matching tasks requiring rapid query responses."
+  ],
+  "limitations": [
+    "No autoscaling; target QPS must be set manually.",
+    "Storage-optimized endpoints do not support target QPS.",
+    "Traffic using PATs or workspace query URLs is capped at lower QPS."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "AI Search",
+    "Standard Endpoints",
+    "High QPS Configuration"
+  ],
+  "steps": [
+    {
+      "title": "Create Endpoint",
+      "desc": "In the Databricks UI, navigate to AI Search and create a new endpoint with a target QPS."
+    },
+    {
+      "title": "Update Existing Endpoint",
+      "desc": "Modify the target QPS of an existing endpoint through its detail page."
+    },
+    {
+      "title": "Use Service Principal",
+      "desc": "Authenticate using a service principal OAuth token for high-QPS workloads."
+    },
+    {
+      "title": "Monitor Scaling Status",
+      "desc": "Check the scaling status of the endpoint to ensure capacity is provisioned."
+    },
+    {
+      "title": "Query Using Index URL",
+      "desc": "Send queries to the index URL using the service principal token after scaling is applied."
+    }
+  ],
+  "key_takeaway": "AI Search now enables higher query throughput by default for compliant workspaces, enhancing performance for critical applications.",
+  "note_id": "2026-07-15-063e0e06",
+  "category": "platform"
+}

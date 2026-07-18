@@ -1,0 +1,41 @@
+{
+  "product": "Upcoming behavior change: MANAGE no longer requires USE CATALOG or USE SCHEMA…",
+  "tagline": "The MANAGE privilege lets users manage privileges on, transfer ownership of, and delete an object without being its owner.",
+  "updated": "Jul 15, 2026",
+  "status_label": "Update",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#usage-privileges",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-behavior-change-manage-no-longer-requires-use-catalog-or-use-schema-on-the-same-object",
+  "what_it_does": "The MANAGE privilege lets users manage privileges on, transfer ownership of, and delete an object without being its owner. Generally, usage privileges (USE CATALOG and USE SCHEMA) are prerequisites for interacting with a Unity Catalog object. Today, the MANAGE privilege on a catalog or schema takes effect only if you also hold the appropriate usage privileges.",
+  "why_it_matters": "Recommendation If you've granted MANAGE broadly (for example, to simplify delegation) without also granting the corresponding USE privileges, be aware that those MANAGE grants will become active: holders will gain the ability to manage that object after this change ships.",
+  "plain_summary": "The MANAGE privilege lets users manage privileges on, transfer ownership of, and delete an object without being its owner. Generally, usage privileges (USE CATALOG and USE SCHEMA) are prerequisites for interacting with a Unity Catalog object.",
+  "capabilities": [
+    {
+      "title": "To manage a",
+      "desc": "To manage a:"
+    },
+    {
+      "title": "You need",
+      "desc": "You need:"
+    },
+    {
+      "title": "Catalog",
+      "desc": "Catalog"
+    },
+    {
+      "title": "MANAGE on the catalog only",
+      "desc": "MANAGE on the catalog only"
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Platform",
+    "Platform"
+  ],
+  "steps": [],
+  "key_takeaway": "The MANAGE privilege lets users manage privileges on, transfer ownership of, and delete an object without being its owner.",
+  "note_id": "2026-07-15-a5d64998",
+  "category": "platform"
+}

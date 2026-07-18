@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-15-a5d64998",
+  "title": "Upcoming behavior change: MANAGE no longer requires USE CATALOG or USE SCHEMA on the same object",
+  "date": "2026-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#upcoming-behavior-change-manage-no-longer-requires-use-catalog-or-use-schema-on-the-same-object",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "[The MANAGE privilege](/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#the-manage-privilege) lets users manage privileges on, transfer ownership of, and delete an object without being its owner.\n\nGenerally, [usage privileges](/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#usage-privileges) (`USE CATALOG` and `USE SCHEMA`) are prerequisites for interacting with a Unity Catalog object. Today, the `MANAGE` privilege on a catalog or schema takes effect only if you also hold the appropriate usage privileges.\n\nStarting August 3, 2026, `MANAGE` will no longer require the usage privilege on the specific object where `MANAGE` is granted. This change makes `MANAGE` behave more consistently with object ownership. You'll still need usage privileges on any parent containers. For example:\n\n* Today, managing a schema requires `USE CATALOG` + `USE SCHEMA` + `MANAGE` on that schema.\n* After the change, managing a schema requires only `USE CATALOG` + `MANAGE` on that schema.\n\nThe following table summarizes the new requirements for managing objects:\n\n* + To manage a:\n  + You need:\n* + Catalog\n  + `MANAGE` on the catalog only\n* + Schema\n  + `MANAGE` on the schema, plus `USE CATALOG` on the parent catalog only\n* + Table\n  + `MANAGE` on the table, plus `USE CATALOG` and `USE SCHEMA` on the parent catalog and schema\n\n**What's not changing**\n\n* `USE CATALOG` and/or `USE SCHEMA` is still required on parent containers above the object where `MANAGE` is granted, unless the user has ownership or `MANAGE` on the parent.\n* All other privileges are unaffected and still require `USE CATALOG` and `USE SCHEMA` as prerequisites. Querying a table still requires `SELECT` on the table, plus `USE CATALOG` and `USE SCHEMA` on the parent catalog and schema. Applying a tag to a schema still requires `APPLY TAG` and `USE SCHEMA` on the schema, plus `USE CATALOG` on the parent catalog.\n\n**Recommendation**\n\nIf you've granted `MANAGE` broadly (for example, to simplify delegation) without also granting the corresponding USE privileges, be aware that those `MANAGE` grants will become active: holders will gain the ability to manage that object after this change ships. Databricks recommends auditing existing `MANAGE` grants to confirm they reflect your intended access.",
+  "ref_links": [
+    {
+      "text": "The MANAGE privilege",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#the-manage-privilege"
+    },
+    {
+      "text": "usage privileges",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#usage-privileges"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-18T08:53:14.493229Z"
+}

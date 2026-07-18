@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-15-ai-search-high-qps-is-now-generally-available",
+  "title": "AI Search High QPS is now generally available",
+  "date": "2026-07-15",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#ai-search-high-qps-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "AI Search High QPS is now generally available for standard endpoints.\n\nSet a target QPS on standard AI Search endpoints to power high-throughput, real-time workloads like search bars, recommendation systems, and entity matching. High QPS is enabled by default, but existing endpoints are not affected. Additional capacity and the associated cost apply only when you configure a target QPS for an endpoint.\n\nSee [Scale AI Search endpoint throughput with high QPS](/aws/en/ai-search/high-qps).",
+  "ref_links": [
+    {
+      "text": "Scale AI Search endpoint throughput with high QPS",
+      "url": "https://docs.databricks.com/aws/en/ai-search/high-qps"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-18T08:53:14.495607Z"
+}
