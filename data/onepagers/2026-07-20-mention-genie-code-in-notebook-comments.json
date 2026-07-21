@@ -1,0 +1,71 @@
+{
+  "product": "Notebook Comments Enhancement",
+  "tagline": "Integrate AI assistance directly in notebook comments.",
+  "updated": "Jul 20, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/notebooks/notebooks-collaborate#command-comments",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mention-genie-code-in-notebook-comments",
+  "what_it_does": "Users can now mention Genie Code in notebook comments by typing `@` followed by selecting Genie Code and entering their request. This feature allows for inline AI assistance within the comment thread, enabling users to ask questions or request explanations about code without leaving the discussion. Genie Code will respond directly in the comment thread, facilitating a more interactive and collaborative coding environment.",
+  "why_it_matters": "This update enhances collaboration and productivity by allowing users to receive immediate AI assistance while discussing code, reducing context switching and streamlining the coding process. It empowers data teams to resolve issues faster and improves the overall efficiency of code reviews and discussions. This feature is particularly beneficial for teams working on complex projects where quick access to AI insights can drive better decision-making.",
+  "plain_summary": "You can now get AI help directly in notebook comments by mentioning Genie Code.",
+  "capabilities": [
+    {
+      "title": "Inline AI Assistance",
+      "desc": "Users can receive AI help directly in comment threads."
+    },
+    {
+      "title": "Real-time Collaboration",
+      "desc": "Multiple users can edit and comment on notebooks simultaneously."
+    },
+    {
+      "title": "User Mentions",
+      "desc": "Directly mention users in comments to notify them."
+    },
+    {
+      "title": "Comment Management",
+      "desc": "Easily edit, delete, or link to comments within the notebook."
+    }
+  ],
+  "prerequisites": [
+    "User must have access to a Databricks notebook.",
+    "Genie Code feature must be enabled in the workspace."
+  ],
+  "use_cases": [
+    "Collaborative code reviews with AI insights.",
+    "Quick troubleshooting and code explanation requests.",
+    "Enhancing team communication during coding sessions."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Notebook",
+    "Genie Code Integration",
+    "Commenting System",
+    "Real-time Collaboration Tools"
+  ],
+  "steps": [
+    {
+      "title": "Open Notebook",
+      "desc": "Access the desired Databricks notebook."
+    },
+    {
+      "title": "Add Comment",
+      "desc": "Highlight code and click the comment bubble to add a comment."
+    },
+    {
+      "title": "Mention Genie Code",
+      "desc": "Type `@`, select Genie Code, and enter your request."
+    },
+    {
+      "title": "Send Request",
+      "desc": "Click Send or Reply to submit your request."
+    },
+    {
+      "title": "View Response",
+      "desc": "Read Genie Code's response directly in the comment thread."
+    }
+  ],
+  "key_takeaway": "The ability to mention Genie Code in notebook comments streamlines collaboration and enhances productivity by providing immediate AI assistance.",
+  "note_id": "2026-07-20-mention-genie-code-in-notebook-comments",
+  "category": "platform"
+}

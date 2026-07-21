@@ -1,0 +1,21 @@
+{
+  "product": "Genie One and Genie Agents",
+  "tagline": "Free usage until July 31, 2026",
+  "updated": "Jul 15, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-and-genie-agents-usage-is-free-through-july-31-2026",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-and-genie-agents-usage-is-free-through-july-31-2026",
+  "what_it_does": "Genie One and Genie Agents are now available for free usage until July 31, 2026, allowing users to leverage these AI-driven tools without incurring costs. During this period, budget controls will not be enforced, enabling unrestricted access to their capabilities. This initiative aims to encourage adoption and experimentation with these tools.",
+  "why_it_matters": "This free usage period allows organizations to explore and integrate Genie One and Genie Agents into their workflows without financial risk, fostering innovation and productivity. By removing budget constraints, businesses can fully utilize these AI capabilities to enhance decision-making and operational efficiency.",
+  "plain_summary": "You can use Genie One and Genie Agents for free until July 31, 2026.",
+  "capabilities": [],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [],
+  "steps": [],
+  "key_takeaway": "Genie One and Genie Agents are free to use until July 31, 2026, promoting broader adoption and experimentation.",
+  "note_id": "2026-07-15-genie-one-and-genie-agents-usage-is-free-through-july-31-2026",
+  "category": "platform"
+}

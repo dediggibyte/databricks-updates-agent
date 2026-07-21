@@ -1,0 +1,42 @@
+{
+  "product": "Zhipu AI GLM 5.2",
+  "tagline": "Now available as a Databricks-hosted model for enhanced AI capabilities.",
+  "updated": "Jul 8, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#zhipu-ai-glm-52-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "The Zhipu AI GLM 5.2 is a mixture of experts (MoE) model that supports a context window of up to 1 million tokens. It is optimized for tasks requiring long-horizon reasoning, coding, and agentic tool use. Users can access this model through the Foundation Model APIs, enabling integration into various applications.",
+  "why_it_matters": "This update allows organizations to leverage advanced AI capabilities for complex tasks, enhancing productivity and innovation. By supporting a larger context window, businesses can improve the quality and relevance of AI-generated outputs, leading to better decision-making and operational efficiency.",
+  "plain_summary": "Zhipu AI GLM 5.2 is now available as a hosted model on Databricks, offering advanced AI capabilities.",
+  "capabilities": [
+    {
+      "title": "Large Context Window",
+      "desc": "Supports a context window of up to 1 million tokens for comprehensive input handling."
+    },
+    {
+      "title": "Optimized for Reasoning",
+      "desc": "Designed for long-horizon reasoning tasks, enhancing the model's effectiveness in complex scenarios."
+    },
+    {
+      "title": "Coding Support",
+      "desc": "Facilitates coding tasks, making it suitable for software development and automation."
+    },
+    {
+      "title": "Agentic Tool Use",
+      "desc": "Enables the model to perform tasks that require interaction with external tools and systems."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Model Serving",
+    "Foundation Model APIs",
+    "Databricks-hosted Models"
+  ],
+  "steps": [],
+  "key_takeaway": "The introduction of Zhipu AI GLM 5.2 as a Databricks-hosted model significantly enhances the platform's AI capabilities, enabling businesses to tackle complex tasks more effectively.",
+  "note_id": "2026-07-08-zhipu-ai-glm-5-2-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

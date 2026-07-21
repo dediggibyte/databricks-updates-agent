@@ -1,0 +1,48 @@
+{
+  "product": "Thinking Machine Labs Inkling",
+  "tagline": "Now available as a Databricks-hosted model in Public Preview.",
+  "updated": "Jul 15, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#thinking-machine-labs-inkling-now-available-as-a-databricks-hosted-model-in-public-preview",
+  "what_it_does": "Thinking Machine Labs Inkling is a mixture of experts (MoE) model that supports both text and image inputs, featuring a context window of up to 1 million tokens. It is optimized for tasks involving coding, reasoning, and agentic tool-use. Users can access this model through the Foundation Model APIs, which facilitate integration into various applications.",
+  "why_it_matters": "The availability of Inkling as a Databricks-hosted model enhances the platform's capabilities in handling complex tasks, thereby improving productivity for developers and data scientists. This model's advanced features can lead to more efficient coding and reasoning processes, ultimately reducing time-to-market for applications that leverage AI.",
+  "plain_summary": "Thinking Machine Labs Inkling is now available as a hosted model on Databricks, supporting advanced text and image tasks.",
+  "capabilities": [
+    {
+      "title": "Mixture of Experts Model",
+      "desc": "Inkling utilizes a mixture of experts architecture to optimize performance for specific tasks."
+    },
+    {
+      "title": "Large Context Window",
+      "desc": "The model supports a context window of up to 1 million tokens, allowing for extensive input data."
+    },
+    {
+      "title": "Multi-Modal Input",
+      "desc": "Inkling can process both text and image inputs, making it versatile for various applications."
+    },
+    {
+      "title": "Foundation Model APIs Access",
+      "desc": "Users can integrate Inkling into their applications via the Foundation Model APIs."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Automating coding tasks to enhance developer productivity.",
+    "Supporting complex reasoning tasks in AI applications.",
+    "Facilitating image analysis alongside text processing."
+  ],
+  "limitations": [
+    "Customers must ensure compliance with applicable terms and policies for model usage."
+  ],
+  "architecture": [
+    "Databricks Platform",
+    "Model Serving",
+    "Foundation Model APIs"
+  ],
+  "steps": [],
+  "key_takeaway": "Inkling's introduction as a Databricks-hosted model significantly enhances the platform's AI capabilities for complex tasks.",
+  "note_id": "2026-07-15-80a72eea",
+  "category": "platform"
+}

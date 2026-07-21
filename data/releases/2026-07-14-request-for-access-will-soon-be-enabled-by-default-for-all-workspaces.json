@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-14-request-for-access-will-soon-be-enabled-by-default-for-all-workspaces",
+  "title": "Request for Access will soon be enabled by default for all workspaces",
+  "date": "2026-07-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#request-for-access-will-soon-be-enabled-by-default-for-all-workspaces",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "In an upcoming release, Request for Access will be enabled by default for all workspaces, and access requests will be routed to the owner of the requested Unity Catalog object via email. You can configure access request destinations at any time in the metastore settings. The legacy workspace-level access request settings will be deprecated.\n\nSee [Enable access requests across the metastore](/aws/en/data-governance/unity-catalog/manage-privileges/access-request-destinations#default-destinations).",
+  "ref_links": [
+    {
+      "text": "Enable access requests across the metastore",
+      "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/access-request-destinations#default-destinations"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-21T09:32:41.086102Z"
+}

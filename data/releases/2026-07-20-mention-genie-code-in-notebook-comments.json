@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-20-mention-genie-code-in-notebook-comments",
+  "title": "Mention Genie Code in notebook comments",
+  "date": "2026-07-20",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mention-genie-code-in-notebook-comments",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now mention Genie Code in a notebook comment to get AI help without leaving the comment thread. Type `@` in a comment, select **Genie Code**, and enter your request. Genie Code replies inline in the thread. See [Code comments](/aws/en/notebooks/notebooks-collaborate#command-comments).",
+  "ref_links": [
+    {
+      "text": "Code comments",
+      "url": "https://docs.databricks.com/aws/en/notebooks/notebooks-collaborate#command-comments"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-21T09:32:41.060154Z"
+}
