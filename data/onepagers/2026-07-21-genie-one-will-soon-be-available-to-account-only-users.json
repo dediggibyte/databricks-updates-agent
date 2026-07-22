@@ -1,0 +1,77 @@
+{
+  "product": "Genie One Access for Account-Only Users",
+  "tagline": "Expanded access for users without workspace assignments.",
+  "updated": "Jul 21, 2026",
+  "status_label": "Public Preview",
+  "status": "public-preview",
+  "docs_url": "https://docs.databricks.com/aws/en/admin/account-settings/custom-url",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#genie-one-will-soon-be-available-to-account-only-users",
+  "what_it_does": "Genie One will soon allow account-only users to access its features without needing to be assigned to a specific workspace or granted consumer entitlement. This change means that all users within an identity provider can automatically access Genie One once enabled. Access governance will still be managed through Unity Catalog, ensuring that users can only see what they are permitted to.",
+  "why_it_matters": "This update enhances user accessibility and simplifies the onboarding process for organizations, allowing all users to leverage Genie One's capabilities without complex workspace assignments. It streamlines user management and can lead to increased productivity as users can seamlessly navigate between workspaces and Genie One.",
+  "plain_summary": "Genie One will soon be accessible to all users in your organization without needing workspace assignments.",
+  "capabilities": [
+    {
+      "title": "Automatic User Enrollment",
+      "desc": "All users in the identity provider are automatically enrolled in Genie One access."
+    },
+    {
+      "title": "Unified Access Management",
+      "desc": "Users can access Genie One and move between workspaces without reauthenticating."
+    },
+    {
+      "title": "Governance via Unity Catalog",
+      "desc": "Access to assets is controlled by Unity Catalog, ensuring compliance and security."
+    },
+    {
+      "title": "Custom URL Support",
+      "desc": "Accounts can set a branded custom URL for a unified entry point to Genie One."
+    }
+  ],
+  "prerequisites": [
+    "Automatic Identity Management must be enabled.",
+    "Account-level SCIM must be enabled.",
+    "A custom URL must be configured."
+  ],
+  "use_cases": [
+    "Organizations wanting to simplify user access to Genie One.",
+    "Companies with a large number of users needing streamlined onboarding.",
+    "Teams requiring seamless navigation between multiple workspaces."
+  ],
+  "limitations": [
+    "Accounts must be paying, verified customer accounts.",
+    "Custom URLs cannot be used with Chrome-managed passkeys.",
+    "Private Link Inbound workspaces cannot use custom URLs."
+  ],
+  "architecture": [
+    "Identity Provider",
+    "Automatic Identity Management",
+    "Custom URL",
+    "Genie One",
+    "Unity Catalog"
+  ],
+  "steps": [
+    {
+      "title": "Enable Automatic Identity Management",
+      "desc": "Ensure Automatic Identity Management is enabled in your account settings."
+    },
+    {
+      "title": "Configure Custom URL",
+      "desc": "Claim and set up a custom URL for your Databricks account."
+    },
+    {
+      "title": "Verify User Access",
+      "desc": "Check that all users in your identity provider can access Genie One."
+    },
+    {
+      "title": "Set Access Restrictions",
+      "desc": "Use AIM access boundaries to restrict user access as needed."
+    },
+    {
+      "title": "Monitor Usage",
+      "desc": "Track user engagement and access patterns within Genie One."
+    }
+  ],
+  "key_takeaway": "Genie One will soon provide account-only users with seamless access, enhancing productivity and simplifying user management.",
+  "note_id": "2026-07-21-genie-one-will-soon-be-available-to-account-only-users",
+  "category": "platform"
+}

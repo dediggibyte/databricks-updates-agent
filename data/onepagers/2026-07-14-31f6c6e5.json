@@ -1,0 +1,53 @@
+{
+  "product": "Lakeflow Connect",
+  "tagline": "Query-based connectors now default for compliance workspaces.",
+  "updated": "Jul 14, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/query-based-overview",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#query-based-connectors-in-lakeflow-connect-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "Query-based connectors in Lakeflow Connect enable data ingestion from various databases by directly querying the source using a cursor column, eliminating the need for change data capture (CDC) configurations. This method supports databases like Oracle, SQL Server, and PostgreSQL, and allows for ingestion without an ingestion gateway or staging volume. The connectors operate on a scheduled basis, retrieving only the latest changes since the last run, and they can utilize Unity Catalog connections and Lakehouse Federation for broader source compatibility.",
+  "why_it_matters": "This update enhances data ingestion efficiency and flexibility for organizations using compliance security profiles, allowing them to easily integrate data from multiple sources without complex configurations. It reduces operational overhead by removing the need for CDC setups and staging areas, which can lead to cost savings and improved performance. Businesses can benefit from faster data availability and simplified data management processes.",
+  "plain_summary": "Query-based connectors will be available by default for workspaces with compliance security profiles, simplifying data ingestion from various databases.",
+  "capabilities": [
+    {
+      "title": "Direct Database Querying",
+      "desc": "Ingest data directly from databases using a cursor column without requiring CDC configurations."
+    },
+    {
+      "title": "Scheduled Ingestion",
+      "desc": "Run ingestion pipelines on a defined schedule, capturing only the latest changes."
+    },
+    {
+      "title": "Broad Source Compatibility",
+      "desc": "Support for multiple databases including Oracle, SQL Server, and PostgreSQL, as well as Lakehouse Federation sources."
+    },
+    {
+      "title": "Flexible History Tracking",
+      "desc": "Support for various history tracking modes, including SCD Type 1 and Type 2."
+    }
+  ],
+  "prerequisites": [
+    "Workspace must have the compliance security profile enabled.",
+    "Compute environment must allow network connectivity to the source database."
+  ],
+  "use_cases": [
+    "Ingesting data from multiple databases into a unified data lake.",
+    "Tracking changes in source data without complex CDC setups.",
+    "Implementing slowly changing dimensions in data warehousing."
+  ],
+  "limitations": [
+    "Query performance may be slower compared to CDC connectors.",
+    "Queries run directly on source tables, potentially increasing load on the source database."
+  ],
+  "architecture": [
+    "Lakeflow Connect",
+    "Unity Catalog",
+    "Source Database",
+    "Streaming Tables"
+  ],
+  "steps": [],
+  "key_takeaway": "Query-based connectors streamline data ingestion for compliance-focused workspaces, enhancing efficiency and reducing complexity.",
+  "note_id": "2026-07-14-31f6c6e5",
+  "category": "platform"
+}

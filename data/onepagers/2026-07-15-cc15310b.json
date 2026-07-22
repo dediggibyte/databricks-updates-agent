@@ -1,0 +1,77 @@
+{
+  "product": "AI Extract and Classify Functions",
+  "tagline": "Enhanced AI capabilities for compliance-focused workspaces.",
+  "updated": "Jul 15, 2026",
+  "status_label": "GA",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/agents/agent-bricks/classification",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#ai_extract-and-ai_classify-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+  "what_it_does": "The `ai_extract` and `ai_classify` SQL functions are now enabled by default in workspaces with the compliance security profile activated. `ai_extract` allows users to extract structured fields from unstructured text based on a user-defined schema, while `ai_classify` categorizes text into predefined labels for efficient document management. These functions support various compliance standards, enhancing their applicability in regulated environments.",
+  "why_it_matters": "This update significantly improves the ability of organizations to manage and classify unstructured data in compliance-heavy industries, thereby enhancing productivity and reducing the risk of non-compliance. By automating the extraction and classification processes, businesses can streamline workflows, improve data governance, and ensure adherence to regulatory requirements.",
+  "plain_summary": "AI functions for extracting and classifying text are now available by default for compliant workspaces.",
+  "capabilities": [
+    {
+      "title": "Structured Data Extraction",
+      "desc": "Use `ai_extract` to pull structured fields from unstructured text."
+    },
+    {
+      "title": "Text Classification",
+      "desc": "Utilize `ai_classify` to categorize text into user-defined labels."
+    },
+    {
+      "title": "Agent Creation",
+      "desc": "Create information extraction and classification agents for automated workflows."
+    },
+    {
+      "title": "Compliance Support",
+      "desc": "Functions support multiple compliance standards including HIPAA and PCI-DSS."
+    }
+  ],
+  "prerequisites": [
+    "Serverless compute enabled",
+    "Unity Catalog enabled",
+    "Access to a serverless usage policy with a nonzero budget",
+    "Unstructured data in a Unity Catalog volume or table"
+  ],
+  "use_cases": [
+    "Classifying customer call transcripts by intent",
+    "Categorizing documents by content type",
+    "Tagging product reviews by sentiment"
+  ],
+  "limitations": [
+    "Function availability may vary by region",
+    "Requires at least one unlabeled document or row in Unity Catalog to build an agent",
+    "Must have at least two labels defined to run classification"
+  ],
+  "architecture": [
+    "Compliance Security Profile",
+    "Unity Catalog",
+    "AI Functions",
+    "Classification Agent"
+  ],
+  "steps": [
+    {
+      "title": "Create Agent",
+      "desc": "Go to Agents and select Create Agent for Text Classification."
+    },
+    {
+      "title": "Select Source Data",
+      "desc": "Choose a volume with documents or a table with text data."
+    },
+    {
+      "title": "Configure Labels",
+      "desc": "Add and refine classification labels for your data."
+    },
+    {
+      "title": "Run Classification",
+      "desc": "Save and run the classification to see results."
+    },
+    {
+      "title": "Use Agent",
+      "desc": "Deploy the agent for large-scale classification tasks."
+    }
+  ],
+  "key_takeaway": "The availability of AI extract and classify functions by default enhances data management capabilities for compliance-focused organizations.",
+  "note_id": "2026-07-15-cc15310b",
+  "category": "platform"
+}

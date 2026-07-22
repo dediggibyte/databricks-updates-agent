@@ -1,0 +1,38 @@
+{
+  "product": "Google Gemini 3.6 Flash",
+  "tagline": "Now available as a Databricks-hosted model for enhanced model serving.",
+  "updated": "Jul 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-36-flash-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "Model Serving now includes Google Gemini 3.6 Flash as a Databricks-hosted model, allowing users to access this model through Foundation Model APIs. This integration supports various applications in machine learning and AI, enabling seamless deployment and management of the model within the Databricks environment. Users can leverage the capabilities of Gemini 3.6 Flash for tasks such as natural language processing and data analysis.",
+  "why_it_matters": "This update enhances the Databricks platform by providing access to advanced AI capabilities through Google Gemini 3.6 Flash, which can improve productivity and innovation in data-driven projects. Organizations can utilize this model to streamline workflows, reduce time-to-market for AI applications, and ensure compliance with usage policies, thereby mitigating risks associated with model deployment.",
+  "plain_summary": "Google Gemini 3.6 Flash is now available as a hosted model on Databricks.",
+  "capabilities": [
+    {
+      "title": "Foundation Model APIs Access",
+      "desc": "Users can access Google Gemini 3.6 Flash via Foundation Model APIs for various AI applications."
+    },
+    {
+      "title": "Seamless Integration",
+      "desc": "The model is fully integrated into the Databricks environment for easy deployment and management."
+    },
+    {
+      "title": "Compliance Responsibility",
+      "desc": "Customers must ensure compliance with applicable terms and policies when using the model."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Workspace",
+    "Model Serving",
+    "Foundation Model APIs"
+  ],
+  "steps": [],
+  "key_takeaway": "Google Gemini 3.6 Flash is now accessible as a Databricks-hosted model, enhancing AI capabilities for users.",
+  "note_id": "2026-07-21-google-gemini-3-6-flash-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

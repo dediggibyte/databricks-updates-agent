@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-16-google-gemini-3-pro-is-retired",
+  "title": "Google Gemini 3 Pro is retired",
+  "date": "2026-07-16",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-3-pro-is-retired",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Google Gemini 3 Pro is retired. Gemini 3.1 Pro is the recommended replacement. See [Deprecated and retired models](/aws/en/machine-learning/retired-models-policy#retired) for migration guidance.",
+  "ref_links": [
+    {
+      "text": "Deprecated and retired models",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-22T09:32:17.728249Z"
+}

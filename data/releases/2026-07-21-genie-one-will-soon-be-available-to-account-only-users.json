@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-21-genie-one-will-soon-be-available-to-account-only-users",
+  "title": "Genie One will soon be available to account-only users",
+  "date": "2026-07-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#genie-one-will-soon-be-available-to-account-only-users",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Genie One will soon support account-only users, allowing any user in your identity provider to access Genie One without being assigned to a workspace or granted the consumer entitlement. When enabled, all users in your identity provider are enrolled automatically. Unity Catalog will continue to govern what each user can see.\n\nThis feature will be in Public Preview and enabled by default. To be eligible, accounts must enable [Automatic Identity Management](/aws/en/admin/users-groups/automatic-identity-management) (or [account-level SCIM](/aws/en/admin/users-groups/scim)) and [a custom URL](/aws/en/admin/account-settings/custom-url).\n\nAccount admins can restrict access with AIM access boundaries or disable account-only access in the account console.",
+  "ref_links": [
+    {
+      "text": "Automatic Identity Management",
+      "url": "https://docs.databricks.com/aws/en/admin/users-groups/automatic-identity-management"
+    },
+    {
+      "text": "account-level SCIM",
+      "url": "https://docs.databricks.com/aws/en/admin/users-groups/scim"
+    },
+    {
+      "text": "a custom URL",
+      "url": "https://docs.databricks.com/aws/en/admin/account-settings/custom-url"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-22T09:32:17.714774Z"
+}

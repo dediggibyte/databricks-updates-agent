@@ -1,0 +1,49 @@
+{
+  "product": "Databricks-hosted Sample Datasets",
+  "tagline": "Access a variety of sample datasets through the samples catalog.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/discover/databricks-datasets",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-hosted-sample-datasets-available-in-the-samples-catalog",
+  "what_it_does": "Databricks has made sample datasets available in the `samples` catalog as `samples.databricks.datasets`, accessible in Unity Catalog-enabled workspaces. This includes a variety of datasets such as taxi trip records, TPC benchmark datasets, and simulated datasets for testing and building data pipelines. Users can reference these datasets directly in notebooks or SQL editors using the `<catalog-name>.<schema-name>.<table-name>` format.",
+  "why_it_matters": "This update enhances data accessibility and usability for data engineers and analysts, allowing them to quickly prototype and test data pipelines without needing to source external datasets. It streamlines the development process, reduces time to insights, and supports better data governance through the Unity Catalog.",
+  "plain_summary": "You can now access Databricks-hosted sample datasets directly from the samples catalog in Unity Catalog-enabled workspaces.",
+  "capabilities": [
+    {
+      "title": "Sample Dataset Access",
+      "desc": "Access a variety of Databricks-provided datasets for testing and development."
+    },
+    {
+      "title": "Unity Catalog Integration",
+      "desc": "Datasets are available in Unity Catalog, ensuring better governance and organization."
+    },
+    {
+      "title": "Direct Querying",
+      "desc": "Users can query datasets directly in notebooks and SQL editors using a standard format."
+    },
+    {
+      "title": "Diverse Dataset Options",
+      "desc": "Includes datasets like NYC taxi records and TPC benchmark datasets for varied use cases."
+    }
+  ],
+  "prerequisites": [
+    "Unity Catalog-enabled workspace"
+  ],
+  "use_cases": [
+    "Building and testing data pipelines",
+    "Prototyping analytics solutions",
+    "Evaluating system performance with benchmark datasets",
+    "Training machine learning models with real-world data"
+  ],
+  "limitations": [],
+  "architecture": [
+    "Unity Catalog",
+    "Samples Catalog",
+    "Databricks Datasets"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks now offers a streamlined way to access sample datasets, enhancing data pipeline development and testing.",
+  "note_id": "2026-07-22-databricks-hosted-sample-datasets-available-in-the-samples-catalog",
+  "category": "platform"
+}

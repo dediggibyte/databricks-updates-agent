@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-21-6190a78c",
+  "title": "Context-based ingress control for workspaces public access is now generally available",
+  "date": "2026-07-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#context-based-ingress-control-for-workspaces-public-access-is-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Context-based ingress control for workspaces public access is now generally available. Control who can reach your workspace endpoints using allow and deny rules that allow you to combine identities, network sources, and request types. See [Context-based ingress control](/aws/en/security/network/front-end/context-based-ingress).",
+  "ref_links": [
+    {
+      "text": "Context-based ingress control",
+      "url": "https://docs.databricks.com/aws/en/security/network/front-end/context-based-ingress"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-22T09:32:17.715583Z"
+}

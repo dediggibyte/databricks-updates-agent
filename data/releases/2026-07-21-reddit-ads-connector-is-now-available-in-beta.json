@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-21-reddit-ads-connector-is-now-available-in-beta",
+  "title": "Reddit Ads connector is now available in Beta",
+  "date": "2026-07-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#reddit-ads-connector-is-now-available-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The managed Reddit Ads connector in Lakeflow Connect is now available in Beta. You can use the connector to ingest advertising campaign data and performance metrics from Reddit Ads into Databricks. See [Reddit Ads connector](/aws/en/ingestion/lakeflow-connect/reddit-ads).",
+  "ref_links": [
+    {
+      "text": "Reddit Ads connector",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/reddit-ads"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-22T09:32:17.716357Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-22-databricks-hosted-sample-datasets-available-in-the-samples-catalog",
+  "title": "Databricks-hosted sample datasets available in the samples catalog",
+  "date": "2026-07-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-hosted-sample-datasets-available-in-the-samples-catalog",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "The sample datasets `/databricks-datasets` mounted to DBFS are now also available in the `samples` catalog as `samples.databricks.datasets`, made available through OpenSharing. The `datasets` volume hosts a collection of Databricks-provided datasets that you can use to build and test data pipelines.\n\nThe `samples` catalog is available in Unity Catalog-enabled workspaces. For more information about the sample datasets available in the `samples` catalog, see [Sample datasets](/aws/en/discover/databricks-datasets).",
+  "ref_links": [
+    {
+      "text": "Sample datasets",
+      "url": "https://docs.databricks.com/aws/en/discover/databricks-datasets"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-22T09:32:17.713439Z"
+}

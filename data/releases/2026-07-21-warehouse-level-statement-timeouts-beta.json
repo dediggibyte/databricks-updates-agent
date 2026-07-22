@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-21-warehouse-level-statement-timeouts-beta",
+  "title": "Warehouse-level statement timeouts (Beta)",
+  "date": "2026-07-21",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#warehouse-level-statement-timeouts-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now set a statement timeout on a single SQL warehouse so that different warehouses can apply different timeouts to their queries. Set the timeout with the `statement_timeout` field in the Create or Update warehouse APIs. This feature is in Beta and is API-only. See [Warehouse-level timeout](/aws/en/sql/language-manual/parameters/statement_timeout#warehouse-level-timeout).",
+  "ref_links": [
+    {
+      "text": "Warehouse-level timeout",
+      "url": "https://docs.databricks.com/aws/en/sql/language-manual/parameters/statement_timeout#warehouse-level-timeout"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-22T09:32:17.718346Z"
+}

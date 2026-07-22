@@ -1,0 +1,69 @@
+{
+  "product": "Warehouse-level statement timeouts",
+  "tagline": "Set specific timeouts for individual SQL warehouses.",
+  "updated": "Jul 21, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/sql/language-manual/parameters/statement_timeout#warehouse-level-timeout",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#warehouse-level-statement-timeouts-beta",
+  "what_it_does": "The Warehouse-level statement timeout feature allows users to specify a timeout duration for SQL statements executed on individual SQL warehouses, with the timeout duration set in seconds. This timeout applies only to the specific warehouse, enabling different warehouses to have tailored timeout settings based on their use cases. The timeout can be configured using the `statement_timeout` field in the Create or Update warehouse APIs, and it can be set to any value between 0 and 172800 seconds (2 days). If the execution time of a statement exceeds the specified timeout, the statement is halted.",
+  "why_it_matters": "This feature enhances resource management and query performance by allowing organizations to optimize SQL execution times based on the specific needs of different workloads, such as ETL versus BI. By applying tailored timeouts, businesses can reduce the risk of long-running queries consuming resources unnecessarily, leading to improved overall system performance and cost efficiency.",
+  "plain_summary": "You can now set different timeout limits for SQL queries on individual SQL warehouses.",
+  "capabilities": [
+    {
+      "title": "Warehouse-specific timeouts",
+      "desc": "Set unique timeout durations for each SQL warehouse."
+    },
+    {
+      "title": "API Configuration",
+      "desc": "Timeouts are configured via the Create or Update warehouse APIs."
+    },
+    {
+      "title": "Flexible Timeout Values",
+      "desc": "Timeouts can be set between 0 and 172800 seconds."
+    },
+    {
+      "title": "Automatic Warehouse Restart",
+      "desc": "Updating the timeout value automatically restarts the warehouse."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admin must enable the Warehouse Statement Timeout preview.",
+    "Access to the SQL warehouses API."
+  ],
+  "use_cases": [
+    "Set longer timeouts for ETL processes that require more execution time.",
+    "Implement shorter timeouts for BI queries to ensure quick response times."
+  ],
+  "limitations": [
+    "Feature is currently in Beta and may have limited support.",
+    "Existing timeout values remain until the warehouse is restarted."
+  ],
+  "architecture": [
+    "Databricks SQL",
+    "SQL Warehouses",
+    "API Configuration",
+    "Timeout Management"
+  ],
+  "steps": [
+    {
+      "title": "Enable Preview",
+      "desc": "Workspace admin enables the Warehouse Statement Timeout preview from the Previews page."
+    },
+    {
+      "title": "Set Timeout",
+      "desc": "Use the `statement_timeout` field in the Create or Update warehouse APIs to set the timeout."
+    },
+    {
+      "title": "Restart Warehouse",
+      "desc": "The warehouse will restart automatically to apply the new timeout setting."
+    },
+    {
+      "title": "Check Current Timeout",
+      "desc": "Run `SET STATEMENT_TIMEOUT;` to check the current timeout value."
+    }
+  ],
+  "key_takeaway": "The new warehouse-level statement timeouts feature allows for optimized SQL query management by enabling customized timeout settings for individual SQL warehouses.",
+  "note_id": "2026-07-21-warehouse-level-statement-timeouts-beta",
+  "category": "platform"
+}

@@ -1,0 +1,66 @@
+{
+  "product": "Reddit Ads Connector",
+  "tagline": "Ingest advertising data from Reddit Ads into Databricks.",
+  "updated": "Jul 21, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/reddit-ads",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#reddit-ads-connector-is-now-available-in-beta",
+  "what_it_does": "The Reddit Ads connector in Lakeflow Connect allows users to ingest advertising campaign data and performance metrics from Reddit Ads into Databricks. It supports UI-based and API-based pipeline authoring, incremental ingestion for report tables, and integration with Unity Catalog for governance. However, certain features like automated schema evolution and specific authentication methods are not supported.",
+  "why_it_matters": "This connector enables businesses to leverage advertising data from Reddit, enhancing their analytics capabilities and allowing for better decision-making based on campaign performance. By integrating this data into Databricks, organizations can streamline their data workflows and improve productivity in analyzing marketing effectiveness.",
+  "plain_summary": "You can now use the Reddit Ads connector to bring advertising data into Databricks.",
+  "capabilities": [
+    {
+      "title": "UI-based Pipeline Authoring",
+      "desc": "Users can create pipelines using a user-friendly interface."
+    },
+    {
+      "title": "Incremental Ingestion",
+      "desc": "Supports incremental ingestion for report tables, allowing for efficient data updates."
+    },
+    {
+      "title": "Unity Catalog Governance",
+      "desc": "Integrates with Unity Catalog for enhanced data governance and management."
+    },
+    {
+      "title": "Column Selection",
+      "desc": "Allows users to select specific tables for ingestion."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admins must enable access to the connector from the Previews page.",
+    "Users must have the appropriate Databricks user persona set up."
+  ],
+  "use_cases": [
+    "Ingesting campaign performance metrics for analysis.",
+    "Tracking advertising effectiveness over time.",
+    "Integrating Reddit Ads data with other marketing data sources."
+  ],
+  "limitations": [
+    "Entity tables are fully refreshed on each update, limiting incremental ingestion.",
+    "Automated schema evolution features are not supported."
+  ],
+  "architecture": [
+    "Lakeflow Connect",
+    "Reddit Ads Data Source",
+    "Unity Catalog",
+    "Databricks Workspace"
+  ],
+  "steps": [
+    {
+      "title": "Configure Reddit Ads",
+      "desc": "Set up Reddit Ads to authenticate with Databricks."
+    },
+    {
+      "title": "Create Unity Catalog Connection",
+      "desc": "Create a connection in Catalog Explorer for pipeline creation."
+    },
+    {
+      "title": "Create Ingestion Pipeline",
+      "desc": "Select a supported interface to create a pipeline from the connection."
+    }
+  ],
+  "key_takeaway": "The Reddit Ads connector in Beta allows for streamlined ingestion of advertising data into Databricks, enhancing analytics capabilities.",
+  "note_id": "2026-07-21-reddit-ads-connector-is-now-available-in-beta",
+  "category": "platform"
+}

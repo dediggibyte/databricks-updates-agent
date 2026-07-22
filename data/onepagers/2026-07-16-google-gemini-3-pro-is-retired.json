@@ -1,0 +1,50 @@
+{
+  "product": "Google Gemini 3 Pro Retirement",
+  "tagline": "Transition to Gemini 3.1 Pro for enhanced capabilities.",
+  "updated": "Jul 16, 2026",
+  "status_label": "Retired",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-3-pro-is-retired",
+  "what_it_does": "Google Gemini 3 Pro has been officially retired, meaning it is no longer accessible for use in any workloads. Users are encouraged to migrate to Gemini 3.1 Pro, which is the recommended replacement model. The retirement follows a structured lifecycle where models are updated, deprecated, and eventually retired to ensure users have access to the most advanced capabilities. During the transition period, API calls to Gemini 3 Pro were temporarily redirected to Gemini 3.1 Pro to facilitate migration.",
+  "why_it_matters": "The retirement of Google Gemini 3 Pro emphasizes the importance of using up-to-date models to leverage the latest advancements in AI technology. By migrating to Gemini 3.1 Pro, organizations can benefit from improved performance, enhanced features, and continued support, thus ensuring their applications remain competitive and efficient. This transition is crucial for maintaining operational continuity and maximizing the return on investment in AI capabilities.",
+  "plain_summary": "Google Gemini 3 Pro is no longer available, and users should switch to Gemini 3.1 Pro.",
+  "capabilities": [
+    {
+      "title": "Model Lifecycle Management",
+      "desc": "Databricks manages models through a lifecycle of updates, deprecation, and retirement."
+    },
+    {
+      "title": "Migration Support",
+      "desc": "Users are provided with guidance to transition from retired models to recommended replacements."
+    },
+    {
+      "title": "Temporary Redirection",
+      "desc": "API calls to the retired model were redirected to the replacement model during the transition period."
+    },
+    {
+      "title": "Updated Documentation",
+      "desc": "Documentation is updated to reflect the retirement and recommend alternative models."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Organizations using Gemini 3 Pro for AI applications need to transition to Gemini 3.1 Pro.",
+    "Data scientists requiring the latest model features for machine learning tasks.",
+    "Businesses looking to maintain operational efficiency in AI-driven processes."
+  ],
+  "limitations": [
+    "Gemini 3 Pro is no longer accessible for any workloads.",
+    "Existing workloads using Gemini 3 Pro will stop working after retirement.",
+    "Users must migrate to Gemini 3.1 Pro to continue using similar capabilities."
+  ],
+  "architecture": [
+    "Foundation Model APIs",
+    "Model Management",
+    "AI Workloads"
+  ],
+  "steps": [],
+  "key_takeaway": "Transitioning from Google Gemini 3 Pro to Gemini 3.1 Pro is essential for maintaining access to advanced AI capabilities.",
+  "note_id": "2026-07-16-google-gemini-3-pro-is-retired",
+  "category": "platform"
+}

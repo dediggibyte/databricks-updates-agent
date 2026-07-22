@@ -1,0 +1,74 @@
+{
+  "product": "Context-Based Ingress Control",
+  "tagline": "Now generally available for enhanced workspace security.",
+  "updated": "Jul 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/front-end/context-based-ingress",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#context-based-ingress-control-for-workspaces-public-access-is-now-generally-available",
+  "what_it_does": "Context-based ingress control allows account admins to define allow and deny rules that combine user identities, network sources, and request types to manage access to Databricks workspaces. This feature works alongside existing IP access lists and enables granular control over who can access workspace endpoints. It supports both public and private access policies and can be configured at the account level to govern multiple workspaces simultaneously.",
+  "why_it_matters": "This update enhances security by ensuring that only trusted combinations of identity and network source can access sensitive workspace resources, thereby reducing the risk of unauthorized access. It benefits organizations by providing a flexible and detailed access control mechanism that can adapt to various user scenarios, improving governance and compliance while minimizing potential security breaches.",
+  "plain_summary": "You can now control who accesses your Databricks workspaces based on specific rules for users and networks.",
+  "capabilities": [
+    {
+      "title": "Granular Access Control",
+      "desc": "Define specific rules based on user identity, network source, and request type."
+    },
+    {
+      "title": "Audit Logging",
+      "desc": "Capture detailed logs of denied requests for monitoring and compliance."
+    },
+    {
+      "title": "Flexible Policy Enforcement",
+      "desc": "Choose between enforced rules and dry run mode to evaluate policy impacts."
+    },
+    {
+      "title": "Support for Multiple Workspaces",
+      "desc": "Manage ingress policies at the account level to apply to multiple workspaces."
+    }
+  ],
+  "prerequisites": [
+    "Requires the Enterprise tier of Databricks."
+  ],
+  "use_cases": [
+    "Restrict access from untrusted networks by requiring trusted network sources.",
+    "Allow SaaS clients with dynamic IPs to access Databricks resources securely.",
+    "Limit access to specific APIs or UI components based on user identity.",
+    "Protect sensitive automation by restricting service principals to trusted networks."
+  ],
+  "limitations": [
+    "Account-level context-based ingress policy is currently in Beta.",
+    "Denials for account-policy are not yet logged."
+  ],
+  "architecture": [
+    "Account Level Policies",
+    "Workspace Access Control",
+    "Network Source Evaluation",
+    "Identity Management"
+  ],
+  "steps": [
+    {
+      "title": "Access Ingress Policies",
+      "desc": "Navigate to the context-based ingress policies management section."
+    },
+    {
+      "title": "Define Rules",
+      "desc": "Create allow and deny rules based on identities and network sources."
+    },
+    {
+      "title": "Set Enforcement Mode",
+      "desc": "Choose between enforced rules or dry run mode for testing."
+    },
+    {
+      "title": "Monitor Logs",
+      "desc": "Review logs in the system.access.inbound_network table for denied requests."
+    },
+    {
+      "title": "Apply to Workspaces",
+      "desc": "Assign the ingress policy to the desired workspaces."
+    }
+  ],
+  "key_takeaway": "Context-based ingress control provides robust security for Databricks workspaces by allowing precise access management based on user identity and network context.",
+  "note_id": "2026-07-21-6190a78c",
+  "category": "platform"
+}
