@@ -1,0 +1,72 @@
+{
+  "product": "Dashboard Enhancements",
+  "tagline": "New features and improvements for better dashboard management.",
+  "updated": "Jul 23, 2026",
+  "status_label": "Public Preview",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent#beautify",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "what_it_does": "This release introduces several enhancements to dashboards, including the ability to import Power BI and Tableau reports as AI/BI dashboards using Genie Code, a new image widget for adding visuals, and improvements to multi-select filters that enhance user experience. Additionally, dashboard variable display names now show user-friendly names instead of field names, and Genie Code for dashboard authoring is now generally available, allowing for automated dashboard creation and refinement.",
+  "why_it_matters": "These enhancements streamline the dashboard creation process, improve user engagement through better interactivity, and facilitate the integration of existing BI tools, ultimately leading to increased productivity and more insightful data visualizations. Organizations can leverage these features to create more effective dashboards that meet diverse business needs.",
+  "plain_summary": "New features and improvements have been added to dashboards for better usability and integration with BI tools.",
+  "capabilities": [
+    {
+      "title": "Import BI Files",
+      "desc": "Users can now import Power BI and Tableau reports as dashboards using Genie Code."
+    },
+    {
+      "title": "Image Widget",
+      "desc": "A dedicated image widget can now be added to dashboards for enhanced visual appeal."
+    },
+    {
+      "title": "Multi-Select Filter Improvements",
+      "desc": "Multi-select filters now stay open between selections and allow users to select all matching values at once."
+    },
+    {
+      "title": "Genie Code for Dashboard Authoring",
+      "desc": "Genie Code for dashboard authoring is now generally available, automating the dashboard creation process."
+    }
+  ],
+  "prerequisites": [
+    "Partner-powered AI features must be enabled for both the account and workspace.",
+    "The workspace must be in a supported region for Genie Code."
+  ],
+  "use_cases": [
+    "Creating dashboards from existing Power BI and Tableau reports.",
+    "Adding visual elements like logos and images to enhance dashboard aesthetics.",
+    "Improving user interaction with multi-select filters for data exploration.",
+    "Automating the dashboard creation process using Genie Code."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Data Sources",
+    "Genie Code",
+    "Dashboard Authoring",
+    "Visualization Layer"
+  ],
+  "steps": [
+    {
+      "title": "Enable Partner Features",
+      "desc": "Ensure partner-powered AI features are enabled in your workspace."
+    },
+    {
+      "title": "Check Region Support",
+      "desc": "Verify that your workspace is in a supported region for Genie Code."
+    },
+    {
+      "title": "Access Genie Code",
+      "desc": "Open the Genie Code side panel in your dashboard."
+    },
+    {
+      "title": "Use Image Widget",
+      "desc": "Add an image widget to your dashboard using Genie Code."
+    },
+    {
+      "title": "Utilize Multi-Select Filters",
+      "desc": "Implement the improved multi-select filters for better data selection."
+    }
+  ],
+  "key_takeaway": "The latest dashboard enhancements improve usability and integration with existing BI tools, enabling more effective data visualization.",
+  "note_id": "2026-07-23-dashboard-enhancements-and-bug-fixes",
+  "category": "platform"
+}

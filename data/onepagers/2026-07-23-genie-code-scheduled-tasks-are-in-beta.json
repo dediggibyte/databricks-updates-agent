@@ -1,0 +1,73 @@
+{
+  "product": "Genie Code Scheduled Tasks",
+  "tagline": "Automate recurring analyses with scheduled Genie Code prompts.",
+  "updated": "Jul 23, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-code/scheduled-tasks",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-code-scheduled-tasks-are-in-beta",
+  "what_it_does": "Genie Code now allows users to schedule prompts to run automatically at specified intervals, executing each prompt as a full Genie Code session. Each scheduled run generates a new chat that can be reviewed and continued later, enabling users to automate repetitive tasks like summarizing job results or managing tickets. Users can create scheduled tasks through natural language requests, suggested tasks, or manual entry in the scheduled tasks pane. The scheduled runs operate under the same permissions as the user who created them, ensuring secure access to data.",
+  "why_it_matters": "This feature significantly enhances productivity by automating routine analyses, allowing teams to focus on more strategic tasks. It reduces the need for manual intervention in recurring processes, thereby minimizing errors and improving efficiency. By enabling background execution of tasks, organizations can ensure timely insights and updates, which is crucial for agile decision-making.",
+  "plain_summary": "You can now automate recurring tasks in Genie Code to run on a schedule without manual input.",
+  "capabilities": [
+    {
+      "title": "Natural Language Scheduling",
+      "desc": "Users can create scheduled tasks by describing them in natural language to Genie Code."
+    },
+    {
+      "title": "Auto-Approved Runs",
+      "desc": "Scheduled tasks automatically approve tool actions during execution, streamlining the process."
+    },
+    {
+      "title": "Individual Chat Sessions",
+      "desc": "Each scheduled run generates a new chat, allowing users to review and continue conversations separately."
+    },
+    {
+      "title": "Permission-Based Access",
+      "desc": "Scheduled tasks operate under the permissions of the user who created them, ensuring secure data access."
+    }
+  ],
+  "prerequisites": [
+    "Workspace admins must enable access to this feature from the Previews page."
+  ],
+  "use_cases": [
+    "Summarizing overnight job results every morning.",
+    "Reviewing assigned Jira tickets on a set schedule.",
+    "Re-running weekly investigations without manual prompting."
+  ],
+  "limitations": [
+    "Scheduled tasks cannot be shared with other users.",
+    "Scheduled tasks count towards Genie Code usage limits."
+  ],
+  "architecture": [
+    "User Interface",
+    "Genie Code",
+    "Scheduled Tasks Management",
+    "Chat Session Generation"
+  ],
+  "steps": [
+    {
+      "title": "Describe in Chat",
+      "desc": "Ask Genie Code to schedule a task using natural language."
+    },
+    {
+      "title": "Select Suggested Task",
+      "desc": "Choose a suggested task from the scheduled tasks pane."
+    },
+    {
+      "title": "Create Manually",
+      "desc": "Fill in the required fields in the Scheduled tasks pane to create a task."
+    },
+    {
+      "title": "Manage Tasks",
+      "desc": "View and manage scheduled tasks in the Scheduled tasks pane."
+    },
+    {
+      "title": "Review Run History",
+      "desc": "Access run history to review outputs from scheduled tasks."
+    }
+  ],
+  "key_takeaway": "Genie Code now supports automated scheduling of tasks, enhancing efficiency and productivity for recurring analyses.",
+  "note_id": "2026-07-23-genie-code-scheduled-tasks-are-in-beta",
+  "category": "platform"
+}

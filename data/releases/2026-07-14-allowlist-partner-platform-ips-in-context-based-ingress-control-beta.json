@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-14-allowlist-partner-platform-ips-in-context-based-ingress-control-beta",
+  "title": "Allowlist partner platform IPs in context-based ingress control (Beta)",
+  "date": "2026-07-14",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#allowlist-partner-platform-ips-in-context-based-ingress-control-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Context-based ingress control now supports **Partner Platforms** as a network source. Select a partner platform to allowlist the IPs that third-party apps use to connect to Databricks, including Power BI, Tableau Cloud, and dbt platform. Databricks manages and updates these IP lists automatically. See [Network sources](/aws/en/security/network/front-end/context-based-ingress#network-sources).",
+  "ref_links": [
+    {
+      "text": "Network sources",
+      "url": "https://docs.databricks.com/aws/en/security/network/front-end/context-based-ingress#network-sources"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:11.005734Z"
+}

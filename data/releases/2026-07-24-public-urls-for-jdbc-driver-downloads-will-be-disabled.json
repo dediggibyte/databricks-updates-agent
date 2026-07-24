@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-public-urls-for-jdbc-driver-downloads-will-be-disabled",
+  "title": "Public URLs for JDBC driver downloads will be disabled",
+  "date": "2026-07-24",
+  "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#public-urls-for-jdbc-driver-downloads-will-be-disabled",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Beginning September 2026, public S3 links for downloading the [Simba JDBC Driver (Legacy)](/aws/en/integrations/jdbc) will be disabled. After this date, scripts or processes that use direct public links to download the driver will no longer function. In addition, downloading from the [JDBC archive page](https://www.databricks.com/spark/jdbc-drivers-download) will require signing in to Databricks.\n\nTo continue using automated downloads, migrate to the Databricks JDBC Driver before September 2026. See [Databricks JDBC Driver](/aws/en/integrations/jdbc-oss).",
+  "ref_links": [
+    {
+      "text": "Simba JDBC Driver (Legacy)",
+      "url": "https://docs.databricks.com/aws/en/integrations/jdbc"
+    },
+    {
+      "text": "JDBC archive page",
+      "url": "https://www.databricks.com/spark/jdbc-drivers-download"
+    },
+    {
+      "text": "Databricks JDBC Driver",
+      "url": "https://docs.databricks.com/aws/en/integrations/jdbc-oss"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.956561Z"
+}

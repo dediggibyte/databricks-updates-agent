@@ -1,0 +1,41 @@
+{
+  "id": "2026-07-23-dashboard-enhancements-and-bug-fixes",
+  "title": "Dashboard enhancements and bug fixes",
+  "date": "2026-07-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Import BI files (Public Preview)**: Importing Power BI and Tableau reports as AI/BI dashboards with Genie Code is in Public Preview. See [Import BI files using Genie Code](/aws/en/dashboards/manage/import-bi).\n* **Image widget**: You can now add a dedicated image widget to a dashboard. See [Image widgets](/aws/en/dashboards/manage/visualizations/image-widgets).\n* **Multi-select filter improvements**: [Multi-select filter](/aws/en/dashboards/manage/filter-types#multiple-values) improvements:\n\n  + **Multi-select filter stays open**: Multi-select filter drop-downs now stay open between selections and keep your place in the list instead of closing.\n  + **Select all matching values in a multi-select filter**: In a multi-select filter, you can now type to narrow the list and select **Select all results** to select every matching value at once. Selections are additive across searches.\n* **Dashboard variable display names**: When a display name is available, dashboard variable drop-down menu options show the column's display name instead of the field name. To learn more about variables, see [Create a dashboard variable](/aws/en/dashboards/manage/filters/dashboard-variables#create-a-dashboard-variable).\n* **Cross-filtering text-selection fix**: Fixed a bug where selecting text in a table unintentionally triggered cross-filtering.\n* **Genie Code for dashboard authoring (GA)**: Genie Code for dashboard authoring, the Genie agent built for authoring dashboards, is now generally available. See [Use Genie Code for dashboard authoring](/aws/en/dashboards/manage/dashboard-agent). This release also adds the following authoring capabilities:\n\n  + **Author image widgets with Genie Code**: Genie Code for dashboard authoring can now add image widgets to a dashboard. See [Author image widgets](/aws/en/dashboards/manage/dashboard-agent#image-widgets).\n  + **Beautify dashboards with Genie Code**: Genie Code for dashboard authoring can now redesign a dashboard's appearance. Ask it to beautify your dashboard, then undo the changes if you want to revert. See [Beautify a dashboard](/aws/en/dashboards/manage/dashboard-agent#beautify).",
+  "ref_links": [
+    {
+      "text": "Import BI files using Genie Code",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/import-bi"
+    },
+    {
+      "text": "Image widgets",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/visualizations/image-widgets"
+    },
+    {
+      "text": "Multi-select filter",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filter-types#multiple-values"
+    },
+    {
+      "text": "Create a dashboard variable",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/filters/dashboard-variables#create-a-dashboard-variable"
+    },
+    {
+      "text": "Use Genie Code for dashboard authoring",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent"
+    },
+    {
+      "text": "Author image widgets",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent#image-widgets"
+    },
+    {
+      "text": "Beautify a dashboard",
+      "url": "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent#beautify"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.961278Z"
+}

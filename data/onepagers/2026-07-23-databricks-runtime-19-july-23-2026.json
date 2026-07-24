@@ -1,0 +1,45 @@
+{
+  "product": "Databricks Runtime 19",
+  "tagline": "General Availability of Databricks Runtime 19 with enhanced performance features.",
+  "updated": "Jul 23, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://github.com/apache/parquet-java/releases",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-july-23-2026",
+  "what_it_does": "Databricks Runtime 19 introduces Arrow-optimized Python UDFs enabled by default, which enhances serialization performance. It also includes TopN pushdown for fine-grained access control, allowing `ORDER BY ... LIMIT` operations to be executed on the remote cluster, thus improving query performance. Additionally, the `parquet-java` library has been upgraded to version 1.17.0, which includes various enhancements and bug fixes.",
+  "why_it_matters": "These updates significantly improve the performance and efficiency of data processing tasks, particularly for organizations that rely on Python UDFs and require fine-grained access control. The enhancements can lead to reduced query execution times and better resource utilization, ultimately lowering operational costs and improving productivity for data teams.",
+  "plain_summary": "Databricks Runtime 19 is now available, featuring improved Python UDF performance and enhanced query capabilities.",
+  "capabilities": [
+    {
+      "title": "Arrow-Optimized Python UDFs",
+      "desc": "Regular Python UDFs now use Arrow-based serialization by default for better performance."
+    },
+    {
+      "title": "TopN Pushdown",
+      "desc": "Supports pushing down `ORDER BY ... LIMIT` operations to improve query performance on dedicated compute."
+    },
+    {
+      "title": "Parquet Library Upgrade",
+      "desc": "Upgraded `parquet-java` to version 1.17.0, enhancing functionality and fixing bugs."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Data processing tasks requiring high-performance Python UDFs.",
+    "Queries needing fine-grained access control with efficient execution.",
+    "Organizations leveraging Parquet for data storage and processing."
+  ],
+  "limitations": [
+    "Changing the default Arrow serialization may alter type-coercion behavior for some UDFs."
+  ],
+  "architecture": [
+    "Databricks Runtime",
+    "Python UDFs",
+    "Query Execution Engine",
+    "Data Access Layer"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks Runtime 19 enhances performance and efficiency for data processing with new features and optimizations.",
+  "note_id": "2026-07-23-databricks-runtime-19-july-23-2026",
+  "category": "platform"
+}

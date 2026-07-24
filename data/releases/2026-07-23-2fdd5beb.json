@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-23-2fdd5beb",
+  "title": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now generally available",
+  "date": "2026-07-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-runtime-19-and-databricks-runtime-19-for-machine-learning-are-now-generally-available",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now generally available (GA), powered by Apache Spark 4.2.0.\n\nFor release notes, see [Databricks Runtime 19](/aws/en/release-notes/runtime/19) and [Databricks Runtime 19 for Machine Learning](/aws/en/release-notes/runtime/19ml).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 19",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19"
+    },
+    {
+      "text": "Databricks Runtime 19 for Machine Learning",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19ml"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.962141Z"
+}

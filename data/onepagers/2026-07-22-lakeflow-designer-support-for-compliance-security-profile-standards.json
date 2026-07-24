@@ -1,0 +1,49 @@
+{
+  "product": "Lakeflow Designer",
+  "tagline": "Now supports compliance security profile standards for enhanced governance.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/designer",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-designer-support-for-compliance-security-profile-standards",
+  "what_it_does": "Lakeflow Designer now includes support for all compliance security profile standards available in Databricks, ensuring that data preparation workflows adhere to necessary regulatory requirements. This feature is enabled by default for workspaces that have the compliance security profile activated. Users can leverage a visual, no-code interface to create data workflows that are compliant with industry standards, backed by production-ready code governed by Unity Catalog.",
+  "why_it_matters": "This update enhances data governance and compliance for organizations, allowing them to meet regulatory requirements more efficiently. By integrating compliance standards directly into Lakeflow Designer, businesses can reduce the risk of non-compliance penalties and streamline their data preparation processes, ultimately improving productivity and trust in data handling.",
+  "plain_summary": "Lakeflow Designer now automatically supports compliance security standards for data workflows.",
+  "capabilities": [
+    {
+      "title": "Compliance Support",
+      "desc": "Lakeflow Designer supports all compliance security profile standards by default for eligible workspaces."
+    },
+    {
+      "title": "Visual Data Preparation",
+      "desc": "Users can create data workflows using a no-code, drag-and-drop interface."
+    },
+    {
+      "title": "Production-Ready Code",
+      "desc": "Workflows built in Lakeflow Designer are backed by production-ready code, ensuring reliability."
+    },
+    {
+      "title": "Governance with Unity Catalog",
+      "desc": "All data workflows are fully governed by Unity Catalog, facilitating smooth transitions from prototype to production."
+    }
+  ],
+  "prerequisites": [
+    "Workspace must have the compliance security profile enabled."
+  ],
+  "use_cases": [
+    "Organizations needing to comply with industry regulations.",
+    "Data teams looking to streamline data preparation processes.",
+    "Businesses aiming to enhance data governance and compliance.",
+    "Teams requiring a no-code solution for data analytics."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Lakeflow Designer",
+    "Compliance Security Profile",
+    "Unity Catalog"
+  ],
+  "steps": [],
+  "key_takeaway": "Lakeflow Designer's support for compliance standards simplifies regulatory adherence in data workflows.",
+  "note_id": "2026-07-22-lakeflow-designer-support-for-compliance-security-profile-standards",
+  "category": "platform"
+}

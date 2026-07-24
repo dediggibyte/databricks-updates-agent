@@ -1,0 +1,51 @@
+{
+  "product": "Context-Based Ingress Control",
+  "tagline": "Now supports allowlisting IPs from partner platforms.",
+  "updated": "Jul 14, 2026",
+  "status_label": "Beta",
+  "status": "beta",
+  "docs_url": "https://docs.databricks.com/aws/en/security/network/front-end/context-based-ingress#network-sources",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#allowlist-partner-platform-ips-in-context-based-ingress-control-beta",
+  "what_it_does": "Context-based ingress control now allows users to specify Partner Platforms as a network source, enabling the automatic allowlisting of IPs used by third-party applications like Power BI, Tableau Cloud, and dbt platform. This feature simplifies network security management by automating IP updates, ensuring seamless connectivity for authorized applications. It is designed to work at the account level, allowing a single policy to govern multiple workspaces.",
+  "why_it_matters": "This update enhances security and operational efficiency by reducing the manual effort required to manage IP allowlists for third-party applications. Organizations can ensure that only trusted applications have access to their Databricks environment, thereby minimizing risk and improving compliance. This is particularly beneficial for data teams that rely on external tools for analytics and reporting.",
+  "plain_summary": "You can now automatically allowlist IPs from partner platforms to enhance security and simplify access management.",
+  "capabilities": [
+    {
+      "title": "Partner Platforms Support",
+      "desc": "Allowlist IPs from third-party applications like Power BI, Tableau Cloud, and dbt platform."
+    },
+    {
+      "title": "Automatic IP Management",
+      "desc": "Databricks automatically manages and updates the IP lists for partner platforms."
+    },
+    {
+      "title": "Account-Level Policies",
+      "desc": "Single context-based ingress policy can govern multiple workspaces."
+    },
+    {
+      "title": "Enhanced Security",
+      "desc": "Combines identity, request type, and network source to ensure only trusted access."
+    }
+  ],
+  "prerequisites": [
+    "Requires the Enterprise tier."
+  ],
+  "use_cases": [
+    "Integrating third-party analytics tools with Databricks.",
+    "Managing secure access for SaaS applications without stable IPs.",
+    "Setting up a unified ingress policy across multiple workspaces."
+  ],
+  "limitations": [
+    "Account-level policy denials are not yet logged."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Context-Based Ingress Control",
+    "Partner Platforms",
+    "Network Sources"
+  ],
+  "steps": [],
+  "key_takeaway": "The new feature streamlines IP management for third-party applications, enhancing security and simplifying access control.",
+  "note_id": "2026-07-14-allowlist-partner-platform-ips-in-context-based-ingress-control-beta",
+  "category": "platform"
+}

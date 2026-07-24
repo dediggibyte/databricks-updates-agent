@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-e6d98b3a",
+  "title": "Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning have transitioned to LTS",
+  "date": "2026-07-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-runtime-18-and-databricks-runtime-18-for-machine-learning-have-transitioned-to-lts",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "With the general availability of Databricks Runtime 19, Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning have transitioned to long-term support (LTS). LTS versions receive three years of stability and security fixes.\n\nFor release notes, see [Databricks Runtime 18 LTS](/aws/en/release-notes/runtime/18) and [Databricks Runtime 18 LTS for Machine Learning](/aws/en/release-notes/runtime/18ml). For lifecycle details, see [Databricks Runtime support lifecycles](/aws/en/release-notes/runtime/databricks-runtime-ver#runtime).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime 18 LTS",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18"
+    },
+    {
+      "text": "Databricks Runtime 18 LTS for Machine Learning",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/18ml"
+    },
+    {
+      "text": "Databricks Runtime support lifecycles",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/databricks-runtime-ver#runtime"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.963038Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-22-priority-pay-per-token-for-foundation-model-apis",
+  "title": "Priority pay-per-token for Foundation Model APIs",
+  "date": "2026-07-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#priority-pay-per-token-for-foundation-model-apis",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Priority pay-per-token, also referred to as priority mode, for [Foundation Model APIs pay-per-token](/aws/en/machine-learning/foundation-model-apis#token-foundation-apis) is generally available for partner models and in [preview](/aws/en/release-notes/release-types) for open source models.\n\nPriority mode is for latency-sensitive, real-time applications that need more consistent availability under load.\n\nSee [Priority pay-per-token for Foundation Model APIs](/aws/en/machine-learning/foundation-model-apis/priority-mode) for model availability.",
+  "ref_links": [
+    {
+      "text": "Foundation Model APIs pay-per-token",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis#token-foundation-apis"
+    },
+    {
+      "text": "preview",
+      "url": "https://docs.databricks.com/aws/en/release-notes/release-types"
+    },
+    {
+      "text": "Priority pay-per-token for Foundation Model APIs",
+      "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/priority-mode"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.967327Z"
+}

@@ -1,0 +1,72 @@
+{
+  "product": "Genie Agents Enhancements",
+  "tagline": "New features for improved file analysis and API capabilities.",
+  "updated": "Jul 23, 2026",
+  "status_label": "Beta",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/genie-agents/volumes#attach-volumes",
+  "source_url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "what_it_does": "The Genie Agents enhancements include a higher character limit for uploaded PDFs, increased capabilities for analyzing files stored in Unity Catalog volumes, and the introduction of Agent mode APIs. Users can now upload PDFs with up to 15,000 characters, analyze various file types in Unity Catalog volumes, and utilize new APIs for enhanced interaction with Genie Agents. These features are currently in Beta and require specific configurations to function properly.",
+  "why_it_matters": "These enhancements significantly improve the usability and functionality of Genie Agents, allowing businesses to extract insights from larger documents and unstructured data sources. By enabling the analysis of files alongside structured data, organizations can make more informed decisions and streamline workflows, ultimately enhancing productivity and reducing time spent on data retrieval and analysis.",
+  "plain_summary": "Genie Agents can now handle larger PDFs and analyze files from Unity Catalog volumes, improving data insights.",
+  "capabilities": [
+    {
+      "title": "Higher PDF Character Limit",
+      "desc": "The maximum character limit for uploaded PDFs has increased from 4,000 to 15,000."
+    },
+    {
+      "title": "Agent Mode APIs",
+      "desc": "New APIs for Genie Agents are available in Beta, enhancing interaction capabilities."
+    },
+    {
+      "title": "File Analysis in Unity Catalog",
+      "desc": "Genie Agents can analyze files like PDFs and images stored in Unity Catalog volumes."
+    }
+  ],
+  "prerequisites": [
+    "Unity Catalog enabled in your workspace",
+    "AI Gateway enabled",
+    "Agent mode available in your region",
+    "Users must have Workspace and Databricks SQL access entitlements",
+    "Users must have READ VOLUME permission on attached volumes"
+  ],
+  "use_cases": [
+    "Analyze customer support issues alongside structured data",
+    "Evaluate sales opportunities with insights from call logs",
+    "Combine internal policies with performance data for better decision-making"
+  ],
+  "limitations": [
+    "Not available on AWS GovCloud",
+    "Consumer-only, Databricks SQL-only, and account-only users cannot use this feature",
+    "Can retrieve context from up to 5 files per question",
+    "Cannot analyze external files from Google Drive or SharePoint",
+    "Web-search tools are not available"
+  ],
+  "architecture": [
+    "Genie Agent",
+    "Unity Catalog",
+    "AI Gateway",
+    "Agent Mode APIs"
+  ],
+  "steps": [
+    {
+      "title": "Enable Analyze Files Feature",
+      "desc": "A workspace admin must turn on Analyze Files in Volumes with Genie Agents from the Previews page."
+    },
+    {
+      "title": "Attach Volumes",
+      "desc": "Open the Genie Agent, go to the Sources tab, and add one or more Unity Catalog volumes."
+    },
+    {
+      "title": "Optimize Agent Description",
+      "desc": "Provide a clear description of the content and organization of the attached volumes."
+    },
+    {
+      "title": "Ask Questions in Agent Mode",
+      "desc": "Turn on Agent mode in the chat box to ask questions about the attached files."
+    }
+  ],
+  "key_takeaway": "The Genie Agents enhancements enable deeper insights from unstructured data, improving decision-making and operational efficiency.",
+  "note_id": "2026-07-23-genie-agents-enhancements",
+  "category": "platform"
+}

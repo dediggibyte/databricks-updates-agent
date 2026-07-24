@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-22-automated-setup-for-s3-external-locations",
+  "title": "Automated setup for S3 external locations",
+  "date": "2026-07-22",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automated-setup-for-s3-external-locations",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now create an S3 external location using automated setup, the recommended method for connecting an S3 bucket to Databricks. Automated setup uses AWS IAM temporary delegation to configure your external location and provision all required resources, including the IAM role, storage credential, and external location. It also provides built-in approval workflows for users who need AWS admin authorization. See [Create an external location with automated setup](/aws/en/connect/unity-catalog/cloud-storage/s3/automatedsetups3).",
+  "ref_links": [
+    {
+      "text": "Create an external location with automated setup",
+      "url": "https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-storage/s3/automatedsetups3"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.968993Z"
+}

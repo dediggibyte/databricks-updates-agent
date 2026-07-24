@@ -1,0 +1,38 @@
+{
+  "product": "Google Gemini 3.5 Flash Lite",
+  "tagline": "Now available as a Databricks-hosted model for enhanced model serving.",
+  "updated": "Jul 21, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-35-flash-lite-now-available-as-a-databricks-hosted-model",
+  "what_it_does": "Databricks Model Serving now includes Google Gemini 3.5 Flash Lite as a hosted model, allowing users to access it via Foundation Model APIs. This integration supports various applications in machine learning and AI, providing a robust foundation for model deployment. Users can leverage the model's capabilities while ensuring compliance with applicable terms and policies.",
+  "why_it_matters": "This update enhances the capabilities of Databricks users by providing access to advanced AI models, which can improve the performance and accuracy of machine learning applications. Organizations can benefit from faster deployment of AI solutions, reduced operational overhead, and the ability to leverage cutting-edge technology for competitive advantage.",
+  "plain_summary": "Google Gemini 3.5 Flash Lite is now available as a hosted model on Databricks.",
+  "capabilities": [
+    {
+      "title": "Hosted Model Access",
+      "desc": "Users can access Google Gemini 3.5 Flash Lite directly through Databricks Model Serving."
+    },
+    {
+      "title": "Foundation Model APIs",
+      "desc": "The model can be utilized via Foundation Model APIs for various applications."
+    },
+    {
+      "title": "Compliance Responsibility",
+      "desc": "Customers must ensure compliance with applicable terms and use policies."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Model Serving",
+    "Foundation Model APIs",
+    "Google Gemini 3.5 Flash Lite"
+  ],
+  "steps": [],
+  "key_takeaway": "The addition of Google Gemini 3.5 Flash Lite as a Databricks-hosted model empowers users with advanced AI capabilities for enhanced machine learning applications.",
+  "note_id": "2026-07-21-google-gemini-3-5-flash-lite-now-available-as-a-databricks-hosted-model",
+  "category": "platform"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-23-genie-code-scheduled-tasks-are-in-beta",
+  "title": "Genie Code scheduled tasks are in Beta",
+  "date": "2026-07-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-code-scheduled-tasks-are-in-beta",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "You can now schedule Genie Code to run a prompt on a recurring schedule. Each run executes your prompt as a full Genie Code session and produces a continuable Genie chat with the results, so you can turn recurring analysis into an unattended background task. Create a scheduled task by asking Genie Code in chat or by filling in the create form manually. For more information, see [Genie Code scheduled tasks](/aws/en/genie-code/scheduled-tasks).",
+  "ref_links": [
+    {
+      "text": "Genie Code scheduled tasks",
+      "url": "https://docs.databricks.com/aws/en/genie-code/scheduled-tasks"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.963642Z"
+}

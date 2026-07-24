@@ -1,0 +1,75 @@
+{
+  "product": "Automated Setup for S3 External Locations",
+  "tagline": "Streamline the connection of S3 buckets to Databricks with automated provisioning.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-storage/s3/automatedsetups3",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automated-setup-for-s3-external-locations",
+  "what_it_does": "The automated setup for S3 external locations allows users to connect an S3 bucket to Databricks by automatically provisioning necessary AWS resources and Databricks configuration objects. This includes creating an IAM role with a least-privilege access policy, a cross-account trust policy, a storage credential, and an external location registered in Unity Catalog. The process utilizes AWS IAM temporary delegation for secure access and includes built-in approval workflows for AWS admin authorization.",
+  "why_it_matters": "This update simplifies the process of connecting S3 storage to Databricks, reducing the time and complexity involved in manual setups. By automating resource provisioning and ensuring compliance with security best practices, organizations can enhance productivity and minimize risks associated with misconfigurations. This is particularly beneficial for data teams that require quick access to external data sources for analytics and machine learning.",
+  "plain_summary": "You can now easily connect S3 buckets to Databricks using an automated setup process.",
+  "capabilities": [
+    {
+      "title": "Automated Resource Provisioning",
+      "desc": "Automatically provisions IAM roles and storage credentials in AWS for seamless integration."
+    },
+    {
+      "title": "Built-in Approval Workflows",
+      "desc": "Includes workflows for AWS admin authorization, streamlining the setup process."
+    },
+    {
+      "title": "Temporary Delegation Security",
+      "desc": "Uses AWS IAM temporary delegation to ensure secure and limited access during setup."
+    },
+    {
+      "title": "Logging and Tracking",
+      "desc": "All automated actions are logged in AWS CloudTrail for auditing and compliance."
+    }
+  ],
+  "prerequisites": [
+    "An existing S3 bucket in your AWS account.",
+    "Databricks permissions: Workspace admin, Metastore admin, or specific privileges on the metastore."
+  ],
+  "use_cases": [
+    "Quickly connect S3 data sources for analytics.",
+    "Enable data teams to access external data without complex setups.",
+    "Facilitate secure data sharing across different AWS accounts."
+  ],
+  "limitations": [
+    "S3 bucket names cannot use dot notation.",
+    "External location paths must use standard ASCII characters only.",
+    "S3 access control lists (ACLs) must not be enabled on the bucket."
+  ],
+  "architecture": [
+    "Databricks Workspace",
+    "Unity Catalog",
+    "AWS IAM",
+    "S3 Bucket"
+  ],
+  "steps": [
+    {
+      "title": "Access Catalog",
+      "desc": "In the sidebar, click Catalog."
+    },
+    {
+      "title": "Create External Location",
+      "desc": "Click Connect > External locations and select Create external location."
+    },
+    {
+      "title": "Select Automated Setup",
+      "desc": "Choose Set up Automatically and enter the external location name and S3 bucket URL."
+    },
+    {
+      "title": "Log into AWS",
+      "desc": "Log into AWS to verify permissions and approve the delegation request."
+    },
+    {
+      "title": "Confirm Provisioning",
+      "desc": "Review and confirm the resources to be created in your AWS account."
+    }
+  ],
+  "key_takeaway": "The automated setup for S3 external locations simplifies and secures the integration of S3 storage with Databricks.",
+  "note_id": "2026-07-22-automated-setup-for-s3-external-locations",
+  "category": "platform"
+}

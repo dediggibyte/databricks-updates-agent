@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-23-databricks-runtime-19-july-23-2026",
+  "title": "Databricks Runtime 19: July 23, 2026",
+  "date": "2026-07-23",
+  "url": "https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-july-23-2026",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "Databricks Runtime 19 is now generally available (GA). For lifecycle details, see [Databricks Runtime support lifecycles](/aws/en/release-notes/runtime/databricks-runtime-ver#runtime).\n\n### Behavioral changes\n\n* **Arrow-optimized Python UDFs enabled by default**: Regular Python UDFs now use Arrow-based serialization by default. This can change type-coercion behavior for some UDFs compared to previous releases. To restore the previous behavior, set `spark.databricks.execution.pythonUDF.arrow.enabled` to `false`.\n\n### New features and improvements\n\n* **TopN pushdown for fine-grained access control on dedicated compute**: Fine-grained access control on dedicated compute now pushes down `ORDER BY ... LIMIT` (TopN) operations to the remote cluster that performs the filtering, improving query performance.\n* **`parquet-java` upgraded to 1.17.0**: The `apache/parquet-java` dependency is upgraded to version 1.17.0. For the full list of changes, see the [apache/parquet-java release notes](https://github.com/apache/parquet-java/releases).",
+  "ref_links": [
+    {
+      "text": "Databricks Runtime support lifecycles",
+      "url": "https://docs.databricks.com/aws/en/release-notes/runtime/databricks-runtime-ver#runtime"
+    },
+    {
+      "text": "apache/parquet-java release notes",
+      "url": "https://github.com/apache/parquet-java/releases"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.965576Z"
+}

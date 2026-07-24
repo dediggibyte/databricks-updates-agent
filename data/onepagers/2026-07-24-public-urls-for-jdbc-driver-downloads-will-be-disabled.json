@@ -1,0 +1,62 @@
+{
+  "product": "Databricks JDBC Driver Update",
+  "tagline": "Public URLs for JDBC driver downloads will be disabled starting September 2026.",
+  "updated": "Jul 24, 2026",
+  "status_label": "Changed",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/integrations/jdbc-oss",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/whats-coming#public-urls-for-jdbc-driver-downloads-will-be-disabled",
+  "what_it_does": "Beginning September 2026, public S3 links for downloading the Simba JDBC Driver (Legacy) will be disabled, requiring users to migrate to the Databricks JDBC Driver for automated downloads. The Databricks JDBC Driver supports industry-standard JDBC APIs, enabling connections to various tools and providing features like OAuth and Cloud Fetch. Users will need to sign in to Databricks to access the JDBC archive page for driver downloads after the cutoff date.",
+  "why_it_matters": "This change emphasizes the shift towards a more secure and controlled environment for driver downloads, reducing reliance on public links and enhancing governance. Migrating to the Databricks JDBC Driver ensures continued functionality and access to advanced features, ultimately improving productivity for teams relying on JDBC for data access.",
+  "plain_summary": "Starting September 2026, users must switch to the Databricks JDBC Driver as public download links for the legacy driver will be disabled.",
+  "capabilities": [
+    {
+      "title": "OAuth Support",
+      "desc": "The Databricks JDBC Driver includes OAuth for secure authentication."
+    },
+    {
+      "title": "Cloud Fetch",
+      "desc": "It provides Cloud Fetch capabilities for efficient data retrieval."
+    },
+    {
+      "title": "Unity Catalog Integration",
+      "desc": "The driver supports Unity Catalog volume ingestion for better data management."
+    },
+    {
+      "title": "Parameterized Queries",
+      "desc": "It allows the use of native parameterized queries for enhanced query execution."
+    }
+  ],
+  "prerequisites": [
+    "Java Runtime Environment (JRE) 11.0 or above is required."
+  ],
+  "use_cases": [
+    "Connecting BI tools like DataGrip and DBeaver to Databricks.",
+    "Running automated scripts that require JDBC connectivity.",
+    "Executing complex queries using the Databricks JDBC Driver."
+  ],
+  "limitations": [],
+  "architecture": [
+    "Databricks Workspace",
+    "JDBC Driver",
+    "Data Access Layer",
+    "BI Tools"
+  ],
+  "steps": [
+    {
+      "title": "Migrate to Databricks JDBC Driver",
+      "desc": "Transition from the Simba JDBC Driver to the Databricks JDBC Driver before September 2026."
+    },
+    {
+      "title": "Update Connection Scripts",
+      "desc": "Modify any scripts that utilize public links for driver downloads."
+    },
+    {
+      "title": "Sign In for Downloads",
+      "desc": "Ensure users have Databricks accounts to access the JDBC archive page."
+    }
+  ],
+  "key_takeaway": "Users must transition to the Databricks JDBC Driver by September 2026 to maintain automated downloads and access enhanced features.",
+  "note_id": "2026-07-24-public-urls-for-jdbc-driver-downloads-will-be-disabled",
+  "category": "platform"
+}

@@ -1,0 +1,56 @@
+{
+  "product": "Priority Pay-Per-Token for Foundation Model APIs",
+  "tagline": "Enhancing availability for latency-sensitive applications.",
+  "updated": "Jul 22, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/priority-mode",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#priority-pay-per-token-for-foundation-model-apis",
+  "what_it_does": "Priority pay-per-token, or priority mode, allows users to send requests with a `service_tier` parameter set to 'priority', ensuring these requests are admitted ahead of standard traffic. This feature is designed for latency-sensitive applications, providing more consistent availability during high traffic periods without requiring a capacity commitment. It is available for partner models and in preview for select open-source models, with a higher per-token billing rate compared to standard requests.",
+  "why_it_matters": "This update is crucial for businesses that rely on real-time applications requiring consistent performance, as it allows them to prioritize critical workloads without committing to dedicated resources. By opting for priority mode, organizations can enhance user experience and operational efficiency, particularly during peak usage times, thus reducing the risk of service disruptions.",
+  "plain_summary": "You can now prioritize requests for Foundation Model APIs to ensure better performance during high traffic.",
+  "capabilities": [
+    {
+      "title": "Opt-In Priority Requests",
+      "desc": "Users can opt-in to priority processing on a per-request basis without a capacity commitment."
+    },
+    {
+      "title": "Consistent Availability",
+      "desc": "Priority mode provides more consistent availability under load compared to standard requests."
+    },
+    {
+      "title": "Higher Billing Rate",
+      "desc": "Requests in priority mode are billed at a higher per-token rate than standard pay-per-token requests."
+    },
+    {
+      "title": "Support for Multiple Models",
+      "desc": "Priority mode is available for various partner models and in preview for select open-source models."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [
+    "Real-time applications requiring consistent performance.",
+    "Production workloads that need higher availability without dedicated capacity.",
+    "Applications that experience variable traffic and need to ensure critical requests are processed promptly."
+  ],
+  "limitations": [
+    "Priority mode does not guarantee specific latency targets.",
+    "If priority capacity is fully subscribed, requests may fall back to standard availability.",
+    "Higher billing rates apply for priority requests compared to standard requests."
+  ],
+  "architecture": [
+    "Foundation Model APIs",
+    "Priority Mode",
+    "Request Handling",
+    "Model Endpoint"
+  ],
+  "steps": [
+    {
+      "title": "Set Service Tier",
+      "desc": "Include the `service_tier` parameter set to 'priority' in your request."
+    }
+  ],
+  "key_takeaway": "Priority pay-per-token mode enhances the reliability of Foundation Model APIs for critical applications by ensuring consistent availability during high demand.",
+  "note_id": "2026-07-22-priority-pay-per-token-for-foundation-model-apis",
+  "category": "platform"
+}

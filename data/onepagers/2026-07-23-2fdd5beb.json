@@ -1,0 +1,43 @@
+{
+  "product": "Databricks Runtime 19",
+  "tagline": "Now Generally Available with Apache Spark 4.2.0",
+  "updated": "Jul 23, 2026",
+  "status_label": "GA",
+  "status": "ga",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/19",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-runtime-19-and-databricks-runtime-19-for-machine-learning-are-now-generally-available",
+  "what_it_does": "Databricks Runtime 19 introduces enhancements powered by Apache Spark 4.2.0, which includes performance improvements, new features, and bug fixes. This runtime is designed to optimize the execution of data processing and machine learning tasks, providing users with a more efficient environment. It supports a wide range of libraries and frameworks, ensuring compatibility with existing workflows and applications.",
+  "why_it_matters": "The general availability of Databricks Runtime 19 allows organizations to leverage the latest advancements in Apache Spark for improved performance and efficiency in data processing and machine learning tasks. This can lead to reduced operational costs and enhanced productivity for data teams, enabling them to deliver insights faster and more reliably.",
+  "plain_summary": "Databricks Runtime 19 is now available, offering improved performance and features for data processing and machine learning.",
+  "capabilities": [
+    {
+      "title": "Performance Improvements",
+      "desc": "Enhanced execution speed for data processing tasks."
+    },
+    {
+      "title": "New Features",
+      "desc": "Introduction of new functionalities to support advanced analytics."
+    },
+    {
+      "title": "Bug Fixes",
+      "desc": "Resolved issues from previous versions to ensure stability."
+    },
+    {
+      "title": "Library Compatibility",
+      "desc": "Supports a wide range of libraries for seamless integration."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Workspace",
+    "Databricks Runtime",
+    "Apache Spark 4.2.0",
+    "Machine Learning Libraries"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks Runtime 19 is now generally available, providing significant enhancements for data processing and machine learning.",
+  "note_id": "2026-07-23-2fdd5beb",
+  "category": "platform"
+}

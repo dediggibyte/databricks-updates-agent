@@ -1,0 +1,42 @@
+{
+  "product": "Databricks Runtime 18 LTS",
+  "tagline": "Transition to Long-Term Support for Databricks Runtime 18.",
+  "updated": "Jul 23, 2026",
+  "status_label": "LTS",
+  "status": "changed",
+  "docs_url": "https://docs.databricks.com/aws/en/release-notes/runtime/18",
+  "source_url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-runtime-18-and-databricks-runtime-18-for-machine-learning-have-transitioned-to-lts",
+  "what_it_does": "Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning have transitioned to Long-Term Support (LTS), which means they will receive three years of stability and security fixes. This transition ensures that users can rely on these versions for a longer period while receiving necessary updates. The LTS designation is particularly important for organizations that prioritize stability in their data processing and machine learning workflows.",
+  "why_it_matters": "The transition to LTS for Databricks Runtime 18 provides organizations with a reliable and stable platform for their data and machine learning workloads, reducing the risk of disruptions due to version changes. This is crucial for businesses that require consistent performance and security over an extended period, allowing them to focus on innovation rather than maintenance. Additionally, it supports compliance and governance efforts by ensuring that security updates are provided regularly.",
+  "plain_summary": "Databricks Runtime 18 is now under long-term support, ensuring stability and security for three more years.",
+  "capabilities": [
+    {
+      "title": "Stability Assurance",
+      "desc": "LTS versions guarantee three years of stability for critical workloads."
+    },
+    {
+      "title": "Security Fixes",
+      "desc": "Regular security updates will be provided to protect against vulnerabilities."
+    },
+    {
+      "title": "Long-Term Support",
+      "desc": "Users can rely on Databricks Runtime 18 for extended periods without needing to upgrade."
+    },
+    {
+      "title": "Compatibility",
+      "desc": "LTS versions maintain compatibility with existing workflows and tools."
+    }
+  ],
+  "prerequisites": [],
+  "use_cases": [],
+  "limitations": [],
+  "architecture": [
+    "Databricks Runtime",
+    "Databricks Runtime for Machine Learning",
+    "Long-Term Support Lifecycle"
+  ],
+  "steps": [],
+  "key_takeaway": "Databricks Runtime 18 has transitioned to long-term support, providing users with a stable and secure environment for their data and machine learning tasks.",
+  "note_id": "2026-07-23-e6d98b3a",
+  "category": "platform"
+}

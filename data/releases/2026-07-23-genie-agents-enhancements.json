@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-genie-agents-enhancements",
+  "title": "Genie Agents enhancements",
+  "date": "2026-07-23",
+  "url": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+  "cloud": "aws",
+  "category": "platform",
+  "body": "* **Higher character limit for uploaded PDFs**: The maximum number of characters per uploaded PDF has been raised from 4,000 to 15,000. See [PDF files](/aws/en/genie-agents/file-upload#pdf-files).\n* **Agent mode APIs (Beta)**: Agent mode APIs for Genie Agents are now available in Beta. See [Agent mode APIs in Genie Agents](/aws/en/genie-agents/api).\n* **Analyze files in Unity Catalog volumes (Beta)**: A Genie Agent can now analyze files stored in Unity Catalog volumes, such as PDFs, slide decks, and images. See [Attach volumes to a Genie Agent](/aws/en/genie-agents/volumes#attach-volumes).",
+  "ref_links": [
+    {
+      "text": "PDF files",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/file-upload#pdf-files"
+    },
+    {
+      "text": "Agent mode APIs in Genie Agents",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/api"
+    },
+    {
+      "text": "Attach volumes to a Genie Agent",
+      "url": "https://docs.databricks.com/aws/en/genie-agents/volumes#attach-volumes"
+    }
+  ],
+  "source": "rss",
+  "fetched_at": "2026-07-24T09:26:10.957988Z"
+}
